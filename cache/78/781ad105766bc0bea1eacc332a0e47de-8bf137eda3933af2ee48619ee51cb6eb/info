@@ -1,0 +1,119 @@
+MOVE#33M(10):PERMUTATION (#129U:#136G)Method(setProcessOutputStream(Ljava.io.InputStream;)V)[9](120L,4C-124L,4C(3530-3684))10 [(#138U:#134G)] -> (#676U:#59G)Method(setProcessOutputStream(Ljava.io.InputStream;)V)[2](62L,4C-65L,4C(2180-2285))10 [(#673U:#55G)] <118-125;135-136>
+MOVE#34M(7):PERMUTATION (#145U:#146G)Method(start()V)[10](131L,4C-135L,4C(3831-3915))7 [(#148U:#144G)] -> (#683U:#66G)Method(start()V)[3](67L,4C-70L,4C(2292-2349))7 <137-141;145-146>
+MOVE#32M(8):PERMUTATION (#119U:#117G)Method(setProcessInputStream(Ljava.io.OutputStream;)V)[8](110L,4C-112L,4C(3304-3367))8 -> (#655U:#38G)Method(setProcessInputStream(Ljava.io.OutputStream;)V)[0](52L,4C-55L,4C(1987-2077))8 [(#654U:#36G)] <110-117>
+MOVE#31M(8):PERMUTATION (#111U:#109G)Method(setProcessErrorStream(Ljava.io.InputStream;)V)[7](101L,4C-103L,4C(3147-3209))8 -> (#665U:#48G)Method(setProcessErrorStream(Ljava.io.InputStream;)V)[1](57L,4C-60L,4C(2084-2173))8 [(#664U:#46G)] <102-109>
+MOVE#38M(3) (#605U:#559G)Primary.TypeMethodInvocation(MAudit,createViolation#2)[1](261L,37C-74C(8616-8653))3 [(#603U:#557G)] -> (#1202U:#544G)Primary.InstanceCreation(Violation.<init>#2)[0](232L,40C-68C(8037-8065))3 [(#1201U:#540G);(#1198U:#541G)] <556;558-559>
+MOVE#4M(1):PERMUTATION (#603U:#557G)Primary.Name(msg)[1](261L,70C-72C(8649-8651))1 -> (#1198U:#541G)Primary.Name(msg)[0](232L,55C-57C(8052-8054))1 <557>
+RELABEL (#519U:#486G)Type.ClassOrInterface(java.io.BufferedReader)[0](241L,32C-45C(7925-7938))1 -> (#1129U:#478G)Type.ClassOrInterface(java.lang.String)[0](213L,24C-29C(7387-7392))1
+RELABEL (#480U:#450G)Type.ClassOrInterface(MAudit.Violation)[0](223L,51C-66C(7391-7406))1 -> (#1090U:#442G)Type.ClassOrInterface(Violation)[0](197L,51C-59C(6921-6929))1
+RELABEL (#59U:#59G)Primary.FieldAccess(task)[0](75L,8C-16C(2486-2494))1 [(#58U:#58G)] -> (#715U:#97G)Primary.FieldAccess(m_fileMapping)[0](94L,8C-20C(3034-3046))1
+RELABEL (#82U:#79G)Constructor(MAuditStreamHandler.<init>(LMAudit;Ljava.io.OutputStream;)V)[5](73L,4C-82L,4C(2416-2762))1 [(#57U:#57G);(#81U:#78G)] -> (#738U:#117G)Constructor(MAuditStreamHandler.<init>(Ljava.util.Hashtable;Ljava.io.OutputStream;)V)[8](91L,4C-101L,4C(2925-3322))1 [(#712U:#94G);(#714U:#96G);(#737U:#116G)]
+RELABEL (#30U:#30G)Modifier.Protected[0](59L,4C-12C(2135-2143))1 -> (#690U:#72G)Modifier.Private[0](82L,4C-10C(2709-2715))1
+RELABEL (#349U:#351G)Primary.FieldAccess(error)[1](175L,47C-61C(5899-5913))1 [(#348U:#350G)] -> (#960U:#344G)Primary.PrimaryMethodInvocation(getError#0)[1](152L,47C-66C(5579-5598))1 [(#958U:#342G);(#959U:#343G)]
+RELABEL (#559U:#520G)Primary.PrimaryMethodInvocation(getGroups#1)[0](255L,28C-52C(8337-8361))1 [(#556U:#517G);(#558U:#519G)] -> (#1148U:#496G)Primary.SimpleMethodInvocation(getGroups#1)[0](226L,34C-50C(7745-7761))1 [(#1147U:#495G)]
+RELABEL (#441U:#382G)Primary.FieldAccess(xmlOut)[0](188L,46C-51C(6319-6324))1 -> (#1051U:#375G)Primary.FieldAccess(m_xmlOut)[0](165L,46C-53C(6006-6013))1
+RELABEL (#96U:#98G)CatchClause(a99571a1c9ebda0fb77d61fdae573bb0;CatchParameter(,0))[1](90L,8C-93L,8C(2947-3046))1 [(#89U:#91G);(#95U:#97G)] -> (#753U:#137G)CatchClause(f20c5a43336a665590ee7f13a7208076;CatchParameter(,0))[1](109L,8C-112L,8C(3511-3629))1 [(#746U:#130G);(#752U:#136G)]
+RELABEL (#53U:#53G)Type.ClassOrInterface(MAudit)[0](73L,25C-30C(2437-2442))1 -> (#708U:#90G)Type.ClassOrInterface(java.util.Hashtable)[0](91L,25C-33C(2946-2954))1
+RELABEL (#211U:#211G)Primary.FieldAccess(auditedFiles)[0](155L,37C-48C(4779-4790))1 -> (#821U:#203G)Primary.FieldAccess(m_auditedFiles)[0](132L,37C-50C(4469-4482))1
+RELABEL (#424U:#415G)Primary.FieldAccess(xmlOut)[0](199L,20C-25C(6707-6712))1 -> (#1035U:#407G)Primary.FieldAccess(m_xmlOut)[0](176L,20C-27C(6391-6398))1
+RELABEL (#191U:#187G)Primary.FieldAccess(auditedFiles)[0](150L,62C-73C(4600-4611))1 -> (#801U:#179G)Primary.FieldAccess(m_auditedFiles)[0](127L,62C-75C(4288-4301))1
+RELABEL (#171U:#167G)Primary.PrimaryMethodInvocation(keys#0)[0](147L,24C-42C(4377-4395))1 [(#169U:#165G);(#170U:#166G)] -> (#785U:#163G)Primary.PrimaryMethodInvocation(keySet#0)[0](125L,30C-52C(4103-4125))1 [(#783U:#161G);(#784U:#162G)]
+RELABEL (#36U:#36G)VariableDeclarator(auditedFiles,0,false)[2](59L,24C-53C(2155-2184))1 [(#35U:#35G)] -> (#696U:#78G)VariableDeclarator(m_auditedFiles,0,false)[2](82L,22C-53C(2727-2758))1 [(#695U:#77G)]
+RELABEL (#613U:#571G)MethodBody(processLine(Ljava.lang.String;)V)[3](254L,4C-269L,4C(8307-8891))1 [(#561U:#522G);(#612U:#570G)] -> (#1214U:#559G)MethodBody(stdout(Ljava.lang.String;)V)[3](222L,4C-241L,4C(7559-8346))1 [(#1150U:#498G);(#1213U:#558G)]
+RELABEL (#567U:#565G)Primary.PrimaryMethodInvocation(getLogger#0)[0](267L,12C-27C(8846-8861))1 [(#565U:#563G);(#566U:#564G)] -> (#1155U:#553G)Primary.SimpleMethodInvocation(getLogger#0)[0](239L,12C-22C(8306-8316))1 [(#1154U:#552G)]
+RELABEL (#515U:#481G)MethodBody(addViolationEntry(Ljava.lang.String;LMAudit.Violation;)V)[3](224L,4C-233L,4C(7420-7733))1 [(#492U:#461G);(#510U:#476G);(#514U:#480G)] -> (#1125U:#473G)MethodBody(addViolationEntry(Ljava.lang.String;LViolation;)V)[3](198L,4C-207L,4C(6943-7264))1 [(#1102U:#453G);(#1120U:#468G);(#1124U:#472G)]
+RELABEL (#427U:#437G)Statement.If(bddd2bd8345e4ceb3698ba45a5effb00;Expression.BinaryOperator.And)[0](199L,16C-211L,16C(6703-7090))1 [(#426U:#421G);(#419U:#436G)] -> (#1038U:#429G)Statement.If(0489c55286756965eefbe5d96ccdef07;Expression.BinaryOperator.And)[0](176L,16C-188L,16C(6387-6778))1 [(#1037U:#413G);(#1030U:#428G)]
+RELABEL (#83U:#80G)Modifier.Protected[0](84L,4C-12C(2769-2777))1 -> (#739U:#118G)Modifier.Private[0](103L,4C-10C(3329-3335))1
+RELABEL (#553U:#515G)Parameters(processLine)[2](253L,30C-44C(8287-8301))1 [(#552U:#514G)] -> (#1141U:#490G)Parameters(stdout)[2](221L,22C-42C(7533-7553))1 [(#1140U:#489G)]
+RELABEL (#554U:#572G)Method(processLine(Ljava.lang.String;)V)[14](253L,4C-269L,4C(8261-8891))1 [(#549U:#511G);(#550U:#512G);(#553U:#515G);(#613U:#571G)] -> (#1142U:#560G)Method(stdout(Ljava.lang.String;)V)[13](221L,4C-241L,4C(7515-8346))1 [(#1135U:#484G);(#1136U:#485G);(#1141U:#490G);(#1214U:#559G)]
+RELABEL (#66U:#66G)Primary.FieldAccess(matcher)[0](80L,8C-14C(2645-2651))1 -> (#721U:#103G)Primary.FieldAccess(m_matcher)[0](99L,8C-16C(3201-3209))1
+RELABEL (#548U:#510G)Modifier.Protected[0](253L,4C-12C(8261-8269))1 -> (#1134U:#483G)Modifier.Public[0](221L,4C-9C(7515-7520))1
+RELABEL (#43U:#43G)Modifier.Protected[0](69L,4C-12C(2350-2358))1 -> (#698U:#80G)Modifier.Private[0](87L,4C-10C(2849-2855))1
+RELABEL (#50U:#50G)Type.ClassOrInterface(MAudit)[1](71L,14C-19C(2398-2403))1 -> (#705U:#87G)Type.ClassOrInterface(java.util.Hashtable)[1](89L,12C-20C(2895-2903))1
+RELABEL (#49U:#49G)Modifiers(task#f)[0](71L,4C-12C(2388-2396))1 [(#48U:#48G)] -> (#704U:#86G)Modifiers(m_fileMapping#f)[0](89L,4C-10C(2887-2893))1 [(#703U:#85G)]
+RELABEL (#327U:#325G)Type.ClassOrInterface(MAudit.Violation)[0](172L,46C-61C(5677-5692))1 -> (#936U:#316G)Type.ClassOrInterface(Violation)[0](149L,39C-47C(5359-5367))1
+RELABEL (#24U:#24G)Modifier.Protected[0](53L,4C-12C(1930-1938))1 -> (#685U:#67G)Modifier.Private[0](76L,4C-10C(2511-2517))1
+RELABEL (#485U:#455G)Primary.FieldAccess(auditedFiles)[0](225L,42C-53C(7464-7475))1 -> (#1095U:#447G)Primary.FieldAccess(m_auditedFiles)[0](199L,42C-55C(6987-7000))1
+RELABEL (#89U:#91G)CatchParameter(exc,0)[0](90L,15C-27C(2954-2966))1 [(#88U:#90G)] -> (#746U:#130G)CatchParameter(pce,0)[0](109L,15C-46C(3518-3549))1 [(#745U:#129G)]
+RELABEL (#88U:#90G)Type.ClassOrInterface(java.lang.Exception)[0](90L,15C-23C(2954-2962))1 -> (#745U:#129G)Type.ClassOrInterface(javax.xml.parsers.ParserConfigurationException)[0](109L,15C-42C(3518-3545))1
+RELABEL (#47U:#47G)FieldDeclaration(matcher[0)[3](69L,4C-35C(2350-2381))1 [(#44U:#44G);(#45U:#45G);(#46U:#46G)] -> (#702U:#84G)FieldDeclaration(m_matcher[0)[6](87L,4C-35C(2849-2880))1 [(#699U:#81G);(#700U:#82G);(#701U:#83G)]
+RELABEL (#473U:#442G)Statement.If(ed76bae96385f70b0cef3879c928fc78;Expression.BinaryOperator.Neq)[9](183L,8C-213L,8C(6181-7114))1 [(#472U:#375G);(#469U:#441G)] -> (#1083U:#434G)Statement.If(dea4b27772853ae115d29812a22b203b;Expression.BinaryOperator.Neq)[8](160L,8C-190L,8C(5866-6802))1 [(#1082U:#368G);(#1079U:#433G)]
+RELABEL (#57U:#57G)Parameters(LMAudit;Ljava.io.OutputStream;)[0](73L,23C-58C(2435-2470))1 [(#54U:#54G);(#56U:#56G)] -> (#712U:#94G)Parameters(Ljava.util.Hashtable;Ljava.io.OutputStream;)[0](91L,23C-68C(2944-2989))1 [(#709U:#91G);(#711U:#93G)]
+RELABEL (#28U:#28G)VariableDeclarator(xmlOut,0,false)[2](53L,27C-39C(1953-1965))1 [(#27U:#27G)] -> (#688U:#70G)VariableDeclarator(m_xmlOut,0,false)[2](76L,25C-32C(2532-2539))1
+RELABEL (#521U:#488G)Parameters(parseOutput)[2](241L,30C-50C(7923-7943))1 [(#520U:#487G)] -> (#1131U:#480G)Parameters(stderr)[2](213L,22C-36C(7385-7399))1 [(#1130U:#479G)]
+RELABEL (#434U:#409G)Primary.PrimaryMethodInvocation(getLogger#0)[0](195L,16C-31C(6585-6600))1 [(#432U:#407G);(#433U:#408G)] -> (#1044U:#401G)Primary.SimpleMethodInvocation(getLogger#0)[0](172L,16C-26C(6274-6284))1 [(#1043U:#400G)]
+RELABEL (#48U:#48G)Modifier.Protected[0](71L,4C-12C(2388-2396))1 -> (#703U:#85G)Modifier.Private[0](89L,4C-10C(2887-2893))1
+RELABEL (#524U:#509G)Method(parseOutput(Ljava.io.BufferedReader;)V)[13](241L,4C-249L,4C(7897-8113))1 [(#517U:#484G);(#518U:#485G);(#521U:#488G);(#523U:#490G);(#547U:#508G)] -> (#1132U:#482G)Method(stderr(Ljava.lang.String;)V)[12](213L,4C-215L,4C(7367-7411))1 [(#1127U:#476G);(#1128U:#477G);(#1131U:#480G);(#1133U:#481G)]
+RELABEL (#483U:#482G)Method(addViolationEntry(Ljava.lang.String;LMAudit.Violation;)V)[12](223L,4C-233L,4C(7344-7733))1 [(#476U:#446G);(#477U:#447G);(#482U:#452G);(#515U:#481G)] -> (#1093U:#474G)Method(addViolationEntry(Ljava.lang.String;LViolation;)V)[11](197L,4C-207L,4C(6874-7264))1 [(#1086U:#438G);(#1087U:#439G);(#1092U:#444G);(#1125U:#473G)]
+RELABEL (#471U:#373G)Primary.FieldAccess(xmlOut)[0](183L,12C-17C(6185-6190))1 -> (#1081U:#366G)Primary.FieldAccess(m_xmlOut)[0](160L,12C-19C(5870-5877))1
+RELABEL (#78U:#75G)Primary.Name(MAudit.AUDIT_PATTERN)[0](81L,28C-47C(2734-2753))1 -> (#734U:#113G)Primary.AmbiguousName(MAudit.AUDIT_PATTERN)[0](100L,30C-49C(3294-3313))1 [(#733U:#112G)]
+RELABEL (#46U:#46G)VariableDeclarator(matcher,0,false)[2](69L,28C-34C(2374-2380))1 -> (#701U:#83G)VariableDeclarator(m_matcher,0,false)[2](87L,26C-34C(2871-2879))1
+RELABEL (#549U:#511G)Modifiers(processLine#m)[0](253L,4C-12C(8261-8269))1 [(#548U:#510G)] -> (#1135U:#484G)Modifiers(stdout#m)[0](221L,4C-9C(7515-7520))1 [(#1134U:#483G)]
+RELABEL (#520U:#487G)Parameter(br,0,)[0](241L,32C-48C(7925-7941))1 [(#519U:#486G)] -> (#1130U:#479G)Parameter(line,0,)[0](213L,24C-34C(7387-7397))1 [(#1129U:#478G)]
+RELABEL (#516U:#483G)Modifier.Protected[0](241L,4C-12C(7897-7905))1 -> (#1126U:#475G)Modifier.Public[0](213L,4C-9C(7367-7372))1
+RELABEL (#341U:#343G)Primary.FieldAccess(line)[0](174L,60C-73C(5832-5845))1 [(#340U:#342G)] -> (#951U:#335G)Primary.PrimaryMethodInvocation(getLine#0)[0](151L,60C-78C(5507-5525))1 [(#949U:#333G);(#950U:#334G)]
+RELABEL (#169U:#165G)Primary.FieldAccess(auditedFiles)[0](147L,24C-35C(4377-4388))1 -> (#783U:#161G)Primary.FieldAccess(m_auditedFiles)[0](125L,30C-43C(4103-4116))1
+RELABEL (#25U:#25G)Modifiers(xmlOut#f)[0](53L,4C-12C(1930-1938))1 [(#24U:#24G)] -> (#686U:#68G)Modifiers(m_xmlOut#f)[0](76L,4C-10C(2511-2517))1 [(#685U:#67G)]
+RELABEL (#63U:#63G)Primary.FieldAccess(xmlOut)[0](76L,8C-18C(2512-2522))1 [(#62U:#62G)] -> (#718U:#100G)Primary.FieldAccess(m_xmlOut)[0](95L,8C-15C(3071-3078))1
+RELABEL (#77U:#74G)Primary.FieldAccess(matcher)[0](81L,8C-14C(2714-2720))1 -> (#732U:#111G)Primary.FieldAccess(m_matcher)[0](100L,8C-16C(3272-3280))1
+RELABEL (#322U:#324G)Type.ClassOrInterface(MAudit.Violation)[0](172L,16C-31C(5647-5662))1 -> (#931U:#315G)Type.ClassOrInterface(Violation)[0](149L,16C-24C(5336-5344))1
+RELABEL (#170U:#166G)NamedArguments(keys)[1](147L,41C-42C(4394-4395))1 -> (#784U:#162G)NamedArguments(keySet)[1](125L,51C-52C(4124-4125))1
+RELABEL (#54U:#54G)Parameter(task,0,)[0](73L,25C-35C(2437-2447))1 [(#53U:#53G)] -> (#709U:#91G)Parameter(fileMapping,0,)[0](91L,25C-45C(2946-2966))1 [(#708U:#90G)]
+RELABEL (#233U:#232G)Primary.PrimaryMethodInvocation(getLogger#0)[0](159L,16C-31C(4951-4966))1 [(#231U:#230G);(#232U:#231G)] -> (#842U:#223G)Primary.SimpleMethodInvocation(getLogger#0)[0](136L,16C-26C(4645-4655))1 [(#841U:#222G)]
+RELABEL (#31U:#31G)Modifiers(auditedFiles#f)[0](59L,4C-12C(2135-2143))1 [(#30U:#30G)] -> (#691U:#73G)Modifiers(m_auditedFiles#f)[0](82L,4C-10C(2709-2715))1 [(#690U:#72G)]
+RELABEL (#29U:#29G)FieldDeclaration(xmlOut[0)[0](53L,4C-40C(1930-1966))1 [(#25U:#25G);(#26U:#26G);(#28U:#28G)] -> (#689U:#71G)FieldDeclaration(m_xmlOut[0)[4](76L,4C-33C(2511-2540))1 [(#686U:#68G);(#687U:#69G);(#688U:#70G)]
+RELABEL (#220U:#220G)Primary.Name(filemapping)[0](156L,43C-53C(4852-4862))1 -> (#830U:#212G)Primary.FieldAccess(m_fileMapping)[0](133L,43C-55C(4544-4556))1
+RELABEL (#517U:#484G)Modifiers(parseOutput#m)[0](241L,4C-12C(7897-7905))1 [(#516U:#483G)] -> (#1127U:#476G)Modifiers(stderr#m)[0](213L,4C-9C(7367-7372))1 [(#1126U:#475G)]
+RELABEL (#501U:#470G)Primary.FieldAccess(auditedFiles)[0](230L,12C-23C(7648-7659))1 -> (#1111U:#462G)Primary.FieldAccess(m_auditedFiles)[0](204L,12C-25C(7177-7190))1
+RELABEL (#182U:#178G)Primary.Name(filemapping)[0](149L,61C-71C(4514-4524))1 -> (#792U:#170G)Primary.FieldAccess(m_fileMapping)[0](126L,61C-73C(4200-4212))1
+RELABEL (#52U:#52G)FieldDeclaration(task[0)[4](71L,4C-25C(2388-2409))1 [(#49U:#49G);(#50U:#50G);(#51U:#51G)] -> (#707U:#89G)FieldDeclaration(m_fileMapping[0)[7](89L,4C-35C(2887-2918))1 [(#704U:#86G);(#705U:#87G);(#706U:#88G)]
+RELABEL (#421U:#418G)Primary.FieldAccess(xmlOut)[0](199L,44C-49C(6731-6736))1 -> (#1032U:#410G)Primary.FieldAccess(m_xmlOut)[0](176L,46C-53C(6417-6424))1
+RELABEL (#81U:#78G)ConstructorBody(MAuditStreamHandler.<init>(LMAudit;Ljava.io.OutputStream;)V)[1](74L,4C-82L,4C(2476-2762))1 [(#61U:#61G);(#65U:#65G);(#76U:#73G);(#80U:#77G)] -> (#737U:#116G)ConstructorBody(MAuditStreamHandler.<init>(Ljava.util.Hashtable;Ljava.io.OutputStream;)V)[2](93L,4C-101L,4C(3024-3322))1 [(#717U:#99G);(#720U:#102G);(#731U:#110G);(#736U:#115G)]
+MOVREL (#604U:#558G)NamedArguments(createViolation)[0](261L,59C-74C(8638-8653))1 [(#602U:#556G);(#603U:#557G)] -> (#1200U:#543G)NamedArguments(Violation)[1](232L,53C-68C(8050-8065))1 [(#1198U:#541G);(#1199U:#542G)]
+RELABEL (#51U:#51G)VariableDeclarator(task,0,false)[2](71L,21C-24C(2405-2408))1 -> (#706U:#88G)VariableDeclarator(m_fileMapping,0,false)[2](89L,22C-34C(2905-2917))1
+MOVREL (#605U:#559G)Primary.TypeMethodInvocation(MAudit,createViolation#2)[1](261L,37C-74C(8616-8653))1 [(#604U:#558G)] -> (#1202U:#544G)Primary.InstanceCreation(Violation.<init>#2)[0](232L,40C-68C(8037-8065))1 [(#1201U:#540G);(#1200U:#543G)]
+RELABEL (#90U:#93G)Primary.Name(exc)[0](92L,51C-53C(3031-3033))1 -> (#747U:#132G)Primary.Name(pce)[0](111L,51C-53C(3614-3616))1
+RELABEL (#44U:#44G)Modifiers(matcher#f)[0](69L,4C-12C(2350-2358))1 [(#43U:#43G)] -> (#699U:#81G)Modifiers(m_matcher#f)[0](87L,4C-10C(2849-2855))1 [(#698U:#80G)]
+RELABEL (#37U:#37G)FieldDeclaration(auditedFiles[0)[1](59L,4C-54C(2135-2185))1 [(#31U:#31G);(#32U:#32G);(#36U:#36G)] -> (#697U:#79G)FieldDeclaration(m_auditedFiles[0)[5](82L,4C-54C(2709-2759))1 [(#691U:#73G);(#692U:#74G);(#696U:#78G)]
+RELABEL (#60U:#60G)Primary.Name(task)[1](75L,20C-23C(2498-2501))1 -> (#716U:#98G)Primary.Name(fileMapping)[1](94L,24C-34C(3050-3060))1
+DELETE(1) (#5U:#5G)IDsingle(java.io.InputStreamReader)[3](13L,0C-32C(403-435))1 <5>
+DELETE(1) (#58U:#58G)Primary.This[0](75L,8C-11C(2486-2489))1 <58>
+DELETE(1) (#62U:#62G)Primary.This[0](76L,8C-11C(2512-2515))1 <62>
+DELETE(3) (#148U:#144G)Statement.Expression.Primary.SimpleMethodInvocation(parseOutput#1)()[0](134L,8C-25C(3892-3909))3 <142-144>
+DELETE(1) (#27U:#27G)Primary.Literal.Null[0](53L,36C-39C(1962-1965))1 <27>
+DELETE(1) (#556U:#517G)Primary.FieldAccess(matcher)[0](255L,28C-34C(8337-8343))1 <517>
+DELETE(1) (#231U:#230G)Primary.FieldAccess(task)[0](159L,16C-19C(4951-4954))1 <230>
+DELETE(6) (#179U:#175G)LocalVariableDeclaration(true,filemapping[0)[3](148L,8C-53C(4406-4451))6 <170-175>
+DELETE(1) (#2U:#2G)IDsingle(java.io.BufferedReader)[0](10L,0C-29C(316-345))1 <2>
+DELETE(1) (#432U:#407G)Primary.FieldAccess(task)[0](195L,16C-19C(6585-6588))1 <407>
+DELETE(2) (#523U:#490G)Throws(parseOutput)[3](242L,8C-25C(7953-7970))2 <489-490>
+DELETE(1) (#565U:#563G)Primary.FieldAccess(task)[0](267L,12C-15C(8846-8849))1 <563>
+DELETE(18) (#547U:#508G)MethodBody(parseOutput(Ljava.io.BufferedReader;)V)[4](243L,4C-249L,4C(7976-8113))18 <491-508>
+DELETE(5) (#42U:#42G)FieldDeclaration(br[0)[2](64L,4C-31C(2233-2260))5 <38-42>
+DELETE(9) (#138U:#134G)Statement.Expression.AssignmentOperator.Eq()()[0](123L,8C-62C(3624-3678))9 <126-134>
+INSERT(1) (#1206U:#548G)Primary.Name(violation)[1](233L,37C-45C(8105-8113))1 <548>
+INSERT(1) (#631U:#13G)IDsingle(org.apache.avalon.framework.logger.AbstractLogEnabled)[11](21L,0C-60C(688-748))1 <13>
+INSERT(2) (#781U:#159G)Modifiers(keys#l)[0](125L,8C-12C(4081-4085))2 <158-159>
+INSERT(1) (#673U:#55G)Type.ClassOrInterface(org.apache.myrmidon.api.TaskException)[0](63L,15C-27C(2248-2260))1 <55>
+INSERT(2) (#1138U:#487G)Modifiers(line#p)[0](221L,24C-28C(7535-7539))2 <486-487>
+INSERT(1) (#1133U:#481G)MethodBody(stderr(Ljava.lang.String;)V)[3](214L,4C-215L,4C(7405-7411))1 <481>
+INSERT(2) (#787U:#165G)Primary.PrimaryMethodInvocation(iterator#0)[0](125L,30C-63C(4103-4136))2 [(#785U:#163G)] <164-165>
+INSERT(2) (#1144U:#492G)Modifiers(matches#l)[0](226L,8C-12C(7719-7723))2 <491-492>
+INSERT(1) (#1201U:#540G)Type.ClassOrInterface(Violation)[0](232L,44C-52C(8041-8049))1 <540>
+INSERT(1) (#741U:#120G)Modifier.Final[2](103L,19C-23C(3344-3348))1 <120>
+INSERT(1) (#644U:#26G)Type.ClassOrInterface(org.apache.myrmidon.framework.exec.ExecOutputHandler)[1](50L,37C-53C(1963-1979))1 <26>
+INSERT(2) (#1161U:#503G)Modifiers(file#l)[0](229L,12C-16C(7816-7820))2 <502-503>
+INSERT(2) (#654U:#36G)Throws(setProcessInputStream)[3](53L,8C-25C(2048-2065))2 <35-36>
+INSERT(5) (#1204U:#546G)LocalVariableDeclaration(true,violation[0)[3](232L,12C-69C(8009-8066))5 [(#1202U:#544G)] <537-539;545-546>
+INSERT(1) (#733U:#112G)Primary.AmbiguousName(MAudit)[0](100L,30C-36C(3294-3300))1 <112>
+INSERT(1) (#632U:#14G)IDsingle(org.apache.myrmidon.api.TaskException)[12](22L,0C-44C(750-794))1 <14>
+INSERT(1) (#950U:#334G)NamedArguments(getLine)[1](151L,77C-78C(5524-5525))1 <334>
+INSERT(2) (#1185U:#527G)Modifiers(msg#l)[0](231L,12C-16C(7952-7956))2 <526-527>
+INSERT(2) (#664U:#46G)Throws(setProcessErrorStream)[3](58L,8C-25C(2144-2161))2 <45-46>
+INSERT(2) (#1172U:#514G)Modifiers(lineNum#l)[0](230L,12C-16C(7874-7878))2 <513-514>
+INSERT(2) (#714U:#96G)Throws(MAuditStreamHandler.<init>)[1](92L,8C-27C(2999-3018))2 <95-96>
+INSERT(2) (#642U:#24G)Extends[0](49L,4C-29C(1899-1924))2 <23-24>
+INSERT(1) (#959U:#343G)NamedArguments(getError)[1](152L,65C-66C(5597-5598))1 <343>
+INSERT(1) (#630U:#12G)IDsingle(javax.xml.parsers.ParserConfigurationException)[10](20L,0C-53C(633-686))1 <12>
+INSERT(33) (#1223U:#593G)Method(getGroups(Ljava.lang.String;)Ljava.util.ArrayList;)[14](243L,4C-254L,4C(8353-8654))33 <561-593>
+INSERT(1) (#633U:#15G)IDsingle(org.apache.myrmidon.framework.exec.ExecOutputHandler)[13](23L,0C-59C(796-855))1 <15>

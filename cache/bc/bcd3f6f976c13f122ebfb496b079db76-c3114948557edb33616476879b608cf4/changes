@@ -1,0 +1,110 @@
+*** Extracted Changes ***
+
+[significance=4] argument added (2)
+  Primary.Name(message)(Primary.Name(message))[161L,30C-36C(4166-4172)]* into MethodBody(execP4Add(Ljava.lang.StringBuffer;)V)(MethodBody(execP4Add(LStringBuffer;)V))[156L,4C-160L,4C(3954-4144)]
+  Primary.Name(command)(Primary.Name(command))[165L,23C-29C(4289-4295)]* into MethodBody(execP4Add(Ljava.lang.StringBuffer;)V)(MethodBody(execP4Add(LStringBuffer;)V))[156L,4C-160L,4C(3954-4144)]
+
+[significance=4] argument removed (1)
+  Primary.This[159L,95C-98C(4130-4133)]* from Primary.Literal.Null[165L,32C-35C(4298-4301)]
+
+[significance=4] final modifier added (3)
+  Modifier.Final[160L,12C-16C(4061-4065)]* into MethodBody(execP4Add(Ljava.lang.StringBuffer;)V)(MethodBody(execP4Add(LStringBuffer;)V))[156L,4C-160L,4C(3954-4144)]
+  Modifier.Final[164L,8C-12C(4196-4200)]* into MethodBody(execP4Add(Ljava.lang.StringBuffer;)V)(MethodBody(execP4Add(LStringBuffer;)V))[156L,4C-160L,4C(3954-4144)]
+  Modifier.Final[155L,28C-32C(3936-3940)]* into Parameter(list,0,)[155L,28C-44C(3930-3946)]
+
+[significance=3] statement moved to increase nesting-depth (1)
+  Statement.Expression.Primary.PrimaryMethodInvocation(info#1)(): [157L,8C-76C(3964-4032)] -> [161L,12C-39C(4148-4175)]
+
+[significance=2] statement moved (1)
+  Statement.Expression.Primary.SimpleMethodInvocation(execP4Command#2)(): [159L,8C-103C(4043-4138)] -> [165L,8C-38C(4274-4304)]
+
+[significance=2] statement inserted (1)
+  Statement.If(05c9e5ae627e33b04ce639fb060154ce;Primary.PrimaryMethodInvocation())[158L,8C-162L,8C(4005-4185)] into MethodBody(execP4Add(Ljava.lang.StringBuffer;)V)(MethodBody(execP4Add(LStringBuffer;)V))[156L,4C-160L,4C(3954-4144)]
+
+[significance=2] exception type added in throws-clause (1)
+  Type.ClassOrInterface(org.apache.myrmidon.api.TaskException)(Type.ClassOrInterface(TaskException))[156L,15C-27C(3977-3989)]* into Method(execP4Add(Ljava.lang.StringBuffer;)V)(Method(execP4Add))[155L,4C-160L,4C(3906-4144)]
+
+[significance=2] throws-clause added (1)
+  Throws(execP4Add)[156L,8C-27C(3970-3989)]* into Method(execP4Add(Ljava.lang.StringBuffer;)V)(Method(execP4Add))[155L,4C-160L,4C(3906-4144)]
+
+[significance=2] block inserted (1)
+  Block(block)[159L,8C-162L,8C(4047-4185)] into MethodBody(execP4Add(Ljava.lang.StringBuffer;)V)(MethodBody(execP4Add(LStringBuffer;)V))[156L,4C-160L,4C(3954-4144)]
+
+[significance=2] condition expression modified (1)
+  Expression.BinaryOperator.Neq[114L,12C-25C(2645-2658)] -> Expression.BinaryOperator.Neq[114L,12C-27C(2645-2660)]
+
+[significance=1] (moved) (3)
+  NamedArguments(info): [157L,24C-75C(3980-4031)] -> [161L,28C-38C(4164-4174)]
+  NamedArguments(execP4Command): [159L,21C-102C(4056-4137)] -> [165L,21C-37C(4287-4303)]
+  NamedArguments(getLogger): [157L,17C-18C(3973-3974)] -> [161L,21C-22C(4157-4158)]
+
+[significance=1] (inserted) (4)
+  VariableDeclarator(message,0,true)[160L,25C-84C(4074-4133)] into MethodBody(execP4Add(Ljava.lang.StringBuffer;)V)(MethodBody(execP4Add(LStringBuffer;)V))[156L,4C-160L,4C(3954-4144)]
+  VariableDeclarator(command,0,true)[164L,21C-75C(4209-4263)] into MethodBody(execP4Add(Ljava.lang.StringBuffer;)V)(MethodBody(execP4Add(LStringBuffer;)V))[156L,4C-160L,4C(3954-4144)]
+  LocalVariableDeclaration(true,message[0)[160L,12C-85C(4061-4134)] into MethodBody(execP4Add(Ljava.lang.StringBuffer;)V)(MethodBody(execP4Add(LStringBuffer;)V))[156L,4C-160L,4C(3954-4144)]
+  LocalVariableDeclaration(true,command[0)[164L,8C-76C(4196-4264)] into MethodBody(execP4Add(Ljava.lang.StringBuffer;)V)(MethodBody(execP4Add(LStringBuffer;)V))[156L,4C-160L,4C(3954-4144)]
+
+[significance=1] (added) (7)
+  Type.ClassOrInterface(java.lang.String)(Type.ClassOrInterface(String))[160L,18C-23C(4067-4072)]* into MethodBody(execP4Add(Ljava.lang.StringBuffer;)V)(MethodBody(execP4Add(LStringBuffer;)V))[156L,4C-160L,4C(3954-4144)]
+  NamedArguments(isInfoEnabled)[158L,37C-38C(4034-4035)]* into MethodBody(execP4Add(Ljava.lang.StringBuffer;)V)(MethodBody(execP4Add(LStringBuffer;)V))[156L,4C-160L,4C(3954-4144)]
+  Modifiers(command#l)[164L,8C-12C(4196-4200)]* into MethodBody(execP4Add(Ljava.lang.StringBuffer;)V)(MethodBody(execP4Add(LStringBuffer;)V))[156L,4C-160L,4C(3954-4144)]
+  Modifiers(list#p)[155L,28C-32C(3936-3940)]* into Parameter(list,0,)[155L,28C-44C(3930-3946)]
+  Type.ClassOrInterface(java.lang.String)(Type.ClassOrInterface(String))[164L,14C-19C(4202-4207)]* into MethodBody(execP4Add(Ljava.lang.StringBuffer;)V)(MethodBody(execP4Add(LStringBuffer;)V))[156L,4C-160L,4C(3954-4144)]
+  Modifiers(message#l)[160L,12C-16C(4061-4065)]* into MethodBody(execP4Add(Ljava.lang.StringBuffer;)V)(MethodBody(execP4Add(LStringBuffer;)V))[156L,4C-160L,4C(3954-4144)]
+  NamedArguments(getLogger)[158L,21C-22C(4018-4019)]* into MethodBody(execP4Add(Ljava.lang.StringBuffer;)V)(MethodBody(execP4Add(LStringBuffer;)V))[156L,4C-160L,4C(3954-4144)]
+
+[significance=1] (removed) (2)
+  Type.ClassOrInterface(SimpleP4OutputHandler)(Type.ClassOrInterface(SimpleP4OutputHandler))[159L,72C-92C(4107-4127)]* from Primary.Literal.Null[165L,32C-35C(4298-4301)]
+  NamedArguments(SimpleP4OutputHandler)(NamedArguments(SimpleP4OutputHandler))[159L,93C-100C(4128-4135)]* from Primary.Literal.Null[165L,32C-35C(4298-4301)]
+
+[significance=1] statement modified (5)
+  Statement.Expression.AssignmentOperator.Eq()()[116L,12C-27C(2684-2699)] -> Statement.Expression.AssignmentOperator.Eq()()[116L,12C-29C(2686-2703)]
+  Statement.If(70146299f29efb4bef17dc8dfb89b632;Expression.BinaryOperator.Neq)[114L,8C-117L,8C(2641-2709)] -> Statement.If(0f291f3b16df6967501e5c2d7f63cc0d;Expression.BinaryOperator.Neq)[114L,8C-117L,8C(2641-2713)]
+  Statement.Expression.AssignmentOperator.Eq()()[119L,8C-72C(2720-2784)] -> Statement.Expression.AssignmentOperator.Eq()()[119L,8C-74C(2724-2790)]
+  Statement.Expression.Primary.SimpleMethodInvocation(execP4Command#2)()(Statement.Expression.Primary.SimpleMethodInvocation(execP4Command)())[159L,8C-103C(4043-4138)] -> Statement.Expression.Primary.SimpleMethodInvocation(execP4Command#2)()(Statement.Expression.Primary.SimpleMethodInvocation(execP4Command)())[165L,8C-38C(4274-4304)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(info#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(info)())[157L,8C-76C(3964-4032)] -> Statement.Expression.Primary.PrimaryMethodInvocation(info#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(info)())[161L,12C-39C(4148-4175)]
+
+[significance=1] statement changed (1)
+  Statement.If(70146299f29efb4bef17dc8dfb89b632;Expression.BinaryOperator.Neq)[114L,8C-117L,8C(2641-2709)] -> Statement.If(0f291f3b16df6967501e5c2d7f63cc0d;Expression.BinaryOperator.Neq)[114L,8C-117L,8C(2641-2713)]
+
+[significance=1] expression modified (11)
+  Primary.InstanceCreation(SimpleP4OutputHandler.<init>#1)(Primary.InstanceCreation(SimpleP4OutputHandler))[159L,68C-100C(4103-4135)] -> Primary.Literal.Null[165L,32C-35C(4298-4301)]
+  Expression.BinaryOperator.Add[159L,23C-43C(4058-4078)] -> Expression.BinaryOperator.Add[164L,31C-53C(4219-4241)]
+  Expression.BinaryOperator.Add[159L,23C-49C(4058-4084)] -> Expression.BinaryOperator.Add[164L,31C-59C(4219-4247)]
+  Expression.BinaryOperator.Add[159L,23C-58C(4058-4093)] -> Expression.BinaryOperator.Add[164L,31C-68C(4219-4256)]
+  Expression.BinaryOperator.Add[159L,23C-65C(4058-4100)] -> Expression.BinaryOperator.Add[164L,31C-75C(4219-4263)]
+  Expression.BinaryOperator.Neq[114L,12C-25C(2645-2658)] -> Expression.BinaryOperator.Neq[114L,12C-27C(2645-2660)]
+  Expression.BinaryOperator.Add[157L,26C-51C(3982-4007)] -> Expression.BinaryOperator.Add[160L,35C-62C(4084-4111)]
+  Expression.BinaryOperator.Add[157L,26C-57C(3982-4013)] -> Expression.BinaryOperator.Add[160L,35C-68C(4084-4117)]
+  Expression.BinaryOperator.Add[157L,26C-66C(3982-4022)] -> Expression.BinaryOperator.Add[160L,35C-77C(4084-4126)]
+  Expression.BinaryOperator.Add[157L,26C-73C(3982-4029)] -> Expression.BinaryOperator.Add[160L,35C-84C(4084-4133)]
+  Primary.SimpleMethodInvocation(getLogger#0)(Primary.SimpleMethodInvocation(getLogger))[157L,8C-18C(3964-3974)] -> Primary.SimpleMethodInvocation(getLogger#0)(Primary.SimpleMethodInvocation(getLogger))[161L,12C-22C(4148-4158)]
+
+[significance=1] expression moved (1)
+  Primary.SimpleMethodInvocation(getLogger#0): [157L,8C-18C(3964-3974)] -> [161L,12C-22C(4148-4158)]
+
+[significance=1] argument modified (1)
+  Primary.InstanceCreation(SimpleP4OutputHandler.<init>#1)(Primary.InstanceCreation(SimpleP4OutputHandler))[159L,68C-100C(4103-4135)] -> Primary.Literal.Null[165L,32C-35C(4298-4301)]
+
+[significance=1] argument changed (1)
+  Primary.InstanceCreation(SimpleP4OutputHandler.<init>#1)(Primary.InstanceCreation(SimpleP4OutputHandler))[159L,68C-100C(4103-4135)] -> Primary.Literal.Null[165L,32C-35C(4298-4301)]
+
+[significance=1] method invocation added (2)
+  Primary.PrimaryMethodInvocation(isInfoEnabled#0)(Primary.PrimaryMethodInvocation(isInfoEnabled))[158L,12C-38C(4009-4035)]* into MethodBody(execP4Add(Ljava.lang.StringBuffer;)V)(MethodBody(execP4Add(LStringBuffer;)V))[156L,4C-160L,4C(3954-4144)]
+  Primary.SimpleMethodInvocation(getLogger#0)(Primary.SimpleMethodInvocation(getLogger))[158L,12C-22C(4009-4019)]* into MethodBody(execP4Add(Ljava.lang.StringBuffer;)V)(MethodBody(execP4Add(LStringBuffer;)V))[156L,4C-160L,4C(3954-4144)]
+
+[significance=1] method invocation modified (3)
+  Statement.Expression.Primary.SimpleMethodInvocation(execP4Command#2)()(Statement.Expression.Primary.SimpleMethodInvocation(execP4Command)())[159L,8C-103C(4043-4138)] -> Statement.Expression.Primary.SimpleMethodInvocation(execP4Command#2)()(Statement.Expression.Primary.SimpleMethodInvocation(execP4Command)())[165L,8C-38C(4274-4304)]
+  Primary.SimpleMethodInvocation(getLogger#0)(Primary.SimpleMethodInvocation(getLogger))[157L,8C-18C(3964-3974)] -> Primary.SimpleMethodInvocation(getLogger#0)(Primary.SimpleMethodInvocation(getLogger))[161L,12C-22C(4148-4158)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(info#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(info)())[157L,8C-76C(3964-4032)] -> Statement.Expression.Primary.PrimaryMethodInvocation(info#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(info)())[161L,12C-39C(4148-4175)]
+
+[significance=1] method modified (2)
+  Method(execute()V)[110L,4C-153L,4C(2575-3899)] -> Method(execute()V)[110L,4C-153L,4C(2575-3905)]
+  Method(execP4Add(Ljava.lang.StringBuffer;)V)(Method(execP4Add))[155L,4C-160L,4C(3906-4144)] -> Method(execP4Add(Ljava.lang.StringBuffer;)V)(Method(execP4Add))[155L,4C-166L,4C(3912-4310)]
+
+[significance=1] field access renamed (5)
+  Primary.FieldAccess(P4CmdOpts)[159L,35C-43C(4070-4078)] -> Primary.FieldAccess(m_p4CmdOpts)[164L,43C-53C(4231-4241)]
+  Primary.FieldAccess(P4View)[114L,12C-17C(2645-2650)] -> Primary.FieldAccess(m_p4View)[114L,12C-19C(2645-2652)]
+  Primary.FieldAccess(P4View)[116L,21C-26C(2693-2698)] -> Primary.FieldAccess(m_p4View)[116L,21C-28C(2695-2702)]
+  Primary.FieldAccess(P4CmdOpts)[157L,43C-51C(3999-4007)] -> Primary.FieldAccess(m_p4CmdOpts)[160L,52C-62C(4101-4111)]
+  Primary.FieldAccess(P4CmdOpts)[119L,8C-16C(2720-2728)] -> Primary.FieldAccess(m_p4CmdOpts)[119L,8C-18C(2724-2734)]

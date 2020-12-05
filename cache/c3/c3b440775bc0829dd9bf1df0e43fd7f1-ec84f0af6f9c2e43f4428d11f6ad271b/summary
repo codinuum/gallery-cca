@@ -1,0 +1,149 @@
+*** Modified Units ***
+FuncDef:filter(887L,4C-894L,3C(36627-36841)): [MODIFIED] 8(3) changed [d:2(2)i:6(1)r:0(0)m:0(0)], 18 mapped
+FuncDef:bulk_update(484L,4C-526L,3C(19228-21611)): [MODIFIED] 6(5) changed [d:1(1)i:2(1)r:3(3)m:0(0)], 367 mapped
+FuncDef:update(728L,4C-744L,3C(30089-30789)): [MODIFIED] 11(6) changed [d:1(1)i:7(2)r:3(3)m:0(0)], 86 mapped
+FuncDef:_filter_or_exclude(901L,4C-913L,3C(37059-37446)): [MODIFIED] 65(16) changed [d:2(2)i:26(3)r:8(8)m:29(3)], 64 mapped
+FuncDef:datetimes(849L,4C-870L,3C(35050-36055)): [MODIFIED] 13(9) changed [d:0(0)i:6(2)r:7(7)m:0(0)], 117 mapped
+FuncDef:_batched_insert(1190L,4C-1214L,3C(48619-49872)): [MODIFIED] 53(17) changed [d:24(5)i:15(2)r:8(8)m:6(2)], 152 mapped
+FuncDef:delete(689L,4C-717L,3C(28654-29715)): [MODIFIED] 8(3) changed [d:0(0)i:6(1)r:2(2)m:0(0)], 105 mapped
+FuncDef:exclude(894L,4C-901L,3C(36842-37058)): [MODIFIED] 8(3) changed [d:2(2)i:6(1)r:0(0)m:0(0)], 18 mapped
+FuncDef:__getstate__(226L,4C-231L,3C(8399-8577)): [MODIFIED] 4(3) changed [d:1(1)i:2(1)r:1(1)m:0(0)], 17 mapped
+FuncDef:__eq__(1522L,4C-1525L,3C(61872-61986)): [MODIFIED] 11(3) changed [d:1(1)i:5(1)r:0(0)m:5(1)], 18 mapped
+FuncDef:order_by(1068L,4C-1077L,3C(43770-44132)): [MODIFIED] 2(2) changed [d:0(0)i:0(0)r:2(2)m:0(0)], 44 mapped
+FuncDef:_update(746L,4C-761L,3C(30821-31542)): [MODIFIED] 5(5) changed [d:1(1)i:1(1)r:3(3)m:0(0)], 61 mapped
+FuncDef:_earliest_or_latest(610L,4C-645L,3C(25179-26595)): [RENAMED] 44(17) changed [d:28(7)i:0(0)r:8(8)m:8(2)], 120 mapped
+FuncDef:__setstate__(231L,4C-249L,3C(8578-9237)): [MODIFIED] 45(15) changed [d:25(6)i:8(4)r:2(2)m:10(3)], 51 mapped
+ClassDef:NamedValuesListIterable(147L,0C-172L,0C(5776-6612)): [MODIFIED] 21(6) changed [d:17(2)i:0(0)r:3(3)m:1(1)], 89 mapped
+FuncDef:annotate(1022L,4C-1068L,3C(41773-43769)): [DELETED] 4(2) changed [d:4(2)i:0(0)r:0(0)m:0(0)], 246 mapped
+FuncDef:union(941L,4C-948L,3C(38542-38933)): [MODIFIED] 20(4) changed [d:2(1)i:17(2)r:0(0)m:1(1)], 64 mapped
+FuncDef:__init__(1481L,4C-1494L,3C(60229-60858)): [MODIFIED] 20(3) changed [d:1(1)i:19(2)r:0(0)m:0(0)], 84 mapped
+FuncDef:latest(648L,4C-651L,3C(26719-26849)): [MODIFIED] 9(5) changed [d:6(2)i:0(0)r:3(3)m:0(0)], 17 mapped
+FuncDef:_extract_model_params(585L,4C-610L,3C(24096-25178)): [MODIFIED] 1(1) changed [d:0(0)i:0(0)r:1(1)m:0(0)], 136 mapped
+FuncDef:extra(1087L,4C-1096L,3C(44489-44905)): [MODIFIED] 8(3) changed [d:0(0)i:6(1)r:2(2)m:0(0)], 54 mapped
+FuncDef:iterator(1398L,4C-1431L,3C(57053-58558)): [MODIFIED] 5(4) changed [d:0(0)i:2(1)r:3(3)m:0(0)], 221 mapped
+FuncDef:model_fields(1469L,4C-1479L,0C(59816-60208)): [MODIFIED] 1(1) changed [d:0(0)i:0(0)r:1(1)m:0(0)], 58 mapped
+FuncDef:__repr__(249L,4C-255L,3C(9238-9469)): [MODIFIED] 1(1) changed [d:0(0)i:0(0)r:1(1)m:0(0)], 44 mapped
+FuncDef:reverse(1096L,4C-1104L,3C(44906-45229)): [MODIFIED] 3(2) changed [d:2(1)i:0(0)r:1(1)m:0(0)], 41 mapped
+FuncDef:_raw_delete(720L,4C-726L,3C(29779-30052)): [MODIFIED] 51(10) changed [d:6(2)i:40(5)r:2(2)m:3(1)], 15 mapped
+FuncDef:get_or_create(528L,4C-543L,3C(21648-22323)): [MODIFIED] 60(3) changed [d:5(1)i:54(1)r:1(1)m:0(0)], 50 mapped
+FuncDef:update_or_create(543L,4C-567L,3C(22324-23421)): [MODIFIED] 60(18) changed [d:44(6)i:6(4)r:7(7)m:3(1)], 84 mapped
+FuncDef:complex_filter(913L,4C-930L,3C(37447-38042)): [MODIFIED] 7(4) changed [d:1(1)i:5(2)r:1(1)m:0(0)], 41 mapped
+FuncDef:__iter__(160L,4C-172L,0C(6187-6612)): [MODIFIED] 5(4) changed [d:2(1)i:0(0)r:3(3)m:0(0)], 81 mapped
+ClassDef:Prefetch(1480L,0C-1528L,0C(60209-62064)): [MODIFIED] 31(6) changed [d:2(2)i:24(3)r:0(0)m:5(1)], 291 mapped
+FuncDef:bulk_create(430L,4C-484L,3C(16104-19227)): [MODIFIED] 85(15) changed [d:4(1)i:66(5)r:7(7)m:8(2)], 264 mapped
+FuncDef:get(394L,4C-415L,3C(14878-15629)): [MODIFIED] 86(7) changed [d:0(0)i:85(6)r:1(1)m:0(0)], 105 mapped
+FuncDef:__init__(189L,4C-203L,3C(7096-7632)): [MODIFIED] 15(3) changed [d:0(0)i:14(2)r:1(1)m:0(0)], 111 mapped
+FuncDef:distinct(1077L,4C-1087L,3C(44133-44488)): [MODIFIED] 8(3) changed [d:0(0)i:6(1)r:2(2)m:0(0)], 34 mapped
+FuncDef:resolve_model_init_order(1348L,4C-1358L,3C(55036-55703)): [MODIFIED] 1(1) changed [d:0(0)i:0(0)r:1(1)m:0(0)], 112 mapped
+ClassDef:QuerySet(186L,0C-1314L,0C(7010-53910)): [MODIFIED] 1146(229) changed [d:266(48)i:715(77)r:87(87)m:78(17)], 5422 mapped
+FuncDef:_insert(1176L,4C-1187L,3C(47994-48552)): [MODIFIED] 3(3) changed [d:0(0)i:0(0)r:3(3)m:0(0)], 77 mapped
+FuncDef:_create_object_from_params(567L,4C-585L,3C(23422-24095)): [DELETED] 99(1) changed [d:99(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+FuncDef:create_namedtuple_class(153L,4C-160L,3C(5949-6186)): [DELETED] 16(2) changed [d:15(1)i:0(0)r:0(0)m:1(1)], 1 mapped
+FuncDef:aggregate(353L,4C-381L,3C(13176-14461)): [MODIFIED] 58(4) changed [d:0(0)i:53(3)r:0(0)m:5(1)], 128 mapped
+ClassDef:RawQuerySet(1330L,0C-1479L,0C(54353-60208)): [MODIFIED] 7(6) changed [d:0(0)i:2(1)r:5(5)m:0(0)], 888 mapped
+FuncDef:in_bulk(661L,4C-689L,3C(27251-28653)): [MODIFIED] 54(9) changed [d:0(0)i:45(4)r:4(4)m:5(1)], 191 mapped
+FuncDef:earliest(645L,4C-648L,3C(26596-26718)): [MODIFIED] 9(5) changed [d:6(2)i:0(0)r:3(3)m:0(0)], 14 mapped
+FuncDef:ordered(1225L,4C-1245L,3C(49976-50610)): [MODIFIED] 9(1) changed [d:0(0)i:9(1)r:0(0)m:0(0)], 0 mapped
+FuncDef:annotate(1081L,4C-1089L,3C(43971-44266)): [INSERTED] 19(1) changed [d:0(0)i:19(1)r:0(0)m:0(0)], 0 mapped
+FuncDef:query(202L,4C-208L,3C(7551-7707)): [INSERTED] 27(1) changed [d:0(0)i:27(1)r:0(0)m:0(0)], 0 mapped
+FuncDef:alias(1089L,4C-1096L,3C(44267-44517)): [INSERTED] 27(1) changed [d:0(0)i:27(1)r:0(0)m:0(0)], 0 mapped
+FuncDef:select_related(1036L,4C-1058L,3C(42160-42934)): [MODIFIED] 6(1) changed [d:0(0)i:6(1)r:0(0)m:0(0)], 0 mapped
+FuncDef:_annotate(1096L,4C-1139L,3C(44518-46393)): [INSERTED] 14(3) changed [d:0(0)i:14(3)r:0(0)m:0(0)], 0 mapped
+FuncDef:only(1194L,4C-1215L,3C(48667-49674)): [MODIFIED] 6(1) changed [d:0(0)i:6(1)r:0(0)m:0(0)], 0 mapped
+FuncDef:defer(1177L,4C-1194L,3C(47957-48666)): [MODIFIED] 6(1) changed [d:0(0)i:6(1)r:0(0)m:0(0)], 0 mapped
+FuncDef:_filter_or_exclude_inplace(960L,4C-966L,3C(39149-39347)): [INSERTED] 13(5) changed [d:0(0)i:13(5)r:0(0)m:0(0)], 0 mapped
+FuncDef:prefetch_related_objects(1638L,0C-1763L,0C(65944-72436)): [MODIFIED] 2(1) changed [d:0(0)i:2(1)r:0(0)m:0(0)], 0 mapped
+FuncDef:_not_support_combined_queries(1392L,4C-1399L,0C(56866-57136)): [INSERTED] 27(1) changed [d:0(0)i:27(1)r:0(0)m:0(0)], 0 mapped
+FuncDef:prefetch_related(1058L,4C-1081L,3C(42935-43970)): [MODIFIED] 6(1) changed [d:0(0)i:6(1)r:0(0)m:0(0)], 0 mapped
+FuncDef:select_for_update(1020L,4C-1036L,3C(41504-42159)): [MODIFIED] 12(2) changed [d:0(0)i:12(2)r:0(0)m:0(0)], 0 mapped
+FuncDef:__getitem__(287L,4C-320L,3C(10626-11769)): [MODIFIED] 10(1) changed [d:0(0)i:10(1)r:0(0)m:0(0)], 0 mapped
+FuncDef:query(194L,4C-202L,3C(7290-7550)): [INSERTED] 40(1) changed [d:0(0)i:40(1)r:0(0)m:0(0)], 0 mapped
+FuncDef:__class_getitem__(320L,4C-323L,3C(11770-11838)): [INSERTED] 11(1) changed [d:0(0)i:11(1)r:0(0)m:0(0)], 0 mapped
+*** Unmodified Units ***
+FuncDef:get_related_populators(1891L,0C-1897L,20C(79632-79935))
+ClassDef:RelatedPopulator(1814L,0C-1890L,0C(75650-79631))
+FuncDef:populate(1875L,4C-1890L,0C(79072-79631))
+FuncDef:__init__(1829L,4C-1875L,3C(76329-79071))
+FuncDef:prefetch_one_level(1714L,0C-1813L,0C(71151-75649))
+FuncDef:get_prefetcher(1667L,0C-1713L,0C(68875-71150))
+FuncDef:prefetch_related_objects(1541L,0C-1666L,0C(62394-68874))
+FuncDef:normalize_prefetch_lookups(1529L,0C-1540L,0C(62065-62393))
+FuncDef:__hash__(1525L,4C-1528L,0C(61987-62064))
+FuncDef:get_current_queryset(1517L,4C-1522L,3C(61707-61871))
+FuncDef:get_current_to_attr(1511L,4C-1517L,3C(61491-61706))
+FuncDef:get_current_prefetch_to(1508L,4C-1511L,3C(61365-61490))
+FuncDef:add_prefix(1504L,4C-1508L,3C(61188-61364))
+FuncDef:__getstate__(1494L,4C-1504L,3C(60859-61187))
+FuncDef:columns(1451L,4C-1469L,3C(59212-59815))
+FuncDef:using(1442L,4C-1451L,3C(58886-59211))
+FuncDef:db(1437L,4C-1442L,3C(58710-58885))
+FuncDef:__getitem__(1434L,4C-1437L,3C(58650-58709))
+FuncDef:__repr__(1431L,4C-1434L,3C(58559-58649))
+FuncDef:__iter__(1394L,4C-1398L,3C(56962-57052))
+FuncDef:__bool__(1390L,4C-1394L,3C(56871-56961))
+FuncDef:__len__(1386L,4C-1390L,3C(56782-56870))
+FuncDef:_fetch_all(1380L,4C-1386L,3C(56545-56781))
+FuncDef:_clone(1371L,4C-1380L,3C(56193-56544))
+FuncDef:_prefetch_related_objects(1367L,4C-1371L,3C(56030-56192))
+FuncDef:prefetch_related(1358L,4C-1367L,3C(55704-56029))
+FuncDef:__init__(1335L,4C-1348L,3C(54498-55035))
+ClassDef:EmptyQuerySet(1320L,0C-1329L,0C(54063-54352))
+FuncDef:__init__(1326L,4C-1329L,0C(54251-54352))
+ClassDef:InstanceCheckMeta(1315L,0C-1319L,0C(53911-54062))
+FuncDef:__instancecheck__(1316L,4C-1319L,0C(53946-54062))
+FuncDef:_validate_values_are_expressions(1303L,4C-1314L,0C(53500-53910))
+FuncDef:_has_filters(1295L,4C-1303L,3C(53212-53499))
+FuncDef:_add_hints(1288L,4C-1295L,3C(53002-53211))
+FuncDef:resolve_expression(1278L,4C-1286L,3C(52531-52956))
+FuncDef:_merge_known_related_objects(1271L,4C-1278L,3C(52230-52530))
+FuncDef:_merge_sanity_check(1260L,4C-1271L,3C(51663-52229))
+FuncDef:_next_is_sticky(1246L,4C-1260L,3C(51036-51662))
+FuncDef:_fetch_all(1240L,4C-1246L,3C(50788-51035))
+FuncDef:_clone(1226L,4C-1240L,3C(50219-50787))
+FuncDef:_chain(1214L,4C-1226L,3C(49873-50218))
+FuncDef:db(1165L,4C-1176L,3C(47639-47993))
+FuncDef:ordered(1150L,4C-1165L,3C(47146-47638))
+FuncDef:using(1140L,4C-1150L,3C(46845-47145))
+FuncDef:only(1120L,4C-1140L,3C(45888-46844))
+FuncDef:defer(1104L,4C-1120L,3C(45230-45887))
+FuncDef:prefetch_related(1000L,4C-1022L,3C(40800-41772))
+FuncDef:select_related(978L,4C-1000L,3C(40085-40799))
+FuncDef:select_for_update(963L,4C-978L,3C(39495-40084))
+FuncDef:difference(957L,4C-963L,3C(39271-39494))
+FuncDef:intersection(948L,4C-957L,3C(38934-39270))
+FuncDef:_combinator_query(930L,4C-941L,3C(38043-38541))
+FuncDef:all(880L,4C-887L,3C(36414-36626))
+FuncDef:none(870L,4C-880L,3C(36056-36413))
+FuncDef:dates(833L,4C-849L,3C(34312-35049))
+FuncDef:values_list(802L,4C-833L,3C(33080-34311))
+FuncDef:values(796L,4C-802L,3C(32875-33079))
+FuncDef:_values(788L,4C-796L,3C(32632-32874))
+FuncDef:raw(781L,4C-788L,3C(32303-32631))
+FuncDef:explain(774L,4C-781L,3C(32011-32302))
+FuncDef:_prefetch_related_objects(769L,4C-774L,3C(31768-32010))
+FuncDef:exists(764L,4C-769L,3C(31609-31767))
+FuncDef:last(656L,4C-661L,3C(27046-27250))
+FuncDef:first(651L,4C-656L,3C(26850-27045))
+FuncDef:_populate_pk_values(425L,4C-430L,3C(15942-16103))
+FuncDef:create(415L,4C-425L,3C(15630-15941))
+FuncDef:count(381L,4C-394L,3C(14462-14877))
+FuncDef:iterator(343L,4C-353L,3C(12759-13175))
+FuncDef:_iterator(340L,4C-343L,3C(12600-12758))
+FuncDef:__or__(322L,4C-340L,3C(11873-12599))
+FuncDef:__and__(311L,4C-322L,3C(11501-11872))
+FuncDef:__getitem__(281L,4C-311L,3C(10478-11500))
+FuncDef:__bool__(277L,4C-281L,3C(10387-10477))
+FuncDef:__iter__(259L,4C-277L,3C(9559-10386))
+FuncDef:__len__(255L,4C-259L,3C(9470-9558))
+FuncDef:__deepcopy__(216L,4C-226L,3C(8069-8398))
+FuncDef:as_manager(203L,4C-209L,3C(7633-7902))
+ClassDef:FlatValuesListIterable(173L,0C-185L,0C(6613-7009))
+FuncDef:__iter__(179L,4C-185L,0C(6766-7009))
+ClassDef:ValuesListIterable(117L,0C-146L,0C(4580-5775))
+FuncDef:__iter__(123L,4C-146L,0C(4737-5775))
+ClassDef:ValuesIterable(96L,0C-116L,0C(3913-4579))
+FuncDef:__iter__(101L,4C-116L,0C(4046-4579))
+ClassDef:ModelIterable(46L,0C-95L,0C(1553-3912))
+FuncDef:__iter__(49L,4C-95L,0C(1655-3912))
+ClassDef:BaseIterable(39L,0C-45L,0C(1327-1552))
+FuncDef:__init__(40L,4C-45L,0C(1351-1552))

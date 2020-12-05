@@ -1,0 +1,71 @@
+RELABEL (#1947U:#1947G)Identifier:nSize[4](500L,91C-95C(16493-16497))1 -> (#3973U:#1955G)Identifier:size[4](500L,90C-93C(16499-16502))1
+RELABEL (#1611U:#1611G)Identifier:tExpiresAt[0](419L,24C-33C(13799-13808))1 -> (#3630U:#1612G)Identifier:expiry[0](419L,24C-29C(13857-13862))1
+RELABEL (#48U:#48G)SimpleTypeSpecifier:6time_t[0](48L,4C-9C(1487-1492))1 -> (#2066U:#48G)SimpleTypeSpecifier:19apr_interval_time_t[0](48L,4C-22C(1491-1509))1
+RELABEL (#1946U:#1946G)Identifier:nElem[3](500L,84C-88C(16486-16490))1 -> (#3972U:#1954G)Identifier:elts[3](500L,84C-87C(16493-16496))1
+RELABEL (#701U:#701G)SimpleTypeSpecifier:6time_t[0](186L,58C-63C(6465-6470))1 -> (#2721U:#703G)SimpleTypeSpecifier:10apr_time_t[0](186L,58C-67C(6504-6513))1
+RELABEL (#1596U:#1596G)SimpleTypeSpecifier:6time_t[0](416L,39C-44C(13692-13697))1 -> (#3615U:#1597G)SimpleTypeSpecifier:10apr_time_t[0](416L,39C-48C(13746-13755))1
+RELABEL (#784U:#784G)StringLiteral:"data size too large for DBM session cache: %d >= %d"[5](206L,17C-69C(7184-7236))1 -> (#2804U:#786G)StringLiteral:"data size too large for DBM socache: %d >= %d"[5](206L,17C-63C(7221-7267))1
+RELABEL (#1927U:#1927G)Identifier:nAverage[0](496L,8C-15C(16264-16271))1 -> (#3946U:#1928G)Identifier:avg[0](496L,8C-10C(16270-16272))1
+RELABEL (#1908U:#1908G)Identifier:nSize[0](492L,8C-12C(16171-16175))1 -> (#3927U:#1909G)Identifier:size[0](492L,8C-11C(16180-16183))1
+RELABEL (#1757U:#1757G)Identifier:nElements[0](457L,28C-36C(15141-15149))1 -> (#3776U:#1758G)Identifier:elts[0](457L,23C-26C(15166-15169))1
+RELABEL (#1469U:#1469G)SimpleTypeSpecifier:6time_t[0](365L,4C-9C(11950-11955))1 -> (#3488U:#1470G)SimpleTypeSpecifier:10apr_time_t[0](365L,4C-13C(12015-12024))1
+RELABEL (#1812U:#1812G)Identifier:nSize[0](467L,8C-12C(15386-15390))1 -> (#3831U:#1813G)Identifier:size[0](467L,9C-12C(15404-15407))1
+RELABEL (#1622U:#1622G)Identifier:tNow[1](420L,34C-37C(13875-13878))1 -> (#3641U:#1623G)Identifier:now[1](420L,30C-32C(13929-13931))1
+RELABEL (#1242U:#1242G)Identifier:time[0](315L,10C-13C(10615-10618))1 -> (#3262U:#1244G)Identifier:apr_time_now[0](315L,10C-21C(10682-10693))1
+RELABEL (#1631U:#1631G)Identifier:bDelete[0](423L,16C-22C(13947-13953))1 -> (#3650U:#1632G)Identifier:expired[0](423L,16C-22C(14000-14006))1
+RELABEL (#1169U:#1169G)SimpleTypeSpecifier:6time_t[0](296L,54C-59C(10152-10157))1 -> (#3189U:#1171G)SimpleTypeSpecifier:10apr_time_t[0](296L,54C-63C(10203-10212))1
+RELABEL (#1758U:#1758G)Identifier:nDeleted[1](457L,38C-45C(15151-15158))1 -> (#3777U:#1759G)Identifier:deleted[1](457L,28C-34C(15171-15177))1
+RELABEL (#1621U:#1621G)Identifier:tExpiresAt[0](420L,20C-29C(13861-13870))1 -> (#3640U:#1622G)Identifier:expiry[0](420L,20C-25C(13919-13924))1
+RELABEL (#1732U:#1732G)Identifier:nDeleted[0](446L,12C-19C(14847-14854))1 -> (#3751U:#1733G)Identifier:deleted[0](446L,12C-18C(14900-14906))1
+RELABEL (#1624U:#1624G)Identifier:bDelete[0](421L,20C-26C(13901-13907))1 -> (#3643U:#1625G)Identifier:expired[0](421L,20C-26C(13954-13960))1
+RELABEL (#1434U:#1434G)Identifier:nElements[0](359L,8C-16C(11839-11847))1 -> (#3453U:#1435G)Identifier:elts[0](359L,8C-11C(11910-11913))1
+RELABEL (#1069U:#1069G)SimpleTypeSpecifier:6time_t[0](268L,4C-9C(9190-9195))1 -> (#3089U:#1071G)SimpleTypeSpecifier:10apr_time_t[0](268L,4C-13C(9237-9246))1
+RELABEL (#1429U:#1429G)Identifier:tExpiresAt[0](358L,11C-20C(11819-11828))1 -> (#3448U:#1430G)Identifier:expiry[0](358L,15C-20C(11894-11899))1
+RELABEL (#1582U:#1582G)Identifier:bDelete[0](414L,12C-18C(13587-13593))1 -> (#3601U:#1583G)Identifier:expired[0](414L,12C-18C(13641-13647))1
+RELABEL (#1485U:#1485G)Identifier:tNow[0](374L,8C-11C(12147-12150))1 -> (#3504U:#1486G)Identifier:now[0](374L,8C-10C(12208-12210))1
+RELABEL (#1186U:#1186G)SimpleTypeSpecifier:6time_t[0](302L,32C-37C(10290-10295))1 -> (#3206U:#1188G)SimpleTypeSpecifier:10apr_time_t[0](302L,32C-41C(10345-10354))1
+RELABEL (#581U:#581G)Identifier:socache_dbm_kill[0](170L,12C-27C(5733-5748))1 -> (#2601U:#583G)Identifier:socache_dbm_destroy[0](170L,12C-30C(5769-5787))1
+RELABEL (#1064U:#1064G)SimpleTypeSpecifier:6time_t[0](267L,4C-9C(9171-9176))1 -> (#3084U:#1066G)SimpleTypeSpecifier:10apr_time_t[0](267L,4C-13C(9214-9223))1
+RELABEL (#1969U:#1969G)Identifier:socache_dbm_kill[4](510L,4C-19C(16733-16748))1 -> (#4031U:#2013G)Identifier:socache_dbm_destroy[4](518L,4C-22C(17020-17038))1
+RELABEL (#1760U:#1760G)Identifier:nDeleted[8](457L,48C-55C(15161-15168))1 -> (#3779U:#1761G)Identifier:deleted[8](457L,37C-43C(15180-15186))1
+RELABEL (#1753U:#1753G)StringLiteral:"Inter-Process Session Cache (DBM) Expiry: "[0](455L,17C-60C(15018-15061))1 -> (#3772U:#1754G)StringLiteral:"DBM socache expiry: "[0](455L,17C-38C(15070-15091))1
+RELABEL (#1830U:#1830G)Identifier:nSize[0](472L,4C-8C(15452-15456))1 -> (#3849U:#1831G)Identifier:size[0](472L,4C-7C(15463-15466))1
+RELABEL (#1470U:#1470G)Identifier:tNow[0](365L,11C-14C(11957-11960))1 -> (#3489U:#1471G)Identifier:now[0](365L,15C-17C(12026-12028))1
+RELABEL (#1579U:#1579G)Identifier:nElements[0](413L,12C-20C(13562-13570))1 -> (#3598U:#1580G)Identifier:elts[0](413L,12C-15C(13621-13624))1
+RELABEL (#1215U:#1215G)SimpleTypeSpecifier:6time_t[0](309L,40C-45C(10455-10460))1 -> (#3235U:#1217G)SimpleTypeSpecifier:10apr_time_t[0](309L,40C-49C(10514-10523))1
+RELABEL (#43U:#43G)SimpleTypeSpecifier:6time_t[0](47L,4C-9C(1463-1468))1 -> (#2061U:#43G)SimpleTypeSpecifier:10apr_time_t[0](47L,4C-13C(1463-1472))1
+RELABEL (#1904U:#1904G)Identifier:nElem[0](491L,8C-12C(16151-16155))1 -> (#3923U:#1905G)Identifier:elts[0](491L,8C-11C(16161-16164))1
+RELABEL (#1479U:#1479G)Identifier:tNow[0](372L,4C-7C(12119-12122))1 -> (#3498U:#1480G)Identifier:now[0](372L,4C-6C(12181-12183))1
+RELABEL (#1928U:#1928G)Identifier:nSize[0](496L,19C-23C(16275-16279))1 -> (#3949U:#1931G)Identifier:size[0](496L,20C-23C(16282-16285))1
+RELABEL (#1953U:#1953G)Identifier:nAverage[3](501L,63C-70C(16564-16571))1 -> (#3979U:#1961G)Identifier:avg[3](501L,61C-63C(16567-16569))1
+RELABEL (#1500U:#1500G)Identifier:tNow[1](378L,23C-26C(12243-12246))1 -> (#3519U:#1501G)Identifier:now[1](378L,23C-25C(12303-12305))1
+RELABEL (#1952U:#1952G)StringLiteral:"average session size: <b>%d</b> bytes<br>"[2](501L,18C-60C(16519-16561))1 -> (#3978U:#1960G)StringLiteral:"average entry size: <b>%d</b> bytes<br>"[2](501L,18C-58C(16524-16564))1
+RELABEL (#1817U:#1817G)Identifier:nAverage[0](468L,8C-15C(15401-15408))1 -> (#3836U:#1818G)Identifier:avg[0](468L,8C-10C(15418-15420))1
+RELABEL (#1441U:#1441G)Identifier:nDeleted[0](360L,8C-15C(11862-11869))1 -> (#3460U:#1442G)Identifier:deleted[0](360L,8C-14C(11928-11934))1
+RELABEL (#1923U:#1923G)Identifier:nElem[0](495L,21C-25C(16245-16249))1 -> (#3942U:#1924G)Identifier:elts[0](495L,20C-23C(16252-16255))1
+RELABEL (#1920U:#1920G)Identifier:nSize[0](495L,8C-12C(16232-16236))1 -> (#3939U:#1921G)Identifier:size[0](495L,8C-11C(16240-16243))1
+RELABEL (#1606U:#1606G)Identifier:bDelete[0](417L,16C-22C(13740-13746))1 -> (#3625U:#1607G)Identifier:expired[0](417L,16C-22C(13798-13804))1
+RELABEL (#759U:#759G)StringLiteral:"data size too large for DBM session cache: %d >= %d"[5](199L,17C-69C(6906-6958))1 -> (#2779U:#761G)StringLiteral:"data size too large for DBM socache: %d >= %d"[5](199L,17C-63C(6949-6995))1
+RELABEL (#1933U:#1933G)Identifier:nAverage[0](498L,8C-15C(16307-16314))1 -> (#3959U:#1941G)Identifier:avg[0](498L,8C-10C(16319-16321))1
+RELABEL (#1807U:#1807G)Identifier:nElem[0](466L,8C-12C(15371-15375))1 -> (#3826U:#1808G)Identifier:elts[0](466L,8C-11C(15389-15392))1
+RELABEL (#1616U:#1616G)SimpleTypeSpecifier:6time_t[0](419L,56C-61C(13831-13836))1 -> (#3635U:#1617G)SimpleTypeSpecifier:10apr_time_t[0](419L,52C-61C(13885-13894))1
+RELABEL (#883U:#883G)SimpleTypeSpecifier:6time_t[0](225L,38C-43C(7787-7792))1 -> (#2903U:#885G)SimpleTypeSpecifier:10apr_time_t[0](225L,38C-47C(7826-7835))1
+RELABEL (#869U:#869G)SimpleTypeSpecifier:6time_t[0](224L,48C-53C(7739-7744))1 -> (#2889U:#871G)SimpleTypeSpecifier:10apr_time_t[0](224L,48C-57C(7774-7783))1
+RELABEL (#1811U:#1811G)Int[0](467L,4C-6C(15382-15384))1 -> (#3830U:#1812G)Long[0](467L,4C-7C(15399-15402))1
+RELABEL (#1448U:#1448G)Identifier:bDelete[0](361L,8C-14C(11884-11890))1 -> (#3467U:#1449G)Identifier:expired[0](361L,8C-14C(11949-11955))1
+RELABEL (#1428U:#1428G)SimpleTypeSpecifier:6time_t[0](358L,4C-9C(11812-11817))1 -> (#3447U:#1429G)SimpleTypeSpecifier:10apr_time_t[0](358L,4C-13C(11883-11892))1
+RELABEL (#1929U:#1929G)Identifier:nElem[1](496L,27C-31C(16283-16287))1 -> (#3952U:#1934G)Identifier:elts[1](496L,33C-36C(16295-16298))1
+RELABEL (#1756U:#1756G)Identifier:nElements[6](457L,17C-25C(15130-15138))1 -> (#3775U:#1757G)Identifier:elts[6](457L,17C-20C(15160-15163))1
+RELABEL (#1945U:#1945G)StringLiteral:"current sessions: <b>%d</b>, current size: <b>%d</b> bytes<br>"[2](500L,18C-81C(16420-16483))1 -> (#3971U:#1953G)StringLiteral:"current entries: <b>%d</b>, current size: <b>%ld</b> bytes<br>"[2](500L,18C-81C(16427-16490))1
+RELABEL (#819U:#819G)SimpleTypeSpecifier:6time_t[0](217L,26C-31C(7456-7461))1 -> (#2839U:#821G)SimpleTypeSpecifier:10apr_time_t[0](217L,26C-35C(7487-7496))1
+RELABEL (#1826U:#1826G)Identifier:nElem[0](471L,4C-8C(15437-15441))1 -> (#3845U:#1827G)Identifier:elts[0](471L,4C-7C(15449-15452))1
+RELABEL (#1230U:#1230G)SimpleTypeSpecifier:6time_t[0](310L,46C-51C(10511-10516))1 -> (#3250U:#1232G)SimpleTypeSpecifier:10apr_time_t[0](310L,46C-55C(10574-10583))1
+DELETE(1) (#1243U:#1243G)Identifier:NULL[1](315L,15C-18C(10620-10623))1 <1243>
+DELETE(7) (#2017U:#2017G)SimpleDeclaration[31](524L,0C-528L,1C(17055-17191))7 [(#2014U:#2014G)] <2003-2006;2015-2017>
+INSERT(2) (#2452U:#434G)PostfixExpressionFunCall[2](139L,55C-75C(4501-4521))2 [(#2451U:#433G)] <432;434>
+INSERT(4) (#3956U:#1938G)CastExpression[1](496L,14C-37C(16276-16299))4 [(#3954U:#1936G)] <1929-1930;1937-1938>
+INSERT(3) (#3953U:#1935G)CastExpression[1](496L,27C-36C(16289-16298))3 [(#3952U:#1934G)] <1932-1933;1935>
+INSERT(1) (#4036U:#2018G)Identifier:socache_dbm_iterate[9](523L,4C-22C(17142-17160))1 <2018>
+INSERT(2) (#4075U:#2057G)DeclarationMacroInvocation:AP_DECLARE_MODULE[32](533L,0C-537L,0C(17370-17487))2 [(#4074U:#2056G)] <2048;2057>
+INSERT(1) (#4076U:#2058G)EmptyDeclaration[33](537L,1C-1C(17488-17488))1 <2058>
+INSERT(36) (#4021U:#2003G)FunctionDefinition[29](505L,0C-511L,0C(16588-16874))36 <1968-2003>

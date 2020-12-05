@@ -1,0 +1,132 @@
+*** Extracted Changes ***
+
+[significance=4] final modifier added (4)
+  Modifier.Final[32L,30C-34C(947-951)]* into Parameter(err,0,)[30L,48C-63C(867-882)]
+  Modifier.Final[130L,33C-37C(2939-2943)]* into Parameter(os,0,)[127L,49C-63C(2766-2780)]
+  Modifier.Final[31L,30C-34C(890-894)]* into Parameter(out,0,)[30L,30C-45C(849-864)]
+  Modifier.Final[129L,33C-37C(2881-2885)]* into Parameter(is,0,)[127L,33C-46C(2750-2763)]
+
+[significance=3] field renamed (3)
+  FieldDeclaration(errorThread[0)[24L,4C-30C(721-747)] -> FieldDeclaration(m_errorThread[0)[25L,4C-32C(725-753)]
+  FieldDeclaration(inputThread[0)[26L,4C-30C(754-780)] -> FieldDeclaration(m_inputThread[0)[26L,4C-32C(759-787)]
+  FieldDeclaration(out[0;err[0)[28L,4C-33C(787-816)] -> FieldDeclaration(m_error[0)[29L,4C-32C(829-857)]
+
+[significance=2] variable declaration added (1)
+  VariableDeclarator(m_output,0,false)[28L,25C-32C(815-822)]* into ClassBody(PumpStreamHandler)[23L,0C-134L,0C(715-2926)]
+
+[significance=2] variable declaration removed (1)
+  VariableDeclarator(out,0,false)[28L,25C-27C(808-810)]* from FieldDeclaration(m_error[0)[29L,4C-32C(829-857)]
+
+[significance=2] modifier added (1)
+  Modifier.Private[28L,4C-10C(794-800)]* into ClassBody(PumpStreamHandler)[23L,0C-134L,0C(715-2926)]
+
+[significance=2] parameter renamed (4)
+  Parameter(out,0,)[30L,30C-45C(849-864)] -> Parameter(output,0,)[31L,30C-54C(890-914)]
+  Parameter(err,0,)[30L,48C-63C(867-882)] -> Parameter(error,0,)[32L,30C-53C(947-970)]
+  Parameter(is,0,)[127L,33C-46C(2750-2763)] -> Parameter(input,0,)[129L,33C-55C(2881-2903)]
+  Parameter(os,0,)[127L,49C-63C(2766-2780)] -> Parameter(output,0,)[130L,33C-57C(2939-2963)]
+
+[significance=1] (changed) (3)
+  Modifiers(out;err#f)[28L,4C-10C(787-793)] -> Modifiers(m_error#f)[29L,4C-10C(829-835)]
+  Modifiers(inputThread#f)[26L,4C-10C(754-760)] -> Modifiers(m_inputThread#f)[26L,4C-10C(759-765)]
+  Modifiers(errorThread#f)[24L,4C-10C(721-727)] -> Modifiers(m_errorThread#f)[25L,4C-10C(725-731)]
+
+[significance=1] (added) (6)
+  Modifiers(m_output#f)[28L,4C-10C(794-800)]* into ClassBody(PumpStreamHandler)[23L,0C-134L,0C(715-2926)]
+  Modifiers(input#p)[129L,33C-37C(2881-2885)]* into Parameter(is,0,)[127L,33C-46C(2750-2763)]
+  Modifiers(output#p)[31L,30C-34C(890-894)]* into Parameter(out,0,)[30L,30C-45C(849-864)]
+  Modifiers(error#p)[32L,30C-34C(947-951)]* into Parameter(err,0,)[30L,48C-63C(867-882)]
+  Modifiers(output#p)[130L,33C-37C(2939-2943)]* into Parameter(os,0,)[127L,49C-63C(2766-2780)]
+  Type.ClassOrInterface(java.io.OutputStream)(Type.ClassOrInterface(OutputStream))[28L,12C-23C(802-813)]* into ClassBody(PumpStreamHandler)[23L,0C-134L,0C(715-2926)]
+
+[significance=1] statement modified (18)
+  Statement.Return[101L,8C-18C(2107-2117)] -> Statement.Return[103L,8C-22C(2225-2239)]
+  Statement.Expression.AssignmentOperator.Eq()()[32L,8C-22C(900-914)] -> Statement.Expression.AssignmentOperator.Eq()()[34L,8C-25C(988-1005)]
+  Statement.Expression.Primary.SimpleMethodInvocation(createProcessOutputPump#2)()(Statement.Expression.Primary.SimpleMethodInvocation(createProcessOutputPump)())[57L,8C-42C(1390-1424)] -> Statement.Expression.Primary.SimpleMethodInvocation(createProcessOutputPump#2)()(Statement.Expression.Primary.SimpleMethodInvocation(createProcessOutputPump)())[59L,8C-47C(1486-1525)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(start#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(start)())[62L,8C-27C(1471-1490)] -> Statement.Expression.Primary.PrimaryMethodInvocation(start#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(start)())[64L,8C-29C(1572-1593)]
+  Statement.Return[106L,8C-18C(2176-2186)] -> Statement.Return[108L,8C-23C(2298-2313)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(flush#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(flush)())[85L,12C-23C(1868-1879)] -> Statement.Expression.Primary.PrimaryMethodInvocation(flush#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(flush)())[87L,12C-27C(1977-1992)]
+  Statement.Try[83L,8C-89L,8C(1842-1940)] -> Statement.Try[85L,8C-91L,8C(1951-2053)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(join#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(join)())[71L,12C-30C(1620-1638)] -> Statement.Expression.Primary.PrimaryMethodInvocation(join#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(join)())[73L,12C-32C(1725-1745)]
+  Statement.Try[69L,8C-75L,8C(1594-1708)] -> Statement.Try[71L,8C-77L,8C(1699-1815)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(join#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(join)())[78L,12C-30C(1744-1762)] -> Statement.Expression.Primary.PrimaryMethodInvocation(join#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(join)())[80L,12C-32C(1851-1871)]
+  Statement.Try[76L,8C-82L,8C(1718-1832)] -> Statement.Try[78L,8C-84L,8C(1825-1941)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(flush#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(flush)())[92L,12C-23C(1976-1987)] -> Statement.Expression.Primary.PrimaryMethodInvocation(flush#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(flush)())[94L,12C-28C(2089-2105)]
+  Statement.Try[90L,8C-96L,8C(1950-2048)] -> Statement.Try[92L,8C-98L,8C(2063-2166)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(start#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(start)())[63L,8C-27C(1500-1519)] -> Statement.Expression.Primary.PrimaryMethodInvocation(start#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(start)())[65L,8C-29C(1603-1624)]
+  Statement.Expression.Primary.SimpleMethodInvocation(createProcessErrorPump#2)()(Statement.Expression.Primary.SimpleMethodInvocation(createProcessErrorPump)())[48L,8C-41C(1207-1240)] -> Statement.Expression.Primary.SimpleMethodInvocation(createProcessErrorPump#2)()(Statement.Expression.Primary.SimpleMethodInvocation(createProcessErrorPump)())[50L,8C-45C(1299-1336)]
+  Statement.Expression.AssignmentOperator.Eq()()[116L,8C-42C(2421-2455)] -> Statement.Expression.AssignmentOperator.Eq()()[118L,8C-44C(2550-2586)]
+  Statement.Expression.AssignmentOperator.Eq()()[111L,8C-42C(2286-2320)] -> Statement.Expression.AssignmentOperator.Eq()()[113L,8C-44C(2413-2449)]
+  Statement.Expression.AssignmentOperator.Eq()()[33L,8C-22C(924-938)] -> Statement.Expression.AssignmentOperator.Eq()()[35L,8C-23C(1015-1030)]
+
+[significance=1] expression modified (4)
+  Primary.FieldAccess(err)[33L,8C-15C(924-931)] -> Primary.FieldAccess(m_error)[35L,8C-14C(1015-1021)]
+  Primary.FieldAccess(out)[32L,8C-15C(900-907)] -> Primary.FieldAccess(m_output)[34L,8C-15C(988-995)]
+  Primary.InstanceCreation(StreamPumper.<init>#2)(Primary.InstanceCreation(StreamPumper))[129L,42C-67C(2832-2857)] -> Primary.InstanceCreation(StreamPumper.<init>#2)(Primary.InstanceCreation(StreamPumper))[132L,42C-74C(3015-3047)]
+  Primary.InstanceCreation(java.lang.Thread.<init>#1)(Primary.InstanceCreation(Thread))[129L,30C-69C(2820-2859)] -> Primary.InstanceCreation(java.lang.Thread.<init>#1)(Primary.InstanceCreation(Thread))[132L,30C-76C(3003-3049)]
+
+[significance=1] expression removed (2)
+  Primary.This[33L,8C-11C(924-927)]* from Primary.FieldAccess(m_error)[35L,8C-14C(1015-1021)]
+  Primary.This[32L,8C-11C(900-903)]* from Primary.FieldAccess(m_output)[34L,8C-15C(988-995)]
+
+[significance=1] argument modified (1)
+  Primary.InstanceCreation(StreamPumper.<init>#2)(Primary.InstanceCreation(StreamPumper))[129L,42C-67C(2832-2857)] -> Primary.InstanceCreation(StreamPumper.<init>#2)(Primary.InstanceCreation(StreamPumper))[132L,42C-74C(3015-3047)]
+
+[significance=1] constructor invocation modified (2)
+  Primary.InstanceCreation(StreamPumper.<init>#2)(Primary.InstanceCreation(StreamPumper))[129L,42C-67C(2832-2857)] -> Primary.InstanceCreation(StreamPumper.<init>#2)(Primary.InstanceCreation(StreamPumper))[132L,42C-74C(3015-3047)]
+  Primary.InstanceCreation(java.lang.Thread.<init>#1)(Primary.InstanceCreation(Thread))[129L,30C-69C(2820-2859)] -> Primary.InstanceCreation(java.lang.Thread.<init>#1)(Primary.InstanceCreation(Thread))[132L,30C-76C(3003-3049)]
+
+[significance=1] instance creation modified (2)
+  Primary.InstanceCreation(StreamPumper.<init>#2)(Primary.InstanceCreation(StreamPumper))[129L,42C-67C(2832-2857)] -> Primary.InstanceCreation(StreamPumper.<init>#2)(Primary.InstanceCreation(StreamPumper))[132L,42C-74C(3015-3047)]
+  Primary.InstanceCreation(java.lang.Thread.<init>#1)(Primary.InstanceCreation(Thread))[129L,30C-69C(2820-2859)] -> Primary.InstanceCreation(java.lang.Thread.<init>#1)(Primary.InstanceCreation(Thread))[132L,30C-76C(3003-3049)]
+
+[significance=1] variable declaration renamed (3)
+  VariableDeclarator(inputThread,0,false)[26L,19C-29C(769-779)] -> VariableDeclarator(m_inputThread,0,false)[26L,19C-31C(774-786)]
+  VariableDeclarator(err,0,false)[28L,30C-32C(813-815)] -> VariableDeclarator(m_error,0,false)[29L,25C-31C(850-856)]
+  VariableDeclarator(errorThread,0,false)[24L,19C-29C(736-746)] -> VariableDeclarator(m_errorThread,0,false)[25L,19C-31C(740-752)]
+
+[significance=1] method invocation modified (8)
+  Statement.Expression.Primary.SimpleMethodInvocation(createProcessOutputPump#2)()(Statement.Expression.Primary.SimpleMethodInvocation(createProcessOutputPump)())[57L,8C-42C(1390-1424)] -> Statement.Expression.Primary.SimpleMethodInvocation(createProcessOutputPump#2)()(Statement.Expression.Primary.SimpleMethodInvocation(createProcessOutputPump)())[59L,8C-47C(1486-1525)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(start#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(start)())[62L,8C-27C(1471-1490)] -> Statement.Expression.Primary.PrimaryMethodInvocation(start#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(start)())[64L,8C-29C(1572-1593)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(flush#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(flush)())[85L,12C-23C(1868-1879)] -> Statement.Expression.Primary.PrimaryMethodInvocation(flush#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(flush)())[87L,12C-27C(1977-1992)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(join#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(join)())[71L,12C-30C(1620-1638)] -> Statement.Expression.Primary.PrimaryMethodInvocation(join#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(join)())[73L,12C-32C(1725-1745)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(join#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(join)())[78L,12C-30C(1744-1762)] -> Statement.Expression.Primary.PrimaryMethodInvocation(join#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(join)())[80L,12C-32C(1851-1871)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(flush#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(flush)())[92L,12C-23C(1976-1987)] -> Statement.Expression.Primary.PrimaryMethodInvocation(flush#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(flush)())[94L,12C-28C(2089-2105)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(start#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(start)())[63L,8C-27C(1500-1519)] -> Statement.Expression.Primary.PrimaryMethodInvocation(start#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(start)())[65L,8C-29C(1603-1624)]
+  Statement.Expression.Primary.SimpleMethodInvocation(createProcessErrorPump#2)()(Statement.Expression.Primary.SimpleMethodInvocation(createProcessErrorPump)())[48L,8C-41C(1207-1240)] -> Statement.Expression.Primary.SimpleMethodInvocation(createProcessErrorPump#2)()(Statement.Expression.Primary.SimpleMethodInvocation(createProcessErrorPump)())[50L,8C-45C(1299-1336)]
+
+[significance=1] field added (1)
+  FieldDeclaration(m_output[0)[28L,4C-33C(794-823)]* into ClassBody(PumpStreamHandler)[23L,0C-134L,0C(715-2926)]
+
+[significance=1] method modified (9)
+  Method(getErr()Ljava.io.OutputStream;)(Method(getErr))[99L,4C-102L,4C(2061-2123)] -> Method(getErr()Ljava.io.OutputStream;)(Method(getErr))[101L,4C-104L,4C(2179-2245)]
+  Method(setProcessOutputStream(Ljava.io.InputStream;)V)(Method(setProcessOutputStream))[55L,4C-58L,4C(1323-1430)] -> Method(setProcessOutputStream(Ljava.io.InputStream;)V)(Method(setProcessOutputStream))[57L,4C-60L,4C(1419-1531)]
+  Method(getOut()Ljava.io.OutputStream;)(Method(getOut))[104L,4C-107L,4C(2130-2192)] -> Method(getOut()Ljava.io.OutputStream;)(Method(getOut))[106L,4C-109L,4C(2252-2319)]
+  Method(stop()V)[66L,4C-97L,4C(1532-2054)] -> Method(stop()V)[68L,4C-99L,4C(1637-2172)]
+  Method(start()V)[60L,4C-64L,4C(1437-1525)] -> Method(start()V)[62L,4C-66L,4C(1538-1630)]
+  Method(setProcessErrorStream(Ljava.io.InputStream;)V)(Method(setProcessErrorStream))[46L,4C-49L,4C(1141-1246)] -> Method(setProcessErrorStream(Ljava.io.InputStream;)V)(Method(setProcessErrorStream))[48L,4C-51L,4C(1233-1342)]
+  Method(createProcessOutputPump(Ljava.io.InputStream;Ljava.io.OutputStream;)V)(Method(createProcessOutputPump))[114L,4C-117L,4C(2333-2461)] -> Method(createProcessOutputPump(Ljava.io.InputStream;Ljava.io.OutputStream;)V)(Method(createProcessOutputPump))[116L,4C-119L,4C(2462-2592)]
+  Method(createProcessErrorPump(Ljava.io.InputStream;Ljava.io.OutputStream;)V)(Method(createProcessErrorPump))[109L,4C-112L,4C(2199-2326)] -> Method(createProcessErrorPump(Ljava.io.InputStream;Ljava.io.OutputStream;)V)(Method(createProcessErrorPump))[111L,4C-114L,4C(2326-2455)]
+  Method(createPump(Ljava.io.InputStream;Ljava.io.OutputStream;)Ljava.lang.Thread;)(Method(createPump))[127L,4C-132L,4C(2721-2923)] -> Method(createPump(Ljava.io.InputStream;Ljava.io.OutputStream;)Ljava.lang.Thread;)(Method(createPump))[129L,4C-135L,4C(2852-3113)]
+
+[significance=1] field access renamed (14)
+  Primary.FieldAccess(err)[33L,8C-15C(924-931)] -> Primary.FieldAccess(m_error)[35L,8C-14C(1015-1021)]
+  Primary.FieldAccess(err)[101L,15C-17C(2114-2116)] -> Primary.FieldAccess(m_error)[103L,15C-21C(2232-2238)]
+  Primary.FieldAccess(out)[32L,8C-15C(900-907)] -> Primary.FieldAccess(m_output)[34L,8C-15C(988-995)]
+  Primary.FieldAccess(out)[57L,37C-39C(1419-1421)] -> Primary.FieldAccess(m_output)[59L,37C-44C(1515-1522)]
+  Primary.FieldAccess(inputThread)[62L,8C-18C(1471-1481)] -> Primary.FieldAccess(m_inputThread)[64L,8C-20C(1572-1584)]
+  Primary.FieldAccess(out)[106L,15C-17C(2183-2185)] -> Primary.FieldAccess(m_output)[108L,15C-22C(2305-2312)]
+  Primary.FieldAccess(err)[85L,12C-14C(1868-1870)] -> Primary.FieldAccess(m_error)[87L,12C-18C(1977-1983)]
+  Primary.FieldAccess(inputThread)[71L,12C-22C(1620-1630)] -> Primary.FieldAccess(m_inputThread)[73L,12C-24C(1725-1737)]
+  Primary.FieldAccess(errorThread)[78L,12C-22C(1744-1754)] -> Primary.FieldAccess(m_errorThread)[80L,12C-24C(1851-1863)]
+  Primary.FieldAccess(out)[92L,12C-14C(1976-1978)] -> Primary.FieldAccess(m_output)[94L,12C-19C(2089-2096)]
+  Primary.FieldAccess(errorThread)[63L,8C-18C(1500-1510)] -> Primary.FieldAccess(m_errorThread)[65L,8C-20C(1603-1615)]
+  Primary.FieldAccess(err)[48L,36C-38C(1235-1237)] -> Primary.FieldAccess(m_error)[50L,36C-42C(1327-1333)]
+  Primary.FieldAccess(inputThread)[116L,8C-18C(2421-2431)] -> Primary.FieldAccess(m_inputThread)[118L,8C-20C(2550-2562)]
+  Primary.FieldAccess(errorThread)[111L,8C-18C(2286-2296)] -> Primary.FieldAccess(m_errorThread)[113L,8C-20C(2413-2425)]
+
+[significance=1] primary name renamed (4)
+  Primary.Name(out)(Primary.Name(out))[32L,19C-21C(911-913)] -> Primary.Name(output)(Primary.Name(output))[34L,19C-24C(999-1004)]
+  Primary.Name(os)(Primary.Name(os))[129L,64C-65C(2854-2855)] -> Primary.Name(output)(Primary.Name(output))[132L,67C-72C(3040-3045)]
+  Primary.Name(is)(Primary.Name(is))[129L,60C-61C(2850-2851)] -> Primary.Name(input)(Primary.Name(input))[132L,60C-64C(3033-3037)]
+  Primary.Name(err)(Primary.Name(err))[33L,19C-21C(935-937)] -> Primary.Name(error)(Primary.Name(error))[35L,18C-22C(1025-1029)]

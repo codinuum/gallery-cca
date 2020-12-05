@@ -1,0 +1,97 @@
+*** Extracted Changes ***
+
+[significance=4] argument added (1)
+  Primary.Name(command)(Primary.Name(command))[62L,23C-29C(1660-1666)]* into MethodBody(execute()V)[41L,4C-59L,4C(1085-1608)]
+
+[significance=4] argument removed (1)
+  Primary.This[58L,72C-75C(1594-1597)]* from Primary.Literal.Null[62L,32C-35C(1669-1672)]
+
+[significance=4] final modifier added (2)
+  Modifier.Final[23L,27C-31C(640-644)]* into Parameter(revertChange,0,)[24L,27C-45C(649-667)]
+  Modifier.Final[61L,8C-12C(1590-1594)]* into MethodBody(execute()V)[41L,4C-59L,4C(1085-1608)]
+
+[significance=3] field renamed (2)
+  FieldDeclaration(onlyUnchanged[0)[22L,4C-41C(582-619)] -> FieldDeclaration(m_onlyUnchanged[0)[21L,4C-35C(579-610)]
+  FieldDeclaration(revertChange[0)[21L,4C-38C(542-576)] -> FieldDeclaration(m_revertChange[0)[20L,4C-33C(544-573)]
+
+[significance=2] statement moved (1)
+  Statement.Expression.Primary.SimpleMethodInvocation(execP4Command#2)(): [58L,8C-80C(1530-1602)] -> [62L,8C-38C(1645-1675)]
+
+[significance=2] block inserted (3)
+  Block(block)[27L,8C-29L,8C(776-869)] into Statement.If(3c67c799a641ad6d6c3070cc8e2489d0;Expression.BinaryOperator.And)[27L,8C-28L,81C(714-852)]
+  Block(block)[57L,8C-59L,8C(1523-1579)] into Statement.If(02b6afa4d12fd3bc450c9f60d3cc6826;Expression.BinaryOperator.Neq)[55L,8C-56L,42C(1450-1519)]
+  Block(block)[52L,8C-54L,8C(1437-1475)] into Statement.If(7e601d779e9cafcebacead32aae883d4;Primary.FieldAccess())[52L,8C-53L,26C(1393-1439)]
+
+[significance=2] condition expression modified (1)
+  Expression.BinaryOperator.Neq[55L,12C-31C(1454-1473)] -> Expression.BinaryOperator.Neq[56L,12C-33C(1490-1511)]
+
+[significance=1] (changed) (2)
+  Modifiers(revertChange#f)[21L,4C-10C(542-548)] -> Modifiers(m_revertChange#f)[20L,4C-10C(544-550)]
+  Modifiers(onlyUnchanged#f)[22L,4C-10C(582-588)] -> Modifiers(m_onlyUnchanged#f)[21L,4C-10C(579-585)]
+
+[significance=1] (moved) (1)
+  NamedArguments(execP4Command): [58L,21C-79C(1543-1601)] -> [62L,21C-37C(1658-1674)]
+
+[significance=1] (inserted) (2)
+  VariableDeclarator(command,0,true)[61L,21C-52C(1603-1634)] into MethodBody(execute()V)[41L,4C-59L,4C(1085-1608)]
+  LocalVariableDeclaration(true,command[0)[61L,8C-53C(1590-1635)] into MethodBody(execute()V)[41L,4C-59L,4C(1085-1608)]
+
+[significance=1] (added) (3)
+  Modifiers(revertChange#p)[23L,27C-31C(640-644)]* into Parameter(revertChange,0,)[24L,27C-45C(649-667)]
+  Type.ClassOrInterface(java.lang.String)(Type.ClassOrInterface(String))[61L,14C-19C(1596-1601)]* into MethodBody(execute()V)[41L,4C-59L,4C(1085-1608)]
+  Modifiers(command#l)[61L,8C-12C(1590-1594)]* into MethodBody(execute()V)[41L,4C-59L,4C(1085-1608)]
+
+[significance=1] (removed) (2)
+  Type.ClassOrInterface(SimpleP4OutputHandler)(Type.ClassOrInterface(SimpleP4OutputHandler))[58L,49C-69C(1571-1591)]* from Primary.Literal.Null[62L,32C-35C(1669-1672)]
+  NamedArguments(SimpleP4OutputHandler)(NamedArguments(SimpleP4OutputHandler))[58L,70C-77C(1592-1599)]* from Primary.Literal.Null[62L,32C-35C(1669-1672)]
+
+[significance=1] statement modified (7)
+  Statement.If(3c67c799a641ad6d6c3070cc8e2489d0;Expression.BinaryOperator.And)[27L,8C-28L,81C(714-852)] -> Statement.If(3c67c799a641ad6d6c3070cc8e2489d0;Expression.BinaryOperator.And)[26L,8C-29L,8C(711-869)]
+  Statement.Expression.AssignmentOperator.AddEq()()[56L,12C-42C(1489-1519)] -> Statement.Expression.AssignmentOperator.AddEq()()[58L,12C-44C(1537-1569)]
+  Statement.Expression.AssignmentOperator.Eq()()[30L,8C-40C(863-895)] -> Statement.Expression.AssignmentOperator.Eq()()[31L,8C-37C(880-909)]
+  Statement.If(7e601d779e9cafcebacead32aae883d4;Primary.FieldAccess())[52L,8C-53L,26C(1393-1439)] -> Statement.If(24148ca160f81531e2967e60c76144d8;Primary.FieldAccess())[51L,8C-54L,8C(1407-1475)]
+  Statement.If(02b6afa4d12fd3bc450c9f60d3cc6826;Expression.BinaryOperator.Neq)[55L,8C-56L,42C(1450-1519)] -> Statement.If(f591e1a6bc0ae24383a01e34c31a7be4;Expression.BinaryOperator.Neq)[56L,8C-59L,8C(1486-1579)]
+  Statement.Expression.AssignmentOperator.Eq()()[36L,8C-42C(983-1017)] -> Statement.Expression.AssignmentOperator.Eq()()[36L,8C-44C(996-1032)]
+  Statement.Expression.Primary.SimpleMethodInvocation(execP4Command#2)()(Statement.Expression.Primary.SimpleMethodInvocation(execP4Command)())[58L,8C-80C(1530-1602)] -> Statement.Expression.Primary.SimpleMethodInvocation(execP4Command#2)()(Statement.Expression.Primary.SimpleMethodInvocation(execP4Command)())[62L,8C-38C(1645-1675)]
+
+[significance=1] statement changed (2)
+  Statement.If(7e601d779e9cafcebacead32aae883d4;Primary.FieldAccess())[52L,8C-53L,26C(1393-1439)] -> Statement.If(24148ca160f81531e2967e60c76144d8;Primary.FieldAccess())[51L,8C-54L,8C(1407-1475)]
+  Statement.If(02b6afa4d12fd3bc450c9f60d3cc6826;Expression.BinaryOperator.Neq)[55L,8C-56L,42C(1450-1519)] -> Statement.If(f591e1a6bc0ae24383a01e34c31a7be4;Expression.BinaryOperator.Neq)[56L,8C-59L,8C(1486-1579)]
+
+[significance=1] expression modified (5)
+  Primary.FieldAccess(revertChange)[30L,8C-24C(863-879)] -> Primary.FieldAccess(m_revertChange)[31L,8C-21C(880-893)]
+  Primary.InstanceCreation(SimpleP4OutputHandler.<init>#1)(Primary.InstanceCreation(SimpleP4OutputHandler))[58L,45C-77C(1567-1599)] -> Primary.Literal.Null[62L,32C-35C(1669-1672)]
+  Expression.BinaryOperator.Add[56L,21C-41C(1498-1518)] -> Expression.BinaryOperator.Add[58L,21C-43C(1546-1568)]
+  Expression.BinaryOperator.Add[58L,23C-42C(1545-1564)] -> Expression.BinaryOperator.Add[61L,31C-52C(1613-1634)]
+  Expression.BinaryOperator.Neq[55L,12C-31C(1454-1473)] -> Expression.BinaryOperator.Neq[56L,12C-33C(1490-1511)]
+
+[significance=1] expression removed (3)
+  Primary.Literal.Null[21L,34C-37C(572-575)]* from VariableDeclarator(m_revertChange,0,false)[20L,19C-32C(559-572)]
+  Primary.This[30L,8C-11C(863-866)]* from Primary.FieldAccess(m_revertChange)[31L,8C-21C(880-893)]
+  Primary.Literal.False[22L,36C-40C(614-618)]* from VariableDeclarator(m_onlyUnchanged,0,false)[21L,20C-34C(595-609)]
+
+[significance=1] argument modified (1)
+  Primary.InstanceCreation(SimpleP4OutputHandler.<init>#1)(Primary.InstanceCreation(SimpleP4OutputHandler))[58L,45C-77C(1567-1599)] -> Primary.Literal.Null[62L,32C-35C(1669-1672)]
+
+[significance=1] argument changed (1)
+  Primary.InstanceCreation(SimpleP4OutputHandler.<init>#1)(Primary.InstanceCreation(SimpleP4OutputHandler))[58L,45C-77C(1567-1599)] -> Primary.Literal.Null[62L,32C-35C(1669-1672)]
+
+[significance=1] variable declaration renamed (2)
+  VariableDeclarator(onlyUnchanged,0,false)[22L,20C-40C(598-618)] -> VariableDeclarator(m_onlyUnchanged,0,false)[21L,20C-34C(595-609)]
+  VariableDeclarator(revertChange,0,false)[21L,19C-37C(557-575)] -> VariableDeclarator(m_revertChange,0,false)[20L,19C-32C(559-572)]
+
+[significance=1] method invocation modified (1)
+  Statement.Expression.Primary.SimpleMethodInvocation(execP4Command#2)()(Statement.Expression.Primary.SimpleMethodInvocation(execP4Command)())[58L,8C-80C(1530-1602)] -> Statement.Expression.Primary.SimpleMethodInvocation(execP4Command#2)()(Statement.Expression.Primary.SimpleMethodInvocation(execP4Command)())[62L,8C-38C(1645-1675)]
+
+[significance=1] method modified (3)
+  Method(setChange(Ljava.lang.String;)V)(Method(setChange))[24L,4C-32L,4C(626-902)] -> Method(setChange(Ljava.lang.String;)V)(Method(setChange))[23L,4C-32L,4C(617-915)]
+  Method(setRevertOnlyUnchanged(Z)V)[34L,4C-37L,4C(909-1023)] -> Method(setRevertOnlyUnchanged(Z)V)[34L,4C-37L,4C(922-1038)]
+  Method(execute()V)[39L,4C-59L,4C(1030-1608)] -> Method(execute()V)[39L,4C-63L,4C(1045-1681)]
+
+[significance=1] field access renamed (6)
+  Primary.FieldAccess(revertChange)[56L,30C-41C(1507-1518)] -> Primary.FieldAccess(m_revertChange)[58L,30C-43C(1555-1568)]
+  Primary.FieldAccess(revertChange)[30L,8C-24C(863-879)] -> Primary.FieldAccess(m_revertChange)[31L,8C-21C(880-893)]
+  Primary.FieldAccess(onlyUnchanged)[52L,12C-24C(1397-1409)] -> Primary.FieldAccess(m_onlyUnchanged)[51L,12C-26C(1411-1425)]
+  Primary.FieldAccess(P4View)[58L,37C-42C(1559-1564)] -> Primary.FieldAccess(m_p4View)[61L,45C-52C(1627-1634)]
+  Primary.FieldAccess(revertChange)[55L,12C-23C(1454-1465)] -> Primary.FieldAccess(m_revertChange)[56L,12C-25C(1490-1503)]
+  Primary.FieldAccess(onlyUnchanged)[36L,8C-25C(983-1000)] -> Primary.FieldAccess(m_onlyUnchanged)[36L,8C-27C(996-1015)]

@@ -1,0 +1,54 @@
+*** Modified Units ***
+Method(setFullpath(Ljava.lang.String;)V)(612L,8C-614L,8C(20912-21001)): [DELETED] 12(1) changed [d:12(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(getFiles(Lorg.apache.tools.ant.Project;)[Ljava.lang.String;)(471L,8C-483L,8C(16768-17355)): [MODIFIED] 50(12) changed [d:0(0)i:3(1)r:4(4)m:43(7)], 59 mapped
+Method(setGid(I)V)(577L,8C-579L,8C(19883-19949)): [DELETED] 12(1) changed [d:12(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(getUid()I)(552L,8C-554L,8C(19221-19275)): [DELETED] 7(1) changed [d:7(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(getUserName()Ljava.lang.String;)(536L,8C-538L,8C(18826-18893)): [DELETED] 7(1) changed [d:7(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(getFullpath()Ljava.lang.String;)(619L,8C-621L,8C(21098-21165)): [DELETED] 7(1) changed [d:7(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Class(TarFileSet)(433L,4C-639L,4C(15557-21684)): [MODIFIED] 252(42) changed [d:194(25)i:7(2)r:8(8)m:43(7)], 133 mapped
+Method(getGid()I)(584L,8C-586L,8C(20025-20079)): [DELETED] 7(1) changed [d:7(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(setPrefix(Ljava.lang.String;)V)(594L,8C-596L,8C(20300-20381)): [DELETED] 12(1) changed [d:12(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Class(TarCompressionMethod)(710L,4C-765L,4C(23418-25065)): [MODIFIED] 7(7) changed [d:0(0)i:0(0)r:7(7)m:0(0)], 106 mapped
+Method(execute()V)(190L,4C-304L,4C(6244-11087)): [MODIFIED] 236(50) changed [d:13(5)i:58(7)r:20(20)m:145(18)], 401 mapped
+Method(setGroup(Ljava.lang.String;)V)(561L,8C-563L,8C(19470-19559)): [DELETED] 12(1) changed [d:12(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(getMode()I)(499L,8C-501L,8C(17815-17875)): [MODIFIED] 5(2) changed [d:0(0)i:4(1)r:1(1)m:0(0)], 6 mapped
+Method(setUserName(Ljava.lang.String;)V)(529L,8C-531L,8C(18651-18740)): [DELETED] 12(1) changed [d:12(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(getGroup()Ljava.lang.String;)(568L,8C-570L,8C(19636-19701)): [DELETED] 7(1) changed [d:7(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(createTarFileSet()Lorg.apache.tools.ant.taskdefs.Tar$TarFileSet;)(96L,4C-100L,4C(3022-3174)): [MODIFIED] 6(5) changed [d:0(0)i:2(1)r:4(4)m:0(0)], 16 mapped
+Method(getDirMode()I)(520L,8C-522L,8C(18408-18470)): [DELETED] 7(1) changed [d:7(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(getPrefix()Ljava.lang.String;)(601L,8C-603L,8C(20481-20544)): [DELETED] 7(1) changed [d:7(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(tarFile(Ljava.io.File;Lorg.apache.tools.tar.TarOutputStream;Ljava.lang.String;Lorg.apache.tools.ant.taskdefs.Tar$TarFileSet;)V)(314L,4C-403L,4C(11351-14556)): [MOVED] 63(30) changed [d:13(5)i:14(2)r:19(19)m:17(4)], 300 mapped
+Method(setDirMode(Ljava.lang.String;)V)(511L,8C-514L,8C(18151-18301)): [DELETED] 17(1) changed [d:17(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(setMode(Ljava.lang.String;)V)(491L,8C-494L,8C(17594-17743)): [MODIFIED] 8(5) changed [d:6(3)i:0(0)r:2(2)m:0(0)], 10 mapped
+Method(setUid(I)V)(545L,8C-547L,8C(19075-19141)): [DELETED] 12(1) changed [d:12(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(compress(Ljava.io.OutputStream;)Ljava.io.OutputStream;)(751L,8C-764L,8C(24559-25059)): [MODIFIED] 7(7) changed [d:0(0)i:0(0)r:7(7)m:0(0)], 51 mapped
+Class(Tar)(49L,0C-766L,0C(1578-25067)): [MODIFIED] 1302(164) changed [d:220(35)i:819(42)r:58(58)m:205(29)], 1292 mapped
+Method(tar(Lorg.apache.tools.ant.types.ResourceCollection;Lorg.apache.tools.tar.TarOutputStream;)V)(623L,4C-663L,4C(22631-24297)): [INSERTED] 132(7) changed [d:0(0)i:132(7)r:0(0)m:0(0)], 0 mapped
+Method(tarResource(Lorg.apache.tools.ant.types.Resource;Lorg.apache.tools.tar.TarOutputStream;Ljava.lang.String;Lorg.apache.tools.ant.taskdefs.Tar$TarFileSet;)V)(349L,4C-476L,4C(12569-17186)): [INSERTED] 159(10) changed [d:0(0)i:159(10)r:0(0)m:0(0)], 0 mapped
+Method(check(Lorg.apache.tools.ant.types.ResourceCollection;)Z)(544L,4C-587L,4C(19619-21468)): [INSERTED] 208(3) changed [d:0(0)i:208(3)r:0(0)m:0(0)], 0 mapped
+Method(supportsNonFileResources()Z)(526L,4C-528L,4C(19009-19105)): [INSERTED] 12(1) changed [d:0(0)i:12(1)r:0(0)m:0(0)], 0 mapped
+Method(isFileFileSet(Lorg.apache.tools.ant.types.ResourceCollection;)Z)(670L,4C-672L,4C(24463-24600)): [INSERTED] 18(1) changed [d:0(0)i:18(1)r:0(0)m:0(0)], 0 mapped
+Method(asTarFileSet(Lorg.apache.tools.ant.types.ArchiveFileSet;)Lorg.apache.tools.ant.taskdefs.Tar$TarFileSet;)(699L,4C-738L,4C(25606-27342)): [INSERTED] 135(1) changed [d:0(0)i:135(1)r:0(0)m:0(0)], 0 mapped
+Method(check(Ljava.io.File;[Ljava.lang.String;)Z)(598L,4C-611L,4C(21810-22294)): [INSERTED] 16(1) changed [d:0(0)i:16(1)r:0(0)m:0(0)], 0 mapped
+Method(archiveIsUpToDate(Lorg.apache.tools.ant.types.Resource;)Z)(509L,4C-513L,4C(18303-18568)): [INSERTED] 20(1) changed [d:0(0)i:20(1)r:0(0)m:0(0)], 0 mapped
+Method(getFileNames(Lorg.apache.tools.ant.types.FileSet;)[Ljava.lang.String;)(680L,4C-689L,4C(24777-25308)): [INSERTED] 18(3) changed [d:0(0)i:18(3)r:0(0)m:0(0)], 0 mapped
+Method(add(Lorg.apache.tools.ant.types.ResourceCollection;)V)(128L,4C-130L,4C(4230-4314)): [INSERTED] 12(1) changed [d:0(0)i:12(1)r:0(0)m:0(0)], 0 mapped
+*** Unmodified Units ***
+Method(getValues()[Ljava.lang.String;)(739L,8C-741L,8C(24147-24239))
+Class(TarLongFileMode)(645L,4C-704L,4C(21772-23331))
+Method(isOmitMode()Z)(701L,8C-703L,8C(23233-23325))
+Method(isFailMode()Z)(694L,8C-696L,8C(23062-23154))
+Method(isGnuMode()Z)(687L,8C-689L,8C(22893-22983))
+Method(isWarnMode()Z)(680L,8C-682L,8C(22723-22815))
+Method(isTruncateMode()Z)(673L,8C-675L,8C(22544-22644))
+Method(getValues()[Ljava.lang.String;)(666L,8C-668L,8C(22392-22461))
+Method(getPreserveLeadingSlashes()Z)(636L,8C-638L,8C(21582-21678))
+Method(setPreserveLeadingSlashes(Z)V)(629L,8C-631L,8C(21398-21502))
+Method(archiveIsUpToDate([Ljava.lang.String;Ljava.io.File;)Z)(422L,4C-427L,4C(15156-15441))
+Method(archiveIsUpToDate([Ljava.lang.String;)Z)(411L,4C-413L,4C(14789-14897))
+Method(setCompression(Lorg.apache.tools.ant.taskdefs.Tar$TarCompressionMethod;)V)(182L,4C-184L,4C(6066-6159))
+Method(setLongfile(Lorg.apache.tools.ant.taskdefs.Tar$TarLongFileMode;)V)(168L,4C-170L,4C(5719-5805))
+Method(setLongfile(Ljava.lang.String;)V)(147L,4C-152L,4C(4815-5090))
+Method(setBasedir(Ljava.io.File;)V)(125L,4C-127L,4C(3830-3905))
+Method(setDestFile(Ljava.io.File;)V)(117L,4C-119L,4C(3623-3701))
+Method(setTarfile(Ljava.io.File;)V)(108L,4C-110L,4C(3393-3468))

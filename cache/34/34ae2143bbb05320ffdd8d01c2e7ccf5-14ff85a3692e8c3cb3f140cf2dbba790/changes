@@ -1,0 +1,190 @@
+*** Extracted Changes ***
+
+[significance=4] argument added (2)
+  Primary.Name(descr)(Primary.Name(descr))[45L,18C-22C(1146-1150)]* into NamedArguments(setFullpath)[45L,22C-42C(1332-1352)]
+  Primary.Name(message)(Primary.Name(message))[42L,37C-43C(1106-1112)]* into Statement.If(f1241ce2c4d0507d7c8c3780ea59ce2e;Expression.UnaryOperator.Not)[38L,8C-39L,108C(933-1078)]
+
+[significance=4] argument removed (1)
+  Primary.Name(fs)(Primary.Name(fs))[46L,26C-27C(1381-1382)]* from MethodBody(setWebxml(Ljava.io.File;)V)(MethodBody(setWebxml(LFile;)V))[36L,4C-46L,4C(888-1178)]
+
+[significance=4] final modifier added (9)
+  Modifier.Final[40L,12C-16C(971-975)]* into Statement.If(f1241ce2c4d0507d7c8c3780ea59ce2e;Expression.UnaryOperator.Not)[38L,8C-39L,108C(933-1078)]
+  Modifier.Final[48L,28C-32C(1209-1213)]* into Parameter(fs,0,)[49L,28C-40C(1422-1434)]
+  Modifier.Final[81L,28C-32C(2182-2186)]* into Parameter(file,0,)[92L,28C-36C(2599-2607)]
+  Modifier.Final[62L,27C-31C(1614-1618)]* into Parameter(fs,0,)[63L,27C-39C(1815-1827)]
+  Modifier.Final[82L,28C-32C(2227-2231)]* into Parameter(zOut,0,)[92L,39C-58C(2610-2629)]
+  Modifier.Final[69L,40C-44C(1825-1829)]* into Parameter(zOut,0,)[80L,40C-59C(2236-2255)]
+  Modifier.Final[34L,27C-31C(836-840)]* into Parameter(descr,0,)[34L,27C-36C(839-848)]
+  Modifier.Final[55L,24C-28C(1412-1416)]* into Parameter(fs,0,)[56L,24C-36C(1619-1631)]
+  Modifier.Final[83L,28C-32C(2283-2287)]* into Parameter(vPath,0,)[92L,61C-72C(2632-2643)]
+
+[significance=4] method removed (1)
+  Method(cleanUp()V)[74L,4C-78L,4C(2100-2193)]* from ClassBody(War)[23L,0C-110L,0C(626-3327)]
+
+[significance=3] field renamed (2)
+  FieldDeclaration(descriptorAdded[0)[25L,4C-35C(668-699)] -> FieldDeclaration(m_descriptorAdded[0)[25L,4C-37C(659-692)]
+  FieldDeclaration(deploymentDescriptor[0)[24L,4C-37C(629-662)] -> FieldDeclaration(m_webxml[0)[24L,4C-25C(632-653)]
+
+[significance=2] statement moved (1)
+  Statement.Throw: [39L,12C-108C(982-1078)] -> [42L,12C-46C(1081-1115)]
+
+[significance=2] statement removed (1)
+  Statement.Expression.AssignmentOperator.Eq()()[76L,8C-31C(2139-2162)]* from ClassBody(War)[23L,0C-110L,0C(626-3327)]
+
+[significance=2] instance creation removed (2)
+  Primary.InstanceCreation(org.apache.tools.ant.types.ZipFileSet.<init>#0)(Primary.InstanceCreation(ZipFileSet))[42L,24C-39C(1167-1182)]* from MethodBody(setWebxml(Ljava.io.File;)V)(MethodBody(setWebxml(LFile;)V))[36L,4C-46L,4C(888-1178)]
+  Primary.InstanceCreation(java.io.File.<init>#1)(Primary.InstanceCreation(File))[43L,19C-62C(1204-1247)]* from MethodBody(setWebxml(Ljava.io.File;)V)(MethodBody(setWebxml(LFile;)V))[36L,4C-46L,4C(888-1178)]
+
+[significance=2] variable declaration removed (2)
+  LocalVariableDeclaration(true,fs[0)[42L,8C-40C(1151-1183)]* from MethodBody(setWebxml(Ljava.io.File;)V)(MethodBody(setWebxml(LFile;)V))[36L,4C-46L,4C(888-1178)]
+  VariableDeclarator(fs,0,true)[42L,19C-39C(1162-1182)]* from MethodBody(setWebxml(Ljava.io.File;)V)(MethodBody(setWebxml(LFile;)V))[36L,4C-46L,4C(888-1178)]
+
+[significance=2] block inserted (1)
+  Block(block)[39L,8C-43L,8C(957-1125)] into Statement.If(f1241ce2c4d0507d7c8c3780ea59ce2e;Expression.UnaryOperator.Not)[38L,8C-39L,108C(933-1078)]
+
+[significance=2] modifier removed (1)
+  Modifier.Protected[74L,4C-12C(2100-2108)]* from ClassBody(War)[23L,0C-110L,0C(626-3327)]
+
+[significance=2] condition expression modified (3)
+  Expression.UnaryOperator.Not[38L,12C-41C(937-966)] -> Expression.UnaryOperator.Not[38L,12C-29C(928-945)]
+  Expression.BinaryOperator.And[84L,12C-60C(2377-2425)] -> Expression.BinaryOperator.And[73L,12C-48C(1972-2008)]
+  Expression.BinaryOperator.Or[101L,16C-102C(3052-3138)] -> Expression.BinaryOperator.Or[92L,16C-80C(2709-2773)]
+
+[significance=1] (changed) (3)
+  NamedArguments(setFullpath)[45L,22C-42C(1332-1352)] -> NamedArguments(addFileAs)[45L,17C-43C(1145-1171)]
+  Modifiers(descriptorAdded#f)[25L,4C-10C(668-674)] -> Modifiers(m_descriptorAdded#f)[25L,4C-10C(659-665)]
+  Modifiers(deploymentDescriptor#f)[24L,4C-10C(629-635)] -> Modifiers(m_webxml#f)[24L,4C-10C(632-638)]
+
+[significance=1] (moved) (2)
+  Type.ClassOrInterface(org.apache.myrmidon.api.TaskException): [39L,22C-34C(992-1004)] -> [42L,22C-34C(1091-1103)]
+  NamedArguments(org.apache.myrmidon.api.TaskException): [39L,35C-107C(1005-1077)] -> [42L,35C-45C(1104-1114)]
+
+[significance=1] (inserted) (2)
+  LocalVariableDeclaration(true,message[0)[40L,12C-41L,45C(971-1067)] into Statement.If(f1241ce2c4d0507d7c8c3780ea59ce2e;Expression.UnaryOperator.Not)[38L,8C-39L,108C(933-1078)]
+  VariableDeclarator(message,0,true)[40L,25C-41L,44C(984-1066)] into Statement.If(f1241ce2c4d0507d7c8c3780ea59ce2e;Expression.UnaryOperator.Not)[38L,8C-39L,108C(933-1078)]
+
+[significance=1] (added) (10)
+  Modifiers(zOut#p)[69L,40C-44C(1825-1829)]* into Parameter(zOut,0,)[80L,40C-59C(2236-2255)]
+  Modifiers(descr#p)[34L,27C-31C(836-840)]* into Parameter(descr,0,)[34L,27C-36C(839-848)]
+  Modifiers(zOut#p)[82L,28C-32C(2227-2231)]* into Parameter(zOut,0,)[92L,39C-58C(2610-2629)]
+  Modifiers(fs#p)[62L,27C-31C(1614-1618)]* into Parameter(fs,0,)[63L,27C-39C(1815-1827)]
+  Modifiers(fs#p)[48L,28C-32C(1209-1213)]* into Parameter(fs,0,)[49L,28C-40C(1422-1434)]
+  Type.ClassOrInterface(java.lang.String)(Type.ClassOrInterface(String))[40L,18C-23C(977-982)]* into Statement.If(f1241ce2c4d0507d7c8c3780ea59ce2e;Expression.UnaryOperator.Not)[38L,8C-39L,108C(933-1078)]
+  Modifiers(vPath#p)[83L,28C-32C(2283-2287)]* into Parameter(vPath,0,)[92L,61C-72C(2632-2643)]
+  Modifiers(file#p)[81L,28C-32C(2182-2186)]* into Parameter(file,0,)[92L,28C-36C(2599-2607)]
+  Modifiers(fs#p)[55L,24C-28C(1412-1416)]* into Parameter(fs,0,)[56L,24C-36C(1619-1631)]
+  Modifiers(message#l)[40L,12C-16C(971-975)]* into Statement.If(f1241ce2c4d0507d7c8c3780ea59ce2e;Expression.UnaryOperator.Not)[38L,8C-39L,108C(933-1078)]
+
+[significance=1] (removed) (16)
+  NamedArguments(setIncludes)[44L,22C-55C(1274-1307)]* from MethodBody(setWebxml(Ljava.io.File;)V)(MethodBody(setWebxml(LFile;)V))[36L,4C-46L,4C(888-1178)]
+  Type.ClassOrInterface(org.apache.tools.ant.types.ZipFileSet)(Type.ClassOrInterface(ZipFileSet))[42L,8C-17C(1151-1160)]* from MethodBody(setWebxml(Ljava.io.File;)V)(MethodBody(setWebxml(LFile;)V))[36L,4C-46L,4C(888-1178)]
+  NamedArguments(addFileset)[46L,24C-29C(1379-1384)]* from MethodBody(setWebxml(Ljava.io.File;)V)(MethodBody(setWebxml(LFile;)V))[36L,4C-46L,4C(888-1178)]
+  Super[46L,8C-12C(1363-1367)]* from MethodBody(setWebxml(Ljava.io.File;)V)(MethodBody(setWebxml(LFile;)V))[36L,4C-46L,4C(888-1178)]
+  Super[77L,8C-12C(2172-2176)]* from ClassBody(War)[23L,0C-110L,0C(626-3327)]
+  Type.Void(Type.Void)[74L,14C-17C(2110-2113)]* from ClassBody(War)[23L,0C-110L,0C(626-3327)]
+  NamedArguments(java.io.File)(NamedArguments(File))[43L,27C-62C(1212-1247)]* from MethodBody(setWebxml(Ljava.io.File;)V)(MethodBody(setWebxml(LFile;)V))[36L,4C-46L,4C(888-1178)]
+  Type.ClassOrInterface(org.apache.tools.ant.types.ZipFileSet)(Type.ClassOrInterface(ZipFileSet))[42L,28C-37C(1171-1180)]* from MethodBody(setWebxml(Ljava.io.File;)V)(MethodBody(setWebxml(LFile;)V))[36L,4C-46L,4C(888-1178)]
+  NamedArguments(org.apache.tools.ant.types.ZipFileSet)(NamedArguments(ZipFileSet))[42L,38C-39C(1181-1182)]* from MethodBody(setWebxml(Ljava.io.File;)V)(MethodBody(setWebxml(LFile;)V))[36L,4C-46L,4C(888-1178)]
+  MethodBody(cleanUp()V)[75L,4C-78L,4C(2129-2193)]* from ClassBody(War)[23L,0C-110L,0C(626-3327)]
+  NamedArguments(getParent)[43L,59C-60C(1244-1245)]* from MethodBody(setWebxml(Ljava.io.File;)V)(MethodBody(setWebxml(LFile;)V))[36L,4C-46L,4C(888-1178)]
+  Type.ClassOrInterface(java.io.File)(Type.ClassOrInterface(File))[43L,23C-26C(1208-1211)]* from MethodBody(setWebxml(Ljava.io.File;)V)(MethodBody(setWebxml(LFile;)V))[36L,4C-46L,4C(888-1178)]
+  Modifiers(cleanUp#m)[74L,4C-12C(2100-2108)]* from ClassBody(War)[23L,0C-110L,0C(626-3327)]
+  NamedArguments(cleanUp)[77L,21C-22C(2185-2186)]* from ClassBody(War)[23L,0C-110L,0C(626-3327)]
+  NamedArguments(setDir)[43L,17C-64C(1202-1249)]* from MethodBody(setWebxml(Ljava.io.File;)V)(MethodBody(setWebxml(LFile;)V))[36L,4C-46L,4C(888-1178)]
+  NamedArguments(getName)[44L,52C-53C(1304-1305)]* from MethodBody(setWebxml(Ljava.io.File;)V)(MethodBody(setWebxml(LFile;)V))[36L,4C-46L,4C(888-1178)]
+
+[significance=1] statement modified (10)
+  Statement.Expression.AssignmentOperator.Eq()()[111L,16C-38C(3551-3573)] -> Statement.Expression.AssignmentOperator.Eq()()[102L,16C-40C(3190-3214)]
+  Statement.If(79cc0b015a3728e9a9ac4f5fab2095f2;Expression.BinaryOperator.And)[84L,8C-87L,8C(2373-2518)] -> Statement.If(6e61f7ced9b5c1ca00720cb6357f4084;Expression.BinaryOperator.And)[73L,8C-76L,8C(1968-2101)]
+  Statement.Expression.AssignmentOperator.Eq()()[37L,8C-36C(895-923)] -> Statement.Expression.AssignmentOperator.Eq()()[37L,8C-24C(898-914)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(setFullpath#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(setFullpath)())[45L,8C-43C(1318-1353)] -> Statement.Expression.Primary.SimpleMethodInvocation(addFileAs#2)()(Statement.Expression.Primary.SimpleMethodInvocation(addFileAs)())[45L,8C-44C(1136-1172)]
+  Statement.Expression.AssignmentOperator.Eq()()[30L,8C-27C(750-769)] -> Statement.Expression.AssignmentOperator.Eq()()[30L,8C-29C(743-764)]
+  Statement.Expression.AssignmentOperator.Eq()()[31L,8C-32C(779-803)] -> Statement.Expression.AssignmentOperator.Eq()()[31L,8C-34C(774-800)]
+  Statement.If(36d314ac95fddec3340ef9dfd9b69e9f;Expression.BinaryOperator.Or)[101L,12C-112L,12C(3048-3587)] -> Statement.If(df4e8c1ef8b4509dfce6a240567b2e64;Expression.BinaryOperator.Or)[92L,12C-103L,12C(2705-3228)]
+  Statement.If(52558b2b7f911bfb74d04b9192c1cefa;Primary.PrimaryMethodInvocation())[99L,8C-117L,8C(2976-3678)] -> Statement.If(52558b2b7f911bfb74d04b9192c1cefa;Primary.PrimaryMethodInvocation())[90L,8C-108L,8C(2633-3319)]
+  Statement.Throw[39L,12C-108C(982-1078)] -> Statement.Throw[42L,12C-46C(1081-1115)]
+  Statement.If(f1241ce2c4d0507d7c8c3780ea59ce2e;Expression.UnaryOperator.Not)[38L,8C-39L,108C(933-1078)] -> Statement.If(e586940809af31a1409c357c0c850c53;Expression.UnaryOperator.Not)[38L,8C-43L,8C(924-1125)]
+
+[significance=1] statement changed (3)
+  Statement.If(f1241ce2c4d0507d7c8c3780ea59ce2e;Expression.UnaryOperator.Not)[38L,8C-39L,108C(933-1078)] -> Statement.If(e586940809af31a1409c357c0c850c53;Expression.UnaryOperator.Not)[38L,8C-43L,8C(924-1125)]
+  Statement.If(79cc0b015a3728e9a9ac4f5fab2095f2;Expression.BinaryOperator.And)[84L,8C-87L,8C(2373-2518)] -> Statement.If(6e61f7ced9b5c1ca00720cb6357f4084;Expression.BinaryOperator.And)[73L,8C-76L,8C(1968-2101)]
+  Statement.If(36d314ac95fddec3340ef9dfd9b69e9f;Expression.BinaryOperator.Or)[101L,12C-112L,12C(3048-3587)] -> Statement.If(df4e8c1ef8b4509dfce6a240567b2e64;Expression.BinaryOperator.Or)[92L,12C-103L,12C(2705-3228)]
+
+[significance=1] expression modified (17)
+  Primary.PrimaryMethodInvocation(exists#0)(Primary.PrimaryMethodInvocation(exists))[38L,13C-41C(938-966)] -> Primary.PrimaryMethodInvocation(exists#0)(Primary.PrimaryMethodInvocation(exists))[38L,13C-29C(929-945)]
+  Expression.UnaryOperator.Not[38L,12C-41C(937-966)] -> Expression.UnaryOperator.Not[38L,12C-29C(928-945)]
+  Primary.PrimaryMethodInvocation(equals#1)(Primary.PrimaryMethodInvocation(equals))[101L,49C-83C(3085-3119)] -> Primary.PrimaryMethodInvocation(equals#1)(Primary.PrimaryMethodInvocation(equals))[92L,37C-59C(2730-2752)]
+  Expression.UnaryOperator.Not[101L,48C-83C(3084-3119)] -> Expression.UnaryOperator.Not[92L,36C-59C(2729-2752)]
+  Expression.BinaryOperator.Eq[84L,12C-39C(2377-2404)] -> Expression.BinaryOperator.Eq[73L,12C-27C(1972-1987)]
+  Expression.BinaryOperator.And[84L,12C-60C(2377-2425)] -> Expression.BinaryOperator.And[73L,12C-48C(1972-2008)]
+  Expression.BinaryOperator.Add[39L,37C-84C(1007-1054)] -> Expression.BinaryOperator.Add[40L,35C-41L,23C(994-1045)]
+  Expression.BinaryOperator.Add[39L,37C-105C(1007-1075)] -> Expression.BinaryOperator.Add[40L,35C-41L,44C(994-1066)]
+  Expression.BinaryOperator.Add[103L,39C-72C(3195-3228)] -> Expression.BinaryOperator.Add[94L,39C-74C(2830-2865)]
+  Expression.BinaryOperator.Add[103L,39C-104L,76C(3195-3308)] -> Expression.BinaryOperator.Add[94L,39C-95L,76C(2830-2945)]
+  Expression.BinaryOperator.Add[103L,39C-105L,53C(3195-3365)] -> Expression.BinaryOperator.Add[94L,39C-96L,53C(2830-3002)]
+  Expression.BinaryOperator.Add[103L,39C-105L,67C(3195-3379)] -> Expression.BinaryOperator.Add[94L,39C-96L,69C(2830-3018)]
+  Expression.BinaryOperator.Add[103L,39C-105L,78C(3195-3390)] -> Expression.BinaryOperator.Add[94L,39C-96L,80C(2830-3029)]
+  Expression.BinaryOperator.Eq[101L,16C-43C(3052-3079)] -> Expression.BinaryOperator.Eq[92L,16C-31C(2709-2724)]
+  Expression.BinaryOperator.Or[101L,16C-83C(3052-3119)] -> Expression.BinaryOperator.Or[92L,16C-59C(2709-2752)]
+  Expression.BinaryOperator.Or[101L,16C-102C(3052-3138)] -> Expression.BinaryOperator.Or[92L,16C-80C(2709-2773)]
+  Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[39L,18C-107C(988-1077)] -> Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[42L,18C-45C(1087-1114)]
+
+[significance=1] expression moved (1)
+  Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1): [39L,18C-107C(988-1077)] -> [42L,18C-45C(1087-1114)]
+
+[significance=1] expression removed (7)
+  Primary.FieldAccess(deploymentDescriptor)[44L,24C-43C(1276-1295)]* from MethodBody(setWebxml(Ljava.io.File;)V)(MethodBody(setWebxml(LFile;)V))[36L,4C-46L,4C(888-1178)]
+  Primary.FieldAccess(descriptorAdded)[76L,8C-22C(2139-2153)]* from ClassBody(War)[23L,0C-110L,0C(626-3327)]
+  Primary.Name(fs)(Primary.Name(fs))[45L,8C-9C(1318-1319)]* from Statement.Expression.Primary.SimpleMethodInvocation(addFileAs#2)()(Statement.Expression.Primary.SimpleMethodInvocation(addFileAs)())[45L,8C-44C(1136-1172)]
+  Primary.Name(fs)(Primary.Name(fs))[44L,8C-9C(1260-1261)]* from MethodBody(setWebxml(Ljava.io.File;)V)(MethodBody(setWebxml(LFile;)V))[36L,4C-46L,4C(888-1178)]
+  Primary.Literal.False[76L,26C-30C(2157-2161)]* from ClassBody(War)[23L,0C-110L,0C(626-3327)]
+  Primary.Name(fs)(Primary.Name(fs))[43L,8C-9C(1193-1194)]* from MethodBody(setWebxml(Ljava.io.File;)V)(MethodBody(setWebxml(LFile;)V))[36L,4C-46L,4C(888-1178)]
+  Primary.FieldAccess(deploymentDescriptor)[43L,29C-48C(1214-1233)]* from MethodBody(setWebxml(Ljava.io.File;)V)(MethodBody(setWebxml(LFile;)V))[36L,4C-46L,4C(888-1178)]
+
+[significance=1] constructor invocation modified (1)
+  Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[39L,18C-107C(988-1077)] -> Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[42L,18C-45C(1087-1114)]
+
+[significance=1] instance creation modified (1)
+  Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[39L,18C-107C(988-1077)] -> Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[42L,18C-45C(1087-1114)]
+
+[significance=1] variable declaration renamed (2)
+  VariableDeclarator(deploymentDescriptor,0,false)[24L,17C-36C(642-661)] -> VariableDeclarator(m_webxml,0,false)[24L,17C-24C(645-652)]
+  VariableDeclarator(descriptorAdded,0,false)[25L,20C-34C(684-698)] -> VariableDeclarator(m_descriptorAdded,0,false)[25L,20C-36C(675-691)]
+
+[significance=1] method invocation removed (6)
+  Primary.PrimaryMethodInvocation(getName#0)(Primary.PrimaryMethodInvocation(getName))[44L,24C-53C(1276-1305)]* from MethodBody(setWebxml(Ljava.io.File;)V)(MethodBody(setWebxml(LFile;)V))[36L,4C-46L,4C(888-1178)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(setIncludes#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(setIncludes)())[44L,8C-56C(1260-1308)]* from MethodBody(setWebxml(Ljava.io.File;)V)(MethodBody(setWebxml(LFile;)V))[36L,4C-46L,4C(888-1178)]
+  Statement.Expression.Primary.SuperMethodInvocation(addFileset#1)()(Statement.Expression.Primary.SuperMethodInvocation(addFileset)())[46L,8C-30C(1363-1385)]* from MethodBody(setWebxml(Ljava.io.File;)V)(MethodBody(setWebxml(LFile;)V))[36L,4C-46L,4C(888-1178)]
+  Statement.Expression.Primary.SuperMethodInvocation(cleanUp#0)()(Statement.Expression.Primary.SuperMethodInvocation(cleanUp)())[77L,8C-23C(2172-2187)]* from ClassBody(War)[23L,0C-110L,0C(626-3327)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(setDir#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(setDir)())[43L,8C-65C(1193-1250)]* from MethodBody(setWebxml(Ljava.io.File;)V)(MethodBody(setWebxml(LFile;)V))[36L,4C-46L,4C(888-1178)]
+  Primary.PrimaryMethodInvocation(getParent#0)(Primary.PrimaryMethodInvocation(getParent))[43L,29C-60C(1214-1245)]* from MethodBody(setWebxml(Ljava.io.File;)V)(MethodBody(setWebxml(LFile;)V))[36L,4C-46L,4C(888-1178)]
+
+[significance=1] method invocation changed (1)
+  Statement.Expression.Primary.PrimaryMethodInvocation(setFullpath#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(setFullpath)())[45L,8C-43C(1318-1353)] -> Statement.Expression.Primary.SimpleMethodInvocation(addFileAs#2)()(Statement.Expression.Primary.SimpleMethodInvocation(addFileAs)())[45L,8C-44C(1136-1172)]
+
+[significance=1] method invocation modified (3)
+  Primary.PrimaryMethodInvocation(exists#0)(Primary.PrimaryMethodInvocation(exists))[38L,13C-41C(938-966)] -> Primary.PrimaryMethodInvocation(exists#0)(Primary.PrimaryMethodInvocation(exists))[38L,13C-29C(929-945)]
+  Primary.PrimaryMethodInvocation(equals#1)(Primary.PrimaryMethodInvocation(equals))[101L,49C-83C(3085-3119)] -> Primary.PrimaryMethodInvocation(equals#1)(Primary.PrimaryMethodInvocation(equals))[92L,37C-59C(2730-2752)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(setFullpath#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(setFullpath)())[45L,8C-43C(1318-1353)] -> Statement.Expression.Primary.SimpleMethodInvocation(addFileAs#2)()(Statement.Expression.Primary.SimpleMethodInvocation(addFileAs)())[45L,8C-44C(1136-1172)]
+
+[significance=1] method modified (6)
+  Method(addClasses(Lorg.apache.tools.ant.types.ZipFileSet;)V)(Method(addClasses))[49L,4C-54L,4C(1398-1592)] -> Method(addClasses(Lorg.apache.tools.ant.types.ZipFileSet;)V)(Method(addClasses))[48L,4C-53L,4C(1185-1385)]
+  Method(addWebinf(Lorg.apache.tools.ant.types.ZipFileSet;)V)(Method(addWebinf))[63L,4C-68L,4C(1792-1977)] -> Method(addWebinf(Lorg.apache.tools.ant.types.ZipFileSet;)V)(Method(addWebinf))[62L,4C-67L,4C(1591-1782)]
+  Method(addLib(Lorg.apache.tools.ant.types.ZipFileSet;)V)(Method(addLib))[56L,4C-61L,4C(1599-1785)] -> Method(addLib(Lorg.apache.tools.ant.types.ZipFileSet;)V)(Method(addLib))[55L,4C-60L,4C(1392-1584)]
+  Method(initZipOutputStream(Lorg.apache.tools.zip.ZipOutputStream;)V)(Method(initZipOutputStream))[80L,4C-90L,4C(2200-2568)] -> Method(initZipOutputStream(Lorg.apache.tools.zip.ZipOutputStream;)V)(Method(initZipOutputStream))[69L,4C-79L,4C(1789-2151)]
+  Method(zipFile(Ljava.io.File;Lorg.apache.tools.zip.ZipOutputStream;Ljava.lang.String;)V)(Method(zipFile))[92L,4C-118L,4C(2575-3684)] -> Method(zipFile(Ljava.io.File;Lorg.apache.tools.zip.ZipOutputStream;Ljava.lang.String;)V)(Method(zipFile))[81L,4C-109L,4C(2158-3325)]
+  Method(setWebxml(Ljava.io.File;)V)(Method(setWebxml))[34L,4C-47L,4C(816-1391)] -> Method(setWebxml(Ljava.io.File;)V)(Method(setWebxml))[34L,4C-46L,4C(813-1178)]
+
+[significance=1] field access renamed (12)
+  Primary.FieldAccess(deploymentDescriptor)[38L,13C-32C(938-957)] -> Primary.FieldAccess(m_webxml)[38L,13C-20C(929-936)]
+  Primary.FieldAccess(archiveType)[105L,57C-67C(3369-3379)] -> Primary.FieldAccess(m_archiveType)[96L,57C-69C(3006-3018)]
+  Primary.FieldAccess(descriptorAdded)[111L,16C-30C(3551-3565)] -> Primary.FieldAccess(m_descriptorAdded)[102L,16C-32C(3190-3206)]
+  Primary.FieldAccess(deploymentDescriptor)[101L,49C-68C(3085-3104)] -> Primary.FieldAccess(m_webxml)[92L,37C-44C(2730-2737)]
+  Primary.FieldAccess(deploymentDescriptor)[84L,12C-31C(2377-2396)] -> Primary.FieldAccess(m_webxml)[73L,12C-19C(1972-1979)]
+  Primary.FieldAccess(deploymentDescriptor)[37L,8C-27C(895-914)] -> Primary.FieldAccess(m_webxml)[37L,8C-15C(898-905)]
+  Primary.FieldAccess(deploymentDescriptor)[39L,65C-84C(1035-1054)] -> Primary.FieldAccess(m_webxml)[41L,16C-23C(1038-1045)]
+  Primary.FieldAccess(archiveType)[103L,62C-72C(3218-3228)] -> Primary.FieldAccess(m_archiveType)[94L,62C-74C(2853-2865)]
+  Primary.FieldAccess(deploymentDescriptor)[101L,16C-35C(3052-3071)] -> Primary.FieldAccess(m_webxml)[92L,16C-23C(2709-2716)]
+  Primary.FieldAccess(archiveType)[30L,8C-18C(750-760)] -> Primary.FieldAccess(m_archiveType)[30L,8C-20C(743-755)]
+  Primary.FieldAccess(emptyBehavior)[31L,8C-20C(779-791)] -> Primary.FieldAccess(m_emptyBehavior)[31L,8C-22C(774-788)]
+  Primary.FieldAccess(descriptorAdded)[101L,88C-102C(3124-3138)] -> Primary.FieldAccess(m_descriptorAdded)[92L,64C-80C(2757-2773)]

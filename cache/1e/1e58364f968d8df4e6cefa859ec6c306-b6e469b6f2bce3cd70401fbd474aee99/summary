@@ -1,0 +1,33 @@
+*** Modified Units ***
+Method(setPreserveLastModified(Z)V)(124L,4C-127L,4C(4059-4166)): [MODIFIED] 3(2) changed [d:0(0)i:2(1)r:1(1)m:0(0)], 10 mapped
+Method(createFilterSet()Lorg.apache.tools.ant.types.FilterSet;)(181L,4C-186L,4C(5252-5414)): [MODIFIED] 3(2) changed [d:0(0)i:2(1)r:1(1)m:0(0)], 16 mapped
+Method(setFiltering(Z)V)(81L,4C-84L,4C(2879-2971)): [MODIFIED] 4(3) changed [d:1(1)i:2(1)r:1(1)m:0(0)], 10 mapped
+Method(setTofile(Ljava.io.File;)V)(144L,4C-147L,4C(4464-4547)): [MODIFIED] 4(3) changed [d:1(1)i:2(1)r:1(1)m:0(0)], 10 mapped
+Method(setVerbose(Z)V)(154L,4C-164L,4C(4680-4904)): [MODIFIED] 6(5) changed [d:2(2)i:2(1)r:2(2)m:0(0)], 17 mapped
+Method(execute()V)(210L,4C-273L,4C(6017-8113)): [MODIFIED] 55(49) changed [d:2(2)i:14(8)r:39(39)m:0(0)], 171 mapped
+Method(setFile(Ljava.io.File;)V)(71L,4C-74L,4C(2709-2778)): [MODIFIED] 4(3) changed [d:1(1)i:2(1)r:1(1)m:0(0)], 10 mapped
+Method(doFileOperations()V)(322L,4C-405L,4C(9518-12616)): [MODIFIED] 72(36) changed [d:2(2)i:12(6)r:25(25)m:33(3)], 273 mapped
+Method(setIncludeEmptyDirs(Z)V)(104L,4C-107L,4C(3557-3665)): [MODIFIED] 4(3) changed [d:1(1)i:2(1)r:1(1)m:0(0)], 10 mapped
+Method(createMapper()Lorg.apache.tools.ant.types.Mapper;)(194L,4C-203L,4C(5616-5894)): [MODIFIED] 4(4) changed [d:0(0)i:0(0)r:4(4)m:0(0)], 24 mapped
+Method(buildMap(Ljava.io.File;Ljava.io.File;[Ljava.lang.String;Lorg.apache.tools.ant.util.FileNameMapper;Ljava.util.Hashtable;)V)(285L,4C-316L,4C(8324-9369)): [MODIFIED] 122(40) changed [d:11(5)i:27(11)r:18(18)m:66(6)], 128 mapped
+Method(scan(Ljava.io.File;Ljava.io.File;[Ljava.lang.String;[Ljava.lang.String;)V)(416L,4C-439L,4C(12917-13534)): [MODIFIED] 9(9) changed [d:0(0)i:0(0)r:9(9)m:0(0)], 60 mapped
+Method(getFilterSets()Ljava.util.Vector;)(280L,4C-283L,4C(8247-8317)): [MODIFIED] 1(1) changed [d:0(0)i:0(0)r:1(1)m:0(0)], 6 mapped
+Method(setOverwrite(Z)V)(114L,4C-117L,4C(3794-3891)): [MODIFIED] 4(3) changed [d:1(1)i:2(1)r:1(1)m:0(0)], 10 mapped
+Method(setFlatten(Z)V)(94L,4C-97L,4C(3346-3430)): [MODIFIED] 4(3) changed [d:1(1)i:2(1)r:1(1)m:0(0)], 10 mapped
+Method(addFileset(Lorg.apache.tools.ant.types.FileSet;)V)(171L,4C-174L,4C(5056-5140)): [MODIFIED] 3(2) changed [d:0(0)i:2(1)r:1(1)m:0(0)], 11 mapped
+Method(validateAttributes()V)(451L,4C-512L,4C(13973-15966)): [MODIFIED] 27(27) changed [d:0(0)i:0(0)r:27(27)m:0(0)], 162 mapped
+Method(setTodir(Ljava.io.File;)V)(134L,4C-137L,4C(4277-4356)): [MODIFIED] 4(3) changed [d:1(1)i:2(1)r:1(1)m:0(0)], 10 mapped
+Class(Copy)(45L,0C-513L,0C(1819-15968)): [MODIFIED] 534(286) changed [d:32(26)i:209(57)r:194(194)m:99(9)], 1065 mapped
+Method(getDestDir()Ljava.io.File;)(579L,4C-582L,4C(17532-17596)): [INSERTED] 7(1) changed [d:0(0)i:7(1)r:0(0)m:0(0)], 0 mapped
+Method(getFileCopyMap()Ljava.util.Hashtable;)(564L,4C-567L,4C(17276-17353)): [INSERTED] 7(1) changed [d:0(0)i:7(1)r:0(0)m:0(0)], 0 mapped
+Method(isForceOverwrite()Z)(549L,4C-552L,4C(17032-17112)): [INSERTED] 7(1) changed [d:0(0)i:7(1)r:0(0)m:0(0)], 0 mapped
+Method(isFiltering()Z)(544L,4C-547L,4C(16955-17025)): [INSERTED] 7(1) changed [d:0(0)i:7(1)r:0(0)m:0(0)], 0 mapped
+Method(buildFilterSet()Lorg.apache.tools.ant.types.FilterSetCollection;)(417L,4C-430L,4C(12980-13473)): [INSERTED] 14(2) changed [d:0(0)i:14(2)r:0(0)m:0(0)], 0 mapped
+Method(setForceOverwrite(Z)V)(584L,4C-587L,4C(17603-17721)): [INSERTED] 13(1) changed [d:0(0)i:13(1)r:0(0)m:0(0)], 0 mapped
+Method(getCompleteDirMap()Ljava.util.Hashtable;)(574L,4C-577L,4C(17442-17525)): [INSERTED] 7(1) changed [d:0(0)i:7(1)r:0(0)m:0(0)], 0 mapped
+Method(getVerbosity()I)(554L,4C-557L,4C(17119-17186)): [INSERTED] 7(1) changed [d:0(0)i:7(1)r:0(0)m:0(0)], 0 mapped
+Method(isIncludeEmpty()Z)(559L,4C-562L,4C(17193-17269)): [INSERTED] 7(1) changed [d:0(0)i:7(1)r:0(0)m:0(0)], 0 mapped
+Method(buildFilenameList([Ljava.lang.String;Lorg.apache.tools.ant.util.FileNameMapper;Ljava.io.File;Ljava.io.File;)[Ljava.lang.String;)(306L,4C-331L,4C(9184-10098)): [INSERTED] 44(9) changed [d:0(0)i:44(9)r:0(0)m:0(0)], 0 mapped
+Method(getDirCopyMap()Ljava.util.Hashtable;)(569L,4C-572L,4C(17360-17435)): [INSERTED] 7(1) changed [d:0(0)i:7(1)r:0(0)m:0(0)], 0 mapped
+Method(getFilesets()Ljava.util.Vector;)(539L,4C-542L,4C(16880-16948)): [INSERTED] 7(1) changed [d:0(0)i:7(1)r:0(0)m:0(0)], 0 mapped
+*** Unmodified Units ***

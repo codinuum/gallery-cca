@@ -1,0 +1,28 @@
+*** Modified Units ***
+Method(createWatchdog()Lorg.apache.myrmidon.framework.exec.ExecuteWatchdog;)(345L,4C-351L,4C(9378-9573)): [MODIFIED] 3(3) changed [d:0(0)i:0(0)r:3(3)m:0(0)], 19 mapped
+Method(addEnv(Lorg.apache.tools.ant.types.EnvironmentVariable;)V)(181L,4C-184L,4C(4680-4768)): [MODIFIED] 3(2) changed [d:0(0)i:2(1)r:1(1)m:0(0)], 11 mapped
+Method(setNewenvironment(Z)V)(107L,4C-110L,4C(2954-3045)): [MODIFIED] 5(4) changed [d:0(0)i:2(1)r:3(3)m:0(0)], 10 mapped
+Method(prepareExec()LExecute;)(392L,4C-416L,4C(10511-11451)): [MODIFIED] 18(16) changed [d:2(2)i:4(2)r:12(12)m:0(0)], 100 mapped
+Method(createHandler()LExecuteStreamHandler;)(306L,4C-337L,4C(8156-9188)): [MODIFIED] 22(20) changed [d:2(2)i:4(2)r:16(16)m:0(0)], 79 mapped
+Method(setFailIfExecutionFails(Z)V)(87L,4C-90L,4C(2529-2623)): [DELETED] 11(1) changed [d:11(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(setResultProperty(Ljava.lang.String;)V)(150L,4C-153L,4C(3917-4028)): [MODIFIED] 4(3) changed [d:1(1)i:2(1)r:1(1)m:0(0)], 10 mapped
+Method(setDir(Ljava.io.File;)V)(65L,4C-69L,4C(2110-2200)): [MODIFIED] 6(5) changed [d:1(1)i:2(1)r:3(3)m:0(0)], 12 mapped
+Method(setExecutable(Ljava.lang.String;)V)(76L,4C-80L,4C(2306-2424)): [MODIFIED] 3(2) changed [d:0(0)i:2(1)r:1(1)m:0(0)], 13 mapped
+Method(checkConfiguration()V)(283L,4C-298L,4C(7445-7954)): [MODIFIED] 8(8) changed [d:0(0)i:0(0)r:8(8)m:0(0)], 48 mapped
+Method(isValidOs()Z)(216L,4C-228L,4C(5366-5868)): [MODIFIED] 23(20) changed [d:2(2)i:6(3)r:15(15)m:0(0)], 42 mapped
+Class(ExecTask)(37L,0C-451L,0C(1260-12300)): [MODIFIED] 380(187) changed [d:132(32)i:117(26)r:128(128)m:3(1)], 654 mapped
+Method(setFailonerror(Z)V)(97L,4C-100L,4C(2753-2834)): [DELETED] 11(1) changed [d:11(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(setVMLauncher(Z)V)(171L,4C-174L,4C(4432-4528)): [MODIFIED] 4(3) changed [d:1(1)i:2(1)r:1(1)m:0(0)], 10 mapped
+Method(setOs(Ljava.lang.String;)V)(118L,4C-121L,4C(3200-3263)): [MODIFIED] 4(3) changed [d:1(1)i:2(1)r:1(1)m:0(0)], 10 mapped
+Method(setOutputproperty(Ljava.lang.String;)V)(138L,4C-141L,4C(3616-3715)): [MODIFIED] 4(3) changed [d:1(1)i:2(1)r:1(1)m:0(0)], 10 mapped
+Method(createArg()Lorg.apache.tools.ant.types.Argument;)(191L,4C-194L,4C(4906-4982)): [MODIFIED] 1(1) changed [d:0(0)i:0(0)r:1(1)m:0(0)], 8 mapped
+Method(setOutput(Ljava.io.File;)V)(128L,4C-131L,4C(3388-3456)): [MODIFIED] 6(5) changed [d:1(1)i:2(1)r:3(3)m:0(0)], 10 mapped
+Method(logFlush()V)(356L,4C-368L,4C(9646-9886)): [MODIFIED] 6(6) changed [d:0(0)i:0(0)r:6(6)m:0(0)], 24 mapped
+Method(runExec(LExecute;)V)(425L,4C-449L,4C(11681-12297)): [MODIFIED] 15(3) changed [d:12(1)i:2(1)r:1(1)m:0(0)], 38 mapped
+Method(setTimeout(Ljava.lang.Integer;)V)(160L,4C-163L,4C(4171-4246)): [MODIFIED] 5(4) changed [d:0(0)i:2(1)r:3(3)m:0(0)], 10 mapped
+Method(maybeSetResultPropertyValue(I)V)(376L,4C-384L,4C(10051-10301)): [MODIFIED] 3(3) changed [d:0(0)i:0(0)r:3(3)m:0(0)], 24 mapped
+Method(runExecute(LExecute;)V)(237L,4C-276L,4C(6109-7308)): [MODIFIED] 87(22) changed [d:70(11)i:10(6)r:4(4)m:3(1)], 46 mapped
+Method(writeResultToProperty()V)(239L,4C-254L,4C(6348-6891)): [INSERTED] 63(1) changed [d:0(0)i:63(1)r:0(0)m:0(0)], 0 mapped
+Method(getCommand()Lorg.apache.tools.ant.types.Commandline;)(418L,4C-421L,4C(11754-11831)): [INSERTED] 8(1) changed [d:0(0)i:8(1)r:0(0)m:0(0)], 0 mapped
+*** Unmodified Units ***
+Method(execute()V)(201L,4C-209L,4C(5089-5264))

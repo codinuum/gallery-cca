@@ -1,0 +1,26 @@
+*** Modified Units ***
+Method(setValue(Ljava.lang.String;)V)(89L,4C-92L,4C(2144-2219)): [MODIFIED] 2(2) changed [d:1(1)i:0(0)r:1(1)m:0(0)], 10 mapped
+Method(execute()V)(168L,4C-185L,4C(4194-4652)): [MODIFIED] 6(6) changed [d:0(0)i:0(0)r:6(6)m:0(0)], 39 mapped
+Method(eval()Z)(114L,4C-166L,4C(2658-4187)): [MODIFIED] 56(42) changed [d:11(4)i:8(1)r:37(37)m:0(0)], 144 mapped
+Method(checkFile(Ljava.io.File;Ljava.lang.String;)Z)(331L,4C-357L,4C(9640-10344)): [MODIFIED] 6(6) changed [d:0(0)i:0(0)r:6(6)m:0(0)], 72 mapped
+Method(checkClass(Ljava.lang.String;)Z)(187L,4C-219L,4C(4659-5518)): [MODIFIED] 28(7) changed [d:22(2)i:2(1)r:4(4)m:0(0)], 32 mapped
+Method(setProperty(Ljava.lang.String;)V)(74L,4C-77L,4C(1877-1964)): [MODIFIED] 2(2) changed [d:1(1)i:0(0)r:1(1)m:0(0)], 10 mapped
+Method(checkResource(Ljava.lang.String;)Z)(359L,4C-378L,4C(10351-10905)): [MODIFIED] 39(10) changed [d:31(3)i:3(2)r:5(5)m:0(0)], 19 mapped
+Method(createClasspath()Lorg.apache.tools.ant.types.Path;)(94L,4C-102L,4C(2226-2437)): [MODIFIED] 7(7) changed [d:3(3)i:0(0)r:4(4)m:0(0)], 20 mapped
+Method(createFilepath()Lorg.apache.tools.ant.types.Path;)(104L,4C-112L,4C(2444-2651)): [MODIFIED] 7(7) changed [d:3(3)i:0(0)r:4(4)m:0(0)], 20 mapped
+Method(checkFile()Z)(221L,4C-329L,4C(5525-9633)): [MODIFIED] 28(28) changed [d:0(0)i:0(0)r:28(28)m:0(0)], 262 mapped
+Method(setType(Lorg.apache.tools.ant.taskdefs.Available$FileDir;)V)(84L,4C-87L,4C(2065-2137)): [MODIFIED] 2(2) changed [d:1(1)i:0(0)r:1(1)m:0(0)], 10 mapped
+Method(setResource(Ljava.lang.String;)V)(79L,4C-82L,4C(1971-2058)): [MODIFIED] 2(2) changed [d:1(1)i:0(0)r:1(1)m:0(0)], 10 mapped
+Method(setClassname(Ljava.lang.String;)V)(43L,4C-49L,4C(1241-1394)): [MODIFIED] 2(2) changed [d:1(1)i:0(0)r:1(1)m:0(0)], 17 mapped
+Method(setFile(Ljava.lang.String;)V)(63L,4C-66L,4C(1667-1738)): [MODIFIED] 2(2) changed [d:1(1)i:0(0)r:1(1)m:0(0)], 10 mapped
+Class(Available)(28L,0C-405L,0C(904-11434)): [MODIFIED] 233(154) changed [d:76(21)i:29(5)r:128(128)m:0(0)], 845 mapped
+Method(getClassLoader()Ljava.lang.ClassLoader;)(346L,4C-356L,4C(10125-10350)): [INSERTED] 16(1) changed [d:0(0)i:16(1)r:0(0)m:0(0)], 0 mapped
+*** Unmodified Units ***
+Class(FileDir)(380L,4C-404L,4C(10912-11432))
+Method(toString()Ljava.lang.String;)(400L,8C-403L,8C(11352-11426))
+Method(isFile()Z)(395L,8C-398L,8C(11241-11341))
+Method(isDir()Z)(390L,8C-393L,8C(11132-11230))
+Method(getValues()[Ljava.lang.String;)(385L,8C-388L,8C(11048-11121))
+Method(setFilepath(Lorg.apache.tools.ant.types.Path;)V)(68L,4C-72L,4C(1745-1870))
+Method(setClasspathRef(Lorg.apache.tools.ant.types.Reference;)V)(57L,4C-61L,4C(1537-1660))
+Method(setClasspath(Lorg.apache.tools.ant.types.Path;)V)(51L,4C-55L,4C(1401-1530))

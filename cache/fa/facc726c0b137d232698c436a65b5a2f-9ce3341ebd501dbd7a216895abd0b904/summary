@@ -1,0 +1,37 @@
+*** Modified Units ***
+Method(setPassive(Z)V)(175L,4C-178L,4C(5545-5629)): [MODIFIED] 2(2) changed [d:1(1)i:0(0)r:1(1)m:0(0)], 10 mapped
+Method(addFileset(Lorg.apache.tools.ant.types.FileSet;)V)(270L,4C-273L,4C(7921-7998)): [MODIFIED] 1(1) changed [d:0(0)i:0(0)r:1(1)m:0(0)], 11 mapped
+Method(makeRemoteDir(Lcom.oroinc.net.ftp.FTPClient;Ljava.lang.String;)V)(653L,4C-686L,4C(20426-21466)): [MODIFIED] 9(9) changed [d:0(0)i:0(0)r:9(9)m:0(0)], 79 mapped
+Method(setDepends(Z)V)(128L,4C-131L,4C(4221-4307)): [MODIFIED] 2(2) changed [d:1(1)i:0(0)r:1(1)m:0(0)], 10 mapped
+Method(resolveFile(Ljava.lang.String;)Ljava.lang.String;)(698L,4C-702L,4C(21959-22152)): [RENAMED] 7(6) changed [d:0(0)i:2(1)r:5(5)m:0(0)], 21 mapped
+Class(FTP)(54L,0C-1079L,0C(2153-34160)): [MODIFIED] 696(264) changed [d:456(28)i:10(6)r:227(227)m:3(3)], 1708 mapped
+Method(setVerbose(Z)V)(260L,4C-263L,4C(7685-7769)): [MODIFIED] 2(2) changed [d:1(1)i:0(0)r:1(1)m:0(0)], 10 mapped
+Method(checkConfiguration()V)(508L,4C-533L,4C(15497-16276)): [RENAMED] 19(19) changed [d:0(0)i:0(0)r:19(19)m:0(0)], 66 mapped
+Class(FTPDirectoryScanner)(953L,4C-1078L,4C(29513-34158)): [DELETED] 328(1) changed [d:328(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(createParents(Lcom.oroinc.net.ftp.FTPClient;Ljava.lang.String;)V)(544L,4C-579L,4C(16660-18044)): [MODIFIED] 9(9) changed [d:0(0)i:0(0)r:9(9)m:0(0)], 138 mapped
+Method(execute()V)(280L,4C-379L,4C(8107-11169)): [MODIFIED] 19(19) changed [d:0(0)i:0(0)r:19(19)m:0(0)], 220 mapped
+Method(transferFiles(Lcom.oroinc.net.ftp.FTPClient;)V)(881L,4C-909L,4C(27524-28377)): [MODIFIED] 13(13) changed [d:0(0)i:0(0)r:13(13)m:0(0)], 90 mapped
+Method(setSkipFailedTransfers(Z)V)(240L,4C-243L,4C(7185-7317)): [MODIFIED] 2(2) changed [d:1(1)i:0(0)r:1(1)m:0(0)], 10 mapped
+Method(transferFiles(Lcom.oroinc.net.ftp.FTPClient;Lorg.apache.tools.ant.types.FileSet;)I)(788L,4C-871L,4C(24951-27250)): [MODIFIED] 25(25) changed [d:0(0)i:0(0)r:25(25)m:0(0)], 214 mapped
+Method(getFile(Lcom.oroinc.net.ftp.FTPClient;Ljava.lang.String;Ljava.lang.String;)V)(394L,4C-452L,4C(11811-13576)): [MODIFIED] 37(31) changed [d:7(4)i:6(3)r:23(23)m:1(1)], 152 mapped
+Class(Action)(911L,4C-951L,4C(28384-29506)): [DELETED] 101(3) changed [d:99(1)i:0(0)r:0(0)m:2(2)], 2 mapped
+Method(setUserid(Ljava.lang.String;)V)(250L,4C-253L,4C(7451-7530)): [MODIFIED] 2(2) changed [d:1(1)i:0(0)r:1(1)m:0(0)], 10 mapped
+Method(setListing(Ljava.io.File;)V)(151L,4C-155L,4C(4899-5009)): [MODIFIED] 2(2) changed [d:1(1)i:0(0)r:1(1)m:0(0)], 12 mapped
+Method(sendFile(Lcom.oroinc.net.ftp.FTPClient;Ljava.lang.String;Ljava.lang.String;)V)(719L,4C-776L,4C(22926-24576)): [MODIFIED] 13(13) changed [d:0(0)i:0(0)r:13(13)m:0(0)], 145 mapped
+Method(isUpToDate(Lcom.oroinc.net.ftp.FTPClient;Ljava.io.File;Ljava.lang.String;)Z)(465L,4C-501L,4C(14032-15351)): [MODIFIED] 5(5) changed [d:1(1)i:0(0)r:4(4)m:0(0)], 96 mapped
+Method(getValues()[Ljava.lang.String;)(947L,8C-950L,8C(29421-29500)): [MODIFIED] 1(1) changed [d:0(0)i:0(0)r:0(0)m:1(1)], 1 mapped
+Method(setPort(I)V)(195L,4C-198L,4C(5966-6034)): [MODIFIED] 2(2) changed [d:1(1)i:0(0)r:1(1)m:0(0)], 10 mapped
+Method(listFile(Lcom.oroinc.net.ftp.FTPClient;Ljava.io.BufferedWriter;Ljava.lang.String;)V)(630L,4C-643L,4C(19715-20101)): [MODIFIED] 5(5) changed [d:0(0)i:0(0)r:5(5)m:0(0)], 46 mapped
+Method(setBinary(Z)V)(117L,4C-120L,4C(3978-4058)): [MODIFIED] 2(2) changed [d:1(1)i:0(0)r:1(1)m:0(0)], 10 mapped
+Method(setIgnoreNoncriticalErrors(Z)V)(139L,4C-142L,4C(4518-4666)): [MODIFIED] 2(2) changed [d:1(1)i:0(0)r:1(1)m:0(0)], 10 mapped
+Method(setServer(Ljava.lang.String;)V)(230L,4C-233L,4C(6972-7051)): [MODIFIED] 2(2) changed [d:1(1)i:0(0)r:1(1)m:0(0)], 10 mapped
+Method(setRemotedir(Ljava.lang.String;)V)(207L,4C-210L,4C(6332-6411)): [MODIFIED] 2(2) changed [d:1(1)i:0(0)r:1(1)m:0(0)], 10 mapped
+Method(delFile(Lcom.oroinc.net.ftp.FTPClient;Ljava.lang.String;)V)(589L,4C-615L,4C(18320-19050)): [MODIFIED] 10(10) changed [d:0(0)i:0(0)r:10(10)m:0(0)], 71 mapped
+Method(setNewer(Z)V)(163L,4C-166L,4C(5222-5302)): [MODIFIED] 2(2) changed [d:1(1)i:0(0)r:1(1)m:0(0)], 10 mapped
+Method(setSeparator(Ljava.lang.String;)V)(220L,4C-223L,4C(6765-6855)): [MODIFIED] 1(1) changed [d:0(0)i:0(0)r:1(1)m:0(0)], 10 mapped
+Method(setAction(Lorg.apache.tools.ant.taskdefs.optional.net.FTP$Action;)V)(105L,4C-109L,4C(3643-3763)): [RENAMED] 5(5) changed [d:1(1)i:0(0)r:4(4)m:0(0)], 14 mapped
+Method(setPassword(Ljava.lang.String;)V)(185L,4C-188L,4C(5759-5846)): [MODIFIED] 2(2) changed [d:1(1)i:0(0)r:1(1)m:0(0)], 10 mapped
+*** Unmodified Units ***
+Method(scandir(Ljava.lang.String;Ljava.lang.String;Z)V)(995L,8C-1077L,8C(30824-34152))
+Method(scan()V)(963L,8C-993L,8C(29751-30813))
+Method(getAction()I)(918L,8C-945L,8C(28596-29410))

@@ -1,0 +1,41 @@
+MOVE#1M(4) (#59U:#58G)Statement.Throw[1](39L,12C-108C(982-1078))4 [(#55U:#55G)] -> (#348U:#66G)Statement.Throw[1](42L,12C-46C(1081-1115))4 [(#344U:#63G)] <50;56-58>
+RELABEL (#258U:#205G)Primary.FieldAccess(descriptorAdded)[1](101L,88C-102C(3124-3138))1 -> (#526U:#192G)Primary.FieldAccess(m_descriptorAdded)[1](92L,64C-80C(2757-2773))1
+RELABEL (#30U:#30G)Primary.FieldAccess(emptyBehavior)[0](31L,8C-20C(779-791))1 -> (#311U:#30G)Primary.FieldAccess(m_emptyBehavior)[0](31L,8C-22C(774-788))1
+RELABEL (#14U:#14G)Modifiers(deploymentDescriptor#f)[0](24L,4C-10C(629-635))1 [(#13U:#13G)] -> (#295U:#14G)Modifiers(m_webxml#f)[0](24L,4C-10C(632-638))1 [(#294U:#13G)]
+RELABEL (#17U:#17G)FieldDeclaration(deploymentDescriptor[0)[0](24L,4C-37C(629-662))1 [(#14U:#14G);(#15U:#15G);(#16U:#16G)] -> (#298U:#17G)FieldDeclaration(m_webxml[0)[0](24L,4C-25C(632-653))1 [(#295U:#14G);(#296U:#15G);(#297U:#16G)]
+RELABEL (#269U:#239G)Statement.If(36d314ac95fddec3340ef9dfd9b69e9f;Expression.BinaryOperator.Or)[0](101L,12C-112L,12C(3048-3587))1 [(#268U:#206G);(#257U:#228G);(#235U:#238G)] -> (#537U:#226G)Statement.If(df4e8c1ef8b4509dfce6a240567b2e64;Expression.BinaryOperator.Or)[0](92L,12C-103L,12C(2705-3228))1 [(#536U:#193G);(#525U:#215G);(#503U:#225G)]
+RELABEL (#27U:#27G)Primary.FieldAccess(archiveType)[0](30L,8C-18C(750-760))1 -> (#308U:#27G)Primary.FieldAccess(m_archiveType)[0](30L,8C-20C(743-755))1
+RELABEL (#265U:#196G)Primary.FieldAccess(deploymentDescriptor)[0](101L,16C-35C(3052-3071))1 -> (#533U:#183G)Primary.FieldAccess(m_webxml)[0](92L,16C-23C(2709-2716))1
+RELABEL (#243U:#211G)Primary.FieldAccess(archiveType)[1](103L,62C-72C(3218-3228))1 -> (#511U:#198G)Primary.FieldAccess(m_archiveType)[1](94L,62C-74C(2853-2865))1
+RELABEL (#89U:#84G)Statement.Expression.Primary.PrimaryMethodInvocation(setFullpath#1)()[5](45L,8C-43C(1318-1353))1 [(#86U:#81G);(#88U:#83G)] -> (#358U:#72G)Statement.Expression.Primary.SimpleMethodInvocation(addFileAs#2)()[2](45L,8C-44C(1136-1172))1 [(#357U:#71G)]
+RELABEL (#52U:#52G)Primary.FieldAccess(deploymentDescriptor)[1](39L,65C-84C(1035-1054))1 -> (#338U:#56G)Primary.FieldAccess(m_webxml)[1](41L,16C-23C(1038-1045))1
+RELABEL (#19U:#19G)Modifiers(descriptorAdded#f)[0](25L,4C-10C(668-674))1 [(#18U:#18G)] -> (#300U:#19G)Modifiers(m_descriptorAdded#f)[0](25L,4C-10C(659-665))1 [(#299U:#18G)]
+RELABEL (#184U:#172G)Statement.If(79cc0b015a3728e9a9ac4f5fab2095f2;Expression.BinaryOperator.And)[0](84L,8C-87L,8C(2373-2518))1 [(#183U:#165G);(#176U:#171G)] -> (#446U:#153G)Statement.If(6e61f7ced9b5c1ca00720cb6357f4084;Expression.BinaryOperator.And)[0](73L,8C-76L,8C(1968-2101))1 [(#445U:#146G);(#438U:#152G)]
+RELABEL (#88U:#83G)NamedArguments(setFullpath)[1](45L,22C-42C(1332-1352))1 [(#87U:#82G)] -> (#357U:#71G)NamedArguments(addFileAs)[0](45L,17C-43C(1145-1171))1 [(#355U:#69G);(#356U:#70G)]
+RELABEL (#44U:#43G)Primary.FieldAccess(deploymentDescriptor)[0](37L,8C-27C(895-914))1 -> (#327U:#45G)Primary.FieldAccess(m_webxml)[0](37L,8C-15C(898-905))1
+RELABEL (#21U:#21G)VariableDeclarator(descriptorAdded,0,false)[2](25L,20C-34C(684-698))1 -> (#302U:#21G)VariableDeclarator(m_descriptorAdded,0,false)[2](25L,20C-36C(675-691))1
+RELABEL (#181U:#159G)Primary.FieldAccess(deploymentDescriptor)[0](84L,12C-31C(2377-2396))1 -> (#443U:#140G)Primary.FieldAccess(m_webxml)[0](73L,12C-19C(1972-1979))1
+RELABEL (#64U:#59G)Statement.If(f1241ce2c4d0507d7c8c3780ea59ce2e;Expression.UnaryOperator.Not)[1](38L,8C-39L,108C(933-1078))1 [(#63U:#49G);(#59U:#58G)] -> (#354U:#68G)Statement.If(e586940809af31a1409c357c0c850c53;Expression.UnaryOperator.Not)[1](38L,8C-43L,8C(924-1125))1 [(#353U:#51G);(#349U:#67G)]
+RELABEL (#22U:#22G)FieldDeclaration(descriptorAdded[0)[1](25L,4C-35C(668-699))1 [(#19U:#19G);(#20U:#20G);(#21U:#21G)] -> (#303U:#22G)FieldDeclaration(m_descriptorAdded[0)[1](25L,4C-37C(659-692))1 [(#300U:#19G);(#301U:#20G);(#302U:#21G)]
+RELABEL (#16U:#16G)VariableDeclarator(deploymentDescriptor,0,false)[2](24L,17C-36C(642-661))1 -> (#297U:#16G)VariableDeclarator(m_webxml,0,false)[2](24L,17C-24C(645-652))1
+RELABEL (#259U:#199G)Primary.FieldAccess(deploymentDescriptor)[0](101L,49C-68C(3085-3104))1 -> (#527U:#186G)Primary.FieldAccess(m_webxml)[0](92L,37C-44C(2730-2737))1
+RELABEL (#232U:#235G)Primary.FieldAccess(descriptorAdded)[0](111L,16C-30C(3551-3565))1 -> (#500U:#222G)Primary.FieldAccess(m_descriptorAdded)[0](102L,16C-32C(3190-3206))1
+RELABEL (#240U:#217G)Primary.FieldAccess(archiveType)[1](105L,57C-67C(3369-3379))1 -> (#508U:#204G)Primary.FieldAccess(m_archiveType)[1](96L,57C-69C(3006-3018))1
+RELABEL (#60U:#46G)Primary.FieldAccess(deploymentDescriptor)[0](38L,13C-32C(938-957))1 -> (#350U:#48G)Primary.FieldAccess(m_webxml)[0](38L,13C-20C(929-936))1
+DELETE(9) (#79U:#74G)Statement.Expression.Primary.PrimaryMethodInvocation(setDir#1)()[3](43L,8C-65C(1193-1250))9 <66-74>
+DELETE(4) (#93U:#88G)Statement.Expression.Primary.SuperMethodInvocation(addFileset#1)()[6](46L,8C-30C(1363-1385))4 <85-88>
+DELETE(11) (#146U:#149G)Method(cleanUp()V)[7](74L,4C-78L,4C(2100-2193))11 <139-149>
+DELETE(6) (#85U:#80G)Statement.Expression.Primary.PrimaryMethodInvocation(setIncludes#1)()[4](44L,8C-56C(1260-1308))6 <75-80>
+DELETE(1) (#86U:#81G)Primary.Name(fs)[0](45L,8C-9C(1318-1319))1 <81>
+DELETE(6) (#70U:#65G)LocalVariableDeclaration(true,fs[0)[2](42L,8C-40C(1151-1183))6 <60-65>
+INSERT(2) (#382U:#97G)Modifiers(fs#p)[0](55L,24C-28C(1412-1416))2 <96-97>
+INSERT(1) (#344U:#63G)Primary.Name(message)[0](42L,37C-43C(1106-1112))1 <63>
+INSERT(2) (#456U:#164G)Modifiers(file#p)[0](81L,28C-32C(2182-2186))2 <163-164>
+INSERT(6) (#349U:#67G)Block(block)[1](39L,8C-43L,8C(957-1125))6 [(#341U:#59G);(#348U:#66G)] <52-54;60-61;67>
+INSERT(2) (#464U:#172G)Modifiers(vPath#p)[0](83L,28C-32C(2283-2287))2 <171-172>
+INSERT(1) (#355U:#69G)Primary.Name(descr)[0](45L,18C-22C(1146-1150))1 <69>
+INSERT(2) (#400U:#115G)Modifiers(fs#p)[0](62L,27C-31C(1614-1618))2 <114-115>
+INSERT(2) (#364U:#79G)Modifiers(fs#p)[0](48L,28C-32C(1209-1213))2 <78-79>
+INSERT(2) (#460U:#168G)Modifiers(zOut#p)[0](82L,28C-32C(2227-2231))2 <167-168>
+INSERT(2) (#418U:#133G)Modifiers(zOut#p)[0](69L,40C-44C(1825-1829))2 <132-133>
+INSERT(2) (#320U:#39G)Modifiers(descr#p)[0](34L,27C-31C(836-840))2 <38-39>

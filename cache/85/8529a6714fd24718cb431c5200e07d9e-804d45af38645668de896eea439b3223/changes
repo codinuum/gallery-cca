@@ -1,0 +1,85 @@
+*** Extracted Changes ***
+
+[significance=4] argument added (1)
+  Primary.Name(urls)(Primary.Name(urls))[186L,71C-74C(4576-4579)]* into NamedArguments(org.apache.tools.ant.AntClassLoader)(NamedArguments(AntClassLoader))[185L,54C-186L,68C(4522-4606)]
+
+[significance=4] argument removed (1)
+  Primary.Name(c)(Primary.Name(c))[188L,48C-48C(4706-4706)]* from Block(block)[184L,12C-188L,12C(4446-4654)]
+
+[significance=4] final modifier added (2)
+  Modifier.Final[185L,16C-20C(4464-4468)]* into Block(block)[184L,12C-189L,12C(4466-4723)]
+  Modifier.Final[186L,16C-20C(4521-4525)]* into Block(block)[184L,12C-189L,12C(4466-4723)]
+
+[significance=2] import declaration renamed (1)
+  IDsingle(java.util.Properties)[10L,0C-27C(295-322)] -> IDsingle(java.net.URL)[10L,0C-19C(295-314)]
+
+[significance=2] import declaration added (1)
+  IDsingle(java.net.URLClassLoader)[11L,0C-30C(316-346)]* into ImportDeclarations[10L,0C-14L,47C(295-485)]
+
+[significance=2] import declaration removed (1)
+  IDsingle(org.apache.tools.ant.AntClassLoader)[13L,0C-42C(394-436)]* from ImportDeclarations[10L,0C-14L,47C(295-465)]
+
+[significance=1] (changed) (3)
+  NamedArguments(org.apache.tools.ant.AntClassLoader)(NamedArguments(AntClassLoader))[185L,54C-186L,68C(4522-4606)] -> NamedArguments(java.net.URLClassLoader)(NamedArguments(URLClassLoader))[186L,69C-76C(4574-4581)]
+  LocalVariableDeclaration(true,al[0)[185L,16C-186L,69C(4484-4607)] -> LocalVariableDeclaration(true,urls[0)[185L,16C-55C(4464-4503)]
+  Type.ClassOrInterface(org.apache.tools.ant.AntClassLoader)(Type.ClassOrInterface(AntClassLoader))[185L,40C-53C(4508-4521)] -> Type.ClassOrInterface(java.net.URLClassLoader)(Type.ClassOrInterface(URLClassLoader))[186L,55C-68C(4560-4573)]
+
+[significance=1] (moved) (1)
+  LocalVariableDeclaration(true,al[0): [185L,16C-186L,69C(4484-4607)] -> [185L,16C-55C(4464-4503)]
+
+[significance=1] (inserted) (2)
+  VariableDeclarator(urls,0,true)[185L,28C-54C(4476-4502)] into Block(block)[184L,12C-189L,12C(4466-4723)]
+  LocalVariableDeclaration(true,classLoader[0)[186L,16C-77C(4521-4582)] into Block(block)[184L,12C-189L,12C(4466-4723)]
+
+[significance=1] (added) (4)
+  NamedArguments(toURLs)[185L,53C-54C(4501-4502)]* into Block(block)[184L,12C-189L,12C(4466-4723)]
+  Modifiers(urls#l)[185L,16C-20C(4464-4468)]* into Block(block)[184L,12C-189L,12C(4466-4723)]
+  Modifiers(classLoader#l)[186L,16C-20C(4521-4525)]* into Block(block)[184L,12C-189L,12C(4466-4723)]
+  Type.Array(ClassOrInterface(java.net.URL),1)(Type.Array(ClassOrInterface(URL),1))[185L,22C-26C(4470-4474)]* into Block(block)[184L,12C-189L,12C(4466-4723)]
+
+[significance=1] (removed) (2)
+  NamedArguments(getProject)[185L,66C-67C(4534-4535)]* from NamedArguments(java.net.URLClassLoader)(NamedArguments(URLClassLoader))[186L,69C-76C(4574-4581)]
+  NamedArguments(initializeClass)[188L,46C-50C(4704-4708)]* from Block(block)[184L,12C-188L,12C(4446-4654)]
+
+[significance=1] statement modified (3)
+  Statement.Expression.AssignmentOperator.Eq()()[187L,16C-47C(4625-4656)] -> Statement.Expression.AssignmentOperator.Eq()()[187L,16C-56C(4600-4640)]
+  Statement.If(6f3d854d2adbe00cc445a851b5b68ff5;Expression.BinaryOperator.Eq)[179L,12C-189L,12C(4333-4723)] -> Statement.If(6f3d854d2adbe00cc445a851b5b68ff5;Expression.BinaryOperator.Eq)[179L,12C-188L,12C(4313-4654)]
+  Statement.Try[171L,8C-210L,8C(4159-5191)] -> Statement.Try[171L,8C-209L,8C(4139-5122)]
+
+[significance=1] expression modified (2)
+  Primary.PrimaryMethodInvocation(loadClass#1)(Primary.PrimaryMethodInvocation(loadClass))[187L,20C-46C(4629-4655)] -> Primary.PrimaryMethodInvocation(loadClass#1)(Primary.PrimaryMethodInvocation(loadClass))[187L,20C-55C(4604-4639)]
+  Primary.InstanceCreation(org.apache.tools.ant.AntClassLoader.<init>#2)(Primary.InstanceCreation(AntClassLoader))[185L,36C-186L,68C(4504-4606)] -> Primary.InstanceCreation(java.net.URLClassLoader.<init>#1)(Primary.InstanceCreation(URLClassLoader))[186L,51C-76C(4556-4581)]
+
+[significance=1] expression moved (1)
+  Primary.FieldAccess(m_classpath): [186L,56C-66C(4594-4604)] -> [185L,35C-45C(4483-4493)]
+
+[significance=1] constructor invocation modified (1)
+  Primary.InstanceCreation(org.apache.tools.ant.AntClassLoader.<init>#2)(Primary.InstanceCreation(AntClassLoader))[185L,36C-186L,68C(4504-4606)] -> Primary.InstanceCreation(java.net.URLClassLoader.<init>#1)(Primary.InstanceCreation(URLClassLoader))[186L,51C-76C(4556-4581)]
+
+[significance=1] instance creation modified (1)
+  Primary.InstanceCreation(org.apache.tools.ant.AntClassLoader.<init>#2)(Primary.InstanceCreation(AntClassLoader))[185L,36C-186L,68C(4504-4606)] -> Primary.InstanceCreation(java.net.URLClassLoader.<init>#1)(Primary.InstanceCreation(URLClassLoader))[186L,51C-76C(4556-4581)]
+
+[significance=1] instance creation changed (1)
+  Primary.InstanceCreation(org.apache.tools.ant.AntClassLoader.<init>#2)(Primary.InstanceCreation(AntClassLoader))[185L,36C-186L,68C(4504-4606)] -> Primary.InstanceCreation(java.net.URLClassLoader.<init>#1)(Primary.InstanceCreation(URLClassLoader))[186L,51C-76C(4556-4581)]
+
+[significance=1] variable type changed (1)
+  Type.ClassOrInterface(org.apache.tools.ant.AntClassLoader)(Type.ClassOrInterface(AntClassLoader))[185L,16C-29C(4484-4497)] -> Type.ClassOrInterface(java.net.URLClassLoader)(Type.ClassOrInterface(URLClassLoader))[186L,22C-35C(4527-4540)]
+
+[significance=1] variable declaration renamed (1)
+  VariableDeclarator(al,0,true)[185L,31C-186L,68C(4499-4606)] -> VariableDeclarator(classLoader,0,true)[186L,37C-76C(4542-4581)]
+
+[significance=1] method invocation inserted (1)
+  Primary.PrimaryMethodInvocation(toURLs#0)(Primary.PrimaryMethodInvocation(toURLs))[185L,35C-54C(4483-4502)] into Block(block)[184L,12C-189L,12C(4466-4723)]
+
+[significance=1] method invocation removed (2)
+  Statement.Expression.Primary.TypeMethodInvocation(org.apache.tools.ant.AntClassLoader,initializeClass#1)()(Statement.Expression.Primary.TypeMethodInvocation(AntClassLoader,initializeClass)())[188L,16C-51C(4674-4709)]* from Block(block)[184L,12C-188L,12C(4446-4654)]
+  Primary.SimpleMethodInvocation(getProject#0)(Primary.SimpleMethodInvocation(getProject))[185L,56C-67C(4524-4535)]* from NamedArguments(java.net.URLClassLoader)(NamedArguments(URLClassLoader))[186L,69C-76C(4574-4581)]
+
+[significance=1] method invocation modified (1)
+  Primary.PrimaryMethodInvocation(loadClass#1)(Primary.PrimaryMethodInvocation(loadClass))[187L,20C-46C(4629-4655)] -> Primary.PrimaryMethodInvocation(loadClass#1)(Primary.PrimaryMethodInvocation(loadClass))[187L,20C-55C(4604-4639)]
+
+[significance=1] method modified (1)
+  Method(getImplementation()Lorg.apache.tools.ant.util.FileNameMapper;)(Method(getImplementation))[153L,4C-211L,4C(3643-5197)] -> Method(getImplementation()Lorg.apache.tools.ant.util.FileNameMapper;)(Method(getImplementation))[153L,4C-210L,4C(3623-5128)]
+
+[significance=1] primary name renamed (1)
+  Primary.Name(al)(Primary.Name(al))[187L,20C-21C(4629-4630)] -> Primary.Name(classLoader)(Primary.Name(classLoader))[187L,20C-30C(4604-4614)]

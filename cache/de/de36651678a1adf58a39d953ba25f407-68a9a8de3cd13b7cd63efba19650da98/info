@@ -1,0 +1,22 @@
+MOVE#12M(5):PERMUTATION (#576U:#576G)FunctionReference:max[1]("dgelq.f" 311L,18C-31C(9714-9727))5 -> (#989U:#407G)FunctionReference:max[1]("dgelq.f" 270L,17C-30C(8808-8821))5 <572-576>
+MOVE#20M(3) (#466U:#466G)FunctionReference:max[1]("dgelq.f" 284L,22C-32C(9091-9101))3 -> (#854U:#272G)FunctionReference:max[1]("dgelq.f" 247L,17C-27C(8121-8131))3 <464-466>
+MOVE#11M(4):PERMUTATION (#395U:#395G)FunctionReference:max[1]("dgelq.f" 270L,26C-39C(8755-8768))4 [(#392U:#392G)] -> (#979U:#397G)FunctionReference:max[1]("dgelq.f" 268L,17C-30C(8765-8778))4 [(#977U:#395G)] <391;393-395>
+MOVE#6M(7):PERMUTATION (#481U:#481G)Block[1]("dgelq.f" 286L,10C-35C(9126-9151))7 [(#474U:#474G)] -> (#878U:#296G)Block[1]("dgelq.f" 250L,9C-251L,30C(8185-8235))7 [(#870U:#288G);(#871U:#289G)] <475-481>
+RELABEL (#41U:#41G)TypeDeclarationStmt:mb;nb;mintsz;nblcks[3]("dgelq.f" 190L,6C-46C(6577-6617))1 [(#36U:#36G);(#37U:#37G);(#38U:#38G);(#39U:#39G);(#40U:#40G)] -> (#626U:#44G)TypeDeclarationStmt:mb;nb;mintsz;nblcks;lwmin;lwopt;lwreq[3]("dgelq.f" 190L,6C-67C(6577-6638))1 [(#618U:#36G);(#619U:#37G);(#620U:#38G);(#621U:#39G);(#622U:#40G);(#623U:#41G);(#624U:#42G);(#625U:#43G)]
+RELABEL (#392U:#392G)Name:m[0]("dgelq.f" 270L,34C-34C(8763-8763))1 -> (#1054U:#472G)Name:lwreq[1]("dgelq.f" 282L,26C-30C(9140-9144))1
+RELABEL (#273U:#273G)Name:m[1]("dgelq.f" 248L,27C-27C(8139-8139))1 -> (#902U:#320G)Name:lwmin[1]("dgelq.f" 255L,27C-31C(8369-8373))1
+RELABEL (#266U:#266G)Name:mb[0]("dgelq.f" 247L,61C-62C(8105-8106))1 -> (#897U:#315G)Name:lwopt[1]("dgelq.f" 254L,61C-65C(8334-8338))1
+RELABEL (#313U:#313G)Name:mb[0]("dgelq.f" 255L,21C-22C(8364-8365))1 -> (#942U:#360G)Name:lwopt[1]("dgelq.f" 262L,21C-25C(8598-8602))1
+DELETE(2) (#268U:#268G)IntrinsicOperator.Mult[1]("dgelq.f" 247L,61C-64C(8105-8108))2 [(#266U:#266G)] <267-268>
+DELETE(2) (#315U:#315G)IntrinsicOperator.Mult[1]("dgelq.f" 255L,21C-24C(8364-8367))2 [(#313U:#313G)] <314-315>
+INSERT(1) (#1123U:#541G)Name:lwmin[1]("dgelq.f" 296L,22C-26C(9467-9471))1 <541>
+INSERT(1) (#625U:#43G)EntityDecl:lwreq[7]("dgelq.f" 190L,63C-67C(6634-6638))1 <43>
+INSERT(1) (#871U:#289G)Name:lwopt[0]("dgelq.f" 251L,9C-13C(8214-8218))1 <289>
+INSERT(30) (#881U:#299G)IfConstruct[10]("dgelq.f" 246L,6C-252L,11C(8048-8248))30 [(#854U:#272G);(#878U:#296G)] <254-269;273-283;297-299>
+INSERT(1) (#623U:#41G)EntityDecl:lwmin[5]("dgelq.f" 190L,49C-53C(6620-6624))1 <41>
+INSERT(5) (#870U:#288G)AssignmentStmt[0]("dgelq.f" 250L,9C-27C(8185-8203))5 <284-288>
+INSERT(1) (#624U:#42G)EntityDecl:lwopt[6]("dgelq.f" 190L,56C-60C(6627-6631))1 <42>
+INSERT(26) (#994U:#412G)IfConstruct[13]("dgelq.f" 267L,6C-271L,11C(8692-8834))26 [(#979U:#397G);(#989U:#407G)] <377-392;398-402;408-412>
+INSERT(1) (#977U:#395G)Name:n[1]("dgelq.f" 268L,28C-28C(8776-8776))1 <395>
+INSERT(1) (#1225U:#643G)Name:lwreq[1]("dgelq.f" 323L,18C-22C(10075-10079))1 <643>
+INSERT(3) (#1134U:#552G)Block[1]("dgelq.f" 298L,10C-26C(9496-9512))3 [(#1131U:#549G)] <550-552>

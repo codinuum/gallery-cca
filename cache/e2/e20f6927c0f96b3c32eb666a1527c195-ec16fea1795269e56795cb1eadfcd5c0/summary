@@ -1,0 +1,22 @@
+*** Modified Units ***
+Class(KeyHandler)(256L,1C-276L,1C(6600-7006)): [MODIFIED] 34(10) changed [d:2(1)i:0(0)r:7(7)m:25(2)], 50 mapped
+Method(gotoURL(Ljava.net.URL;Z)V)(149L,1C-178L,1C(4350-4996)): [RENAMED] 80(8) changed [d:2(1)i:75(4)r:3(3)m:0(0)], 79 mapped
+Method(actionPerformed(Ljava.awt.event.ActionEvent;)V)(196L,2C-225L,2C(5326-5865)): [MODIFIED] 2(2) changed [d:0(0)i:0(0)r:2(2)m:0(0)], 78 mapped
+Method(gotoFile(Ljava.lang.String;)V)(49L,1C-62L,1C(1524-1856)): [MOVED] 127(43) changed [d:14(7)i:57(10)r:20(20)m:36(6)], 35 mapped
+Class(ActionHandler)(194L,1C-226L,1C(5275-5868)): [MODIFIED] 2(2) changed [d:0(0)i:0(0)r:2(2)m:0(0)], 83 mapped
+Class(HelpViewer)(41L,0C-277L,0C(1339-7008)): [MODIFIED] 1139(83) changed [d:18(9)i:1018(28)r:36(36)m:67(10)], 664 mapped
+Method(keyPressed(Ljava.awt.event.KeyEvent;)V)(258L,2C-275L,2C(6641-7003)): [MODIFIED] 34(10) changed [d:2(1)i:0(0)r:7(7)m:25(2)], 45 mapped
+Method(hyperlinkUpdate(Ljavax.swing.event.HyperlinkEvent;)V)(548L,2C-571L,2C(13301-13981)): [MODIFIED] 2(1) changed [d:0(0)i:2(1)r:0(0)m:0(0)], 0 mapped
+Class(LinkHandler)(546L,1C-572L,1C(13249-13984)): [MODIFIED] 2(1) changed [d:0(0)i:2(1)r:0(0)m:0(0)], 0 mapped
+Method(createTOC()V)(226L,1C-286L,1C(6088-7748)): [INSERTED] 223(1) changed [d:0(0)i:223(1)r:0(0)m:0(0)], 0 mapped
+Class(HelpNode)(328L,1C-342L,1C(8660-8852)): [INSERTED] 31(1) changed [d:0(0)i:31(1)r:0(0)m:0(0)], 0 mapped
+Method(gotoURL(Ljava.net.URL;)V)(48L,1C-51L,1C(1498-1572)): [MODIFIED] 2(1) changed [d:0(0)i:2(1)r:0(0)m:0(0)], 0 mapped
+Class(TOCHandler)(344L,1C-393L,1C(8856-9840)): [INSERTED] 150(1) changed [d:0(0)i:150(1)r:0(0)m:0(0)], 0 mapped
+Method(createNode(Ljava.lang.String;Ljava.lang.String;)Ljavax.swing.tree.DefaultMutableTreeNode;)(320L,1C-326L,1C(8449-8656)): [INSERTED] 29(1) changed [d:0(0)i:29(1)r:0(0)m:0(0)], 0 mapped
+Class(TOCCellRenderer)(495L,1C-510L,1C(12236-12642)): [INSERTED] 53(1) changed [d:0(0)i:53(1)r:0(0)m:0(0)], 0 mapped
+Class(TOCTree)(395L,1C-493L,1C(9844-12232)): [INSERTED] 317(1) changed [d:0(0)i:317(1)r:0(0)m:0(0)], 0 mapped
+*** Unmodified Units ***
+Class(LinkHandler)(228L,1C-254L,1C(5872-6596))
+Method(hyperlinkUpdate(Ljavax.swing.event.HyperlinkEvent;)V)(230L,2C-253L,2C(5924-6593))
+Method(dispose()V)(180L,1C-184L,1C(5000-5093))
+Method(gotoURL(Ljava.net.URL;)V)(70L,1C-73L,1C(2022-2085))

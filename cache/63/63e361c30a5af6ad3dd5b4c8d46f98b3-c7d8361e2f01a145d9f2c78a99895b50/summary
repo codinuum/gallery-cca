@@ -1,0 +1,31 @@
+*** Modified Units ***
+Method(setVerbose(Z)V)(240L,4C-243L,4C(5850-5918)): [MODIFIED] 5(4) changed [d:0(0)i:2(1)r:3(3)m:0(0)], 10 mapped
+Method(getFailFailOnError()Z)(270L,4C-273L,4C(6364-6439)): [DELETED] 7(1) changed [d:7(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(getExtraOptionsParameter()Ljava.lang.String;)(378L,4C-388L,4C(9536-9769)): [MODIFIED] 5(5) changed [d:0(0)i:0(0)r:5(5)m:0(0)], 20 mapped
+Method(setResourceFile(Ljava.io.File;)V)(198L,4C-201L,4C(4838-4927)): [MODIFIED] 5(4) changed [d:0(0)i:2(1)r:3(3)m:0(0)], 10 mapped
+Method(getTargetType()Ljava.lang.String;)(280L,4C-283L,4C(6549-6617)): [DELETED] 7(1) changed [d:7(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(getKeyfileParameter()Ljava.lang.String;)(395L,4C-405L,4C(9896-10108)): [MODIFIED] 4(4) changed [d:0(0)i:0(0)r:4(4)m:0(0)], 18 mapped
+Method(notEmpty(Ljava.lang.String;)Z)(487L,4C-490L,4C(11937-12031)): [MODIFIED] 6(5) changed [d:0(0)i:2(1)r:4(4)m:0(0)], 17 mapped
+Method(getDebugParameter()Ljava.lang.String;)(368L,4C-371L,4C(9309-9397)): [MODIFIED] 2(2) changed [d:0(0)i:0(0)r:2(2)m:0(0)], 9 mapped
+Method(getListingParameter()Ljava.lang.String;)(412L,4C-415L,4C(10267-10369)): [MODIFIED] 2(2) changed [d:0(0)i:0(0)r:2(2)m:0(0)], 9 mapped
+Method(Clear()V)(288L,4C-299L,4C(6667-6941)): [DELETED] 32(1) changed [d:32(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(setListing(Z)V)(167L,4C-170L,4C(4204-4272)): [MODIFIED] 5(4) changed [d:0(0)i:2(1)r:3(3)m:0(0)], 10 mapped
+Method(getExtraOptions()Ljava.lang.String;)(260L,4C-263L,4C(6184-6261)): [DELETED] 8(1) changed [d:8(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(getVerboseParameter()Ljava.lang.String;)(475L,4C-478L,4C(11614-11706)): [MODIFIED] 2(2) changed [d:0(0)i:0(0)r:2(2)m:0(0)], 9 mapped
+Method(getDebug()Z)(250L,4C-253L,4C(6018-6077)): [DELETED] 7(1) changed [d:7(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(setOutputFile(Ljava.io.File;)V)(177L,4C-180L,4C(4375-4456)): [MODIFIED] 5(4) changed [d:0(0)i:2(1)r:3(3)m:0(0)], 10 mapped
+Method(setFailOnError(Z)V)(152L,4C-155L,4C(3931-4007)): [DELETED] 11(1) changed [d:11(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(setKeyfile(Ljava.io.File;)V)(157L,4C-160L,4C(4014-4096)): [MODIFIED] 4(3) changed [d:1(1)i:2(1)r:1(1)m:0(0)], 10 mapped
+Method(getOutputFileParameter()Ljava.lang.String;)(422L,4C-430L,4C(10485-10717)): [MODIFIED] 12(9) changed [d:6(3)i:2(2)r:4(4)m:0(0)], 21 mapped
+Method(getResourceFileParameter()Ljava.lang.String;)(432L,4C-442L,4C(10724-10952)): [MODIFIED] 5(5) changed [d:1(1)i:1(1)r:3(3)m:0(0)], 17 mapped
+Class(Ilasm)(38L,0C-491L,0C(1515-12054)): [MODIFIED] 397(212) changed [d:123(31)i:117(40)r:137(137)m:20(4)], 523 mapped
+Method(setOwner(Ljava.lang.String;)V)(188L,4C-191L,4C(4555-4701)): [DELETED] 13(1) changed [d:13(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(setExtraOptions(Ljava.lang.String;)V)(142L,4C-145L,4C(3725-3829)): [MODIFIED] 4(3) changed [d:1(1)i:2(1)r:1(1)m:0(0)], 10 mapped
+Method(setDebug(Z)V)(132L,4C-135L,4C(3538-3602)): [MODIFIED] 5(4) changed [d:0(0)i:2(1)r:3(3)m:0(0)], 10 mapped
+Method(getTargetTypeParameter()Ljava.lang.String;)(450L,4C-468L,4C(11088-11469)): [MODIFIED] 7(7) changed [d:0(0)i:0(0)r:7(7)m:0(0)], 31 mapped
+Method(executeOneFile(Ljava.lang.String;)V)(336L,4C-361L,4C(8166-9184)): [MODIFIED] 75(50) changed [d:16(12)i:36(15)r:23(23)m:0(0)], 58 mapped
+Method(setTargetType(Ljava.lang.String;)V)(221L,4C-233L,4C(5338-5729)): [MODIFIED] 24(11) changed [d:2(1)i:13(4)r:5(5)m:4(1)], 36 mapped
+Method(setSrcDir(Ljava.io.File;)V)(208L,4C-211L,4C(5062-5143)): [MODIFIED] 5(4) changed [d:0(0)i:2(1)r:3(3)m:0(0)], 10 mapped
+Method(execute()V)(307L,4C-328L,4C(7150-7911)): [MODIFIED] 38(16) changed [d:4(3)i:15(7)r:3(3)m:16(3)], 83 mapped
+Method(addArgument(Lorg.apache.tools.ant.types.Commandline;Ljava.lang.String;)V)(274L,4C-280L,4C(7663-7864)): [INSERTED] 29(1) changed [d:0(0)i:29(1)r:0(0)m:0(0)], 0 mapped
+*** Unmodified Units ***

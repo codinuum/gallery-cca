@@ -1,0 +1,23 @@
+nnodes1 : 934
+nnodes2 : 888
+
+deletes(hunks) : 77(22)
+inserts(hunks) : 31(7)
+relabels : 128(128)
+mov+rels : 0
+moves(hunks) : 0(0)
+
+total changes : 236
+mapping size  : 857
+similarity    : 0.800220
+CMR           : 0.275379
+
+units (old)      : 23
+unmodified units : 8
+UNMODIFIED RATE  : 0.347826
+
+SPSM : 729
+SPM  : 857
+MGSM : 0
+MGM  : 0
+AHS  : 3.724138

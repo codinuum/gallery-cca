@@ -1,0 +1,13 @@
+*** Modified Units ***
+Class(Mapper)(21L,0C-260L,0C(609-6342)): [MODIFIED] 24(16) changed [d:5(2)i:10(5)r:7(7)m:2(2)], 421 mapped
+Method(getImplementation()Lorg.apache.tools.ant.util.FileNameMapper;)(153L,4C-211L,4C(3643-5197)): [MODIFIED] 24(16) changed [d:5(2)i:10(5)r:7(7)m:2(2)], 127 mapped
+*** Unmodified Units ***
+Method(getRef()Lorg.apache.tools.ant.types.Mapper;)(238L,4C-258L,4C(5809-6339))
+Method(createClasspath()LPath;)(218L,4C-230L,4C(5354-5658))
+Method(setType(LMapperType;)V)(137L,4C-145L,4C(3258-3451))
+Method(setTo(Ljava.lang.String;)V)(122L,4C-130L,4C(2963-3144))
+Method(setRefid(LReference;)V)(107L,4C-115L,4C(2625-2851))
+Method(setFrom(Ljava.lang.String;)V)(89L,4C-97L,4C(2162-2351))
+Method(setClasspathRef(LReference;)V)(74L,4C-82L,4C(1834-2044))
+Method(setClasspath(LPath;)V)(51L,4C-66L,4C(1314-1667))
+Method(setClassname(Ljava.lang.String;)V)(36L,4C-44L,4C(954-1163))

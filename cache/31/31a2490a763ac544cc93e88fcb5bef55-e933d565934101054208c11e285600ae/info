@@ -1,0 +1,184 @@
+MOVE(GROUP)(5)#81M:
+|- MOVE#128M(4) (#602U:#504G)LocalVariableDeclaration(true,files[0)[1](275L,20C-62C(9788-9830))4 [(#596U:#498G);(#599U:#501G)] -> (#3486U:#1478G)LocalVariableDeclaration(true,files[0)[1](640L,12C-45C(23348-23381))4 [(#3483U:#1475G)] <497;502-504>
+|- MOVE#127M(1) (#596U:#498G)Primary.Name(fs)[0](275L,37C-38C(9805-9806))1 -> (#3482U:#1474G)Primary.Name(fs)[0](640L,42C-43C(23378-23379))1 <498>
+MOVE#16M(45):PERMUTATION (#684U:#574G)Statement.For[3](282L,20C-286L,20C(10248-10520))45 -> (#3531U:#1523G)Statement.For[2](641L,12C-645L,12C(23395-23636))45 <530-574>
+MOVE(GROUP)(10)#56M:PERMUTATION:
+|- MOVE#125M(9):PERMUTATION (#394U:#360G)Statement.If(562f73aca006bde3b7e55aa67b727ab1;Expression.UnaryOperator.Not)[2](233L,16C-235L,16C(8003-8115))9 [(#390U:#352G)] -> (#3247U:#1360G)Statement.If(b5d27bd26bf4eac2733849de1612122f;Expression.UnaryOperator.Not)[1](600L,8C-602L,8C(21907-21987))9 [(#3243U:#1352G)] <347;353-360>
+|- MOVE#126M(1):PERMUTATION (#386U:#348G)Primary.Name(fs)[0](233L,46C-47C(8033-8034))1 -> (#3243U:#1352G)Primary.Name(basedir)[1](600L,38C-44C(21937-21943))1 <348>
+MOVE#7M(8):PERMUTATION (#1268U:#1119G)Statement.Expression.Primary.TypeMethodInvocation(java.lang.System,arraycopy#5)()[4](477L,16C-78C(17123-17185))8 -> (#3604U:#1675G)Statement.Expression.Primary.TypeMethodInvocation(java.lang.System,arraycopy#5)()[4](685L,8C-70C(25106-25168))8 <1112-1119>
+MOVE#33M(3):PERMUTATION (#599U:#501G)NamedArguments(getFiles)[1](275L,48C-61C(9816-9829))3 -> (#1837U:#139G)NamedArguments(setProject)[1](118L,21C-34C(4012-4025))3 <499-501>
+MOVE(GROUP)(6)#3M:PERMUTATION:
+|- MOVE#129M(5):PERMUTATION (#1238U:#1089G)LocalVariableDeclaration(true,ds[0)[0](473L,16C-60C(16855-16899))5 [(#1234U:#1085G)] -> (#3573U:#1644G)LocalVariableDeclaration(true,ds[0)[0](681L,8C-69C(24844-24905))5 [(#3566U:#1637G);(#3569U:#1640G)] <1084;1086-1089>
+|- MOVE#130M(1):PERMUTATION (#1234U:#1085G)Primary.Name(p)[0](473L,58C-58C(16897-16897))1 -> (#3567U:#1638G)Primary.Name(fs)[0](681L,53C-54C(24889-24890))1 <1085>
+MOVE(GROUP)(3)#35M:
+|- MOVE#124M(2) (#717U:#937G)Method(tarFile(Ljava.io.File;Lorg.apache.tools.tar.TarOutputStream;Ljava.lang.String;Lorg.apache.tools.ant.taskdefs.Tar$TarFileSet;)V)[20](314L,4C-403L,4C(11351-14556))2 [(#704U:#625G);(#705U:#626G);(#714U:#635G);(#716U:#637G);(#721U:#641G);(#727U:#647G);(#819U:#709G);(#861U:#739G);(#1084U:#935G)] -> (#2318U:#591G)Method(tarFile(Ljava.io.File;Lorg.apache.tools.tar.TarOutputStream;Ljava.lang.String;Lorg.apache.tools.ant.taskdefs.Tar$TarFileSet;)V)[22](322L,4C-338L,4C(11491-12265))2 [(#2305U:#561G);(#2306U:#562G);(#2315U:#571G);(#2317U:#573G);(#2329U:#580G);(#2338U:#589G)] <936-937>
+|- MOVE#123M(1) (#764U:#665G)Primary.Name(file)[0](328L,16C-19C(11810-11813))1 -> (#2330U:#582G)Primary.Name(file)[0](337L,37C-40C(12228-12231))1 <665>
+MOVE#54M(5):PERMUTATION (#369U:#344G)Primary.PrimaryMethodInvocation(getFiles#1)[0](231L,33C-57C(7959-7983))5 -> (#3205U:#1144G)Primary.PrimaryMethodInvocation(getDir#1)[0](548L,29C-51C(19802-19824))5 <340-344>
+MOVE#79M(3) (#594U:#496G)LocalVariableDeclaration(true,fs[0)[0](274L,20C-64C(9722-9766))3 [(#592U:#494G)] -> (#3480U:#1472G)LocalVariableDeclaration(true,fs[0)[0](639L,12C-37C(23309-23334))3 [(#3478U:#1470G)] <489;495-496>
+MOVE#4M(6):PERMUTATION (#1244U:#1095G)LocalVariableDeclaration(true,directories[0)[1](474L,16C-66C(16917-16967))6 -> (#3579U:#1650G)LocalVariableDeclaration(true,directories[0)[1](682L,8C-58C(24915-24965))6 <1090-1095>
+MOVE(GROUP)(24)#15M:PERMUTATION:
+|- MOVE#120M(21):PERMUTATION (#639U:#529G)Statement.If(5a00b679e75c510e7d2514c65d31d2e9;Expression.BinaryOperator.And)[2](276L,20C-281L,20C(9852-10226))21 [(#637U:#508G)] -> (#3377U:#1457G)Statement.If(09c82e57623a2dce9fbe47df464625e7;Expression.BinaryOperator.And)[2](629L,8C-635L,8C(22860-23217))21 [(#3375U:#1433G);(#3361U:#1437G)] <509-529>
+|- MOVE#119M(3):PERMUTATION (#637U:#508G)Expression.BinaryOperator.Gt[0](276L,24C-39C(9856-9871))3 [(#635U:#505G)] -> (#3371U:#1432G)Expression.BinaryOperator.Gt[1](629L,27C-40C(22879-22892))3 [(#3368U:#1428G);(#3369U:#1429G)] <506-508>
+MOVE#58M(3):PERMUTATION (#389U:#351G)NamedArguments(getDir)[1](233L,55C-68C(8042-8055))3 -> (#3652U:#1729G)NamedArguments(getPrefix)[1](707L,54C-67C(26020-26033))3 <349-351>
+MOVE#12M(8):PERMUTATION (#1259U:#1110G)Primary.ArrayCreationDims(0)[1](476L,24C-74C(17054-17104))8 -> (#3594U:#1665G)Primary.ArrayCreationDims(0)[0](684L,25C-75C(25045-25095))8 <1103-1110>
+MOVE#8M(9):PERMUTATION (#1277U:#1128G)Statement.Expression.Primary.TypeMethodInvocation(java.lang.System,arraycopy#5)()[5](478L,16C-479L,42C(17203-17304))9 -> (#3613U:#1684G)Statement.Expression.Primary.TypeMethodInvocation(java.lang.System,arraycopy#5)()[5](686L,8C-687L,43C(25178-25280))9 <1120-1128>
+MOVE#53M(3):PERMUTATION (#363U:#338G)LocalVariableDeclaration(true,fs[0)[0](230L,16C-60C(7880-7924))3 [(#361U:#336G)] -> (#3199U:#1138G)LocalVariableDeclaration(true,fs[0)[0](547L,12C-37C(19746-19771))3 [(#3197U:#1136G)] <331;337-338>
+MOVE#20M(1):PERMUTATION (#492U:#605G)Type.ClassOrInterface(java.io.IOException)[0](296L,29C-39C(10910-10920))1 -> (#2352U:#604G)Type.ClassOrInterface(java.io.IOException)[0](351L,15C-25C(12713-12723))1 <605>
+MOVE(GROUP)(36)#57M:PERMUTATION:
+|- MOVE#122M(35):PERMUTATION (#448U:#400G)Statement.For[3](237L,16C-243L,16C(8134-8503))35 [(#424U:#380G)] -> (#3293U:#1396G)Statement.For[2](604L,8C-609L,8C(21998-22263))35 [(#3269U:#1376G)] <361-375;381-400>
+|- MOVE#121M(1):PERMUTATION (#420U:#376G)Primary.Name(fs)[0](238L,48C-49C(8223-8224))1 -> (#3269U:#1376G)Primary.Name(basedir)[0](605L,40C-46C(22079-22085))1 <376>
+MOVE#5M(6):PERMUTATION (#1250U:#1101G)LocalVariableDeclaration(true,filesPerSe[0)[2](475L,16C-59C(16985-17028))6 -> (#3585U:#1656G)LocalVariableDeclaration(true,filesPerSe[0)[2](683L,8C-51C(24975-25018))6 <1096-1101>
+MOVE#9M(1) (#1035U:#881G)Primary.Name(file)[0](387L,42C-45C(14137-14140))1 -> (#2325U:#574G)Primary.Name(file)[0](325L,12C-15C(11652-11655))1 <881>
+MOVE#55M(3):PERMUTATION (#371U:#346G)LocalVariableDeclaration(true,files[0)[1](231L,16C-58C(7942-7984))3 [(#369U:#344G)] -> (#3156U:#1289G)LocalVariableDeclaration(true,files[0)[2](573L,16C-75C(20967-21026))3 [(#3154U:#1287G)] <339;345-346>
+MOVE#18M(1):PERMUTATION (#503U:#598G)Primary.Name(tOut)[0](292L,20C-23C(10765-10768))1 -> (#2262U:#498G)Primary.Name(tOut)[1](297L,54C-57C(10671-10674))1 <598>
+MOVE#59M(3):PERMUTATION (#423U:#379G)NamedArguments(getDir)[1](238L,57C-70C(8232-8245))3 -> (#3671U:#1748G)NamedArguments(getFileMode)[1](711L,55C-68C(26284-26297))3 <377-379>
+MOVE#42M(13) (#768U:#678G)Statement.If(af4760446f09d1ecf09e0d14d31df540;Expression.BinaryOperator.And)[1](328L,12C-330L,12C(11806-11898))13 [(#764U:#665G)] -> (#2519U:#721G)Statement.If(9620e67b500aa0bb88720500dd90a526;Expression.BinaryOperator.And)[2](386L,8C-388L,8C(13817-13898))13 [(#2515U:#708G)] <666-678>
+RELABEL (#1001U:#846G)Statement.If(5dfbb40cc22f0c9550ad7eef12e14fec;Expression.UnaryOperator.Not)[3](373L,12C-378L,12C(13610-13816))1 [(#1000U:#825G);(#996U:#838G);(#983U:#845G)] -> (#2763U:#920G)Statement.If(ddb256b3c15e3309957a3a909671067c;Expression.UnaryOperator.Not)[7](426L,8C-439L,8C(15406-16080))1 [(#2762U:#859G);(#2758U:#901G);(#2704U:#919G)]
+RELABEL (#867U:#930G)Statement.Expression.Primary.PrimaryMethodInvocation(close#0)()[0](400L,16C-27C(14515-14526))1 [(#865U:#928G);(#866U:#929G)] -> (#2834U:#1029G)Statement.Expression.Primary.TypeMethodInvocation(org.apache.tools.ant.util.FileUtils,close#1)()[0](474L,12C-31C(17151-17170))1 [(#2833U:#1028G)]
+MOVREL (#423U:#379G)NamedArguments(getDir)[1](238L,57C-70C(8232-8245))1 [(#422U:#378G)] -> (#3671U:#1748G)NamedArguments(getFileMode)[1](711L,55C-68C(26284-26297))1 [(#3670U:#1747G)]
+RELABEL (#968U:#817G)Primary.Name(file)[0](372L,26C-29C(13576-13579))1 -> (#2613U:#799G)Primary.Name(r)[0](412L,22C-22C(14904-14904))1
+RELABEL (#997U:#822G)Primary.Name(file)[0](373L,17C-20C(13615-13618))1 -> (#2759U:#856G)Primary.Name(r)[0](426L,13C-13C(15411-15411))1
+MOVREL (#394U:#360G)Statement.If(562f73aca006bde3b7e55aa67b727ab1;Expression.UnaryOperator.Not)[2](233L,16C-235L,16C(8003-8115))1 [(#393U:#355G);(#384U:#359G)] -> (#3247U:#1360G)Statement.If(b5d27bd26bf4eac2733849de1612122f;Expression.UnaryOperator.Not)[1](600L,8C-602L,8C(21907-21987))1 [(#3246U:#1355G);(#3241U:#1359G)]
+RELABEL (#336U:#307G)Primary.Literal.String(attribute or some nested filesets.)[1](222L,43C-78C(7552-7587))1 -> (#2075U:#348G)Primary.Literal.String(attribute or some nested resource)[1](253L,43C-77C(8792-8826))1
+RELABEL (#1301U:#1149G)Statement.Expression.AssignmentOperator.Eq()()[0](492L,12C-493L,69C(17648-17733))1 [(#1294U:#1142G);(#1300U:#1148G)] -> (#3855U:#1892G)Statement.Expression.Primary.SimpleMethodInvocation(setFileMode#1)()[0](789L,12C-36C(28799-28823))1 [(#3854U:#1891G)]
+RELABEL (#118U:#117G)LocalVariableDeclaration(true,fileset[0)[0](97L,8C-45C(3069-3106))1 [(#113U:#112G);(#117U:#116G)] -> (#1833U:#135G)LocalVariableDeclaration(true,fs[0)[0](117L,8C-40C(3957-3989))1 [(#1828U:#130G);(#1832U:#134G)]
+MOVREL (#1263U:#1114G)Primary.FieldAccess(files)[2](477L,49C-53C(17156-17160))1 -> (#3599U:#1670G)Primary.Name(files)[2](685L,41C-45C(25139-25143))1
+MOVREL (#599U:#501G)NamedArguments(getFiles)[1](275L,48C-61C(9816-9829))1 [(#598U:#500G)] -> (#1837U:#139G)NamedArguments(setProject)[1](118L,21C-34C(4012-4025))1 [(#1836U:#138G)]
+MOVREL (#1234U:#1085G)Primary.Name(p)[0](473L,58C-58C(16897-16897))1 -> (#3567U:#1638G)Primary.Name(fs)[0](681L,53C-54C(24889-24890))1
+RELABEL (#1064U:#905G)Primary.Name(fIn)[0](393L,28C-30C(14327-14329))1 -> (#2874U:#1007G)Primary.Name(in)[0](468L,28C-29C(16999-17000))1
+RELABEL (#498U:#603G)Statement.Expression.Primary.PrimaryMethodInvocation(close#0)()[0](295L,24C-36C(10867-10879))1 [(#496U:#601G);(#497U:#602G)] -> (#2175U:#547G)Statement.Expression.Primary.TypeMethodInvocation(org.apache.tools.ant.util.FileUtils,close#1)()[0](307L,16C-37C(11118-11139))1 [(#2174U:#546G)]
+RELABEL (#1683U:#1495G)Primary.Name(value)[0](754L,28C-32C(24723-24727))1 -> (#4103U:#2104G)Primary.Name(v)[0](930L,28C-28C(32541-32541))1
+RELABEL (#1674U:#1522G)Statement.If(1a2d431c2b3a14081d7a3a58ffe1272a;Primary.PrimaryMethodInvocation())[0](757L,16C-761L,16C(24824-25007))1 [(#1673U:#1507G);(#1669U:#1521G)] -> (#4094U:#2131G)Statement.If(7d9a29fba4f679e1542d18ed06cd4ebb;Primary.PrimaryMethodInvocation())[0](933L,16C-937L,16C(32638-32817))1 [(#4093U:#2116G);(#4089U:#2130G)]
+MOVREL (#1236U:#1087G)Primary.SimpleMethodInvocation(getDirectoryScanner#1)[0](473L,38C-59C(16877-16898))1 [(#1235U:#1086G)] -> (#3571U:#1642G)Primary.PrimaryMethodInvocation(getDirectoryScanner#1)[0](681L,30C-68C(24866-24904))1 [(#3566U:#1637G);(#3570U:#1641G)]
+RELABEL (#1034U:#879G)Primary.Name(fIn)[0](387L,16C-18C(14111-14113))1 -> (#2845U:#982G)Primary.Name(in)[0](462L,16C-17C(16791-16792))1
+RELABEL (#351U:#315G)Statement.If(96a602a4f6978f8c77b301b4558bca78;Expression.BinaryOperator.Eq)[1](220L,12C-224L,12C(7404-7659))1 [(#350U:#304G);(#345U:#314G)] -> (#2097U:#358G)Statement.If(585999686fe5cc3d2c5715aebc1b9b9f;Expression.BinaryOperator.And)[1](251L,12C-256L,12C(8609-8957))1 [(#2096U:#345G);(#2085U:#357G)]
+MOVREL (#768U:#678G)Statement.If(af4760446f09d1ecf09e0d14d31df540;Expression.BinaryOperator.And)[1](328L,12C-330L,12C(11806-11898))1 [(#767U:#673G);(#758U:#677G)] -> (#2519U:#721G)Statement.If(9620e67b500aa0bb88720500dd90a526;Expression.BinaryOperator.And)[2](386L,8C-388L,8C(13817-13898))1 [(#2518U:#716G);(#2509U:#720G)]
+MOVREL (#420U:#376G)Primary.Name(fs)[0](238L,48C-49C(8223-8224))1 -> (#3269U:#1376G)Primary.Name(basedir)[0](605L,40C-46C(22079-22085))1
+RELABEL (#969U:#818G)NamedArguments(lastModified)[1](372L,43C-44C(13593-13594))1 -> (#2614U:#800G)NamedArguments(getLastModified)[1](412L,39C-40C(14921-14922))1
+RELABEL (#1079U:#920G)Statement.If(5dfbb40cc22f0c9550ad7eef12e14fec;Expression.UnaryOperator.Not)[9](386L,12C-395L,12C(14068-14414))1 [(#1078U:#878G);(#1074U:#919G)] -> (#2889U:#1022G)Statement.If(ddb256b3c15e3309957a3a909671067c;Expression.UnaryOperator.Not)[1](461L,12C-470L,12C(16751-17085))1 [(#2888U:#981G);(#2884U:#1021G)]
+RELABEL (#772U:#682G)Primary.PrimaryMethodInvocation(getPrefix#0)[0](332L,28C-49C(11929-11950))1 [(#770U:#680G);(#771U:#681G)] -> (#2402U:#648G)Primary.PrimaryMethodInvocation(getPrefix#1)[0](367L,32C-70C(13160-13198))1 [(#2397U:#643G);(#2401U:#647G)]
+RELABEL (#1036U:#882G)NamedArguments(java.io.FileInputStream)[1](387L,41C-46C(14136-14141))1 [(#1035U:#881G)] -> (#2847U:#984G)NamedArguments(getInputStream)[1](462L,37C-38C(16812-16813))1
+MOVREL (#369U:#344G)Primary.PrimaryMethodInvocation(getFiles#1)[0](231L,33C-57C(7959-7983))1 [(#365U:#340G);(#368U:#343G)] -> (#3205U:#1144G)Primary.PrimaryMethodInvocation(getDir#1)[0](548L,29C-51C(19802-19824))1 [(#3201U:#1140G);(#3204U:#1143G)]
+RELABEL (#986U:#828G)NamedArguments(length)[1](374L,38C-39C(13675-13676))1 -> (#2732U:#882G)NamedArguments(getSize)[1](431L,32C-33C(15681-15682))1
+RELABEL (#1142U:#994G)Type.ClassOrInterface(org.apache.tools.ant.types.FileSet)[0](433L,43C-49C(15596-15602))1 -> (#3792U:#1833G)Type.ClassOrInterface(org.apache.tools.ant.types.TarFileSet)[0](745L,16C-52C(27505-27541))1
+RELABEL (#970U:#819G)Primary.PrimaryMethodInvocation(lastModified#0)[0](372L,26C-44C(13576-13594))1 [(#968U:#817G);(#969U:#818G)] -> (#2615U:#801G)Primary.PrimaryMethodInvocation(getLastModified#0)[0](412L,22C-40C(14904-14922))1 [(#2613U:#799G);(#2614U:#800G)]
+MOVREL (#368U:#343G)NamedArguments(getFiles)[1](231L,44C-57C(7970-7983))1 [(#367U:#342G)] -> (#3204U:#1143G)NamedArguments(getDir)[1](548L,38C-51C(19811-19824))1 [(#3203U:#1142G)]
+MOVREL (#587U:#489G)Type.ClassOrInterface(org.apache.tools.ant.taskdefs.Tar$TarFileSet)[0](274L,20C-29C(9722-9731))1 -> (#3475U:#1467G)Type.ClassOrInterface(org.apache.tools.ant.types.FileSet)[0](639L,12C-18C(23309-23315))1
+MOVREL (#386U:#348G)Primary.Name(fs)[0](233L,46C-47C(8033-8034))1 -> (#3243U:#1352G)Primary.Name(basedir)[1](600L,38C-44C(21937-21943))1
+RELABEL (#120U:#119G)Primary.Name(fileset)[0](98L,28C-34C(3136-3142))1 -> (#1840U:#142G)Primary.Name(fs)[0](119L,28C-29C(4056-4057))1
+RELABEL (#1671U:#1505G)Primary.Name(value)[0](757L,33C-37C(24841-24845))1 -> (#4091U:#2114G)Primary.Name(v)[0](933L,33C-33C(32655-32655))1
+RELABEL (#725U:#645G)Primary.PrimaryMethodInvocation(getFullpath#0)[0](319L,26C-49C(11563-11586))1 [(#723U:#643G);(#724U:#644G)] -> (#2375U:#622G)Primary.PrimaryMethodInvocation(getFullpath#1)[0](358L,30C-70C(12852-12892))1 [(#2370U:#617G);(#2374U:#621G)]
+MOVREL (#1271U:#1122G)Primary.FieldAccess(files)[2](478L,48C-52C(17235-17239))1 -> (#3607U:#1678G)Primary.Name(files)[2](686L,40C-44C(25210-25214))1
+MOVREL (#636U:#506G)Primary.FieldAccess(length)[0](276L,24C-35C(9856-9867))1 [(#635U:#505G)] -> (#3370U:#1430G)Primary.PrimaryMethodInvocation(size#0)[0](629L,27C-36C(22879-22888))1 [(#3368U:#1428G);(#3369U:#1429G)]
+MOVREL (#433U:#398G)Statement.If(447aaed967fd925c884f08fee92d2fb1;Primary.PrimaryMethodInvocation())[0](238L,20C-242L,20C(8195-8485))1 [(#432U:#387G);(#418U:#397G)] -> (#3278U:#1394G)Statement.If(750b69227ccf078cee4bac41b8d9e7d1;Primary.PrimaryMethodInvocation())[0](605L,12C-608L,12C(22051-22253))1 [(#3277U:#1383G);(#3267U:#1393G)]
+RELABEL (#117U:#116G)VariableDeclarator(fileset,0,true)[1](97L,19C-44C(3080-3105))1 [(#116U:#115G)] -> (#1832U:#134G)VariableDeclarator(fs,0,true)[1](117L,19C-39C(3968-3988))1 [(#1831U:#133G)]
+RELABEL (#1642U:#1488G)Modifiers(value#l)[0](753L,12C-16C(24662-24666))1 [(#1641U:#1487G)] -> (#4062U:#2097G)Modifiers(v#l)[0](929L,12C-16C(32484-32488))1 [(#4061U:#2096G)]
+MOVREL (#639U:#529G)Statement.If(5a00b679e75c510e7d2514c65d31d2e9;Expression.BinaryOperator.And)[2](276L,20C-281L,20C(9852-10226))1 [(#638U:#516G);(#626U:#528G)] -> (#3377U:#1457G)Statement.If(09c82e57623a2dce9fbe47df464625e7;Expression.BinaryOperator.And)[2](629L,8C-635L,8C(22860-23217))1 [(#3376U:#1444G);(#3356U:#1456G)]
+RELABEL (#123U:#122G)Primary.Name(fileset)[0](99L,15C-21C(3161-3167))1 -> (#1843U:#145G)Primary.Name(fs)[0](120L,15C-16C(4076-4077))1
+MOVREL (#389U:#351G)NamedArguments(getDir)[1](233L,55C-68C(8042-8055))1 [(#388U:#350G)] -> (#3652U:#1729G)NamedArguments(getPrefix)[1](707L,54C-67C(26020-26033))1 [(#3651U:#1728G)]
+RELABEL (#987U:#829G)Primary.PrimaryMethodInvocation(length#0)[0](374L,27C-39C(13664-13676))1 [(#985U:#827G);(#986U:#828G)] -> (#2733U:#883G)Primary.PrimaryMethodInvocation(getSize#0)[0](431L,23C-33C(15672-15682))1 [(#2731U:#881G);(#2732U:#882G)]
+RELABEL (#1686U:#1524G)Statement.If(25385ff0e986b47a38f103de7f9d8304;Primary.PrimaryMethodInvocation())[1](754L,12C-762L,12C(24707-25021))1 [(#1685U:#1497G);(#1681U:#1503G);(#1675U:#1523G)] -> (#4106U:#2133G)Statement.If(fe68dfebc0721f2b335fa5464fc5a77a;Primary.PrimaryMethodInvocation())[1](930L,12C-938L,12C(32525-32831))1 [(#4105U:#2106G);(#4101U:#2112G);(#4095U:#2132G)]
+MOVREL (#628U:#509G)Primary.Name(fs)[0](276L,44C-45C(9876-9877))1 -> (#3358U:#1434G)Primary.Name(afs)[0](630L,15C-17C(22909-22911))1
+MOVREL (#356U:#331G)Type.ClassOrInterface(org.apache.tools.ant.taskdefs.Tar$TarFileSet)[0](230L,16C-25C(7880-7889))1 -> (#3194U:#1133G)Type.ClassOrInterface(org.apache.tools.ant.types.FileSet)[0](547L,12C-18C(19746-19752))1
+RELABEL (#1646U:#1492G)VariableDeclarator(value,0,true)[2](753L,25C-42C(24675-24692))1 [(#1645U:#1491G)] -> (#4066U:#2101G)VariableDeclarator(v,0,true)[2](929L,25C-38C(32497-32510))1 [(#4065U:#2100G)]
+RELABEL (#980U:#842G)Primary.PrimaryMethodInvocation(getDirMode#0)[0](377L,27C-49C(13778-13800))1 [(#978U:#840G);(#979U:#841G)] -> (#2693U:#915G)Primary.PrimaryMethodInvocation(getDirMode#1)[0](438L,23C-62C(16029-16068))1 [(#2688U:#910G);(#2692U:#914G)]
+MOVREL (#667U:#570G)Primary.Name(fs)[3](285L,47C-48C(10495-10496))1 -> (#3514U:#1519G)Primary.Name(tfs)[3](644L,39C-41C(23618-23620))1
+RELABEL (#1038U:#883G)Primary.InstanceCreation(java.io.FileInputStream.<init>#1)[1](387L,22C-46C(14117-14141))1 [(#1037U:#880G);(#1036U:#882G)] -> (#2848U:#985G)Primary.PrimaryMethodInvocation(getInputStream#0)[1](462L,21C-38C(16796-16813))1 [(#2846U:#983G);(#2847U:#984G)]
+RELABEL (#1075U:#875G)Primary.Name(file)[0](386L,17C-20C(14073-14076))1 -> (#2885U:#978G)Primary.Name(r)[0](461L,17C-17C(16756-16756))1
+RELABEL (#1307U:#1155G)Primary.FieldAccess(fileMode)[0](500L,19C-26C(17857-17864))1 -> (#3865U:#1902G)Primary.SimpleMethodInvocation(getFileMode#1)[0](796L,19C-48C(28947-28976))1 [(#3864U:#1901G)]
+MOVREL (#600U:#502G)Primary.PrimaryMethodInvocation(getFiles#1)[0](275L,37C-61C(9805-9829))1 [(#596U:#498G);(#599U:#501G)] -> (#3484U:#1476G)Primary.SimpleMethodInvocation(getFileNames#1)[0](640L,29C-44C(23365-23380))1 [(#3483U:#1475G)]
+RELABEL (#1647U:#1493G)LocalVariableDeclaration(true,value[0)[0](753L,12C-43C(24662-24693))1 [(#1642U:#1488G);(#1643U:#1489G);(#1646U:#1492G)] -> (#4067U:#2102G)LocalVariableDeclaration(true,v[0)[0](929L,12C-39C(32484-32511))1 [(#4062U:#2097G);(#4063U:#2098G);(#4066U:#2101G)]
+RELABEL (#1297U:#1146G)NamedArguments(parseInt)[0](493L,53C-68C(17717-17732))1 [(#1295U:#1144G);(#1296U:#1145G)] -> (#3854U:#1891G)NamedArguments(setFileMode)[0](789L,23C-35C(28810-28822))1 [(#3853U:#1890G)]
+MOVREL (#630U:#511G)Primary.PrimaryMethodInvocation(getFullpath#0)[0](276L,44C-59C(9876-9891))1 [(#628U:#509G);(#629U:#510G)] -> (#3363U:#1439G)Primary.PrimaryMethodInvocation(getFullpath#1)[0](630L,15C-48C(22909-22942))1 [(#3358U:#1434G);(#3362U:#1438G)]
+RELABEL (#985U:#827G)Primary.Name(file)[0](374L,27C-30C(13664-13667))1 -> (#2731U:#881G)Primary.Name(r)[0](431L,23C-23C(15672-15672))1
+DELETE(5) (#1183U:#1035G)FieldDeclaration(uid[0)[5](441L,8C-26C(15889-15907))5 <1031-1035>
+DELETE(7) (#1368U:#1220G)Method(getUid()I)[20](552L,8C-554L,8C(19221-19275))7 <1214-1220>
+DELETE(12) (#1378U:#1232G)Method(setGroup(Ljava.lang.String;)V)[21](561L,8C-563L,8C(19470-19559))12 <1221-1232>
+DELETE(17) (#1316U:#1175G)Method(setDirMode(Ljava.lang.String;)V)[15](511L,8C-514L,8C(18151-18301))17 <1159-1175>
+DELETE(1) (#497U:#602G)NamedArguments(close)[1](295L,34C-35C(10877-10878))1 <602>
+DELETE(9) (#505U:#611G)Statement.If(6a691e9655c0de98be6bdd5cfc518866;Expression.BinaryOperator.Neq)[0](292L,16C-299L,16C(10761-10999))9 [(#503U:#598G);(#498U:#603G);(#492U:#605G)] <599-600;604;606-611>
+DELETE(7) (#1444U:#1296G)Method(getFullpath()Ljava.lang.String;)[28](619L,8C-621L,8C(21098-21165))7 <1290-1296>
+DELETE(8) (#1166U:#1018G)FieldDeclaration(dirMode[0)[2](437L,8C-75C(15734-15801))8 <1011-1018>
+DELETE(1) (#635U:#505G)Primary.Name(files)[0](276L,24C-28C(9856-9860))1 <505>
+DELETE(1) (#865U:#928G)Primary.Name(fIn)[0](400L,16C-18C(14515-14517))1 <928>
+DELETE(1) (#390U:#352G)Primary.PrimaryMethodInvocation(getDir#1)[1](233L,46C-68C(8033-8055))1 [(#386U:#348G);(#389U:#351G)] <352>
+DELETE(12) (#1416U:#1270G)Method(setPrefix(Ljava.lang.String;)V)[25](594L,8C-596L,8C(20300-20381))12 <1259-1270>
+DELETE(12) (#1359U:#1213G)Method(setUid(I)V)[19](545L,8C-547L,8C(19075-19141))12 <1202-1213>
+DELETE(6) (#1200U:#1052G)FieldDeclaration(fullpath[0)[8](444L,8C-36C(15981-16009))6 <1047-1052>
+DELETE(12) (#1397U:#1251G)Method(setGid(I)V)[23](577L,8C-579L,8C(19883-19949))12 <1240-1251>
+DELETE(6) (#1172U:#1024G)FieldDeclaration(userName[0)[3](439L,8C-36C(15812-15840))6 <1019-1024>
+DELETE(1) (#1296U:#1145G)Primary.Literal.Integer(8)[1](493L,67C-67C(17731-17731))1 <1145>
+DELETE(1) (#4U:#4G)IDsingle(java.io.FileInputStream)[2](22L,0C-30C(731-761))1 <4>
+DELETE(7) (#1406U:#1258G)Method(getGid()I)[24](584L,8C-586L,8C(20025-20079))7 <1252-1258>
+DELETE(7) (#1387U:#1239G)Method(getGroup()Ljava.lang.String;)[22](568L,8C-570L,8C(19636-19701))7 <1233-1239>
+DELETE(12) (#1340U:#1194G)Method(setUserName(Ljava.lang.String;)V)[17](529L,8C-531L,8C(18651-18740))12 <1183-1194>
+DELETE(5) (#1188U:#1040G)FieldDeclaration(gid[0)[6](442L,8C-26C(15917-15935))5 <1036-1040>
+DELETE(1) (#1037U:#880G)Type.ClassOrInterface(java.io.FileInputStream)[0](387L,26C-40C(14121-14135))1 <880>
+DELETE(1) (#22U:#22G)IDsingle(org.apache.tools.zip.UnixStat)[20](40L,0C-36C(1447-1483))1 <22>
+DELETE(1) (#424U:#380G)Primary.PrimaryMethodInvocation(getDir#1)[0](238L,48C-70C(8223-8245))1 [(#420U:#376G);(#423U:#379G)] <380>
+DELETE(4) (#721U:#641G)LocalVariableDeclaration(true,fIn[0)[0](317L,8C-34C(11508-11534))4 <638-641>
+DELETE(12) (#1435U:#1289G)Method(setFullpath(Ljava.lang.String;)V)[27](612L,8C-614L,8C(20912-21001))12 <1278-1289>
+DELETE(2) (#1084U:#935G)Statement.Try[4](349L,8C-402L,8C(12487-14550))2 [(#959U:#808G);(#966U:#815G);(#972U:#821G);(#1001U:#846G);(#1007U:#852G);(#1013U:#858G);(#1019U:#864G);(#1025U:#870G);(#1029U:#874G);(#1079U:#920G);(#1082U:#923G);(#874U:#934G)] <924;935>
+DELETE(7) (#1425U:#1277G)Method(getPrefix()Ljava.lang.String;)[26](601L,8C-603L,8C(20481-20544))7 <1271-1277>
+DELETE(7) (#1330U:#1182G)Method(getDirMode()I)[16](520L,8C-522L,8C(18408-18470))7 <1176-1182>
+DELETE(8) (#1158U:#1010G)FieldDeclaration(fileMode[0)[1](436L,8C-78C(15654-15724))8 <1003-1010>
+DELETE(6) (#1194U:#1046G)FieldDeclaration(prefix[0)[7](443L,8C-34C(15945-15971))6 <1041-1046>
+DELETE(5) (#872U:#932G)Statement.If(01db0aa98a3ab613c9b80841a963f066;Expression.BinaryOperator.Neq)[0](399L,12C-401L,12C(14480-14540))5 [(#867U:#930G)] <925-927;931-932>
+DELETE(7) (#1349U:#1201G)Method(getUserName()Ljava.lang.String;)[18](536L,8C-538L,8C(18826-18893))7 <1195-1201>
+DELETE(2) (#1294U:#1142G)Primary.FieldAccess(fileMode)[0](492L,12C-24C(17648-17660))2 <1141-1142>
+DELETE(3) (#1300U:#1148G)Expression.BinaryOperator.BitOr[1](493L,16C-68C(17680-17732))3 [(#1297U:#1146G)] <1143;1147-1148>
+DELETE(6) (#1178U:#1030G)FieldDeclaration(groupName[0)[4](440L,8C-37C(15850-15879))6 <1025-1030>
+INSERT(1) (#2174U:#546G)NamedArguments(close)[0](307L,31C-36C(11133-11138))1 [(#2173U:#545G)] <546>
+INSERT(12) (#2972U:#1119G)Method(supportsNonFileResources()Z)[27](526L,4C-528L,4C(19009-19105))12 <1108-1119>
+INSERT(2) (#2264U:#500G)Statement.Expression.Primary.SimpleMethodInvocation(tar#2)()[0](297L,20C-59C(10637-10676))2 [(#2261U:#497G);(#2262U:#498G)] <499-500>
+INSERT(6) (#2096U:#345G)Expression.BinaryOperator.And[0](251L,16C-70C(8613-8667))6 [(#2095U:#339G)] <340-345>
+INSERT(2) (#3569U:#1640G)Primary.PrimaryMethodInvocation(getProject#0)[0](681L,53C-67C(24889-24903))2 [(#3567U:#1638G)] <1639-1640>
+INSERT(8) (#2704U:#919G)Statement.If(aa05dae166dc4e12469e82d1bffda2d5;Expression.BinaryOperator.And)[2](436L,15C-439L,8C(15892-16080))8 [(#2696U:#918G)] <902-908;919>
+INSERT(1) (#1722U:#25G)IDsingle(org.apache.tools.ant.types.resources.TarResource)[23](43L,0C-55C(1573-1628))1 <25>
+INSERT(4) (#2110U:#382G)Statement.Expression.AssignmentOperator.AndEq()()[0](262L,16C-63C(9178-9225))4 [(#2107U:#379G)] <374;380-382>
+INSERT(1) (#1717U:#20G)IDsingle(org.apache.tools.ant.types.Resource)[18](38L,0C-42C(1297-1339))1 <20>
+INSERT(18) (#3546U:#1627G)Method(isFileFileSet(Lorg.apache.tools.ant.types.ResourceCollection;)Z)[31](670L,4C-672L,4C(24463-24600))18 <1610-1627>
+INSERT(1) (#3368U:#1428G)Primary.Name(afs)[0](629L,27C-29C(22879-22881))1 <1428>
+INSERT(20) (#2729U:#879G)Statement.If(4a542d38eeefcd58d57b0cc3acad61ce;Expression.BinaryOperator.Gt)[0](427L,12C-430L,12C(15442-15647))20 <860-879>
+INSERT(3) (#2373U:#620G)Primary.PrimaryMethodInvocation(getProject#0)[0](358L,53C-69C(12875-12891))3 <618-620>
+INSERT(4) (#3864U:#1901G)NamedArguments(getFileMode)[0](796L,30C-48C(28958-28976))4 <1898-1901>
+INSERT(1) (#1723U:#26G)IDsingle(org.apache.tools.ant.util.FileUtils)[24](44L,0C-42C(1630-1672))1 <26>
+INSERT(20) (#2955U:#1107G)Method(archiveIsUpToDate(Lorg.apache.tools.ant.types.Resource;)Z)[26](509L,4C-513L,4C(18303-18568))20 <1088-1107>
+INSERT(15) (#3564U:#1688G)Method(getFileNames(Lorg.apache.tools.ant.types.FileSet;)[Ljava.lang.String;)[32](680L,4C-689L,4C(24777-25308))15 [(#3573U:#1644G);(#3579U:#1650G);(#3585U:#1656G);(#3594U:#1665G);(#3604U:#1675G);(#3613U:#1684G)] <1628-1635;1657;1666-1667;1685-1688>
+INSERT(21) (#2298U:#523G)Statement.For[5](299L,16C-302L,16C(10712-10895))21 <503-523>
+INSERT(1) (#1721U:#24G)IDsingle(org.apache.tools.ant.types.selectors.SelectorUtils)[22](42L,0C-57C(1514-1571))1 <24>
+INSERT(1) (#3566U:#1637G)Primary.Name(fs)[0](681L,30C-31C(24866-24867))1 <1637>
+INSERT(12) (#1852U:#160G)Method(add(Lorg.apache.tools.ant.types.ResourceCollection;)V)[14](128L,4C-130L,4C(4230-4314))12 <149-160>
+INSERT(3) (#3478U:#1470G)Expression.Cast[0](639L,25C-36C(23322-23333))3 <1468-1470>
+INSERT(8) (#2338U:#589G)Statement.Expression.Primary.SimpleMethodInvocation(tarResource#4)()[1](337L,8C-68C(12199-12259))8 [(#2330U:#582G)] <581;583-589>
+INSERT(2) (#1838U:#140G)Statement.Expression.Primary.PrimaryMethodInvocation(setProject#1)()[1](118L,8C-35C(3999-4026))2 [(#1837U:#139G)] <136;140>
+INSERT(1) (#2832U:#1027G)Primary.Name(in)[0](474L,28C-29C(17167-17168))1 <1027>
+INSERT(3) (#2691U:#913G)Primary.PrimaryMethodInvocation(getProject#0)[0](438L,45C-61C(16051-16067))3 <911-913>
+INSERT(194) (#2987U:#1338G)Method(check(Lorg.apache.tools.ant.types.ResourceCollection;)Z)[28](544L,4C-587L,4C(19619-21468))194 [(#3199U:#1138G);(#3205U:#1144G);(#3156U:#1289G)] <1120-1132;1139;1145-1275;1290-1338>
+INSERT(3) (#3197U:#1136G)Expression.Cast[0](547L,25C-36C(19759-19770))3 <1134-1136>
+INSERT(135) (#3623U:#1829G)Method(asTarFileSet(Lorg.apache.tools.ant.types.ArchiveFileSet;)Lorg.apache.tools.ant.taskdefs.Tar$TarFileSet;)[33](699L,4C-738L,4C(25606-27342))135 [(#3652U:#1729G);(#3671U:#1748G)] <1689-1726;1730-1745;1749-1829>
+INSERT(1) (#1706U:#9G)IDsingle(java.util.HashMap)[7](27L,0C-24C(879-903))1 <9>
+INSERT(1) (#1718U:#21G)IDsingle(org.apache.tools.ant.types.ResourceCollection)[19](39L,0C-52C(1341-1393))1 <21>
+INSERT(1) (#1703U:#6G)IDsingle(java.io.InputStream)[4](24L,0C-26C(792-818))1 <6>
+INSERT(1) (#1719U:#22G)IDsingle(org.apache.tools.ant.types.resources.ArchiveResource)[20](40L,0C-59C(1395-1454))1 <22>
+INSERT(1) (#2515U:#708G)Primary.Name(r)[0](386L,12C-12C(13821-13821))1 <708>
+INSERT(6) (#2329U:#580G)Statement.If(502de2a00dfbbcc7d9f5b2a173fad043;Primary.PrimaryMethodInvocation())[0](325L,8C-336L,8C(11648-12189))6 [(#2325U:#574G)] <575-580>
+INSERT(1) (#1708U:#11G)IDsingle(java.util.Iterator)[9](29L,0C-25C(931-956))1 <11>
+INSERT(3) (#2400U:#646G)Primary.PrimaryMethodInvocation(getProject#0)[0](367L,53C-69C(13181-13197))3 <644-646>
+INSERT(4) (#3375U:#1433G)Expression.BinaryOperator.And[0](629L,12C-40C(22864-22892))4 [(#3371U:#1432G)] <1425-1427;1433>
+INSERT(110) (#2354U:#1034G)Method(tarResource(Lorg.apache.tools.ant.types.Resource;Lorg.apache.tools.tar.TarOutputStream;Ljava.lang.String;Lorg.apache.tools.ant.taskdefs.Tar$TarFileSet;)V)[23](349L,4C-476L,4C(12569-17186))110 [(#2352U:#604G);(#2377U:#624G);(#2449U:#675G);(#2491U:#705G);(#2519U:#721G);(#2604U:#790G);(#2611U:#797G);(#2617U:#803G);(#2763U:#920G);(#2775U:#932G);(#2789U:#943G);(#2803U:#954G);(#2817U:#965G);(#2840U:#977G);(#2889U:#1022G);(#2892U:#1025G);(#2836U:#1031G)] <592-603;605-615;706-707;804-855;921-926;933-937;944-948;955-959;966-973;1026;1032-1034>
+INSERT(1) (#3483U:#1475G)NamedArguments(getFileNames)[0](640L,41C-44C(23377-23380))1 [(#3482U:#1474G)] <1475>
+INSERT(1) (#2846U:#983G)Primary.Name(r)[0](462L,21C-21C(16796-16796))1 <983>
+INSERT(1) (#1707U:#10G)IDsingle(java.util.HashSet)[8](28L,0C-24C(905-929))1 <10>
+INSERT(3) (#3361U:#1437G)Primary.PrimaryMethodInvocation(getProject#0)[0](630L,31C-47C(22925-22941))3 <1435-1437>
+INSERT(16) (#3228U:#1400G)Method(check(Ljava.io.File;[Ljava.lang.String;)Z)[29](598L,4C-611L,4C(21810-22294))16 [(#3247U:#1360G);(#3293U:#1396G)] <1339-1350;1397-1400>
+INSERT(119) (#3307U:#1609G)Method(tar(Lorg.apache.tools.ant.types.ResourceCollection;Lorg.apache.tools.tar.TarOutputStream;)V)[30](623L,4C-663L,4C(22631-24297))119 [(#3377U:#1457G);(#3480U:#1472G);(#3486U:#1478G);(#3531U:#1523G)] <1401-1424;1458-1466;1524-1609>
+INSERT(9) (#2757U:#900G)Statement.If(5be7293bd281bf339fc85313437a2d9f;Expression.BinaryOperator.And)[2](433L,12C-435L,12C(15752-15875))9 [(#2748U:#898G)] <886-892;899-900>
+INSERT(1) (#1714U:#17G)IDsingle(org.apache.tools.ant.types.ArchiveFileSet)[15](35L,0C-48C(1149-1197))1 <17>
+INSERT(1) (#3369U:#1429G)NamedArguments(size)[1](629L,35C-36C(22887-22888))1 <1429>
+INSERT(1) (#1720U:#23G)IDsingle(org.apache.tools.ant.types.resources.FileResource)[21](41L,0C-56C(1456-1512))1 <23>
+INSERT(11) (#3154U:#1287G)Expression.Cast[0](573L,33C-74C(20984-21025))11 <1277-1287>
+INSERT(3) (#3836U:#1876G)Primary.SimpleMethodInvocation(getFileNames#1)[1](776L,24C-41C(28437-28454))3 <1874-1876>
+INSERT(2) (#2078U:#351G)Expression.BinaryOperator.Add[0](252L,41C-254L,57C(8713-8885))2 [(#2077U:#349G)] <350-351>
+INSERT(8) (#1803U:#106G)FieldDeclaration(resourceCollections[0)[9](101L,4C-53C(3453-3502))8 <99-106>
+INSERT(22) (#2145U:#406G)Statement.For[4](264L,12C-267L,12C(9253-9432))22 <385-406>

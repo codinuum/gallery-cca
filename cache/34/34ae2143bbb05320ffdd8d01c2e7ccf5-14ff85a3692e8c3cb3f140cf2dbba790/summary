@@ -1,0 +1,13 @@
+*** Modified Units ***
+Class(War)(21L,0C-119L,0C(593-3686)): [MODIFIED] 88(41) changed [d:37(6)i:24(11)r:23(23)m:4(1)], 208 mapped
+Method(setWebxml(Ljava.io.File;)V)(34L,4C-47L,4C(816-1391)): [MODIFIED] 46(16) changed [d:26(5)i:10(4)r:6(6)m:4(1)], 29 mapped
+Method(zipFile(Ljava.io.File;Lorg.apache.tools.zip.ZipOutputStream;Ljava.lang.String;)V)(92L,4C-118L,4C(2575-3684)): [MODIFIED] 13(10) changed [d:0(0)i:6(3)r:7(7)m:0(0)], 71 mapped
+Method(cleanUp()V)(74L,4C-78L,4C(2100-2193)): [DELETED] 11(1) changed [d:11(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(initZipOutputStream(Lorg.apache.tools.zip.ZipOutputStream;)V)(80L,4C-90L,4C(2200-2568)): [MODIFIED] 4(3) changed [d:0(0)i:2(1)r:2(2)m:0(0)], 28 mapped
+Method(addWebinf(Lorg.apache.tools.ant.types.ZipFileSet;)V)(62L,4C-67L,4C(1591-1782)): [MODIFIED] 2(1) changed [d:0(0)i:2(1)r:0(0)m:0(0)], 0 mapped
+Method(addClasses(Lorg.apache.tools.ant.types.ZipFileSet;)V)(48L,4C-53L,4C(1185-1385)): [MODIFIED] 2(1) changed [d:0(0)i:2(1)r:0(0)m:0(0)], 0 mapped
+Method(addLib(Lorg.apache.tools.ant.types.ZipFileSet;)V)(55L,4C-60L,4C(1392-1584)): [MODIFIED] 2(1) changed [d:0(0)i:2(1)r:0(0)m:0(0)], 0 mapped
+*** Unmodified Units ***
+Method(addWebinf(Lorg.apache.tools.ant.types.ZipFileSet;)V)(63L,4C-68L,4C(1792-1977))
+Method(addLib(Lorg.apache.tools.ant.types.ZipFileSet;)V)(56L,4C-61L,4C(1599-1785))
+Method(addClasses(Lorg.apache.tools.ant.types.ZipFileSet;)V)(49L,4C-54L,4C(1398-1592))

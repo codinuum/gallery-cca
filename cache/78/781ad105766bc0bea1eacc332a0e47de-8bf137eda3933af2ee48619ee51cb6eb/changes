@@ -1,0 +1,465 @@
+*** Extracted Changes ***
+
+[significance=4] argument order changed (1)
+  Primary.Name(msg): [261L,70C-72C(8649-8651)] -> [232L,55C-57C(8052-8054)]
+
+[significance=4] argument added (4)
+  Primary.Literal.String(Failed to process matcher)[251L,31C-57C(8569-8595)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+  Primary.Name(te)(Primary.Name(te))[251L,60C-61C(8598-8599)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+  Primary.Name(violation)(Primary.Name(violation))[233L,37C-45C(8105-8113)]* into NamedArguments(addViolationEntry)[261L,29C-76C(8608-8655)]
+  Primary.Name(line)(Primary.Name(line))[247L,40C-43C(8470-8473)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+
+[significance=4] argument removed (3)
+  Primary.Name(is)(Primary.Name(is))[123L,56C-57C(3672-3673)]* from ClassBody(MAuditStreamHandler)[51L,0C-255L,0C(1981-8656)]
+  Primary.Name(line)(Primary.Name(line))[247L,25C-28C(8091-8094)]* from Method(stderr(Ljava.lang.String;)V)(Method(stderr))[213L,4C-215L,4C(7367-7411)]
+  Primary.FieldAccess(br)[134L,21C-22C(3905-3906)]* from ClassBody(MAuditStreamHandler)[51L,0C-255L,0C(1981-8656)]
+
+[significance=4] parent class added (1)
+  Extends[49L,4C-29C(1899-1924)]* into Specifier:Class[46L,0C-56C(1710-1766)]
+
+[significance=4] accessibility decreased (5)
+  FieldDeclaration(task[0)[71L,4C-25C(2388-2409)] -> FieldDeclaration(m_fileMapping[0)[89L,4C-35C(2887-2918)]
+  FieldDeclaration(xmlOut[0)[53L,4C-40C(1930-1966)] -> FieldDeclaration(m_xmlOut[0)[76L,4C-33C(2511-2540)]
+  FieldDeclaration(matcher[0)[69L,4C-35C(2350-2381)] -> FieldDeclaration(m_matcher[0)[87L,4C-35C(2849-2880)]
+  Method(getDocumentBuilder()Ljavax.xml.parsers.DocumentBuilder;)(Method(getDocumentBuilder))[84L,4C-94L,4C(2769-3052)] -> Method(getDocumentBuilder()Ljavax.xml.parsers.DocumentBuilder;)(Method(getDocumentBuilder))[103L,4C-113L,4C(3329-3635)]
+  FieldDeclaration(auditedFiles[0)[59L,4C-54C(2135-2185)] -> FieldDeclaration(m_auditedFiles[0)[82L,4C-54C(2709-2759)]
+
+[significance=4] final modifier added (10)
+  Modifier.Final[243L,33C-37C(8382-8386)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+  Modifier.Final[231L,12C-16C(7952-7956)]* into LocalVariableDeclaration(true,msg[0)[260L,12C-49C(8540-8577)]
+  Modifier.Final[221L,24C-28C(7535-7539)]* into Parameter(line,0,)[253L,32C-42C(8289-8299)]
+  Modifier.Final[230L,12C-16C(7874-7878)]* into LocalVariableDeclaration(true,lineNum[0)[259L,12C-70C(8468-8526)]
+  Modifier.Final[103L,19C-23C(3344-3348)]* into Modifiers(getDocumentBuilder#m)[84L,4C-19C(2769-2784)]
+  Modifier.Final[249L,15C-19C(8503-8507)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+  Modifier.Final[125L,8C-12C(4081-4085)]* into LocalVariableDeclaration(true,keys[0)[147L,8C-43C(4361-4396)]
+  Modifier.Final[232L,12C-16C(8009-8013)]* into Block(block)[257L,8C-262L,8C(8402-8666)]
+  Modifier.Final[226L,8C-12C(7719-7723)]* into LocalVariableDeclaration(true,matches[0)[255L,8C-53C(8317-8362)]
+  Modifier.Final[229L,12C-16C(7816-7820)]* into LocalVariableDeclaration(true,file[0)[258L,12C-50C(8416-8454)]
+
+[significance=4] field type changed (1)
+  Type.ClassOrInterface(MAudit)(Type.ClassOrInterface(MAudit))[71L,14C-19C(2398-2403)] -> Type.ClassOrInterface(java.util.Hashtable)(Type.ClassOrInterface(Hashtable))[89L,12C-20C(2895-2903)]
+
+[significance=4] field removed (1)
+  FieldDeclaration(br[0)[64L,4C-31C(2233-2260)]* from ClassBody(MAuditStreamHandler)[51L,0C-255L,0C(1981-8656)]
+
+[significance=4] parameter type changed (3)
+  Type.ClassOrInterface(MAudit)(Type.ClassOrInterface(MAudit))[73L,25C-30C(2437-2442)] -> Type.ClassOrInterface(java.util.Hashtable)(Type.ClassOrInterface(Hashtable))[91L,25C-33C(2946-2954)]
+  Type.ClassOrInterface(MAudit.Violation)(Type.ClassOrInterface(MAudit.Violation))[223L,51C-66C(7391-7406)] -> Type.ClassOrInterface(Violation)(Type.ClassOrInterface(Violation))[197L,51C-59C(6921-6929)]
+  Type.ClassOrInterface(java.io.BufferedReader)(Type.ClassOrInterface(BufferedReader))[241L,32C-45C(7925-7938)] -> Type.ClassOrInterface(java.lang.String)(Type.ClassOrInterface(String))[213L,24C-29C(7387-7392)]
+
+[significance=4] parameter added (1)
+  Parameter(line,0,)[243L,33C-49C(8382-8398)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+
+[significance=3] statement added to increase nesting-depth (1)
+  Statement.Try[245L,8C-253L,8C(8416-8648)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+
+[significance=3] statement removed to decrease nesting-depth (3)
+  Statement.Expression.AssignmentOperator.Eq()()[123L,8C-62C(3624-3678)]* from ClassBody(MAuditStreamHandler)[51L,0C-255L,0C(1981-8656)]
+  Statement.Expression.Primary.SimpleMethodInvocation(processLine#1)()(Statement.Expression.Primary.SimpleMethodInvocation(processLine)())[247L,12C-31C(8078-8097)]* from Method(stderr(Ljava.lang.String;)V)(Method(stderr))[213L,4C-215L,4C(7367-7411)]
+  Statement.Expression.Primary.SimpleMethodInvocation(parseOutput#1)()(Statement.Expression.Primary.SimpleMethodInvocation(parseOutput)())[134L,8C-25C(3892-3909)]* from ClassBody(MAuditStreamHandler)[51L,0C-255L,0C(1981-8656)]
+
+[significance=3] field renamed (4)
+  FieldDeclaration(auditedFiles[0)[59L,4C-54C(2135-2185)] -> FieldDeclaration(m_auditedFiles[0)[82L,4C-54C(2709-2759)]
+  FieldDeclaration(task[0)[71L,4C-25C(2388-2409)] -> FieldDeclaration(m_fileMapping[0)[89L,4C-35C(2887-2918)]
+  FieldDeclaration(xmlOut[0)[53L,4C-40C(1930-1966)] -> FieldDeclaration(m_xmlOut[0)[76L,4C-33C(2511-2540)]
+  FieldDeclaration(matcher[0)[69L,4C-35C(2350-2381)] -> FieldDeclaration(m_matcher[0)[87L,4C-35C(2849-2880)]
+
+[significance=3] method renamed or signature changed (3)
+  Method(addViolationEntry(Ljava.lang.String;LMAudit.Violation;)V)(Method(addViolationEntry))[223L,4C-233L,4C(7344-7733)] -> Method(addViolationEntry(Ljava.lang.String;LViolation;)V)(Method(addViolationEntry))[197L,4C-207L,4C(6874-7264)]
+  Method(parseOutput(Ljava.io.BufferedReader;)V)(Method(parseOutput))[241L,4C-249L,4C(7897-8113)] -> Method(stderr(Ljava.lang.String;)V)(Method(stderr))[213L,4C-215L,4C(7367-7411)]
+  Method(processLine(Ljava.lang.String;)V)(Method(processLine))[253L,4C-269L,4C(8261-8891)] -> Method(stdout(Ljava.lang.String;)V)(Method(stdout))[221L,4C-241L,4C(7515-8346)]
+
+[significance=2] statement added (2)
+  Statement.Return[252L,12C-34C(8616-8638)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+  Statement.Return[247L,12C-46C(8442-8476)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+
+[significance=2] statement removed (1)
+  Statement.While[245L,8C-248L,8C(8014-8107)]* from Method(stderr(Ljava.lang.String;)V)(Method(stderr))[213L,4C-215L,4C(7367-7411)]
+
+[significance=2] import declaration added (4)
+  IDsingle(org.apache.myrmidon.framework.exec.ExecOutputHandler)[23L,0C-59C(796-855)]* into ImportDeclarations[10L,0C-27L,26C(316-985)]
+  IDsingle(javax.xml.parsers.ParserConfigurationException)[20L,0C-53C(633-686)]* into ImportDeclarations[10L,0C-27L,26C(316-985)]
+  IDsingle(org.apache.myrmidon.api.TaskException)[22L,0C-44C(750-794)]* into ImportDeclarations[10L,0C-27L,26C(316-985)]
+  IDsingle(org.apache.avalon.framework.logger.AbstractLogEnabled)[21L,0C-60C(688-748)]* into ImportDeclarations[10L,0C-27L,26C(316-985)]
+
+[significance=2] import declaration removed (2)
+  IDsingle(java.io.BufferedReader)[10L,0C-29C(316-345)]* from ImportDeclarations[10L,0C-29L,26C(316-1144)]
+  IDsingle(java.io.InputStreamReader)[13L,0C-32C(403-435)]* from ImportDeclarations[10L,0C-29L,26C(316-1144)]
+
+[significance=2] assignment removed (1)
+  Expression.AssignmentOperator.Eq()[245L,17C-36C(8023-8042)]* from Method(stderr(Ljava.lang.String;)V)(Method(stderr))[213L,4C-215L,4C(7367-7411)]
+
+[significance=2] instance creation added (1)
+  Primary.InstanceCreation(java.util.ArrayList.<init>#0)(Primary.InstanceCreation(ArrayList))[252L,19C-33C(8623-8637)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+
+[significance=2] instance creation removed (2)
+  Primary.InstanceCreation(java.io.BufferedReader.<init>#1)(Primary.InstanceCreation(BufferedReader))[123L,13C-61C(3629-3677)]* from ClassBody(MAuditStreamHandler)[51L,0C-255L,0C(1981-8656)]
+  Primary.InstanceCreation(java.io.InputStreamReader.<init>#1)(Primary.InstanceCreation(InputStreamReader))[123L,33C-59C(3649-3675)]* from ClassBody(MAuditStreamHandler)[51L,0C-255L,0C(1981-8656)]
+
+[significance=2] variable declaration removed (5)
+  VariableDeclarator(filemapping,0,true)[148L,18C-52C(4416-4450)]* from MethodBody(stop()V)[120L,4C-192L,4C(3811-6809)]
+  LocalVariableDeclaration(true,filemapping[0)[148L,8C-53C(4406-4451)]* from MethodBody(stop()V)[120L,4C-192L,4C(3811-6809)]
+  VariableDeclarator(line,0,true)[244L,15C-25C(7993-8003)]* from Method(stderr(Ljava.lang.String;)V)(Method(stderr))[213L,4C-215L,4C(7367-7411)]
+  LocalVariableDeclaration(true,line[0)[244L,8C-26C(7986-8004)]* from Method(stderr(Ljava.lang.String;)V)(Method(stderr))[213L,4C-215L,4C(7367-7411)]
+  VariableDeclarator(br,0,false)[64L,29C-30C(2258-2259)]* from ClassBody(MAuditStreamHandler)[51L,0C-255L,0C(1981-8656)]
+
+[significance=2] exception type added in throws-clause (4)
+  Type.ClassOrInterface(java.io.IOException)(Type.ClassOrInterface(IOException))[53L,15C-25C(2055-2065)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+  Type.ClassOrInterface(java.io.IOException)(Type.ClassOrInterface(IOException))[58L,15C-25C(2151-2161)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+  Type.ClassOrInterface(org.apache.myrmidon.api.TaskException)(Type.ClassOrInterface(TaskException))[92L,15C-27C(3006-3018)]* into Constructor(MAuditStreamHandler.<init>(LMAudit;Ljava.io.OutputStream;)V)(Constructor(MAuditStreamHandler))[73L,4C-82L,4C(2416-2762)]
+  Type.ClassOrInterface(org.apache.myrmidon.api.TaskException)(Type.ClassOrInterface(TaskException))[63L,15C-27C(2248-2260)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+
+[significance=2] exception type removed in throws-clause (1)
+  Type.ClassOrInterface(java.io.IOException)(Type.ClassOrInterface(IOException))[242L,15C-25C(7960-7970)]* from Method(stderr(Ljava.lang.String;)V)(Method(stderr))[213L,4C-215L,4C(7367-7411)]
+
+[significance=2] throws-clause added (3)
+  Throws(MAuditStreamHandler.<init>)[92L,8C-27C(2999-3018)]* into Constructor(MAuditStreamHandler.<init>(LMAudit;Ljava.io.OutputStream;)V)(Constructor(MAuditStreamHandler))[73L,4C-82L,4C(2416-2762)]
+  Throws(setProcessErrorStream)[58L,8C-25C(2144-2161)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+  Throws(setProcessInputStream)[53L,8C-25C(2048-2065)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+
+[significance=2] throws-clause removed (1)
+  Throws(parseOutput)[242L,8C-25C(7953-7970)]* from Method(stderr(Ljava.lang.String;)V)(Method(stderr))[213L,4C-215L,4C(7367-7411)]
+
+[significance=2] block added (2)
+  Block(try)[246L,8C-248L,8C(8428-8486)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+  Block(catch-clause)[250L,8C-253L,8C(8536-8648)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+
+[significance=2] block removed (1)
+  Block(block)[246L,8C-248L,8C(8064-8107)]* from Method(stderr(Ljava.lang.String;)V)(Method(stderr))[213L,4C-215L,4C(7367-7411)]
+
+[significance=2] modifier added (1)
+  Modifier.Private[243L,4C-10C(8353-8359)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+
+[significance=2] modifier removed (1)
+  Modifier.Protected[64L,4C-12C(2233-2241)]* from ClassBody(MAuditStreamHandler)[51L,0C-255L,0C(1981-8656)]
+
+[significance=2] accessibility increased (2)
+  Method(parseOutput(Ljava.io.BufferedReader;)V)(Method(parseOutput))[241L,4C-249L,4C(7897-8113)] -> Method(stderr(Ljava.lang.String;)V)(Method(stderr))[213L,4C-215L,4C(7367-7411)]
+  Method(processLine(Ljava.lang.String;)V)(Method(processLine))[253L,4C-269L,4C(8261-8891)] -> Method(stdout(Ljava.lang.String;)V)(Method(stdout))[221L,4C-241L,4C(7515-8346)]
+
+[significance=2] parameter renamed (2)
+  Parameter(task,0,)[73L,25C-35C(2437-2447)] -> Parameter(fileMapping,0,)[91L,25C-45C(2946-2966)]
+  Parameter(br,0,)[241L,32C-48C(7925-7941)] -> Parameter(line,0,)[213L,24C-34C(7387-7397)]
+
+[significance=2] condition expression modified (2)
+  Expression.BinaryOperator.Neq[183L,12C-25C(6185-6198)] -> Expression.BinaryOperator.Neq[160L,12C-27C(5870-5885)]
+  Expression.BinaryOperator.And[199L,20C-63C(6707-6750)] -> Expression.BinaryOperator.And[176L,20C-67C(6391-6438)]
+
+[significance=1] (order changed) (5)
+  Primary.Name(msg): [261L,70C-72C(8649-8651)] -> [232L,55C-57C(8052-8054)]
+  Method(setProcessErrorStream(Ljava.io.InputStream;)V): [101L,4C-103L,4C(3147-3209)] -> [57L,4C-60L,4C(2084-2173)]
+  Method(setProcessInputStream(Ljava.io.OutputStream;)V): [110L,4C-112L,4C(3304-3367)] -> [52L,4C-55L,4C(1987-2077)]
+  Method(start()V): [131L,4C-135L,4C(3831-3915)] -> [67L,4C-70L,4C(2292-2349)]
+  Method(setProcessOutputStream(Ljava.io.InputStream;)V): [120L,4C-124L,4C(3530-3684)] -> [62L,4C-65L,4C(2180-2285)]
+
+[significance=1] (changed) (19)
+  Modifiers(matcher#f)[69L,4C-12C(2350-2358)] -> Modifiers(m_matcher#f)[87L,4C-10C(2849-2855)]
+  NamedArguments(createViolation)[261L,59C-74C(8638-8653)] -> NamedArguments(Violation)(NamedArguments(Violation))[232L,53C-68C(8050-8065)]
+  ConstructorBody(MAuditStreamHandler.<init>(LMAudit;Ljava.io.OutputStream;)V)[74L,4C-82L,4C(2476-2762)] -> ConstructorBody(MAuditStreamHandler.<init>(Ljava.util.Hashtable;Ljava.io.OutputStream;)V)[93L,4C-101L,4C(3024-3322)]
+  Modifiers(parseOutput#m)[241L,4C-12C(7897-7905)] -> Modifiers(stderr#m)[213L,4C-9C(7367-7372)]
+  Modifiers(auditedFiles#f)[59L,4C-12C(2135-2143)] -> Modifiers(m_auditedFiles#f)[82L,4C-10C(2709-2715)]
+  NamedArguments(keys)[147L,41C-42C(4394-4395)] -> NamedArguments(keySet)[125L,51C-52C(4124-4125)]
+  Modifiers(xmlOut#f)[53L,4C-12C(1930-1938)] -> Modifiers(m_xmlOut#f)[76L,4C-10C(2511-2517)]
+  Modifiers(processLine#m)[253L,4C-12C(8261-8269)] -> Modifiers(stdout#m)[221L,4C-9C(7515-7520)]
+  Parameters(parseOutput)[241L,30C-50C(7923-7943)] -> Parameters(stderr)[213L,22C-36C(7385-7399)]
+  Parameters(LMAudit;Ljava.io.OutputStream;)[73L,23C-58C(2435-2470)] -> Parameters(Ljava.util.Hashtable;Ljava.io.OutputStream;)[91L,23C-68C(2944-2989)]
+  Type.ClassOrInterface(java.lang.Exception)(Type.ClassOrInterface(Exception))[90L,15C-23C(2954-2962)] -> Type.ClassOrInterface(javax.xml.parsers.ParserConfigurationException)(Type.ClassOrInterface(ParserConfigurationException))[109L,15C-42C(3518-3545)]
+  CatchParameter(exc,0)[90L,15C-27C(2954-2966)] -> CatchParameter(pce,0)[109L,15C-46C(3518-3549)]
+  Type.ClassOrInterface(MAudit.Violation)(Type.ClassOrInterface(MAudit.Violation))[172L,46C-61C(5677-5692)] -> Type.ClassOrInterface(Violation)(Type.ClassOrInterface(Violation))[149L,39C-47C(5359-5367)]
+  Modifiers(task#f)[71L,4C-12C(2388-2396)] -> Modifiers(m_fileMapping#f)[89L,4C-10C(2887-2893)]
+  Parameters(processLine)[253L,30C-44C(8287-8301)] -> Parameters(stdout)[221L,22C-42C(7533-7553)]
+  MethodBody(addViolationEntry(Ljava.lang.String;LMAudit.Violation;)V)(MethodBody(addViolationEntry(LString;LMAudit.Violation;)V))[224L,4C-233L,4C(7420-7733)] -> MethodBody(addViolationEntry(Ljava.lang.String;LViolation;)V)(MethodBody(addViolationEntry(LString;LViolation;)V))[198L,4C-207L,4C(6943-7264)]
+  MethodBody(processLine(Ljava.lang.String;)V)(MethodBody(processLine(LString;)V))[254L,4C-269L,4C(8307-8891)] -> MethodBody(stdout(Ljava.lang.String;)V)(MethodBody(stdout(LString;)V))[222L,4C-241L,4C(7559-8346)]
+  CatchClause(a99571a1c9ebda0fb77d61fdae573bb0;CatchParameter(,0))[90L,8C-93L,8C(2947-3046)] -> CatchClause(f20c5a43336a665590ee7f13a7208076;CatchParameter(,0))[109L,8C-112L,8C(3511-3629)]
+  Constructor(MAuditStreamHandler.<init>(LMAudit;Ljava.io.OutputStream;)V)(Constructor(MAuditStreamHandler))[73L,4C-82L,4C(2416-2762)] -> Constructor(MAuditStreamHandler.<init>(Ljava.util.Hashtable;Ljava.io.OutputStream;)V)(Constructor(MAuditStreamHandler))[91L,4C-101L,4C(2925-3322)]
+
+[significance=1] (moved) (30)
+  Parameters(setProcessErrorStream): [101L,37C-54C(3180-3197)] -> [57L,37C-54C(2117-2134)]
+  Type.ClassOrInterface(java.io.InputStream): [101L,39C-49C(3182-3192)] -> [57L,39C-49C(2119-2129)]
+  Modifier.Public: [101L,4C-9C(3147-3152)] -> [57L,4C-9C(2084-2089)]
+  Parameter(is,0,): [120L,40C-53C(3566-3579)] -> [62L,40C-53C(2216-2229)]
+  Type.Void: [131L,11C-14C(3838-3841)] -> [67L,11C-14C(2299-2302)]
+  Modifier.Public: [110L,4C-9C(3304-3309)] -> [52L,4C-9C(1987-1992)]
+  Throws(start): [132L,8C-25C(3859-3876)] -> [68L,8C-25C(2320-2337)]
+  MethodBody(setProcessOutputStream(Ljava.io.InputStream;)V): [122L,4C-124L,4C(3614-3684)] -> [64L,4C-65L,4C(2279-2285)]
+  Parameter(is,0,): [101L,39C-52C(3182-3195)] -> [57L,39C-52C(2119-2132)]
+  Type.ClassOrInterface(java.io.OutputStream): [110L,39C-50C(3339-3350)] -> [52L,39C-50C(2022-2033)]
+  Modifiers(start#m): [131L,4C-9C(3831-3836)] -> [67L,4C-9C(2292-2297)]
+  Throws(setProcessOutputStream): [121L,8C-25C(3591-3608)] -> [63L,8C-40C(2241-2273)]
+  Type.Void: [110L,11C-14C(3311-3314)] -> [52L,11C-14C(1994-1997)]
+  Type.ClassOrInterface(java.io.IOException): [121L,15C-25C(3598-3608)] -> [63L,30C-40C(2263-2273)]
+  Modifiers(setProcessErrorStream#m): [101L,4C-9C(3147-3152)] -> [57L,4C-9C(2084-2089)]
+  NamedArguments(createViolation): [261L,59C-74C(8638-8653)] -> [232L,53C-68C(8050-8065)]
+  Modifiers(setProcessInputStream#m): [110L,4C-9C(3304-3309)] -> [52L,4C-9C(1987-1992)]
+  Modifier.Public: [120L,4C-9C(3530-3535)] -> [62L,4C-9C(2180-2185)]
+  Modifier.Public: [131L,4C-9C(3831-3836)] -> [67L,4C-9C(2292-2297)]
+  Type.ClassOrInterface(java.io.InputStream): [120L,40C-50C(3566-3576)] -> [62L,40C-50C(2216-2226)]
+  Type.Void: [120L,11C-14C(3537-3540)] -> [62L,11C-14C(2187-2190)]
+  Parameter(os,0,): [110L,39C-53C(3339-3353)] -> [52L,39C-53C(2022-2036)]
+  MethodBody(start()V): [133L,4C-135L,4C(3882-3915)] -> [69L,4C-70L,4C(2343-2349)]
+  Type.ClassOrInterface(java.io.IOException): [132L,15C-25C(3866-3876)] -> [68L,15C-25C(2327-2337)]
+  MethodBody(setProcessInputStream(Ljava.io.OutputStream;)V): [111L,4C-112L,4C(3361-3367)] -> [54L,4C-55L,4C(2071-2077)]
+  Type.Void: [101L,11C-14C(3154-3157)] -> [57L,11C-14C(2091-2094)]
+  MethodBody(setProcessErrorStream(Ljava.io.InputStream;)V): [102L,4C-103L,4C(3203-3209)] -> [59L,4C-60L,4C(2167-2173)]
+  Modifiers(setProcessOutputStream#m): [120L,4C-9C(3530-3535)] -> [62L,4C-9C(2180-2185)]
+  Parameters(setProcessInputStream): [110L,37C-55C(3337-3355)] -> [52L,37C-55C(2020-2038)]
+  Parameters(setProcessOutputStream): [120L,38C-55C(3564-3581)] -> [62L,38C-55C(2214-2231)]
+
+[significance=1] (inserted) (2)
+  VariableDeclarator(violation,0,true)[232L,28C-68C(8025-8065)] into Block(block)[257L,8C-262L,8C(8402-8666)]
+  LocalVariableDeclaration(true,violation[0)[232L,12C-69C(8009-8066)] into Block(block)[257L,8C-262L,8C(8402-8666)]
+
+[significance=1] (added) (30)
+  Modifiers(te#p)[249L,15C-19C(8503-8507)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+  NamedArguments(getError)[152L,65C-66C(5597-5598)]* into Primary.FieldAccess(error)[175L,47C-61C(5899-5913)]
+  MethodBody(getGroups(Ljava.lang.String;)Ljava.util.ArrayList;)(MethodBody(getGroups(LString;)LArrayList;))[244L,4C-254L,4C(8406-8654)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+  Type.ClassOrInterface(Violation)(Type.ClassOrInterface(Violation))[232L,18C-26C(8015-8023)]* into Block(block)[257L,8C-262L,8C(8402-8666)]
+  Modifiers(lineNum#l)[230L,12C-16C(7874-7878)]* into LocalVariableDeclaration(true,lineNum[0)[259L,12C-70C(8468-8526)]
+  Modifiers(line#p)[243L,33C-37C(8382-8386)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+  Modifiers(msg#l)[231L,12C-16C(7952-7956)]* into LocalVariableDeclaration(true,msg[0)[260L,12C-49C(8540-8577)]
+  Modifiers(violation#l)[232L,12C-16C(8009-8013)]* into Block(block)[257L,8C-262L,8C(8402-8666)]
+  NamedArguments(iterator)[125L,62C-63C(4135-4136)]* into VariableDeclarator(keys,0,true)[147L,17C-42C(4370-4395)]
+  NamedArguments(getLine)[151L,77C-78C(5524-5525)]* into Primary.FieldAccess(line)[174L,60C-73C(5832-5845)]
+  Modifiers(file#l)[229L,12C-16C(7816-7820)]* into LocalVariableDeclaration(true,file[0)[258L,12C-50C(8416-8454)]
+  Type.ClassOrInterface(org.apache.myrmidon.framework.exec.ExecOutputHandler)(Type.ClassOrInterface(ExecOutputHandler))[50L,37C-53C(1963-1979)]* into Implements[46L,26C-56C(1736-1766)]
+  Type.ClassOrInterface(java.util.ArrayList)(Type.ClassOrInterface(ArrayList))[252L,23C-31C(8627-8635)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+  NamedArguments(error)[251L,29C-63C(8567-8601)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+  Type.ClassOrInterface(Violation)(Type.ClassOrInterface(Violation))[232L,44C-52C(8041-8049)]* into Block(block)[257L,8C-262L,8C(8402-8666)]
+  CatchParameter(te,0)[249L,15C-36C(8503-8524)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+  Type.ClassOrInterface(java.util.ArrayList)(Type.ClassOrInterface(ArrayList))[243L,12C-20C(8361-8369)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+  Type.ClassOrInterface(org.apache.myrmidon.api.TaskException)(Type.ClassOrInterface(TaskException))[249L,21C-33C(8509-8521)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+  Modifiers(matches#l)[226L,8C-12C(7719-7723)]* into LocalVariableDeclaration(true,matches[0)[255L,8C-53C(8317-8362)]
+  MethodBody(stderr(Ljava.lang.String;)V)(MethodBody(stderr(LString;)V))[214L,4C-215L,4C(7405-7411)]* into Method(parseOutput(Ljava.io.BufferedReader;)V)(Method(parseOutput))[241L,4C-249L,4C(7897-8113)]
+  NamedArguments(java.util.ArrayList)(NamedArguments(ArrayList))[252L,32C-33C(8636-8637)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+  Type.ClassOrInterface(java.lang.String)(Type.ClassOrInterface(String))[243L,39C-44C(8388-8393)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+  Modifiers(getGroups#m)[243L,4C-10C(8353-8359)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+  Parameters(getGroups)[243L,31C-51C(8380-8400)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+  CatchClause(ab77dc3936172b7b144043787076f3d6;CatchParameter(,0))[249L,8C-253L,8C(8496-8648)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+  NamedArguments(getGroups)[247L,38C-45C(8468-8475)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+  Modifiers(line#p)[221L,24C-28C(7535-7539)]* into Parameter(line,0,)[253L,32C-42C(8289-8299)]
+  NamedArguments(getLogger)[251L,21C-22C(8559-8560)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+  Modifiers(keys#l)[125L,8C-12C(4081-4085)]* into LocalVariableDeclaration(true,keys[0)[147L,8C-43C(4361-4396)]
+  Type.ClassOrInterface(org.apache.avalon.framework.logger.AbstractLogEnabled)(Type.ClassOrInterface(AbstractLogEnabled))[49L,12C-29C(1907-1924)]* into Specifier:Class[46L,0C-56C(1710-1766)]
+
+[significance=1] (removed) (13)
+  Modifiers(br#f)[64L,4C-12C(2233-2241)]* from ClassBody(MAuditStreamHandler)[51L,0C-255L,0C(1981-8656)]
+  Type.ClassOrInterface(java.util.Hashtable)(Type.ClassOrInterface(Hashtable))[148L,8C-16C(4406-4414)]* from MethodBody(stop()V)[120L,4C-192L,4C(3811-6809)]
+  NamedArguments(parseOutput)[134L,19C-24C(3903-3908)]* from ClassBody(MAuditStreamHandler)[51L,0C-255L,0C(1981-8656)]
+  MethodBody(parseOutput(Ljava.io.BufferedReader;)V)(MethodBody(parseOutput(LBufferedReader;)V))[243L,4C-249L,4C(7976-8113)]* from Method(stderr(Ljava.lang.String;)V)(Method(stderr))[213L,4C-215L,4C(7367-7411)]
+  NamedArguments(java.io.BufferedReader)(NamedArguments(BufferedReader))[123L,31C-61C(3647-3677)]* from ClassBody(MAuditStreamHandler)[51L,0C-255L,0C(1981-8656)]
+  Type.ClassOrInterface(java.io.BufferedReader)(Type.ClassOrInterface(BufferedReader))[64L,14C-27C(2243-2256)]* from ClassBody(MAuditStreamHandler)[51L,0C-255L,0C(1981-8656)]
+  Type.ClassOrInterface(java.lang.String)(Type.ClassOrInterface(String))[244L,8C-13C(7986-7991)]* from Method(stderr(Ljava.lang.String;)V)(Method(stderr))[213L,4C-215L,4C(7367-7411)]
+  NamedArguments(processLine)[247L,23C-30C(8089-8096)]* from Method(stderr(Ljava.lang.String;)V)(Method(stderr))[213L,4C-215L,4C(7367-7411)]
+  NamedArguments(java.io.InputStreamReader)(NamedArguments(InputStreamReader))[123L,54C-59C(3670-3675)]* from ClassBody(MAuditStreamHandler)[51L,0C-255L,0C(1981-8656)]
+  NamedArguments(readLine)[245L,35C-36C(8041-8042)]* from Method(stderr(Ljava.lang.String;)V)(Method(stderr))[213L,4C-215L,4C(7367-7411)]
+  Type.ClassOrInterface(java.io.BufferedReader)(Type.ClassOrInterface(BufferedReader))[123L,17C-30C(3633-3646)]* from ClassBody(MAuditStreamHandler)[51L,0C-255L,0C(1981-8656)]
+  Type.ClassOrInterface(java.io.InputStreamReader)(Type.ClassOrInterface(InputStreamReader))[123L,37C-53C(3653-3669)]* from ClassBody(MAuditStreamHandler)[51L,0C-255L,0C(1981-8656)]
+  NamedArguments(getFileMapping)[148L,51C-52C(4449-4450)]* from MethodBody(stop()V)[120L,4C-192L,4C(3811-6809)]
+
+[significance=1] method implementation changed (4)
+  Method(setProcessOutputStream(Ljava.io.InputStream;)V)(Method(setProcessOutputStream))[120L,4C-124L,4C(3530-3684)] -> Method(setProcessOutputStream(Ljava.io.InputStream;)V)(Method(setProcessOutputStream))[62L,4C-65L,4C(2180-2285)]
+  Method(start()V)[131L,4C-135L,4C(3831-3915)] -> Method(start()V)[67L,4C-70L,4C(2292-2349)]
+  Method(setProcessInputStream(Ljava.io.OutputStream;)V)(Method(setProcessInputStream))[110L,4C-112L,4C(3304-3367)] -> Method(setProcessInputStream(Ljava.io.OutputStream;)V)(Method(setProcessInputStream))[52L,4C-55L,4C(1987-2077)]
+  Method(setProcessErrorStream(Ljava.io.InputStream;)V)(Method(setProcessErrorStream))[101L,4C-103L,4C(3147-3209)] -> Method(setProcessErrorStream(Ljava.io.InputStream;)V)(Method(setProcessErrorStream))[57L,4C-60L,4C(2084-2173)]
+
+[significance=1] statement modified (24)
+  Statement.Expression.Primary.SimpleMethodInvocation(addViolationEntry#2)()(Statement.Expression.Primary.SimpleMethodInvocation(addViolationEntry)())[261L,12C-77C(8591-8656)] -> Statement.Expression.Primary.SimpleMethodInvocation(addViolationEntry#2)()(Statement.Expression.Primary.SimpleMethodInvocation(addViolationEntry)())[233L,12C-48C(8080-8116)]
+  Statement.Throw[92L,12C-56C(2992-3036)] -> Statement.Throw[111L,12C-56C(3575-3619)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute#2)()(Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute)())[149L,8C-83C(4461-4536)] -> Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute#2)()(Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute)())[126L,8C-85C(4147-4224)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(put#2)()(Statement.Expression.Primary.PrimaryMethodInvocation(put)())[230L,12C-48C(7648-7684)] -> Statement.Expression.Primary.PrimaryMethodInvocation(put#2)()(Statement.Expression.Primary.PrimaryMethodInvocation(put)())[204L,12C-50C(7177-7215)]
+  Statement.If(7a57bb3369998ba8c1c04c11ba21cffd;Expression.BinaryOperator.Eq)[227L,8C-231L,8C(7559-7694)] -> Statement.If(7a57bb3369998ba8c1c04c11ba21cffd;Expression.BinaryOperator.Eq)[200L,8C-205L,8C(7023-7225)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(warn#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(warn)())[159L,16C-87C(4951-5022)] -> Statement.Expression.Primary.PrimaryMethodInvocation(warn#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(warn)())[136L,16C-82C(4645-4711)]
+  Statement.If(59c0d83875823b51b0ccace2f6e03478;Expression.BinaryOperator.Eq)[157L,12C-161L,12C(4893-5062)] -> Statement.If(59c0d83875823b51b0ccace2f6e03478;Expression.BinaryOperator.Eq)[134L,12C-138L,12C(4587-4751)]
+  Statement.Expression.AssignmentOperator.Eq()()[76L,8C-28C(2512-2532)] -> Statement.Expression.AssignmentOperator.Eq()()[95L,8C-25C(3071-3088)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute#2)()(Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute)())[174L,16C-78C(5788-5850)] -> Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute#2)()(Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute)())[151L,16C-83C(5463-5530)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(setPattern#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(setPattern)())[81L,8C-50C(2714-2756)] -> Statement.Expression.Primary.PrimaryMethodInvocation(setPattern#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(setPattern)())[100L,8C-52C(3272-3316)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(error#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(error)())[195L,16C-68C(6585-6637)] -> Statement.Expression.Primary.PrimaryMethodInvocation(error#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(error)())[172L,16C-63C(6274-6321)]
+  Statement.Expression.AssignmentOperator.Eq()()[80L,8C-67C(2645-2704)] -> Statement.Expression.AssignmentOperator.Eq()()[99L,8C-69C(3201-3262)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(info#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(info)())[267L,12C-41C(8846-8875)] -> Statement.Expression.Primary.PrimaryMethodInvocation(info#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(info)())[239L,12C-36C(8306-8330)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute#2)()(Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute)())[150L,8C-85C(4546-4623)] -> Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute#2)()(Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute)())[127L,8C-87C(4234-4313)]
+  Statement.If(bddd2bd8345e4ceb3698ba45a5effb00;Expression.BinaryOperator.And)[199L,16C-211L,16C(6703-7090)] -> Statement.If(0489c55286756965eefbe5d96ccdef07;Expression.BinaryOperator.And)[176L,16C-188L,16C(6387-6778)]
+  Statement.Try[86L,8C-93L,8C(2837-3046)] -> Statement.Try[105L,8C-112L,8C(3401-3629)]
+  Statement.Expression.AssignmentOperator.Eq()()[188L,16C-63C(6289-6336)] -> Statement.Expression.AssignmentOperator.Eq()()[165L,16C-65C(5976-6025)]
+  Statement.Try[186L,12C-212L,12C(6255-7104)] -> Statement.Try[163L,12C-189L,12C(5942-6792)]
+  Statement.If(ed76bae96385f70b0cef3879c928fc78;Expression.BinaryOperator.Neq)[183L,8C-213L,8C(6181-7114)] -> Statement.If(dea4b27772853ae115d29812a22b203b;Expression.BinaryOperator.Neq)[160L,8C-190L,8C(5866-6802)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute#2)()(Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute)())[175L,16C-64C(5868-5916)] -> Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute#2)()(Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute)())[152L,16C-69C(5548-5601)]
+  Statement.For[170L,12C-177L,12C(5581-5974)] -> Statement.For[147L,12C-154L,12C(5270-5659)]
+  Statement.While[152L,8C-179L,8C(4657-6030)] -> Statement.While[129L,8C-156L,8C(4347-5715)]
+  Statement.Expression.AssignmentOperator.Eq()()[75L,8C-24C(2486-2502)] -> Statement.Expression.AssignmentOperator.Eq()()[94L,8C-35C(3034-3061)]
+  Statement.If(c712f5841b65385ed0167d91e5c29704;Expression.BinaryOperator.Neq)[256L,8C-268L,8C(8372-8885)] -> Statement.If(c712f5841b65385ed0167d91e5c29704;Expression.BinaryOperator.Neq)[227L,8C-240L,8C(7772-8340)]
+
+[significance=1] statement changed (2)
+  Statement.If(ed76bae96385f70b0cef3879c928fc78;Expression.BinaryOperator.Neq)[183L,8C-213L,8C(6181-7114)] -> Statement.If(dea4b27772853ae115d29812a22b203b;Expression.BinaryOperator.Neq)[160L,8C-190L,8C(5866-6802)]
+  Statement.If(bddd2bd8345e4ceb3698ba45a5effb00;Expression.BinaryOperator.And)[199L,16C-211L,16C(6703-7090)] -> Statement.If(0489c55286756965eefbe5d96ccdef07;Expression.BinaryOperator.And)[176L,16C-188L,16C(6387-6778)]
+
+[significance=1] expression modified (29)
+  Primary.FieldAccess(error)[175L,47C-61C(5899-5913)] -> Primary.PrimaryMethodInvocation(getError#0)(Primary.PrimaryMethodInvocation(getError))[152L,47C-66C(5579-5598)]
+  Primary.FieldAccess(line)[174L,60C-73C(5832-5845)] -> Primary.PrimaryMethodInvocation(getLine#0)(Primary.PrimaryMethodInvocation(getLine))[151L,60C-78C(5507-5525)]
+  Primary.Name(MAudit.AUDIT_PATTERN)(Primary.Name(MAudit.AUDIT_PATTERN))[81L,28C-47C(2734-2753)] -> Primary.AmbiguousName(MAudit.AUDIT_PATTERN)(Primary.AmbiguousName(MAudit.AUDIT_PATTERN))[100L,30C-49C(3294-3313)]
+  Primary.PrimaryMethodInvocation(getLogger#0)(Primary.PrimaryMethodInvocation(getLogger))[267L,12C-27C(8846-8861)] -> Primary.SimpleMethodInvocation(getLogger#0)(Primary.SimpleMethodInvocation(getLogger))[239L,12C-22C(8306-8316)]
+  Primary.PrimaryMethodInvocation(getLogger#0)(Primary.PrimaryMethodInvocation(getLogger))[195L,16C-31C(6585-6600)] -> Primary.SimpleMethodInvocation(getLogger#0)(Primary.SimpleMethodInvocation(getLogger))[172L,16C-26C(6274-6284)]
+  Primary.PrimaryMethodInvocation(getLogger#0)(Primary.PrimaryMethodInvocation(getLogger))[159L,16C-31C(4951-4966)] -> Primary.SimpleMethodInvocation(getLogger#0)(Primary.SimpleMethodInvocation(getLogger))[136L,16C-26C(4645-4655)]
+  Primary.PrimaryMethodInvocation(getGroups#1)(Primary.PrimaryMethodInvocation(getGroups))[255L,28C-52C(8337-8361)] -> Primary.SimpleMethodInvocation(getGroups#1)(Primary.SimpleMethodInvocation(getGroups))[226L,34C-50C(7745-7761)]
+  Primary.FieldAccess(xmlOut)[76L,8C-18C(2512-2522)] -> Primary.FieldAccess(m_xmlOut)[95L,8C-15C(3071-3078)]
+  Primary.FieldAccess(task)[75L,8C-16C(2486-2494)] -> Primary.FieldAccess(m_fileMapping)[94L,8C-20C(3034-3046)]
+  Primary.InstanceCreation(java.lang.ExceptionInInitializerError.<init>#1)(Primary.InstanceCreation(ExceptionInInitializerError))[92L,18C-55C(2998-3035)] -> Primary.InstanceCreation(java.lang.ExceptionInInitializerError.<init>#1)(Primary.InstanceCreation(ExceptionInInitializerError))[111L,18C-55C(3581-3618)]
+  Expression.BinaryOperator.Neq[199L,44C-63C(6731-6750)] -> Expression.BinaryOperator.Neq[176L,46C-67C(6417-6438)]
+  Primary.PrimaryMethodInvocation(size#0)(Primary.PrimaryMethodInvocation(size))[149L,61C-78C(4514-4531)] -> Primary.PrimaryMethodInvocation(size#0)(Primary.PrimaryMethodInvocation(size))[126L,61C-80C(4200-4219)]
+  Primary.TypeMethodInvocation(java.lang.String,valueOf#1)(Primary.TypeMethodInvocation(String,valueOf))[149L,45C-80C(4498-4533)] -> Primary.TypeMethodInvocation(java.lang.String,valueOf#1)(Primary.TypeMethodInvocation(String,valueOf))[126L,45C-82C(4184-4221)]
+  Primary.PrimaryMethodInvocation(get#1)(Primary.PrimaryMethodInvocation(get))[156L,43C-69C(4852-4878)] -> Primary.PrimaryMethodInvocation(get#1)(Primary.PrimaryMethodInvocation(get))[133L,43C-71C(4544-4572)]
+  Expression.Cast[156L,35C-69C(4844-4878)] -> Expression.Cast[133L,35C-71C(4536-4572)]
+  Primary.PrimaryMethodInvocation(keys#0)(Primary.PrimaryMethodInvocation(keys))[147L,24C-42C(4377-4395)] -> Primary.PrimaryMethodInvocation(keySet#0)(Primary.PrimaryMethodInvocation(keySet))[125L,30C-52C(4103-4125)]
+  Primary.TypeMethodInvocation(java.lang.String,valueOf#1)(Primary.TypeMethodInvocation(String,valueOf))[174L,44C-75C(5816-5847)] -> Primary.TypeMethodInvocation(java.lang.String,valueOf#1)(Primary.TypeMethodInvocation(String,valueOf))[151L,44C-80C(5491-5527)]
+  Expression.BinaryOperator.Neq[183L,12C-25C(6185-6198)] -> Expression.BinaryOperator.Neq[160L,12C-27C(5870-5885)]
+  Primary.PrimaryMethodInvocation(get#1)(Primary.PrimaryMethodInvocation(get))[225L,42C-65C(7464-7487)] -> Primary.PrimaryMethodInvocation(get#1)(Primary.PrimaryMethodInvocation(get))[199L,42C-67C(6987-7012)]
+  Expression.Cast[225L,31C-65C(7453-7487)] -> Expression.Cast[199L,31C-67C(6976-7012)]
+  Expression.Cast[172L,45C-72C(5676-5703)] -> Expression.Cast[149L,38C-58C(5358-5378)]
+  Primary.PrimaryMethodInvocation(size#0)(Primary.PrimaryMethodInvocation(size))[150L,62C-80C(4600-4618)] -> Primary.PrimaryMethodInvocation(size#0)(Primary.PrimaryMethodInvocation(size))[127L,62C-82C(4288-4308)]
+  Primary.TypeMethodInvocation(java.lang.String,valueOf#1)(Primary.TypeMethodInvocation(String,valueOf))[150L,46C-82C(4584-4620)] -> Primary.TypeMethodInvocation(java.lang.String,valueOf#1)(Primary.TypeMethodInvocation(String,valueOf))[127L,46C-84C(4272-4310)]
+  Expression.BinaryOperator.Neq[199L,20C-39C(6707-6726)] -> Expression.BinaryOperator.Neq[176L,20C-41C(6391-6412)]
+  Expression.BinaryOperator.And[199L,20C-63C(6707-6750)] -> Expression.BinaryOperator.And[176L,20C-67C(6391-6438)]
+  Primary.PrimaryMethodInvocation(get#1)(Primary.PrimaryMethodInvocation(get))[155L,37C-64C(4779-4806)] -> Primary.PrimaryMethodInvocation(get#1)(Primary.PrimaryMethodInvocation(get))[132L,37C-66C(4469-4498)]
+  Expression.Cast[155L,26C-64C(4768-4806)] -> Expression.Cast[132L,26C-66C(4458-4498)]
+  Primary.InstanceCreation(java.io.OutputStreamWriter.<init>#2)(Primary.InstanceCreation(OutputStreamWriter))[188L,22C-62C(6295-6335)] -> Primary.InstanceCreation(java.io.OutputStreamWriter.<init>#2)(Primary.InstanceCreation(OutputStreamWriter))[165L,22C-64C(5982-6024)]
+  Primary.TypeMethodInvocation(MAudit,createViolation#2)(Primary.TypeMethodInvocation(MAudit,createViolation))[261L,37C-74C(8616-8653)] -> Primary.InstanceCreation(Violation.<init>#2)(Primary.InstanceCreation(Violation))[232L,40C-68C(8037-8065)]
+
+[significance=1] expression changed (3)
+  Primary.TypeMethodInvocation(MAudit,createViolation#2)(Primary.TypeMethodInvocation(MAudit,createViolation))[261L,37C-74C(8616-8653)] -> Primary.InstanceCreation(Violation.<init>#2)(Primary.InstanceCreation(Violation))[232L,40C-68C(8037-8065)]
+  Primary.Name(filemapping)(Primary.Name(filemapping))[149L,61C-71C(4514-4524)] -> Primary.FieldAccess(m_fileMapping)[126L,61C-73C(4200-4212)]
+  Primary.Name(filemapping)(Primary.Name(filemapping))[156L,43C-53C(4852-4862)] -> Primary.FieldAccess(m_fileMapping)[133L,43C-55C(4544-4556)]
+
+[significance=1] expression moved (2)
+  Primary.TypeMethodInvocation(MAudit,createViolation#2): [261L,37C-74C(8616-8653)] -> [232L,40C-68C(8037-8065)]
+  Primary.Name(lineNum): [261L,61C-67C(8640-8646)] -> [232L,60C-66C(8057-8063)]
+
+[significance=1] expression added (2)
+  Primary.AmbiguousName(MAudit)(Primary.AmbiguousName(MAudit))[100L,30C-36C(3294-3300)]* into Primary.Name(MAudit.AUDIT_PATTERN)(Primary.Name(MAudit.AUDIT_PATTERN))[81L,28C-47C(2734-2753)]
+  Primary.FieldAccess(m_matcher)[247L,19C-27C(8449-8457)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+
+[significance=1] expression removed (15)
+  Primary.Name(line)(Primary.Name(line))[245L,17C-20C(8023-8026)]* from Method(stderr(Ljava.lang.String;)V)(Method(stderr))[213L,4C-215L,4C(7367-7411)]
+  Primary.FieldAccess(task)[267L,12C-15C(8846-8849)]* from Primary.SimpleMethodInvocation(getLogger#0)(Primary.SimpleMethodInvocation(getLogger))[239L,12C-22C(8306-8316)]
+  Expression.BinaryOperator.Neq[245L,15C-46C(8021-8052)]* from Method(stderr(Ljava.lang.String;)V)(Method(stderr))[213L,4C-215L,4C(7367-7411)]
+  Primary.Literal.Null[245L,43C-46C(8049-8052)]* from Method(stderr(Ljava.lang.String;)V)(Method(stderr))[213L,4C-215L,4C(7367-7411)]
+  Primary.FieldAccess(task)[195L,16C-19C(6585-6588)]* from Primary.SimpleMethodInvocation(getLogger#0)(Primary.SimpleMethodInvocation(getLogger))[172L,16C-26C(6274-6284)]
+  Primary.Name(br)(Primary.Name(br))[245L,24C-25C(8030-8031)]* from Method(stderr(Ljava.lang.String;)V)(Method(stderr))[213L,4C-215L,4C(7367-7411)]
+  Primary.FieldAccess(task)[159L,16C-19C(4951-4954)]* from Primary.SimpleMethodInvocation(getLogger#0)(Primary.SimpleMethodInvocation(getLogger))[136L,16C-26C(4645-4655)]
+  Primary.Literal.Null[244L,22C-25C(8000-8003)]* from Method(stderr(Ljava.lang.String;)V)(Method(stderr))[213L,4C-215L,4C(7367-7411)]
+  Primary.FieldAccess(task)[148L,32C-35C(4430-4433)]* from MethodBody(stop()V)[120L,4C-192L,4C(3811-6809)]
+  Primary.FieldAccess(matcher)[255L,28C-34C(8337-8343)]* from Primary.SimpleMethodInvocation(getGroups#1)(Primary.SimpleMethodInvocation(getGroups))[226L,34C-50C(7745-7761)]
+  Primary.Literal.Null[53L,36C-39C(1962-1965)]* from VariableDeclarator(m_xmlOut,0,false)[76L,25C-32C(2532-2539)]
+  Primary.Paren(5803c25aeb7b4f313077ff0870de4e1c;Expression.AssignmentOperator.Eq())[245L,15C-38C(8021-8044)]* from Method(stderr(Ljava.lang.String;)V)(Method(stderr))[213L,4C-215L,4C(7367-7411)]
+  Primary.This[76L,8C-11C(2512-2515)]* from Primary.FieldAccess(m_xmlOut)[95L,8C-15C(3071-3078)]
+  Primary.This[75L,8C-11C(2486-2489)]* from Primary.FieldAccess(m_fileMapping)[94L,8C-20C(3034-3046)]
+  Primary.FieldAccess(br)[123L,8C-9C(3624-3625)]* from ClassBody(MAuditStreamHandler)[51L,0C-255L,0C(1981-8656)]
+
+[significance=1] argument modified (8)
+  Primary.FieldAccess(error)[175L,47C-61C(5899-5913)] -> Primary.PrimaryMethodInvocation(getError#0)(Primary.PrimaryMethodInvocation(getError))[152L,47C-66C(5579-5598)]
+  Primary.FieldAccess(line)[174L,60C-73C(5832-5845)] -> Primary.PrimaryMethodInvocation(getLine#0)(Primary.PrimaryMethodInvocation(getLine))[151L,60C-78C(5507-5525)]
+  Primary.Name(MAudit.AUDIT_PATTERN)(Primary.Name(MAudit.AUDIT_PATTERN))[81L,28C-47C(2734-2753)] -> Primary.AmbiguousName(MAudit.AUDIT_PATTERN)(Primary.AmbiguousName(MAudit.AUDIT_PATTERN))[100L,30C-49C(3294-3313)]
+  Primary.PrimaryMethodInvocation(size#0)(Primary.PrimaryMethodInvocation(size))[149L,61C-78C(4514-4531)] -> Primary.PrimaryMethodInvocation(size#0)(Primary.PrimaryMethodInvocation(size))[126L,61C-80C(4200-4219)]
+  Primary.TypeMethodInvocation(java.lang.String,valueOf#1)(Primary.TypeMethodInvocation(String,valueOf))[149L,45C-80C(4498-4533)] -> Primary.TypeMethodInvocation(java.lang.String,valueOf#1)(Primary.TypeMethodInvocation(String,valueOf))[126L,45C-82C(4184-4221)]
+  Primary.TypeMethodInvocation(java.lang.String,valueOf#1)(Primary.TypeMethodInvocation(String,valueOf))[174L,44C-75C(5816-5847)] -> Primary.TypeMethodInvocation(java.lang.String,valueOf#1)(Primary.TypeMethodInvocation(String,valueOf))[151L,44C-80C(5491-5527)]
+  Primary.PrimaryMethodInvocation(size#0)(Primary.PrimaryMethodInvocation(size))[150L,62C-80C(4600-4618)] -> Primary.PrimaryMethodInvocation(size#0)(Primary.PrimaryMethodInvocation(size))[127L,62C-82C(4288-4308)]
+  Primary.TypeMethodInvocation(java.lang.String,valueOf#1)(Primary.TypeMethodInvocation(String,valueOf))[150L,46C-82C(4584-4620)] -> Primary.TypeMethodInvocation(java.lang.String,valueOf#1)(Primary.TypeMethodInvocation(String,valueOf))[127L,46C-84C(4272-4310)]
+
+[significance=1] argument changed (3)
+  Primary.FieldAccess(line)[174L,60C-73C(5832-5845)] -> Primary.PrimaryMethodInvocation(getLine#0)(Primary.PrimaryMethodInvocation(getLine))[151L,60C-78C(5507-5525)]
+  Primary.Name(MAudit.AUDIT_PATTERN)(Primary.Name(MAudit.AUDIT_PATTERN))[81L,28C-47C(2734-2753)] -> Primary.AmbiguousName(MAudit.AUDIT_PATTERN)(Primary.AmbiguousName(MAudit.AUDIT_PATTERN))[100L,30C-49C(3294-3313)]
+  Primary.FieldAccess(error)[175L,47C-61C(5899-5913)] -> Primary.PrimaryMethodInvocation(getError#0)(Primary.PrimaryMethodInvocation(getError))[152L,47C-66C(5579-5598)]
+
+[significance=1] constructor invocation modified (2)
+  Primary.InstanceCreation(java.lang.ExceptionInInitializerError.<init>#1)(Primary.InstanceCreation(ExceptionInInitializerError))[92L,18C-55C(2998-3035)] -> Primary.InstanceCreation(java.lang.ExceptionInInitializerError.<init>#1)(Primary.InstanceCreation(ExceptionInInitializerError))[111L,18C-55C(3581-3618)]
+  Primary.InstanceCreation(java.io.OutputStreamWriter.<init>#2)(Primary.InstanceCreation(OutputStreamWriter))[188L,22C-62C(6295-6335)] -> Primary.InstanceCreation(java.io.OutputStreamWriter.<init>#2)(Primary.InstanceCreation(OutputStreamWriter))[165L,22C-64C(5982-6024)]
+
+[significance=1] instance creation modified (2)
+  Primary.InstanceCreation(java.lang.ExceptionInInitializerError.<init>#1)(Primary.InstanceCreation(ExceptionInInitializerError))[92L,18C-55C(2998-3035)] -> Primary.InstanceCreation(java.lang.ExceptionInInitializerError.<init>#1)(Primary.InstanceCreation(ExceptionInInitializerError))[111L,18C-55C(3581-3618)]
+  Primary.InstanceCreation(java.io.OutputStreamWriter.<init>#2)(Primary.InstanceCreation(OutputStreamWriter))[188L,22C-62C(6295-6335)] -> Primary.InstanceCreation(java.io.OutputStreamWriter.<init>#2)(Primary.InstanceCreation(OutputStreamWriter))[165L,22C-64C(5982-6024)]
+
+[significance=1] variable type changed (1)
+  Type.ClassOrInterface(MAudit.Violation)(Type.ClassOrInterface(MAudit.Violation))[172L,16C-31C(5647-5662)] -> Type.ClassOrInterface(Violation)(Type.ClassOrInterface(Violation))[149L,16C-24C(5336-5344)]
+
+[significance=1] variable declaration renamed (4)
+  VariableDeclarator(task,0,false)[71L,21C-24C(2405-2408)] -> VariableDeclarator(m_fileMapping,0,false)[89L,22C-34C(2905-2917)]
+  VariableDeclarator(matcher,0,false)[69L,28C-34C(2374-2380)] -> VariableDeclarator(m_matcher,0,false)[87L,26C-34C(2871-2879)]
+  VariableDeclarator(xmlOut,0,false)[53L,27C-39C(1953-1965)] -> VariableDeclarator(m_xmlOut,0,false)[76L,25C-32C(2532-2539)]
+  VariableDeclarator(auditedFiles,0,false)[59L,24C-53C(2155-2184)] -> VariableDeclarator(m_auditedFiles,0,false)[82L,22C-53C(2727-2758)]
+
+[significance=1] method invocation inserted (1)
+  Primary.PrimaryMethodInvocation(iterator#0)(Primary.PrimaryMethodInvocation(iterator))[125L,30C-63C(4103-4136)] into VariableDeclarator(keys,0,true)[147L,17C-42C(4370-4395)]
+
+[significance=1] method invocation added (3)
+  Primary.SimpleMethodInvocation(getLogger#0)(Primary.SimpleMethodInvocation(getLogger))[251L,12C-22C(8550-8560)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(error#2)()(Statement.Expression.Primary.PrimaryMethodInvocation(error)())[251L,12C-64C(8550-8602)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+  Primary.PrimaryMethodInvocation(getGroups#1)(Primary.PrimaryMethodInvocation(getGroups))[247L,19C-45C(8449-8475)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+
+[significance=1] method invocation removed (2)
+  Primary.PrimaryMethodInvocation(readLine#0)(Primary.PrimaryMethodInvocation(readLine))[245L,24C-36C(8030-8042)]* from Method(stderr(Ljava.lang.String;)V)(Method(stderr))[213L,4C-215L,4C(7367-7411)]
+  Primary.PrimaryMethodInvocation(getFileMapping#0)(Primary.PrimaryMethodInvocation(getFileMapping))[148L,32C-52C(4430-4450)]* from MethodBody(stop()V)[120L,4C-192L,4C(3811-6809)]
+
+[significance=1] method invocation changed (4)
+  Primary.PrimaryMethodInvocation(getLogger#0)(Primary.PrimaryMethodInvocation(getLogger))[159L,16C-31C(4951-4966)] -> Primary.SimpleMethodInvocation(getLogger#0)(Primary.SimpleMethodInvocation(getLogger))[136L,16C-26C(4645-4655)]
+  Primary.PrimaryMethodInvocation(getLogger#0)(Primary.PrimaryMethodInvocation(getLogger))[195L,16C-31C(6585-6600)] -> Primary.SimpleMethodInvocation(getLogger#0)(Primary.SimpleMethodInvocation(getLogger))[172L,16C-26C(6274-6284)]
+  Primary.PrimaryMethodInvocation(getLogger#0)(Primary.PrimaryMethodInvocation(getLogger))[267L,12C-27C(8846-8861)] -> Primary.SimpleMethodInvocation(getLogger#0)(Primary.SimpleMethodInvocation(getLogger))[239L,12C-22C(8306-8316)]
+  Primary.PrimaryMethodInvocation(getGroups#1)(Primary.PrimaryMethodInvocation(getGroups))[255L,28C-52C(8337-8361)] -> Primary.SimpleMethodInvocation(getGroups#1)(Primary.SimpleMethodInvocation(getGroups))[226L,34C-50C(7745-7761)]
+
+[significance=1] method invocation renamed (1)
+  Primary.PrimaryMethodInvocation(keys#0)(Primary.PrimaryMethodInvocation(keys))[147L,24C-42C(4377-4395)] -> Primary.PrimaryMethodInvocation(keySet#0)(Primary.PrimaryMethodInvocation(keySet))[125L,30C-52C(4103-4125)]
+
+[significance=1] method invocation modified (23)
+  Statement.Expression.Primary.SimpleMethodInvocation(addViolationEntry#2)()(Statement.Expression.Primary.SimpleMethodInvocation(addViolationEntry)())[261L,12C-77C(8591-8656)] -> Statement.Expression.Primary.SimpleMethodInvocation(addViolationEntry#2)()(Statement.Expression.Primary.SimpleMethodInvocation(addViolationEntry)())[233L,12C-48C(8080-8116)]
+  Primary.PrimaryMethodInvocation(getLogger#0)(Primary.PrimaryMethodInvocation(getLogger))[267L,12C-27C(8846-8861)] -> Primary.SimpleMethodInvocation(getLogger#0)(Primary.SimpleMethodInvocation(getLogger))[239L,12C-22C(8306-8316)]
+  Primary.PrimaryMethodInvocation(getLogger#0)(Primary.PrimaryMethodInvocation(getLogger))[195L,16C-31C(6585-6600)] -> Primary.SimpleMethodInvocation(getLogger#0)(Primary.SimpleMethodInvocation(getLogger))[172L,16C-26C(6274-6284)]
+  Primary.PrimaryMethodInvocation(getLogger#0)(Primary.PrimaryMethodInvocation(getLogger))[159L,16C-31C(4951-4966)] -> Primary.SimpleMethodInvocation(getLogger#0)(Primary.SimpleMethodInvocation(getLogger))[136L,16C-26C(4645-4655)]
+  Primary.PrimaryMethodInvocation(getGroups#1)(Primary.PrimaryMethodInvocation(getGroups))[255L,28C-52C(8337-8361)] -> Primary.SimpleMethodInvocation(getGroups#1)(Primary.SimpleMethodInvocation(getGroups))[226L,34C-50C(7745-7761)]
+  Primary.PrimaryMethodInvocation(size#0)(Primary.PrimaryMethodInvocation(size))[149L,61C-78C(4514-4531)] -> Primary.PrimaryMethodInvocation(size#0)(Primary.PrimaryMethodInvocation(size))[126L,61C-80C(4200-4219)]
+  Primary.TypeMethodInvocation(java.lang.String,valueOf#1)(Primary.TypeMethodInvocation(String,valueOf))[149L,45C-80C(4498-4533)] -> Primary.TypeMethodInvocation(java.lang.String,valueOf#1)(Primary.TypeMethodInvocation(String,valueOf))[126L,45C-82C(4184-4221)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute#2)()(Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute)())[149L,8C-83C(4461-4536)] -> Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute#2)()(Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute)())[126L,8C-85C(4147-4224)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(put#2)()(Statement.Expression.Primary.PrimaryMethodInvocation(put)())[230L,12C-48C(7648-7684)] -> Statement.Expression.Primary.PrimaryMethodInvocation(put#2)()(Statement.Expression.Primary.PrimaryMethodInvocation(put)())[204L,12C-50C(7177-7215)]
+  Primary.PrimaryMethodInvocation(get#1)(Primary.PrimaryMethodInvocation(get))[156L,43C-69C(4852-4878)] -> Primary.PrimaryMethodInvocation(get#1)(Primary.PrimaryMethodInvocation(get))[133L,43C-71C(4544-4572)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(warn#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(warn)())[159L,16C-87C(4951-5022)] -> Statement.Expression.Primary.PrimaryMethodInvocation(warn#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(warn)())[136L,16C-82C(4645-4711)]
+  Primary.PrimaryMethodInvocation(keys#0)(Primary.PrimaryMethodInvocation(keys))[147L,24C-42C(4377-4395)] -> Primary.PrimaryMethodInvocation(keySet#0)(Primary.PrimaryMethodInvocation(keySet))[125L,30C-52C(4103-4125)]
+  Primary.TypeMethodInvocation(java.lang.String,valueOf#1)(Primary.TypeMethodInvocation(String,valueOf))[174L,44C-75C(5816-5847)] -> Primary.TypeMethodInvocation(java.lang.String,valueOf#1)(Primary.TypeMethodInvocation(String,valueOf))[151L,44C-80C(5491-5527)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute#2)()(Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute)())[174L,16C-78C(5788-5850)] -> Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute#2)()(Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute)())[151L,16C-83C(5463-5530)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(setPattern#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(setPattern)())[81L,8C-50C(2714-2756)] -> Statement.Expression.Primary.PrimaryMethodInvocation(setPattern#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(setPattern)())[100L,8C-52C(3272-3316)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(error#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(error)())[195L,16C-68C(6585-6637)] -> Statement.Expression.Primary.PrimaryMethodInvocation(error#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(error)())[172L,16C-63C(6274-6321)]
+  Primary.PrimaryMethodInvocation(get#1)(Primary.PrimaryMethodInvocation(get))[225L,42C-65C(7464-7487)] -> Primary.PrimaryMethodInvocation(get#1)(Primary.PrimaryMethodInvocation(get))[199L,42C-67C(6987-7012)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(info#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(info)())[267L,12C-41C(8846-8875)] -> Statement.Expression.Primary.PrimaryMethodInvocation(info#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(info)())[239L,12C-36C(8306-8330)]
+  Primary.PrimaryMethodInvocation(size#0)(Primary.PrimaryMethodInvocation(size))[150L,62C-80C(4600-4618)] -> Primary.PrimaryMethodInvocation(size#0)(Primary.PrimaryMethodInvocation(size))[127L,62C-82C(4288-4308)]
+  Primary.TypeMethodInvocation(java.lang.String,valueOf#1)(Primary.TypeMethodInvocation(String,valueOf))[150L,46C-82C(4584-4620)] -> Primary.TypeMethodInvocation(java.lang.String,valueOf#1)(Primary.TypeMethodInvocation(String,valueOf))[127L,46C-84C(4272-4310)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute#2)()(Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute)())[150L,8C-85C(4546-4623)] -> Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute#2)()(Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute)())[127L,8C-87C(4234-4313)]
+  Primary.PrimaryMethodInvocation(get#1)(Primary.PrimaryMethodInvocation(get))[155L,37C-64C(4779-4806)] -> Primary.PrimaryMethodInvocation(get#1)(Primary.PrimaryMethodInvocation(get))[132L,37C-66C(4469-4498)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute#2)()(Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute)())[175L,16C-64C(5868-5916)] -> Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute#2)()(Statement.Expression.Primary.PrimaryMethodInvocation(setAttribute)())[152L,16C-69C(5548-5601)]
+
+[significance=1] method modified (9)
+  Method(getDocumentBuilder()Ljavax.xml.parsers.DocumentBuilder;)(Method(getDocumentBuilder))[84L,4C-94L,4C(2769-3052)] -> Method(getDocumentBuilder()Ljavax.xml.parsers.DocumentBuilder;)(Method(getDocumentBuilder))[103L,4C-113L,4C(3329-3635)]
+  Method(stop()V)[141L,4C-215L,4C(4068-7121)] -> Method(stop()V)[119L,4C-192L,4C(3788-6809)]
+  Method(addViolationEntry(Ljava.lang.String;LMAudit.Violation;)V)(Method(addViolationEntry))[223L,4C-233L,4C(7344-7733)] -> Method(addViolationEntry(Ljava.lang.String;LViolation;)V)(Method(addViolationEntry))[197L,4C-207L,4C(6874-7264)]
+  Method(parseOutput(Ljava.io.BufferedReader;)V)(Method(parseOutput))[241L,4C-249L,4C(7897-8113)] -> Method(stderr(Ljava.lang.String;)V)(Method(stderr))[213L,4C-215L,4C(7367-7411)]
+  Method(start()V)[131L,4C-135L,4C(3831-3915)] -> Method(start()V)[67L,4C-70L,4C(2292-2349)]
+  Method(setProcessErrorStream(Ljava.io.InputStream;)V)(Method(setProcessErrorStream))[101L,4C-103L,4C(3147-3209)] -> Method(setProcessErrorStream(Ljava.io.InputStream;)V)(Method(setProcessErrorStream))[57L,4C-60L,4C(2084-2173)]
+  Method(processLine(Ljava.lang.String;)V)(Method(processLine))[253L,4C-269L,4C(8261-8891)] -> Method(stdout(Ljava.lang.String;)V)(Method(stdout))[221L,4C-241L,4C(7515-8346)]
+  Method(setProcessInputStream(Ljava.io.OutputStream;)V)(Method(setProcessInputStream))[110L,4C-112L,4C(3304-3367)] -> Method(setProcessInputStream(Ljava.io.OutputStream;)V)(Method(setProcessInputStream))[52L,4C-55L,4C(1987-2077)]
+  Method(setProcessOutputStream(Ljava.io.InputStream;)V)(Method(setProcessOutputStream))[120L,4C-124L,4C(3530-3684)] -> Method(setProcessOutputStream(Ljava.io.InputStream;)V)(Method(setProcessOutputStream))[62L,4C-65L,4C(2180-2285)]
+
+[significance=1] method added (1)
+  Method(getGroups(Ljava.lang.String;)Ljava.util.ArrayList;)(Method(getGroups))[243L,4C-254L,4C(8353-8654)]* into ClassBody(MAuditStreamHandler)[47L,0C-271L,0C(1768-8894)]
+
+[significance=1] field access renamed (13)
+  Primary.FieldAccess(xmlOut)[199L,44C-49C(6731-6736)] -> Primary.FieldAccess(m_xmlOut)[176L,46C-53C(6417-6424)]
+  Primary.FieldAccess(auditedFiles)[230L,12C-23C(7648-7659)] -> Primary.FieldAccess(m_auditedFiles)[204L,12C-25C(7177-7190)]
+  Primary.FieldAccess(matcher)[81L,8C-14C(2714-2720)] -> Primary.FieldAccess(m_matcher)[100L,8C-16C(3272-3280)]
+  Primary.FieldAccess(xmlOut)[76L,8C-18C(2512-2522)] -> Primary.FieldAccess(m_xmlOut)[95L,8C-15C(3071-3078)]
+  Primary.FieldAccess(auditedFiles)[147L,24C-35C(4377-4388)] -> Primary.FieldAccess(m_auditedFiles)[125L,30C-43C(4103-4116)]
+  Primary.FieldAccess(xmlOut)[183L,12C-17C(6185-6190)] -> Primary.FieldAccess(m_xmlOut)[160L,12C-19C(5870-5877)]
+  Primary.FieldAccess(auditedFiles)[225L,42C-53C(7464-7475)] -> Primary.FieldAccess(m_auditedFiles)[199L,42C-55C(6987-7000)]
+  Primary.FieldAccess(matcher)[80L,8C-14C(2645-2651)] -> Primary.FieldAccess(m_matcher)[99L,8C-16C(3201-3209)]
+  Primary.FieldAccess(auditedFiles)[150L,62C-73C(4600-4611)] -> Primary.FieldAccess(m_auditedFiles)[127L,62C-75C(4288-4301)]
+  Primary.FieldAccess(xmlOut)[199L,20C-25C(6707-6712)] -> Primary.FieldAccess(m_xmlOut)[176L,20C-27C(6391-6398)]
+  Primary.FieldAccess(auditedFiles)[155L,37C-48C(4779-4790)] -> Primary.FieldAccess(m_auditedFiles)[132L,37C-50C(4469-4482)]
+  Primary.FieldAccess(xmlOut)[188L,46C-51C(6319-6324)] -> Primary.FieldAccess(m_xmlOut)[165L,46C-53C(6006-6013)]
+  Primary.FieldAccess(task)[75L,8C-16C(2486-2494)] -> Primary.FieldAccess(m_fileMapping)[94L,8C-20C(3034-3046)]
+
+[significance=1] primary name renamed (2)
+  Primary.Name(task)(Primary.Name(task))[75L,20C-23C(2498-2501)] -> Primary.Name(fileMapping)(Primary.Name(fileMapping))[94L,24C-34C(3050-3060)]
+  Primary.Name(exc)(Primary.Name(exc))[92L,51C-53C(3031-3033)] -> Primary.Name(pce)(Primary.Name(pce))[111L,51C-53C(3614-3616)]

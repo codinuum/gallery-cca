@@ -1,0 +1,24 @@
+*** Modified Units ***
+FunctionDefinition(477L,0C-561L,0C(12223-14207)): [MODIFIED] 3(1) changed [d:3(1)i:0(0)r:0(0)m:0(0)], 368 mapped
+FunctionDefinition(288L,0C-342L,0C(7494-8970)): [MODIFIED] 62(32) changed [d:0(0)i:40(10)r:22(22)m:0(0)], 267 mapped
+FunctionDefinition(563L,0C-635L,0C(14210-15623)): [MODIFIED] 14(4) changed [d:3(1)i:10(2)r:1(1)m:0(0)], 256 mapped
+FunctionDefinition(795L,0C-836L,0C(20342-21504)): [MODIFIED] 10(4) changed [d:8(2)i:0(0)r:2(2)m:0(0)], 175 mapped
+FunctionDefinition(345L,0C-374L,0C(8986-9878)): [DELETED] 6(2) changed [d:5(1)i:0(0)r:1(1)m:0(0)], 110 mapped
+FunctionDefinition(637L,0C-729L,0C(15626-17954)): [MODIFIED] 3(1) changed [d:3(1)i:0(0)r:0(0)m:0(0)], 448 mapped
+FunctionDefinition(433L,0C-475L,0C(11365-12220)): [MODIFIED] 3(1) changed [d:3(1)i:0(0)r:0(0)m:0(0)], 155 mapped
+FunctionDefinition(994L,0C-1840L,0C(25296-47944)): [DELETED] 24(7) changed [d:24(7)i:0(0)r:0(0)m:0(0)], 3549 mapped
+ClassSpecifier(55L,8C-78L,0C(928-1485)): [MODIFIED] 35(5) changed [d:0(0)i:35(5)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition(1090L,0C-1143L,0C(28514-30286)): [INSERTED] 239(1) changed [d:0(0)i:239(1)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition(1150L,0C-1195L,0C(30374-31431)): [INSERTED] 111(1) changed [d:0(0)i:111(1)r:0(0)m:0(0)], 0 mapped
+*** Unmodified Units ***
+FunctionDefinition(1845L,0C-1858L,0C(48020-48406))
+FunctionDefinition(891L,0C-991L,0C(22688-25286))
+FunctionDefinition(866L,0C-888L,0C(22044-22664))
+ClassSpecifier(859L,8C-864L,0C(21960-22022))
+ClassSpecifier(838L,8C-841L,0C(21515-21548))
+FunctionDefinition(731L,0C-793L,0C(17957-20339))
+FunctionDefinition(408L,0C-431L,0C(10581-11362))
+FunctionDefinition(375L,0C-405L,0C(9880-10577))
+FunctionDefinition(81L,0C-99L,0C(1398-1803))
+ClassSpecifier(68L,8C-78L,0C(1216-1355))
+ClassSpecifier(49L,8C-66L,0C(802-1190))

@@ -1,0 +1,84 @@
+*** Modified Units ***
+Method(setOld(Z)V)(367L,4C-370L,4C(9438-9513)): [MODIFIED] 2(2) changed [d:0(0)i:0(0)r:2(2)m:0(0)], 11 mapped
+Method(setNohelp(Z)V)(347L,4C-350L,4C(9084-9165)): [MODIFIED] 2(2) changed [d:0(0)i:0(0)r:2(2)m:0(0)], 11 mapped
+Method(addPackage(LPackageName;)V)(545L,4C-548L,4C(13015-13098)): [MODIFIED] 1(1) changed [d:0(0)i:0(0)r:1(1)m:0(0)], 11 mapped
+Method(createClasspath()Lorg.apache.tools.ant.types.Path;)(566L,4C-574L,4C(13454-13664)): [MODIFIED] 4(4) changed [d:0(0)i:0(0)r:4(4)m:0(0)], 22 mapped
+Method(setVersion(Z)V)(498L,4C-501L,4C(12228-12299)): [MODIFIED] 1(1) changed [d:0(0)i:0(0)r:1(1)m:0(0)], 10 mapped
+Method(setSplitindex(Z)V)(460L,4C-463L,4C(11442-11531)): [MODIFIED] 2(2) changed [d:0(0)i:0(0)r:2(2)m:0(0)], 11 mapped
+Method(add12ArgIf(ZLjava.lang.String;)V)(996L,4C-1002L,4C(28381-28539)): [DELETED] 22(1) changed [d:22(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(setDefaultexcludes(Z)V)(175L,4C-178L,4C(5036-5161)): [MODIFIED] 1(1) changed [d:0(0)i:0(0)r:1(1)m:0(0)], 11 mapped
+Method(setAdditionalparam(Ljava.lang.String;)V)(98L,4C-102L,4C(3346-3475)): [MODIFIED] 1(1) changed [d:0(0)i:0(0)r:1(1)m:0(0)], 15 mapped
+Method(setOverview(Ljava.io.File;)V)(372L,4C-379L,4C(9520-9713)): [MODIFIED] 6(3) changed [d:4(1)i:0(0)r:2(2)m:0(0)], 19 mapped
+Method(evaluatePackages(Lorg.apache.tools.ant.types.Commandline;Lorg.apache.tools.ant.types.Path;Ljava.util.ArrayList;Ljava.util.ArrayList;)V)(1038L,4C-1165L,4C(29545-33769)): [MODIFIED] 29(23) changed [d:3(3)i:12(6)r:14(14)m:0(0)], 421 mapped
+Class(Javadoc)(62L,0C-1225L,0C(2186-35158)): [MODIFIED] 656(338) changed [d:339(34)i:28(15)r:289(289)m:0(0)], 2814 mapped
+Method(createBootclasspath()Lorg.apache.tools.ant.types.Path;)(556L,4C-564L,4C(13221-13447)): [MODIFIED] 4(4) changed [d:0(0)i:0(0)r:4(4)m:0(0)], 22 mapped
+Method(setSourcepath(Lorg.apache.tools.ant.types.Path;)V)(436L,4C-447L,4C(10947-11178)): [MODIFIED] 4(4) changed [d:0(0)i:0(0)r:4(4)m:0(0)], 22 mapped
+Method(setDocletPathRef(Lorg.apache.tools.ant.types.Reference;)V)(212L,4C-220L,4C(5875-6089)): [MODIFIED] 4(4) changed [d:0(0)i:0(0)r:4(4)m:0(0)], 25 mapped
+Method(addHeader(LHtml;)V)(537L,4C-543L,4C(12892-13008)): [MODIFIED] 5(2) changed [d:4(1)i:0(0)r:1(1)m:0(0)], 10 mapped
+Method(setAccess(LAccessType;)V)(93L,4C-96L,4C(3228-3339)): [MODIFIED] 1(1) changed [d:0(0)i:0(0)r:1(1)m:0(0)], 17 mapped
+Method(getJavadocExecutableName()Ljava.lang.String;)(960L,4C-986L,4C(27160-28210)): [MODIFIED] 5(4) changed [d:1(1)i:2(1)r:2(2)m:0(0)], 58 mapped
+Method(setSerialwarn(Z)V)(418L,4C-421L,4C(10485-10574)): [MODIFIED] 2(2) changed [d:0(0)i:0(0)r:2(2)m:0(0)], 11 mapped
+Method(setVerbose(Z)V)(493L,4C-496L,4C(12138-12221)): [MODIFIED] 2(2) changed [d:0(0)i:0(0)r:2(2)m:0(0)], 11 mapped
+Method(addArgIf(ZLjava.lang.String;)V)(1020L,4C-1026L,4C(28999-29142)): [MODIFIED] 1(1) changed [d:0(0)i:0(0)r:1(1)m:0(0)], 18 mapped
+Method(setExtdirs(Ljava.lang.String;)V)(247L,4C-254L,4C(6727-6925)): [MODIFIED] 6(3) changed [d:4(1)i:0(0)r:2(2)m:0(0)], 19 mapped
+Method(setClasspath(Lorg.apache.tools.ant.types.Path;)V)(145L,4C-156L,4C(4312-4539)): [MODIFIED] 4(4) changed [d:0(0)i:0(0)r:4(4)m:0(0)], 22 mapped
+Method(createLink()LLinkArgument;)(589L,4C-594L,4C(13924-14057)): [MODIFIED] 1(1) changed [d:0(0)i:0(0)r:1(1)m:0(0)], 16 mapped
+Method(setUse(Z)V)(474L,4C-477L,4C(11750-11825)): [MODIFIED] 2(2) changed [d:0(0)i:0(0)r:2(2)m:0(0)], 11 mapped
+Method(setBootclasspath(Lorg.apache.tools.ant.types.Path;)V)(120L,4C-131L,4C(3824-4067)): [MODIFIED] 4(4) changed [d:0(0)i:0(0)r:4(4)m:0(0)], 22 mapped
+Method(add11ArgIf(ZLjava.lang.String;)V)(988L,4C-994L,4C(28217-28374)): [DELETED] 21(1) changed [d:21(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(setLocale(Ljava.lang.String;)V)(316L,4C-323L,4C(8422-8618)): [MODIFIED] 6(3) changed [d:4(1)i:0(0)r:2(2)m:0(0)], 19 mapped
+Method(setEncoding(Ljava.lang.String;)V)(229L,4C-233L,4C(6232-6380)): [MODIFIED] 2(2) changed [d:0(0)i:0(0)r:2(2)m:0(0)], 19 mapped
+Method(setNonavbar(Z)V)(357L,4C-360L,4C(9260-9345)): [MODIFIED] 2(2) changed [d:0(0)i:0(0)r:2(2)m:0(0)], 11 mapped
+Method(setAuthor(Z)V)(104L,4C-107L,4C(3482-3551)): [MODIFIED] 1(1) changed [d:0(0)i:0(0)r:1(1)m:0(0)], 10 mapped
+Method(setDocencoding(Ljava.lang.String;)V)(187L,4C-191L,4C(5339-5493)): [MODIFIED] 2(2) changed [d:0(0)i:0(0)r:2(2)m:0(0)], 19 mapped
+Method(setLink(Ljava.lang.String;)V)(284L,4C-290L,4C(7469-7598)): [MODIFIED] 4(1) changed [d:4(1)i:0(0)r:0(0)m:0(0)], 12 mapped
+Method(setDocletPath(Lorg.apache.tools.ant.types.Path;)V)(202L,4C-210L,4C(5672-5868)): [MODIFIED] 4(4) changed [d:0(0)i:0(0)r:4(4)m:0(0)], 23 mapped
+Method(add12ArgIfNotEmpty(Ljava.lang.String;Ljava.lang.String;)V)(1004L,4C-1018L,4C(28546-28992)): [MODIFIED] 12(9) changed [d:5(3)i:2(1)r:5(5)m:0(0)], 40 mapped
+Method(setDestdir(Ljava.io.File;)V)(180L,4C-185L,4C(5168-5332)): [MODIFIED] 4(4) changed [d:0(0)i:0(0)r:4(4)m:0(0)], 22 mapped
+Method(createSourcepath()Lorg.apache.tools.ant.types.Path;)(596L,4C-604L,4C(14064-14278)): [MODIFIED] 4(4) changed [d:0(0)i:0(0)r:4(4)m:0(0)], 22 mapped
+Method(createDoclet()LDocletInfo;)(576L,4C-580L,4C(13671-13772)): [MODIFIED] 2(2) changed [d:0(0)i:0(0)r:2(2)m:0(0)], 11 mapped
+Method(setUseExternalFile(Z)V)(485L,4C-491L,4C(12000-12131)): [MODIFIED] 5(2) changed [d:4(1)i:0(0)r:1(1)m:0(0)], 10 mapped
+Method(setDoclet(Ljava.lang.String;)V)(193L,4C-200L,4C(5500-5665)): [MODIFIED] 4(4) changed [d:0(0)i:0(0)r:4(4)m:0(0)], 21 mapped
+Method(addSource(LSourceFile;)V)(550L,4C-554L,4C(13105-13214)): [MODIFIED] 1(1) changed [d:0(0)i:0(0)r:1(1)m:0(0)], 13 mapped
+Method(setPackageList(Ljava.lang.String;)V)(386L,4C-389L,4C(9808-9886)): [MODIFIED] 1(1) changed [d:0(0)i:0(0)r:1(1)m:0(0)], 10 mapped
+Method(setGroup(Ljava.lang.String;)V)(263L,4C-266L,4C(7064-7130)): [MODIFIED] 1(1) changed [d:0(0)i:0(0)r:1(1)m:0(0)], 10 mapped
+Method(setLinkoffline(Ljava.lang.String;)V)(292L,4C-314L,4C(7605-8415)): [MODIFIED] 4(1) changed [d:4(1)i:0(0)r:0(0)m:0(0)], 72 mapped
+Class(GroupArgument)(1167L,4C-1223L,4C(33776-35155)): [DELETED] 170(1) changed [d:170(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(addFooter(LHtml;)V)(529L,4C-535L,4C(12769-12885)): [MODIFIED] 5(2) changed [d:4(1)i:0(0)r:1(1)m:0(0)], 10 mapped
+Method(createGroup()Lorg.apache.tools.ant.taskdefs.javadoc.Javadoc$GroupArgument;)(582L,4C-587L,4C(13779-13917)): [RENAMED] 8(8) changed [d:0(0)i:0(0)r:8(8)m:0(0)], 16 mapped
+Method(addBottom(LHtml;)V)(508L,4C-514L,4C(12415-12531)): [MODIFIED] 5(2) changed [d:4(1)i:0(0)r:1(1)m:0(0)], 10 mapped
+Method(addExcludePackage(LPackageName;)V)(524L,4C-527L,4C(12665-12762)): [MODIFIED] 1(1) changed [d:0(0)i:0(0)r:1(1)m:0(0)], 11 mapped
+Method(setHelpfile(Ljava.io.File;)V)(275L,4C-282L,4C(7269-7462)): [MODIFIED] 6(3) changed [d:4(1)i:0(0)r:2(2)m:0(0)], 19 mapped
+Method(addDoctitle(LHtml;)V)(516L,4C-522L,4C(12538-12658)): [MODIFIED] 5(2) changed [d:4(1)i:0(0)r:1(1)m:0(0)], 10 mapped
+Method(setNodeprecatedlist(Z)V)(342L,4C-345L,4C(8976-9077)): [MODIFIED] 2(2) changed [d:0(0)i:0(0)r:2(2)m:0(0)], 11 mapped
+Method(setStylesheetfile(Ljava.io.File;)V)(465L,4C-472L,4C(11538-11743)): [MODIFIED] 6(3) changed [d:4(1)i:0(0)r:2(2)m:0(0)], 19 mapped
+Method(execute()V)(606L,4C-946L,4C(14285-26840)): [MODIFIED] 152(116) changed [d:41(9)i:10(6)r:101(101)m:0(0)], 943 mapped
+Method(setMaxmemory(Ljava.lang.String;)V)(325L,4C-335L,4C(8625-8871)): [MODIFIED] 15(3) changed [d:12(1)i:2(1)r:1(1)m:0(0)], 15 mapped
+*** Unmodified Units ***
+Method(addTitle(LHtml;)V)(1219L,8C-1222L,8C(35071-35149))
+Method(addPackage(LPackageName;)V)(1214L,8C-1217L,8C(34969-35060))
+Method(getTitle()Ljava.lang.String;)(1209L,8C-1212L,8C(34856-34958))
+Method(getPackages()Ljava.lang.String;)(1195L,8C-1207L,8C(34475-34845))
+Method(setTitle(Ljava.lang.String;)V)(1188L,8C-1193L,8C(34321-34464))
+Method(setPackages(Ljava.lang.String;)V)(1176L,8C-1186L,8C(33955-34310))
+Method(accept(Ljava.io.File;Ljava.lang.String;)Z)(1125L,28C-1132L,28C(32352-32698))
+Method(expand(Ljava.lang.String;)Ljava.lang.String;)(954L,4C-958L,4C(27014-27153))
+Method(setWindowtitle(Ljava.lang.String;)V)(503L,4C-506L,4C(12306-12408))
+Method(setSourcepathRef(Lorg.apache.tools.ant.types.Reference;)V)(454L,4C-458L,4C(11310-11435))
+Method(setSourcefiles(Ljava.lang.String;)V)(423L,4C-434L,4C(10581-10940))
+Method(setPublic(Z)V)(413L,4C-416L,4C(10399-10478))
+Method(setProtected(Z)V)(408L,4C-411L,4C(10307-10392))
+Method(setPrivate(Z)V)(403L,4C-406L,4C(10219-10300))
+Method(setPackagenames(Ljava.lang.String;)V)(391L,4C-401L,4C(9893-10212))
+Method(setPackage(Z)V)(381L,4C-384L,4C(9720-9801))
+Method(setNotree(Z)V)(362L,4C-365L,4C(9352-9431))
+Method(setNoindex(Z)V)(352L,4C-355L,4C(9172-9253))
+Method(setNodeprecated(Z)V)(337L,4C-340L,4C(8878-8969))
+Method(setHeader(Ljava.lang.String;)V)(268L,4C-273L,4C(7137-7262))
+Method(setFooter(Ljava.lang.String;)V)(256L,4C-261L,4C(6932-7057))
+Method(setExcludePackageNames(Ljava.lang.String;)V)(235L,4C-245L,4C(6387-6720))
+Method(setDoctitle(Ljava.lang.String;)V)(222L,4C-227L,4C(6096-6225))
+Method(setClasspathRef(Lorg.apache.tools.ant.types.Reference;)V)(163L,4C-167L,4C(4670-4793))
+Method(setCharset(Ljava.lang.String;)V)(140L,4C-143L,4C(4206-4305))
+Method(setBottom(Ljava.lang.String;)V)(133L,4C-138L,4C(4074-4199))
+Method(setBootClasspathRef(Lorg.apache.tools.ant.types.Reference;)V)(114L,4C-118L,4C(3686-3817))

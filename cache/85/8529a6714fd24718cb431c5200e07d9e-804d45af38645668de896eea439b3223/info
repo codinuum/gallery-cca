@@ -1,0 +1,20 @@
+MOVE(GROUP)(2)#5M:
+|- MOVE#14M(1) (#352U:#282G)LocalVariableDeclaration(true,al[0)[0](185L,16C-186L,69C(4484-4607))1 [(#344U:#274G);(#351U:#281G)] -> (#858U:#281G)LocalVariableDeclaration(true,urls[0)[0](185L,16C-55C(4464-4503))1 [(#852U:#275G);(#853U:#276G);(#857U:#280G)] <282>
+|- MOVE#13M(1) (#347U:#278G)Primary.FieldAccess(m_classpath)[1](186L,56C-66C(4594-4604))1 -> (#854U:#277G)Primary.FieldAccess(m_classpath)[0](185L,35C-45C(4483-4493))1 <278>
+RELABEL (#351U:#281G)VariableDeclarator(al,0,true)[1](185L,31C-186L,68C(4499-4606))1 [(#350U:#280G)] -> (#866U:#289G)VariableDeclarator(classLoader,0,true)[2](186L,37C-76C(4542-4581))1 [(#865U:#288G)]
+RELABEL (#2U:#2G)IDsingle(java.util.Properties)[0](10L,0C-27C(295-322))1 -> (#509U:#2G)IDsingle(java.net.URL)[0](10L,0C-19C(295-314))1
+RELABEL (#344U:#274G)Type.ClassOrInterface(org.apache.tools.ant.AntClassLoader)[0](185L,16C-29C(4484-4497))1 -> (#861U:#284G)Type.ClassOrInterface(java.net.URLClassLoader)[1](186L,22C-35C(4527-4540))1
+RELABEL (#349U:#275G)Type.ClassOrInterface(org.apache.tools.ant.AntClassLoader)[0](185L,40C-53C(4508-4521))1 -> (#864U:#285G)Type.ClassOrInterface(java.net.URLClassLoader)[0](186L,55C-68C(4560-4573))1
+MOVREL (#352U:#282G)LocalVariableDeclaration(true,al[0)[0](185L,16C-186L,69C(4484-4607))1 [(#344U:#274G);(#351U:#281G)] -> (#858U:#281G)LocalVariableDeclaration(true,urls[0)[0](185L,16C-55C(4464-4503))1 [(#852U:#275G);(#853U:#276G);(#857U:#280G)]
+RELABEL (#354U:#284G)Primary.Name(al)[0](187L,20C-21C(4629-4630))1 -> (#869U:#292G)Primary.Name(classLoader)[0](187L,20C-30C(4604-4614))1
+RELABEL (#350U:#280G)Primary.InstanceCreation(org.apache.tools.ant.AntClassLoader.<init>#2)[0](185L,36C-186L,68C(4504-4606))1 [(#349U:#275G);(#348U:#279G)] -> (#865U:#288G)Primary.InstanceCreation(java.net.URLClassLoader.<init>#1)[0](186L,51C-76C(4556-4581))1 [(#864U:#285G);(#863U:#287G)]
+RELABEL (#348U:#279G)NamedArguments(org.apache.tools.ant.AntClassLoader)[1](185L,54C-186L,68C(4522-4606))1 [(#346U:#277G);(#347U:#278G)] -> (#863U:#287G)NamedArguments(java.net.URLClassLoader)[1](186L,69C-76C(4574-4581))1 [(#862U:#286G)]
+DELETE(1) (#5U:#5G)IDsingle(org.apache.tools.ant.AntClassLoader)[3](13L,0C-42C(394-436))1 <5>
+DELETE(2) (#346U:#277G)Primary.SimpleMethodInvocation(getProject#0)[0](185L,56C-67C(4524-4535))2 <276-277>
+DELETE(3) (#361U:#291G)Statement.Expression.Primary.TypeMethodInvocation(org.apache.tools.ant.AntClassLoader,initializeClass#1)()[2](188L,16C-51C(4674-4709))3 <289-291>
+INSERT(3) (#867U:#290G)LocalVariableDeclaration(true,classLoader[0)[1](186L,16C-77C(4521-4582))3 [(#861U:#284G);(#866U:#289G)] <282-283;290>
+INSERT(1) (#853U:#276G)Type.Array(ClassOrInterface(java.net.URL),1)[1](185L,22C-26C(4470-4474))1 <276>
+INSERT(1) (#510U:#3G)IDsingle(java.net.URLClassLoader)[1](11L,0C-30C(316-346))1 <3>
+INSERT(3) (#857U:#280G)VariableDeclarator(urls,0,true)[2](185L,28C-54C(4476-4502))3 [(#854U:#277G)] <278-280>
+INSERT(1) (#862U:#286G)Primary.Name(urls)[0](186L,71C-74C(4576-4579))1 <286>
+INSERT(2) (#852U:#275G)Modifiers(urls#l)[0](185L,16C-20C(4464-4468))2 <274-275>

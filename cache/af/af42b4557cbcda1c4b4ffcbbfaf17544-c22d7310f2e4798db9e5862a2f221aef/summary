@@ -1,0 +1,203 @@
+*** Modified Units ***
+FunctionDefinition(1768L,0C-1815L,0C(49992-51695)): [MODIFIED] 37(3) changed [d:9(1)i:27(1)r:1(1)m:0(0)], 168 mapped
+FunctionDefinition(5134L,0C-5189L,0C(140549-142165)): [MODIFIED] 16(10) changed [d:1(1)i:9(3)r:6(6)m:0(0)], 318 mapped
+FunctionDefinition(6006L,0C-6030L,0C(165395-166151)): [MOVED] 356(109) changed [d:109(18)i:163(33)r:33(33)m:51(25)], 50 mapped
+FunctionDefinition(4955L,0C-5019L,0C(136251-137864)): [MODIFIED] 6(4) changed [d:1(1)i:3(1)r:2(2)m:0(0)], 269 mapped
+FunctionDefinition<SimpleTypeSpecifier:11irqreturn_t>(2437L,0C-2784L,0C(67226-77176)): [MODIFIED] 316(49) changed [d:139(16)i:99(5)r:15(15)m:63(13)], 1440 mapped
+FunctionDefinition(2107L,0C-2143L,0C(59001-60166)): [MODIFIED] 7(1) changed [d:7(1)i:0(0)r:0(0)m:0(0)], 213 mapped
+FunctionDefinition<SimpleTypeSpecifier:9__devinit>(4611L,0C-4626L,0C(127644-127976)): [MODIFIED] 31(3) changed [d:0(0)i:30(2)r:1(1)m:0(0)], 70 mapped
+FunctionDefinition(5416L,0C-5447L,0C(148460-149317)): [MODIFIED] 12(8) changed [d:2(2)i:6(2)r:4(4)m:0(0)], 166 mapped
+FunctionDefinition<SimpleTypeSpecifier:3u16>(2870L,0C-3025L,0C(79391-83337)): [MODIFIED] 130(27) changed [d:5(4)i:84(7)r:9(9)m:32(7)], 810 mapped
+FunctionDefinition(5047L,0C-5065L,0C(138531-138944)): [MODIFIED] 6(4) changed [d:1(1)i:3(1)r:2(2)m:0(0)], 96 mapped
+FunctionDefinition(2063L,0C-2095L,0C(57998-58782)): [MODIFIED] 125(10) changed [d:1(1)i:121(6)r:3(3)m:0(0)], 157 mapped
+FunctionDefinition(2350L,0C-2435L,0C(65289-67223)): [MODIFIED] 24(4) changed [d:8(2)i:4(1)r:0(0)m:12(1)], 346 mapped
+FunctionDefinition(2291L,0C-2327L,0C(63820-64734)): [MODIFIED] 62(21) changed [d:2(2)i:5(5)r:2(2)m:53(12)], 181 mapped
+FunctionDefinition(6199L,0C-6544L,0C(172063-180550)): [MODIFIED] 1262(11) changed [d:1248(3)i:8(2)r:4(4)m:2(2)], 219 mapped
+FunctionDefinition(4553L,0C-4588L,0C(126167-127176)): [MODIFIED] 6(4) changed [d:1(1)i:3(1)r:2(2)m:0(0)], 172 mapped
+FunctionDefinition(4913L,0C-4930L,0C(135238-135714)): [MODIFIED] 6(4) changed [d:1(1)i:3(1)r:2(2)m:0(0)], 97 mapped
+FunctionDefinition(5225L,0C-5306L,0C(142898-145656)): [MODIFIED] 22(14) changed [d:5(4)i:11(4)r:5(5)m:1(1)], 340 mapped
+FunctionDefinition(6618L,0C-6681L,0C(182698-184547)): [MODIFIED] 3(3) changed [d:0(0)i:0(0)r:3(3)m:0(0)], 304 mapped
+FunctionDefinition<SimpleTypeSpecifier:9__devexit>(4628L,0C-4631L,0C(127979-128084)): [MODIFIED] 7(2) changed [d:4(1)i:0(0)r:0(0)m:3(1)], 19 mapped
+ClassSpecifier(1001L,0C-1074L,0C(27736-29851)): [MODIFIED] 172(27) changed [d:56(5)i:112(20)r:1(1)m:3(1)], 270 mapped
+FunctionDefinition(2014L,0C-2030L,0C(56726-57197)): [MODIFIED] 6(4) changed [d:1(1)i:3(1)r:2(2)m:0(0)], 121 mapped
+ClassSpecifier(507L,8C-625L,0C(13268-16708)): [MODIFIED] 1(1) changed [d:0(0)i:0(0)r:1(1)m:0(0)], 539 mapped
+FunctionDefinition<ElaboratedTypeSpecifierStruct:10net_device>(2164L,0C-2277L,0C(60567-63549)): [MODIFIED] 203(23) changed [d:8(2)i:181(12)r:8(8)m:6(1)], 532 mapped
+FunctionDefinition(2839L,0C-2854L,0C(78626-78956)): [MODIFIED] 36(13) changed [d:5(1)i:18(6)r:0(0)m:13(6)], 75 mapped
+FunctionDefinition(5090L,0C-5109L,0C(139496-139987)): [MODIFIED] 6(4) changed [d:1(1)i:3(1)r:2(2)m:0(0)], 104 mapped
+FunctionDefinition(1667L,0C-1695L,0C(47051-47747)): [MODIFIED] 40(9) changed [d:1(1)i:35(4)r:3(3)m:1(1)], 185 mapped
+FunctionDefinition<SimpleTypeSpecifier:6__exit>(4664L,0C-4675L,0C(128857-129164)): [MODIFIED] 5(1) changed [d:0(0)i:0(0)r:0(0)m:5(1)], 47 mapped
+FunctionDefinition(2816L,0C-2837L,0C(77906-78623)): [MODIFIED] 64(10) changed [d:7(1)i:43(4)r:1(1)m:13(4)], 89 mapped
+FunctionDefinition(1741L,0C-1766L,0C(49288-49989)): [MODIFIED] 5(2) changed [d:0(0)i:4(1)r:1(1)m:0(0)], 89 mapped
+FunctionDefinition(6687L,0C-6789L,0C(184602-187209)): [MODIFIED] 5(5) changed [d:0(0)i:0(0)r:5(5)m:0(0)], 438 mapped
+FunctionDefinition(5360L,0C-5390L,0C(147035-147845)): [MODIFIED] 15(9) changed [d:3(2)i:5(2)r:3(3)m:4(2)], 163 mapped
+FunctionDefinition(5975L,0C-6000L,0C(164594-165279)): [MODIFIED] 110(37) changed [d:48(11)i:0(0)r:18(18)m:44(8)], 44 mapped
+FunctionDefinition(4781L,0C-4822L,0C(131849-132909)): [MODIFIED] 8(1) changed [d:0(0)i:0(0)r:0(0)m:8(1)], 193 mapped
+FunctionDefinition(5682L,0C-5694L,0C(156079-156424)): [MODIFIED] 6(4) changed [d:1(1)i:3(1)r:2(2)m:0(0)], 72 mapped
+FunctionDefinition(5594L,0C-5645L,0C(153507-155132)): [MODIFIED] 30(20) changed [d:5(5)i:15(5)r:10(10)m:0(0)], 281 mapped
+FunctionDefinition(3844L,0C-4044L,0C(105725-111596)): [MODIFIED] 150(100) changed [d:25(25)i:75(25)r:50(50)m:0(0)], 1317 mapped
+FunctionDefinition(3785L,0C-3824L,0C(104183-105281)): [MODIFIED] 2(2) changed [d:0(0)i:0(0)r:2(2)m:0(0)], 254 mapped
+FunctionDefinition(4705L,0C-4743L,0C(129983-131030)): [MODIFIED] 6(4) changed [d:1(1)i:3(1)r:2(2)m:0(0)], 210 mapped
+FunctionDefinition(5312L,0C-5354L,0C(145778-146919)): [MODIFIED] 6(3) changed [d:2(1)i:3(1)r:0(0)m:1(1)], 191 mapped
+FunctionDefinition(6038L,0C-6073L,0C(166351-167240)): [MODIFIED] 17(10) changed [d:2(2)i:10(3)r:5(5)m:0(0)], 150 mapped
+FunctionDefinition(1630L,0C-1655L,0C(46192-46769)): [MODIFIED] 28(4) changed [d:0(0)i:26(2)r:1(1)m:1(1)], 167 mapped
+FunctionDefinition<ElaboratedTypeSpecifierStruct:10net_device>(2816L,0C-2819L,0C(77890-78025)): [INSERTED] 31(1) changed [d:0(0)i:31(1)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition<SimpleTypeSpecifier:3u16>(3325L,0C-3337L,0C(91675-91976)): [MODIFIED] 12(1) changed [d:0(0)i:12(1)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition(7405L,0C-7422L,0C(203499-203879)): [MODIFIED] 21(1) changed [d:0(0)i:21(1)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition(3906L,0C-3975L,0C(106789-108510)): [MODIFIED] 210(1) changed [d:0(0)i:210(1)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition(5338L,0C-5366L,0C(147249-148021)): [INSERTED] 160(1) changed [d:0(0)i:160(1)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition(4953L,0C-4981L,0C(136483-137315)): [MODIFIED] 17(3) changed [d:0(0)i:17(3)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition(6969L,0C-7010L,0C(192546-193871)): [MODIFIED] 10(1) changed [d:0(0)i:10(1)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition(3314L,0C-3323L,0C(91391-91672)): [MODIFIED] 12(1) changed [d:0(0)i:12(1)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition(3841L,0C-3902L,0C(105153-106655)): [MODIFIED] 153(1) changed [d:0(0)i:153(1)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition(2823L,0C-2831L,0C(78060-78300)): [MODIFIED] 3(1) changed [d:0(0)i:3(1)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition(7427L,0C-7444L,0C(203892-204414)): [MODIFIED] 9(1) changed [d:0(0)i:9(1)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition(1678L,0C-1710L,0C(46956-47959)): [MODIFIED] 9(1) changed [d:0(0)i:9(1)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition(5166L,0C-5234L,0C(142340-144501)): [MODIFIED] 9(1) changed [d:0(0)i:9(1)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition(2395L,0C-2404L,0C(66331-66662)): [INSERTED] 63(1) changed [d:0(0)i:63(1)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition(2657L,0C-2671L,0C(73629-73992)): [INSERTED] 33(1) changed [d:0(0)i:33(1)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition(2413L,0C-2480L,0C(67009-68604)): [INSERTED] 366(4) changed [d:0(0)i:366(4)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition<SimpleTypeSpecifier:3u16>(3651L,0C-3704L,0C(99911-101597)): [MODIFIED] 74(2) changed [d:0(0)i:74(2)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition(1948L,0C-2028L,0C(54428-56715)): [INSERTED] 387(20) changed [d:0(0)i:387(20)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition(1907L,0C-1939L,0C(53519-54273)): [INSERTED] 160(1) changed [d:0(0)i:160(1)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition(2488L,0C-2600L,0C(68826-72113)): [INSERTED] 610(1) changed [d:0(0)i:610(1)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition(3403L,0C-3479L,0C(93702-95606)): [INSERTED] 377(8) changed [d:0(0)i:377(8)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition(6571L,0C-6600L,0C(180186-180977)): [MODIFIED] 9(1) changed [d:0(0)i:9(1)r:0(0)m:0(0)], 0 mapped
+*** Unmodified Units ***
+FunctionDefinition(7008L,0C-7023L,0C(192015-192492))
+FunctionDefinition(6989L,0C-7003L,0C(191726-192002))
+FunctionDefinition(6958L,0C-6982L,0C(191113-191627))
+FunctionDefinition(6918L,0C-6952L,0C(190321-191040))
+FunctionDefinition(6890L,0C-6912L,0C(189668-190247))
+FunctionDefinition(6865L,0C-6883L,0C(189214-189606))
+FunctionDefinition(6800L,0C-6855L,0C(187492-189116))
+FunctionDefinition(6595L,0C-6607L,0C(182062-182408))
+FunctionDefinition(6556L,0C-6593L,0C(180787-182059))
+FunctionDefinition(5913L,0C-5966L,0C(162691-164404))
+FunctionDefinition(5819L,0C-5907L,0C(159753-162570))
+FunctionDefinition(5784L,0C-5812L,0C(158805-159544))
+FunctionDefinition(5720L,0C-5777L,0C(157012-158666))
+FunctionDefinition(5700L,0C-5713L,0C(156543-156849))
+FunctionDefinition(5651L,0C-5676L,0C(155256-155960))
+FunctionDefinition(5484L,0C-5588L,0C(150366-153383))
+FunctionDefinition(5453L,0C-5478L,0C(149437-150248))
+FunctionDefinition(5396L,0C-5410L,0C(147961-148340))
+FunctionDefinition(5195L,0C-5219L,0C(142290-142776))
+FunctionDefinition(5115L,0C-5128L,0C(140118-140424))
+FunctionDefinition(5071L,0C-5084L,0C(139065-139365))
+FunctionDefinition(5025L,0C-5041L,0C(137980-138410))
+FunctionDefinition(4936L,0C-4949L,0C(135830-136135))
+FunctionDefinition(4892L,0C-4907L,0C(134714-135122))
+FunctionDefinition(4857L,0C-4886L,0C(133770-134596))
+FunctionDefinition(4828L,0C-4851L,0C(133022-133652))
+FunctionDefinition(4749L,0C-4775L,0C(131147-131736))
+FunctionDefinition(4692L,0C-4699L,0C(129704-129866))
+FunctionDefinition(4634L,0C-4662L,0C(128094-128854))
+FunctionDefinition(4602L,0C-4608L,0C(127419-127623))
+FunctionDefinition(4590L,0C-4600L,0C(127179-127416))
+ClassSpecifier(4543L,7C-4546L,0C(125777-125858))
+FunctionDefinition(4533L,0C-4541L,0C(125454-125767))
+FunctionDefinition(4464L,0C-4531L,0C(123344-125451))
+FunctionDefinition(4416L,0C-4462L,0C(121878-123341))
+FunctionDefinition(4372L,0C-4414L,0C(120687-121875))
+FunctionDefinition(4322L,0C-4370L,0C(119287-120684))
+FunctionDefinition(4281L,0C-4320L,0C(118322-119284))
+FunctionDefinition(4254L,0C-4279L,0C(117551-118319))
+FunctionDefinition(4235L,0C-4252L,0C(117179-117548))
+FunctionDefinition(4220L,0C-4229L,0C(116775-117008))
+FunctionDefinition(4185L,0C-4217L,0C(115883-116711))
+FunctionDefinition(4178L,0C-4183L,0C(115709-115880))
+FunctionDefinition(4144L,0C-4176L,0C(114830-115706))
+FunctionDefinition(4055L,0C-4142L,0C(111852-114827))
+FunctionDefinition(4046L,0C-4053L,0C(111599-111849))
+FunctionDefinition(3826L,0C-3838L,0C(105284-105593))
+FunctionDefinition(3781L,0C-3783L,0C(104056-104180))
+FunctionDefinition(3773L,0C-3779L,0C(103814-104053))
+FunctionDefinition(3707L,0C-3770L,0C(101591-103745))
+FunctionDefinition(3682L,0C-3705L,0C(101093-101588))
+FunctionDefinition(3658L,0C-3676L,0C(100593-100990))
+FunctionDefinition(3631L,0C-3644L,0C(99564-100137))
+FunctionDefinition(3537L,0C-3629L,0C(96961-99561))
+ClassSpecifier(3523L,0C-3531L,0C(96699-96869))
+FunctionDefinition(3384L,0C-3441L,0C(93081-94554))
+ClassSpecifier(3390L,1C-3394L,1C(93219-93278))
+FunctionDefinition(3338L,0C-3382L,0C(91687-93078))
+FunctionDefinition(3280L,0C-3333L,0C(90024-91484))
+FunctionDefinition(3247L,0C-3276L,0C(89194-89933))
+FunctionDefinition(3207L,0C-3243L,0C(88187-89060))
+FunctionDefinition(3188L,0C-3203L,0C(87693-88089))
+FunctionDefinition(3176L,0C-3186L,0C(87351-87690))
+FunctionDefinition(3164L,0C-3173L,0C(86984-87307))
+FunctionDefinition(3127L,0C-3160L,0C(86167-86939))
+FunctionDefinition(3113L,0C-3124L,0C(85849-86123))
+FunctionDefinition(3075L,0C-3108L,0C(84777-85657))
+FunctionDefinition(3027L,0C-3070L,0C(83340-84631))
+FunctionDefinition(2866L,0C-2868L,0C(79303-79388))
+FunctionDefinition(2856L,0C-2864L,0C(78959-79300))
+FunctionDefinition(2804L,0C-2814L,0C(77651-77903))
+FunctionDefinition(2795L,0C-2802L,0C(77416-77648))
+ClassSpecifier(2565L,3C-2571L,3C(71569-71660))
+FunctionDefinition(2332L,0C-2347L,0C(64792-65279))
+FunctionDefinition(2281L,0C-2289L,0C(63584-63817))
+FunctionDefinition(2145L,0C-2162L,0C(60169-60564))
+FunctionDefinition(2101L,0C-2105L,0C(58869-58998))
+FunctionDefinition(2041L,0C-2059L,0C(57361-57942))
+FunctionDefinition(2032L,0C-2038L,0C(57200-57357))
+FunctionDefinition(1997L,0C-2012L,0C(56274-56723))
+FunctionDefinition(1985L,0C-1995L,0C(56002-56271))
+FunctionDefinition(1971L,0C-1983L,0C(55670-55999))
+FunctionDefinition(1947L,0C-1969L,0C(54925-55667))
+FunctionDefinition(1908L,0C-1945L,0C(53957-54922))
+FunctionDefinition(1882L,0C-1906L,0C(53301-53954))
+FunctionDefinition(1843L,0C-1880L,0C(52340-53298))
+FunctionDefinition(1817L,0C-1841L,0C(51698-52337))
+FunctionDefinition(1732L,0C-1739L,0C(49022-49285))
+FunctionDefinition(1720L,0C-1731L,0C(48588-49020))
+FunctionDefinition(1714L,0C-1719L,0C(48399-48586))
+FunctionDefinition(1709L,0C-1713L,0C(48216-48397))
+FunctionDefinition(1696L,0C-1708L,0C(47749-48214))
+FunctionDefinition(1656L,0C-1666L,0C(46771-47049))
+FunctionDefinition(1618L,0C-1629L,0C(45885-46190))
+FunctionDefinition(1608L,0C-1617L,0C(45608-45883))
+FunctionDefinition(1590L,0C-1606L,0C(45073-45605))
+FunctionDefinition(1579L,0C-1587L,0C(44663-44955))
+FunctionDefinition(1546L,0C-1577L,0C(43711-44660))
+FunctionDefinition(1512L,0C-1543L,0C(42860-43701))
+FunctionDefinition(1470L,0C-1506L,0C(41799-42694))
+FunctionDefinition(1462L,0C-1467L,0C(41624-41752))
+FunctionDefinition(1430L,0C-1459L,0C(40587-41578))
+FunctionDefinition(1401L,0C-1417L,0C(39870-40223))
+FunctionDefinition(1353L,0C-1399L,0C(38534-39867))
+FunctionDefinition(1249L,0C-1337L,0C(35686-38011))
+EnumSpecifier(1228L,8C-1234L,0C(35039-35117))
+FunctionDefinition(1193L,0C-1226L,0C(33972-35028))
+FunctionDefinition(1157L,0C-1173L,0C(32910-33329))
+FunctionDefinition(1101L,0C-1153L,0C(30861-32866))
+FunctionDefinition(1076L,0C-1079L,0C(29855-30007))
+ClassSpecifier(1050L,1C-1053L,1C(29229-29273))
+ClassSpecifier(944L,0C-24C(25096-25120))
+ClassSpecifier(927L,8C-930L,0C(24488-24560))
+ClassSpecifier(914L,8C-917L,0C(24035-24116))
+ClassSpecifier(905L,8C-912L,0C(23767-24015))
+ClassSpecifier(895L,8C-903L,0C(23479-23740))
+ClassSpecifier(899L,1C-902L,1C(23647-23680))
+ClassSpecifier(884L,8C-893L,0C(23010-23452))
+ClassSpecifier(873L,8C-877L,0C(22728-22860))
+ClassSpecifier(792L,8C-795L,0C(19999-20044))
+ClassSpecifier(775L,8C-790L,0C(19803-19977))
+ClassSpecifier(778L,1C-787L,1C(19828-19952))
+ClassSpecifier(780L,5C-786L,5C(19858-19944))
+ClassSpecifier(766L,8C-773L,0C(19675-19784))
+ClassSpecifier(761L,8C-764L,0C(19609-19652))
+ClassSpecifier(756L,8C-759L,0C(19547-19584))
+ClassSpecifier(726L,8C-754L,0C(18799-19524))
+ClassSpecifier(745L,2C-751L,2C(19360-19483))
+ClassSpecifier(697L,8C-724L,0C(18296-18773))
+ClassSpecifier(692L,8C-695L,0C(18234-18274))
+ClassSpecifier(685L,8C-689L,0C(18164-18212))
+ClassSpecifier(627L,8C-683L,0C(16730-18142))
+ClassSpecifier(499L,8C-505L,0C(13134-13242))
+ClassSpecifier(494L,8C-497L,0C(13079-13114))
+ClassSpecifier(489L,8C-492L,0C(13029-13062))
+ClassSpecifier(480L,8C-486L,0C(12861-12936))
+ClassSpecifier(462L,8C-467L,0C(12379-12434))
+ClassSpecifier(455L,8C-460L,0C(12308-12363))

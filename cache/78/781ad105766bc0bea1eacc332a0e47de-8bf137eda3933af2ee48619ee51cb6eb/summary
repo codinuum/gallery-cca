@@ -1,0 +1,13 @@
+*** Modified Units ***
+Method(getDocumentBuilder()Ljavax.xml.parsers.DocumentBuilder;)(84L,4C-94L,4C(2769-3052)): [MODIFIED] 6(6) changed [d:0(0)i:1(1)r:5(5)m:0(0)], 21 mapped
+Method(stop()V)(141L,4C-215L,4C(4068-7121)): [MODIFIED] 33(26) changed [d:8(3)i:6(4)r:19(19)m:0(0)], 289 mapped
+Method(parseOutput(Ljava.io.BufferedReader;)V)(241L,4C-249L,4C(7897-8113)): [RENAMED] 27(9) changed [d:20(2)i:1(1)r:6(6)m:0(0)], 6 mapped
+Method(processLine(Ljava.lang.String;)V)(253L,4C-269L,4C(8261-8891)): [RENAMED] 32(21) changed [d:2(2)i:17(8)r:9(9)m:4(2)], 60 mapped
+Method(addViolationEntry(Ljava.lang.String;LMAudit.Violation;)V)(223L,4C-233L,4C(7344-7733)): [RENAMED] 5(5) changed [d:0(0)i:0(0)r:5(5)m:0(0)], 37 mapped
+Method(setProcessInputStream(Ljava.io.OutputStream;)V)(110L,4C-112L,4C(3304-3367)): [MOVED] 10(2) changed [d:0(0)i:2(1)r:0(0)m:8(1)], 7 mapped
+Method(setProcessOutputStream(Ljava.io.InputStream;)V)(120L,4C-124L,4C(3530-3684)): [MOVED] 20(3) changed [d:9(1)i:1(1)r:0(0)m:10(1)], 9 mapped
+Method(start()V)(131L,4C-135L,4C(3831-3915)): [MOVED] 10(2) changed [d:3(1)i:0(0)r:0(0)m:7(1)], 6 mapped
+Method(setProcessErrorStream(Ljava.io.InputStream;)V)(101L,4C-103L,4C(3147-3209)): [MOVED] 10(2) changed [d:0(0)i:2(1)r:0(0)m:8(1)], 7 mapped
+Class(MAuditStreamHandler)(46L,0C-271L,0C(1710-8894)): [MODIFIED] 228(113) changed [d:50(13)i:69(22)r:72(72)m:37(6)], 504 mapped
+Method(getGroups(Ljava.lang.String;)Ljava.util.ArrayList;)(243L,4C-254L,4C(8353-8654)): [INSERTED] 33(1) changed [d:0(0)i:33(1)r:0(0)m:0(0)], 0 mapped
+*** Unmodified Units ***

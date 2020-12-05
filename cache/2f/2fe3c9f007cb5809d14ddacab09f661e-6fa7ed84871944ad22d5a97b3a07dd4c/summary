@@ -1,0 +1,22 @@
+*** Modified Units ***
+ClassSpecifier(2625L,8C-2628L,0C(75454-75506)): [MODIFIED] 5(2) changed [d:0(0)i:0(0)r:0(0)m:5(2)], 5 mapped
+ClassSpecifier(1456L,8C-1471L,0C(50430-50673)): [MODIFIED] 63(14) changed [d:63(14)i:0(0)r:0(0)m:0(0)], 5 mapped
+ClassSpecifier(411L,8C-424L,0C(12718-12992)): [MODIFIED] 13(5) changed [d:5(1)i:0(0)r:3(3)m:5(1)], 53 mapped
+ClassSpecifier(508L,8C-518L,0C(18987-19279)): [MODIFIED] 2(2) changed [d:0(0)i:0(0)r:2(2)m:0(0)], 43 mapped
+ClassSpecifier(55L,8C-66L,0C(2741-2965)): [MODIFIED] 5(1) changed [d:0(0)i:5(1)r:0(0)m:0(0)], 0 mapped
+*** Unmodified Units ***
+ClassSpecifier(3308L,8C-3311L,0C(95662-95713))
+ClassSpecifier(2702L,8C-2705L,0C(78358-78408))
+ClassSpecifier(2053L,8C-2057L,0C(67078-67143))
+ClassSpecifier(1661L,8C-1667L,0C(58258-58350))
+ClassSpecifier(1249L,8C-1257L,0C(44345-44473))
+ClassSpecifier(1204L,8C-1207L,0C(43469-43523))
+ClassSpecifier(1111L,8C-1117L,0C(40298-40395))
+ClassSpecifier(1096L,8C-1100L,0C(40070-40135))
+ClassSpecifier(958L,8C-962L,0C(36198-36263))
+ClassSpecifier(940L,8C-944L,0C(35841-35911))
+ClassSpecifier(910L,8C-914L,0C(35150-35220))
+ClassSpecifier(656L,8C-659L,0C(26110-26158))
+ClassSpecifier(587L,8C-597L,0C(23467-23693))
+ClassSpecifier(42L,8C-53L,0C(1271-1452))
+ClassSpecifier(6L,8C-16L,0C(55-264))

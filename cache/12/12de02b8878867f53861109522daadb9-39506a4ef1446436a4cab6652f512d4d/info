@@ -1,0 +1,87 @@
+MOVE#3M(3) (#307U:#270G)Primary.InstanceCreation(java.lang.StringBuffer.<init>#0)[0](112L,43C-60C(3243-3260))3 -> (#607U:#184G)Primary.InstanceCreation(java.lang.StringBuffer.<init>#0)[1](92L,26C-43C(2493-2510))3 <268-270>
+MOVE#5M(1):PERMUTATION (#304U:#267G)Type.ClassOrInterface(java.lang.StringBuffer)[1](112L,18C-29C(3218-3229))1 -> (#447U:#33G)Type.ClassOrInterface(java.lang.StringBuffer)[1](30L,12C-23C(957-968))1 <267>
+MOVE(GROUP)(84)#24M:
+|- MOVE#66M(83) (#67U:#360G)Method(execute()V)[6](45L,4C-151L,4C(1138-4406))83 [(#63U:#63G);(#64U:#64G);(#66U:#66G);(#72U:#71G);(#100U:#90G);(#128U:#109G);(#153U:#125G);(#203U:#166G);(#245U:#208G);(#249U:#212G);(#272U:#220G);(#257U:#221G);(#271U:#235G);(#309U:#272G);(#350U:#308G);(#362U:#320G);(#388U:#346G);(#394U:#352G)] -> (#538U:#220G)Method(execute()V)[9](62L,4C-104L,4C(1566-2950))83 [(#534U:#112G);(#535U:#113G);(#537U:#115G);(#543U:#120G);(#545U:#122G);(#607U:#184G);(#622U:#199G);(#625U:#202G);(#630U:#207G)] <167-188;213-219;236-264;273;309-317;321-327;353-360>
+|- MOVE#65M(1) (#360U:#318G)Primary.Name(labelSpec)[0](135L,31C-39C(3955-3963))1 -> (#625U:#202G)Primary.Name(labelSpec)[0](95L,31C-39C(2662-2670))1 <318>
+MOVE#8M(4):PERMUTATION (#309U:#272G)LocalVariableDeclaration(true,labelSpec[0)[1](112L,12C-61C(3212-3261))4 [(#304U:#267G);(#307U:#270G)] -> (#622U:#199G)LocalVariableDeclaration(true,labelSpec[0)[3](94L,12C-59C(2582-2629))4 [(#617U:#194G);(#620U:#197G)] <265-266;271-272>
+MOVE(GROUP)(31)#2M:
+|- MOVE#64M(13) (#318U:#306G)Method(process(Ljava.lang.String;)V)[0](121L,20C-131L,20C(3486-3844))13 [(#340U:#298G);(#346U:#304G)] -> (#495U:#110G)Method(stdout(Ljava.lang.String;)V)[8](47L,4C-60L,4C(1252-1559))13 [(#531U:#108G)] <276-286;305-306>
+|- MOVE#62M(6) (#346U:#304G)Statement.Expression.Primary.PrimaryMethodInvocation(append#1)()[2](130L,24C-55C(3791-3822))6 -> (#526U:#106G)Statement.Expression.Primary.PrimaryMethodInvocation(append#1)()[1](58L,12C-45C(1510-1543))6 <299-304>
+|- MOVE#63M(12) (#340U:#298G)Statement.If(0a770ea1f6411950fd2c6a1ebf323e36;Primary.PrimaryMethodInvocation())[1](125L,24C-128L,24C(3619-3764))12 -> (#520U:#100G)Statement.If(0a770ea1f6411950fd2c6a1ebf323e36;Primary.PrimaryMethodInvocation())[0](53L,12C-56L,12C(1384-1495))12 <287-298>
+MOVE#12M(2) (#362U:#320G)Primary.PrimaryMethodInvocation(toString#0)[0](135L,31C-50C(3955-3974))2 [(#360U:#318G)] -> (#620U:#197G)Primary.PrimaryMethodInvocation(toString#0)[0](94L,37C-58C(2607-2628))2 [(#618U:#195G)] <319-320>
+MOVREL (#251U:#214G)Primary.Name(handler)[1](93L,35C-41C(2613-2619))1 -> (#569U:#146G)Primary.Literal.Null[1](77L,35C-38C(2013-2016))1
+MOVREL (#279U:#246G)Primary.FieldAccess(desc)[1](104L,59C-62C(3009-3012))1 -> (#581U:#162G)Primary.FieldAccess(m_description)[1](80L,61C-73C(2140-2152))1
+RELABEL (#87U:#86G)Primary.FieldAccess(P4View)[0](53L,12C-17C(1385-1390))1 -> (#669U:#238G)Primary.FieldAccess(m_p4View)[0](111L,12C-19C(3135-3142))1
+MOVREL (#254U:#218G)Primary.FieldAccess(name)[1](95L,41C-44C(2666-2669))1 -> (#572U:#150G)Primary.FieldAccess(m_name)[1](78L,41C-46C(2062-2067))1
+RELABEL (#58U:#57G)Primary.FieldAccess(name)[0](42L,8C-16C(1109-1117))1 [(#57U:#56G)] -> (#485U:#70G)Primary.FieldAccess(m_name)[0](44L,8C-13C(1226-1231))1
+RELABEL (#30U:#30G)Parameter(desc,0,)[0](30L,25C-35C(925-935))1 [(#29U:#29G)] -> (#456U:#42G)Parameter(description,0,)[0](32L,25C-48C(1009-1032))1 [(#454U:#40G);(#455U:#41G)]
+RELABEL (#176U:#148G)Primary.FieldAccess(name)[0](71L,12C-15C(1947-1950))1 -> (#758U:#300G)Primary.FieldAccess(m_name)[0](129L,12C-17C(3734-3739))1
+RELABEL (#97U:#72G)Primary.FieldAccess(P4View)[0](50L,12C-17C(1253-1258))1 -> (#679U:#224G)Primary.FieldAccess(m_p4View)[0](108L,12C-19C(2999-3006))1
+RELABEL (#46U:#45G)Primary.FieldAccess(lock)[0](37L,8C-16C(1031-1039))1 [(#45U:#44G)] -> (#472U:#57G)Primary.FieldAccess(m_lock)[0](39L,8C-13C(1145-1150))1
+RELABEL (#17U:#17G)Modifiers(lock#f)[0](26L,4C-12C(848-856))1 [(#16U:#16G)] -> (#431U:#17G)Modifiers(m_lock#f)[0](27L,4C-10C(859-865))1 [(#430U:#16G)]
+RELABEL (#34U:#33G)Primary.FieldAccess(desc)[0](32L,8C-16C(953-961))1 [(#33U:#32G)] -> (#459U:#44G)Primary.FieldAccess(m_description)[0](34L,8C-20C(1050-1062))1
+RELABEL (#15U:#15G)FieldDeclaration(desc[0)[0](25L,4C-25C(821-842))1 [(#12U:#12G);(#13U:#13G);(#14U:#14G)] -> (#429U:#15G)FieldDeclaration(m_description[0)[0](26L,4C-32C(825-853))1 [(#426U:#12G);(#427U:#13G);(#428U:#14G)]
+RELABEL (#203U:#166G)Statement.If(b024702cff1e7e659a705eea604d8b30;Expression.BinaryOperator.Or)[4](67L,8C-73L,8C(1765-2074))1 [(#202U:#134G);(#193U:#165G)] -> (#785U:#318G)Statement.If(7dd4e0a8eac2354c4da57f55765bc1ff;Expression.BinaryOperator.Or)[3](125L,8C-131L,8C(3548-3865))1 [(#784U:#286G);(#775U:#317G)]
+MOVREL (#355U:#313G)Primary.Name(handler)[1](134L,47C-53C(3913-3919))1 -> (#612U:#189G)Primary.Literal.Null[1](93L,49C-52C(2562-2565))1
+MOVREL (#352U:#311G)Primary.FieldAccess(name)[1](134L,41C-44C(3907-3910))1 -> (#609U:#187G)Primary.FieldAccess(m_name)[1](93L,41C-46C(2554-2559))1
+MOVREL (#341U:#299G)Primary.Name(labelSpec)[0](130L,24C-32C(3791-3799))1 -> (#521U:#101G)Primary.FieldAccess(m_labelSpec)[0](58L,12C-22C(1510-1520))1
+RELABEL (#144U:#113G)Primary.FieldAccess(lock)[0](62L,29C-32C(1631-1634))1 -> (#726U:#265G)Primary.FieldAccess(m_lock)[0](120L,31C-36C(3412-3417))1
+RELABEL (#25U:#25G)FieldDeclaration(name[0)[2](28L,4C-25C(876-897))1 [(#22U:#22G);(#23U:#23G);(#24U:#24G)] -> (#439U:#25G)FieldDeclaration(m_name[0)[2](28L,4C-25C(886-907))1 [(#436U:#22G);(#437U:#23G);(#438U:#24G)]
+MOVREL (#273U:#236G)Primary.InstanceCreation(P4HandlerAdapter.<init>#0)[1](96L,23C-102L,23C(2695-2944))1 [(#272U:#220G);(#257U:#221G);(#271U:#235G)] -> (#575U:#152G)Primary.Literal.Null[1](78L,49C-52C(2070-2073))1
+RELABEL (#19U:#19G)VariableDeclarator(lock,0,false)[2](26L,21C-24C(865-868))1 -> (#433U:#19G)VariableDeclarator(m_lock,0,false)[2](27L,19C-24C(874-879))1
+MOVREL (#405U:#252G)Primary.FieldAccess(lock)[0](107L,12C-15C(3067-3070))1 -> (#646U:#168G)Primary.FieldAccess(m_lock)[0](83L,12C-17C(2207-2212))1
+MOVREL (#206U:#183G)Primary.FieldAccess(P4View)[1](80L,23C-28C(2295-2300))1 -> (#548U:#139G)Primary.FieldAccess(m_p4View)[1](74L,23C-30C(1919-1926))1
+MOVREL (#400U:#255G)Primary.FieldAccess(lock)[0](107L,28C-31C(3083-3086))1 -> (#641U:#171G)Primary.FieldAccess(m_lock)[0](83L,30C-35C(2225-2230))1
+MOVREL (#317U:#281G)Parameters(process)[2](121L,39C-53C(3505-3519))1 [(#316U:#280G)] -> (#494U:#80G)Parameters(stdout)[2](47L,22C-36C(1270-1284))1 [(#493U:#79G)]
+MOVREL (#310U:#273G)Primary.Name(handler)[0](118L,12C-18C(3399-3405))1 -> (#604U:#181G)Primary.FieldAccess(m_labelSpec)[0](92L,12C-22C(2479-2489))1
+RELABEL (#21U:#21G)Modifier.Protected[0](28L,4C-12C(876-884))1 -> (#435U:#21G)Modifier.Private[0](28L,4C-10C(886-892))1
+RELABEL (#22U:#22G)Modifiers(name#f)[0](28L,4C-12C(876-884))1 [(#21U:#21G)] -> (#436U:#22G)Modifiers(m_name#f)[0](28L,4C-10C(886-892))1 [(#435U:#21G)]
+RELABEL (#20U:#20G)FieldDeclaration(lock[0)[1](26L,4C-25C(848-869))1 [(#17U:#17G);(#18U:#18G);(#19U:#19G)] -> (#434U:#20G)FieldDeclaration(m_lock[0)[1](27L,4C-25C(859-880))1 [(#431U:#17G);(#432U:#18G);(#433U:#19G)]
+MOVREL (#396U:#354G)Primary.Name(handler)[1](148L,39C-45C(4380-4386))1 -> (#637U:#214G)Primary.Literal.Null[1](102L,39C-42C(2928-2931))1
+MOVREL (#313U:#277G)Modifiers(process#m)[0](121L,20C-25C(3486-3491))1 [(#312U:#276G)] -> (#490U:#76G)Modifiers(stdout#m)[0](47L,4C-9C(1252-1257))1 [(#489U:#75G)]
+RELABEL (#115U:#105G)Primary.FieldAccess(desc)[0](59L,12C-15C(1572-1575))1 -> (#697U:#257G)Primary.FieldAccess(m_description)[0](117L,12C-24C(3342-3354))1
+MOVREL (#318U:#306G)Method(process(Ljava.lang.String;)V)[0](121L,20C-131L,20C(3486-3844))1 [(#313U:#277G);(#314U:#278G);(#317U:#281G);(#347U:#305G)] -> (#495U:#110G)Method(stdout(Ljava.lang.String;)V)[8](47L,4C-60L,4C(1252-1559))1 [(#490U:#76G);(#491U:#77G);(#494U:#80G);(#532U:#109G)]
+RELABEL (#187U:#159G)Primary.FieldAccess(name)[1](72L,59C-62C(2052-2055))1 -> (#769U:#311G)Primary.FieldAccess(m_name)[1](130L,59C-64C(3841-3846))1
+RELABEL (#153U:#125G)Statement.If(50d0a165bef174413a42ef3c93b08c9b;Expression.BinaryOperator.And)[3](62L,8C-65L,8C(1610-1754))1 [(#152U:#118G);(#143U:#124G)] -> (#735U:#277G)Statement.If(943acfc2a744b294718040c17c597bd7;Expression.BinaryOperator.And)[2](120L,8C-123L,8C(3389-3537))1 [(#734U:#270G);(#725U:#276G)]
+RELABEL (#128U:#109G)Statement.If(8c0df295938cecc096623498a75c277f;Expression.BinaryOperator.Or)[2](56L,8C-60L,8C(1428-1599))1 [(#127U:#99G);(#118U:#108G)] -> (#710U:#261G)Statement.If(a73732833f773ce39973c75a6bbbfebb;Expression.BinaryOperator.Or)[1](114L,8C-118L,8C(3180-3378))1 [(#709U:#251G);(#700U:#260G)]
+RELABEL (#14U:#14G)VariableDeclarator(desc,0,false)[2](25L,21C-24C(838-841))1 -> (#428U:#14G)VariableDeclarator(m_description,0,false)[2](26L,19C-31C(840-852))1
+RELABEL (#200U:#126G)Primary.FieldAccess(name)[0](67L,12C-15C(1769-1772))1 -> (#782U:#278G)Primary.FieldAccess(m_name)[0](125L,12C-17C(3552-3557))1
+MOVREL (#213U:#169G)Primary.FieldAccess(name)[1](77L,24C-27C(2178-2181))1 -> (#555U:#125G)Primary.FieldAccess(m_name)[1](71L,24C-29C(1791-1796))1
+MOVREL (#330U:#294G)Primary.FieldAccess(lock)[1](127L,49C-52C(3734-3737))1 -> (#510U:#96G)Primary.FieldAccess(m_lock)[1](55L,37C-42C(1475-1480))1
+RELABEL (#125U:#91G)Primary.FieldAccess(desc)[0](56L,12C-15C(1432-1435))1 -> (#707U:#243G)Primary.FieldAccess(m_description)[0](114L,12C-24C(3184-3196))1
+RELABEL (#195U:#129G)Primary.FieldAccess(name)[0](67L,28C-31C(1785-1788))1 -> (#777U:#281G)Primary.FieldAccess(m_name)[0](125L,30C-35C(3570-3575))1
+RELABEL (#24U:#24G)VariableDeclarator(name,0,false)[2](28L,21C-24C(893-896))1 -> (#438U:#24G)VariableDeclarator(m_name,0,false)[2](28L,19C-24C(901-906))1
+RELABEL (#11U:#11G)Modifier.Protected[0](25L,4C-12C(821-829))1 -> (#425U:#11G)Modifier.Private[0](26L,4C-10C(825-831))1
+RELABEL (#150U:#110G)Primary.FieldAccess(lock)[0](62L,12C-15C(1614-1617))1 -> (#732U:#262G)Primary.FieldAccess(m_lock)[0](120L,12C-17C(3393-3398))1
+MOVREL (#408U:#358G)Statement.If(3e3e742ab2c1593c44cfb49b3f222f34;Expression.BinaryOperator.And)[11](107L,8C-149L,8C(3063-4399))1 [(#407U:#259G);(#399U:#357G)] -> (#649U:#218G)Statement.If(1adce63756df547ae3e13240cb307b37;Expression.BinaryOperator.And)[6](83L,8C-103L,8C(2203-2944))1 [(#648U:#175G);(#640U:#217G)]
+MOVREL (#281U:#242G)Primary.FieldAccess(name)[1](104L,45C-48C(2995-2998))1 -> (#583U:#158G)Primary.FieldAccess(m_name)[1](80L,45C-50C(2124-2129))1
+RELABEL (#100U:#90G)Statement.If(c404a7e1255daad92fd9b7efff82b376;Expression.BinaryOperator.Or)[1](50L,8C-54L,8C(1249-1417))1 [(#99U:#80G);(#90U:#89G)] -> (#682U:#242G)Statement.If(4c17ac45bd606d853755eb386cfa30aa;Expression.BinaryOperator.Or)[0](108L,8C-112L,8C(2995-3169))1 [(#681U:#232G);(#672U:#241G)]
+RELABEL (#35U:#34G)Primary.Name(desc)[1](32L,20C-23C(965-968))1 -> (#460U:#45G)Primary.Name(description)[1](34L,24C-34C(1066-1076))1
+RELABEL (#16U:#16G)Modifier.Protected[0](26L,4C-12C(848-856))1 -> (#430U:#16G)Modifier.Private[0](27L,4C-10C(859-865))1
+RELABEL (#92U:#75G)Primary.FieldAccess(P4View)[0](50L,30C-35C(1271-1276))1 -> (#674U:#227G)Primary.FieldAccess(m_p4View)[0](108L,32C-39C(3019-3026))1
+MOVREL (#347U:#305G)MethodBody(process(Ljava.lang.String;)V)[3](122L,20C-131L,20C(3541-3844))1 [(#323U:#286G);(#340U:#298G);(#346U:#304G)] -> (#532U:#109G)MethodBody(stdout(Ljava.lang.String;)V)[3](48L,4C-60L,4C(1290-1559))1 [(#500U:#85G);(#531U:#108G)]
+RELABEL (#120U:#94G)Primary.FieldAccess(desc)[0](56L,28C-31C(1448-1451))1 -> (#702U:#246G)Primary.FieldAccess(m_description)[0](114L,37C-49C(3209-3221))1
+MOVREL (#210U:#175G)Primary.FieldAccess(desc)[1](78L,30C-33C(2222-2225))1 -> (#552U:#131G)Primary.FieldAccess(m_description)[1](72L,30C-42C(1837-1849))1
+RELABEL (#12U:#12G)Modifiers(desc#f)[0](25L,4C-12C(821-829))1 [(#11U:#11G)] -> (#426U:#12G)Modifiers(m_description#f)[0](26L,4C-10C(825-831))1 [(#425U:#11G)]
+DELETE(6) (#394U:#352G)Statement.Expression.Primary.PrimaryMethodInvocation(setOutput#1)()[7](147L,12C-53C(4298-4339))6 <347-352>
+DELETE(14) (#271U:#235G)ClassBody(P4HandlerAdapter)[2](97L,23C-102L,23C(2741-2944))14 <222-235>
+DELETE(4) (#350U:#308G)Primary.InstanceCreation(P4HandlerAdapter.<init>#0)[1](119L,16C-132L,16C(3425-3862))4 [(#318U:#306G)] <274-275;307-308>
+DELETE(20) (#245U:#208G)LocalVariableDeclaration(true,handler[0)[6](82L,8C-89L,13C(2319-2535))20 <189-208>
+DELETE(1) (#33U:#32G)Primary.This[0](32L,8C-11C(953-956))1 <32>
+DELETE(1) (#257U:#221G)NamedArguments(P4HandlerAdapter)[1](96L,43C-44C(2715-2716))1 <221>
+DELETE(1) (#57U:#56G)Primary.This[0](42L,8C-11C(1109-1112))1 <56>
+DELETE(4) (#249U:#212G)Statement.Expression.Primary.PrimaryMethodInvocation(setOutput#1)()[7](91L,8C-37C(2546-2575))4 <209-212>
+DELETE(1) (#45U:#44G)Primary.This[0](37L,8C-11C(1031-1034))1 <44>
+DELETE(19) (#388U:#346G)Statement.Expression.AssignmentOperator.Eq()()[6](138L,12C-145L,17C(4049-4283))19 <328-346>
+DELETE(1) (#272U:#220G)Type.ClassOrInterface(P4HandlerAdapter)[0](96L,27C-42C(2699-2714))1 <220>
+INSERT(1) (#617U:#194G)Type.ClassOrInterface(java.lang.String)[1](94L,18C-23C(2588-2593))1 <194>
+INSERT(5) (#531U:#108G)Statement.If(ab23796c0961175d1a0714d09827a9b1;Expression.BinaryOperator.Neq)[1](51L,8C-59L,8C(1336-1553))5 [(#520U:#100G);(#526U:#106G)] <86-88;107-108>
+INSERT(2) (#480U:#66G)Modifiers(name#p)[0](42L,25C-29C(1192-1196))2 <65-66>
+INSERT(5) (#654U:#320G)Method(validate()V)[10](106L,4C-132L,4C(2957-3871))5 [(#682U:#242G);(#710U:#261G);(#735U:#277G);(#785U:#318G)] <221-223;319-320>
+INSERT(2) (#545U:#122G)Statement.Expression.Primary.SimpleMethodInvocation(validate#0)()[1](67L,8C-18C(1677-1687))2 <121-122>
+INSERT(4) (#449U:#35G)FieldDeclaration(m_labelSpec[0)[4](30L,4C-36C(949-981))4 [(#447U:#33G)] <31-32;34-35>
+INSERT(1) (#618U:#195G)Primary.FieldAccess(m_labelSpec)[0](94L,37C-47C(2607-2617))1 <195>
+INSERT(2) (#454U:#40G)Modifiers(description#p)[0](32L,25C-29C(1009-1013))2 <39-40>
+INSERT(5) (#444U:#30G)FieldDeclaration(m_getLabelSpec[0)[3](29L,4C-34C(913-943))5 <26-30>
+INSERT(3) (#630U:#207G)Statement.Expression.AssignmentOperator.Eq()()[5](98L,12C-30C(2765-2783))3 <205-207>
+INSERT(2) (#467U:#53G)Modifiers(lock#p)[0](37L,25C-29C(1111-1115))2 <52-53>

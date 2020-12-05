@@ -1,0 +1,14 @@
+*** Extracted Changes ***
+
+[significance=1] (changed) (1)
+  Identifier:SEGFAULT[448L,3C-10C(9028-9035)] -> Identifier:name[449L,33C-36C(9108-9111)]
+
+[significance=1] (added) (8)
+  Identifier:HANDLER_ERROR[450L,10C-22C(9125-9137)]* into CompoundStatement[447L,52C-449L,2C(9023-9042)]
+  ReturnStatement[450L,3C-23C(9118-9138)]* into CompoundStatement[447L,52C-449L,2C(9023-9042)]
+  StringMacro:__FILE__[448L,24C-31C(9049-9056)]* into PostfixExpressionFunCall[448L,3C-12C(9028-9037)]
+  Identifier:log_error_write[448L,3C-17C(9028-9042)]* into PostfixExpressionFunCall[448L,3C-12C(9028-9037)]
+  Identifier:__LINE__[448L,34C-41C(9059-9066)]* into PostfixExpressionFunCall[448L,3C-12C(9028-9037)]
+  Identifier:srv[448L,19C-21C(9044-9046)]* into PostfixExpressionFunCall[448L,3C-12C(9028-9037)]
+  StringLiteral:"sb"[448L,44C-47C(9069-9072)]* into PostfixExpressionFunCall[448L,3C-12C(9028-9037)]
+  StringLiteral:"no '/' found in filename:"[449L,4C-30C(9079-9105)]* into PostfixExpressionFunCall[448L,3C-12C(9028-9037)]

@@ -1,0 +1,32 @@
+*** Modified Units ***
+NetDeclaration:hfclkrst(10L,2C-15C(92-105)): [DELETED] 4(1) changed [d:4(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+NetDeclaration:hfclk(11L,2C-32C(109-139)): [MODIFIED] 5(1) changed [d:5(1)i:0(0)r:0(0)m:0(0)], 5 mapped
+ModuleDeclaration:NORMAL:tb_top(4L,0C-584L,8C(28-18708)): [MODIFIED] 131(104) changed [d:65(54)i:17(4)r:42(42)m:7(4)], 1156 mapped
+*** Unmodified Units ***
+NetDeclaration:jtag_DRV_TDO(293L,2C-26C(9702-9726))
+NetDeclaration:jtag_TRST(291L,2C-23C(9676-9697))
+NetDeclaration:jtag_TMS(290L,2C-22C(9652-9672))
+NetDeclaration:jtag_TCK(289L,2C-22C(9628-9648))
+NetDeclaration:jtag_TDO(288L,2C-15C(9611-9624))
+NetDeclaration:jtag_TDI(287L,2C-22C(9587-9607))
+DataDeclarationVar(257L,4C-50C(8419-8465))
+DataDeclarationVar(255L,2C-11C(8403-8412))
+DataDeclarationVar(168L,2C-18C(5163-5179))
+DataDeclarationVar(167L,2C-23C(5138-5159))
+DataDeclarationVar(88L,2C-16C(2689-2703))
+DataDeclarationVar(87L,2C-16C(2671-2685))
+DataDeclarationVar(86L,2C-16C(2653-2667))
+DataDeclarationVar(84L,2C-21C(2629-2648))
+NetDeclaration:stop_assert_irq(82L,2C-52C(2574-2624))
+NetDeclaration:i_ready(59L,2C-29C(1650-1677))
+NetDeclaration:i_valid(58L,2C-29C(1619-1646))
+DataDeclarationVar(30L,2C-27C(921-946))
+DataDeclarationVar(29L,2C-24C(895-917))
+DataDeclarationVar(28L,2C-27C(866-891))
+DataDeclarationVar(27L,2C-35C(829-862))
+DataDeclarationVar(26L,2C-33C(794-825))
+NetDeclaration:pc(24L,2C-67C(724-789))
+NetDeclaration:x3(23L,2C-60C(662-720))
+DataDeclarationVar(8L,2C-12C(77-87))
+DataDeclarationVar(7L,2C-15C(60-73))
+DataDeclarationVar(6L,2C-10C(48-56))

@@ -1,0 +1,18 @@
+MOVE#3M(13):PERMUTATION (#51U:#51G)Method(process(Ljava.lang.String;)V)[0](40L,31C-43L,31C(1272-1433))13 -> (#108U:#41G)Method(stdout(Ljava.lang.String;)V)[2](36L,4C-39L,4C(1122-1207))13 [(#104U:#31G)] <39-51>
+RELABEL (#41U:#35G)Primary.FieldAccess(change)[1](37L,42C-47C(1154-1159))1 -> (#130U:#51G)Primary.FieldAccess(m_change)[1](46L,42C-49C(1354-1361))1
+RELABEL (#13U:#13G)FieldDeclaration(change[0)[0](25L,4C-24C(903-923))1 [(#10U:#10G);(#11U:#11G);(#12U:#12G)] -> (#86U:#13G)FieldDeclaration(m_change[0)[0](25L,4C-27C(906-929))1 [(#83U:#10G);(#84U:#11G);(#85U:#12G)]
+RELABEL (#67U:#63G)Statement.If(a790796a44c9ec4ebe85853f3cbafd29;Expression.BinaryOperator.Neq)[0](35L,8C-53L,8C(1081-1743))1 [(#66U:#33G);(#63U:#56G);(#40U:#62G)] -> (#140U:#63G)Statement.If(d4525ff8faa2096b01af62a771ab776c;Expression.BinaryOperator.Neq)[0](44L,8C-53L,8C(1279-1635))1 [(#139U:#49G);(#136U:#56G);(#129U:#62G)]
+MOVREL (#50U:#44G)Parameters(process)[2](40L,50C-64C(1291-1305))1 [(#49U:#43G)] -> (#107U:#34G)Parameters(stdout)[2](36L,22C-42C(1140-1160))1 [(#106U:#33G)]
+MOVREL (#46U:#40G)Modifiers(process#m)[0](40L,31C-36C(1272-1277))1 [(#45U:#39G)] -> (#101U:#28G)Modifiers(stdout#m)[0](36L,4C-9C(1122-1127))1 [(#100U:#27G)]
+RELABEL (#9U:#9G)Modifier.Public[0](25L,4C-9C(903-908))1 -> (#82U:#9G)Modifier.Private[0](25L,4C-10C(906-912))1
+MOVREL (#51U:#51G)Method(process(Ljava.lang.String;)V)[0](40L,31C-43L,31C(1272-1433))1 [(#46U:#40G);(#47U:#41G);(#50U:#44G);(#57U:#50G)] -> (#108U:#41G)Method(stdout(Ljava.lang.String;)V)[2](36L,4C-39L,4C(1122-1207))1 [(#101U:#28G);(#102U:#29G);(#107U:#34G);(#114U:#40G)]
+MOVREL (#57U:#50G)MethodBody(process(Ljava.lang.String;)V)[3](41L,31C-43L,31C(1338-1433))1 [(#56U:#49G)] -> (#114U:#40G)MethodBody(stdout(Ljava.lang.String;)V)[3](37L,4C-39L,4C(1166-1207))1 [(#113U:#39G)]
+RELABEL (#22U:#21G)Primary.FieldAccess(change)[0](29L,8C-18C(983-993))1 [(#21U:#20G)] -> (#96U:#22G)Primary.FieldAccess(m_change)[0](29L,8C-15C(995-1002))1
+RELABEL (#65U:#31G)Primary.FieldAccess(change)[0](35L,12C-17C(1085-1090))1 -> (#138U:#47G)Primary.FieldAccess(m_change)[0](44L,12C-19C(1283-1290))1
+RELABEL (#10U:#10G)Modifiers(change#f)[0](25L,4C-9C(903-908))1 [(#9U:#9G)] -> (#83U:#10G)Modifiers(m_change#f)[0](25L,4C-10C(906-912))1 [(#82U:#9G)]
+RELABEL (#12U:#12G)VariableDeclarator(change,0,false)[2](25L,18C-23C(917-922))1 -> (#85U:#12G)VariableDeclarator(m_change,0,false)[2](25L,19C-26C(921-928))1
+DELETE(1) (#21U:#20G)Primary.This[0](29L,8C-11C(983-986))1 <20>
+DELETE(4) (#60U:#53G)Primary.InstanceCreation(P4HandlerAdapter.<init>#0)[1](38L,27C-44L,27C(1189-1462))4 [(#51U:#51G)] <37-38;52-53>
+INSERT(1) (#133U:#53G)Primary.This[1](46L,52C-55C(1364-1367))1 <53>
+INSERT(2) (#104U:#31G)Modifiers(line#p)[0](36L,24C-28C(1142-1146))2 <30-31>
+INSERT(2) (#91U:#18G)Modifiers(change#p)[0](27L,27C-31C(959-963))2 <17-18>

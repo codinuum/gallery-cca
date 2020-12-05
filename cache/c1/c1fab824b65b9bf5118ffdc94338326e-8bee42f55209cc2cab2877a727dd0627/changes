@@ -1,0 +1,705 @@
+*** Extracted Changes ***
+
+[significance=4] argument added (14)
+  Primary.Name(splitConfig)(Primary.Name(splitConfig))[185L,23C-33C(5010-5020)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  Primary.FieldAccess(length)[224L,31C-40C(5720-5729)]* into NamedArguments(readLine)[235L,30C-31C(5097-5098)]
+  Primary.Literal.Null[166L,35C-38C(4541-4544)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  Primary.Literal.Null[235L,19C-22C(5960-5963)]* into NamedArguments(copyInto)[264L,15C-21C(5732-5738)]
+  Primary.Literal.Integer(0)[224L,29C-29C(5718-5718)]* into NamedArguments(readLine)[235L,30C-31C(5097-5098)]
+  Primary.Literal.False[235L,37C-41C(5978-5982)]* into NamedArguments(copyInto)[264L,15C-21C(5732-5738)]
+  Primary.Name(buf)(Primary.Name(buf))[224L,25C-27C(5714-5716)]* into NamedArguments(readLine)[235L,30C-31C(5097-5098)]
+  Primary.Literal.Null[187L,18C-21C(5050-5053)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  Primary.Literal.Null[185L,18C-21C(5005-5008)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  Primary.Literal.String(127.0.0.1)[62L,26C-36C(2208-2218)]* into NamedArguments(java.net.ServerSocket)(NamedArguments(ServerSocket))[43L,28C-30C(1266-1268)]
+  Primary.Name(view)(Primary.Name(view))[194L,19C-22C(5188-5191)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  Primary.Literal.String(client.newView)[157L,45C-60C(4270-4285)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  Primary.Literal.Integer(2)[61L,32C-32C(2179-2179)]* into NamedArguments(java.net.ServerSocket)(NamedArguments(ServerSocket))[43L,28C-30C(1266-1268)]
+  Primary.Literal.String(UTF8)[108L,5C-10C(3260-3265)]* into NamedArguments(java.io.InputStreamReader)(NamedArguments(InputStreamReader))[87L,26C-50C(2291-2315)]
+
+[significance=4] argument removed (17)
+  Primary.Name(buffer)(Primary.Name(buffer))[284L,13C-18C(6089-6094)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Primary.Name(buffer)(Primary.Name(buffer))[217L,19C-24C(4725-4730)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.Literal.String(newview)[245L,27C-35C(5311-5319)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.Name(command)(Primary.Name(command))[238L,20C-26C(5149-5155)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.Name(e)(Primary.Name(e))[206L,26C-26C(4490-4490)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.Name(org.gjt.sp.util.Log.ERROR)(Primary.Name(Log.ERROR))[166L,11C-19C(3720-3728)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.Literal.Integer(7)[248L,32C-32C(5419-5419)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.Literal.String(parent=)[247L,31C-39C(5375-5383)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.Literal.String(norestore)[249L,31C-41C(5454-5464)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.This[166L,21C-24C(3730-3733)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.This[206L,21C-24C(4485-4488)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.Name(buffer)(Primary.Name(buffer))[279L,20C-25C(6013-6018)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Primary.Literal.String(--)[241L,22C-25C(5194-5197)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.Name(org.gjt.sp.util.Log.ERROR)(Primary.Name(Log.ERROR))[206L,11C-19C(4475-4483)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.Literal.String(readonly)[243L,27C-36C(5249-5258)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.Name(view)(Primary.Name(view))[279L,15C-18C(6008-6011)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Primary.Name(e)(Primary.Name(e))[166L,26C-26C(3735-3735)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+
+[significance=4] final modifier added (1)
+  Modifier.Final[220L,2C-6C(5596-5600)]* into LocalVariableDeclaration(true,restore[0)[228L,2C-55C(4915-4968)]
+
+[significance=4] parameter type changed (2)
+  Type.ClassOrInterface(java.io.BufferedReader)(Type.ClassOrInterface(BufferedReader))[222L,42C-55C(4791-4804)] -> Type.ClassOrInterface(java.io.Reader)(Type.ClassOrInterface(Reader))[217L,42C-47C(5559-5564)]
+  Type.ClassOrInterface(Buffer)(Type.ClassOrInterface(Buffer))[138L,30C-35C(3210-3215)] -> Type.Boolean(Type.Boolean)[152L,33C-39C(4143-4149)]
+
+[significance=4] parameter removed (2)
+  Parameter(buffer,0,)[212L,43C-61C(4610-4628)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Parameter(view,0,)[212L,26C-40C(4593-4607)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+
+[significance=4] method removed (2)
+  Method(run()V)[215L,3C-218L,3C(4683-4737)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Method(TSsetBuffer(LView;LBuffer;)V)[212L,1C-220L,1C(4568-4746)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+
+[significance=3] statement moved to decrease nesting-depth (2)
+  Statement.Expression.AssignmentOperator.Eq()(): [200L,5C-41C(4384-4420)] -> [171L,5C-43C(4625-4663)]
+  Statement.Expression.AssignmentOperator.Eq()(): [160L,5C-36C(3634-3665)] -> [182L,4C-32C(4929-4957)]
+
+[significance=3] statement added to increase nesting-depth (1)
+  Statement.Expression.Primary.PrimaryMethodInvocation(restoreOpenFiles#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(restoreOpenFiles)())[175L,5C-29C(4761-4785)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+
+[significance=3] statement removed to decrease nesting-depth (1)
+  Statement.Expression.Primary.PrimaryMethodInvocation(setBuffer#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(setBuffer)())[217L,4C-26C(4710-4732)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+
+[significance=3] statement deleted to decrease nesting-depth (1)
+  Statement.Expression.AssignmentOperator.Eq()()[180L,5C-45C(4018-4058)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+
+[significance=3] method renamed or signature changed (2)
+  Method(handleClient(Ljava.net.Socket;Ljava.io.BufferedReader;)V)(Method(handleClient))[222L,1C-285L,1C(4750-6099)] -> Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Method(TSnewView(LBuffer;)V)[138L,1C-149L,1C(3181-3423)] -> Method(handleClient(ZLjava.lang.String;[Ljava.lang.String;)V)(Method(handleClient))[152L,1C-202L,1C(4111-5299)]
+
+[significance=2] statement moved (6)
+  Statement.Expression.Primary.TypeMethodInvocation(org.gjt.sp.util.Log,log#3)(): [186L,3C-28C(4105-4130)] -> [234L,4C-40C(5903-5939)]
+  Statement.Expression.Primary.TypeMethodInvocation(javax.swing.SwingUtilities,invokeAndWait#1)(): [177L,3C-182L,5C(3939-4071)] -> [229L,2C-237L,4C(5782-5995)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(requestFocus#0)(): [280L,3C-22C(6025-6044)] -> [196L,3C-22C(5211-5230)]
+  Statement.If(3f550e11e9ef1320f476a2f3f950e303;Expression.BinaryOperator.And): [267L,2C-268L,32C(5789-5851)] -> [168L,3C-177L,3C(4564-4796)]
+  Statement.If(f5bd0d8eb35083d4b2745662e017042e;Expression.BinaryOperator.Neq): [277L,2C-284L,20C(5972-6096)] -> [160L,2C-201L,2C(4362-5296)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(toFront#0)(): [281L,3C-17C(6049-6063)] -> [197L,3C-17C(5235-5249)]
+
+[significance=2] statement inserted (3)
+  Statement.If(58428882d0b10f07d6a7c92b7d6c87b3;Expression.BinaryOperator.Eq)[181L,3C-182L,32C(4890-4957)] into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  Statement.If(58428882d0b10f07d6a7c92b7d6c87b3;Expression.BinaryOperator.Eq)[170L,4C-176L,4C(4585-4791)] into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  Statement.If(932ed314eaf0aac32758edcee3f3ed4d;Expression.BinaryOperator.Neq)[184L,3C-187L,30C(4963-5062)] into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+
+[significance=2] statement deleted (8)
+  Statement.Expression.AssignmentOperator.Eq()()[275L,3C-30C(5940-5967)] from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Statement.Expression.AssignmentOperator.Eq()()[246L,5C-19C(5328-5342)] from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Statement.If(f614decea335bf81f5dc944070e0bdfc;Primary.Name())[237L,3C-260L,3C(5117-5666)] from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Statement.If(323e4dc18008327ed4183939cb2e00bb;Primary.PrimaryMethodInvocation())[241L,4C-259L,4C(5176-5661)] from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Statement.Try[195L,2C-207L,2C(4294-4496)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Statement.Try[175L,2C-187L,2C(3928-4134)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Statement.If(251c6c92967d4593e5499f4fa1b20d30;Expression.UnaryOperator.Not)[274L,2C-275L,30C(5924-5967)] from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Statement.Try[155L,2C-167L,2C(3544-3741)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+
+[significance=2] statement added (1)
+  Statement.Return[200L,3C-9C(5286-5292)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+
+[significance=2] statement removed (10)
+  Statement.Return[208L,2C-18C(4500-4516)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Statement.Expression.AssignmentOperator.Eq()()[248L,5C-34C(5392-5421)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Statement.Return[168L,2C-18C(3745-3761)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Statement.Expression.AssignmentOperator.Eq()()[242L,5C-19C(5206-5220)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Statement.Expression.AssignmentOperator.Eq()()[244L,5C-20C(5267-5282)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Statement.Expression.AssignmentOperator.Eq()()[250L,5C-20C(5473-5488)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Statement.If(d24439448586484332f1159f6f471e75;Expression.BinaryOperator.Eq)[270L,2C-271L,23C(5856-5898)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Statement.Expression.AssignmentOperator.Eq()()[268L,3C-32C(5822-5851)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Statement.Expression.AssignmentOperator.Eq()()[271L,3C-23C(5878-5898)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Statement.Return[188L,2C-18C(4138-4154)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+
+[significance=2] import declaration removed (1)
+  IDsingle(java.util.Vector)[26L,0C-23C(908-931)]* from ImportDeclarations[22L,0C-26L,26C(817-940)]
+
+[significance=2] array creation added (1)
+  Primary.ArrayCreationDims(0)[221L,15C-28C(5659-5672)]* into LocalVariableDeclaration(true,args[0)[232L,2C-28C(5020-5046)]
+
+[significance=2] array creation removed (3)
+  Primary.ArrayCreationDims(0)[194L,26C-38C(4277-4289)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.ArrayCreationDims(0)[174L,26C-38C(3911-3923)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.ArrayCreationDims(0)[154L,26C-38C(3527-3539)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+
+[significance=2] instance creation added (1)
+  Primary.InstanceCreation(java.lang.StringBuffer.<init>#0)(Primary.InstanceCreation(StringBuffer))[220L,30C-47C(5624-5641)]* into VariableDeclarator(restore,0,true)[228L,10C-54C(4923-4967)]
+
+[significance=2] instance creation removed (2)
+  Primary.InstanceCreation(java.lang.Runnable.<init>#0)(Primary.InstanceCreation(Runnable))[214L,29C-219L,2C(4663-4741)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.InstanceCreation(java.util.Vector.<init>#0)(Primary.InstanceCreation(Vector))[232L,16C-27C(5034-5045)]* from LocalVariableDeclaration(true,buf[0)[221L,2C-29C(5646-5673)]
+
+[significance=2] variable declaration added (4)
+  VariableDeclarator(scriptString,0,true)[233L,11C-42C(5865-5896)]* into LocalVariableDeclaration(true,_args[0)[263L,2C-42C(5675-5715)]
+  LocalVariableDeclaration(true,splitConfig[0)[155L,2C-27C(4197-4222)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  VariableDeclarator(splitConfig,0,true)[155L,9C-26C(4204-4221)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  VariableDeclarator(buf,0,true)[221L,9C-28C(5653-5672)]* into LocalVariableDeclaration(true,args[0)[232L,2C-28C(5020-5046)]
+
+[significance=2] variable declaration removed (15)
+  VariableDeclarator(args,0,true)[232L,9C-27C(5027-5045)]* from LocalVariableDeclaration(true,buf[0)[221L,2C-29C(5646-5673)]
+  LocalVariableDeclaration(true,parent[0)[227L,2C-22C(4891-4911)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  VariableDeclarator(readOnly,0,true)[225L,10C-25C(4844-4859)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  LocalVariableDeclaration(true,view[0)[231L,2C-18C(5000-5016)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  LocalVariableDeclaration(true,readOnly[0)[225L,2C-26C(4836-4860)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  VariableDeclarator(retVal,0,true)[194L,17C-38C(4268-4289)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  VariableDeclarator(endOpts,0,true)[229L,10C-24C(4980-4994)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  LocalVariableDeclaration(true,retVal[0)[194L,2C-39C(4253-4290)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  VariableDeclarator(parent,0,true)[227L,9C-21C(4898-4910)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  LocalVariableDeclaration(true,retVal[0)[174L,2C-39C(3887-3924)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  VariableDeclarator(view,0,true)[231L,7C-17C(5005-5015)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  LocalVariableDeclaration(true,endOpts[0)[229L,2C-25C(4972-4995)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  LocalVariableDeclaration(true,retVal[0)[154L,2C-39C(3503-3540)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  VariableDeclarator(retVal,0,true)[154L,17C-38C(3518-3539)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  VariableDeclarator(retVal,0,true)[174L,17C-38C(3902-3923)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+
+[significance=2] block moved (1)
+  Block(block): [278L,2C-282L,2C(5991-6067)] -> [190L,2C-201L,2C(5077-5296)]
+
+[significance=2] block inserted (2)
+  Block(block)[169L,3C-177L,3C(4579-4796)] into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  Block(block)[161L,2C-188L,2C(4408-5066)] into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+
+[significance=2] block deleted (4)
+  Block(catch-clause)[185L,2C-187L,2C(4100-4134)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Block(try)[176L,2C-183L,2C(3934-4075)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Block(try)[196L,2C-203L,2C(4300-4437)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Block(try)[156L,2C-163L,2C(3550-3682)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+
+[significance=2] block added (1)
+  Block(block)[173L,4C-176L,4C(4722-4791)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+
+[significance=2] block removed (2)
+  Block(catch-clause)[205L,2C-207L,2C(4462-4496)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Block(catch-clause)[165L,2C-167L,2C(3707-3741)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+
+[significance=2] modifier added (2)
+  Modifier.Public[152L,1C-6C(4111-4116)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  Modifier.Static[152L,8C-13C(4118-4123)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+
+[significance=2] modifier removed (8)
+  Modifier.Private[192L,1C-7C(4212-4218)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Modifier.Private[212L,1C-7C(4568-4574)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Modifier.Public[158L,4C-9C(3605-3610)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Modifier.Private[172L,1C-7C(3813-3819)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Modifier.Public[215L,3C-8C(4683-4688)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Modifier.Public[141L,3C-8C(3277-3282)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Modifier.Private[152L,1C-7C(3471-3477)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Modifier.Public[198L,4C-9C(4355-4360)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+
+[significance=2] accessibility increased (2)
+  Specifier:Class[33L,0C-30C(1063-1093)] -> Specifier:Class[49L,0C-37C(1851-1888)]
+  Method(TSnewView(LBuffer;)V)[138L,1C-149L,1C(3181-3423)] -> Method(handleClient(ZLjava.lang.String;[Ljava.lang.String;)V)(Method(handleClient))[152L,1C-202L,1C(4111-5299)]
+
+[significance=2] parameter renamed (1)
+  Parameter(buffer,0,)[138L,24C-42C(3204-3222)] -> Parameter(restore,0,)[152L,33C-47C(4143-4157)]
+
+[significance=2] else-part inserted (1)
+  Statement.If(f88dc9a4011f808246e1f40a88a581a7;Primary.PrimaryMethodInvocation())[172L,9C-176L,4C(4674-4791)] into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+
+[significance=2] else-part deleted (6)
+  Block(block)[240L,3C-260L,3C(5170-5666)] from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Statement.If(f180c46c9b33b366d75f8677a3f5f149;Primary.PrimaryMethodInvocation())[245L,9C-259L,4C(5293-5661)] from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Block(block)[252L,4C-259L,4C(5503-5661)] from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Statement.If(09d8598235694fe9462d61dece9f8667;Primary.PrimaryMethodInvocation())[249L,9C-259L,4C(5432-5661)] from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Statement.If(fdcc0b24146ca35d4ff4acd63880b06e;Primary.PrimaryMethodInvocation())[243L,9C-259L,4C(5231-5661)] from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Statement.If(c9b1b0b03184efafb304f629181b4b00;Primary.PrimaryMethodInvocation())[247L,9C-259L,4C(5353-5661)] from Block(block)[225L,2C-227L,2C(5742-5777)]
+
+[significance=2] else-part removed (1)
+  Statement.Expression.Primary.SimpleMethodInvocation(TSnewView#1)()(Statement.Expression.Primary.SimpleMethodInvocation(TSnewView)())[284L,3C-20C(6079-6096)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+
+[significance=2] condition expression modified (2)
+  Expression.BinaryOperator.Neq[235L,8C-40C(5075-5107)] -> Expression.BinaryOperator.Neq[224L,8C-48C(5697-5737)]
+  Expression.BinaryOperator.Neq[277L,5C-16C(5975-5986)] -> Expression.BinaryOperator.Neq[184L,6C-24C(4966-4984)]
+
+[significance=1] (order changed) (1)
+  Method(TSnewView(LBuffer;)V): [138L,1C-149L,1C(3181-3423)] -> [152L,1C-202L,1C(4111-5299)]
+
+[significance=1] (changed) (13)
+  MethodBody(handleClient(Ljava.net.Socket;Ljava.io.BufferedReader;)V)(MethodBody(handleClient(LSocket;LBufferedReader;)V))[224L,1C-285L,1C(4832-6099)] -> MethodBody(handleClient(ZLjava.lang.String;[Ljava.lang.String;)V)(MethodBody(handleClient(ZLString;[LString;)V))[154L,1C-202L,1C(4193-5299)]
+  Modifiers(TSnewView#m)[138L,1C-7C(3181-3187)] -> Modifiers(handleClient#m)[152L,1C-13C(4111-4123)]
+  NamedArguments(TSopenFiles)[265L,29C-42C(5770-5783)] -> NamedArguments(openFiles)[166L,34C-51C(4540-4557)]
+  NamedArguments(java.lang.Runnable)(NamedArguments(Runnable))[140L,41C-42C(3269-3270)] -> NamedArguments(getBooleanProperty)[157L,44C-61C(4269-4286)]
+  LocalVariableDeclaration(true,_args[0)[263L,2C-42C(5675-5715)] -> LocalVariableDeclaration(true,scriptString[0)[233L,4C-43C(5858-5897)]
+  NamedArguments(readLine)[235L,30C-31C(5097-5098)] -> NamedArguments(read)[224L,24C-41C(5713-5730)]
+  LocalVariableDeclaration(true,args[0)[232L,2C-28C(5020-5046)] -> LocalVariableDeclaration(true,buf[0)[221L,2C-29C(5646-5673)]
+  NamedArguments(invokeAndWait)[177L,31C-182L,4C(3967-4070)] -> NamedArguments(invokeLater)[229L,28C-237L,3C(5808-5994)]
+  Parameters(TSnewView)[138L,23C-43C(3203-3223)] -> Parameters(handleClient)[152L,32C-153L,15C(4142-4190)]
+  NamedArguments(copyInto)[264L,15C-21C(5732-5738)] -> NamedArguments(eval)[235L,18C-42C(5959-5983)]
+  NamedArguments(log)[253L,12C-255L,30C(5517-5597)] -> NamedArguments(append)[226L,16C-28C(5760-5772)]
+  LocalVariableDeclaration(true,restore[0)[228L,2C-55C(4915-4968)] -> LocalVariableDeclaration(true,script[0)[220L,2C-48C(5596-5642)]
+  LocalVariableDeclaration(true,command[0)[234L,2C-16C(5051-5065)] -> LocalVariableDeclaration(true,count[0)[222L,2C-11C(5677-5686)]
+
+[significance=1] (moved) (40)
+  NamedArguments(toFront): [281L,15C-16C(6061-6062)] -> [197L,15C-16C(5247-5248)]
+  NamedArguments(newFile): [160L,30C-35C(3659-3664)] -> [182L,26C-31C(4951-4956)]
+  NamedArguments(java.lang.Runnable): [177L,44C-45C(3980-3981)] -> [229L,41C-42C(5821-5822)]
+  NamedArguments(java.lang.Runnable): [140L,41C-42C(3269-3270)] -> [157L,44C-61C(4269-4286)]
+  Type.ClassOrInterface(Buffer): [265L,2C-7C(5743-5748)] -> [166L,3C-8C(4509-4514)]
+  Type.ClassOrInterface(Buffer): [138L,30C-35C(3210-3215)] -> [152L,33C-39C(4143-4149)]
+  NamedArguments(newView): [143L,29C-144L,11C(3329-3363)] -> [187L,17C-29C(5049-5061)]
+  LocalVariableDeclaration(true,buffer[0): [265L,2C-43C(5743-5784)] -> [166L,3C-52C(4509-4558)]
+  LocalVariableDeclaration(true,view[0): [143L,4C-144L,12C(3304-3364)] -> [192L,3C-35C(5134-5166)]
+  MethodBody(handleClient(Ljava.net.Socket;Ljava.io.BufferedReader;)V): [224L,1C-285L,1C(4832-6099)] -> [154L,1C-202L,1C(4193-5299)]
+  Modifiers(TSnewView#m): [138L,1C-7C(3181-3187)] -> [152L,1C-13C(4111-4123)]
+  NamedArguments(getBooleanProperty): [228L,44C-54C(4957-4967)] -> [172L,36C-50C(4701-4715)]
+  Parameter(buffer,0,): [138L,24C-42C(3204-3222)] -> [152L,33C-47C(4143-4157)]
+  Modifiers(run#m): [178L,4C-9C(3989-3994)] -> [231L,3C-8C(5831-5836)]
+  Type.ClassOrInterface(java.lang.Runnable): [177L,36C-43C(3972-3979)] -> [229L,33C-40C(5813-5820)]
+  Modifier.Public: [178L,4C-9C(3989-3994)] -> [231L,3C-8C(5831-5836)]
+  Parameters(TSnewView): [138L,23C-43C(3203-3223)] -> [152L,32C-153L,15C(4142-4190)]
+  Type.ClassOrInterface(java.lang.String): [172L,34C-39C(3846-3851)] -> [152L,50C-55C(4160-4165)]
+  ClassBody(java.lang.Runnable): [177L,47C-182L,3C(3983-4069)] -> [230L,2C-237L,2C(5826-5993)]
+  NamedArguments(requestFocus): [280L,20C-21C(6042-6043)] -> [196L,20C-21C(5228-5229)]
+  VariableDeclarator(newView,0,true): [226L,10C-24C(4872-4886)] -> [157L,10C-61C(4235-4286)]
+  VariableDeclarator(buffer,0,true): [265L,9C-42C(5750-5783)] -> [166L,10C-51C(4516-4557)]
+  Type.Void: [138L,9C-12C(3189-3192)] -> [152L,15C-18C(4125-4128)]
+  Parameter(args,0,): [172L,49C-67C(3861-3879)] -> [153L,2C-14C(4177-4189)]
+  NamedArguments(log): [186L,10C-27C(4112-4129)] -> [234L,11C-39C(5910-5938)]
+  MethodBody(run()V): [179L,4C-181L,4C(4011-4064)] -> [232L,3C-236L,3C(5852-5989)]
+  LocalVariableDeclaration(true,newView[0): [226L,2C-25C(4864-4887)] -> [157L,2C-62C(4227-4287)]
+  VariableDeclarator(view,0,true): [143L,9C-144L,11C(3309-3363)] -> [192L,8C-34C(5139-5165)]
+  NamedArguments(getFirstView): [275L,28C-29C(5965-5966)] -> [160L,23C-24C(4383-4384)]
+  Type.ClassOrInterface(View): [143L,4C-7C(3304-3307)] -> [192L,3C-6C(5134-5137)]
+  Parameter(parent,0,): [172L,28C-46C(3840-3858)] -> [152L,50C-62C(4160-4172)]
+  NamedArguments(openFiles): [180L,32C-44C(4045-4057)] -> [194L,18C-35C(5187-5204)]
+  Type.Array(ClassOrInterface(java.lang.String),1): [172L,55C-62C(3867-3874)] -> [153L,2C-9C(4177-4184)]
+  NamedArguments(TSopenFiles): [265L,29C-42C(5770-5783)] -> [166L,34C-51C(4540-4557)]
+  NamedArguments(restoreOpenFiles): [200L,39C-40C(4418-4419)] -> [171L,41C-42C(4661-4662)]
+  Method(run()V): [178L,4C-181L,4C(3989-4064)] -> [231L,3C-236L,3C(5831-5989)]
+  Primary.PrimaryMethodInvocation(newView#2): [143L,16C-144L,11C(3316-3363)] -> [187L,4C-30C(5036-5062)]
+  Type.Boolean: [226L,2C-8C(4864-4870)] -> [157L,2C-8C(4227-4233)]
+  NamedArguments(invokeAndWait): [177L,31C-182L,4C(3967-4070)] -> [229L,28C-237L,3C(5808-5994)]
+  NamedArguments(getFirstView): [143L,48C-49C(3348-3349)] -> [192L,33C-34C(5164-5165)]
+
+[significance=1] (inserted) (1)
+  MethodBody(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(MethodBody(handleClient(LSocket;LReader;)V))[219L,1C-238L,1C(5592-5998)] into Method(handleClient(Ljava.net.Socket;Ljava.io.BufferedReader;)V)(Method(handleClient))[222L,1C-285L,1C(4750-6099)]
+
+[significance=1] (deleted) (28)
+  CatchClause(e58718afcb49355259290b30b6e2b97f;CatchParameter(,0))[184L,2C-187L,2C(4079-4134)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Method(run()V)[141L,3C-147L,3C(3277-3414)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  VariableDeclarator(_args,0,true)[263L,11C-41C(5684-5714)] from LocalVariableDeclaration(true,scriptString[0)[233L,4C-43C(5858-5897)]
+  MethodBody(TSrestoreOpenFiles()LBuffer;)[193L,1C-209L,1C(4249-4519)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.InstanceCreation(java.lang.Runnable.<init>#0)(Primary.InstanceCreation(Runnable))[197L,32C-202L,3C(4334-4431)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.InstanceCreation(java.lang.Runnable.<init>#0)(Primary.InstanceCreation(Runnable))[157L,32C-162L,3C(3584-3676)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Method(TSrestoreOpenFiles()LBuffer;)[192L,1C-209L,1C(4212-4519)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.InstanceCreation(java.lang.Runnable.<init>#0)(Primary.InstanceCreation(Runnable))[140L,29C-148L,2C(3257-3418)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  NamedArguments(invokeAndWait)[197L,31C-202L,4C(4333-4432)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.ArrayCreationDims(0)[263L,19C-41C(5692-5714)] from LocalVariableDeclaration(true,scriptString[0)[233L,4C-43C(5858-5897)]
+  NamedArguments(invokeAndWait)[157L,31C-162L,4C(3583-3677)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  NamedArguments(invokeLater)[140L,28C-148L,3C(3256-3419)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Parameters(TSopenFiles)[172L,27C-68C(3839-3880)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  ClassBody(java.lang.Runnable)[140L,44C-148L,2C(3272-3418)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Method(run()V)[158L,4C-161L,4C(3605-3671)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Method(run()V)[198L,4C-201L,4C(4355-4426)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  MethodBody(run()V)[199L,4C-201L,4C(4377-4426)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.ArrayAccess[200L,5C-13C(4384-4392)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.ArrayAccess[160L,5C-13C(3634-3642)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  MethodBody(run()V)[159L,4C-161L,4C(3627-3671)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  MethodBody(TSopenFiles(Ljava.lang.String;[Ljava.lang.String;)LBuffer;)(MethodBody(TSopenFiles(LString;[LString;)LBuffer;))[173L,1C-189L,1C(3883-4157)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  ClassBody(java.lang.Runnable)[157L,47C-162L,3C(3599-3676)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  ClassBody(java.lang.Runnable)[197L,47C-202L,3C(4349-4431)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  MethodBody(run()V)[142L,3C-147L,3C(3298-3414)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Method(TSnewFile()LBuffer;)[152L,1C-169L,1C(3471-3764)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  MethodBody(TSnewFile()LBuffer;)[153L,1C-169L,1C(3499-3764)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Method(TSopenFiles(Ljava.lang.String;[Ljava.lang.String;)LBuffer;)(Method(TSopenFiles))[172L,1C-189L,1C(3813-4157)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  MethodBody(TSnewView(LBuffer;)V)[139L,1C-149L,1C(3226-3423)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+
+[significance=1] (added) (15)
+  NamedArguments(toString)[233L,41C-42C(5895-5896)]* into LocalVariableDeclaration(true,_args[0)[263L,2C-42C(5675-5715)]
+  Modifiers(script#l)[220L,2C-6C(5596-5600)]* into LocalVariableDeclaration(true,restore[0)[228L,2C-55C(4915-4968)]
+  Type.Void(Type.Void)[231L,10C-13C(5838-5841)]* into Method(handleClient(Ljava.net.Socket;Ljava.io.BufferedReader;)V)(Method(handleClient))[222L,1C-285L,1C(4750-6099)]
+  NamedArguments(restoreOpenFiles)[175L,27C-28C(4783-4784)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  Type.ClassOrInterface(java.lang.StringBuffer)(Type.ClassOrInterface(StringBuffer))[220L,34C-45C(5628-5639)]* into VariableDeclarator(restore,0,true)[228L,10C-54C(4923-4967)]
+  NamedArguments(newView)[185L,17C-34C(5004-5021)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  NamedArguments(getFirstBuffer)[170L,27C-28C(4608-4609)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  NamedArguments(getByName)[62L,25C-37C(2207-2219)]* into NamedArguments(java.net.ServerSocket)(NamedArguments(ServerSocket))[43L,28C-30C(1266-1268)]
+  Type.ClassOrInterface(java.lang.String)(Type.ClassOrInterface(String))[155L,2C-7C(4197-4202)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  Modifiers(EditServer#C)[49L,0C-5C(1851-1856)]* into Specifier:Class[33L,0C-30C(1063-1093)]
+  Type.Char(Type.Char)[221L,19C-22C(5663-5666)]* into LocalVariableDeclaration(true,args[0)[232L,2C-28C(5020-5046)]
+  NamedArguments(java.lang.StringBuffer)(NamedArguments(StringBuffer))[220L,46C-47C(5640-5641)]* into VariableDeclarator(restore,0,true)[228L,10C-54C(4923-4967)]
+  NamedArguments(getFirstBuffer)[181L,26C-27C(4913-4914)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  DimExpr[221L,23C-28C(5667-5672)]* into LocalVariableDeclaration(true,args[0)[232L,2C-28C(5020-5046)]
+  Type.Array(Char,1)(Type.Array(Char,1))[221L,2C-7C(5646-5651)]* into LocalVariableDeclaration(true,args[0)[232L,2C-28C(5020-5046)]
+
+[significance=1] (removed) (85)
+  NamedArguments(invokeLater)[214L,28C-219L,3C(4662-4742)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  NamedArguments(size)[263L,39C-40C(5712-5713)]* from LocalVariableDeclaration(true,scriptString[0)[233L,4C-43C(5858-5897)]
+  DimExpr[174L,36C-38C(3921-3923)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  NamedArguments(equals)[241L,21C-26C(5193-5198)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  NamedArguments(toFront)[146L,16C-17C(3407-3408)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  DimExpr[154L,36C-38C(3537-3539)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Type.Boolean(Type.Boolean)[229L,2C-8C(4972-4978)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Modifiers(retVal#l)[174L,2C-6C(3887-3891)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Type.ClassOrInterface(java.lang.Runnable)(Type.ClassOrInterface(Runnable))[157L,36C-43C(3588-3595)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Type.ClassOrInterface(java.util.Vector)(Type.ClassOrInterface(Vector))[232L,2C-7C(5020-5025)]* from LocalVariableDeclaration(true,buf[0)[221L,2C-29C(5646-5673)]
+  Modifiers(retVal#l)[194L,2C-6C(4253-4257)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Modifiers(retVal#l)[154L,2C-6C(3503-3507)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Parameters(TSsetBuffer)[212L,25C-62C(4592-4629)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  CatchClause(e58718afcb49355259290b30b6e2b97f;CatchParameter(,0))[164L,2C-167L,2C(3686-3741)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Type.Boolean(Type.Boolean)[225L,2C-8C(4836-4842)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Type.ClassOrInterface(Buffer)(Type.ClassOrInterface(Buffer))[152L,9C-14C(3479-3484)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Modifiers(TSsetBuffer#m)[212L,1C-7C(4568-4574)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Type.ClassOrInterface(Buffer)(Type.ClassOrInterface(Buffer))[192L,9C-14C(4220-4225)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  NamedArguments(requestFocus)[145L,21C-22C(3387-3388)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  CatchClause(e58718afcb49355259290b30b6e2b97f;CatchParameter(,0))[204L,2C-207L,2C(4441-4496)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Type.Array(ClassOrInterface(Buffer),1)(Type.Array(ClassOrInterface(Buffer),1))[174L,8C-15C(3893-3900)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  MethodBody(run()V)[216L,3C-218L,3C(4704-4737)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Type.ClassOrInterface(Buffer)(Type.ClassOrInterface(Buffer))[174L,30C-35C(3915-3920)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Type.ClassOrInterface(Buffer)(Type.ClassOrInterface(Buffer))[172L,9C-14C(3821-3826)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  DimExpr[194L,36C-38C(4287-4289)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Type.Void(Type.Void)[212L,9C-12C(4576-4579)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Modifiers(view#p)[212L,26C-30C(4593-4597)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  NamedArguments(TSsetBuffer)[279L,14C-26C(6007-6019)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Modifiers(TSnewFile#m)[152L,1C-7C(3471-3477)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  NamedArguments(log)[166L,10C-27C(3719-3736)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Modifiers(args#p)[172L,49C-53C(3861-3865)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Type.Void(Type.Void)[141L,10C-13C(3284-3287)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  DimExpr[263L,29C-41C(5702-5714)]* from LocalVariableDeclaration(true,scriptString[0)[233L,4C-43C(5858-5897)]
+  NamedArguments(equals)[245L,26C-36C(5310-5320)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  NamedArguments(TSrestoreOpenFiles)[268L,30C-31C(5849-5850)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Type.Array(ClassOrInterface(java.lang.String),1)(Type.Array(ClassOrInterface(String),1))[263L,2C-9C(5675-5682)]* from LocalVariableDeclaration(true,scriptString[0)[233L,4C-43C(5858-5897)]
+  Type.ClassOrInterface(java.lang.Exception)(Type.ClassOrInterface(Exception))[184L,8C-16C(4085-4093)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  NamedArguments(close)[256L,13C-14C(5613-5614)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Type.Void(Type.Void)[198L,11C-14C(4362-4365)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  CatchParameter(e,0)[164L,8C-18C(3692-3702)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Type.Void(Type.Void)[158L,11C-14C(3612-3615)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Type.Array(ClassOrInterface(Buffer),1)(Type.Array(ClassOrInterface(Buffer),1))[154L,8C-15C(3509-3516)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  NamedArguments(java.lang.Runnable)(NamedArguments(Runnable))[197L,44C-45C(4346-4347)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Type.ClassOrInterface(Buffer)(Type.ClassOrInterface(Buffer))[194L,30C-35C(4281-4286)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Modifiers(TSopenFiles#m)[172L,1C-7C(3813-3819)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Type.ClassOrInterface(Buffer)(Type.ClassOrInterface(Buffer))[212L,49C-54C(4616-4621)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Modifiers(run#m)[215L,3C-8C(4683-4688)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Type.ClassOrInterface(java.lang.String)(Type.ClassOrInterface(String))[227L,2C-7C(4891-4896)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  CatchParameter(e,0)[184L,8C-18C(4085-4095)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Modifiers(buffer#p)[138L,24C-28C(3204-3208)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  NamedArguments(java.lang.Runnable)(NamedArguments(Runnable))[157L,44C-45C(3596-3597)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  NamedArguments(startsWith)[247L,30C-40C(5374-5384)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Modifiers(parent#p)[172L,28C-32C(3840-3844)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Type.ClassOrInterface(java.lang.Exception)(Type.ClassOrInterface(Exception))[204L,8C-16C(4447-4455)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Modifiers(run#m)[198L,4C-9C(4355-4360)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Type.Void(Type.Void)[178L,11C-14C(3996-3999)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Modifiers(TSrestoreOpenFiles#m)[192L,1C-7C(4212-4218)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  NamedArguments(addElement)[238L,19C-27C(5148-5156)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  NamedArguments(setBuffer)[217L,18C-25C(4724-4731)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Type.Array(ClassOrInterface(Buffer),1)(Type.Array(ClassOrInterface(Buffer),1))[194L,8C-15C(4259-4266)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  CatchParameter(e,0)[204L,8C-18C(4447-4457)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Type.ClassOrInterface(java.util.Vector)(Type.ClassOrInterface(Vector))[232L,20C-25C(5038-5043)]* from LocalVariableDeclaration(true,buf[0)[221L,2C-29C(5646-5673)]
+  Type.ClassOrInterface(java.lang.Exception)(Type.ClassOrInterface(Exception))[164L,8C-16C(3692-3700)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Type.ClassOrInterface(java.lang.Runnable)(Type.ClassOrInterface(Runnable))[197L,36C-43C(4338-4345)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  NamedArguments(log)[206L,10C-27C(4474-4491)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Type.ClassOrInterface(View)(Type.ClassOrInterface(View))[212L,32C-35C(4599-4602)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  NamedArguments(TSnewView)[284L,12C-19C(6088-6095)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Type.ClassOrInterface(Buffer)(Type.ClassOrInterface(Buffer))[154L,30C-35C(3531-3536)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Type.ClassOrInterface(View)(Type.ClassOrInterface(View))[231L,2C-5C(5000-5003)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Type.ClassOrInterface(java.lang.Runnable)(Type.ClassOrInterface(Runnable))[140L,33C-40C(3261-3268)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Type.Void(Type.Void)[215L,10C-13C(4690-4693)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  NamedArguments(java.util.Vector)(NamedArguments(Vector))[232L,26C-27C(5044-5045)]* from LocalVariableDeclaration(true,buf[0)[221L,2C-29C(5646-5673)]
+  MethodBody(TSsetBuffer(LView;LBuffer;)V)[213L,1C-220L,1C(4632-4746)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  ClassBody(java.lang.Runnable)[214L,44C-219L,2C(4678-4741)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  NamedArguments(close)[257L,17C-18C(5634-5635)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Modifiers(buffer#p)[212L,43C-47C(4610-4614)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  NamedArguments(equals)[243L,26C-37C(5248-5259)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Modifiers(run#m)[141L,3C-8C(3277-3282)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  NamedArguments(stopServer)[258L,15C-16C(5653-5654)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  NamedArguments(substring)[248L,31C-33C(5418-5420)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  NamedArguments(java.lang.Runnable)(NamedArguments(Runnable))[214L,41C-42C(4675-4676)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Modifiers(run#m)[158L,4C-9C(3605-3610)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  NamedArguments(startsWith)[249L,30C-42C(5453-5465)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Type.ClassOrInterface(java.lang.Runnable)(Type.ClassOrInterface(Runnable))[214L,33C-40C(4667-4674)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  NamedArguments(TSnewFile)[271L,21C-22C(5896-5897)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+
+[significance=1] method implementation changed (2)
+  Method(handleClient(Ljava.net.Socket;Ljava.io.BufferedReader;)V)(Method(handleClient))[222L,1C-285L,1C(4750-6099)] -> Method(handleClient(ZLjava.lang.String;[Ljava.lang.String;)V)(Method(handleClient))[152L,1C-202L,1C(4111-5299)]
+  Method(run()V)[178L,4C-181L,4C(3989-4064)] -> Method(run()V)[231L,3C-236L,3C(5831-5989)]
+
+[significance=1] statement modified (14)
+  Statement.Expression.AssignmentOperator.Eq()()[43L,3C-31C(1241-1269)] -> Statement.Expression.AssignmentOperator.Eq()()[61L,3C-62L,39C(2150-2221)]
+  Statement.Try[41L,2C-69L,2C(1230-2032)] -> Statement.Try[57L,2C-88L,2C(2025-2964)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(copyInto#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(copyInto)())[264L,2C-22C(5719-5739)] -> Statement.Expression.Primary.PrimaryMethodInvocation(eval#3)()(Statement.Expression.Primary.PrimaryMethodInvocation(eval)())[235L,4C-43C(5945-5984)]
+  Statement.While[235L,2C-261L,2C(5069-5670)] -> Statement.While[224L,2C-227L,2C(5691-5777)]
+  Statement.For[81L,3C-117L,3C(2116-2876)] -> Statement.For[100L,3C-138L,3C(3048-3827)]
+  Statement.Try[79L,2C-122L,2C(2105-2943)] -> Statement.Try[98L,2C-143L,2C(3037-3894)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(toFront#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(toFront)())[281L,3C-17C(6049-6063)] -> Statement.Expression.Primary.PrimaryMethodInvocation(toFront#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(toFront)())[197L,3C-17C(5235-5249)]
+  Statement.If(3f550e11e9ef1320f476a2f3f950e303;Expression.BinaryOperator.And)[267L,2C-268L,32C(5789-5851)] -> Statement.If(f85e7df3a2255a2ffc05aea9904f9c4a;Primary.Name())[168L,3C-177L,3C(4564-4796)]
+  Statement.Expression.AssignmentOperator.Eq()()[200L,5C-41C(4384-4420)] -> Statement.Expression.AssignmentOperator.Eq()()[171L,5C-43C(4625-4663)]
+  Statement.Expression.AssignmentOperator.Eq()()[160L,5C-36C(3634-3665)] -> Statement.Expression.AssignmentOperator.Eq()()[182L,4C-32C(4929-4957)]
+  Statement.Expression.Primary.TypeMethodInvocation(org.gjt.sp.util.Log,log#3)()(Statement.Expression.Primary.TypeMethodInvocation(Log,log)())[186L,3C-28C(4105-4130)] -> Statement.Expression.Primary.TypeMethodInvocation(org.gjt.sp.util.Log,log#3)()(Statement.Expression.Primary.TypeMethodInvocation(Log,log)())[234L,4C-40C(5903-5939)]
+  Statement.Expression.Primary.TypeMethodInvocation(javax.swing.SwingUtilities,invokeAndWait#1)()(Statement.Expression.Primary.TypeMethodInvocation(SwingUtilities,invokeAndWait)())[177L,3C-182L,5C(3939-4071)] -> Statement.Expression.Primary.TypeMethodInvocation(javax.swing.SwingUtilities,invokeLater#1)()(Statement.Expression.Primary.TypeMethodInvocation(SwingUtilities,invokeLater)())[229L,2C-237L,4C(5782-5995)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(requestFocus#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(requestFocus)())[280L,3C-22C(6025-6044)] -> Statement.Expression.Primary.PrimaryMethodInvocation(requestFocus#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(requestFocus)())[196L,3C-22C(5211-5230)]
+  Statement.If(f5bd0d8eb35083d4b2745662e017042e;Expression.BinaryOperator.Neq)[277L,2C-284L,20C(5972-6096)] -> Statement.If(5d6755e4dd2e4af9708b3eb06031fbd7;Expression.BinaryOperator.Or)[160L,2C-201L,2C(4362-5296)]
+
+[significance=1] statement changed (2)
+  Statement.If(f5bd0d8eb35083d4b2745662e017042e;Expression.BinaryOperator.Neq)[277L,2C-284L,20C(5972-6096)] -> Statement.If(5d6755e4dd2e4af9708b3eb06031fbd7;Expression.BinaryOperator.Or)[160L,2C-201L,2C(4362-5296)]
+  Statement.If(3f550e11e9ef1320f476a2f3f950e303;Expression.BinaryOperator.And)[267L,2C-268L,32C(5789-5851)] -> Statement.If(f85e7df3a2255a2ffc05aea9904f9c4a;Primary.Name())[168L,3C-177L,3C(4564-4796)]
+
+[significance=1] binary operator added (2)
+  Expression.BinaryOperator.Eq[160L,5C-32C(4365-4392)] into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  Expression.BinaryOperator.Or[160L,5C-43C(4365-4403)] into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+
+[significance=1] binary operator removed (2)
+  Expression.BinaryOperator.And[267L,5C-29C(5792-5816)] from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Expression.BinaryOperator.Add[253L,28C-255L,29C(5533-5596)] from NamedArguments(append)[226L,16C-28C(5760-5772)]
+
+[significance=1] expression modified (17)
+  Primary.Literal.Null[235L,37C-40C(5104-5107)] -> Expression.UnaryOperator.Negative[224L,47C-48C(5736-5737)]
+  Primary.Literal.False[226L,20C-24C(4882-4886)] -> Primary.PrimaryMethodInvocation(getBooleanProperty#1)(Primary.PrimaryMethodInvocation(getBooleanProperty))[157L,20C-61C(4245-4286)]
+  Primary.InstanceCreation(java.net.ServerSocket.<init>#1)(Primary.InstanceCreation(ServerSocket))[43L,12C-30C(1250-1268)] -> Primary.InstanceCreation(java.net.ServerSocket.<init>#3)(Primary.InstanceCreation(ServerSocket))[61L,12C-62L,38C(2159-2220)]
+  Primary.InstanceCreation(java.io.InputStreamReader.<init>#1)(Primary.InstanceCreation(InputStreamReader))[87L,5C-50C(2270-2315)] -> Primary.InstanceCreation(java.io.InputStreamReader.<init>#2)(Primary.InstanceCreation(InputStreamReader))[106L,5C-108L,11C(3202-3266)]
+  Primary.PrimaryMethodInvocation(readLine#0)(Primary.PrimaryMethodInvocation(readLine))[235L,19C-31C(5086-5098)] -> Primary.PrimaryMethodInvocation(read#3)(Primary.PrimaryMethodInvocation(read))[224L,17C-41C(5706-5730)]
+  Expression.AssignmentOperator.Eq()[235L,9C-31C(5076-5098)] -> Expression.AssignmentOperator.Eq()[224L,9C-41C(5698-5730)]
+  Primary.Paren(78d0580190da465a58711834a350e640;Expression.AssignmentOperator.Eq())[235L,8C-32C(5075-5099)] -> Primary.Paren(47c50d946e9235d98b538424a4fe1fde;Expression.AssignmentOperator.Eq())[224L,8C-42C(5697-5731)]
+  Expression.BinaryOperator.Neq[235L,8C-40C(5075-5107)] -> Expression.BinaryOperator.Neq[224L,8C-48C(5697-5737)]
+  Primary.InstanceCreation(java.io.BufferedReader.<init>#1)(Primary.InstanceCreation(BufferedReader))[86L,24C-87L,51C(2245-2316)] -> Primary.InstanceCreation(java.io.BufferedReader.<init>#1)(Primary.InstanceCreation(BufferedReader))[105L,24C-108L,12C(3177-3267)]
+  Expression.BinaryOperator.Neq[277L,5C-16C(5975-5986)] -> Expression.BinaryOperator.Neq[184L,6C-24C(4966-4984)]
+  Primary.PrimaryMethodInvocation(newFile#1)(Primary.PrimaryMethodInvocation(newFile))[160L,17C-35C(3646-3664)] -> Primary.PrimaryMethodInvocation(newFile#1)(Primary.PrimaryMethodInvocation(newFile))[182L,13C-31C(4938-4956)]
+  Primary.PrimaryMethodInvocation(getFirstView#0)(Primary.PrimaryMethodInvocation(getFirstView))[275L,10C-29C(5947-5966)] -> Primary.PrimaryMethodInvocation(getFirstView#0)(Primary.PrimaryMethodInvocation(getFirstView))[160L,5C-24C(4365-4384)]
+  Primary.PrimaryMethodInvocation(restoreOpenFiles#0)(Primary.PrimaryMethodInvocation(restoreOpenFiles))[200L,17C-40C(4396-4419)] -> Primary.PrimaryMethodInvocation(restoreOpenFiles#0)(Primary.PrimaryMethodInvocation(restoreOpenFiles))[171L,19C-42C(4639-4662)]
+  Primary.InstanceCreation(java.lang.Runnable.<init>#0)(Primary.InstanceCreation(Runnable))[177L,32C-182L,3C(3968-4069)] -> Primary.InstanceCreation(java.lang.Runnable.<init>#0)(Primary.InstanceCreation(Runnable))[229L,29C-237L,2C(5809-5993)]
+  Primary.PrimaryMethodInvocation(getBooleanProperty#1)(Primary.PrimaryMethodInvocation(getBooleanProperty))[228L,20C-54C(4933-4967)] -> Primary.PrimaryMethodInvocation(getBooleanProperty#1)(Primary.PrimaryMethodInvocation(getBooleanProperty))[172L,12C-50C(4677-4715)]
+  Primary.SimpleMethodInvocation(TSopenFiles#2)(Primary.SimpleMethodInvocation(TSopenFiles))[265L,18C-42C(5759-5783)] -> Primary.PrimaryMethodInvocation(openFiles#3)(Primary.PrimaryMethodInvocation(openFiles))[166L,19C-51C(4525-4557)]
+  Primary.PrimaryMethodInvocation(getFirstView#0)(Primary.PrimaryMethodInvocation(getFirstView))[143L,30C-49C(3330-3349)] -> Primary.PrimaryMethodInvocation(getFirstView#0)(Primary.PrimaryMethodInvocation(getFirstView))[192L,15C-34C(5146-5165)]
+
+[significance=1] expression changed (4)
+  Primary.Name(args)(Primary.Name(args))[264L,2C-5C(5719-5722)] -> Primary.FieldAccess(BeanShell)[235L,4C-12C(5945-5953)]
+  Primary.Literal.Null[235L,37C-40C(5104-5107)] -> Expression.UnaryOperator.Negative[224L,47C-48C(5736-5737)]
+  Primary.Literal.False[226L,20C-24C(4882-4886)] -> Primary.PrimaryMethodInvocation(getBooleanProperty#1)(Primary.PrimaryMethodInvocation(getBooleanProperty))[157L,20C-61C(4245-4286)]
+  Primary.Paren(78d0580190da465a58711834a350e640;Expression.AssignmentOperator.Eq())[235L,8C-32C(5075-5099)] -> Primary.Paren(47c50d946e9235d98b538424a4fe1fde;Expression.AssignmentOperator.Eq())[224L,8C-42C(5697-5731)]
+
+[significance=1] expression moved (33)
+  Primary.Name(newView): [246L,5C-11C(5328-5334)] -> [160L,37C-43C(4397-4403)]
+  Expression.BinaryOperator.Neq: [277L,5C-16C(5975-5986)] -> [184L,6C-24C(4966-4984)]
+  Primary.FieldAccess(jEdit): [200L,17C-21C(4396-4400)] -> [171L,19C-23C(4639-4643)]
+  Primary.PrimaryMethodInvocation(newFile#1): [160L,17C-35C(3646-3664)] -> [182L,13C-31C(4938-4956)]
+  Primary.Name(view): [277L,5C-8C(5975-5978)] -> [184L,6C-16C(4966-4976)]
+  Primary.FieldAccess(jEdit): [160L,17C-21C(3646-3650)] -> [182L,13C-17C(4938-4942)]
+  Primary.Name(parent): [180L,33C-38C(4046-4051)] -> [194L,24C-29C(5193-5198)]
+  Primary.Name(retVal): [200L,5C-10C(4384-4389)] -> [171L,5C-15C(4625-4635)]
+  Primary.Name(view): [281L,3C-6C(6049-6052)] -> [197L,3C-6C(5235-5238)]
+  Primary.Name(_args): [265L,37C-41C(5778-5782)] -> [166L,47C-50C(4553-4556)]
+  Primary.PrimaryMethodInvocation(getFirstView#0): [143L,30C-49C(3330-3349)] -> [192L,15C-34C(5146-5165)]
+  Primary.Literal.Null: [277L,13C-16C(5983-5986)] -> [184L,21C-24C(4981-4984)]
+  Primary.This: [186L,21C-24C(4123-4126)] -> [234L,22C-25C(5921-5924)]
+  Primary.PrimaryMethodInvocation(restoreOpenFiles#0): [200L,17C-40C(4396-4419)] -> [171L,19C-42C(4639-4662)]
+  Primary.PrimaryMethodInvocation(getFirstView#0): [275L,10C-29C(5947-5966)] -> [160L,5C-24C(4365-4384)]
+  Primary.Name(org.gjt.sp.util.Log.ERROR): [186L,11C-19C(4113-4121)] -> [234L,12C-20C(5911-5919)]
+  Primary.FieldAccess(jEdit): [228L,20C-24C(4933-4937)] -> [172L,12C-16C(4677-4681)]
+  Primary.Literal.Null: [160L,31C-34C(3660-3663)] -> [182L,27C-30C(4952-4955)]
+  Primary.Name(restore): [267L,23C-29C(5810-5816)] -> [168L,6C-12C(4567-4573)]
+  Primary.InstanceCreation(java.lang.Runnable.<init>#0): [177L,32C-182L,3C(3968-4069)] -> [229L,29C-237L,2C(5809-5993)]
+  Primary.Name(args): [180L,40C-43C(4053-4056)] -> [194L,31C-34C(5200-5203)]
+  Primary.SimpleMethodInvocation(TSopenFiles#2): [265L,18C-42C(5759-5783)] -> [166L,19C-51C(4525-4557)]
+  Primary.FieldAccess(jEdit): [143L,30C-34C(3330-3334)] -> [192L,15C-19C(5146-5150)]
+  Primary.FieldAccess(jEdit): [275L,10C-14C(5947-5951)] -> [160L,5C-9C(4365-4369)]
+  Primary.FieldAccess(jEdit): [143L,16C-20C(3316-3320)] -> [187L,4C-8C(5036-5040)]
+  Primary.Name(retVal): [160L,5C-10C(3634-3639)] -> [182L,4C-9C(4929-4934)]
+  Primary.Literal.False: [226L,20C-24C(4882-4886)] -> [157L,20C-61C(4245-4286)]
+  Primary.Name(e): [186L,26C-26C(4128-4128)] -> [234L,27C-38C(5926-5937)]
+  Primary.Literal.String(restore): [228L,45C-53C(4958-4966)] -> [172L,37C-49C(4702-4714)]
+  Primary.Name(parent): [265L,30C-35C(5771-5776)] -> [166L,40C-45C(4546-4551)]
+  Primary.Name(buffer): [144L,5C-10C(3357-3362)] -> [187L,23C-28C(5055-5060)]
+  Primary.PrimaryMethodInvocation(getBooleanProperty#1): [228L,20C-54C(4933-4967)] -> [172L,12C-50C(4677-4715)]
+  Primary.Name(view): [280L,3C-6C(6025-6028)] -> [196L,3C-6C(5211-5214)]
+
+[significance=1] expression added (18)
+  Primary.FieldAccess(jEdit)[166L,19C-23C(4525-4529)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  Primary.Literal.Null[170L,33C-36C(4614-4617)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  Primary.FieldAccess(jEdit)[185L,4C-8C(4991-4995)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  Primary.FieldAccess(jEdit)[157L,20C-24C(4245-4249)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  Expression.BinaryOperator.Eq[170L,7C-36C(4588-4617)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  Primary.Name(script)(Primary.Name(script))[226L,3C-8C(5747-5752)]* into Block(block)[236L,2C-261L,2C(5112-5670)]
+  Primary.FieldAccess(jEdit)[194L,3C-7C(5172-5176)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  Expression.BinaryOperator.Eq[181L,6C-35C(4893-4922)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  Primary.Literal.Integer(1)[224L,48C-48C(5737-5737)]* into Primary.Literal.Null[235L,37C-40C(5104-5107)]
+  Primary.Name(buf)(Primary.Name(buf))[224L,31C-33C(5720-5722)]* into NamedArguments(readLine)[235L,30C-31C(5097-5098)]
+  Primary.Literal.Integer(1024)[221L,24C-27C(5668-5671)]* into LocalVariableDeclaration(true,args[0)[232L,2C-28C(5020-5046)]
+  Primary.Literal.Null[160L,29C-32C(4389-4392)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  Primary.Name(script)(Primary.Name(script))[233L,26C-31C(5880-5885)]* into LocalVariableDeclaration(true,_args[0)[263L,2C-42C(5675-5715)]
+  Primary.FieldAccess(jEdit)[181L,6C-10C(4893-4897)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  Primary.FieldAccess(jEdit)[170L,7C-11C(4588-4592)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  Primary.FieldAccess(jEdit)[175L,5C-9C(4761-4765)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  Primary.Literal.Null[181L,32C-35C(4919-4922)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  Primary.Literal.Null[155L,23C-26C(4218-4221)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+
+[significance=1] expression removed (60)
+  Primary.Literal.True[246L,15C-18C(5338-5341)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.Name(endOpts)(Primary.Name(endOpts))[242L,5C-11C(5206-5212)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.Literal.Null[231L,14C-17C(5012-5015)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Primary.Name(restore)(Primary.Name(restore))[250L,5C-11C(5473-5479)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.Literal.True[242L,15C-18C(5216-5219)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.Name(command)(Primary.Name(command))[241L,7C-13C(5179-5185)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.Name(view)(Primary.Name(view))[217L,4C-7C(4710-4713)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.Literal.Null[267L,15C-18C(5802-5805)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Primary.Literal.Integer(0)[168L,16C-16C(3759-3759)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.Name(command)(Primary.Name(command))[245L,12C-18C(5296-5302)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Expression.BinaryOperator.Add[253L,28C-254L,25C(5533-5565)]* from NamedArguments(append)[226L,16C-28C(5760-5772)]
+  Primary.Literal.Integer(0)[188L,16C-16C(4152-4152)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.Name(args)(Primary.Name(args))[238L,4C-7C(5133-5136)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.Literal.Integer(0)[180L,12C-12C(4025-4025)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.Name(view)(Primary.Name(view))[145L,4C-7C(3370-3373)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.ArrayAccess[168L,9C-17C(3752-3760)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.Name(parent)(Primary.Name(parent))[248L,5C-10C(5392-5397)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.Name(command)(Primary.Name(command))[248L,14C-20C(5401-5407)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.Name(command)(Primary.Name(command))[247L,12C-18C(5356-5362)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.Name(retVal)(Primary.Name(retVal))[168L,9C-14C(3752-3757)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.Name(args)(Primary.Name(args))[263L,30C-33C(5703-5706)]* from LocalVariableDeclaration(true,scriptString[0)[233L,4C-43C(5858-5897)]
+  Primary.Literal.Integer(0)[160L,12C-12C(3641-3641)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.Name(command)(Primary.Name(command))[249L,12C-18C(5435-5441)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.Name(readOnly)(Primary.Name(readOnly))[244L,5C-12C(5267-5274)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.Name(in)(Primary.Name(in))[256L,5C-6C(5605-5606)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.Name(retVal)(Primary.Name(retVal))[180L,5C-10C(4018-4023)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.Name(view)(Primary.Name(view))[146L,4C-7C(3395-3398)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.Literal.Null[270L,15C-18C(5869-5872)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Primary.Literal.String( command: )[255L,8C-19C(5575-5586)]* from NamedArguments(append)[226L,16C-28C(5760-5772)]
+  Primary.Literal.Integer(0)[208L,16C-16C(4514-4514)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.Literal.Integer(1)[154L,37C-37C(3538-3538)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.Name(command)(Primary.Name(command))[243L,12C-18C(5234-5240)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.Literal.False[225L,21C-25C(4855-4859)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Primary.Name(retVal)(Primary.Name(retVal))[188L,9C-14C(4145-4150)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Expression.BinaryOperator.Eq[267L,5C-18C(5792-5805)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Primary.Literal.Integer(0)[194L,37C-37C(4288-4288)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.Name(client)(Primary.Name(client))[253L,28C-33C(5533-5538)]* from NamedArguments(append)[226L,16C-28C(5760-5772)]
+  Primary.ArrayAccess[208L,9C-17C(4507-4515)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.Literal.Integer(1)[174L,37C-37C(3922-3922)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.Name(view)(Primary.Name(view))[275L,3C-6C(5940-5943)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Primary.ArrayAccess[188L,9C-17C(4145-4153)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.Literal.True[244L,16C-19C(5278-5281)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.Name(newView)(Primary.Name(newView))[274L,6C-12C(5928-5934)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Primary.Literal.Integer(0)[200L,12C-12C(4391-4391)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.Literal.False[250L,15C-19C(5483-5487)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.Name(buffer)(Primary.Name(buffer))[268L,3C-8C(5822-5827)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Primary.Literal.String(: unknown server)[254L,8C-25C(5548-5565)]* from NamedArguments(append)[226L,16C-28C(5760-5772)]
+  Primary.Literal.Null[227L,18C-21C(4907-4910)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Expression.UnaryOperator.Not[274L,5C-12C(5927-5934)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Primary.Name(buffer)(Primary.Name(buffer))[270L,5C-10C(5859-5864)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Expression.BinaryOperator.Eq[270L,5C-18C(5859-5872)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Primary.FieldAccess(jEdit)[180L,17C-21C(4030-4034)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.Name(retVal)(Primary.Name(retVal))[208L,9C-14C(4507-4512)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.Literal.False[229L,20C-24C(4990-4994)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Expression.BinaryOperator.Add[253L,28C-255L,19C(5533-5586)]* from NamedArguments(append)[226L,16C-28C(5760-5772)]
+  Primary.ArrayAccess[180L,5C-13C(4018-4026)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.Name(endOpts)(Primary.Name(endOpts))[237L,6C-12C(5120-5126)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.FieldAccess(socket)[257L,5C-10C(5622-5627)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.Name(buffer)(Primary.Name(buffer))[267L,5C-10C(5792-5797)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Primary.Name(buffer)(Primary.Name(buffer))[271L,3C-8C(5878-5883)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+
+[significance=1] argument modified (2)
+  Primary.InstanceCreation(java.io.InputStreamReader.<init>#1)(Primary.InstanceCreation(InputStreamReader))[87L,5C-50C(2270-2315)] -> Primary.InstanceCreation(java.io.InputStreamReader.<init>#2)(Primary.InstanceCreation(InputStreamReader))[106L,5C-108L,11C(3202-3266)]
+  Primary.InstanceCreation(java.lang.Runnable.<init>#0)(Primary.InstanceCreation(Runnable))[177L,32C-182L,3C(3968-4069)] -> Primary.InstanceCreation(java.lang.Runnable.<init>#0)(Primary.InstanceCreation(Runnable))[229L,29C-237L,2C(5809-5993)]
+
+[significance=1] argument changed (1)
+  Primary.This[253L,23C-26C(5528-5531)] -> Primary.Literal.Integer(0)[226L,21C-21C(5765-5765)]
+
+[significance=1] argument renamed (1)
+  Primary.Literal.String(restore)[228L,45C-53C(4958-4966)] -> Primary.Literal.String(restore.cli)[172L,37C-49C(4702-4714)]
+
+[significance=1] RHS of assignment modified (1)
+  Primary.PrimaryMethodInvocation(readLine#0)(Primary.PrimaryMethodInvocation(readLine))[235L,19C-31C(5086-5098)] -> Primary.PrimaryMethodInvocation(read#3)(Primary.PrimaryMethodInvocation(read))[224L,17C-41C(5706-5730)]
+
+[significance=1] constructor invocation modified (4)
+  Primary.InstanceCreation(java.net.ServerSocket.<init>#1)(Primary.InstanceCreation(ServerSocket))[43L,12C-30C(1250-1268)] -> Primary.InstanceCreation(java.net.ServerSocket.<init>#3)(Primary.InstanceCreation(ServerSocket))[61L,12C-62L,38C(2159-2220)]
+  Primary.InstanceCreation(java.io.InputStreamReader.<init>#1)(Primary.InstanceCreation(InputStreamReader))[87L,5C-50C(2270-2315)] -> Primary.InstanceCreation(java.io.InputStreamReader.<init>#2)(Primary.InstanceCreation(InputStreamReader))[106L,5C-108L,11C(3202-3266)]
+  Primary.InstanceCreation(java.io.BufferedReader.<init>#1)(Primary.InstanceCreation(BufferedReader))[86L,24C-87L,51C(2245-2316)] -> Primary.InstanceCreation(java.io.BufferedReader.<init>#1)(Primary.InstanceCreation(BufferedReader))[105L,24C-108L,12C(3177-3267)]
+  Primary.InstanceCreation(java.lang.Runnable.<init>#0)(Primary.InstanceCreation(Runnable))[177L,32C-182L,3C(3968-4069)] -> Primary.InstanceCreation(java.lang.Runnable.<init>#0)(Primary.InstanceCreation(Runnable))[229L,29C-237L,2C(5809-5993)]
+
+[significance=1] instance creation modified (4)
+  Primary.InstanceCreation(java.net.ServerSocket.<init>#1)(Primary.InstanceCreation(ServerSocket))[43L,12C-30C(1250-1268)] -> Primary.InstanceCreation(java.net.ServerSocket.<init>#3)(Primary.InstanceCreation(ServerSocket))[61L,12C-62L,38C(2159-2220)]
+  Primary.InstanceCreation(java.io.InputStreamReader.<init>#1)(Primary.InstanceCreation(InputStreamReader))[87L,5C-50C(2270-2315)] -> Primary.InstanceCreation(java.io.InputStreamReader.<init>#2)(Primary.InstanceCreation(InputStreamReader))[106L,5C-108L,11C(3202-3266)]
+  Primary.InstanceCreation(java.io.BufferedReader.<init>#1)(Primary.InstanceCreation(BufferedReader))[86L,24C-87L,51C(2245-2316)] -> Primary.InstanceCreation(java.io.BufferedReader.<init>#1)(Primary.InstanceCreation(BufferedReader))[105L,24C-108L,12C(3177-3267)]
+  Primary.InstanceCreation(java.lang.Runnable.<init>#0)(Primary.InstanceCreation(Runnable))[177L,32C-182L,3C(3968-4069)] -> Primary.InstanceCreation(java.lang.Runnable.<init>#0)(Primary.InstanceCreation(Runnable))[229L,29C-237L,2C(5809-5993)]
+
+[significance=1] instance creation changed (2)
+  Primary.InstanceCreation(java.net.ServerSocket.<init>#1)(Primary.InstanceCreation(ServerSocket))[43L,12C-30C(1250-1268)] -> Primary.InstanceCreation(java.net.ServerSocket.<init>#3)(Primary.InstanceCreation(ServerSocket))[61L,12C-62L,38C(2159-2220)]
+  Primary.InstanceCreation(java.io.InputStreamReader.<init>#1)(Primary.InstanceCreation(InputStreamReader))[87L,5C-50C(2270-2315)] -> Primary.InstanceCreation(java.io.InputStreamReader.<init>#2)(Primary.InstanceCreation(InputStreamReader))[106L,5C-108L,11C(3202-3266)]
+
+[significance=1] variable type changed (2)
+  Type.Boolean(Type.Boolean)[228L,2C-8C(4915-4921)] -> Type.ClassOrInterface(java.lang.StringBuffer)(Type.ClassOrInterface(StringBuffer))[220L,8C-19C(5602-5613)]
+  Type.ClassOrInterface(java.lang.String)(Type.ClassOrInterface(String))[234L,2C-7C(5051-5056)] -> Type.Int(Type.Int)[222L,2C-4C(5677-5679)]
+
+[significance=1] variable declaration renamed (2)
+  VariableDeclarator(restore,0,true)[228L,10C-54C(4923-4967)] -> VariableDeclarator(script,0,true)[220L,21C-47C(5615-5641)]
+  VariableDeclarator(command,0,true)[234L,9C-15C(5058-5064)] -> VariableDeclarator(count,0,true)[222L,6C-10C(5681-5685)]
+
+[significance=1] method invocation inserted (2)
+  Statement.Expression.Primary.PrimaryMethodInvocation(append#3)()(Statement.Expression.Primary.PrimaryMethodInvocation(append)())[226L,3C-29C(5747-5773)] into Block(block)[236L,2C-261L,2C(5112-5670)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(openFiles#3)()(Statement.Expression.Primary.PrimaryMethodInvocation(openFiles)())[194L,3C-36C(5172-5205)] into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+
+[significance=1] method invocation deleted (5)
+  Primary.PrimaryMethodInvocation(openFiles#2)(Primary.PrimaryMethodInvocation(openFiles))[180L,17C-44C(4030-4057)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Statement.Expression.Primary.TypeMethodInvocation(javax.swing.SwingUtilities,invokeLater#1)()(Statement.Expression.Primary.TypeMethodInvocation(SwingUtilities,invokeLater)())[140L,2C-148L,4C(3230-3420)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Statement.Expression.Primary.TypeMethodInvocation(org.gjt.sp.util.Log,log#3)()(Statement.Expression.Primary.TypeMethodInvocation(Log,log)())[253L,5C-255L,31C(5510-5598)] from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Statement.Expression.Primary.TypeMethodInvocation(javax.swing.SwingUtilities,invokeAndWait#1)()(Statement.Expression.Primary.TypeMethodInvocation(SwingUtilities,invokeAndWait)())[197L,3C-202L,5C(4305-4433)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Statement.Expression.Primary.TypeMethodInvocation(javax.swing.SwingUtilities,invokeAndWait#1)()(Statement.Expression.Primary.TypeMethodInvocation(SwingUtilities,invokeAndWait)())[157L,3C-162L,5C(3555-3678)] from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+
+[significance=1] method invocation added (5)
+  Primary.PrimaryMethodInvocation(getFirstBuffer#0)(Primary.PrimaryMethodInvocation(getFirstBuffer))[181L,6C-27C(4893-4914)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(newView#2)()(Statement.Expression.Primary.PrimaryMethodInvocation(newView)())[185L,4C-35C(4991-5022)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  Primary.PrimaryMethodInvocation(getFirstBuffer#0)(Primary.PrimaryMethodInvocation(getFirstBuffer))[170L,7C-28C(4588-4609)]* into ClassBody(EditServer)[34L,0C-286L,0C(1095-6101)]
+  Primary.TypeMethodInvocation(java.net.InetAddress,getByName#1)(Primary.TypeMethodInvocation(InetAddress,getByName))[62L,4C-37C(2186-2219)]* into NamedArguments(java.net.ServerSocket)(NamedArguments(ServerSocket))[43L,28C-30C(1266-1268)]
+  Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[233L,26C-42C(5880-5896)]* into LocalVariableDeclaration(true,_args[0)[263L,2C-42C(5675-5715)]
+
+[significance=1] method invocation removed (19)
+  Primary.PrimaryMethodInvocation(equals#1)(Primary.PrimaryMethodInvocation(equals))[243L,12C-37C(5234-5259)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.PrimaryMethodInvocation(size#0)(Primary.PrimaryMethodInvocation(size))[263L,30C-40C(5703-5713)]* from LocalVariableDeclaration(true,scriptString[0)[233L,4C-43C(5858-5897)]
+  Primary.PrimaryMethodInvocation(equals#1)(Primary.PrimaryMethodInvocation(equals))[241L,7C-26C(5179-5198)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Statement.Expression.Primary.TypeMethodInvocation(org.gjt.sp.util.Log,log#3)()(Statement.Expression.Primary.TypeMethodInvocation(Log,log)())[166L,3C-28C(3712-3737)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(toFront#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(toFront)())[146L,4C-18C(3395-3409)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Primary.PrimaryMethodInvocation(equals#1)(Primary.PrimaryMethodInvocation(equals))[245L,12C-36C(5296-5320)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.SimpleMethodInvocation(TSrestoreOpenFiles#0)(Primary.SimpleMethodInvocation(TSrestoreOpenFiles))[268L,12C-31C(5831-5850)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Statement.Expression.Primary.SimpleMethodInvocation(TSsetBuffer#2)()(Statement.Expression.Primary.SimpleMethodInvocation(TSsetBuffer)())[279L,3C-27C(5996-6020)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(requestFocus#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(requestFocus)())[145L,4C-23C(3370-3389)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Statement.Expression.Primary.TypeMethodInvocation(org.gjt.sp.util.Log,log#3)()(Statement.Expression.Primary.TypeMethodInvocation(Log,log)())[206L,3C-28C(4467-4492)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(close#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(close)())[256L,5C-15C(5605-5615)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Statement.Expression.Primary.TypeMethodInvocation(javax.swing.SwingUtilities,invokeLater#1)()(Statement.Expression.Primary.TypeMethodInvocation(SwingUtilities,invokeLater)())[214L,2C-219L,4C(4636-4743)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(close#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(close)())[257L,5C-19C(5622-5636)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.SimpleMethodInvocation(TSnewFile#0)(Primary.SimpleMethodInvocation(TSnewFile))[271L,12C-22C(5887-5897)]* from Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Primary.PrimaryMethodInvocation(startsWith#1)(Primary.PrimaryMethodInvocation(startsWith))[249L,12C-42C(5435-5465)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Statement.Expression.Primary.SimpleMethodInvocation(stopServer#0)()(Statement.Expression.Primary.SimpleMethodInvocation(stopServer)())[258L,5C-17C(5643-5655)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(addElement#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(addElement)())[238L,4C-28C(5133-5157)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.PrimaryMethodInvocation(startsWith#1)(Primary.PrimaryMethodInvocation(startsWith))[247L,12C-40C(5356-5384)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+  Primary.PrimaryMethodInvocation(substring#1)(Primary.PrimaryMethodInvocation(substring))[248L,14C-33C(5401-5420)]* from Block(block)[225L,2C-227L,2C(5742-5777)]
+
+[significance=1] method invocation changed (2)
+  Primary.PrimaryMethodInvocation(newView#2)(Primary.PrimaryMethodInvocation(newView))[143L,16C-144L,11C(3316-3363)] -> Statement.Expression.Primary.PrimaryMethodInvocation(newView#2)()(Statement.Expression.Primary.PrimaryMethodInvocation(newView)())[187L,4C-30C(5036-5062)]
+  Primary.SimpleMethodInvocation(TSopenFiles#2)(Primary.SimpleMethodInvocation(TSopenFiles))[265L,18C-42C(5759-5783)] -> Primary.PrimaryMethodInvocation(openFiles#3)(Primary.PrimaryMethodInvocation(openFiles))[166L,19C-51C(4525-4557)]
+
+[significance=1] method invocation renamed (3)
+  Primary.PrimaryMethodInvocation(readLine#0)(Primary.PrimaryMethodInvocation(readLine))[235L,19C-31C(5086-5098)] -> Primary.PrimaryMethodInvocation(read#3)(Primary.PrimaryMethodInvocation(read))[224L,17C-41C(5706-5730)]
+  Statement.Expression.Primary.TypeMethodInvocation(javax.swing.SwingUtilities,invokeAndWait#1)()(Statement.Expression.Primary.TypeMethodInvocation(SwingUtilities,invokeAndWait)())[177L,3C-182L,5C(3939-4071)] -> Statement.Expression.Primary.TypeMethodInvocation(javax.swing.SwingUtilities,invokeLater#1)()(Statement.Expression.Primary.TypeMethodInvocation(SwingUtilities,invokeLater)())[229L,2C-237L,4C(5782-5995)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(copyInto#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(copyInto)())[264L,2C-22C(5719-5739)] -> Statement.Expression.Primary.PrimaryMethodInvocation(eval#3)()(Statement.Expression.Primary.PrimaryMethodInvocation(eval)())[235L,4C-43C(5945-5984)]
+
+[significance=1] method invocation modified (13)
+  Primary.PrimaryMethodInvocation(readLine#0)(Primary.PrimaryMethodInvocation(readLine))[235L,19C-31C(5086-5098)] -> Primary.PrimaryMethodInvocation(read#3)(Primary.PrimaryMethodInvocation(read))[224L,17C-41C(5706-5730)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(copyInto#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(copyInto)())[264L,2C-22C(5719-5739)] -> Statement.Expression.Primary.PrimaryMethodInvocation(eval#3)()(Statement.Expression.Primary.PrimaryMethodInvocation(eval)())[235L,4C-43C(5945-5984)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(toFront#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(toFront)())[281L,3C-17C(6049-6063)] -> Statement.Expression.Primary.PrimaryMethodInvocation(toFront#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(toFront)())[197L,3C-17C(5235-5249)]
+  Primary.PrimaryMethodInvocation(newFile#1)(Primary.PrimaryMethodInvocation(newFile))[160L,17C-35C(3646-3664)] -> Primary.PrimaryMethodInvocation(newFile#1)(Primary.PrimaryMethodInvocation(newFile))[182L,13C-31C(4938-4956)]
+  Primary.PrimaryMethodInvocation(getFirstView#0)(Primary.PrimaryMethodInvocation(getFirstView))[275L,10C-29C(5947-5966)] -> Primary.PrimaryMethodInvocation(getFirstView#0)(Primary.PrimaryMethodInvocation(getFirstView))[160L,5C-24C(4365-4384)]
+  Primary.PrimaryMethodInvocation(restoreOpenFiles#0)(Primary.PrimaryMethodInvocation(restoreOpenFiles))[200L,17C-40C(4396-4419)] -> Primary.PrimaryMethodInvocation(restoreOpenFiles#0)(Primary.PrimaryMethodInvocation(restoreOpenFiles))[171L,19C-42C(4639-4662)]
+  Statement.Expression.Primary.TypeMethodInvocation(org.gjt.sp.util.Log,log#3)()(Statement.Expression.Primary.TypeMethodInvocation(Log,log)())[186L,3C-28C(4105-4130)] -> Statement.Expression.Primary.TypeMethodInvocation(org.gjt.sp.util.Log,log#3)()(Statement.Expression.Primary.TypeMethodInvocation(Log,log)())[234L,4C-40C(5903-5939)]
+  Statement.Expression.Primary.TypeMethodInvocation(javax.swing.SwingUtilities,invokeAndWait#1)()(Statement.Expression.Primary.TypeMethodInvocation(SwingUtilities,invokeAndWait)())[177L,3C-182L,5C(3939-4071)] -> Statement.Expression.Primary.TypeMethodInvocation(javax.swing.SwingUtilities,invokeLater#1)()(Statement.Expression.Primary.TypeMethodInvocation(SwingUtilities,invokeLater)())[229L,2C-237L,4C(5782-5995)]
+  Primary.PrimaryMethodInvocation(getBooleanProperty#1)(Primary.PrimaryMethodInvocation(getBooleanProperty))[228L,20C-54C(4933-4967)] -> Primary.PrimaryMethodInvocation(getBooleanProperty#1)(Primary.PrimaryMethodInvocation(getBooleanProperty))[172L,12C-50C(4677-4715)]
+  Primary.SimpleMethodInvocation(TSopenFiles#2)(Primary.SimpleMethodInvocation(TSopenFiles))[265L,18C-42C(5759-5783)] -> Primary.PrimaryMethodInvocation(openFiles#3)(Primary.PrimaryMethodInvocation(openFiles))[166L,19C-51C(4525-4557)]
+  Primary.PrimaryMethodInvocation(newView#2)(Primary.PrimaryMethodInvocation(newView))[143L,16C-144L,11C(3316-3363)] -> Statement.Expression.Primary.PrimaryMethodInvocation(newView#2)()(Statement.Expression.Primary.PrimaryMethodInvocation(newView)())[187L,4C-30C(5036-5062)]
+  Primary.PrimaryMethodInvocation(getFirstView#0)(Primary.PrimaryMethodInvocation(getFirstView))[143L,30C-49C(3330-3349)] -> Primary.PrimaryMethodInvocation(getFirstView#0)(Primary.PrimaryMethodInvocation(getFirstView))[192L,15C-34C(5146-5165)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(requestFocus#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(requestFocus)())[280L,3C-22C(6025-6044)] -> Statement.Expression.Primary.PrimaryMethodInvocation(requestFocus#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(requestFocus)())[196L,3C-22C(5211-5230)]
+
+[significance=1] final modifier removed (8)
+  Modifier.Final[194L,2C-6C(4253-4257)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Modifier.Final[174L,2C-6C(3887-3891)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Modifier.Final[212L,26C-30C(4593-4597)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Modifier.Final[172L,28C-32C(3840-3844)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Modifier.Final[154L,2C-6C(3503-3507)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Modifier.Final[212L,43C-47C(4610-4614)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Modifier.Final[138L,24C-28C(3204-3208)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+  Modifier.Final[172L,49C-53C(3861-3865)]* from ClassBody(EditServer)[50L,0C-239L,0C(1890-6000)]
+
+[significance=1] method modified (4)
+  Method(run()V)[77L,1C-123L,1C(2082-2946)] -> Method(run()V)[96L,1C-144L,1C(3014-3897)]
+  Method(handleClient(Ljava.net.Socket;Ljava.io.BufferedReader;)V)(Method(handleClient))[222L,1C-285L,1C(4750-6099)] -> Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)(Method(handleClient))[217L,1C-238L,1C(5518-5998)]
+  Method(run()V)[178L,4C-181L,4C(3989-4064)] -> Method(run()V)[231L,3C-236L,3C(5831-5989)]
+  Method(TSnewView(LBuffer;)V)[138L,1C-149L,1C(3181-3423)] -> Method(handleClient(ZLjava.lang.String;[Ljava.lang.String;)V)(Method(handleClient))[152L,1C-202L,1C(4111-5299)]
+
+[significance=1] primary name renamed (10)
+  Primary.Name(org.gjt.sp.util.Log.ERROR)(Primary.Name(Log.ERROR))[186L,11C-19C(4113-4121)] -> Primary.Name(org.gjt.sp.util.Log.DEBUG)(Primary.Name(Log.DEBUG))[234L,12C-20C(5911-5919)]
+  Primary.Name(_args)(Primary.Name(_args))[264L,16C-20C(5733-5737)] -> Primary.Name(scriptString)(Primary.Name(scriptString))[235L,24C-35C(5965-5976)]
+  Primary.Name(command)(Primary.Name(command))[235L,9C-15C(5076-5082)] -> Primary.Name(count)(Primary.Name(count))[224L,9C-13C(5698-5702)]
+  Primary.Name(view)(Primary.Name(view))[277L,5C-8C(5975-5978)] -> Primary.Name(splitConfig)(Primary.Name(splitConfig))[184L,6C-16C(4966-4976)]
+  Primary.Name(retVal)(Primary.Name(retVal))[160L,5C-10C(3634-3639)] -> Primary.Name(buffer)(Primary.Name(buffer))[182L,4C-9C(4929-4934)]
+  Primary.Name(org.gjt.sp.util.Log.ERROR)(Primary.Name(Log.ERROR))[253L,13C-21C(5518-5526)] -> Primary.Name(buf)(Primary.Name(buf))[226L,17C-19C(5761-5763)]
+  Primary.Name(e)(Primary.Name(e))[186L,26C-26C(4128-4128)] -> Primary.Name(scriptString)(Primary.Name(scriptString))[234L,27C-38C(5926-5937)]
+  Primary.Name(retVal)(Primary.Name(retVal))[200L,5C-10C(4384-4389)] -> Primary.Name(splitConfig)(Primary.Name(splitConfig))[171L,5C-15C(4625-4635)]
+  Primary.Name(command)(Primary.Name(command))[255L,23C-29C(5590-5596)] -> Primary.Name(count)(Primary.Name(count))[226L,23C-27C(5767-5771)]
+  Primary.Name(_args)(Primary.Name(_args))[265L,37C-41C(5778-5782)] -> Primary.Name(args)(Primary.Name(args))[166L,47C-50C(4553-4556)]

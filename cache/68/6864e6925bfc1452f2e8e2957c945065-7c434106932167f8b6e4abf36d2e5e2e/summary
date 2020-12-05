@@ -1,0 +1,9 @@
+*** Modified Units ***
+FunctionDefinition(40L,0C-82L,0C(567-1654)): [MODIFIED] 113(35) changed [d:35(8)i:49(8)r:15(15)m:14(4)], 136 mapped
+FunctionDefinition(92L,0C-126L,0C(1793-2714)): [MODIFIED] 56(36) changed [d:20(9)i:13(4)r:23(23)m:0(0)], 107 mapped
+FunctionDefinition(142L,0C-237L,0C(2976-5783)): [MODIFIED] 166(110) changed [d:19(10)i:49(12)r:86(86)m:12(2)], 470 mapped
+FunctionDefinition(128L,0C-140L,0C(2717-2973)): [MOVED] 115(32) changed [d:16(6)i:55(12)r:10(10)m:34(4)], 33 mapped
+FunctionDefinition(67L,0C-79L,0C(924-1142)): [INSERTED] 59(1) changed [d:0(0)i:59(1)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition(309L,0C-341L,0C(6365-7015)): [INSERTED] 161(2) changed [d:0(0)i:161(2)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition(343L,0C-353L,0C(7018-7144)): [INSERTED] 37(1) changed [d:0(0)i:37(1)r:0(0)m:0(0)], 0 mapped
+*** Unmodified Units ***

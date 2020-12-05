@@ -1,0 +1,100 @@
+MOVE(GROUP)(18)#1M:PERMUTATION:
+|- MOVE#30M(12):PERMUTATION (#282U:#282G)IfStatement[4](65L,1C-69L,1C(1571-1669))12 [(#268U:#268G);(#272U:#272G);(#278U:#278G)] -> (#716U:#358G)IfStatement[0](103L,1C-115L,1C(1910-2124))12 [(#677U:#319G);(#688U:#330G);(#697U:#339G);(#698U:#340G);(#702U:#344G);(#705U:#347G);(#706U:#348G);(#710U:#352G);(#714U:#356G)] <269-271;273-277;279-282>
+|- MOVE#28M(1):PERMUTATION (#259U:#259G)CharacterLiteral:'P'[1](65L,26C-28C(1596-1598))1 -> (#686U:#328G)IntegerLiteral:1[0](106L,9C-9C(1986-1986))1 <259>
+|- MOVE#29M(5):PERMUTATION (#258U:#258G)PostfixExpressionFunCall[0](65L,5C-21C(1575-1591))5 -> (#684U:#326G)PostfixExpressionFunCall[0](105L,2C-47C(1929-1974))5 [(#679U:#321G);(#680U:#322G)] <254-258>
+MOVE#4M(1):PERMUTATION (#54U:#54G)Identifier:count[0](21L,7C-11C(589-593))1 -> (#582U:#224G)Identifier:count[0](72L,1C-5C(1483-1487))1 <54>
+MOVE(GROUP)(5)#16M:PERMUTATION:
+|- MOVE#26M(4):PERMUTATION (#325U:#325G)PostfixExpressionSubscr[1](77L,13C-42C(1810-1839))4 [(#322U:#322G)] -> (#488U:#130G)PostfixExpressionSubscr[0](45L,29C-82C(1001-1054))4 [(#485U:#127G)] <317;323-325>
+|- MOVE#27M(1):PERMUTATION (#318U:#318G)Identifier:toupper[0](77L,19C-25C(1816-1822))1 -> (#478U:#120G)Identifier:toupper[0](45L,43C-49C(1015-1021))1 <318>
+MOVE#3M(5):PERMUTATION (#351U:#351G)ExpressionStatement[7](87L,1C-15C(1922-1936))5 -> (#530U:#172G)ExpressionStatement[3](56L,1C-27C(1169-1195))5 [(#526U:#168G)] <347-351>
+RELABEL (#5U:#5G)PpInclude:"libpq-fe.h"[4](9L,0C-39C(307-346))1 -> (#360U:#2G)PpInclude:"fmgr.h"[1](3L,0C-17C(120-137))1
+MOVREL (#279U:#279G)AssignmentExpressionEq[0](68L,2C-15C(1652-1665))1 [(#277U:#277G);(#278U:#278G)] -> (#711U:#353G)PostfixExpressionFunCall[0](113L,2C-46C(2064-2108))1 [(#705U:#347G);(#706U:#348G);(#709U:#351G);(#710U:#352G)]
+MOVREL (#255U:#255G)Identifier:instr[0](65L,13C-17C(1583-1587))1 -> (#681U:#323G)Identifier:argv[0](105L,40C-43C(1967-1970))1
+RELABEL (#187U:#187G)Char[0](50L,0C-3C(1262-1265))1 -> (#493U:#135G)Void[1](48L,7C-10C(1065-1068))1
+RELABEL (#30U:#30G)SimpleTypeSpecifier:4text[0](16L,0C-3C(469-472))1 -> (#421U:#63G)SimpleTypeSpecifier:5Datum[0](27L,0C-4C(620-624))1
+MOVREL (#254U:#254G)Identifier:toupper[0](65L,5C-11C(1575-1581))1 -> (#678U:#320G)Identifier:7fprintf[0](105L,2C-8C(1929-1935))1
+RELABEL (#119U:#119G)Identifier:instr[1](33L,9C-13C(896-900))1 -> (#450U:#92G)Identifier:arg[1](35L,9C-11C(755-757))1
+RELABEL (#78U:#78G)Identifier:instr[0](25L,10C-14C(683-687))1 -> (#437U:#79G)Identifier:arg[0](31L,10C-12C(701-703))1
+RELABEL (#8U:#8G)Char[0](14L,0C-3C(423-426))1 -> (#376U:#18G)Void[1](12L,7C-10C(272-275))1
+RELABEL (#177U:#177G)Identifier:pfree[0](45L,1C-5C(1227-1231))1 -> (#455U:#97G)Identifier:_textin[0](37L,18C-24C(788-794))1
+MOVREL (#269U:#269G)Identifier:instr[0](67L,2C-6C(1634-1638))1 -> (#699U:#341G)Identifier:argv[0](112L,10C-13C(2044-2047))1
+RELABEL (#178U:#178G)Identifier:instr[1](45L,7C-11C(1233-1237))1 -> (#456U:#98G)Identifier:outstr[1](37L,26C-31C(796-801))1
+MOVREL (#273U:#273G)AssignmentExpressionEq[0](67L,2C-15C(1634-1647))1 [(#271U:#271G);(#272U:#272G)] -> (#703U:#345G)PostfixExpressionFunCall[0](112L,2C-25C(2036-2059))1 [(#698U:#340G);(#701U:#343G);(#702U:#344G)]
+MOVREL (#270U:#270G)IntegerLiteral:0[1](67L,8C-8C(1640-1640))1 -> (#700U:#342G)IntegerLiteral:1[1](112L,15C-15C(2049-2049))1
+RELABEL (#90U:#90G)PostfixExpressionFunCall[1](28L,9C-30C(737-758))1 [(#84U:#84G);(#89U:#89G)] -> (#446U:#88G)ExpressionMacroInvocation:_textout[1](33L,7C-35C(714-742))1 [(#445U:#87G)]
+RELABEL (#70U:#70G)IntegerLiteral:6[0](24L,14C-14C(632-632))1 -> (#429U:#71G)Identifier:SOUNDEX_LEN[0](30L,14C-24C(673-683))1
+RELABEL (#85U:#85G)Identifier:VARSIZE[0](28L,16C-22C(744-750))1 -> (#443U:#85G)Identifier:PG_GETARG_TEXT_P[0](33L,16C-31C(723-738))1
+MOVREL (#317U:#317G)Identifier:table[0](77L,13C-17C(1810-1814))1 -> (#477U:#119G)Identifier:soundex_table[0](45L,29C-41C(1001-1013))1
+RELABEL (#86U:#86G)Identifier:t[1](28L,24C-24C(752-752))1 -> (#444U:#86G)IntegerLiteral:0[1](33L,33C-33C(740-740))1
+RELABEL (#322U:#322G)PostfixExpressionFunCall[0](77L,19C-35C(1816-1832))1 [(#318U:#318G);(#321U:#321G)] -> (#616U:#258G)ExpressionMacroInvocation:soundex_code[1](78L,13C-34C(1649-1670))1 [(#615U:#257G)]
+RELABEL (#299U:#299G)IntegerLiteral:5[1](73L,26C-26C(1738-1738))1 -> (#589U:#231G)Identifier:SOUNDEX_LEN[1](73L,26C-36C(1520-1530))1
+MOVREL (#259U:#259G)CharacterLiteral:'P'[1](65L,26C-28C(1596-1598))1 -> (#686U:#328G)IntegerLiteral:1[0](106L,9C-9C(1986-1986))1
+MOVREL (#348U:#348G)UnaryExpressionInd[0](87L,1C-7C(1922-1928))1 [(#347U:#347G)] -> (#527U:#169G)PostfixExpressionSubscr[0](56L,1C-19C(1169-1187))1 [(#525U:#167G);(#526U:#168G)]
+MOVREL (#275U:#275G)Identifier:instr[0](68L,2C-6C(1652-1656))1 -> (#707U:#349G)Identifier:argv[0](113L,31C-34C(2093-2096))1
+RELABEL (#83U:#83G)Identifier:instr[0](28L,1C-5C(729-733))1 -> (#442U:#84G)Identifier:arg[0](33L,1C-3C(708-710))1
+DELETE(6) (#59U:#59G)DeclarationStatement[1](21L,1C-16C(583-598))6 [(#54U:#54G)] <53;55-59>
+DELETE(12) (#104U:#104G)ExpressionStatement[6](29L,1C-49C(762-810))12 <93-104>
+DELETE(1) (#1U:#1G)PpInclude:<string.h>[0](5L,0C-19C(177-196))1 <1>
+DELETE(1) (#278U:#278G)CharacterLiteral:'A'[1](68L,13C-15C(1663-1665))1 <278>
+DELETE(3) (#183U:#183G)ReturnStatement[14](47L,1C-15C(1243-1257))3 <181-183>
+DELETE(2) (#89U:#89G)AdditiveExpressionAdd[1](28L,16C-29C(744-757))2 [(#87U:#87G)] <88-89>
+DELETE(10) (#147U:#147G)ExpressionStatement[10](38L,1C-37C(1047-1083))10 <138-147>
+DELETE(3) (#354U:#354G)ReturnStatement[8](88L,1C-16C(1939-1954))3 <352-354>
+DELETE(13) (#117U:#117G)ExpressionStatement[7](30L,1C-40C(813-852))13 <105-117>
+DELETE(1) (#2U:#2G)PpInclude:<stdio.h>[1](6L,0C-18C(197-215))1 <2>
+DELETE(2) (#220U:#220G)EqualInitializer[1](54L,13C-15C(1407-1409))2 <219-220>
+DELETE(9) (#52U:#52G)DeclarationStatement[0](20L,1C-46C(535-580))9 <44-52>
+DELETE(1) (#4U:#4G)PpInclude:"utils/palloc.h"[3](8L,0C-43C(263-306))1 <4>
+DELETE(1) (#84U:#84G)Identifier:palloc[0](28L,9C-14C(737-742))1 <84>
+DELETE(9) (#215U:#215G)DeclarationStatement[0](53L,1C-46C(1347-1392))9 <207-215>
+DELETE(2) (#27U:#27G)PtrDeclaratorPtr[0](14L,8C-42C(431-465))2 [(#26U:#26G)] <9;27>
+DELETE(2) (#206U:#206G)PtrDeclaratorPtr[1](50L,5C-51L,33C(1267-1302))2 [(#205U:#205G)] <188;206>
+DELETE(15) (#137U:#137G)ExpressionStatement[9](37L,1C-51C(994-1044))15 <123-137>
+DELETE(9) (#156U:#156G)ExpressionStatement[11](39L,1C-43C(1086-1128))9 <148-156>
+DELETE(7) (#66U:#66G)DeclarationStatement[2](22L,1C-15C(601-615))7 <60-66>
+DELETE(11) (#43U:#43G)PtrDeclaratorPtr[1](16L,5C-17L,20C(474-496))11 [(#33U:#33G)] <31;34-43>
+DELETE(1) (#7U:#7G)PpInclude:<ctype.h>[6](11L,0C-18C(366-384))1 <7>
+DELETE(1) (#250U:#250G)Identifier:outstr[0](62L,9C-14C(1558-1563))1 <250>
+DELETE(20) (#176U:#176G)ExpressionStatement[12](40L,1C-42L,20C(1131-1205))20 <157-176>
+DELETE(9) (#268U:#268G)LogicalAndExpression:&&[0](65L,5C-56C(1575-1626))9 [(#258U:#258G);(#259U:#259G)] <260-268>
+DELETE(1) (#272U:#272G)CharacterLiteral:'F'[1](67L,13C-15C(1645-1647))1 <272>
+INSERT(1) (#706U:#348G)StringLiteral:"soundex(%s) = %s\n"[1](113L,9C-28C(2071-2090))1 <348>
+INSERT(4) (#538U:#180G)CastExpression[1](59L,17C-40C(1261-1284))4 [(#537U:#179G)] <174-176;180>
+INSERT(6) (#465U:#107G)PpIfSection:0[11](21L,0C-40L,29C(507-838))6 [(#462U:#104G)] <60-62;105-107>
+INSERT(10) (#374U:#16G)SimpleDeclaration[6](10L,0C-36C(226-262))10 <7-16>
+INSERT(3) (#677U:#319G)RelationalExpressionLt[0](103L,5C-12C(1914-1921))3 <317-319>
+INSERT(3) (#585U:#227G)ExpressionStatement[7](72L,1C-10C(1483-1492))3 [(#582U:#224G)] <225-227>
+INSERT(1) (#602U:#244G)ExpressionMacroInvocation:soundex_code[0](76L,3C-22C(1580-1599))1 [(#601U:#243G)] <244>
+INSERT(1) (#492U:#134G)StorageClassSpecifierStatic[0](48L,0C-5C(1058-1063))1 <134>
+INSERT(11) (#476U:#118G)SimpleDeclaration[12](44L,0C-63C(907-970))11 <108-118>
+INSERT(2) (#425U:#67G)NoptrDeclaratorOldFunc[1](28L,0C-29C(626-655))2 [(#423U:#65G)] <66-67>
+INSERT(9) (#697U:#339G)DeclarationStatement[0](110L,2C-30C(2003-2031))9 <331-339>
+INSERT(1) (#375U:#17G)StorageClassSpecifierStatic[0](12L,0C-5C(265-270))1 <17>
+INSERT(2) (#714U:#356G)ReturnStatement[3](114L,2C-10C(2113-2121))2 <355-356>
+INSERT(1) (#679U:#321G)Identifier:stderr[1](105L,10C-15C(1937-1942))1 <321>
+INSERT(10) (#417U:#59G)PpDefine:_textout[10](18L,0C-89C(415-504))10 <50-59>
+INSERT(3) (#399U:#41G)PpDefine:SOUNDEX_LEN[8](14L,0C-21C(320-341))3 <39-41>
+INSERT(1) (#457U:#99G)PostfixExpressionFunCall[1](37L,18C-32C(788-802))1 [(#455U:#97G);(#456U:#98G)] <99>
+INSERT(1) (#496U:#138G)Const[0](49L,8C-12C(1078-1082))1 <138>
+INSERT(1) (#680U:#322G)StringLiteral:"usage: %s string\n"[2](105L,18C-37C(1945-1964))1 <322>
+INSERT(16) (#653U:#295G)WhileStatement[9](89L,1C-94L,1C(1774-1846))16 <280-295>
+INSERT(1) (#702U:#344G)Identifier:output[2](112L,19C-24C(2053-2058))1 <344>
+INSERT(24) (#722U:#364G)PpIfSection:0[15](99L,0C-117L,25C(1853-2153))24 [(#716U:#358G)] <299-316;359-364>
+INSERT(1) (#363U:#5G)PpInclude:<string.h>[4](6L,0C-19C(185-204))1 <5>
+INSERT(3) (#491U:#133G)PpDefine:soundex_code[13](45L,0C-83C(972-1055))3 [(#488U:#130G)] <131-133>
+INSERT(1) (#698U:#340G)Identifier:7soundex[0](112L,2C-8C(2036-2042))1 <340>
+INSERT(7) (#485U:#127G)PostfixExpressionFunCall[0](45L,43C-75C(1015-1047))7 [(#478U:#120G)] <121-127>
+INSERT(1) (#454U:#96G)Identifier:16PG_RETURN_TEXT_P[0](37L,1C-16C(771-786))1 <96>
+INSERT(3) (#688U:#330G)CompoundStatement[1](104L,1C-107L,1C(1925-1990))3 [(#684U:#326G);(#686U:#328G)] <327;329-330>
+INSERT(4) (#577U:#219G)CastExpression[1](70L,28C-51C(1454-1477))4 [(#576U:#218G)] <213-215;219>
+INSERT(4) (#598U:#240G)CastExpression[1](75L,14C-35C(1550-1571))4 [(#597U:#239G)] <235-237;240>
+INSERT(4) (#524U:#166G)ExpressionStatement[2](54L,1C-18C(1148-1165))4 <163-166>
+INSERT(8) (#407U:#49G)PpDefine:_textin[9](17L,0C-70C(344-414))8 <42-49>
+INSERT(1) (#608U:#250G)ExpressionMacroInvocation:soundex_code[1](76L,27C-52C(1604-1629))1 [(#607U:#249G)] <250>
+INSERT(4) (#520U:#162G)ExpressionStatement[1](53L,1C-17C(1129-1145))4 <159-162>
+INSERT(1) (#362U:#4G)PpInclude:<ctype.h>[3](5L,0C-18C(166-184))1 <4>
+INSERT(1) (#526U:#168G)Identifier:SOUNDEX_LEN[1](56L,8C-18C(1176-1186))1 <168>
+INSERT(1) (#361U:#3G)PpInclude:"utils/builtins.h"[2](4L,0C-27C(138-165))1 <3>
+INSERT(1) (#379U:#21G)Const[0](12L,20C-24C(285-289))1 <21>
+INSERT(1) (#710U:#352G)Identifier:output[3](113L,40C-45C(2102-2107))1 <352>
+INSERT(1) (#705U:#347G)Identifier:6printf[0](113L,2C-7C(2064-2069))1 <347>

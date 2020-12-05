@@ -1,0 +1,36 @@
+*** Modified Units ***
+FunctionDefinition(824L,0C-901L,0C(20238-21891)): [MODIFIED] 22(7) changed [d:0(0)i:9(2)r:1(1)m:12(4)], 274 mapped
+FunctionDefinition<ElaboratedTypeSpecifierStruct:4slip>(718L,0C-815L,0C(17949-19988)): [MODIFIED] 224(104) changed [d:87(27)i:58(15)r:48(48)m:31(14)], 360 mapped
+FunctionDefinition<SimpleTypeSpecifier:6__exit>(1354L,0C-1406L,0C(32634-33793)): [MODIFIED] 140(63) changed [d:48(17)i:54(14)r:30(30)m:8(2)], 167 mapped
+FunctionDefinition(702L,0C-715L,0C(17635-17885)): [MODIFIED] 52(16) changed [d:20(5)i:25(4)r:7(7)m:0(0)], 51 mapped
+FunctionDefinition(1318L,0C-1352L,0C(31553-32631)): [MODIFIED] 6(6) changed [d:0(0)i:0(0)r:6(6)m:0(0)], 119 mapped
+ClassSpecifier(87L,8C-90L,0C(3351-3454)): [MODIFIED] 1(1) changed [d:0(0)i:0(0)r:0(0)m:1(1)], 1 mapped
+FunctionDefinition(618L,0C-650L,0C(15723-16428)): [MODIFIED] 70(15) changed [d:2(1)i:15(5)r:1(1)m:52(8)], 140 mapped
+FunctionDefinition(631L,0C-636L,0C(15915-16029)): [INSERTED] 31(2) changed [d:0(0)i:31(2)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition(613L,0C-628L,0C(15601-15911)): [INSERTED] 21(1) changed [d:0(0)i:21(1)r:0(0)m:0(0)], 0 mapped
+*** Unmodified Units ***
+FunctionDefinition(1452L,0C-1481L,0C(34707-35435))
+FunctionDefinition(1417L,0C-1450L,0C(34002-34704))
+FunctionDefinition(1232L,0C-1302L,0C(29320-31232))
+FunctionDefinition(1115L,0C-1224L,0C(26554-29116))
+FunctionDefinition(1077L,0C-1111L,0C(25669-26462))
+FunctionDefinition(1039L,0C-1075L,0C(25034-25666))
+FunctionDefinition(991L,0C-1031L,0C(23990-24815))
+FunctionDefinition(953L,0C-989L,0C(23370-23987))
+FunctionDefinition(926L,0C-947L,0C(22700-23174))
+FunctionDefinition(670L,0C-694L,0C(16935-17489))
+FunctionDefinition(658L,0C-661L,0C(16555-16678))
+FunctionDefinition(581L,0C-614L,0C(14640-15685))
+FunctionDefinition(567L,0C-577L,0C(14353-14597))
+FunctionDefinition(553L,0C-563L,0C(14115-14314))
+FunctionDefinition(533L,0C-549L,0C(13752-14076))
+FunctionDefinition(499L,0C-524L,0C(13059-13581))
+FunctionDefinition(464L,0C-495L,0C(12204-12992))
+FunctionDefinition(441L,0C-462L,0C(11645-12201))
+FunctionDefinition(390L,0C-435L,0C(10180-11522))
+FunctionDefinition(332L,0C-387L,0C(8660-10115))
+FunctionDefinition(325L,0C-329L,0C(8513-8589))
+FunctionDefinition(317L,0C-321L,0C(8366-8440))
+FunctionDefinition(227L,0C-313L,0C(6540-8292))
+FunctionDefinition(205L,0C-221L,0C(6126-6492))
+FunctionDefinition(124L,0C-202L,0C(4501-6088))

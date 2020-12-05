@@ -1,0 +1,58 @@
+MOVE#7M(1):PERMUTATION (#103U:#103G)Identifier:EVFILT_WRITE[2](32L,62C-73C(660-671))1 -> (#876U:#107G)Identifier:EVFILT_WRITE[3](32L,21C-32C(639-650))1 <103>
+MOVE#20M(1):PERMUTATION (#287U:#287G)Identifier:EVFILT_READ[1](80L,15C-25C(1526-1536))1 -> (#863U:#94G)Identifier:EVFILT_READ[3](31L,21C-31C(581-591))1 <287>
+RELABEL (#754U:#754G)Identifier:stderr[1](201L,9C-14C(3879-3884))1 -> (#1505U:#736G)Identifier:15log_error_write[0](192L,1C-15C(3650-3664))1
+RELABEL (#272U:#272G)Identifier:stderr[1](74L,10C-15C(1406-1411))1 -> (#1039U:#270G)Identifier:15log_error_write[0](72L,2C-16C(1329-1343))1
+RELABEL (#703U:#703G)Identifier:stderr[1](186L,10C-15C(3596-3601))1 -> (#1450U:#681G)Identifier:15log_error_write[0](177L,2C-16C(3358-3372))1
+RELABEL (#387U:#387G)Identifier:stderr[1](107L,11C-16C(2073-2078))1 -> (#1137U:#368G)Identifier:15log_error_write[0](99L,3C-17C(1865-1879))1
+RELABEL (#150U:#150G)Identifier:stderr[1](45L,10C-15C(860-865))1 -> (#914U:#145G)Identifier:15log_error_write[0](43L,2C-16C(789-803))1
+RELABEL (#3U:#3G)PpInclude:"server.h"[2](3L,0C-19C(41-60))1 -> (#772U:#3G)PpInclude:"log.h"[2](3L,0C-16C(41-57))1
+RELABEL (#581U:#581G)Identifier:stderr[1](152L,10C-15C(2932-2937))1 -> (#1334U:#565G)Identifier:15log_error_write[0](144L,2C-16C(2728-2742))1
+RELABEL (#137U:#137G)IntegerLiteral:1[3](40L,13C-13C(799-799))1 -> (#902U:#133G)IntegerLiteral:2[3](38L,8C-8C(746-746))1
+DELETE(1) (#702U:#702G)Identifier:7fprintf[0](186L,2C-8C(3588-3594))1 <702>
+DELETE(1) (#151U:#151G)StringLiteral:"%s.%d: kqueue failed polling: %s\n"[2](45L,18C-53C(868-903))1 <151>
+DELETE(19) (#305U:#305G)IfStatement[10](80L,1C-84L,1C(1512-1630))19 [(#287U:#287G)] <286;288-305>
+DELETE(1) (#149U:#149G)Identifier:7fprintf[0](45L,2C-8C(852-858))1 <149>
+DELETE(1) (#704U:#704G)StringLiteral:"%s.%d: kqueue failed (%s), try to set server.event-handler = \"poll\" or \"select\"\n"[2](186L,18C-104C(3604-3690))1 <704>
+DELETE(1) (#96U:#96G)Identifier:bitset_test_bit[0](32L,10C-24C(608-622))1 <96>
+DELETE(1) (#271U:#271G)Identifier:7fprintf[0](74L,2C-8C(1398-1404))1 <271>
+DELETE(1) (#273U:#273G)StringLiteral:"%s.%d: kqueue failed polling: %s\n"[2](74L,18C-53C(1414-1449))1 <273>
+DELETE(1) (#755U:#755G)StringLiteral:"%s.%d: kqueue not available, try to set server.event-handler = \"poll\" or \"select\"\n"[2](201L,17C-105C(3887-3975))1 <755>
+DELETE(1) (#582U:#582G)StringLiteral:"%s.%d: kqueue failed (%s), try to set server.event-handler = \"poll\" or \"select\"\n"[2](152L,18C-104C(2940-3026))1 <582>
+DELETE(3) (#73U:#73G)InitDeclarator[1](26L,5C-10C(513-518))3 <71-73>
+DELETE(1) (#388U:#388G)StringLiteral:"%s.%d: kqueue failed polling: %s\n"[2](107L,19C-54C(2081-2116))1 <388>
+DELETE(1) (#580U:#580G)Identifier:7fprintf[0](152L,2C-8C(2924-2930))1 <580>
+DELETE(10) (#691U:#691G)ExpressionStatement[12](181L,1C-41C(3474-3514))10 <682-691>
+DELETE(1) (#111U:#111G)Identifier:filter[3](34L,18C-23C(693-698))1 <111>
+DELETE(4) (#105U:#105G)AssignmentExpressionEq[0](32L,1C-73C(599-671))4 [(#101U:#101G);(#103U:#103G)] <95;102;104-105>
+DELETE(3) (#99U:#99G)PostfixExpressionArrow[1](32L,26C-39C(624-637))3 <97-99>
+DELETE(1) (#753U:#753G)Identifier:fprintf[0](201L,1C-7C(3871-3877))1 <753>
+DELETE(1) (#386U:#386G)Identifier:7fprintf[0](107L,3C-9C(2065-2071))1 <386>
+DELETE(6) (#45U:#45G)ExpressionStatement[2](22L,1C-28C(395-422))6 <40-45>
+INSERT(1) (#867U:#98G)Identifier:NULL[7](31L,51C-54C(611-614))1 <98>
+INSERT(1) (#1456U:#687G)StringLiteral:"SSS"[4](177L,47C-51C(3403-3407))1 <687>
+INSERT(1) (#865U:#96G)IntegerLiteral:0[5](31L,45C-45C(605-605))1 <96>
+INSERT(3) (#1337U:#568G)PostfixExpressionArrow[1](144L,18C-24C(2744-2750))3 <566-568>
+INSERT(1) (#920U:#151G)StringLiteral:"SS"[4](43L,47C-50C(834-837))1 <151>
+INSERT(1) (#1461U:#692G)StringLiteral:"), try to set server.event-handler = \"poll\" or \"select\""[7](178L,39C-99C(3449-3509))1 <692>
+INSERT(1) (#1045U:#276G)StringLiteral:"SS"[4](72L,47C-50C(1374-1377))1 <276>
+INSERT(1) (#1046U:#277G)StringLiteral:"kqueue event add failed: "[5](73L,3C-29C(1383-1409))1 <277>
+INSERT(1) (#864U:#95G)Identifier:EV_DELETE[4](31L,34C-42C(594-602))1 <95>
+INSERT(2) (#842U:#73G)NoptrDeclaratorArray[0](26L,15C-20C(500-505))2 [(#840U:#71G)] <72-73>
+INSERT(1) (#857U:#88G)Identifier:6EV_SET[0](31L,1C-6C(561-566))1 <88>
+INSERT(1) (#1143U:#374G)StringLiteral:"SS"[4](99L,48C-51C(1910-1913))1 <374>
+INSERT(1) (#921U:#152G)StringLiteral:"kqueue event delete failed: "[5](44L,3C-32C(843-872))1 <152>
+INSERT(3) (#1042U:#273G)PostfixExpressionArrow[1](72L,18C-24C(1345-1351))3 <271-273>
+INSERT(1) (#1511U:#742G)StringLiteral:"S"[4](192L,46C-48C(3695-3697))1 <742>
+INSERT(1) (#866U:#97G)IntegerLiteral:0[6](31L,48C-48C(608-608))1 <97>
+INSERT(1) (#1457U:#688G)StringLiteral:"kqueue failed ("[5](178L,3C-19C(3413-3429))1 <688>
+INSERT(3) (#1140U:#371G)PostfixExpressionArrow[1](99L,19C-25C(1881-1887))3 <369-371>
+INSERT(1) (#1341U:#572G)StringLiteral:"kqueue failed ("[5](145L,3C-19C(2783-2799))1 <572>
+INSERT(1) (#1144U:#375G)StringLiteral:"kqueue failed polling: "[5](100L,4C-28C(1920-1944))1 <375>
+INSERT(3) (#1508U:#739G)PostfixExpressionArrow[1](192L,17C-23C(3666-3672))3 <737-739>
+INSERT(1) (#1512U:#743G)StringLiteral:"kqueue not available, try to set server.event-handler = \"poll\" or \"select\""[5](193L,2C-81C(3702-3781))1 <743>
+INSERT(2) (#873U:#104G)PostfixExpressionSubscr[0](32L,9C-14C(627-632))2 [(#871U:#102G)] <103-104>
+INSERT(3) (#1453U:#684G)PostfixExpressionArrow[1](177L,18C-24C(3374-3380))3 <682-684>
+INSERT(1) (#1345U:#576G)StringLiteral:"), try to set server.event-handler = \"poll\" or \"select\""[7](145L,39C-99C(2819-2879))1 <576>
+INSERT(1) (#1340U:#571G)StringLiteral:"SSS"[4](144L,47C-51C(2773-2777))1 <571>
+INSERT(3) (#917U:#148G)PostfixExpressionArrow[1](43L,18C-24C(805-811))3 <146-148>
+INSERT(4) (#861U:#92G)UnaryExpressionAddr[1](31L,8C-14C(568-574))4 <89-92>

@@ -1,0 +1,43 @@
+*** Modified Units ***
+Method(isLineNumberingEnabled()Z)(347L,1C-350L,1C(8450-8525)): [DELETED] 7(1) changed [d:7(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(isCollapsed()Z)(401L,1C-404L,1C(9657-9710)): [RENAMED] 4(4) changed [d:0(0)i:0(0)r:4(4)m:0(0)], 6 mapped
+Method(mouseDragged(Ljava.awt.event.MouseEvent;)V)(548L,2C-568L,2C(12910-13390)): [MODIFIED] 47(11) changed [d:39(6)i:2(1)r:3(3)m:3(1)], 32 mapped
+Class(MouseHandler)(514L,1C-602L,1C(12140-14039)): [MODIFIED] 188(53) changed [d:109(18)i:47(12)r:13(13)m:19(10)], 123 mapped
+Method(setBorder(Ljavax.swing.border.Border;)V)(236L,1C-253L,1C(6259-6624)): [MODIFIED] 21(6) changed [d:7(2)i:12(2)r:1(1)m:1(1)], 48 mapped
+Method(getPreferredSize()Ljava.awt.Dimension;)(320L,1C-330L,1C(7976-8103)): [MODIFIED] 6(5) changed [d:2(2)i:0(0)r:2(2)m:2(1)], 10 mapped
+Method(setGutterWidth(I)V)(296L,1C-305L,1C(7450-7728)): [RENAMED] 29(6) changed [d:23(2)i:3(1)r:3(3)m:0(0)], 3 mapped
+Method(paintLineNumbers(Ljava.awt.Graphics;)V)(63L,1C-131L,1C(1744-3493)): [DELETED] 138(53) changed [d:43(13)i:0(0)r:23(23)m:72(17)], 223 mapped
+Method(saveGutterSize()V)(433L,1C-437L,1C(10337-10452)): [DELETED] 15(4) changed [d:9(1)i:0(0)r:2(2)m:4(1)], 4 mapped
+Method(setContextMenu(Ljavax.swing.JPopupMenu;)V)(480L,1C-483L,1C(11397-11474)): [DELETED] 12(1) changed [d:12(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(mouseReleased(Ljava.awt.event.MouseEvent;)V)(585L,2C-598L,2C(13672-13971)): [MODIFIED] 19(6) changed [d:16(4)i:2(1)r:1(1)m:0(0)], 29 mapped
+Method(invalidateLineRange(II)V)(169L,1C-177L,1C(4354-4653)): [DELETED] 50(6) changed [d:41(3)i:0(0)r:1(1)m:8(2)], 8 mapped
+Method(getGutterWidth()I)(311L,1C-314L,1C(7812-7871)): [RENAMED] 16(8) changed [d:3(2)i:9(3)r:2(2)m:2(1)], 4 mapped
+Method(toggleCollapsed()V)(424L,1C-427L,1C(10167-10229)): [RENAMED] 6(6) changed [d:0(0)i:0(0)r:6(6)m:0(0)], 8 mapped
+Method(setCollapsed(Z)V)(412L,1C-419L,1C(9948-10096)): [RENAMED] 10(10) changed [d:0(0)i:0(0)r:10(10)m:0(0)], 20 mapped
+Method(mousePressed(Ljava.awt.event.MouseEvent;)V)(516L,2C-546L,2C(12216-12905)): [MODIFIED] 110(34) changed [d:42(6)i:43(10)r:9(9)m:16(9)], 45 mapped
+Method(invalidateLine(I)V)(154L,1C-162L,1C(3956-4197)): [DELETED] 40(1) changed [d:40(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(paintComponent(Ljava.awt.Graphics;)V)(42L,1C-61L,1C(1219-1740)): [MOVED] 117(33) changed [d:9(2)i:82(14)r:11(11)m:15(6)], 44 mapped
+Class(Gutter)(28L,0C-603L,0C(923-14041)): [MODIFIED] 792(224) changed [d:394(61)i:166(34)r:82(82)m:150(47)], 944 mapped
+Method(paintCustomHighlights(Ljava.awt.Graphics;)V)(133L,1C-148L,1C(3497-3867)): [DELETED] 62(12) changed [d:34(3)i:0(0)r:1(1)m:27(8)], 27 mapped
+Method(setLineNumberingEnabled(Z)V)(357L,1C-364L,1C(8688-8841)): [DELETED] 18(1) changed [d:18(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(getContextMenu()Ljavax.swing.JPopupMenu;)(475L,1C-478L,1C(11336-11393)): [DELETED] 7(1) changed [d:7(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(toggleLineNumberingEnabled()V)(370L,1C-373L,1C(8950-9045)): [DELETED] 9(1) changed [d:9(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+*** Unmodified Units ***
+Method(mouseMoved(Ljava.awt.event.MouseEvent;)V)(583L,2C-40C(13629-13667))
+Method(setCurrentLineHighlightEnabled(Z)V)(466L,1C-473L,1C(11158-11332))
+Method(isCurrentLineHighlightEnabled()Z)(461L,1C-464L,1C(11065-11154))
+Method(setHighlightInterval(I)V)(454L,1C-459L,1C(10934-11061))
+Method(getHighlightInterval()I)(444L,1C-447L,1C(10643-10700))
+Method(setLineNumberAlignment(I)V)(388L,1C-395L,1C(9372-9514))
+Method(getLineNumberAlignment()I)(379L,1C-382L,1C(9181-9241))
+Method(getToolTipText(Ljava.awt.event.MouseEvent;)Ljava.lang.String;)(337L,1C-341L,1C(8178-8301))
+Method(getMinimumSize()Ljava.awt.Dimension;)(332L,1C-335L,1C(8107-8174))
+Method(setCurrentLineForeground(Ljava.awt.Color;)V)(287L,1C-290L,2C(7266-7361))
+Method(getCurrentLineForeground()Ljava.awt.Color;)(282L,1C-285L,1C(7186-7262))
+Method(setHighlightedForeground(Ljava.awt.Color;)V)(277L,1C-280L,1C(7091-7182))
+Method(getHighlightedForeground()Ljava.awt.Color;)(272L,1C-275L,1C(7015-7087))
+Method(setFont(Ljava.awt.Font;)V)(260L,1C-266L,1C(6794-6911))
+Method(updateBorder()V)(211L,1C-229L,1C(5618-6089))
+Method(run()V)(218L,3C-227L,3C(5883-6080))
+Method(setBorder(ILjava.awt.Color;Ljava.awt.Color;Ljava.awt.Color;)V)(197L,1C-206L,1C(5183-5537))
+Method(addCustomHighlight(LTextAreaHighlight;)V)(183L,1C-187L,1C(4739-4869))

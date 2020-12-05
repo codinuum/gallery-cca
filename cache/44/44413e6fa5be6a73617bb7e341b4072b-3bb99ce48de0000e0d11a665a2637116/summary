@@ -1,0 +1,140 @@
+*** Modified Units ***
+Method(showBufferOptionsDialog(Ljavax.swing.text.View;)V)(113L,1C-116L,1C(3416-3499)): [DELETED] 13(1) changed [d:13(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(addMarker(Ljava.lang.String;II)V)(1719L,1C-1753L,1C(38841-39590)): [MODIFIED] 8(4) changed [d:0(0)i:7(3)r:1(1)m:0(0)], 117 mapped
+Method(run()V)(411L,3C-482L,3C(10212-11856)): [MODIFIED] 39(7) changed [d:0(0)i:37(5)r:2(2)m:0(0)], 125 mapped
+Method(setPath(Ljava.lang.String;)V)(2029L,1C-2045L,1C(45673-46080)): [MODIFIED] 7(2) changed [d:0(0)i:0(0)r:1(1)m:6(1)], 54 mapped
+Method(tokenizeLines(II)V)(1682L,1C-1693L,1C(38124-38382)): [MODIFIED] 23(14) changed [d:7(5)i:2(1)r:4(4)m:10(4)], 39 mapped
+Method(insertUpdate(Ljavax.swing.event.DocumentEvent;)V)(2324L,2C-2327L,2C(51073-51142)): [MODIFIED] 3(1) changed [d:0(0)i:0(0)r:0(0)m:3(1)], 3 mapped
+Method(fireRemoveUpdate(Ljavax.swing.event.DocumentEvent;)V)(1961L,1C-1981L,1C(43995-44524)): [MODIFIED] 17(14) changed [d:7(5)i:0(0)r:6(6)m:4(3)], 63 mapped
+Method(setDirty(Z)V)(934L,1C-961L,1C(21221-21780)): [MODIFIED] 3(3) changed [d:0(0)i:2(2)r:1(1)m:0(0)], 78 mapped
+Method(removeAllMarkers()V)(1778L,1C-1786L,1C(40097-40277)): [MODIFIED] 3(3) changed [d:0(0)i:2(2)r:1(1)m:0(0)], 23 mapped
+Method(print(Ljavax.swing.text.View;)V)(138L,1C-327L,1C(3933-8346)): [MODIFIED] 41(15) changed [d:16(3)i:12(4)r:4(4)m:9(4)], 608 mapped
+Method(removeTrailingWhiteSpace(II)V)(1144L,1C-1192L,1C(25655-26603)): [MODIFIED] 19(14) changed [d:6(1)i:0(0)r:13(13)m:0(0)], 134 mapped
+Method(reload(Ljavax.swing.text.View;)V)(335L,1C-350L,1C(8496-8876)): [MODIFIED] 12(6) changed [d:8(2)i:2(2)r:2(2)m:0(0)], 35 mapped
+Method(removeMarker(Ljava.lang.String;)V)(1759L,1C-1772L,1C(39701-40025)): [MODIFIED] 3(3) changed [d:0(0)i:2(2)r:1(1)m:0(0)], 59 mapped
+Method(run()V)(672L,3C-724L,3C(16129-17326)): [MODIFIED] 6(6) changed [d:0(0)i:3(3)r:3(3)m:0(0)], 111 mapped
+Method(indentLine(IZZ)Z)(1418L,1C-1646L,1C(32073-37265)): [MODIFIED] 2(2) changed [d:1(1)i:0(0)r:1(1)m:0(0)], 572 mapped
+Method(setMode(LMode;)V)(1337L,1C-1356L,1C(29985-30475)): [MODIFIED] 3(3) changed [d:0(0)i:2(2)r:1(1)m:0(0)], 45 mapped
+Method(fireInsertUpdate(Ljavax.swing.event.DocumentEvent;)V)(1933L,1C-1954L,1C(43279-43839)): [MODIFIED] 16(11) changed [d:5(4)i:0(0)r:5(5)m:6(2)], 73 mapped
+Class(DocumentHandler)(2321L,1C-2337L,1C(51017-51275)): [DELETED] 35(3) changed [d:29(1)i:0(0)r:0(0)m:6(2)], 6 mapped
+Method(getTokenMarker()LTokenMarker;)(1651L,1C-1654L,1C(37325-37393)): [DELETED] 8(1) changed [d:8(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Class(Buffer)(60L,0C-2338L,0C(2024-51277)): [MODIFIED] 3111(229) changed [d:153(39)i:2815(94)r:69(69)m:74(27)], 4981 mapped
+Method(recoverAutosave(Ljavax.swing.text.View;)Z)(2047L,1C-2077L,1C(46084-46831)): [MODIFIED] 12(6) changed [d:8(2)i:2(2)r:2(2)m:0(0)], 65 mapped
+Method(load(Ljavax.swing.text.View;Z)Z)(360L,1C-491L,1C(9087-11972)): [MODIFIED] 41(9) changed [d:0(0)i:38(6)r:3(3)m:0(0)], 255 mapped
+Method(save(Ljavax.swing.text.View;Ljava.lang.String;Z)Z)(620L,1C-728L,1C(14871-17351)): [MODIFIED] 20(14) changed [d:8(2)i:6(6)r:6(6)m:0(0)], 256 mapped
+Method(setTokenMarker(LTokenMarker;)V)(1661L,1C-1668L,1C(37539-37762)): [MOVED] 67(17) changed [d:13(3)i:34(4)r:5(5)m:15(5)], 14 mapped
+Method(propertiesChanged()V)(83L,1C-107L,1C(2770-3333)): [MODIFIED] 14(11) changed [d:4(3)i:0(0)r:6(6)m:4(2)], 59 mapped
+Method(checkModTime(Ljavax.swing.text.View;)V)(750L,1C-792L,1C(17722-18808)): [MODIFIED] 47(15) changed [d:7(2)i:27(6)r:6(6)m:7(1)], 108 mapped
+Method(removeUpdate(Ljavax.swing.event.DocumentEvent;)V)(2329L,2C-2332L,2C(51147-51216)): [MODIFIED] 3(1) changed [d:0(0)i:0(0)r:0(0)m:3(1)], 3 mapped
+Method(indentLines(II)V)(1671L,1C-1677L,1C(37618-37774)): [INSERTED] 32(1) changed [d:0(0)i:32(1)r:0(0)m:0(0)], 0 mapped
+Method(getLineInfo(I)Lorg.gjt.sp.jedit.Buffer$LineInfo;)(1951L,1C-1954L,1C(44161-44228)): [INSERTED] 12(1) changed [d:0(0)i:12(1)r:0(0)m:0(0)], 0 mapped
+Method(fireFoldLevelsChanged(II)V)(3235L,1C-3242L,1C(71516-71730)): [INSERTED] 37(1) changed [d:0(0)i:37(1)r:0(0)m:0(0)], 0 mapped
+Method(addFoldListener(Lorg.gjt.sp.jedit.Buffer$FoldListener;)V)(2525L,1C-2528L,1C(56453-56532)): [INSERTED] 12(1) changed [d:0(0)i:12(1)r:0(0)m:0(0)], 0 mapped
+Method(addLinesToMap(II)V)(3095L,1C-3164L,1C(68208-69868)): [INSERTED] 231(1) changed [d:0(0)i:231(1)r:0(0)m:0(0)], 0 mapped
+Method(physicalToVirtual(I)I)(2133L,1C-2175L,1C(48136-48917)): [INSERTED] 120(1) changed [d:0(0)i:120(1)r:0(0)m:0(0)], 0 mapped
+Method(expandFolds(C)V)(2422L,1C-2431L,1C(54238-54416)): [INSERTED] 32(1) changed [d:0(0)i:32(1)r:0(0)m:0(0)], 0 mapped
+Method(removeLinesFromMap(II)V)(3172L,1C-3199L,1C(70057-70738)): [INSERTED] 94(1) changed [d:0(0)i:94(1)r:0(0)m:0(0)], 0 mapped
+Method(removeFoldListener(Lorg.gjt.sp.jedit.Buffer$FoldListener;)V)(2535L,1C-2538L,1C(56633-56718)): [INSERTED] 12(1) changed [d:0(0)i:12(1)r:0(0)m:0(0)], 0 mapped
+Method(markTokens(I)Lorg.gjt.sp.jedit.Buffer$LineInfo;)(1804L,1C-1894L,1C(40943-42857)): [INSERTED] 233(1) changed [d:0(0)i:233(1)r:0(0)m:0(0)], 0 mapped
+Method(clearProperties()V)(2975L,1C-2982L,1C(65824-66068)): [MODIFIED] 16(2) changed [d:0(0)i:16(2)r:0(0)m:0(0)], 0 mapped
+Method(collapseFoldAt(I)Z)(2183L,1C-2275L,1C(49123-50860)): [INSERTED] 216(1) changed [d:0(0)i:216(1)r:0(0)m:0(0)], 0 mapped
+Method(getNextVisibleLine(I)I)(2104L,1C-2113L,1C(47517-47672)): [INSERTED] 34(1) changed [d:0(0)i:34(1)r:0(0)m:0(0)], 0 mapped
+Method(isFoldStart(I)Z)(1969L,1C-1996L,1C(44477-45418)): [INSERTED] 26(1) changed [d:0(0)i:26(1)r:0(0)m:0(0)], 0 mapped
+Method(getPrevVisibleLine(I)I)(2087L,1C-2096L,1C(47196-47344)): [INSERTED] 34(1) changed [d:0(0)i:34(1)r:0(0)m:0(0)], 0 mapped
+Method(virtualToPhysical(I)I)(2121L,1C-2127L,1C(47878-48039)): [INSERTED] 23(1) changed [d:0(0)i:23(1)r:0(0)m:0(0)], 0 mapped
+Method(isNextLineRequested()Z)(1942L,1C-1945L,1C(43996-44065)): [INSERTED] 7(1) changed [d:0(0)i:7(1)r:0(0)m:0(0)], 0 mapped
+Method(expandFolds(I)V)(2440L,1C-2466L,1C(54692-55248)): [INSERTED] 92(1) changed [d:0(0)i:92(1)r:0(0)m:0(0)], 0 mapped
+Class(LineInfo)(3266L,1C-3341L,1C(72163-73719)): [INSERTED] 157(1) changed [d:0(0)i:157(1)r:0(0)m:0(0)], 0 mapped
+Method(setLineWidth(II)Z)(1902L,1C-1908L,1C(43002-43178)): [INSERTED] 29(1) changed [d:0(0)i:29(1)r:0(0)m:0(0)], 0 mapped
+Method(expandAllFolds()V)(2472L,1C-2490L,1C(55335-55745)): [INSERTED] 64(1) changed [d:0(0)i:64(1)r:0(0)m:0(0)], 0 mapped
+Method(paintSyntaxLine(I[LSyntaxStyle;Ljavax.swing.text.TabExpander;ZZLjava.awt.Graphics;Ljava.awt.Color;II)I)(1714L,1C-1797L,1C(38835-40813)): [INSERTED] 270(2) changed [d:0(0)i:270(2)r:0(0)m:0(0)], 0 mapped
+Method(linesChanged(II)V)(3207L,1C-3215L,1C(70930-71124)): [INSERTED] 40(1) changed [d:0(0)i:40(1)r:0(0)m:0(0)], 0 mapped
+Method(getMaxLineWidth(II)I)(1918L,1C-1935L,1C(43488-43801)): [INSERTED] 59(1) changed [d:0(0)i:59(1)r:0(0)m:0(0)], 0 mapped
+Method(insideCompoundEdit()Z)(1149L,1C-1152L,1C(25620-25691)): [INSERTED] 9(1) changed [d:0(0)i:9(1)r:0(0)m:0(0)], 0 mapped
+Method(getVirtualLineCount()I)(2553L,1C-2556L,1C(56957-57021)): [INSERTED] 7(1) changed [d:0(0)i:7(1)r:0(0)m:0(0)], 0 mapped
+Interface(FoldListener)(3256L,1C-3261L,1C(71958-72086)): [INSERTED] 15(1) changed [d:0(0)i:15(1)r:0(0)m:0(0)], 0 mapped
+Method(expandFoldAt(IZ)Z)(2285L,1C-2416L,1C(51166-54147)): [INSERTED] 344(1) changed [d:0(0)i:344(1)r:0(0)m:0(0)], 0 mapped
+Method(fireFoldStructureChanged()V)(3244L,1C-3251L,1C(71734-71909)): [INSERTED] 30(1) changed [d:0(0)i:30(1)r:0(0)m:0(0)], 0 mapped
+Method(isLineVisible(I)Z)(1960L,1C-1963L,1C(44313-44389)): [INSERTED] 13(1) changed [d:0(0)i:13(1)r:0(0)m:0(0)], 0 mapped
+Method(getLineCount()I)(2544L,1C-2547L,1C(56813-56863)): [INSERTED] 7(1) changed [d:0(0)i:7(1)r:0(0)m:0(0)], 0 mapped
+Method(narrow(II)V)(2499L,1C-2518L,1C(55924-56355)): [INSERTED] 96(1) changed [d:0(0)i:96(1)r:0(0)m:0(0)], 0 mapped
+Method(getFoldLevel(I)I)(2002L,1C-2079L,1C(45507-47020)): [INSERTED] 193(1) changed [d:0(0)i:193(1)r:0(0)m:0(0)], 0 mapped
+*** Unmodified Units ***
+Method(changedUpdate(Ljavax.swing.event.DocumentEvent;)V)(2334L,2C-2336L,2C(51221-51272))
+Class(UndoHandler)(2312L,1C-2319L,1C(50857-51013))
+Method(undoableEditHappened(Ljavax.swing.event.UndoableEditEvent;)V)(2315L,2C-2318L,2C(50913-51010))
+Class(SaveUndo)(2249L,1C-2309L,1C(50077-50834))
+Method(getRedoPresentationName()Ljava.lang.String;)(2305L,2C-2308L,2C(50769-50831))
+Method(getUndoPresentationName()Ljava.lang.String;)(2300L,2C-2303L,2C(50702-50764))
+Method(getPresentationName()Ljava.lang.String;)(2295L,2C-2298L,2C(50639-50697))
+Method(replaceEdit(Ljavax.swing.undo.UndoableEdit;)Z)(2290L,2C-2293L,2C(50565-50634))
+Method(addEdit(Ljavax.swing.undo.UndoableEdit;)Z)(2285L,2C-2288L,2C(50495-50560))
+Method(die()V)(2280L,2C-2283L,2C(50450-50490))
+Method(isSignificant()Z)(2275L,2C-2278L,2C(50391-50445))
+Method(canRedo()Z)(2270L,2C-2273L,2C(50339-50386))
+Method(redo()V)(2265L,2C-2268L,2C(50298-50334))
+Method(canUndo()Z)(2260L,2C-2263L,2C(50246-50293))
+Method(undo()V)(2253L,2C-2258L,2C(50138-50241))
+Class(MyUndoManager)(2236L,1C-2247L,1C(49866-50073))
+Method(editToBeRedone()Ljavax.swing.undo.UndoableEdit;)(2243L,2C-2246L,2C(49993-50070))
+Method(editToBeUndone()Ljavax.swing.undo.UndoableEdit;)(2238L,2C-2241L,2C(49911-49988))
+Class(BufferProps)(2197L,1C-2232L,1C(49065-49771))
+Method(get(Ljava.lang.Object;)Ljava.lang.Object;)(2199L,2C-2231L,2C(49106-49768))
+Class(PrintTabExpander)(2177L,1C-2193L,1C(48592-48976))
+Method(nextTabStop(FI)F)(2188L,2C-2192L,2C(48824-48973))
+Method(parseBufferLocalProperty(Ljava.lang.String;)V)(2111L,1C-2175L,1C(47529-48588))
+Method(parseBufferLocalProperties()V)(2085L,1C-2109L,1C(46961-47525))
+Method(clearProperties()V)(2079L,1C-2083L,1C(46835-46957))
+Method(run()V)(2067L,4C-2070L,4C(46692-46776))
+Method(getFlag(I)Z)(1992L,1C-1996L,1C(44672-44769))
+Method(setFlag(IZ)V)(1984L,1C-1990L,1C(44548-44668))
+Method(close()V)(1916L,1C-1924L,1C(42973-43100))
+Method(commitTemporary()V)(1910L,1C-1914L,1C(42888-42969))
+Method(handleMessage(LEBMessage;)V)(1846L,1C-1850L,1C(41268-41376))
+Method(toString()Ljava.lang.String;)(1841L,1C-1844L,1C(41179-41264))
+Method(getIndex()I)(1823L,1C-1835L,1C(40897-41074))
+Method(getPrev()Lorg.gjt.sp.jedit.Buffer;)(1815L,1C-1818L,1C(40774-40823))
+Method(getNext()Lorg.gjt.sp.jedit.Buffer;)(1807L,1C-1810L,1C(40666-40715))
+Method(getMarker(Ljava.lang.String;)LMarker;)(1792L,1C-1802L,1C(40371-40611))
+Method(getMarkerCount()I)(1708L,1C-1711L,1C(38598-38661))
+Method(getMarkers()Ljava.util.Vector;)(1699L,1C-1702L,1C(38454-38509))
+Method(tokenizeLines()V)(1673L,1C-30C(37816-37845))
+Method(setMode()V)(1362L,1C-1404L,1C(30587-31468))
+Method(getMode()LMode;)(1328L,1C-1331L,1C(29864-29911))
+Method(putBooleanProperty(Ljava.lang.String;Z)V)(1320L,1C-1323L,1C(29692-29813))
+Method(getBooleanProperty(Ljava.lang.String;)Z)(1304L,1C-1313L,1C(29322-29588))
+Method(getIndentSize()I)(1295L,1C-1298L,1C(29140-29229))
+Method(getTabSize()I)(1285L,1C-1288L,1C(28908-28991))
+Method(shiftIndentRight(II)V)(1244L,1C-1279L,1C(27869-28790))
+Method(shiftIndentLeft(II)V)(1199L,1C-1237L,1C(26750-27721))
+Method(endCompoundEdit()V)(1120L,1C-1136L,1C(25179-25484))
+Method(beginCompoundEdit()V)(1100L,1C-1111L,1C(24750-24952))
+Method(addUndoableEdit(Ljavax.swing.undo.UndoableEdit;)V)(1070L,1C-1087L,1C(23896-24325))
+Method(redo()V)(1029L,1C-1055L,1C(22962-23335))
+Method(undo()V)(995L,1C-1021L,1C(22459-22832))
+Method(getIcon()Ljavax.swing.Icon;)(978L,1C-988L,1C(22099-22383))
+Method(isTemporary()Z)(969L,1C-972L,1C(21966-22028))
+Method(setReadOnly(Z)V)(926L,1C-929L,1C(21056-21139))
+Method(isEditable()Z)(917L,1C-920L,1C(20869-20974))
+Method(isReadOnly()Z)(908L,1C-911L,1C(20703-20770))
+Method(isDirty()Z)(900L,1C-903L,1C(20568-20628))
+Method(isUntitled()Z)(891L,1C-894L,1C(20408-20474))
+Method(setNewFile(Z)V)(883L,1C-886L,1C(20270-20349))
+Method(isNewFile()Z)(874L,1C-877L,1C(20126-20191))
+Method(isSaving()Z)(866L,1C-869L,1C(20001-20059))
+Method(isPerformingIO()Z)(858L,1C-861L,1C(19857-19941))
+Method(isLoaded()Z)(849L,1C-852L,1C(19694-19758))
+Method(isClosed()Z)(841L,1C-844L,1C(19576-19638))
+Method(getPath()Ljava.lang.String;)(832L,1C-835L,1C(19422-19471))
+Method(getName()Ljava.lang.String;)(824L,1C-827L,1C(19317-19366))
+Method(getAutosaveFile()Ljava.io.File;)(816L,1C-819L,1C(19203-19266))
+Method(getFile()Ljava.io.File;)(807L,1C-810L,1C(19048-19095))
+Method(getVFS()LVFS;)(798L,1C-801L,1C(18909-18947))
+Method(setLastModified(J)V)(742L,1C-745L,1C(17591-17663))
+Method(getLastModified()J)(733L,1C-736L,1C(17424-17476))
+Method(save(Ljavax.swing.text.View;Ljava.lang.String;)Z)(605L,1C-608L,1C(14415-14494))
+Method(saveAs(Ljavax.swing.text.View;Z)Z)(585L,1C-596L,1C(13892-14193))
+Method(autosave()V)(563L,1C-576L,1C(13304-13642))
+Method(insert(Ljavax.swing.text.View;Ljava.lang.String;)Z)(499L,1C-558L,1C(12095-13263))
+Method(run()V)(541L,3C-554L,3C(12941-13238))
+Method(showInsertFileDialog(Ljavax.swing.text.View;)V)(124L,1C-131L,1C(3656-3846))

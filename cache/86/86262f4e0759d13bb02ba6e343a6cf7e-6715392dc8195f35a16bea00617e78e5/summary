@@ -1,0 +1,8 @@
+*** Modified Units ***
+Class(Bar)(29L,1C-35L,1C(456-582)): [MODIFIED] 3(3) changed [d:0(0)i:0(0)r:3(3)m:0(0)], 18 mapped
+Class(Test)(3L,0C-40L,0C(15-650)): [MODIFIED] 43(22) changed [d:13(2)i:9(4)r:14(14)m:7(2)], 100 mapped
+Method(method()V)(30L,2C-34L,2C(478-579)): [RENAMED] 3(3) changed [d:0(0)i:0(0)r:3(3)m:0(0)], 13 mapped
+Method(foo(I)I)(11L,1C-27L,1C(151-451)): [MODIFIED] 16(7) changed [d:4(1)i:3(2)r:2(2)m:7(2)], 52 mapped
+Method(bar(I)V)(36L,1C-38L,1C(585-647)): [RENAMED] 5(5) changed [d:0(0)i:0(0)r:5(5)m:0(0)], 11 mapped
+Method(emptyMethod()V)(27L,1C-29C(404-432)): [INSERTED] 5(1) changed [d:0(0)i:5(1)r:0(0)m:0(0)], 0 mapped
+*** Unmodified Units ***

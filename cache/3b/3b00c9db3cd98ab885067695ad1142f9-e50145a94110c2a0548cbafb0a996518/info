@@ -1,0 +1,76 @@
+MOVE#6M(1):PERMUTATION (#167U:#167G)Identifier:fdevent_freebsd_kqueue_init[0](59L,11C-37C(1576-1602))1 -> (#1082U:#175G)Identifier:fdevent_freebsd_kqueue_init[0](53L,11C-37C(1381-1407))1 <167>
+MOVE#27M(1):PERMUTATION (#127U:#127G)Identifier:fdevent_linux_sysepoll_init[0](45L,11C-37C(1047-1073))1 -> (#1034U:#127G)Identifier:fdevent_linux_sysepoll_init[0](39L,11C-37C(834-860))1 <127>
+MOVE#4M(1):PERMUTATION (#144U:#144G)Identifier:FDEVENT_HANDLER_SOLARIS_DEVPOLL[0](51L,6C-36C(1267-1297))1 -> (#1055U:#148G)Identifier:FDEVENT_HANDLER_SOLARIS_DEVPOLL[0](45L,6C-36C(1063-1093))1 <144>
+MOVE#3M(2):PERMUTATION (#194U:#194G)ReturnStatement[13](68L,2C-13C(1939-1950))2 -> (#1144U:#237G)ReturnStatement[7](72L,1C-12C(2032-2043))2 <193-194>
+MOVE#1M(1):PERMUTATION (#197U:#197G)Identifier:ev[0](71L,8C-9C(1964-1965))1 -> (#956U:#49G)Identifier:ev[0](18L,1C-2C(303-304))1 <197>
+MOVE#31M(1):PERMUTATION (#124U:#124G)Identifier:FDEVENT_HANDLER_LINUX_SYSEPOLL[0](44L,6C-35C(1004-1033))1 -> (#1031U:#124G)Identifier:FDEVENT_HANDLER_LINUX_SYSEPOLL[0](38L,6C-35C(791-820))1 <124>
+MOVE#2M(5):PERMUTATION (#191U:#191G)ExpressionStatement[1](66L,2C-67L,22C(1802-1935))5 [(#185U:#185G);(#187U:#187G)] -> (#1142U:#235G)ExpressionStatement[6](70L,1C-71L,87C(1892-2029))5 [(#1136U:#229G);(#1139U:#232G);(#1140U:#233G)] <186;188-191>
+MOVE#5M(1):PERMUTATION (#164U:#164G)Identifier:FDEVENT_HANDLER_FREEBSD_KQUEUE[0](58L,6C-35C(1533-1562))1 -> (#1079U:#172G)Identifier:FDEVENT_HANDLER_FREEBSD_KQUEUE[0](52L,6C-35C(1338-1367))1 <164>
+MOVE#32M(1):PERMUTATION (#147U:#147G)Identifier:fdevent_solaris_devpoll_init[0](52L,11C-38C(1311-1338))1 -> (#1058U:#151G)Identifier:fdevent_solaris_devpoll_init[0](46L,11C-38C(1107-1134))1 <147>
+RELABEL (#143U:#143G)BreakStatement[7](50L,2C-7C(1254-1259))1 -> (#1078U:#171G)ReturnStatement[7](51L,2C-11C(1321-1330))1 [(#1077U:#170G)]
+RELABEL (#2U:#2G)PpInclude:"buffer.h"[1](2L,0C-19C(21-40))1 -> (#909U:#2G)PpInclude:"log.h"[1](2L,0C-16C(18-34))1
+RELABEL (#72U:#72G)Identifier:stderr[1](24L,11C-16C(462-467))1 -> (#990U:#83G)Identifier:15log_error_write[0](25L,3C-17C(477-491))1
+RELABEL (#103U:#103G)BreakStatement[3](36L,2C-7C(737-742))1 -> (#1030U:#123G)ReturnStatement[3](37L,2C-11C(774-783))1 [(#1029U:#122G)]
+RELABEL (#183U:#183G)BreakStatement[11](64L,2C-7C(1783-1788))1 -> (#1126U:#219G)ReturnStatement[11](65L,2C-11C(1838-1847))1 [(#1125U:#218G)]
+RELABEL (#152U:#152G)Identifier:stderr[1](53L,11C-16C(1358-1363))1 -> (#1086U:#179G)Identifier:15log_error_write[0](54L,3C-17C(1419-1433))1
+RELABEL (#1U:#1G)PpInclude:"fdevent.h"[0](1L,0C-19C(0-20))1 -> (#908U:#1G)PpInclude:"base.h"[0](1L,0C-16C(0-17))1
+RELABEL (#163U:#163G)BreakStatement[9](57L,2C-7C(1520-1525))1 -> (#1102U:#195G)ReturnStatement[9](58L,2C-11C(1593-1602))1 [(#1101U:#194G)]
+RELABEL (#132U:#132G)Identifier:stderr[1](46L,11C-16C(1093-1098))1 -> (#1062U:#155G)Identifier:15log_error_write[0](47L,3C-17C(1146-1160))1
+RELABEL (#123U:#123G)BreakStatement[5](43L,2C-7C(991-996))1 -> (#1054U:#147G)ReturnStatement[5](44L,2C-11C(1046-1055))1 [(#1053U:#146G)]
+RELABEL (#112U:#112G)Identifier:stderr[1](39L,11C-16C(833-838))1 -> (#1038U:#131G)Identifier:15log_error_write[0](40L,3C-17C(872-886))1
+RELABEL (#92U:#92G)Identifier:stderr[1](32L,11C-16C(642-647))1 -> (#1014U:#107G)Identifier:15log_error_write[0](33L,3C-17C(666-680))1
+MOVREL (#186U:#186G)Identifier:stderr[1](66L,10C-15C(1810-1815))1 -> (#1133U:#226G)Identifier:15log_error_write[0](70L,1C-15C(1892-1906))1
+RELABEL (#172U:#172G)Identifier:stderr[1](60L,11C-16C(1622-1627))1 -> (#1110U:#203G)Identifier:15log_error_write[0](61L,3C-17C(1673-1687))1
+RELABEL (#83U:#83G)BreakStatement[1](29L,2C-7C(556-561))1 -> (#1006U:#99G)ReturnStatement[1](30L,2C-11C(584-593))1 [(#1005U:#98G)]
+DELETE(1) (#153U:#153G)StringLiteral:"%s.%d: event-handler solaris-devpoll failed, try to set server.event-handler = \"poll\" or \"select\"\n"[2](53L,19C-123C(1366-1470))1 <153>
+DELETE(1) (#73U:#73G)StringLiteral:"%s.%d: event-handler poll failed\n"[2](24L,19C-54C(470-505))1 <73>
+DELETE(1) (#173U:#173G)StringLiteral:"%s.%d: event-handler freebsd-kqueue failed, try to set server.event-handler = \"poll\" or \"select\"\n"[2](60L,19C-122C(1630-1733))1 <173>
+DELETE(1) (#187U:#187G)StringLiteral:"%s.%d: event-handler is unknown, try to set server.event-handler = \"poll\" or \"select\"\n"[2](66L,18C-110C(1818-1910))1 <187>
+DELETE(1) (#151U:#151G)Identifier:fprintf[0](53L,3C-9C(1350-1356))1 <151>
+DELETE(1) (#71U:#71G)Identifier:fprintf[0](24L,3C-9C(454-460))1 <71>
+DELETE(1) (#198U:#198G)ReturnStatement[5](71L,1C-10C(1957-1966))1 [(#197U:#197G)] <198>
+DELETE(1) (#133U:#133G)StringLiteral:"%s.%d: event-handler linux-sysepoll failed, try to set server.event-handler = \"poll\" or \"select\"\n"[2](46L,19C-122C(1101-1204))1 <133>
+DELETE(1) (#104U:#104G)Identifier:FDEVENT_HANDLER_LINUX_RTSIG[0](37L,6C-32C(750-776))1 <104>
+DELETE(1) (#93U:#93G)StringLiteral:"%s.%d: event-handler select failed\n"[2](32L,19C-56C(650-687))1 <93>
+DELETE(1) (#111U:#111G)Identifier:fprintf[0](39L,3C-9C(825-831))1 <111>
+DELETE(1) (#184U:#184G)DefaultLabel[0](65L,1C-8C(1791-1798))1 <184>
+DELETE(1) (#131U:#131G)Identifier:fprintf[0](46L,3C-9C(1085-1091))1 <131>
+DELETE(1) (#113U:#113G)StringLiteral:"%s.%d: event-handler linux-rtsig failed, try to set server.event-handler = \"poll\" or \"select\"\n"[2](39L,19C-119C(841-941))1 <113>
+DELETE(1) (#107U:#107G)Identifier:fdevent_linux_rtsig_init[0](38L,11C-34C(790-813))1 <107>
+DELETE(1) (#185U:#185G)Identifier:fprintf[0](66L,2C-8C(1802-1808))1 <185>
+DELETE(1) (#171U:#171G)Identifier:fprintf[0](60L,3C-9C(1614-1620))1 <171>
+DELETE(1) (#91U:#91G)Identifier:fprintf[0](32L,3C-9C(634-640))1 <91>
+INSERT(1) (#1139U:#232G)StringLiteral:"S"[4](70L,46C-48C(1937-1939))1 <232>
+INSERT(6) (#926U:#19G)ParameterDeclaration[0](14L,23C-33C(202-212))6 <14-19>
+INSERT(1) (#1125U:#218G)Identifier:ev[0](65L,9C-10C(1845-1846))1 <218>
+INSERT(1) (#1068U:#161G)StringLiteral:"S"[4](47L,48C-50C(1191-1193))1 <161>
+INSERT(1) (#1044U:#137G)StringLiteral:"S"[4](40L,48C-50C(917-919))1 <137>
+INSERT(5) (#961U:#54G)ExpressionStatement[2](18L,1C-14C(303-316))5 [(#956U:#49G)] <50-54>
+INSERT(1) (#1117U:#210G)StringLiteral:"event-handler libev failed, try to set server.event-handler = \"poll\" or \"select\""[5](62L,4C-89C(1727-1812))1 <210>
+INSERT(1) (#1106U:#199G)Identifier:fdevent_libev_init[0](60L,11C-28C(1644-1661))1 <199>
+INSERT(1) (#997U:#90G)StringLiteral:"event-handler poll failed"[5](26L,4C-30C(531-557))1 <90>
+INSERT(1) (#1092U:#185G)StringLiteral:"S"[4](54L,48C-50C(1464-1466))1 <185>
+INSERT(1) (#1005U:#98G)Identifier:ev[0](30L,9C-10C(591-592))1 <98>
+INSERT(3) (#1041U:#134G)PostfixExpressionArrow[1](40L,19C-25C(888-894))3 <132-134>
+INSERT(6) (#1365U:#458G)ExpressionStatement[5](114L,1C-24C(2695-2718))6 <453-458>
+INSERT(1) (#1045U:#138G)StringLiteral:"event-handler linux-sysepoll failed, try to set server.event-handler = \"poll\" or \"select\""[5](41L,4C-98C(926-1020))1 <138>
+INSERT(1) (#1069U:#162G)StringLiteral:"event-handler solaris-devpoll failed, try to set server.event-handler = \"poll\" or \"select\""[5](48L,4C-99C(1200-1295))1 <162>
+INSERT(1) (#1116U:#209G)StringLiteral:"S"[4](61L,48C-50C(1718-1720))1 <209>
+INSERT(1) (#996U:#89G)StringLiteral:"S"[4](25L,48C-50C(522-524))1 <89>
+INSERT(1) (#1077U:#170G)Identifier:ev[0](51L,9C-10C(1328-1329))1 <170>
+INSERT(1) (#1053U:#146G)Identifier:ev[0](44L,9C-10C(1053-1054))1 <146>
+INSERT(3) (#1136U:#229G)PostfixExpressionArrow[1](70L,17C-23C(1908-1914))3 <227-229>
+INSERT(1) (#1140U:#233G)StringLiteral:"event-handler is unknown, try to set server.event-handler = \"poll\" or \"select\""[5](71L,2C-85C(1944-2027))1 <233>
+INSERT(1) (#1103U:#196G)Identifier:FDEVENT_HANDLER_LIBEV[0](59L,6C-26C(1610-1630))1 <196>
+INSERT(1) (#1101U:#194G)Identifier:ev[0](58L,9C-10C(1600-1601))1 <194>
+INSERT(3) (#1089U:#182G)PostfixExpressionArrow[1](54L,19C-25C(1435-1441))3 <180-182>
+INSERT(1) (#1129U:#222G)BreakStatement[1](67L,2C-7C(1880-1885))1 <222>
+INSERT(3) (#1017U:#110G)PostfixExpressionArrow[1](33L,19C-25C(682-688))3 <108-110>
+INSERT(1) (#1093U:#186G)StringLiteral:"event-handler freebsd-kqueue failed, try to set server.event-handler = \"poll\" or \"select\""[5](55L,4C-98C(1473-1567))1 <186>
+INSERT(1) (#1021U:#114G)StringLiteral:"event-handler select failed"[5](34L,4C-32C(720-748))1 <114>
+INSERT(1) (#1029U:#122G)Identifier:ev[0](37L,9C-10C(781-782))1 <122>
+INSERT(3) (#1065U:#158G)PostfixExpressionArrow[1](47L,19C-25C(1162-1168))3 <156-158>
+INSERT(3) (#993U:#86G)PostfixExpressionArrow[1](25L,19C-25C(493-499))3 <84-86>
+INSERT(1) (#1020U:#113G)StringLiteral:"S"[4](33L,48C-50C(711-713))1 <113>
+INSERT(2) (#1128U:#221G)CaseLabel[0](66L,1C-27C(1850-1876))2 <220-221>
+INSERT(3) (#1113U:#206G)PostfixExpressionArrow[1](61L,19C-25C(1689-1695))3 <204-206>

@@ -1,0 +1,23 @@
+*** Modified Units ***
+FunctionDefinition(266L,0C-271L,0C(4320-4410)): [MOVED] 135(20) changed [d:5(2)i:100(7)r:5(5)m:25(6)], 24 mapped
+FunctionDefinition(118L,0C-128L,0C(1731-1967)): [MODIFIED] 76(24) changed [d:7(6)i:55(9)r:5(5)m:9(4)], 42 mapped
+FunctionDefinition(179L,0C-192L,0C(2894-3184)): [MODIFIED] 3(2) changed [d:2(1)i:0(0)r:1(1)m:0(0)], 73 mapped
+FunctionDefinition<SimpleTypeSpecifier:6buffer>(194L,0C-206L,0C(3187-3422)): [MODIFIED] 6(4) changed [d:4(2)i:0(0)r:2(2)m:0(0)], 56 mapped
+FunctionDefinition<SimpleTypeSpecifier:5chunk>(33L,0C-43L,0C(390-572)): [MODIFIED] 22(5) changed [d:0(0)i:20(3)r:2(2)m:0(0)], 47 mapped
+FunctionDefinition<SimpleTypeSpecifier:6buffer>(208L,0C-220L,0C(3425-3657)): [MODIFIED] 6(4) changed [d:4(2)i:0(0)r:2(2)m:0(0)], 56 mapped
+FunctionDefinition(164L,0C-177L,0C(2613-2891)): [MODIFIED] 3(3) changed [d:1(1)i:0(0)r:1(1)m:1(1)], 68 mapped
+FunctionDefinition(149L,0C-162L,0C(2334-2610)): [MODIFIED] 3(3) changed [d:1(1)i:0(0)r:1(1)m:1(1)], 68 mapped
+FunctionDefinition(273L,0C-311L,0C(4413-5290)): [MODIFIED] 241(37) changed [d:138(26)i:94(5)r:3(3)m:6(3)], 27 mapped
+FunctionDefinition(130L,0C-147L,0C(1970-2331)): [MODIFIED] 9(6) changed [d:6(3)i:0(0)r:3(3)m:0(0)], 91 mapped
+FunctionDefinition<SimpleTypeSpecifier:5off_t>(222L,0C-240L,0C(3660-3979)): [MODIFIED] 9(8) changed [d:4(3)i:0(0)r:3(3)m:2(2)], 87 mapped
+FunctionDefinition(45L,0C-56L,0C(575-840)): [MODIFIED] 53(14) changed [d:7(2)i:13(2)r:6(6)m:27(4)], 50 mapped
+FunctionDefinition<SimpleTypeSpecifier:5chunk>(99L,0C-114L,0C(1394-1710)): [MODIFIED] 5(1) changed [d:0(0)i:5(1)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition<SimpleTypeSpecifier:5chunk>(255L,0C-271L,0C(4119-4488)): [INSERTED] 91(1) changed [d:0(0)i:91(1)r:0(0)m:0(0)], 0 mapped
+*** Unmodified Units ***
+FunctionDefinition(260L,0C-262L,0C(4228-4297))
+FunctionDefinition(242L,0C-258L,0C(3982-4225))
+FunctionDefinition(105L,0C-116L,0C(1547-1728))
+FunctionDefinition(94L,0C-103L,0C(1383-1544))
+FunctionDefinition(78L,0C-92L,0C(1087-1380))
+FunctionDefinition(58L,0C-76L,0C(843-1084))
+FunctionDefinition(20L,0C-31L,0C(227-387))

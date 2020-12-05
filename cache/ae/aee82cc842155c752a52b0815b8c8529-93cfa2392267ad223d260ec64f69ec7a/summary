@@ -1,0 +1,14 @@
+*** Modified Units ***
+FunctionDefinition<SimpleTypeSpecifier:12apr_status_t>(258L,0C-322L,0C(8761-10762)): [MODIFIED] 8(8) changed [d:1(1)i:0(0)r:7(7)m:0(0)], 273 mapped
+FunctionDefinition(460L,0C-503L,0C(15175-16587)): [MODIFIED] 26(21) changed [d:0(0)i:7(2)r:19(19)m:0(0)], 193 mapped
+FunctionDefinition<SimpleTypeSpecifier:12apr_status_t>(184L,0C-256L,0C(6261-8758)): [MODIFIED] 6(6) changed [d:0(0)i:0(0)r:6(6)m:0(0)], 318 mapped
+FunctionDefinition(170L,0C-182L,0C(5721-6258)): [MODIFIED] 1(1) changed [d:0(0)i:0(0)r:1(1)m:0(0)], 93 mapped
+ClassSpecifier(43L,0C-49L,0C(1325-1511)): [MODIFIED] 2(2) changed [d:0(0)i:0(0)r:2(2)m:0(0)], 28 mapped
+FunctionDefinition(353L,0C-458L,0C(11664-15172)): [MODIFIED] 26(26) changed [d:0(0)i:0(0)r:26(26)m:0(0)], 373 mapped
+FunctionDefinition<SimpleTypeSpecifier:12apr_status_t>(103L,0C-168L,0C(3138-5754)): [MODIFIED] 2(1) changed [d:0(0)i:2(1)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition<SimpleTypeSpecifier:12apr_status_t>(505L,0C-511L,0C(16588-16874)): [INSERTED] 36(1) changed [d:0(0)i:36(1)r:0(0)m:0(0)], 0 mapped
+*** Unmodified Units ***
+FunctionDefinition(517L,0C-522L,0C(16851-17052))
+FunctionDefinition(324L,0C-351L,0C(10765-11661))
+FunctionDefinition(103L,0C-168L,0C(3121-5718))
+FunctionDefinition(83L,0C-101L,0C(2578-3118))

@@ -1,0 +1,115 @@
+*** Extracted Changes ***
+
+[significance=4] argument removed (2)
+  Primary.Literal.Integer(1)[9L,40C-40C(144-144)]* from ClassBody(Test)[3L,24C-41L,0C(39-641)]
+  Primary.Literal.String(left)[12L,21C-26C(201-206)]* from MethodBody(foo(I)I)[9L,31C-25L,1C(140-400)]
+
+[significance=4] accessibility decreased (1)
+  Method(foo(I)I)[11L,1C-27L,1C(151-451)] -> Method(foo(I)I)[9L,1C-25L,1C(110-400)]
+
+[significance=4] final modifier added (1)
+  Modifier.Final[3L,7C-11C(22-26)]* into Modifiers(Test#C)[3L,0C-5C(15-20)]
+
+[significance=4] field type changed (1)
+  Type.ClassOrInterface(java.lang.String)(Type.ClassOrInterface(String))[7L,8C-13C(87-92)] -> Type.Int(Type.Int)[7L,8C-10C(95-97)]
+
+[significance=4] field removed (1)
+  FieldDeclaration(anInteger[0)[9L,1C-42C(105-146)]* from ClassBody(Test)[3L,24C-41L,0C(39-641)]
+
+[significance=4] parameter type changed (1)
+  Type.Int(Type.Int)[36L,17C-19C(601-603)] -> Type.Long(Type.Long)[37L,20C-23C(591-594)]
+
+[significance=3] field renamed (1)
+  FieldDeclaration(aString[0)[5L,1C-38C(38-75)] -> FieldDeclaration(aNewString[0)[5L,1C-41C(44-84)]
+
+[significance=3] method renamed or signature changed (2)
+  Method(bar(I)V)[36L,1C-38L,1C(585-647)] -> Method(newBar(J)V)[37L,1C-39L,1C(572-638)]
+  Method(method()V)[30L,2C-34L,2C(478-579)] -> Method(newMethod()V)[30L,2C-34L,2C(459-565)]
+
+[significance=2] statement added (1)
+  Statement.Return[24L,2C-11C(388-397)]* into MethodBody(foo(I)I)[11L,28C-27L,1C(178-451)]
+
+[significance=2] instance creation removed (1)
+  Primary.InstanceCreation(java.lang.Integer.<init>#1)(Primary.InstanceCreation(Integer))[9L,28C-41C(132-145)]* from ClassBody(Test)[3L,24C-41L,0C(39-641)]
+
+[significance=2] variable declaration removed (1)
+  VariableDeclarator(anInteger,0,false)[9L,16C-41C(120-145)]* from ClassBody(Test)[3L,24C-41L,0C(39-641)]
+
+[significance=2] modifier added (1)
+  Modifier.Public[27L,1C-6C(404-409)]* into ClassBody(Test)[3L,18C-40L,0C(33-650)]
+
+[significance=2] modifier removed (1)
+  Modifier.Public[9L,1C-6C(105-110)]* from ClassBody(Test)[3L,24C-41L,0C(39-641)]
+
+[significance=1] (changed) (6)
+  Parameters(bar)[36L,16C-25C(600-609)] -> Parameters(newBar)[37L,19C-29C(590-600)]
+  MethodBody(method()V)[30L,24C-34L,2C(500-579)] -> MethodBody(newMethod()V)[30L,27C-34L,2C(484-565)]
+  Modifiers(method#m)[30L,2C-8C(478-484)] -> Modifiers(newMethod#m)[30L,2C-8C(459-465)]
+  MethodBody(bar(I)V)[36L,27C-38L,1C(611-647)] -> MethodBody(newBar(J)V)[37L,31C-39L,1C(602-638)]
+  Modifiers(bar#m)[36L,1C-6C(585-590)] -> Modifiers(newBar#m)[37L,1C-6C(572-577)]
+  Modifiers(aString#f)[5L,1C-6C(38-43)] -> Modifiers(aNewString#f)[5L,1C-6C(44-49)]
+
+[significance=1] (moved) (3)
+  NamedArguments(abs): [23L,15C-22C(398-405)] -> [17L,15C-22C(272-279)]
+  NamedArguments(random): [20L,29C-30C(350-351)] -> [20L,29C-30C(339-340)]
+  NamedArguments(round): [20L,17C-31C(338-352)] -> [20L,17C-31C(327-341)]
+
+[significance=1] (added) (3)
+  Modifiers(emptyMethod#m)[27L,1C-6C(404-409)]* into ClassBody(Test)[3L,18C-40L,0C(33-650)]
+  Type.Void(Type.Void)[27L,8C-11C(411-414)]* into ClassBody(Test)[3L,18C-40L,0C(33-650)]
+  MethodBody(emptyMethod()V)[27L,27C-29C(430-432)]* into ClassBody(Test)[3L,18C-40L,0C(33-650)]
+
+[significance=1] (removed) (5)
+  Type.ClassOrInterface(java.lang.Integer)(Type.ClassOrInterface(Integer))[9L,32C-38C(136-142)]* from ClassBody(Test)[3L,24C-41L,0C(39-641)]
+  NamedArguments(println)[12L,20C-27C(200-207)]* from MethodBody(foo(I)I)[9L,31C-25L,1C(140-400)]
+  NamedArguments(java.lang.Integer)(NamedArguments(Integer))[9L,39C-41C(143-145)]* from ClassBody(Test)[3L,24C-41L,0C(39-641)]
+  Type.ClassOrInterface(java.lang.Integer)(Type.ClassOrInterface(Integer))[9L,8C-14C(112-118)]* from ClassBody(Test)[3L,24C-41L,0C(39-641)]
+  Modifiers(anInteger#f)[9L,1C-6C(105-110)]* from ClassBody(Test)[3L,24C-41L,0C(39-641)]
+
+[significance=1] statement modified (1)
+  Statement.If(4bd6c321973f86ec3736a8f38b788f66;Primary.Name())[18L,2C-26L,2C(272-448)] -> Statement.If(8cfa15c9c2ead489b0a02235d0c8ce0b;Expression.UnaryOperator.Not)[15L,2C-23L,2C(206-384)]
+
+[significance=1] statement changed (1)
+  Statement.If(4bd6c321973f86ec3736a8f38b788f66;Primary.Name())[18L,2C-26L,2C(272-448)] -> Statement.If(8cfa15c9c2ead489b0a02235d0c8ce0b;Expression.UnaryOperator.Not)[15L,2C-23L,2C(206-384)]
+
+[significance=1] unary operator added (1)
+  Expression.UnaryOperator.Not[15L,6C-12C(210-216)] into Statement.If(4bd6c321973f86ec3736a8f38b788f66;Primary.Name())[18L,2C-26L,2C(272-448)]
+
+[significance=1] expression modified (3)
+  Primary.TypeMethodInvocation(java.lang.Math,abs#1)(Primary.TypeMethodInvocation(Math,abs))[23L,7C-22C(390-405)] -> Primary.TypeMethodInvocation(java.lang.Math,abs#1)(Primary.TypeMethodInvocation(Math,abs))[17L,7C-22C(264-279)]
+  Primary.TypeMethodInvocation(java.lang.Math,random#0)(Primary.TypeMethodInvocation(Math,random))[20L,18C-30C(339-351)] -> Primary.TypeMethodInvocation(java.lang.Math,random#0)(Primary.TypeMethodInvocation(Math,random))[20L,18C-30C(328-340)]
+  Primary.TypeMethodInvocation(java.lang.Math,round#1)(Primary.TypeMethodInvocation(Math,round))[20L,7C-31C(328-352)] -> Primary.TypeMethodInvocation(java.lang.Math,round#1)(Primary.TypeMethodInvocation(Math,round))[20L,7C-31C(317-341)]
+
+[significance=1] expression moved (4)
+  Primary.TypeMethodInvocation(java.lang.Math,abs#1): [23L,7C-22C(390-405)] -> [17L,7C-22C(264-279)]
+  Primary.Name(number): [23L,16C-21C(399-404)] -> [17L,16C-21C(273-278)]
+  Primary.TypeMethodInvocation(java.lang.Math,round#1): [20L,7C-31C(328-352)] -> [20L,7C-31C(317-341)]
+  Primary.TypeMethodInvocation(java.lang.Math,random#0): [20L,18C-30C(339-351)] -> [20L,18C-30C(328-340)]
+
+[significance=1] expression added (1)
+  Primary.Literal.Integer(42)[24L,9C-10C(395-396)]* into MethodBody(foo(I)I)[11L,28C-27L,1C(178-451)]
+
+[significance=1] expression removed (1)
+  Primary.Name(java.lang.System.out)(Primary.Name(System.out))[12L,2C-11C(182-191)]* from MethodBody(foo(I)I)[9L,31C-25L,1C(140-400)]
+
+[significance=1] argument modified (1)
+  Primary.TypeMethodInvocation(java.lang.Math,random#0)(Primary.TypeMethodInvocation(Math,random))[20L,18C-30C(339-351)] -> Primary.TypeMethodInvocation(java.lang.Math,random#0)(Primary.TypeMethodInvocation(Math,random))[20L,18C-30C(328-340)]
+
+[significance=1] variable declaration renamed (1)
+  VariableDeclarator(aString,0,false)[5L,15C-37C(52-74)] -> VariableDeclarator(aNewString,0,false)[5L,15C-40C(58-83)]
+
+[significance=1] method invocation removed (1)
+  Statement.Expression.Primary.PrimaryMethodInvocation(println#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(println)())[12L,2C-28C(182-208)]* from MethodBody(foo(I)I)[9L,31C-25L,1C(140-400)]
+
+[significance=1] method invocation modified (3)
+  Primary.TypeMethodInvocation(java.lang.Math,abs#1)(Primary.TypeMethodInvocation(Math,abs))[23L,7C-22C(390-405)] -> Primary.TypeMethodInvocation(java.lang.Math,abs#1)(Primary.TypeMethodInvocation(Math,abs))[17L,7C-22C(264-279)]
+  Primary.TypeMethodInvocation(java.lang.Math,random#0)(Primary.TypeMethodInvocation(Math,random))[20L,18C-30C(339-351)] -> Primary.TypeMethodInvocation(java.lang.Math,random#0)(Primary.TypeMethodInvocation(Math,random))[20L,18C-30C(328-340)]
+  Primary.TypeMethodInvocation(java.lang.Math,round#1)(Primary.TypeMethodInvocation(Math,round))[20L,7C-31C(328-352)] -> Primary.TypeMethodInvocation(java.lang.Math,round#1)(Primary.TypeMethodInvocation(Math,round))[20L,7C-31C(317-341)]
+
+[significance=1] method modified (3)
+  Method(method()V)[30L,2C-34L,2C(478-579)] -> Method(newMethod()V)[30L,2C-34L,2C(459-565)]
+  Method(bar(I)V)[36L,1C-38L,1C(585-647)] -> Method(newBar(J)V)[37L,1C-39L,1C(572-638)]
+  Method(foo(I)I)[11L,1C-27L,1C(151-451)] -> Method(foo(I)I)[9L,1C-25L,1C(110-400)]
+
+[significance=1] method added (1)
+  Method(emptyMethod()V)[27L,1C-29C(404-432)]* into ClassBody(Test)[3L,18C-40L,0C(33-650)]

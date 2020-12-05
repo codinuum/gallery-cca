@@ -1,0 +1,44 @@
+RELABEL (#164U:#158G)Primary.FieldAccess(port)[1](116L,86C-89C(4373-4376))1 -> (#553U:#161G)Primary.SimpleMethodInvocation(getPort#0)[1](111L,86C-94C(4260-4268))1 [(#552U:#160G)]
+RELABEL (#58U:#58G)Primary.FieldAccess(port)[1](81L,72C-75C(2640-2643))1 -> (#441U:#56G)Primary.SimpleMethodInvocation(getPort#0)[1](75L,72C-80C(2453-2461))1 [(#440U:#55G)]
+RELABEL (#43U:#43G)Modifier.Public[0](71L,4C-9C(2213-2218))1 -> (#418U:#33G)Modifier.Private[0](59L,4C-10C(1949-1955))1
+RELABEL (#176U:#123G)Primary.FieldAccess(port)[0](102L,74C-77C(3696-3699))1 -> (#566U:#125G)Primary.SimpleMethodInvocation(getPort#0)[0](97L,74C-82C(3578-3586))1 [(#565U:#124G)]
+RELABEL (#29U:#29G)FieldDeclaration(port[0)[1](56L,4C-33C(1924-1953))1 [(#25U:#25G);(#26U:#26G);(#28U:#28G)] -> (#410U:#25G)FieldDeclaration(DEFAULT_PORT_NUMBER[0)[0](49L,4C-55C(1764-1815))1 [(#406U:#21G);(#407U:#22G);(#409U:#24G)]
+RELABEL (#301U:#258G)Primary.FieldAccess(port)[0](167L,39C-42C(6027-6030))1 -> (#690U:#260G)Primary.SimpleMethodInvocation(getPort#0)[0](160L,39C-47C(5788-5796))1 [(#689U:#259G)]
+RELABEL (#148U:#116G)Statement.If(37c605761c75fa0b70927877e07c252c;Expression.BinaryOperator.Neq)[0](88L,20C-97L,20C(2892-3567))1 [(#147U:#76G);(#144U:#107G);(#110U:#115G)] -> (#535U:#116G)Statement.If(cea76cfbc22f34060790e3ddb9c6c235;Expression.BinaryOperator.Neq)[0](82L,20C-93L,20C(2710-3445))1 [(#534U:#75G);(#530U:#107G);(#495U:#115G)]
+RELABEL (#25U:#25G)Modifiers(port#f)[0](56L,4C-16C(1924-1936))1 [(#23U:#23G);(#24U:#24G)] -> (#406U:#21G)Modifiers(DEFAULT_PORT_NUMBER#f)[0](49L,4C-23C(1764-1783))1 [(#403U:#18G);(#404U:#19G);(#405U:#20G)]
+RELABEL (#146U:#74G)Primary.FieldAccess(configurationProperties)[0](88L,24C-46C(2896-2918))1 -> (#533U:#73G)Primary.SimpleMethodInvocation(getConfigProperties#0)[0](82L,24C-44C(2714-2734))1 [(#532U:#72G)]
+RELABEL (#23U:#23G)Modifier.Public[0](56L,4C-9C(1924-1929))1 -> (#403U:#18G)Modifier.Private[0](49L,4C-10C(1764-1770))1
+RELABEL (#364U:#323G)Type.ClassOrInterface(java.lang.String)[1](206L,12C-17C(6852-6857))1 -> (#703U:#280G)Type.ClassOrInterface(java.rmi.registry.Registry)[1](170L,18C-25C(5973-5980))1
+RELABEL (#211U:#167G)Statement.If(50fdf536815a3743cf0340d14c10abed;Expression.BinaryOperator.Ge)[1](101L,16C-118L,16C(3605-4430))1 [(#210U:#121G);(#207U:#154G);(#174U:#166G)] -> (#602U:#170G)Statement.If(7a072364509a7293fdfb0c22134b809b;Expression.BinaryOperator.Ge)[1](96L,16C-113L,16C(3482-4322))1 [(#601U:#122G);(#597U:#156G);(#563U:#169G)]
+RELABEL (#209U:#119G)Primary.FieldAccess(port)[0](101L,20C-23C(3609-3612))1 -> (#600U:#120G)Primary.SimpleMethodInvocation(getPort#0)[0](96L,20C-28C(3486-3494))1 [(#599U:#119G)]
+RELABEL (#116U:#82G)Primary.FieldAccess(configurationProperties)[0](90L,59C-81C(3073-3095))1 -> (#502U:#82G)Primary.SimpleMethodInvocation(getConfigProperties#0)[0](84L,59C-79C(2889-2909))1 [(#501U:#81G)]
+RELABEL (#28U:#28G)VariableDeclarator(port,0,false)[2](56L,22C-32C(1942-1952))1 [(#27U:#27G)] -> (#409U:#24G)VariableDeclarator(DEFAULT_PORT_NUMBER,0,false)[2](49L,29C-54C(1789-1814))1 [(#408U:#23G)]
+RELABEL (#368U:#326G)MethodBody(getHost()Ljava.lang.String;)[2](206L,29C-208L,5C(6869-6898))1 [(#367U:#325G)] -> (#707U:#283G)MethodBody(getRegistry()Ljava.rmi.registry.Registry;)[2](170L,41C-172L,4C(5996-6027))1 [(#706U:#282G)]
+RELABEL (#366U:#324G)Primary.FieldAccess(host)[0](207L,16C-19C(6887-6890))1 -> (#705U:#281G)Primary.FieldAccess(registry)[0](171L,15C-22C(6013-6020))1
+RELABEL (#365U:#327G)Method(getHost()Ljava.lang.String;)[12](206L,5C-208L,5C(6845-6898))1 [(#363U:#322G);(#364U:#323G);(#368U:#326G)] -> (#704U:#284G)Method(getRegistry()Ljava.rmi.registry.Registry;)[8](170L,4C-172L,4C(5959-6027))1 [(#702U:#279G);(#703U:#280G);(#707U:#283G)]
+RELABEL (#363U:#322G)Modifiers(getHost#m)[0](206L,5C-10C(6845-6850))1 [(#362U:#321G)] -> (#702U:#279G)Modifiers(getRegistry#m)[0](170L,4C-16C(5959-5971))1 [(#700U:#277G);(#701U:#278G)]
+RELABEL (#83U:#172G)Primary.FieldAccess(port)[1](121L,89C-92C(4595-4598))1 -> (#467U:#176G)Primary.SimpleMethodInvocation(getPort#0)[1](116L,89C-97C(4487-4495))1 [(#466U:#175G)]
+DELETE(7) (#280U:#246G)Statement.If(7f600562acb49b4a23ca1a44efb62556;Expression.BinaryOperator.Neq)[0](151L,8C-155L,8C(5537-5637))7 [(#279U:#239G)] <240-246>
+DELETE(6) (#22U:#22G)FieldDeclaration(host[0)[0](51L,4C-30C(1837-1863))6 <17-22>
+DELETE(2) (#290U:#256G)Statement.Return[1](163L,30C-41C(5844-5855))2 <255-256>
+DELETE(1) (#6U:#6G)IDsingle(java.util.Properties)[4](34L,0C-27C(1343-1370))1 <6>
+DELETE(7) (#346U:#308G)Method(getPort()I)[10](191L,4C-193L,4C(6573-6621))7 <302-308>
+DELETE(27) (#317U:#301G)Method(setPort(I)V)[9](178L,4C-185L,4C(6252-6468))27 <275-301>
+DELETE(12) (#356U:#320G)Method(setHost(Ljava.lang.String;)V)[11](199L,4C-201L,4C(6722-6787))12 <309-320>
+DELETE(12) (#375U:#339G)Method(setConfigProperties(Ljava.util.Properties;)V)[13](214L,5C-216L,5C(7023-7119))12 <328-339>
+DELETE(6) (#42U:#42G)FieldDeclaration(configurationProperties[0)[3](66L,4C-53C(2125-2174))6 <37-42>
+INSERT(1) (#532U:#72G)NamedArguments(getConfigProperties)[0](82L,43C-44C(2733-2734))1 <72>
+INSERT(1) (#701U:#278G)Modifier.Static[1](170L,11C-16C(5966-5971))1 <278>
+INSERT(3) (#678U:#257G)Block(block)[1](156L,30C-158L,8C(5698-5733))3 <255-257>
+INSERT(1) (#689U:#259G)NamedArguments(getPort)[0](160L,46C-47C(5795-5796))1 <259>
+INSERT(1) (#552U:#160G)NamedArguments(getPort)[0](111L,93C-94C(4267-4268))1 <160>
+INSERT(1) (#501U:#81G)NamedArguments(getConfigProperties)[0](84L,78C-79C(2908-2909))1 <81>
+INSERT(2) (#667U:#246G)Statement.Return[0](148L,8C-33C(5466-5491))2 [(#665U:#244G)] <245-246>
+INSERT(1) (#565U:#124G)NamedArguments(getPort)[0](97L,81C-82C(3585-3586))1 <124>
+INSERT(1) (#405U:#20G)Modifier.Final[2](49L,19C-23C(1779-1783))1 <20>
+INSERT(2) (#399U:#14G)Extends[1](44L,26C-44C(1678-1696))2 <13-14>
+INSERT(1) (#466U:#175G)NamedArguments(getPort)[0](116L,96C-97C(4494-4495))1 <175>
+INSERT(1) (#599U:#119G)NamedArguments(getPort)[0](96L,27C-28C(3493-3494))1 <119>
+INSERT(1) (#644U:#218G)Block(block)[1](134L,34C-136L,12C(5048-5130))1 [(#643U:#217G)] <218>
+INSERT(1) (#440U:#55G)NamedArguments(getPort)[0](75L,79C-80C(2460-2461))1 <55>
+INSERT(7) (#431U:#46G)Constructor(JRMPRegistry.<init>()V)[3](64L,4C-66L,4C(2038-2102))7 <40-46>

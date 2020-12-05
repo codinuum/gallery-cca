@@ -1,0 +1,6 @@
+*** Modified Units ***
+Method(execute()V)(39L,4C-59L,4C(1030-1608)): [MODIFIED] 20(14) changed [d:3(2)i:8(4)r:7(7)m:2(1)], 32 mapped
+Method(setChange(Ljava.lang.String;)V)(24L,4C-32L,4C(626-902)): [MODIFIED] 5(4) changed [d:1(1)i:3(2)r:1(1)m:0(0)], 27 mapped
+Class(P4Revert)(18L,0C-60L,0C(498-1610)): [MODIFIED] 34(27) changed [d:6(5)i:11(6)r:15(15)m:2(1)], 90 mapped
+Method(setRevertOnlyUnchanged(Z)V)(34L,4C-37L,4C(909-1023)): [MODIFIED] 1(1) changed [d:0(0)i:0(0)r:1(1)m:0(0)], 11 mapped
+*** Unmodified Units ***

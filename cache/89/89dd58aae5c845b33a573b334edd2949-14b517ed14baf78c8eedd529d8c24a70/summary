@@ -1,0 +1,10 @@
+*** Modified Units ***
+FunctionDefinition(469L,0C-590L,0C(11945-15103)): [MODIFIED] 237(7) changed [d:3(1)i:224(4)r:1(1)m:9(1)], 444 mapped
+FunctionDefinition(65L,0C-433L,0C(1393-11200)): [MODIFIED] 449(57) changed [d:42(20)i:76(7)r:17(17)m:314(13)], 1608 mapped
+*** Unmodified Units ***
+FunctionDefinition(609L,0C-673L,0C(15544-17133))
+FunctionDefinition(592L,0C-607L,0C(15106-15541))
+ClassSpecifier(474L,1C-477L,1C(12030-12091))
+EnumSpecifier(460L,8C-467L,0C(11740-11923))
+FunctionDefinition(435L,0C-458L,0C(11203-11729))
+FunctionDefinition(29L,0C-63L,0C(496-1390))

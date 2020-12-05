@@ -1,0 +1,24 @@
+MOVE#2M(1):PERMUTATION (#1070U:#789G)Primary.Name(ih)[0](345L,31C-32C(14433-14434))1 -> (#5238U:#767G)Primary.Name(ih)[0](337L,26C-27C(14159-14160))1 <789>
+RELABEL (#3630U:#3024G)MethodBody(buildFinished(LBuildEvent;)V)[3](1329L,48C-1336L,4C(53806-53988))1 [(#3614U:#3008G);(#3617U:#3011G);(#3620U:#3014G);(#3623U:#3017G);(#3626U:#3020G);(#3629U:#3023G)] -> (#7781U:#3005G)MethodBody(clearCache()V)[2](1324L,36C-1326L,4C(53712-53743))1 [(#7780U:#3004G)]
+RELABEL (#3611U:#3025G)Method(buildFinished(LBuildEvent;)V)[47](1329L,4C-1336L,4C(53762-53988))1 [(#3606U:#3001G);(#3607U:#3002G);(#3610U:#3005G);(#3630U:#3024G)] -> (#7777U:#3006G)Method(clearCache()V)[47](1324L,4C-1326L,4C(53680-53743))1 [(#7775U:#3000G);(#7776U:#3001G);(#7781U:#3005G)]
+RELABEL (#1065U:#784G)Statement.If(23009493d1016422f2cd2f2bfe19a1dc;Expression.BinaryOperator.Eq)[1](335L,8C-342L,8C(14039-14334))1 [(#1064U:#766G);(#1061U:#783G)] -> (#5245U:#791G)Statement.If(73b40d3a128d8c738c2a8602d5c2b69d;Expression.BinaryOperator.Or)[1](337L,8C-344L,8C(14141-14462))1 [(#5244U:#771G);(#5236U:#790G)]
+RELABEL (#3606U:#3001G)Modifiers(buildFinished#m)[0](1329L,4C-9C(53762-53767))1 [(#3605U:#3000G)] -> (#7775U:#3000G)Modifiers(clearCache#m)[0](1324L,4C-16C(53680-53692))1 [(#7773U:#2998G);(#7774U:#2999G)]
+RELABEL (#39U:#39G)Type.ClassOrInterface(java.util.Hashtable)[1](53L,25C-33C(1883-1891))1 -> (#4205U:#37G)Type.ClassOrInterface(java.util.Map)[1](53L,25C-27C(1869-1871))1
+DELETE(3) (#3610U:#3005G)Parameters(buildFinished)[2](1329L,29C-46C(53787-53804))3 <3003-3005>
+DELETE(8) (#3637U:#3033G)Method(buildStarted(LBuildEvent;)V)[48](1342L,4C-1343L,4C(54131-54180))8 <3026-3033>
+DELETE(3) (#3617U:#3011G)Statement.Expression.Primary.PrimaryMethodInvocation(clear#0)()[1](1331L,8C-32C(53848-53872))3 <3009-3011>
+DELETE(3) (#3623U:#3017G)Statement.Expression.Primary.PrimaryMethodInvocation(clear#0)()[3](1333L,8C-30C(53911-53933))3 <3015-3017>
+DELETE(8) (#3653U:#3049G)Method(targetFinished(LBuildEvent;)V)[50](1358L,4C-1359L,4C(54530-54581))8 <3042-3049>
+DELETE(8) (#1077U:#793G)Statement.If(e20c829b24989aef4d414277498d86d9;Expression.BinaryOperator.Neq)[2](343L,8C-346L,8C(14344-14446))8 [(#1070U:#789G)] <785-788;790-793>
+DELETE(8) (#3669U:#3065G)Method(taskFinished(LBuildEvent;)V)[52](1374L,4C-1375L,4C(54929-54978))8 <3058-3065>
+DELETE(8) (#3645U:#3041G)Method(targetStarted(LBuildEvent;)V)[49](1350L,4C-1351L,4C(54330-54380))8 <3034-3041>
+DELETE(8) (#3677U:#3073G)Method(messageLogged(LBuildEvent;)V)[53](1382L,4C-1383L,4C(55128-55178))8 <3066-3073>
+DELETE(8) (#3661U:#3057G)Method(taskStarted(LBuildEvent;)V)[51](1366L,4C-1367L,4C(54731-54779))8 <3050-3057>
+DELETE(3) (#3626U:#3020G)Statement.Expression.AssignmentOperator.Eq()()[4](1334L,8C-22C(53943-53957))3 <3018-3020>
+DELETE(3) (#3620U:#3014G)Statement.Expression.Primary.PrimaryMethodInvocation(clear#0)()[2](1332L,8C-27C(53882-53901))3 <3012-3014>
+DELETE(2) (#20U:#20G)Implements[1](41L,39C-62C(1536-1559))2 <19-20>
+DELETE(3) (#3614U:#3008G)Statement.Expression.Primary.PrimaryMethodInvocation(clear#0)()[0](1330L,8C-30C(53816-53838))3 <3006-3008>
+INSERT(4) (#5244U:#771G)Expression.BinaryOperator.Or[0](337L,12C-37C(14145-14170))4 [(#5243U:#766G);(#5238U:#767G)] <768-771>
+INSERT(2) (#5200U:#758G)Primary.PrimaryMethodInvocation(getName#0)[0](334L,67C-77C(14007-14017))2 [(#5198U:#756G)] <757-758>
+INSERT(1) (#7774U:#2999G)Modifier.Static[1](1324L,11C-16C(53687-53692))1 <2999>
+INSERT(2) (#5227U:#784G)Primary.PrimaryMethodInvocation(getName#0)[0](342L,28C-38C(14422-14432))2 [(#5225U:#782G)] <783-784>

@@ -1,0 +1,99 @@
+*** Extracted Changes ***
+
+[significance=4] argument added (1)
+  Primary.This[46L,52C-55C(1364-1367)]* into NamedArguments(execP4Command)[37L,25C-45L,12C(1137-1476)]
+
+[significance=4] accessibility decreased (1)
+  FieldDeclaration(change[0)[25L,4C-24C(903-923)] -> FieldDeclaration(m_change[0)[25L,4C-27C(906-929)]
+
+[significance=4] final modifier added (2)
+  Modifier.Final[27L,27C-31C(959-963)]* into Parameter(change,0,)[27L,27C-39C(953-965)]
+  Modifier.Final[36L,24C-28C(1142-1146)]* into ClassBody(P4Submit)[22L,0C-56L,0C(814-1752)]
+
+[significance=3] field renamed (1)
+  FieldDeclaration(change[0)[25L,4C-24C(903-923)] -> FieldDeclaration(m_change[0)[25L,4C-27C(906-929)]
+
+[significance=3] method renamed or signature changed (1)
+  Method(process(Ljava.lang.String;)V)(Method(process))[40L,31C-43L,31C(1272-1433)] -> Method(stdout(Ljava.lang.String;)V)(Method(stdout))[36L,4C-39L,4C(1122-1207)]
+
+[significance=2] statement moved (1)
+  Statement.Expression.Primary.PrimaryMethodInvocation(debug#1)(): [42L,35C-60C(1375-1400)] -> [38L,8C-33C(1176-1201)]
+
+[significance=2] condition expression modified (1)
+  Expression.BinaryOperator.Neq[35L,12C-25C(1085-1098)] -> Expression.BinaryOperator.Neq[44L,12C-27C(1283-1298)]
+
+[significance=1] (changed) (4)
+  Modifiers(change#f)[25L,4C-9C(903-908)] -> Modifiers(m_change#f)[25L,4C-10C(906-912)]
+  MethodBody(process(Ljava.lang.String;)V)(MethodBody(process(LString;)V))[41L,31C-43L,31C(1338-1433)] -> MethodBody(stdout(Ljava.lang.String;)V)(MethodBody(stdout(LString;)V))[37L,4C-39L,4C(1166-1207)]
+  Modifiers(process#m)[40L,31C-36C(1272-1277)] -> Modifiers(stdout#m)[36L,4C-9C(1122-1127)]
+  Parameters(process)[40L,50C-64C(1291-1305)] -> Parameters(stdout)[36L,22C-42C(1140-1160)]
+
+[significance=1] (moved) (10)
+  Modifier.Public: [40L,31C-36C(1272-1277)] -> [36L,4C-9C(1122-1127)]
+  NamedArguments(debug): [42L,52C-59C(1392-1399)] -> [38L,25C-32C(1193-1200)]
+  MethodBody(process(Ljava.lang.String;)V): [41L,31C-43L,31C(1338-1433)] -> [37L,4C-39L,4C(1166-1207)]
+  Method(process(Ljava.lang.String;)V): [40L,31C-43L,31C(1272-1433)] -> [36L,4C-39L,4C(1122-1207)]
+  Type.Void: [40L,38C-41C(1279-1282)] -> [36L,11C-14C(1129-1132)]
+  NamedArguments(getLogger): [42L,44C-45C(1384-1385)] -> [38L,17C-18C(1185-1186)]
+  Parameter(line,0,): [40L,52C-62C(1293-1303)] -> [36L,24C-40C(1142-1158)]
+  Modifiers(process#m): [40L,31C-36C(1272-1277)] -> [36L,4C-9C(1122-1127)]
+  Parameters(process): [40L,50C-64C(1291-1305)] -> [36L,22C-42C(1140-1160)]
+  Type.ClassOrInterface(java.lang.String): [40L,52C-57C(1293-1298)] -> [36L,30C-35C(1148-1153)]
+
+[significance=1] (deleted) (2)
+  Primary.InstanceCreation(P4HandlerAdapter.<init>#0)(Primary.InstanceCreation(P4HandlerAdapter))[38L,27C-44L,27C(1189-1462)] from NamedArguments(execP4Command)[46L,25C-57C(1337-1369)]
+  ClassBody(P4HandlerAdapter)[39L,27C-44L,27C(1239-1462)] from NamedArguments(execP4Command)[46L,25C-57C(1337-1369)]
+
+[significance=1] (added) (2)
+  Modifiers(change#p)[27L,27C-31C(959-963)]* into Parameter(change,0,)[27L,27C-39C(953-965)]
+  Modifiers(line#p)[36L,24C-28C(1142-1146)]* into ClassBody(P4Submit)[22L,0C-56L,0C(814-1752)]
+
+[significance=1] (removed) (2)
+  NamedArguments(P4HandlerAdapter)(NamedArguments(P4HandlerAdapter))[38L,47C-48C(1209-1210)]* from NamedArguments(execP4Command)[46L,25C-57C(1337-1369)]
+  Type.ClassOrInterface(P4HandlerAdapter)(Type.ClassOrInterface(P4HandlerAdapter))[38L,31C-46C(1193-1208)]* from NamedArguments(execP4Command)[46L,25C-57C(1337-1369)]
+
+[significance=1] method implementation changed (1)
+  Method(process(Ljava.lang.String;)V)(Method(process))[40L,31C-43L,31C(1272-1433)] -> Method(stdout(Ljava.lang.String;)V)(Method(stdout))[36L,4C-39L,4C(1122-1207)]
+
+[significance=1] statement modified (4)
+  Statement.Expression.AssignmentOperator.Eq()()[29L,8C-28C(983-1003)] -> Statement.Expression.AssignmentOperator.Eq()()[29L,8C-25C(995-1012)]
+  Statement.Expression.Primary.SimpleMethodInvocation(execP4Command#2)()(Statement.Expression.Primary.SimpleMethodInvocation(execP4Command)())[37L,12C-45L,13C(1124-1477)] -> Statement.Expression.Primary.SimpleMethodInvocation(execP4Command#2)()(Statement.Expression.Primary.SimpleMethodInvocation(execP4Command)())[46L,12C-58C(1324-1370)]
+  Statement.If(a790796a44c9ec4ebe85853f3cbafd29;Expression.BinaryOperator.Neq)[35L,8C-53L,8C(1081-1743)] -> Statement.If(d4525ff8faa2096b01af62a771ab776c;Expression.BinaryOperator.Neq)[44L,8C-53L,8C(1279-1635)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(debug#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(debug)())[42L,35C-60C(1375-1400)] -> Statement.Expression.Primary.PrimaryMethodInvocation(debug#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(debug)())[38L,8C-33C(1176-1201)]
+
+[significance=1] statement changed (1)
+  Statement.If(a790796a44c9ec4ebe85853f3cbafd29;Expression.BinaryOperator.Neq)[35L,8C-53L,8C(1081-1743)] -> Statement.If(d4525ff8faa2096b01af62a771ab776c;Expression.BinaryOperator.Neq)[44L,8C-53L,8C(1279-1635)]
+
+[significance=1] expression modified (4)
+  Primary.FieldAccess(change)[29L,8C-18C(983-993)] -> Primary.FieldAccess(m_change)[29L,8C-15C(995-1002)]
+  Expression.BinaryOperator.Neq[35L,12C-25C(1085-1098)] -> Expression.BinaryOperator.Neq[44L,12C-27C(1283-1298)]
+  Expression.BinaryOperator.Add[37L,27C-47C(1139-1159)] -> Expression.BinaryOperator.Add[46L,27C-49C(1339-1361)]
+  Primary.SimpleMethodInvocation(getLogger#0)(Primary.SimpleMethodInvocation(getLogger))[42L,35C-45C(1375-1385)] -> Primary.SimpleMethodInvocation(getLogger#0)(Primary.SimpleMethodInvocation(getLogger))[38L,8C-18C(1176-1186)]
+
+[significance=1] expression moved (2)
+  Primary.Name(line): [42L,54C-57C(1394-1397)] -> [38L,27C-30C(1195-1198)]
+  Primary.SimpleMethodInvocation(getLogger#0): [42L,35C-45C(1375-1385)] -> [38L,8C-18C(1176-1186)]
+
+[significance=1] expression removed (1)
+  Primary.This[29L,8C-11C(983-986)]* from Primary.FieldAccess(m_change)[29L,8C-15C(995-1002)]
+
+[significance=1] argument modified (1)
+  Expression.BinaryOperator.Add[37L,27C-47C(1139-1159)] -> Expression.BinaryOperator.Add[46L,27C-49C(1339-1361)]
+
+[significance=1] variable declaration renamed (1)
+  VariableDeclarator(change,0,false)[25L,18C-23C(917-922)] -> VariableDeclarator(m_change,0,false)[25L,19C-26C(921-928)]
+
+[significance=1] method invocation modified (3)
+  Statement.Expression.Primary.SimpleMethodInvocation(execP4Command#2)()(Statement.Expression.Primary.SimpleMethodInvocation(execP4Command)())[37L,12C-45L,13C(1124-1477)] -> Statement.Expression.Primary.SimpleMethodInvocation(execP4Command#2)()(Statement.Expression.Primary.SimpleMethodInvocation(execP4Command)())[46L,12C-58C(1324-1370)]
+  Primary.SimpleMethodInvocation(getLogger#0)(Primary.SimpleMethodInvocation(getLogger))[42L,35C-45C(1375-1385)] -> Primary.SimpleMethodInvocation(getLogger#0)(Primary.SimpleMethodInvocation(getLogger))[38L,8C-18C(1176-1186)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(debug#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(debug)())[42L,35C-60C(1375-1400)] -> Statement.Expression.Primary.PrimaryMethodInvocation(debug#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(debug)())[38L,8C-33C(1176-1201)]
+
+[significance=1] method modified (3)
+  Method(setChange(Ljava.lang.String;)V)(Method(setChange))[27L,4C-30L,4C(930-1009)] -> Method(setChange(Ljava.lang.String;)V)(Method(setChange))[27L,4C-30L,4C(936-1018)]
+  Method(execute()V)[32L,4C-54L,4C(1016-1749)] -> Method(execute()V)[41L,4C-54L,4C(1214-1641)]
+  Method(process(Ljava.lang.String;)V)(Method(process))[40L,31C-43L,31C(1272-1433)] -> Method(stdout(Ljava.lang.String;)V)(Method(stdout))[36L,4C-39L,4C(1122-1207)]
+
+[significance=1] field access renamed (3)
+  Primary.FieldAccess(change)[35L,12C-17C(1085-1090)] -> Primary.FieldAccess(m_change)[44L,12C-19C(1283-1290)]
+  Primary.FieldAccess(change)[29L,8C-18C(983-993)] -> Primary.FieldAccess(m_change)[29L,8C-15C(995-1002)]
+  Primary.FieldAccess(change)[37L,42C-47C(1154-1159)] -> Primary.FieldAccess(m_change)[46L,42C-49C(1354-1361)]

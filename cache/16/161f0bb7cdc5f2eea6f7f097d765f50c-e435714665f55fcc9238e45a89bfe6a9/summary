@@ -1,0 +1,14 @@
+*** Modified Units ***
+Method(setUnused(Z)V)(128L,4C-131L,4C(4271-4347)): [MODIFIED] 6(5) changed [d:1(1)i:2(1)r:3(3)m:0(0)], 10 mapped
+Class(MAudit)(35L,0C-260L,0C(1242-8153)): [MODIFIED] 204(93) changed [d:116(14)i:24(15)r:64(64)m:0(0)], 245 mapped
+Method(createSearchpath()Lorg.apache.tools.ant.types.Path;)(133L,4C-140L,4C(4354-4512)): [MODIFIED] 4(4) changed [d:0(0)i:0(0)r:4(4)m:0(0)], 16 mapped
+Method(setFix(Z)V)(108L,4C-111L,4C(3902-3972)): [MODIFIED] 6(5) changed [d:1(1)i:2(1)r:3(3)m:0(0)], 10 mapped
+Method(checkOptions()V)(192L,4C-204L,4C(6232-6670)): [RENAMED] 12(12) changed [d:0(0)i:0(0)r:12(12)m:0(0)], 34 mapped
+Method(setTofile(Ljava.io.File;)V)(123L,4C-126L,4C(4184-4264)): [MODIFIED] 4(3) changed [d:1(1)i:2(1)r:1(1)m:0(0)], 10 mapped
+Class(Violation)(254L,4C-258L,4C(8071-8150)): [DELETED] 12(1) changed [d:12(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(createViolation(ILjava.lang.String;)Lorg.apache.tools.ant.taskdefs.optional.metamata.MAudit$Violation;)(100L,4C-106L,4C(3687-3895)): [DELETED] 27(1) changed [d:27(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(getOptions()Ljava.util.ArrayList;)(142L,4C-190L,4C(4519-6225)): [MODIFIED] 39(31) changed [d:5(2)i:16(11)r:18(18)m:0(0)], 92 mapped
+Method(setList(Z)V)(113L,4C-116L,4C(3979-4051)): [MODIFIED] 6(5) changed [d:1(1)i:2(1)r:3(3)m:0(0)], 10 mapped
+Method(setupStreamHandler(Lorg.apache.tools.ant.taskdefs.exec.Execute;)V)(222L,4C-247L,4C(7132-7963)): [DELETED] 63(1) changed [d:63(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+*** Unmodified Units ***
+Method(cleanUp()V)(206L,4C-220L,4C(6677-7125))

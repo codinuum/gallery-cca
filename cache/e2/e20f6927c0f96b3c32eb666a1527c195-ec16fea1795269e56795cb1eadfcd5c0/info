@@ -1,0 +1,91 @@
+MOVE(GROUP)(3)#68M:PERMUTATION:
+|- MOVE#131M(2):PERMUTATION (#59U:#47G)Expression.BinaryOperator.Add[0](56L,19C-36C(1733-1750))2 [(#57U:#46G)] -> (#1159U:#404G)Expression.BinaryOperator.Add[1](159L,9C-34C(4604-4629))2 [(#1157U:#403G)] <45;47>
+|- MOVE#130M(1):PERMUTATION (#57U:#46G)Primary.Name(docsHome)[1](56L,29C-36C(1743-1750))1 -> (#1154U:#400G)Primary.Name(url)[0](159L,19C-21C(4614-4616))1 <46>
+MOVE#53M(27):PERMUTATION (#27U:#69G)Method(gotoFile(Ljava.lang.String;)V)[0](49L,1C-62L,1C(1524-1856))27 [(#21U:#21G);(#23U:#23G);(#35U:#34G);(#44U:#43G);(#60U:#49G);(#55U:#50G);(#48U:#60G)] -> (#1641U:#922G)Method(loadUserGuideTOC(Ljavax.swing.tree.DefaultMutableTreeNode;)V)[15](288L,1C-318L,1C(7752-8445))27 [(#1637U:#835G);(#1646U:#843G);(#1654U:#851G);(#1658U:#855G);(#1699U:#856G);(#1700U:#857G);(#1701U:#858G);(#1702U:#860G);(#1715U:#873G);(#1685U:#906G);(#1689U:#910G)] <20;22;24-27;35-36;44;51-59;61-69>
+MOVE#48M(1):PERMUTATION (#29U:#28G)Primary.FieldAccess(MiscUtilities)[0](51L,20C-32C(1588-1600))1 -> (#1702U:#860G)Primary.FieldAccess(MiscUtilities)[0](297L,4C-16C(7974-7986))1 <28>
+MOVE#51M(22):PERMUTATION (#735U:#687G)CatchClause(98a0f92f9f6be8f58eeb127af4bd4d60;CatchParameter(,0))[1](267L,4C-273L,4C(6811-6994))22 -> (#1201U:#475G)CatchClause(52ef929576558861fc7dd5169b6271ce;CatchParameter(,0))[1](178L,2C-183L,2C(4953-5110))22 [(#1187U:#461G)] <666-687>
+MOVE#63M(4) (#328U:#328G)Primary.InstanceCreation(javax.swing.JScrollPane.<init>#1)[1](131L,43C-65C(4002-4024))4 -> (#1094U:#334G)Primary.InstanceCreation(javax.swing.JScrollPane.<init>#1)[2](128L,24C-46C(3869-3891))4 <325-328>
+MOVE(GROUP)(5)#49M:PERMUTATION:
+|- MOVE#129M(4):PERMUTATION (#34U:#33G)NamedArguments(constructPath)[1](51L,47C-52L,29C(1615-1646))4 [(#33U:#32G)] -> (#1715U:#873G)NamedArguments(constructPath)[1](297L,31C-300L,32C(8001-8103))4 [(#1714U:#872G)] <29-31;33>
+|- MOVE#128M(1):PERMUTATION (#33U:#32G)Primary.Literal.String(doc)[1](52L,24C-28C(1641-1645))1 -> (#1710U:#864G)Primary.Literal.String(doc)[0](298L,25C-29C(8028-8032))1 <32>
+MOVE#55M(2) (#350U:#350G)Constructor(HelpViewer.<init>(Ljava.net.URL;)V)[2](80L,1C-141L,1C(2231-4178))2 [(#84U:#84G);(#87U:#87G);(#93U:#93G);(#98U:#98G);(#104U:#104G);(#110U:#110G);(#116U:#116G);(#120U:#120G);(#125U:#125G);(#135U:#135G);(#145U:#145G);(#149U:#149G);(#156U:#156G);(#161U:#161G);(#166U:#166G);(#172U:#172G);(#178U:#178G);(#182U:#182G);(#186U:#186G);(#190U:#190G);(#195U:#195G);(#199U:#199G);(#205U:#205G);(#211U:#211G);(#219U:#219G);(#229U:#229G);(#238U:#238G);(#245U:#245G);(#249U:#249G);(#253U:#253G);(#257U:#257G);(#266U:#266G);(#270U:#270G);(#277U:#277G);(#281U:#281G);(#285U:#285G);(#291U:#291G);(#297U:#297G);(#302U:#302G);(#306U:#306G);(#315U:#315G);(#321U:#321G);(#330U:#330G);(#334U:#334G);(#337U:#337G);(#341U:#341G);(#346U:#346G);(#348U:#348G)] -> (#809U:#48G)Constructor(HelpViewer.<init>(Ljava.net.URL;)V)[1](56L,1C-59L,1C(1633-1688))2 [(#799U:#38G);(#802U:#41G);(#807U:#46G)] <349-350>
+MOVE#66M(3):PERMUTATION (#741U:#661G)Primary.InstanceCreation(java.net.URL.<init>#1)[0](264L,13C-39C(6759-6785))3 [(#738U:#659G)] -> (#1232U:#416G)Primary.InstanceCreation(java.net.URL.<init>#1)[0](164L,18C-29C(4687-4698))3 [(#1229U:#414G)] <656;660-661>
+MOVREL (#724U:#676G)Primary.PrimaryMethodInvocation(getText#0)[0](270L,23C-40C(6905-6922))1 [(#722U:#674G);(#723U:#675G)] -> (#1190U:#464G)Primary.PrimaryMethodInvocation(getMessage#0)[1](181L,26C-40C(5046-5060))1 [(#1188U:#462G);(#1189U:#463G)]
+RELABEL (#359U:#432G)Method(gotoURL(Ljava.net.URL;Z)V)[3](149L,1C-178L,1C(4350-4996))1 [(#352U:#352G);(#353U:#353G);(#358U:#358G);(#439U:#431G)] -> (#1138U:#551G)Method(gotoURL(Ljava.lang.String;Z)V)[3](150L,1C-206L,1C(4301-5675))1 [(#1131U:#370G);(#1132U:#371G);(#1137U:#376G);(#1337U:#550G)]
+MOVREL (#735U:#687G)CatchClause(98a0f92f9f6be8f58eeb127af4bd4d60;CatchParameter(,0))[1](267L,4C-273L,4C(6811-6994))1 [(#715U:#667G);(#734U:#686G)] -> (#1201U:#475G)CatchClause(52ef929576558861fc7dd5169b6271ce;CatchParameter(,0))[1](178L,2C-183L,2C(4953-5110))1 [(#1180U:#454G);(#1200U:#474G)]
+MOVREL (#62U:#52G)NamedArguments(java.net.URL)[1](56L,18C-50C(1732-1764))1 [(#61U:#51G)] -> (#1717U:#875G)NamedArguments(java.io.FileReader)[1](296L,42C-300L,33C(7968-8104))1 [(#1716U:#874G)]
+RELABEL (#338U:#338G)Primary.Literal.Integer(600)[0](137L,10C-12C(4108-4110))1 -> (#1117U:#356G)Primary.Literal.Integer(800)[0](138L,10C-12C(4059-4061))1
+MOVREL (#729U:#681G)Primary.QualifiedThis(HelpViewer)[0](271L,24C-38C(6951-6965))1 -> (#1195U:#469G)Primary.This[0](182L,22C-25C(5087-5090))1
+MOVREL (#715U:#667G)CatchParameter(mu,0)[0](267L,10C-33C(6817-6840))1 [(#714U:#666G)] -> (#1180U:#454G)CatchParameter(mf,0)[0](178L,8C-31C(4959-4982))1 [(#1179U:#453G)]
+RELABEL (#511U:#530G)Type.ClassOrInterface(java.net.URL)[0](215L,5C-7C(5703-5705))1 -> (#2419U:#1557G)Type.ClassOrInterface(java.lang.String)[0](533L,5C-10C(13077-13082))1
+MOVREL (#69U:#68G)MethodBody(gotoFile(Ljava.lang.String;)V)[3](50L,1C-62L,1C(1566-1856))1 [(#37U:#36G);(#44U:#43G);(#68U:#67G)] -> (#1724U:#921G)MethodBody(loadUserGuideTOC(Ljavax.swing.tree.DefaultMutableTreeNode;)V)[3](289L,1C-318L,1C(7812-8445))1 [(#1648U:#845G);(#1654U:#851G);(#1658U:#855G);(#1723U:#920G)]
+MOVREL (#27U:#69G)Method(gotoFile(Ljava.lang.String;)V)[0](49L,1C-62L,1C(1524-1856))1 [(#22U:#22G);(#23U:#23G);(#26U:#26G);(#69U:#68G)] -> (#1641U:#922G)Method(loadUserGuideTOC(Ljavax.swing.tree.DefaultMutableTreeNode;)V)[15](288L,1C-318L,1C(7752-8445))1 [(#1636U:#834G);(#1637U:#835G);(#1640U:#838G);(#1724U:#921G)]
+RELABEL (#354U:#354G)Type.ClassOrInterface(java.net.URL)[0](149L,21C-23C(4370-4372))1 -> (#1133U:#372G)Type.ClassOrInterface(java.lang.String)[0](150L,21C-26C(4321-4326))1
+MOVREL (#25U:#25G)Parameter(file,0,)[0](49L,29C-39C(1552-1562))1 [(#24U:#24G)] -> (#1639U:#837G)Parameter(root,0,)[0](288L,31C-57C(7782-7808))1 [(#1638U:#836G)]
+MOVREL (#63U:#44G)Type.ClassOrInterface(java.net.URL)[0](56L,15C-17C(1729-1731))1 -> (#1718U:#859G)Type.ClassOrInterface(java.io.FileReader)[0](296L,32C-41C(7958-7967))1
+MOVREL (#723U:#675G)NamedArguments(getText)[1](270L,39C-40C(6921-6922))1 -> (#1189U:#463G)NamedArguments(getMessage)[1](181L,39C-40C(5059-5060))1
+MOVREL (#722U:#674G)Primary.FieldAccess(urlField)[0](270L,23C-30C(6905-6912))1 -> (#1188U:#462G)Primary.Name(mf)[0](181L,26C-27C(5046-5047))1
+MOVREL (#26U:#26G)Parameters(gotoFile)[2](49L,28C-40C(1551-1563))1 [(#25U:#25G)] -> (#1640U:#838G)Parameters(loadUserGuideTOC)[2](288L,30C-58C(7781-7809))1 [(#1639U:#837G)]
+MOVREL (#64U:#53G)Primary.InstanceCreation(java.net.URL.<init>#1)[0](56L,11C-50C(1725-1764))1 [(#63U:#44G);(#62U:#52G)] -> (#1719U:#876G)Primary.InstanceCreation(java.io.FileReader.<init>#1)[2](296L,28C-300L,33C(7954-8104))1 [(#1718U:#859G);(#1717U:#875G)]
+MOVREL (#54U:#66G)CatchClause(b8cd1bedb4cf71cb973bbcf414ca451a;CatchParameter(,0))[1](58L,2C-61L,2C(1774-1853))1 [(#46U:#58G);(#53U:#65G)] -> (#1698U:#919G)CatchClause(e58718afcb49355259290b30b6e2b97f;CatchParameter(,0))[3](314L,2C-317L,2C(8387-8442))1 [(#1691U:#912G);(#1697U:#918G)]
+MOVREL (#22U:#22G)Modifiers(gotoFile#m)[0](49L,1C-13C(1524-1536))1 [(#20U:#20G);(#21U:#21G)] -> (#1636U:#834G)Modifiers(loadUserGuideTOC#m)[0](288L,1C-7C(7752-7758))1 [(#1635U:#833G)]
+MOVREL (#36U:#35G)VariableDeclarator(docsHome,0,true)[1](51L,9C-52L,29C(1577-1646))1 [(#35U:#34G)] -> (#1647U:#844G)VariableDeclarator(h,0,true)[1](290L,13C-36C(7827-7850))1 [(#1646U:#843G)]
+RELABEL (#475U:#468G)Type.Array(ClassOrInterface(java.net.URL),1)[1](191L,9C-13C(5233-5237))1 -> (#1388U:#602G)Type.Array(ClassOrInterface(java.lang.String),1)[1](223L,9C-16C(6043-6050))1
+MOVREL (#20U:#20G)Modifier.Public[0](49L,1C-6C(1524-1529))1 -> (#1635U:#833G)Modifier.Private[0](288L,1C-7C(7752-7758))1
+RELABEL (#555U:#501G)Type.ClassOrInterface(java.net.URL)[0](205L,5C-7C(5508-5510))1 -> (#2463U:#1528G)Type.ClassOrInterface(java.lang.String)[0](523L,5C-10C(12879-12884))1
+MOVREL (#66U:#55G)Statement.Expression.Primary.SimpleMethodInvocation(gotoURL#1)()[0](56L,3C-52C(1717-1766))1 [(#65U:#54G)] -> (#1721U:#878G)Statement.Expression.Primary.PrimaryMethodInvocation(parse#3)()[0](296L,3C-300L,35C(7929-8106))1 [(#1699U:#856G);(#1720U:#877G)]
+RELABEL (#102U:#100G)Type.ClassOrInterface(java.net.URL)[0](86L,16C-18C(2373-2375))1 -> (#829U:#66G)Type.ClassOrInterface(java.lang.String)[0](71L,16C-21C(1923-1928))1
+MOVREL (#49U:#61G)Primary.ClassLiteral[1](60L,21C-36C(1830-1845))1 [(#48U:#60G)] -> (#1693U:#914G)Primary.This[1](316L,21C-24C(8431-8434))1
+MOVREL (#61U:#51G)Expression.BinaryOperator.Add[0](56L,19C-49C(1733-1763))1 [(#60U:#49G);(#55U:#50G)] -> (#1716U:#874G)Primary.PrimaryMethodInvocation(constructPath#2)[0](297L,4C-300L,32C(7974-8103))1 [(#1702U:#860G);(#1715U:#873G)]
+RELABEL (#439U:#431G)MethodBody(gotoURL(Ljava.net.URL;Z)V)[3](150L,1C-178L,1C(4402-4996))1 [(#364U:#363G);(#438U:#430G)] -> (#1337U:#550G)MethodBody(gotoURL(Ljava.lang.String;Z)V)[3](151L,1C-206L,1C(4356-5675))1 [(#1143U:#381G);(#1178U:#407G);(#1276U:#498G);(#1336U:#549G)]
+MOVREL (#24U:#24G)Type.ClassOrInterface(java.lang.String)[0](49L,29C-34C(1552-1557))1 -> (#1638U:#836G)Type.ClassOrInterface(javax.swing.tree.DefaultMutableTreeNode)[0](288L,31C-52C(7782-7803))1
+MOVREL (#57U:#46G)Primary.Name(docsHome)[1](56L,29C-36C(1743-1750))1 -> (#1154U:#400G)Primary.Name(url)[0](159L,19C-21C(4614-4616))1
+MOVREL (#28U:#27G)Type.ClassOrInterface(java.lang.String)[0](51L,2C-7C(1570-1575))1 -> (#1642U:#839G)Type.ClassOrInterface(org.gjt.sp.jedit.gui.HelpViewer$TOCHandler)[0](290L,2C-11C(7816-7825))1
+RELABEL (#138U:#139G)Primary.Literal.Integer(0)[1](95L,36C-36C(2674-2674))1 -> (#870U:#110G)Primary.Literal.Integer(12)[1](81L,36C-37C(2254-2255))1
+MOVREL (#65U:#54G)NamedArguments(gotoURL)[0](56L,10C-51C(1724-1765))1 [(#64U:#53G)] -> (#1720U:#877G)NamedArguments(parse)[1](296L,15C-300L,34C(7941-8105))1 [(#1700U:#857G);(#1701U:#858G);(#1719U:#876G)]
+MOVREL (#718U:#670G)Primary.Name(mu)[2](269L,28C-29C(6877-6878))1 -> (#1183U:#457G)Primary.Name(mf)[2](180L,26C-27C(5015-5016))1
+MOVREL (#37U:#36G)LocalVariableDeclaration(true,docsHome[0)[0](51L,2C-52L,30C(1570-1647))1 [(#28U:#27G);(#36U:#35G)] -> (#1648U:#845G)LocalVariableDeclaration(true,h[0)[0](290L,2C-37C(7816-7851))1 [(#1642U:#839G);(#1647U:#844G)]
+MOVREL (#45U:#57G)Type.ClassOrInterface(java.net.MalformedURLException)[0](58L,8C-28C(1780-1800))1 -> (#1690U:#911G)Type.ClassOrInterface(java.lang.Exception)[0](314L,8C-16C(8393-8401))1
+DELETE(1) (#48U:#60G)Type.ClassOrInterface(HelpViewer)[0](60L,21C-30C(1830-1839))1 <60>
+DELETE(2) (#390U:#367G)Primary.PrimaryMethodInvocation(toString#0)[0](157L,20C-33C(4558-4571))2 [(#388U:#365G)] <366-367>
+DELETE(1) (#23U:#23G)Type.Void[1](49L,15C-18C(1538-1541))1 <23>
+DELETE(1) (#21U:#21G)Modifier.Static[1](49L,8C-13C(1531-1536))1 <21>
+DELETE(1) (#55U:#50G)Primary.Name(file)[1](56L,46C-49C(1760-1763))1 <50>
+DELETE(1) (#10U:#10G)IDsingle(java.io.IOException)[8](30L,0C-26C(1029-1055))1 <10>
+DELETE(2) (#746U:#688G)Statement.Try[0](262L,4C-273L,4C(6736-6994))2 [(#744U:#664G);(#735U:#687G)] <665;688>
+DELETE(1) (#9U:#9G)IDsingle(java.io.File)[7](29L,0C-19C(1008-1027))1 <9>
+DELETE(7) (#44U:#43G)Statement.Expression.AssignmentOperator.Eq()()[1](53L,2C-53C(1651-1702))7 <37-43>
+DELETE(1) (#35U:#34G)Primary.PrimaryMethodInvocation(constructPath#2)[0](51L,20C-52L,29C(1588-1646))1 [(#29U:#28G);(#34U:#33G)] <34>
+DELETE(2) (#60U:#49G)Expression.BinaryOperator.Add[0](56L,19C-42C(1733-1756))2 [(#59U:#47G)] <48-49>
+INSERT(2) (#793U:#32G)Primary.PrimaryMethodInvocation(toString#0)[0](50L,17C-30C(1554-1567))2 [(#791U:#30G)] <31-32>
+INSERT(4) (#1646U:#843G)Primary.InstanceCreation(org.gjt.sp.jedit.gui.HelpViewer$TOCHandler.<init>#1)[0](290L,17C-36C(7831-7850))4 <840-843>
+INSERT(1) (#1701U:#858G)Primary.Literal.Null[1](296L,22C-25C(7948-7951))1 <858>
+INSERT(5) (#1365U:#579G)FieldDeclaration(tocModel[0)[7](217L,1C-34C(5845-5878))5 <575-579>
+INSERT(1) (#1637U:#835G)Type.Void[1](288L,9C-12C(7760-7763))1 <835>
+INSERT(4) (#1658U:#855G)Statement.Expression.Primary.PrimaryMethodInvocation(setHandler#1)()[2](292L,2C-22C(7893-7913))4 <852-855>
+INSERT(51) (#1336U:#549G)Statement.If(e9d11c07b41c64ba058e6e4709e39834;Primary.PrimaryMethodInvocation())[3](192L,2C-205L,2C(5300-5672))51 <499-549>
+INSERT(223) (#1399U:#832G)Method(createTOC()V)[14](226L,1C-286L,1C(6088-7748))223 <610-832>
+INSERT(29) (#1733U:#951G)Method(createNode(Ljava.lang.String;Ljava.lang.String;)Ljavax.swing.tree.DefaultMutableTreeNode;)[16](320L,1C-326L,1C(8449-8656))29 <923-951>
+INSERT(1) (#1187U:#461G)Primary.Name(url)[0](181L,21C-23C(5041-5043))1 <461>
+INSERT(1) (#763U:#2G)IDtypeOnDemand(com.microstar.xml)[0](22L,0C-26C(825-851))1 <2>
+INSERT(5) (#1370U:#584G)FieldDeclaration(toc[0)[8](218L,1C-18C(5881-5898))5 <580-584>
+INSERT(8) (#1714U:#872G)Expression.BinaryOperator.Add[1](298L,25C-300L,31C(8028-8102))8 [(#1710U:#864G)] <865-872>
+INSERT(1) (#1700U:#857G)Primary.Literal.Null[0](296L,16C-19C(7942-7945))1 <857>
+INSERT(53) (#2390U:#1502G)Class(TOCCellRenderer)[20](495L,1C-510L,1C(12236-12642))53 <1450-1502>
+INSERT(5) (#1375U:#589G)FieldDeclaration(nodes[0)[9](220L,1C-24C(5950-5973))5 <585-589>
+INSERT(4) (#1689U:#910G)CatchClause(04bdfdd39c8d0e4a1ca1bd3f31d09bf5;CatchParameter(,0))[2](309L,2C-313L,2C(8279-8383))4 <907-910>
+INSERT(1) (#1699U:#856G)Primary.Name(parser)[0](296L,3C-8C(7929-7934))1 <856>
+INSERT(1) (#1107U:#346G)Primary.Name(splitter)[1](132L,43C-50C(3968-3975))1 <346>
+INSERT(20) (#1178U:#407G)Statement.If(e0aeac915b8027c73bee410b80ef3ba1;Expression.UnaryOperator.Not)[1](156L,2C-159L,35C(4484-4630))20 [(#1159U:#404G)] <382-398;405-407>
+INSERT(1) (#774U:#13G)IDtypeOnDemand(java.util)[11](33L,0C-18C(1106-1124))1 <13>
+INSERT(27) (#1685U:#906G)CatchClause(3e73045a6c7a29a509ae644307087f6e;CatchParameter(,0))[1](302L,2C-308L,2C(8114-8275))27 <880-906>
+INSERT(6) (#1654U:#851G)LocalVariableDeclaration(true,parser[0)[1](291L,2C-36C(7855-7889))6 <846-851>
+INSERT(1) (#769U:#8G)IDtypeOnDemand(javax.swing.tree)[6](28L,0C-25C(998-1023))1 <8>
+INSERT(317) (#2336U:#1449G)Class(TOCTree)[19](395L,1C-493L,1C(9844-12232))317 <1133-1449>
+INSERT(2) (#2567U:#1629G)Primary.PrimaryMethodInvocation(toString#0)[0](562L,14C-27C(13678-13691))2 [(#2565U:#1627G)] <1628-1629>
+INSERT(1) (#772U:#11G)IDtypeOnDemand(java.io)[9](31L,0C-16C(1069-1085))1 <11>
+INSERT(150) (#1955U:#1132G)Class(TOCHandler)[18](344L,1C-393L,1C(8856-9840))150 <983-1132>
+INSERT(3) (#1157U:#403G)Primary.PrimaryMethodInvocation(substring#1)[1](159L,19C-34C(4614-4629))3 [(#1154U:#400G)] <401-403>
+INSERT(58) (#1129U:#368G)Constructor(HelpViewer.<init>(Ljava.lang.String;)V)[2](65L,1C-142L,1C(1778-4129))58 [(#820U:#59G);(#825U:#64G);(#831U:#70G);(#842U:#81G);(#848U:#87G);(#852U:#91G);(#857U:#96G);(#867U:#106G);(#877U:#116G);(#881U:#120G);(#888U:#127G);(#893U:#132G);(#898U:#137G);(#904U:#143G);(#910U:#149G);(#914U:#153G);(#918U:#157G);(#922U:#161G);(#927U:#166G);(#931U:#170G);(#937U:#176G);(#943U:#182G);(#951U:#190G);(#961U:#200G);(#970U:#209G);(#977U:#216G);(#981U:#220G);(#985U:#224G);(#989U:#228G);(#998U:#237G);(#1002U:#241G);(#1009U:#248G);(#1013U:#252G);(#1017U:#256G);(#1023U:#262G);(#1029U:#268G);(#1065U:#304G);(#1069U:#308G);(#1078U:#317G);(#1084U:#323G);(#1094U:#334G);(#1109U:#348G);(#1113U:#352G);(#1116U:#355G);(#1120U:#359G);(#1125U:#364G);(#1127U:#366G)] <49-53;71-75;269-299;324-330;335-342;367-368>
+INSERT(31) (#1785U:#982G)Class(HelpNode)[17](328L,1C-342L,1C(8660-8852))31 <952-982>
+INSERT(5) (#807U:#46G)ThisInvocation[0](58L,2C-22C(1665-1685))5 <42-46>

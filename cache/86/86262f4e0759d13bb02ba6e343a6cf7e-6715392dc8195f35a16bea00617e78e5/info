@@ -1,0 +1,22 @@
+MOVE#2M(4):PERMUTATION (#74U:#62G)Primary.TypeMethodInvocation(java.lang.Math,round#1)[1](20L,7C-31C(328-352))4 -> (#164U:#61G)Primary.TypeMethodInvocation(java.lang.Math,round#1)[1](20L,7C-31C(317-341))4 <59-62>
+MOVE#3M(3):PERMUTATION (#55U:#72G)Primary.TypeMethodInvocation(java.lang.Math,abs#1)[1](23L,7C-22C(390-405))3 -> (#182U:#50G)Primary.TypeMethodInvocation(java.lang.Math,abs#1)[1](17L,7C-22C(264-279))3 <70-72>
+RELABEL (#82U:#80G)Statement.If(4bd6c321973f86ec3736a8f38b788f66;Primary.Name())[4](18L,2C-26L,2C(272-448))1 [(#81U:#50G);(#80U:#68G);(#62U:#79G)] -> (#191U:#69G)Statement.If(8cfa15c9c2ead489b0a02235d0c8ce0b;Expression.UnaryOperator.Not)[3](15L,2C-23L,2C(206-384))1 [(#190U:#39G);(#188U:#56G);(#171U:#68G)]
+RELABEL (#14U:#14G)Type.ClassOrInterface(java.lang.String)[1](7L,8C-13C(87-92))1 -> (#134U:#15G)Type.Int[1](7L,8C-10C(95-97))1
+RELABEL (#7U:#7G)Modifiers(aString#f)[0](5L,1C-6C(38-43))1 [(#6U:#6G)] -> (#127U:#8G)Modifiers(aNewString#f)[0](5L,1C-6C(44-49))1 [(#126U:#7G)]
+RELABEL (#104U:#103G)Modifiers(bar#m)[0](36L,1C-6C(585-590))1 [(#103U:#102G)] -> (#220U:#99G)Modifiers(newBar#m)[0](37L,1C-6C(572-577))1 [(#219U:#98G)]
+RELABEL (#11U:#11G)FieldDeclaration(aString[0)[0](5L,1C-38C(38-75))1 [(#7U:#7G);(#8U:#8G);(#10U:#10G)] -> (#131U:#12G)FieldDeclaration(aNewString[0)[0](5L,1C-41C(44-84))1 [(#127U:#8G);(#128U:#9G);(#130U:#11G)]
+RELABEL (#114U:#112G)MethodBody(bar(I)V)[3](36L,27C-38L,1C(611-647))1 [(#113U:#111G)] -> (#230U:#108G)MethodBody(newBar(J)V)[3](37L,31C-39L,1C(602-638))1 [(#229U:#107G)]
+RELABEL (#88U:#87G)Modifiers(method#m)[0](30L,2C-8C(478-484))1 [(#87U:#86G)] -> (#204U:#83G)Modifiers(newMethod#m)[0](30L,2C-8C(459-465))1 [(#203U:#82G)]
+RELABEL (#90U:#99G)Method(method()V)[0](30L,2C-34L,2C(478-579))1 [(#88U:#87G);(#89U:#88G);(#100U:#98G)] -> (#206U:#95G)Method(newMethod()V)[0](30L,2C-34L,2C(459-565))1 [(#204U:#83G);(#205U:#84G);(#216U:#94G)]
+RELABEL (#26U:#26G)Modifier.Public[0](11L,1C-6C(151-156))1 -> (#137U:#18G)Modifier.Protected[0](9L,1C-9C(110-118))1
+RELABEL (#100U:#98G)MethodBody(method()V)[2](30L,24C-34L,2C(500-579))1 [(#93U:#91G);(#96U:#94G);(#99U:#97G)] -> (#216U:#94G)MethodBody(newMethod()V)[2](30L,27C-34L,2C(484-565))1 [(#209U:#87G);(#212U:#90G);(#215U:#93G)]
+RELABEL (#106U:#105G)Type.Int[0](36L,17C-19C(601-603))1 -> (#222U:#101G)Type.Long[0](37L,20C-23C(591-594))1
+RELABEL (#109U:#113G)Method(bar(I)V)[5](36L,1C-38L,1C(585-647))1 [(#104U:#103G);(#105U:#104G);(#108U:#107G);(#114U:#112G)] -> (#225U:#109G)Method(newBar(J)V)[5](37L,1C-39L,1C(572-638))1 [(#220U:#99G);(#221U:#100G);(#224U:#103G);(#230U:#108G)]
+RELABEL (#108U:#107G)Parameters(bar)[2](36L,16C-25C(600-609))1 [(#107U:#106G)] -> (#224U:#103G)Parameters(newBar)[2](37L,19C-29C(590-600))1 [(#223U:#102G)]
+RELABEL (#10U:#10G)VariableDeclarator(aString,0,false)[2](5L,15C-37C(52-74))1 [(#9U:#9G)] -> (#130U:#11G)VariableDeclarator(aNewString,0,false)[2](5L,15C-40C(58-83))1 [(#129U:#10G)]
+DELETE(9) (#25U:#25G)FieldDeclaration(anInteger[0)[2](9L,1C-42C(105-146))9 <17-25>
+DELETE(4) (#36U:#35G)Statement.Expression.Primary.PrimaryMethodInvocation(println#1)()[0](12L,2C-28C(182-208))4 <32-35>
+INSERT(2) (#193U:#71G)Statement.Return[4](24L,2C-11C(388-397))2 <70-71>
+INSERT(5) (#198U:#78G)Method(emptyMethod()V)[3](27L,1C-29C(404-432))5 <74-78>
+INSERT(1) (#190U:#39G)Expression.UnaryOperator.Not[0](15L,6C-12C(210-216))1 [(#189U:#38G)] <39>
+INSERT(1) (#123U:#4G)Modifier.Final[1](3L,7C-11C(22-26))1 <4>

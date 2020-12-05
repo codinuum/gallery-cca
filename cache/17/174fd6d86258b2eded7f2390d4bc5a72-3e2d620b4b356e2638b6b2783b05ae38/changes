@@ -1,0 +1,271 @@
+*** Extracted Changes ***
+
+[significance=4] argument added (1)
+  Primary.FieldAccess(DEFAULT_PORT_NUMBER)[65L,14C-32C(2076-2094)]* into ClassBody(JRMPRegistry)[46L,49C-217L,0C(1791-7121)]
+
+[significance=4] argument removed (1)
+  Expression.BinaryOperator.Add[180L,38C-70C(6364-6396)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+
+[significance=4] parent class added (1)
+  Extends[44L,26C-44C(1678-1696)]* into Specifier:Class[46L,0C-47C(1742-1789)]
+
+[significance=4] accessibility decreased (2)
+  FieldDeclaration(port[0)[56L,4C-33C(1924-1953)] -> FieldDeclaration(DEFAULT_PORT_NUMBER[0)[49L,4C-55C(1764-1815)]
+  FieldDeclaration(registry[0)[71L,4C-42C(2213-2251)] -> FieldDeclaration(registry[0)[59L,4C-43C(1949-1988)]
+
+[significance=4] final modifier added (1)
+  Modifier.Final[49L,19C-23C(1779-1783)]* into Modifiers(port#f)[56L,4C-16C(1924-1936)]
+
+[significance=4] field removed (2)
+  FieldDeclaration(configurationProperties[0)[66L,4C-53C(2125-2174)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  FieldDeclaration(host[0)[51L,4C-30C(1837-1863)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+
+[significance=4] return type changed (1)
+  Type.ClassOrInterface(java.lang.String)(Type.ClassOrInterface(String))[206L,12C-17C(6852-6857)] -> Type.ClassOrInterface(java.rmi.registry.Registry)(Type.ClassOrInterface(Registry))[170L,18C-25C(5973-5980)]
+
+[significance=4] parameter removed (3)
+  Parameter(p,0,)[178L,24C-28C(6272-6276)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Parameter(host,0,)[199L,24C-34C(6742-6752)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Parameter(p,0,)[214L,37C-48C(7055-7066)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+
+[significance=4] method removed (4)
+  Method(setConfigProperties(Ljava.util.Properties;)V)(Method(setConfigProperties))[214L,5C-216L,5C(7023-7119)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Method(setHost(Ljava.lang.String;)V)(Method(setHost))[199L,4C-201L,4C(6722-6787)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Method(setPort(I)V)[178L,4C-185L,4C(6252-6468)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Method(getPort()I)[191L,4C-193L,4C(6573-6621)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+
+[significance=3] statement inserted to increase nesting-depth (1)
+  Statement.Return[148L,8C-33C(5466-5491)] into MethodBody(isLocal()Z)[150L,36C-156L,4C(5527-5643)]
+
+[significance=3] statement removed to decrease nesting-depth (3)
+  Statement.Expression.AssignmentOperator.Eq()()[215L,9C-41C(7080-7112)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Statement.Expression.AssignmentOperator.Eq()()[200L,8C-24C(6765-6781)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Statement.Return[192L,8C-19C(6604-6615)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+
+[significance=3] field renamed (1)
+  FieldDeclaration(port[0)[56L,4C-33C(1924-1953)] -> FieldDeclaration(DEFAULT_PORT_NUMBER[0)[49L,4C-55C(1764-1815)]
+
+[significance=3] method renamed or signature changed (1)
+  Method(getHost()Ljava.lang.String;)(Method(getHost))[206L,5C-208L,5C(6845-6898)] -> Method(getRegistry()Ljava.rmi.registry.Registry;)(Method(getRegistry))[170L,4C-172L,4C(5959-6027)]
+
+[significance=2] statement deleted (1)
+  Statement.If(7f600562acb49b4a23ca1a44efb62556;Expression.BinaryOperator.Neq)[151L,8C-155L,8C(5537-5637)] from MethodBody(isLocal()Z)[147L,36C-149L,4C(5456-5497)]
+
+[significance=2] statement added (1)
+  Statement.Return[157L,12C-23C(5712-5723)]* into Statement.If(7f600562acb49b4a23ca1a44efb62556;Expression.BinaryOperator.Neq)[163L,8C-41C(5822-5855)]
+
+[significance=2] statement removed (6)
+  Statement.If(55992407ecf64c46f95b0b6ee108c5b0;Primary.TypeMethodInvocation(,))[179L,8C-181L,8C(6289-6408)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Statement.Return[154L,12C-24C(5615-5627)]* from MethodBody(isLocal()Z)[147L,36C-149L,4C(5456-5497)]
+  Statement.Return[152L,12C-23C(5573-5584)]* from MethodBody(isLocal()Z)[147L,36C-149L,4C(5456-5497)]
+  Statement.If(8e0db20fcac13f75289bab69435e5407;Expression.BinaryOperator.Neq)[182L,8C-184L,8C(6418-6462)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Statement.Return[163L,30C-41C(5844-5855)]* from Statement.If(7f600562acb49b4a23ca1a44efb62556;Expression.BinaryOperator.Neq)[156L,8C-158L,8C(5676-5733)]
+  Statement.Expression.AssignmentOperator.Eq()()[183L,12C-20C(6444-6452)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+
+[significance=2] import declaration removed (1)
+  IDsingle(java.util.Properties)[34L,0C-27C(1343-1370)]* from ImportDeclarations[30L,0C-38L,56C(1190-1575)]
+
+[significance=2] constructor invocation added (1)
+  SuperInvocation[65L,8C-34C(2070-2096)]* into ClassBody(JRMPRegistry)[46L,49C-217L,0C(1791-7121)]
+
+[significance=2] variable declaration removed (2)
+  VariableDeclarator(host,0,false)[51L,19C-29C(1852-1862)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  VariableDeclarator(configurationProperties,0,false)[66L,23C-52C(2144-2173)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+
+[significance=2] block inserted (1)
+  Block(block)[134L,34C-136L,12C(5048-5130)] into Statement.If(7f600562acb49b4a23ca1a44efb62556;Expression.BinaryOperator.Neq)[139L,12C-84C(5129-5201)]
+
+[significance=2] block added (1)
+  Block(block)[156L,30C-158L,8C(5698-5733)]* into Statement.If(7f600562acb49b4a23ca1a44efb62556;Expression.BinaryOperator.Neq)[163L,8C-41C(5822-5855)]
+
+[significance=2] block removed (3)
+  Block(block)[151L,30C-153L,8C(5559-5594)]* from MethodBody(isLocal()Z)[147L,36C-149L,4C(5456-5497)]
+  Block(block)[182L,20C-184L,8C(6430-6462)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Block(block)[179L,43C-181L,8C(6324-6408)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+
+[significance=2] modifier added (2)
+  Modifier.Public[64L,4C-9C(2038-2043)]* into ClassBody(JRMPRegistry)[46L,49C-217L,0C(1791-7121)]
+  Modifier.Static[170L,11C-16C(5966-5971)]* into Modifiers(getHost#m)[206L,5C-10C(6845-6850)]
+
+[significance=2] modifier removed (6)
+  Modifier.Private[66L,4C-10C(2125-2131)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Modifier.Public[178L,4C-9C(6252-6257)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Modifier.Public[191L,4C-9C(6573-6578)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Modifier.Private[51L,4C-10C(1837-1843)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Modifier.Public[214L,5C-10C(7023-7028)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Modifier.Public[199L,4C-9C(6722-6727)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+
+[significance=2] else-part removed (1)
+  Block(block)[153L,15C-155L,8C(5601-5637)]* from MethodBody(isLocal()Z)[147L,36C-149L,4C(5456-5497)]
+
+[significance=2] condition expression modified (2)
+  Expression.BinaryOperator.Ge[101L,20C-28C(3609-3617)] -> Expression.BinaryOperator.Ge[96L,20C-33C(3486-3499)]
+  Expression.BinaryOperator.Neq[88L,24C-54C(2896-2926)] -> Expression.BinaryOperator.Neq[82L,24C-52C(2714-2742)]
+
+[significance=1] (changed) (3)
+  Modifiers(getHost#m)[206L,5C-10C(6845-6850)] -> Modifiers(getRegistry#m)[170L,4C-16C(5959-5971)]
+  MethodBody(getHost()Ljava.lang.String;)(MethodBody(getHost()LString;))[206L,29C-208L,5C(6869-6898)] -> MethodBody(getRegistry()Ljava.rmi.registry.Registry;)(MethodBody(getRegistry()LRegistry;))[170L,41C-172L,4C(5996-6027)]
+  Modifiers(port#f)[56L,4C-16C(1924-1936)] -> Modifiers(DEFAULT_PORT_NUMBER#f)[49L,4C-23C(1764-1783)]
+
+[significance=1] (inserted) (1)
+  Primary.Paren(7f600562acb49b4a23ca1a44efb62556;Expression.BinaryOperator.Neq)[148L,15C-32C(5473-5490)] into MethodBody(isLocal()Z)[150L,36C-156L,4C(5527-5643)]
+
+[significance=1] (added) (12)
+  NamedArguments(getPort)[75L,79C-80C(2460-2461)]* into Primary.FieldAccess(port)[81L,72C-75C(2640-2643)]
+  NamedArguments(getPort)[96L,27C-28C(3493-3494)]* into Primary.FieldAccess(port)[101L,20C-23C(3609-3612)]
+  NamedArguments(super)[65L,13C-33C(2075-2095)]* into ClassBody(JRMPRegistry)[46L,49C-217L,0C(1791-7121)]
+  NamedArguments(getPort)[116L,96C-97C(4494-4495)]* into Primary.FieldAccess(port)[121L,89C-92C(4595-4598)]
+  Type.ClassOrInterface(AbsRegistry)(Type.ClassOrInterface(AbsRegistry))[44L,34C-44C(1686-1696)]* into Specifier:Class[46L,0C-47C(1742-1789)]
+  NamedArguments(getPort)[97L,81C-82C(3585-3586)]* into Primary.FieldAccess(port)[102L,74C-77C(3696-3699)]
+  Modifiers(#c)[64L,4C-9C(2038-2043)]* into ClassBody(JRMPRegistry)[46L,49C-217L,0C(1791-7121)]
+  NamedArguments(getPort)[160L,46C-47C(5795-5796)]* into Primary.FieldAccess(port)[167L,39C-42C(6027-6030)]
+  NamedArguments(getPort)[111L,93C-94C(4267-4268)]* into Primary.FieldAccess(port)[116L,86C-89C(4373-4376)]
+  NamedArguments(getConfigProperties)[84L,78C-79C(2908-2909)]* into Primary.FieldAccess(configurationProperties)[90L,59C-81C(3073-3095)]
+  ConstructorBody(JRMPRegistry.<init>()V)[64L,26C-66L,4C(2060-2102)]* into ClassBody(JRMPRegistry)[46L,49C-217L,0C(1791-7121)]
+  NamedArguments(getConfigProperties)[82L,43C-44C(2733-2734)]* into Primary.FieldAccess(configurationProperties)[88L,24C-46C(2896-2918)]
+
+[significance=1] (removed) (24)
+  Type.ClassOrInterface(java.util.Properties)(Type.ClassOrInterface(Properties))[66L,12C-21C(2133-2142)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Type.ClassOrInterface(java.util.Properties)(Type.ClassOrInterface(Properties))[214L,37C-46C(7055-7064)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Type.Int(Type.Int)[191L,11C-13C(6580-6582)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Type.Void(Type.Void)[214L,12C-15C(7030-7033)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Modifiers(setPort#m)[178L,4C-9C(6252-6257)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Modifiers(configurationProperties#f)[66L,4C-10C(2125-2131)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  MethodBody(setHost(Ljava.lang.String;)V)(MethodBody(setHost(LString;)V))[199L,37C-201L,4C(6755-6787)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Type.Void(Type.Void)[199L,11C-14C(6729-6732)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Modifiers(host#f)[51L,4C-10C(1837-1843)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  NamedArguments(isDebugJndiCarol)[179L,39C-40C(6320-6321)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Modifiers(setConfigProperties#m)[214L,5C-10C(7023-7028)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Type.Int(Type.Int)[178L,24C-26C(6272-6274)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  NamedArguments(debugJndiCarol)[180L,37C-71C(6363-6397)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  MethodBody(setPort(I)V)[178L,31C-185L,4C(6279-6468)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Modifiers(getPort#m)[191L,4C-9C(6573-6578)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Modifiers(setHost#m)[199L,4C-9C(6722-6727)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Type.Void(Type.Void)[178L,11C-14C(6259-6262)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Parameters(setConfigProperties)[214L,36C-49C(7054-7067)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  MethodBody(setConfigProperties(Ljava.util.Properties;)V)(MethodBody(setConfigProperties(LProperties;)V))[214L,51C-216L,5C(7069-7119)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Type.ClassOrInterface(java.lang.String)(Type.ClassOrInterface(String))[51L,12C-17C(1845-1850)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Parameters(setHost)[199L,23C-35C(6741-6753)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Parameters(setPort)[178L,23C-29C(6271-6277)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Type.ClassOrInterface(java.lang.String)(Type.ClassOrInterface(String))[199L,24C-29C(6742-6747)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  MethodBody(getPort()I)[191L,25C-193L,4C(6594-6621)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+
+[significance=1] statement modified (18)
+  Statement.If(7f600562acb49b4a23ca1a44efb62556;Expression.BinaryOperator.Neq)[139L,12C-84C(5129-5201)] -> Statement.If(7f600562acb49b4a23ca1a44efb62556;Expression.BinaryOperator.Neq)[134L,12C-136L,12C(5026-5130)]
+  Statement.Try[138L,8C-143L,8C(5111-5351)] -> Statement.Try[133L,8C-140L,8C(5008-5280)]
+  Statement.If(7f600562acb49b4a23ca1a44efb62556;Expression.BinaryOperator.Neq)[163L,8C-41C(5822-5855)] -> Statement.If(7f600562acb49b4a23ca1a44efb62556;Expression.BinaryOperator.Neq)[156L,8C-158L,8C(5676-5733)]
+  Statement.Expression.Primary.TypeMethodInvocation(org.objectweb.carol.util.configuration.TraceCarol,debugJndiCarol#1)()(Statement.Expression.Primary.TypeMethodInvocation(TraceCarol,debugJndiCarol)())[121L,20C-94C(4526-4600)] -> Statement.Expression.Primary.TypeMethodInvocation(org.objectweb.carol.util.configuration.TraceCarol,debugJndiCarol#1)()(Statement.Expression.Primary.TypeMethodInvocation(TraceCarol,debugJndiCarol)())[116L,20C-99C(4418-4497)]
+  Statement.If(55992407ecf64c46f95b0b6ee108c5b0;Primary.TypeMethodInvocation(,))[120L,16C-122L,16C(4469-4618)] -> Statement.If(55992407ecf64c46f95b0b6ee108c5b0;Primary.TypeMethodInvocation(,))[115L,16C-117L,16C(4361-4515)]
+  Statement.Return[207L,9C-20C(6880-6891)] -> Statement.Return[171L,8C-23C(6006-6021)]
+  Statement.If(37c605761c75fa0b70927877e07c252c;Expression.BinaryOperator.Neq)[88L,20C-97L,20C(2892-3567)] -> Statement.If(cea76cfbc22f34060790e3ddb9c6c235;Expression.BinaryOperator.Neq)[82L,20C-93L,20C(2710-3445)]
+  Statement.If(2c323da77a178b1b574faf58377e40ba;Primary.PrimaryMethodInvocation())[87L,16C-98L,16C(2780-3585)] -> Statement.If(2c323da77a178b1b574faf58377e40ba;Primary.PrimaryMethodInvocation())[81L,16C-94L,16C(2598-3463)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(list#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(list)())[167L,12C-51C(6000-6039)] -> Statement.Expression.Primary.PrimaryMethodInvocation(list#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(list)())[160L,12C-56C(5761-5805)]
+  Statement.Try[164L,8C-170L,8C(5865-6114)] -> Statement.Try[159L,8C-163L,8C(5743-5880)]
+  Statement.Expression.AssignmentOperator.Eq()()[102L,20C-91C(3642-3713)] -> Statement.Expression.AssignmentOperator.Eq()()[97L,20C-96C(3524-3600)]
+  Statement.Expression.Primary.TypeMethodInvocation(org.objectweb.carol.util.configuration.TraceCarol,debugJndiCarol#1)()(Statement.Expression.Primary.TypeMethodInvocation(TraceCarol,debugJndiCarol)())[81L,12C-77C(2580-2645)] -> Statement.Expression.Primary.TypeMethodInvocation(org.objectweb.carol.util.configuration.TraceCarol,debugJndiCarol#1)()(Statement.Expression.Primary.TypeMethodInvocation(TraceCarol,debugJndiCarol)())[75L,12C-82C(2393-2463)]
+  Statement.If(55992407ecf64c46f95b0b6ee108c5b0;Primary.TypeMethodInvocation(,))[80L,8C-82L,8C(2531-2655)] -> Statement.If(55992407ecf64c46f95b0b6ee108c5b0;Primary.TypeMethodInvocation(,))[74L,8C-76L,8C(2344-2473)]
+  Statement.Expression.Primary.TypeMethodInvocation(org.objectweb.carol.util.configuration.TraceCarol,debugJndiCarol#1)()(Statement.Expression.Primary.TypeMethodInvocation(TraceCarol,debugJndiCarol)())[116L,24C-103C(4311-4390)] -> Statement.Expression.Primary.TypeMethodInvocation(org.objectweb.carol.util.configuration.TraceCarol,debugJndiCarol#1)()(Statement.Expression.Primary.TypeMethodInvocation(TraceCarol,debugJndiCarol)())[111L,24C-108C(4198-4282)]
+  Statement.If(55992407ecf64c46f95b0b6ee108c5b0;Primary.TypeMethodInvocation(,))[115L,20C-117L,20C(4250-4412)] -> Statement.If(55992407ecf64c46f95b0b6ee108c5b0;Primary.TypeMethodInvocation(,))[110L,20C-112L,20C(4137-4304)]
+  Statement.If(50fdf536815a3743cf0340d14c10abed;Expression.BinaryOperator.Ge)[101L,16C-118L,16C(3605-4430)] -> Statement.If(7a072364509a7293fdfb0c22134b809b;Expression.BinaryOperator.Ge)[96L,16C-113L,16C(3482-4322)]
+  Statement.If(1b2914312ae031344adc1889964cc940;Expression.UnaryOperator.Not)[84L,12C-123L,12C(2683-4632)] -> Statement.If(1b2914312ae031344adc1889964cc940;Expression.UnaryOperator.Not)[78L,12C-118L,12C(2501-4529)]
+  Statement.Try[83L,8C-126L,8C(2665-4754)] -> Statement.Try[77L,8C-121L,8C(2483-4651)]
+
+[significance=1] statement changed (2)
+  Statement.If(50fdf536815a3743cf0340d14c10abed;Expression.BinaryOperator.Ge)[101L,16C-118L,16C(3605-4430)] -> Statement.If(7a072364509a7293fdfb0c22134b809b;Expression.BinaryOperator.Ge)[96L,16C-113L,16C(3482-4322)]
+  Statement.If(37c605761c75fa0b70927877e07c252c;Expression.BinaryOperator.Neq)[88L,20C-97L,20C(2892-3567)] -> Statement.If(cea76cfbc22f34060790e3ddb9c6c235;Expression.BinaryOperator.Neq)[82L,20C-93L,20C(2710-3445)]
+
+[significance=1] expression modified (18)
+  Primary.FieldAccess(port)[81L,72C-75C(2640-2643)] -> Primary.SimpleMethodInvocation(getPort#0)(Primary.SimpleMethodInvocation(getPort))[75L,72C-80C(2453-2461)]
+  Primary.FieldAccess(port)[101L,20C-23C(3609-3612)] -> Primary.SimpleMethodInvocation(getPort#0)(Primary.SimpleMethodInvocation(getPort))[96L,20C-28C(3486-3494)]
+  Primary.FieldAccess(port)[121L,89C-92C(4595-4598)] -> Primary.SimpleMethodInvocation(getPort#0)(Primary.SimpleMethodInvocation(getPort))[116L,89C-97C(4487-4495)]
+  Primary.FieldAccess(port)[102L,74C-77C(3696-3699)] -> Primary.SimpleMethodInvocation(getPort#0)(Primary.SimpleMethodInvocation(getPort))[97L,74C-82C(3578-3586)]
+  Primary.FieldAccess(port)[167L,39C-42C(6027-6030)] -> Primary.SimpleMethodInvocation(getPort#0)(Primary.SimpleMethodInvocation(getPort))[160L,39C-47C(5788-5796)]
+  Primary.FieldAccess(port)[116L,86C-89C(4373-4376)] -> Primary.SimpleMethodInvocation(getPort#0)(Primary.SimpleMethodInvocation(getPort))[111L,86C-94C(4260-4268)]
+  Primary.FieldAccess(configurationProperties)[90L,59C-81C(3073-3095)] -> Primary.SimpleMethodInvocation(getConfigProperties#0)(Primary.SimpleMethodInvocation(getConfigProperties))[84L,59C-79C(2889-2909)]
+  Primary.FieldAccess(configurationProperties)[88L,24C-46C(2896-2918)] -> Primary.SimpleMethodInvocation(getConfigProperties#0)(Primary.SimpleMethodInvocation(getConfigProperties))[82L,24C-44C(2714-2734)]
+  Expression.BinaryOperator.Add[121L,46C-92C(4552-4598)] -> Expression.BinaryOperator.Add[116L,46C-97C(4444-4495)]
+  Primary.PrimaryMethodInvocation(getProperty#2)(Primary.PrimaryMethodInvocation(getProperty))[90L,59C-112C(3073-3126)] -> Primary.PrimaryMethodInvocation(getProperty#2)(Primary.PrimaryMethodInvocation(getProperty))[84L,59C-110C(2889-2940)]
+  Primary.TypeMethodInvocation(org.objectweb.carol.rmi.util.PortNumber,strToint#2)(Primary.TypeMethodInvocation(PortNumber,strToint))[90L,39C-127C(3053-3141)] -> Primary.TypeMethodInvocation(org.objectweb.carol.rmi.util.PortNumber,strToint#2)(Primary.TypeMethodInvocation(PortNumber,strToint))[84L,39C-85L,44C(2869-2987)]
+  Expression.BinaryOperator.Ge[101L,20C-28C(3609-3617)] -> Expression.BinaryOperator.Ge[96L,20C-33C(3486-3499)]
+  Expression.BinaryOperator.Neq[88L,24C-54C(2896-2926)] -> Expression.BinaryOperator.Neq[82L,24C-52C(2714-2742)]
+  Primary.TypeMethodInvocation(java.rmi.registry.LocateRegistry,getRegistry#1)(Primary.TypeMethodInvocation(LocateRegistry,getRegistry))[167L,12C-43C(6000-6031)] -> Primary.TypeMethodInvocation(java.rmi.registry.LocateRegistry,getRegistry#1)(Primary.TypeMethodInvocation(LocateRegistry,getRegistry))[160L,12C-48C(5761-5797)]
+  Primary.TypeMethodInvocation(org.objectweb.carol.jndi.registry.ManageableRegistry,createManagableRegistry#2)(Primary.TypeMethodInvocation(ManageableRegistry,createManagableRegistry))[102L,31C-90C(3653-3712)] -> Primary.TypeMethodInvocation(org.objectweb.carol.jndi.registry.ManageableRegistry,createManagableRegistry#2)(Primary.TypeMethodInvocation(ManageableRegistry,createManagableRegistry))[97L,31C-95C(3535-3599)]
+  Expression.BinaryOperator.Add[81L,38C-75C(2606-2643)] -> Expression.BinaryOperator.Add[75L,38C-80C(2419-2461)]
+  Expression.BinaryOperator.Add[116L,50C-89C(4337-4376)] -> Expression.BinaryOperator.Add[111L,50C-94C(4224-4268)]
+  Expression.BinaryOperator.Add[116L,50C-101C(4337-4388)] -> Expression.BinaryOperator.Add[111L,50C-106C(4224-4280)]
+
+[significance=1] expression changed (6)
+  Primary.FieldAccess(port)[121L,89C-92C(4595-4598)] -> Primary.SimpleMethodInvocation(getPort#0)(Primary.SimpleMethodInvocation(getPort))[116L,89C-97C(4487-4495)]
+  Primary.FieldAccess(configurationProperties)[90L,59C-81C(3073-3095)] -> Primary.SimpleMethodInvocation(getConfigProperties#0)(Primary.SimpleMethodInvocation(getConfigProperties))[84L,59C-79C(2889-2909)]
+  Primary.FieldAccess(port)[101L,20C-23C(3609-3612)] -> Primary.SimpleMethodInvocation(getPort#0)(Primary.SimpleMethodInvocation(getPort))[96L,20C-28C(3486-3494)]
+  Primary.FieldAccess(configurationProperties)[88L,24C-46C(2896-2918)] -> Primary.SimpleMethodInvocation(getConfigProperties#0)(Primary.SimpleMethodInvocation(getConfigProperties))[82L,24C-44C(2714-2734)]
+  Primary.FieldAccess(port)[81L,72C-75C(2640-2643)] -> Primary.SimpleMethodInvocation(getPort#0)(Primary.SimpleMethodInvocation(getPort))[75L,72C-80C(2453-2461)]
+  Primary.FieldAccess(port)[116L,86C-89C(4373-4376)] -> Primary.SimpleMethodInvocation(getPort#0)(Primary.SimpleMethodInvocation(getPort))[111L,86C-94C(4260-4268)]
+
+[significance=1] expression added (1)
+  Primary.Literal.True[157L,19C-22C(5719-5722)]* into Statement.If(7f600562acb49b4a23ca1a44efb62556;Expression.BinaryOperator.Neq)[163L,8C-41C(5822-5855)]
+
+[significance=1] expression removed (21)
+  Primary.Literal.String())[180L,68C-70C(6394-6396)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Primary.Name(p)(Primary.Name(p))[215L,40C-40C(7111-7111)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Primary.FieldAccess(configurationProperties)[215L,9C-36C(7080-7107)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Primary.FieldAccess(host)[200L,8C-16C(6765-6773)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Expression.BinaryOperator.Add[180L,38C-64C(6364-6390)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Primary.This[215L,9C-12C(7080-7083)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Primary.Literal.True[163L,37C-40C(5851-5854)]* from Statement.If(7f600562acb49b4a23ca1a44efb62556;Expression.BinaryOperator.Neq)[156L,8C-158L,8C(5676-5733)]
+  Primary.Literal.Null[66L,49C-52C(2170-2173)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Primary.Literal.Null[51L,26C-29C(1859-1862)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Primary.Literal.String(JRMPRegistry.setPort()[180L,38C-60C(6364-6386)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Primary.This[200L,8C-11C(6765-6768)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Primary.Literal.Integer(0)[182L,17C-17C(6427-6427)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Primary.Name(p)(Primary.Name(p))[180L,64C-64C(6390-6390)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Primary.Name(p)(Primary.Name(p))[182L,12C-12C(6422-6422)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Primary.FieldAccess(port)[183L,12C-15C(6444-6447)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Primary.FieldAccess(port)[192L,15C-18C(6611-6614)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Primary.Name(p)(Primary.Name(p))[183L,19C-19C(6451-6451)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Primary.Literal.True[152L,19C-22C(5580-5583)]* from MethodBody(isLocal()Z)[147L,36C-149L,4C(5456-5497)]
+  Expression.BinaryOperator.Neq[182L,12C-17C(6422-6427)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Primary.Literal.False[154L,19C-23C(5622-5626)]* from MethodBody(isLocal()Z)[147L,36C-149L,4C(5456-5497)]
+  Primary.Name(host)(Primary.Name(host))[200L,20C-23C(6777-6780)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+
+[significance=1] argument modified (6)
+  Primary.FieldAccess(port)[102L,74C-77C(3696-3699)] -> Primary.SimpleMethodInvocation(getPort#0)(Primary.SimpleMethodInvocation(getPort))[97L,74C-82C(3578-3586)]
+  Primary.FieldAccess(port)[167L,39C-42C(6027-6030)] -> Primary.SimpleMethodInvocation(getPort#0)(Primary.SimpleMethodInvocation(getPort))[160L,39C-47C(5788-5796)]
+  Expression.BinaryOperator.Add[121L,46C-92C(4552-4598)] -> Expression.BinaryOperator.Add[116L,46C-97C(4444-4495)]
+  Primary.PrimaryMethodInvocation(getProperty#2)(Primary.PrimaryMethodInvocation(getProperty))[90L,59C-112C(3073-3126)] -> Primary.PrimaryMethodInvocation(getProperty#2)(Primary.PrimaryMethodInvocation(getProperty))[84L,59C-110C(2889-2940)]
+  Expression.BinaryOperator.Add[81L,38C-75C(2606-2643)] -> Expression.BinaryOperator.Add[75L,38C-80C(2419-2461)]
+  Expression.BinaryOperator.Add[116L,50C-101C(4337-4388)] -> Expression.BinaryOperator.Add[111L,50C-106C(4224-4280)]
+
+[significance=1] argument changed (2)
+  Primary.FieldAccess(port)[167L,39C-42C(6027-6030)] -> Primary.SimpleMethodInvocation(getPort#0)(Primary.SimpleMethodInvocation(getPort))[160L,39C-47C(5788-5796)]
+  Primary.FieldAccess(port)[102L,74C-77C(3696-3699)] -> Primary.SimpleMethodInvocation(getPort#0)(Primary.SimpleMethodInvocation(getPort))[97L,74C-82C(3578-3586)]
+
+[significance=1] variable declaration renamed (1)
+  VariableDeclarator(port,0,false)[56L,22C-32C(1942-1952)] -> VariableDeclarator(DEFAULT_PORT_NUMBER,0,false)[49L,29C-54C(1789-1814)]
+
+[significance=1] method invocation removed (2)
+  Statement.Expression.Primary.TypeMethodInvocation(org.objectweb.carol.util.configuration.TraceCarol,debugJndiCarol#1)()(Statement.Expression.Primary.TypeMethodInvocation(TraceCarol,debugJndiCarol)())[180L,12C-72C(6338-6398)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+  Primary.TypeMethodInvocation(org.objectweb.carol.util.configuration.TraceCarol,isDebugJndiCarol#0)(Primary.TypeMethodInvocation(TraceCarol,isDebugJndiCarol))[179L,12C-40C(6293-6321)]* from ClassBody(JRMPRegistry)[44L,69C-173L,0C(1721-6029)]
+
+[significance=1] method invocation modified (8)
+  Statement.Expression.Primary.TypeMethodInvocation(org.objectweb.carol.util.configuration.TraceCarol,debugJndiCarol#1)()(Statement.Expression.Primary.TypeMethodInvocation(TraceCarol,debugJndiCarol)())[121L,20C-94C(4526-4600)] -> Statement.Expression.Primary.TypeMethodInvocation(org.objectweb.carol.util.configuration.TraceCarol,debugJndiCarol#1)()(Statement.Expression.Primary.TypeMethodInvocation(TraceCarol,debugJndiCarol)())[116L,20C-99C(4418-4497)]
+  Primary.PrimaryMethodInvocation(getProperty#2)(Primary.PrimaryMethodInvocation(getProperty))[90L,59C-112C(3073-3126)] -> Primary.PrimaryMethodInvocation(getProperty#2)(Primary.PrimaryMethodInvocation(getProperty))[84L,59C-110C(2889-2940)]
+  Primary.TypeMethodInvocation(org.objectweb.carol.rmi.util.PortNumber,strToint#2)(Primary.TypeMethodInvocation(PortNumber,strToint))[90L,39C-127C(3053-3141)] -> Primary.TypeMethodInvocation(org.objectweb.carol.rmi.util.PortNumber,strToint#2)(Primary.TypeMethodInvocation(PortNumber,strToint))[84L,39C-85L,44C(2869-2987)]
+  Primary.TypeMethodInvocation(java.rmi.registry.LocateRegistry,getRegistry#1)(Primary.TypeMethodInvocation(LocateRegistry,getRegistry))[167L,12C-43C(6000-6031)] -> Primary.TypeMethodInvocation(java.rmi.registry.LocateRegistry,getRegistry#1)(Primary.TypeMethodInvocation(LocateRegistry,getRegistry))[160L,12C-48C(5761-5797)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(list#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(list)())[167L,12C-51C(6000-6039)] -> Statement.Expression.Primary.PrimaryMethodInvocation(list#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(list)())[160L,12C-56C(5761-5805)]
+  Primary.TypeMethodInvocation(org.objectweb.carol.jndi.registry.ManageableRegistry,createManagableRegistry#2)(Primary.TypeMethodInvocation(ManageableRegistry,createManagableRegistry))[102L,31C-90C(3653-3712)] -> Primary.TypeMethodInvocation(org.objectweb.carol.jndi.registry.ManageableRegistry,createManagableRegistry#2)(Primary.TypeMethodInvocation(ManageableRegistry,createManagableRegistry))[97L,31C-95C(3535-3599)]
+  Statement.Expression.Primary.TypeMethodInvocation(org.objectweb.carol.util.configuration.TraceCarol,debugJndiCarol#1)()(Statement.Expression.Primary.TypeMethodInvocation(TraceCarol,debugJndiCarol)())[81L,12C-77C(2580-2645)] -> Statement.Expression.Primary.TypeMethodInvocation(org.objectweb.carol.util.configuration.TraceCarol,debugJndiCarol#1)()(Statement.Expression.Primary.TypeMethodInvocation(TraceCarol,debugJndiCarol)())[75L,12C-82C(2393-2463)]
+  Statement.Expression.Primary.TypeMethodInvocation(org.objectweb.carol.util.configuration.TraceCarol,debugJndiCarol#1)()(Statement.Expression.Primary.TypeMethodInvocation(TraceCarol,debugJndiCarol)())[116L,24C-103C(4311-4390)] -> Statement.Expression.Primary.TypeMethodInvocation(org.objectweb.carol.util.configuration.TraceCarol,debugJndiCarol#1)()(Statement.Expression.Primary.TypeMethodInvocation(TraceCarol,debugJndiCarol)())[111L,24C-108C(4198-4282)]
+
+[significance=1] constructor added (1)
+  Constructor(JRMPRegistry.<init>()V)(Constructor(JRMPRegistry))[64L,4C-66L,4C(2038-2102)]* into ClassBody(JRMPRegistry)[46L,49C-217L,0C(1791-7121)]
+
+[significance=1] method modified (5)
+  Method(stop()V)[134L,4C-144L,4C(4937-5357)] -> Method(stop()V)[129L,4C-141L,4C(4834-5286)]
+  Method(isLocal()Z)[150L,4C-156L,4C(5495-5643)] -> Method(isLocal()Z)[147L,4C-149L,4C(5424-5497)]
+  Method(getHost()Ljava.lang.String;)(Method(getHost))[206L,5C-208L,5C(6845-6898)] -> Method(getRegistry()Ljava.rmi.registry.Registry;)(Method(getRegistry))[170L,4C-172L,4C(5959-6027)]
+  Method(isStarted()Z)[162L,4C-172L,4C(5785-6141)] -> Method(isStarted()Z)[155L,4C-165L,4C(5639-5907)]
+  Method(start()V)[79L,4C-127L,4C(2473-4760)] -> Method(start()V)[73L,4C-122L,4C(2286-4657)]
+
+[significance=1] field access renamed (1)
+  Primary.FieldAccess(host)[207L,16C-19C(6887-6890)] -> Primary.FieldAccess(registry)[171L,15C-22C(6013-6020)]

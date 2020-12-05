@@ -1,0 +1,14 @@
+*** Modified Units ***
+Method(setConfigProperties(Ljava.util.Properties;)V)(214L,5C-216L,5C(7023-7119)): [DELETED] 12(1) changed [d:12(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(getPort()I)(191L,4C-193L,4C(6573-6621)): [DELETED] 7(1) changed [d:7(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Class(JRMPRegistry)(46L,0C-217L,0C(1742-7121)): [MODIFIED] 124(43) changed [d:79(8)i:25(15)r:20(20)m:0(0)], 251 mapped
+Method(setPort(I)V)(178L,4C-185L,4C(6252-6468)): [DELETED] 27(1) changed [d:27(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(start()V)(79L,4C-127L,4C(2473-4760)): [MODIFIED] 16(16) changed [d:0(0)i:7(7)r:9(9)m:0(0)], 144 mapped
+Method(isLocal()Z)(150L,4C-156L,4C(5495-5643)): [MODIFIED] 9(2) changed [d:7(1)i:2(1)r:0(0)m:0(0)], 8 mapped
+Method(getHost()Ljava.lang.String;)(206L,5C-208L,5C(6845-6898)): [RENAMED] 6(6) changed [d:0(0)i:1(1)r:5(5)m:0(0)], 6 mapped
+Method(setHost(Ljava.lang.String;)V)(199L,4C-201L,4C(6722-6787)): [DELETED] 12(1) changed [d:12(1)i:0(0)r:0(0)m:0(0)], 0 mapped
+Method(isStarted()Z)(162L,4C-172L,4C(5785-6141)): [MODIFIED] 7(4) changed [d:2(1)i:4(2)r:1(1)m:0(0)], 23 mapped
+Method(stop()V)(129L,4C-141L,4C(4834-5286)): [MODIFIED] 1(1) changed [d:0(0)i:1(1)r:0(0)m:0(0)], 0 mapped
+*** Unmodified Units ***
+Method(stop()V)(134L,4C-144L,4C(4937-5357))
+Method(run()V)(106L,24C-112L,24C(3871-4179))

@@ -1,0 +1,153 @@
+*** Extracted Changes ***
+
+[significance=4] field type changed (1)
+  Type.ClassOrInterface(java.util.Hashtable)(Type.ClassOrInterface(Hashtable))[53L,25C-33C(1883-1891)] -> Type.ClassOrInterface(java.util.Map)(Type.ClassOrInterface(Map))[53L,25C-27C(1869-1871)]
+
+[significance=4] parameter removed (7)
+  Parameter(event,0,)[1342L,29C-44C(54156-54171)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Parameter(event,0,)[1329L,30C-45C(53788-53803)]* from Method(clearCache()V)[1324L,4C-1326L,4C(53680-53743)]
+  Parameter(event,0,)[1382L,30C-45C(55154-55169)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Parameter(event,0,)[1366L,28C-43C(54755-54770)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Parameter(event,0,)[1358L,31C-46C(54557-54572)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Parameter(event,0,)[1350L,30C-45C(54356-54371)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Parameter(event,0,)[1374L,29C-44C(54954-54969)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+
+[significance=4] method removed (6)
+  Method(taskStarted(LBuildEvent;)V)[1366L,4C-1367L,4C(54731-54779)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Method(messageLogged(LBuildEvent;)V)[1382L,4C-1383L,4C(55128-55178)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Method(targetStarted(LBuildEvent;)V)[1350L,4C-1351L,4C(54330-54380)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Method(taskFinished(LBuildEvent;)V)[1374L,4C-1375L,4C(54929-54978)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Method(targetFinished(LBuildEvent;)V)[1358L,4C-1359L,4C(54530-54581)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Method(buildStarted(LBuildEvent;)V)[1342L,4C-1343L,4C(54131-54180)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+
+[significance=3] method renamed or signature changed (1)
+  Method(buildFinished(LBuildEvent;)V)[1329L,4C-1336L,4C(53762-53988)] -> Method(clearCache()V)[1324L,4C-1326L,4C(53680-53743)]
+
+[significance=2] statement deleted (1)
+  Statement.If(e20c829b24989aef4d414277498d86d9;Expression.BinaryOperator.Neq)[343L,8C-346L,8C(14344-14446)] from MethodBody(getHelper(LProject;Ljava.lang.Class;)Lorg.apache.tools.ant.IntrospectionHelper;)(MethodBody(getHelper(LProject;LClass;)LIntrospectionHelper;))[333L,68C-346L,4C(13938-14487)]
+
+[significance=2] statement removed (1)
+  Statement.Expression.AssignmentOperator.Eq()()[1334L,8C-22C(53943-53957)]* from MethodBody(clearCache()V)[1324L,36C-1326L,4C(53712-53743)]
+
+[significance=2] block deleted (1)
+  Block(block)[343L,23C-346L,8C(14359-14446)] from MethodBody(getHelper(LProject;Ljava.lang.Class;)Lorg.apache.tools.ant.IntrospectionHelper;)(MethodBody(getHelper(LProject;LClass;)LIntrospectionHelper;))[333L,68C-346L,4C(13938-14487)]
+
+[significance=2] modifier added (1)
+  Modifier.Static[1324L,11C-16C(53687-53692)]* into Modifiers(buildFinished#m)[1329L,4C-9C(53762-53767)]
+
+[significance=2] modifier removed (6)
+  Modifier.Public[1358L,4C-9C(54530-54535)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Modifier.Public[1342L,4C-9C(54131-54136)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Modifier.Public[1366L,4C-9C(54731-54736)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Modifier.Public[1374L,4C-9C(54929-54934)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Modifier.Public[1382L,4C-9C(55128-55133)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Modifier.Public[1350L,4C-9C(54330-54335)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+
+[significance=1] (changed) (2)
+  Modifiers(buildFinished#m)[1329L,4C-9C(53762-53767)] -> Modifiers(clearCache#m)[1324L,4C-16C(53680-53692)]
+  MethodBody(buildFinished(LBuildEvent;)V)[1329L,48C-1336L,4C(53806-53988)] -> MethodBody(clearCache()V)[1324L,36C-1326L,4C(53712-53743)]
+
+[significance=1] (inserted) (1)
+  Primary.FieldAccess(bean)[337L,26C-32C(14159-14165)] into Statement.If(23009493d1016422f2cd2f2bfe19a1dc;Expression.BinaryOperator.Eq)[335L,8C-342L,8C(14039-14334)]
+
+[significance=1] (deleted) (1)
+  NamedArguments(addBuildListener)[345L,30C-33C(14432-14435)] from MethodBody(getHelper(LProject;Ljava.lang.Class;)Lorg.apache.tools.ant.IntrospectionHelper;)(MethodBody(getHelper(LProject;LClass;)LIntrospectionHelper;))[333L,68C-346L,4C(13938-14487)]
+
+[significance=1] (added) (2)
+  NamedArguments(getName)[342L,37C-38C(14431-14432)]* into NamedArguments(put)[340L,27C-33C(14303-14309)]
+  NamedArguments(getName)[334L,76C-77C(14016-14017)]* into NamedArguments(get)[334L,66C-68C(14026-14028)]
+
+[significance=1] (removed) (38)
+  Parameters(buildStarted)[1342L,28C-45C(54155-54172)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Parameters(targetStarted)[1350L,29C-46C(54355-54372)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Type.ClassOrInterface(BuildEvent)(Type.ClassOrInterface(BuildEvent))[1374L,29C-38C(54954-54963)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Modifiers(targetStarted#m)[1350L,4C-9C(54330-54335)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Type.ClassOrInterface(BuildEvent)(Type.ClassOrInterface(BuildEvent))[1366L,28C-37C(54755-54764)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Type.Void(Type.Void)[1358L,11C-14C(54537-54540)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Type.ClassOrInterface(BuildEvent)(Type.ClassOrInterface(BuildEvent))[1358L,31C-40C(54557-54566)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Implements[41L,39C-62C(1536-1559)]* from Specifier:Class[41L,0C-37C(1497-1534)]
+  Type.Void(Type.Void)[1342L,11C-14C(54138-54141)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Type.Void(Type.Void)[1374L,11C-14C(54936-54939)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  NamedArguments(clear)[1331L,30C-31C(53870-53871)]* from MethodBody(clearCache()V)[1324L,36C-1326L,4C(53712-53743)]
+  MethodBody(taskStarted(LBuildEvent;)V)[1366L,46C-1367L,4C(54773-54779)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  MethodBody(buildStarted(LBuildEvent;)V)[1342L,47C-1343L,4C(54174-54180)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Modifiers(taskStarted#m)[1366L,4C-9C(54731-54736)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Modifiers(taskFinished#m)[1374L,4C-9C(54929-54934)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Parameters(targetFinished)[1358L,30C-47C(54556-54573)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  MethodBody(taskFinished(LBuildEvent;)V)[1374L,47C-1375L,4C(54972-54978)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Modifiers(targetFinished#m)[1358L,4C-9C(54530-54535)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Modifiers(buildStarted#m)[1342L,4C-9C(54131-54136)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  NamedArguments(clear)[1330L,28C-29C(53836-53837)]* from MethodBody(clearCache()V)[1324L,36C-1326L,4C(53712-53743)]
+  Type.Void(Type.Void)[1350L,11C-14C(54337-54340)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  MethodBody(targetFinished(LBuildEvent;)V)[1358L,49C-1359L,4C(54575-54581)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Parameters(messageLogged)[1382L,29C-46C(55153-55170)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Type.Void(Type.Void)[1382L,11C-14C(55135-55138)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  NamedArguments(clear)[1332L,25C-26C(53899-53900)]* from MethodBody(clearCache()V)[1324L,36C-1326L,4C(53712-53743)]
+  Parameters(taskFinished)[1374L,28C-45C(54953-54970)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Type.ClassOrInterface(BuildEvent)(Type.ClassOrInterface(BuildEvent))[1342L,29C-38C(54156-54165)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  MethodBody(messageLogged(LBuildEvent;)V)[1382L,48C-1383L,4C(55172-55178)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Parameters(taskStarted)[1366L,27C-44C(54754-54771)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Type.ClassOrInterface(BuildEvent)(Type.ClassOrInterface(BuildEvent))[1382L,30C-39C(55154-55163)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Type.Void(Type.Void)[1366L,11C-14C(54738-54741)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Type.ClassOrInterface(BuildEvent)(Type.ClassOrInterface(BuildEvent))[1329L,30C-39C(53788-53797)]* from Method(clearCache()V)[1324L,4C-1326L,4C(53680-53743)]
+  Type.ClassOrInterface(BuildListener)(Type.ClassOrInterface(BuildListener))[41L,50C-62C(1547-1559)]* from Specifier:Class[41L,0C-37C(1497-1534)]
+  MethodBody(targetStarted(LBuildEvent;)V)[1350L,48C-1351L,4C(54374-54380)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Type.ClassOrInterface(BuildEvent)(Type.ClassOrInterface(BuildEvent))[1350L,30C-39C(54356-54365)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  NamedArguments(clear)[1333L,28C-29C(53931-53932)]* from MethodBody(clearCache()V)[1324L,36C-1326L,4C(53712-53743)]
+  Modifiers(messageLogged#m)[1382L,4C-9C(55128-55133)]* from ClassBody(IntrospectionHelper)[41L,40C-1452L,0C(1537-58441)]
+  Parameters(buildFinished)[1329L,29C-46C(53787-53804)]* from Method(clearCache()V)[1324L,4C-1326L,4C(53680-53743)]
+
+[significance=1] statement modified (3)
+  Statement.Expression.Primary.PrimaryMethodInvocation(put#2)()(Statement.Expression.Primary.PrimaryMethodInvocation(put)())[340L,16C-34C(14292-14310)] -> Statement.Expression.Primary.PrimaryMethodInvocation(put#2)()(Statement.Expression.Primary.PrimaryMethodInvocation(put)())[342L,16C-44C(14410-14438)]
+  Statement.If(e20c829b24989aef4d414277498d86d9;Expression.BinaryOperator.Neq)[337L,12C-341L,12C(14114-14324)] -> Statement.If(e20c829b24989aef4d414277498d86d9;Expression.BinaryOperator.Neq)[339L,12C-343L,12C(14232-14452)]
+  Statement.If(23009493d1016422f2cd2f2bfe19a1dc;Expression.BinaryOperator.Eq)[335L,8C-342L,8C(14039-14334)] -> Statement.If(73b40d3a128d8c738c2a8602d5c2b69d;Expression.BinaryOperator.Or)[337L,8C-344L,8C(14141-14462)]
+
+[significance=1] statement changed (1)
+  Statement.If(23009493d1016422f2cd2f2bfe19a1dc;Expression.BinaryOperator.Eq)[335L,8C-342L,8C(14039-14334)] -> Statement.If(73b40d3a128d8c738c2a8602d5c2b69d;Expression.BinaryOperator.Or)[337L,8C-344L,8C(14141-14462)]
+
+[significance=1] binary operator added (2)
+  Expression.BinaryOperator.Neq[337L,26C-37C(14159-14170)] into Statement.If(23009493d1016422f2cd2f2bfe19a1dc;Expression.BinaryOperator.Eq)[335L,8C-342L,8C(14039-14334)]
+  Expression.BinaryOperator.Or[337L,12C-37C(14145-14170)] into Statement.If(23009493d1016422f2cd2f2bfe19a1dc;Expression.BinaryOperator.Eq)[335L,8C-342L,8C(14039-14334)]
+
+[significance=1] expression modified (2)
+  Primary.PrimaryMethodInvocation(get#1)(Primary.PrimaryMethodInvocation(get))[334L,55C-68C(14015-14028)] -> Primary.PrimaryMethodInvocation(get#1)(Primary.PrimaryMethodInvocation(get))[334L,55C-78C(13995-14018)]
+  Expression.Cast[334L,33C-68C(13993-14028)] -> Expression.Cast[334L,33C-78C(13973-14018)]
+
+[significance=1] expression moved (1)
+  Primary.Name(ih): [345L,31C-32C(14433-14434)] -> [337L,26C-27C(14159-14160)]
+
+[significance=1] expression added (1)
+  Primary.Name(c)(Primary.Name(c))[337L,37C-37C(14170-14170)]* into Statement.If(23009493d1016422f2cd2f2bfe19a1dc;Expression.BinaryOperator.Eq)[335L,8C-342L,8C(14039-14334)]
+
+[significance=1] expression removed (10)
+  Primary.Literal.Null[343L,17C-20C(14353-14356)]* from MethodBody(getHelper(LProject;Ljava.lang.Class;)Lorg.apache.tools.ant.IntrospectionHelper;)(MethodBody(getHelper(LProject;LClass;)LIntrospectionHelper;))[333L,68C-346L,4C(13938-14487)]
+  Primary.Name(p)(Primary.Name(p))[343L,12C-12C(14348-14348)]* from MethodBody(getHelper(LProject;Ljava.lang.Class;)Lorg.apache.tools.ant.IntrospectionHelper;)(MethodBody(getHelper(LProject;LClass;)LIntrospectionHelper;))[333L,68C-346L,4C(13938-14487)]
+  Primary.Name(p)(Primary.Name(p))[345L,12C-12C(14414-14414)]* from MethodBody(getHelper(LProject;Ljava.lang.Class;)Lorg.apache.tools.ant.IntrospectionHelper;)(MethodBody(getHelper(LProject;LClass;)LIntrospectionHelper;))[333L,68C-346L,4C(13938-14487)]
+  Expression.BinaryOperator.Neq[343L,12C-20C(14348-14356)]* from MethodBody(getHelper(LProject;Ljava.lang.Class;)Lorg.apache.tools.ant.IntrospectionHelper;)(MethodBody(getHelper(LProject;LClass;)LIntrospectionHelper;))[333L,68C-346L,4C(13938-14487)]
+  Primary.FieldAccess(nestedTypes)[1332L,8C-18C(53882-53892)]* from MethodBody(clearCache()V)[1324L,36C-1326L,4C(53712-53743)]
+  Primary.Literal.Null[1334L,18C-21C(53953-53956)]* from MethodBody(clearCache()V)[1324L,36C-1326L,4C(53712-53743)]
+  Primary.FieldAccess(attributeTypes)[1330L,8C-21C(53816-53829)]* from MethodBody(clearCache()V)[1324L,36C-1326L,4C(53712-53743)]
+  Primary.FieldAccess(attributeSetters)[1331L,8C-23C(53848-53863)]* from MethodBody(clearCache()V)[1324L,36C-1326L,4C(53712-53743)]
+  Primary.FieldAccess(nestedCreators)[1333L,8C-21C(53911-53924)]* from MethodBody(clearCache()V)[1324L,36C-1326L,4C(53712-53743)]
+  Primary.FieldAccess(addText)[1334L,8C-14C(53943-53949)]* from MethodBody(clearCache()V)[1324L,36C-1326L,4C(53712-53743)]
+
+[significance=1] method invocation inserted (2)
+  Primary.PrimaryMethodInvocation(getName#0)(Primary.PrimaryMethodInvocation(getName))[342L,28C-38C(14422-14432)] into NamedArguments(put)[340L,27C-33C(14303-14309)]
+  Primary.PrimaryMethodInvocation(getName#0)(Primary.PrimaryMethodInvocation(getName))[334L,67C-77C(14007-14017)] into NamedArguments(get)[334L,66C-68C(14026-14028)]
+
+[significance=1] method invocation deleted (1)
+  Statement.Expression.Primary.PrimaryMethodInvocation(addBuildListener#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(addBuildListener)())[345L,12C-34C(14414-14436)] from MethodBody(getHelper(LProject;Ljava.lang.Class;)Lorg.apache.tools.ant.IntrospectionHelper;)(MethodBody(getHelper(LProject;LClass;)LIntrospectionHelper;))[333L,68C-346L,4C(13938-14487)]
+
+[significance=1] method invocation removed (4)
+  Statement.Expression.Primary.PrimaryMethodInvocation(clear#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(clear)())[1330L,8C-30C(53816-53838)]* from MethodBody(clearCache()V)[1324L,36C-1326L,4C(53712-53743)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(clear#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(clear)())[1332L,8C-27C(53882-53901)]* from MethodBody(clearCache()V)[1324L,36C-1326L,4C(53712-53743)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(clear#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(clear)())[1333L,8C-30C(53911-53933)]* from MethodBody(clearCache()V)[1324L,36C-1326L,4C(53712-53743)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(clear#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(clear)())[1331L,8C-32C(53848-53872)]* from MethodBody(clearCache()V)[1324L,36C-1326L,4C(53712-53743)]
+
+[significance=1] method invocation modified (2)
+  Statement.Expression.Primary.PrimaryMethodInvocation(put#2)()(Statement.Expression.Primary.PrimaryMethodInvocation(put)())[340L,16C-34C(14292-14310)] -> Statement.Expression.Primary.PrimaryMethodInvocation(put#2)()(Statement.Expression.Primary.PrimaryMethodInvocation(put)())[342L,16C-44C(14410-14438)]
+  Primary.PrimaryMethodInvocation(get#1)(Primary.PrimaryMethodInvocation(get))[334L,55C-68C(14015-14028)] -> Primary.PrimaryMethodInvocation(get#1)(Primary.PrimaryMethodInvocation(get))[334L,55C-78C(13995-14018)]
+
+[significance=1] method modified (2)
+  Method(buildFinished(LBuildEvent;)V)[1329L,4C-1336L,4C(53762-53988)] -> Method(clearCache()V)[1324L,4C-1326L,4C(53680-53743)]
+  Method(getHelper(LProject;Ljava.lang.Class;)Lorg.apache.tools.ant.IntrospectionHelper;)(Method(getHelper))[333L,4C-348L,4C(13894-14471)] -> Method(getHelper(LProject;Ljava.lang.Class;)Lorg.apache.tools.ant.IntrospectionHelper;)(Method(getHelper))[333L,4C-346L,4C(13874-14487)]

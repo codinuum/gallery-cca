@@ -1,0 +1,330 @@
+*** Extracted Changes ***
+
+[significance=4] argument added (3)
+  Primary.Name(te)(Primary.Name(te))[84L,31C-32C(2502-2503)]* into Statement.Try[87L,24C-95L,24C(2783-3183)]
+  Primary.Name(message)(Primary.Name(message))[89L,50C-56C(2725-2731)]* into NamedArguments(org.apache.myrmidon.api.TaskException)(NamedArguments(TaskException))[94L,51C-105C(3102-3156)]
+  Primary.Name(line)(Primary.Name(line))[72L,26C-29C(2141-2144)]* into MethodBody(process(Ljava.lang.String;)V)(MethodBody(process(LString;)V))[85L,20C-96L,20C(2667-3205)]
+
+[significance=4] argument removed (2)
+  Primary.Name(command)(Primary.Name(command))[103L,27C-33C(3334-3340)]* from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+  Primary.This[103L,63C-66C(3370-3373)]* from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+
+[significance=4] accessibility decreased (4)
+  FieldDeclaration(property[0)[27L,4C-33C(1005-1034)] -> FieldDeclaration(m_property[0)[26L,4C-29C(967-992)]
+  FieldDeclaration(counter[0)[26L,4C-32C(971-999)] -> FieldDeclaration(m_counter[0)[25L,4C-28C(937-961)]
+  FieldDeclaration(shouldSetValue[0)[28L,4C-41C(1040-1077)] -> FieldDeclaration(m_shouldSetValue[0)[27L,4C-36C(998-1030)]
+  FieldDeclaration(value[0)[30L,4C-24C(1129-1149)] -> FieldDeclaration(m_value[0)[28L,4C-23C(1036-1055)]
+
+[significance=4] final modifier added (6)
+  Modifier.Final[82L,19C-23C(2432-2436)]* into Statement.Try[87L,24C-95L,24C(2783-3183)]
+  Modifier.Final[30L,25C-29C(1083-1087)]* into Parameter(counter,0,)[32L,25C-38C(1177-1190)]
+  Modifier.Final[35L,29C-33C(1177-1181)]* into Parameter(property,0,)[37L,29C-43C(1268-1282)]
+  Modifier.Final[68L,24C-28C(2045-2049)]* into Parameter(line,0,)[84L,41C-51C(2633-2643)]
+  Modifier.Final[88L,16C-20C(2599-2603)]* into Block(catch-clause)[93L,24C-95L,24C(3049-3183)]
+  Modifier.Final[40L,26C-30C(1271-1275)]* into Parameter(value,0,)[43L,26C-34C(1393-1401)]
+
+[significance=4] field removed (1)
+  FieldDeclaration(shouldSetProperty[0)[29L,4C-44C(1083-1123)]* from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+
+[significance=3] statement added to increase nesting-depth (1)
+  Statement.Return[110L,8C-37C(3250-3279)]* into ClassBody(P4Counter)[25L,0C-106L,0C(965-3396)]
+
+[significance=3] field renamed (4)
+  FieldDeclaration(value[0)[30L,4C-24C(1129-1149)] -> FieldDeclaration(m_value[0)[28L,4C-23C(1036-1055)]
+  FieldDeclaration(property[0)[27L,4C-33C(1005-1034)] -> FieldDeclaration(m_property[0)[26L,4C-29C(967-992)]
+  FieldDeclaration(shouldSetValue[0)[28L,4C-41C(1040-1077)] -> FieldDeclaration(m_shouldSetValue[0)[27L,4C-36C(998-1030)]
+  FieldDeclaration(counter[0)[26L,4C-32C(971-999)] -> FieldDeclaration(m_counter[0)[25L,4C-28C(937-961)]
+
+[significance=3] method renamed or signature changed (1)
+  Method(process(Ljava.lang.String;)V)(Method(process))[84L,20C-96L,20C(2612-3205)] -> Method(stdout(Ljava.lang.String;)V)(Method(stdout))[68L,4C-92L,4C(2025-2766)]
+
+[significance=2] statement moved (6)
+  Statement.If(6630d20839310a1acbd3ca60725d7165;Primary.FieldAccess()): [77L,8C-104L,8C(2419-3388)] -> [70L,8C-91L,8C(2079-2760)]
+  Statement.Throw: [55L,12C-73C(1620-1681)] -> [99L,12C-73C(2917-2978)]
+  Statement.If(a043699870f6a7cfcb9d71717ae7342f;Expression.BinaryOperator.Or): [53L,8C-56L,8C(1547-1691)] -> [97L,8C-100L,8C(2840-2988)]
+  Statement.Expression.Primary.SimpleMethodInvocation(execP4Command#2)(): [99L,12C-45C(3239-3272)] -> [65L,8C-38C(1982-2012)]
+  Statement.Throw: [60L,12C-122C(1766-1876)] -> [104L,12C-122C(3067-3177)]
+  Statement.If(c4b1dd26c44d8773b6512f2e6c3fef2b;Expression.BinaryOperator.And): [58L,8C-61L,8C(1702-1886)] -> [102L,8C-105L,8C(2999-3187)]
+
+[significance=2] statement deleted (1)
+  Statement.Throw[94L,28C-106C(3079-3157)] from Block(catch-clause)[87L,12C-90L,12C(2581-2750)]
+
+[significance=2] statement removed (1)
+  Statement.Expression.AssignmentOperator.Eq()()[40L,8C-32C(1334-1358)]* from MethodBody(setProperty(Ljava.lang.String;)V)(MethodBody(setProperty(LString;)V))[36L,4C-38L,4C(1205-1242)]
+
+[significance=2] import declaration removed (1)
+  IDsingle(org.apache.tools.ant.Project)[11L,0C-35C(362-397)]* from ImportDeclarations[10L,0C-44C(316-360)]
+
+[significance=2] instance creation removed (1)
+  Primary.InstanceCreation(SimpleP4OutputHandler.<init>#1)(Primary.InstanceCreation(SimpleP4OutputHandler))[103L,36C-68C(3343-3375)]* from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+
+[significance=2] variable declaration removed (3)
+  VariableDeclarator(myProj,0,true)[79L,26C-46C(2479-2499)]* from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+  LocalVariableDeclaration(true,myProj[0)[79L,12C-47C(2465-2500)]* from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+  VariableDeclarator(shouldSetProperty,0,false)[29L,19C-43C(1098-1122)]* from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+
+[significance=2] exception type added in throws-clause (1)
+  Type.ClassOrInterface(org.apache.myrmidon.api.TaskException)(Type.ClassOrInterface(TaskException))[95L,15C-27C(2812-2824)]* into ClassBody(P4Counter)[25L,0C-106L,0C(965-3396)]
+
+[significance=2] throws-clause added (1)
+  Throws(validate)[95L,8C-27C(2805-2824)]* into ClassBody(P4Counter)[25L,0C-106L,0C(965-3396)]
+
+[significance=2] block moved (3)
+  Block(block): [54L,8C-56L,8C(1606-1691)] -> [98L,8C-100L,8C(2903-2988)]
+  Block(block): [78L,8C-100L,8C(2451-3282)] -> [75L,8C-91L,8C(2180-2760)]
+  Block(block): [59L,8C-61L,8C(1752-1886)] -> [103L,8C-105L,8C(3053-3187)]
+
+[significance=2] block added (2)
+  Block(block)[71L,8C-73L,8C(2113-2157)]* into MethodBody(process(Ljava.lang.String;)V)(MethodBody(process(LString;)V))[85L,20C-96L,20C(2667-3205)]
+  Block(catch-clause)[83L,12C-85L,12C(2469-2520)]* into Statement.Try[87L,24C-95L,24C(2783-3183)]
+
+[significance=2] modifier added (2)
+  Modifier.Private[94L,4C-10C(2773-2779)]* into ClassBody(P4Counter)[25L,0C-106L,0C(965-3396)]
+  Modifier.Private[108L,4C-10C(3200-3206)]* into ClassBody(P4Counter)[25L,0C-106L,0C(965-3396)]
+
+[significance=2] modifier removed (1)
+  Modifier.Public[29L,4C-9C(1083-1088)]* from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+
+[significance=2] else-part removed (1)
+  Block(block)[102L,8C-104L,8C(3305-3388)]* from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+
+[significance=2] condition expression modified (4)
+  Primary.FieldAccess(shouldSetProperty)[77L,12C-28C(2423-2439)] -> Primary.SimpleMethodInvocation(shouldSetProperty#0)(Primary.SimpleMethodInvocation(shouldSetProperty))[70L,12C-30C(2083-2101)]
+  Expression.UnaryOperator.Not[64L,12C-29C(1966-1983)] -> Expression.UnaryOperator.Not[52L,12C-31C(1523-1542)]
+  Expression.BinaryOperator.And[58L,12C-46C(1706-1740)] -> Expression.BinaryOperator.And[102L,12C-50C(3003-3041)]
+  Expression.BinaryOperator.Or[53L,12C-55C(1551-1594)] -> Expression.BinaryOperator.Or[97L,12C-59C(2844-2891)]
+
+[significance=2] condition expression changed (1)
+  Primary.FieldAccess(shouldSetProperty)[77L,12C-28C(2423-2439)] -> Primary.SimpleMethodInvocation(shouldSetProperty#0)(Primary.SimpleMethodInvocation(shouldSetProperty))[70L,12C-30C(2083-2101)]
+
+[significance=1] (changed) (7)
+  Modifiers(value#f)[30L,4C-9C(1129-1134)] -> Modifiers(m_value#f)[28L,4C-10C(1036-1042)]
+  Modifiers(counter#f)[26L,4C-9C(971-976)] -> Modifiers(m_counter#f)[25L,4C-10C(937-943)]
+  Modifiers(process#m)[84L,20C-25C(2612-2617)] -> Modifiers(stdout#m)[68L,4C-9C(2025-2030)]
+  MethodBody(process(Ljava.lang.String;)V)(MethodBody(process(LString;)V))[85L,20C-96L,20C(2667-3205)] -> MethodBody(stdout(Ljava.lang.String;)V)(MethodBody(stdout(LString;)V))[69L,4C-92L,4C(2069-2766)]
+  Parameters(process)[84L,39C-53C(2631-2645)] -> Parameters(stdout)[68L,22C-42C(2043-2063)]
+  Modifiers(shouldSetValue#f)[28L,4C-9C(1040-1045)] -> Modifiers(m_shouldSetValue#f)[27L,4C-10C(998-1004)]
+  Modifiers(property#f)[27L,4C-9C(1005-1010)] -> Modifiers(m_property#f)[26L,4C-10C(967-973)]
+
+[significance=1] (moved) (8)
+  NamedArguments(org.apache.myrmidon.api.TaskException): [60L,35C-121C(1789-1875)] -> [104L,35C-121C(3090-3176)]
+  NamedArguments(execP4Command): [99L,25C-44C(3252-3271)] -> [65L,21C-37C(1995-2011)]
+  MethodBody(execute()V): [51L,4C-105L,4C(1536-3394)] -> [48L,4C-66L,4C(1419-2018)]
+  NamedArguments(length): [53L,49C-50C(1588-1589)] -> [97L,53C-54C(2885-2886)]
+  NamedArguments(org.apache.myrmidon.api.TaskException): [55L,35C-72C(1643-1680)] -> [99L,35C-72C(2940-2977)]
+  Type.ClassOrInterface(org.apache.myrmidon.api.TaskException): [60L,22C-34C(1776-1788)] -> [104L,22C-34C(3077-3089)]
+  Type.ClassOrInterface(org.apache.myrmidon.api.TaskException): [55L,22C-34C(1630-1642)] -> [99L,22C-34C(2927-2939)]
+  Method(execute()V): [49L,4C-105L,4C(1481-3394)] -> [46L,4C-66L,4C(1364-2018)]
+
+[significance=1] (inserted) (5)
+  MethodBody(validate()V)[96L,4C-106L,4C(2830-3193)] into ClassBody(P4Counter)[25L,0C-106L,0C(965-3396)]
+  NamedArguments(registerError)[89L,29C-60C(2704-2735)] into Block(catch-clause)[93L,24C-95L,24C(3049-3183)]
+  Method(validate()V)[94L,4C-106L,4C(2773-3193)] into ClassBody(P4Counter)[25L,0C-106L,0C(965-3396)]
+  VariableDeclarator(message,0,true)[88L,29C-89C(2612-2672)] into Block(catch-clause)[93L,24C-95L,24C(3049-3183)]
+  LocalVariableDeclaration(true,message[0)[88L,16C-90C(2599-2673)] into Block(catch-clause)[93L,24C-95L,24C(3049-3183)]
+
+[significance=1] (deleted) (4)
+  VariableDeclarator(handler,0,true)[81L,22C-97L,16C(2525-3223)] from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+  ClassBody(P4HandlerAdapter)[83L,16C-97L,16C(2590-3223)] from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+  Primary.InstanceCreation(P4HandlerAdapter.<init>#0)(Primary.InstanceCreation(P4HandlerAdapter))[82L,16C-97L,16C(2551-3223)] from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+  LocalVariableDeclaration(true,handler[0)[81L,12C-97L,17C(2515-3224)] from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+
+[significance=1] (added) (22)
+  Type.Boolean(Type.Boolean)[108L,12C-18C(3208-3214)]* into ClassBody(P4Counter)[25L,0C-106L,0C(965-3396)]
+  Modifiers(message#l)[88L,16C-20C(2599-2603)]* into Block(catch-clause)[93L,24C-95L,24C(3049-3183)]
+  Modifiers(value#p)[40L,26C-30C(1271-1275)]* into Parameter(value,0,)[43L,26C-34C(1393-1401)]
+  CatchParameter(te,0)[82L,19C-40C(2432-2453)]* into Statement.Try[87L,24C-95L,24C(2783-3183)]
+  Modifiers(property#p)[35L,29C-33C(1177-1181)]* into Parameter(property,0,)[37L,29C-43C(1268-1282)]
+  Type.ClassOrInterface(java.lang.String)(Type.ClassOrInterface(String))[88L,22C-27C(2605-2610)]* into Block(catch-clause)[93L,24C-95L,24C(3049-3183)]
+  NamedArguments(registerError)[84L,29C-34C(2500-2505)]* into Statement.Try[87L,24C-95L,24C(2783-3183)]
+  Super[72L,12C-16C(2127-2131)]* into MethodBody(process(Ljava.lang.String;)V)(MethodBody(process(LString;)V))[85L,20C-96L,20C(2667-3205)]
+  Modifiers(line#p)[68L,24C-28C(2045-2049)]* into Parameter(line,0,)[84L,41C-51C(2633-2643)]
+  Modifiers(te#p)[82L,19C-23C(2432-2436)]* into Statement.Try[87L,24C-95L,24C(2783-3183)]
+  MethodBody(shouldSetProperty()Z)[109L,4C-111L,4C(3240-3285)]* into ClassBody(P4Counter)[25L,0C-106L,0C(965-3396)]
+  Type.ClassOrInterface(org.apache.myrmidon.api.TaskException)(Type.ClassOrInterface(TaskException))[82L,25C-37C(2438-2450)]* into Statement.Try[87L,24C-95L,24C(2783-3183)]
+  NamedArguments(shouldSetProperty)[70L,29C-30C(2100-2101)]* into MethodBody(process(Ljava.lang.String;)V)(MethodBody(process(LString;)V))[85L,20C-96L,20C(2667-3205)]
+  NamedArguments(validate)[49L,16C-17C(1437-1438)]* into ClassBody(P4Counter)[25L,0C-106L,0C(965-3396)]
+  Type.Void(Type.Void)[94L,12C-15C(2781-2784)]* into ClassBody(P4Counter)[25L,0C-106L,0C(965-3396)]
+  Modifiers(shouldSetProperty#m)[108L,4C-10C(3200-3206)]* into ClassBody(P4Counter)[25L,0C-106L,0C(965-3396)]
+  NamedArguments(shouldSetProperty)[52L,30C-31C(1541-1542)]* into Primary.FieldAccess(shouldSetProperty)[64L,13C-29C(1967-1983)]
+  Modifiers(counter#p)[30L,25C-29C(1083-1087)]* into Parameter(counter,0,)[32L,25C-38C(1177-1190)]
+  NamedArguments(stdout)[72L,24C-31C(2139-2146)]* into MethodBody(process(Ljava.lang.String;)V)(MethodBody(process(LString;)V))[85L,20C-96L,20C(2667-3205)]
+  NamedArguments(shouldSetProperty)[102L,49C-50C(3040-3041)]* into ClassBody(P4Counter)[25L,0C-106L,0C(965-3396)]
+  CatchClause(ab77dc3936172b7b144043787076f3d6;CatchParameter(,0))[82L,12C-85L,12C(2425-2520)]* into Statement.Try[87L,24C-95L,24C(2783-3183)]
+  Modifiers(validate#m)[94L,4C-10C(2773-2779)]* into ClassBody(P4Counter)[25L,0C-106L,0C(965-3396)]
+
+[significance=1] (removed) (11)
+  Modifiers(myProj#l)[79L,12C-16C(2465-2469)]* from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+  NamedArguments(P4HandlerAdapter)(NamedArguments(P4HandlerAdapter))[82L,36C-37C(2571-2572)]* from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+  Type.ClassOrInterface(P4HandlerAdapter)(Type.ClassOrInterface(P4HandlerAdapter))[82L,20C-35C(2555-2570)]* from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+  Modifiers(shouldSetProperty#f)[29L,4C-9C(1083-1088)]* from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+  NamedArguments(execP4Command)[103L,25C-70C(3332-3377)]* from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+  Type.ClassOrInterface(P4Handler)(Type.ClassOrInterface(P4Handler))[81L,12C-20C(2515-2523)]* from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+  Type.ClassOrInterface(org.apache.tools.ant.Project)(Type.ClassOrInterface(Project))[79L,18C-24C(2471-2477)]* from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+  NamedArguments(SimpleP4OutputHandler)(NamedArguments(SimpleP4OutputHandler))[103L,61C-68C(3368-3375)]* from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+  NamedArguments(getProject)[79L,45C-46C(2498-2499)]* from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+  Type.Boolean(Type.Boolean)[29L,11C-17C(1090-1096)]* from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+  Type.ClassOrInterface(SimpleP4OutputHandler)(Type.ClassOrInterface(SimpleP4OutputHandler))[103L,40C-60C(3347-3367)]* from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+
+[significance=1] method implementation changed (1)
+  Method(execute()V)[49L,4C-105L,4C(1481-3394)] -> Method(execute()V)[46L,4C-66L,4C(1364-2018)]
+
+[significance=1] statement modified (16)
+  Statement.Expression.AssignmentOperator.Eq()()[39L,8C-32C(1300-1324)] -> Statement.Expression.AssignmentOperator.Eq()()[37L,8C-29C(1215-1236)]
+  Statement.Expression.AssignmentOperator.AddEq()()[74L,12C-34C(2376-2398)] -> Statement.Expression.AssignmentOperator.AddEq()()[62L,12C-36C(1937-1961)]
+  Statement.If(e35fa79ec344321f629bc23bcde2db9c;Primary.FieldAccess())[72L,8C-75L,8C(2333-2408)] -> Statement.If(092fbb73dc55bbebca7488b9b41ee4f2;Primary.FieldAccess())[60L,8C-63L,8C(1892-1971)]
+  Statement.Expression.AssignmentOperator.Eq()()[89L,28C-60C(2841-2873)] -> Statement.Expression.AssignmentOperator.Eq()()[79L,16C-50C(2306-2340)]
+  Statement.Expression.AssignmentOperator.Eq()()[45L,8C-26C(1419-1437)] -> Statement.Expression.AssignmentOperator.Eq()()[42L,8C-23C(1303-1318)]
+  Statement.Expression.Primary.SimpleMethodInvocation(setProperty#2)()(Statement.Expression.Primary.SimpleMethodInvocation(setProperty)())[90L,28C-63C(2903-2938)] -> Statement.Expression.Primary.SimpleMethodInvocation(setProperty#2)()(Statement.Expression.Primary.SimpleMethodInvocation(setProperty)())[80L,16C-55C(2358-2397)]
+  Statement.If(a134a376b0da0b4c3ec02e40eeeecbd0;Expression.UnaryOperator.Not)[64L,8C-71L,8C(1962-2323)] -> Statement.If(01e671fff27330292908079ffd55002f;Expression.UnaryOperator.Not)[52L,8C-59L,8C(1519-1882)]
+  Statement.Expression.AssignmentOperator.Eq()()[46L,8C-29C(1447-1468)] -> Statement.Expression.AssignmentOperator.Eq()()[43L,8C-31C(1328-1351)]
+  Statement.Expression.AssignmentOperator.Eq()()[34L,8C-30C(1208-1230)] -> Statement.Expression.AssignmentOperator.Eq()()[32L,8C-27C(1120-1139)]
+  Statement.Try[87L,24C-95L,24C(2783-3183)] -> Statement.Try[77L,12C-90L,12C(2272-2750)]
+  Statement.Expression.Primary.SimpleMethodInvocation(execP4Command#2)()(Statement.Expression.Primary.SimpleMethodInvocation(execP4Command)())[99L,12C-45C(3239-3272)] -> Statement.Expression.Primary.SimpleMethodInvocation(execP4Command#2)()(Statement.Expression.Primary.SimpleMethodInvocation(execP4Command)())[65L,8C-38C(1982-2012)]
+  Statement.If(6630d20839310a1acbd3ca60725d7165;Primary.FieldAccess())[77L,8C-104L,8C(2419-3388)] -> Statement.If(d9aae55e5c07731be97cc0b0805dc697;Primary.SimpleMethodInvocation())[70L,8C-91L,8C(2079-2760)]
+  Statement.Throw[60L,12C-122C(1766-1876)] -> Statement.Throw[104L,12C-122C(3067-3177)]
+  Statement.If(c4b1dd26c44d8773b6512f2e6c3fef2b;Expression.BinaryOperator.And)[58L,8C-61L,8C(1702-1886)] -> Statement.If(24b250ee5446db569f94b45b675ff70d;Expression.BinaryOperator.And)[102L,8C-105L,8C(2999-3187)]
+  Statement.Throw[55L,12C-73C(1620-1681)] -> Statement.Throw[99L,12C-73C(2917-2978)]
+  Statement.If(a043699870f6a7cfcb9d71717ae7342f;Expression.BinaryOperator.Or)[53L,8C-56L,8C(1547-1691)] -> Statement.If(cf39355a0aae7240d7a995937d7ed66b;Expression.BinaryOperator.Or)[97L,8C-100L,8C(2840-2988)]
+
+[significance=1] statement changed (5)
+  Statement.If(a043699870f6a7cfcb9d71717ae7342f;Expression.BinaryOperator.Or)[53L,8C-56L,8C(1547-1691)] -> Statement.If(cf39355a0aae7240d7a995937d7ed66b;Expression.BinaryOperator.Or)[97L,8C-100L,8C(2840-2988)]
+  Statement.If(6630d20839310a1acbd3ca60725d7165;Primary.FieldAccess())[77L,8C-104L,8C(2419-3388)] -> Statement.If(d9aae55e5c07731be97cc0b0805dc697;Primary.SimpleMethodInvocation())[70L,8C-91L,8C(2079-2760)]
+  Statement.If(e35fa79ec344321f629bc23bcde2db9c;Primary.FieldAccess())[72L,8C-75L,8C(2333-2408)] -> Statement.If(092fbb73dc55bbebca7488b9b41ee4f2;Primary.FieldAccess())[60L,8C-63L,8C(1892-1971)]
+  Statement.If(a134a376b0da0b4c3ec02e40eeeecbd0;Expression.UnaryOperator.Not)[64L,8C-71L,8C(1962-2323)] -> Statement.If(01e671fff27330292908079ffd55002f;Expression.UnaryOperator.Not)[52L,8C-59L,8C(1519-1882)]
+  Statement.If(c4b1dd26c44d8773b6512f2e6c3fef2b;Expression.BinaryOperator.And)[58L,8C-61L,8C(1702-1886)] -> Statement.If(24b250ee5446db569f94b45b675ff70d;Expression.BinaryOperator.And)[102L,8C-105L,8C(2999-3187)]
+
+[significance=1] expression modified (20)
+  Primary.FieldAccess(shouldSetProperty)[77L,12C-28C(2423-2439)] -> Primary.SimpleMethodInvocation(shouldSetProperty#0)(Primary.SimpleMethodInvocation(shouldSetProperty))[70L,12C-30C(2083-2101)]
+  Primary.FieldAccess(shouldSetProperty)[64L,13C-29C(1967-1983)] -> Primary.SimpleMethodInvocation(shouldSetProperty#0)(Primary.SimpleMethodInvocation(shouldSetProperty))[52L,13C-31C(1524-1542)]
+  Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[94L,34C-105C(3085-3156)] -> Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[89L,31C-58C(2706-2733)]
+  Primary.FieldAccess(counter)[34L,8C-19C(1208-1219)] -> Primary.FieldAccess(m_counter)[32L,8C-16C(1120-1128)]
+  Primary.FieldAccess(value)[45L,8C-17C(1419-1428)] -> Primary.FieldAccess(m_value)[42L,8C-14C(1303-1309)]
+  Primary.FieldAccess(property)[39L,8C-20C(1300-1312)] -> Primary.FieldAccess(m_property)[37L,8C-17C(1215-1224)]
+  Expression.BinaryOperator.Add[74L,23C-33C(2387-2397)] -> Expression.BinaryOperator.Add[62L,23C-35C(1948-1960)]
+  Expression.BinaryOperator.Add[90L,51C-60C(2926-2935)] -> Expression.BinaryOperator.Add[80L,41C-52C(2383-2394)]
+  Expression.BinaryOperator.Add[63L,25C-46C(1914-1935)] -> Expression.BinaryOperator.Add[51L,25C-48C(1467-1490)]
+  Expression.BinaryOperator.Add[63L,25C-52C(1914-1941)] -> Expression.BinaryOperator.Add[51L,25C-54C(1467-1496)]
+  Expression.BinaryOperator.Add[63L,25C-62C(1914-1951)] -> Expression.BinaryOperator.Add[51L,25C-66C(1467-1508)]
+  Expression.UnaryOperator.Not[64L,12C-29C(1966-1983)] -> Expression.UnaryOperator.Not[52L,12C-31C(1523-1542)]
+  Primary.PrimaryMethodInvocation(length#0)(Primary.PrimaryMethodInvocation(length))[53L,35C-50C(1574-1589)] -> Primary.PrimaryMethodInvocation(length#0)(Primary.PrimaryMethodInvocation(length))[97L,37C-54C(2869-2886)]
+  Expression.BinaryOperator.Eq[53L,35C-55C(1574-1594)] -> Expression.BinaryOperator.Eq[97L,37C-59C(2869-2891)]
+  Expression.BinaryOperator.And[58L,12C-46C(1706-1740)] -> Expression.BinaryOperator.And[102L,12C-50C(3003-3041)]
+  Expression.BinaryOperator.Eq[53L,14C-28C(1553-1567)] -> Expression.BinaryOperator.Eq[97L,14C-30C(2846-2862)]
+  Primary.Paren(53edf0945b3bed268e0bf19bff406439;Expression.BinaryOperator.Eq)[53L,12C-30C(1551-1569)] -> Primary.Paren(5fdb9b92e38e8dee3368f1fef467a0e8;Expression.BinaryOperator.Eq)[97L,12C-32C(2844-2864)]
+  Expression.BinaryOperator.Or[53L,12C-55C(1551-1594)] -> Expression.BinaryOperator.Or[97L,12C-59C(2844-2891)]
+  Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[60L,18C-121C(1772-1875)] -> Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[104L,18C-121C(3073-3176)]
+  Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[55L,18C-72C(1626-1680)] -> Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[99L,18C-72C(2923-2977)]
+
+[significance=1] expression changed (2)
+  Primary.Paren(53edf0945b3bed268e0bf19bff406439;Expression.BinaryOperator.Eq)[53L,12C-30C(1551-1569)] -> Primary.Paren(5fdb9b92e38e8dee3368f1fef467a0e8;Expression.BinaryOperator.Eq)[97L,12C-32C(2844-2864)]
+  Primary.FieldAccess(shouldSetProperty)[64L,13C-29C(1967-1983)] -> Primary.SimpleMethodInvocation(shouldSetProperty#0)(Primary.SimpleMethodInvocation(shouldSetProperty))[52L,13C-31C(1524-1542)]
+
+[significance=1] expression moved (19)
+  Primary.PrimaryMethodInvocation(length#0): [53L,35C-50C(1574-1589)] -> [97L,37C-54C(2869-2886)]
+  Primary.FieldAccess(counter): [53L,35C-41C(1574-1580)] -> [97L,37C-45C(2869-2877)]
+  Primary.Literal.String(No counter specified to retrieve): [55L,37C-70C(1645-1678)] -> [99L,37C-70C(2942-2975)]
+  Expression.BinaryOperator.Eq: [53L,35C-55C(1574-1594)] -> [97L,37C-59C(2869-2891)]
+  Primary.Name(command): [99L,27C-33C(3254-3260)] -> [65L,23C-29C(1997-2003)]
+  Primary.Literal.String(Perforce error. Could not retrieve counter value.): [94L,53C-103C(3104-3154)] -> [88L,39C-89C(2622-2672)]
+  Expression.BinaryOperator.Or: [53L,12C-55C(1551-1594)] -> [97L,12C-59C(2844-2891)]
+  Primary.Literal.String(Cannot both set the value of the property and retrieve the value of the property.): [60L,37C-119C(1791-1873)] -> [104L,37C-119C(3092-3174)]
+  Expression.BinaryOperator.And: [58L,12C-46C(1706-1740)] -> [102L,12C-50C(3003-3041)]
+  Primary.Name(handler): [99L,36C-42C(3263-3269)] -> [65L,32C-35C(2006-2009)]
+  Expression.BinaryOperator.Eq: [53L,14C-28C(1553-1567)] -> [97L,14C-30C(2846-2862)]
+  Primary.Literal.Integer(0): [53L,55C-55C(1594-1594)] -> [97L,59C-59C(2891-2891)]
+  Primary.FieldAccess(counter): [53L,14C-20C(1553-1559)] -> [97L,14C-22C(2846-2854)]
+  Primary.FieldAccess(shouldSetValue): [58L,12C-25C(1706-1719)] -> [102L,12C-27C(3003-3018)]
+  Primary.Literal.Null: [53L,25C-28C(1564-1567)] -> [97L,27C-30C(2859-2862)]
+  Primary.FieldAccess(shouldSetProperty): [77L,12C-28C(2423-2439)] -> [70L,12C-30C(2083-2101)]
+  Primary.Paren(53edf0945b3bed268e0bf19bff406439;Expression.BinaryOperator.Eq): [53L,12C-30C(1551-1569)] -> [97L,12C-32C(2844-2864)]
+  Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1): [55L,18C-72C(1626-1680)] -> [99L,18C-72C(2923-2977)]
+  Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1): [60L,18C-121C(1772-1875)] -> [104L,18C-121C(3073-3176)]
+
+[significance=1] expression added (4)
+  Primary.Literal.Null[110L,17C-20C(3259-3262)]* into ClassBody(P4Counter)[25L,0C-106L,0C(965-3396)]
+  Primary.Paren(cb6935711a98cfc82016f30f3761a621;Expression.BinaryOperator.Eq)[110L,15C-36C(3257-3278)]* into ClassBody(P4Counter)[25L,0C-106L,0C(965-3396)]
+  Primary.FieldAccess(m_property)[110L,25C-34C(3267-3276)]* into ClassBody(P4Counter)[25L,0C-106L,0C(965-3396)]
+  Expression.BinaryOperator.Eq[110L,17C-34C(3259-3276)]* into ClassBody(P4Counter)[25L,0C-106L,0C(965-3396)]
+
+[significance=1] expression removed (11)
+  Primary.Literal.Integer(0)[30L,23C-23C(1148-1148)]* from VariableDeclarator(m_value,0,false)[28L,16C-22C(1048-1054)]
+  Primary.This[34L,8C-11C(1208-1211)]* from Primary.FieldAccess(m_counter)[32L,8C-16C(1120-1128)]
+  Primary.Literal.Null[26L,28C-31C(995-998)]* from VariableDeclarator(m_counter,0,false)[25L,19C-27C(952-960)]
+  Primary.Literal.False[29L,39C-43C(1118-1122)]* from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+  Primary.Literal.True[40L,28C-31C(1354-1357)]* from MethodBody(setProperty(Ljava.lang.String;)V)(MethodBody(setProperty(LString;)V))[36L,4C-38L,4C(1205-1242)]
+  Primary.Literal.Null[27L,29C-32C(1030-1033)]* from VariableDeclarator(m_property,0,false)[26L,19C-28C(982-991)]
+  Primary.FieldAccess(shouldSetProperty)[40L,8C-24C(1334-1350)]* from MethodBody(setProperty(Ljava.lang.String;)V)(MethodBody(setProperty(LString;)V))[36L,4C-38L,4C(1205-1242)]
+  Primary.Literal.False[28L,36C-40C(1072-1076)]* from VariableDeclarator(m_shouldSetValue,0,false)[27L,20C-35C(1014-1029)]
+  Primary.This[45L,8C-11C(1419-1422)]* from Primary.FieldAccess(m_value)[42L,8C-14C(1303-1309)]
+  Primary.This[39L,8C-11C(1300-1303)]* from Primary.FieldAccess(m_property)[37L,8C-17C(1215-1224)]
+  Primary.FieldAccess(shouldSetProperty)[58L,30C-46C(1724-1740)]* from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+
+[significance=1] argument modified (1)
+  Expression.BinaryOperator.Add[90L,51C-60C(2926-2935)] -> Expression.BinaryOperator.Add[80L,41C-52C(2383-2394)]
+
+[significance=1] argument changed (1)
+  Primary.Name(handler)(Primary.Name(handler))[99L,36C-42C(3263-3269)] -> Primary.Literal.Null[65L,32C-35C(2006-2009)]
+
+[significance=1] constructor invocation modified (3)
+  Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[94L,34C-105C(3085-3156)] -> Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[89L,31C-58C(2706-2733)]
+  Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[60L,18C-121C(1772-1875)] -> Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[104L,18C-121C(3073-3176)]
+  Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[55L,18C-72C(1626-1680)] -> Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[99L,18C-72C(2923-2977)]
+
+[significance=1] instance creation modified (3)
+  Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[94L,34C-105C(3085-3156)] -> Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[89L,31C-58C(2706-2733)]
+  Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[60L,18C-121C(1772-1875)] -> Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[104L,18C-121C(3073-3176)]
+  Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[55L,18C-72C(1626-1680)] -> Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[99L,18C-72C(2923-2977)]
+
+[significance=1] variable declaration renamed (4)
+  VariableDeclarator(value,0,false)[30L,15C-23C(1140-1148)] -> VariableDeclarator(m_value,0,false)[28L,16C-22C(1048-1054)]
+  VariableDeclarator(counter,0,false)[26L,18C-31C(985-998)] -> VariableDeclarator(m_counter,0,false)[25L,19C-27C(952-960)]
+  VariableDeclarator(property,0,false)[27L,18C-32C(1019-1033)] -> VariableDeclarator(m_property,0,false)[26L,19C-28C(982-991)]
+  VariableDeclarator(shouldSetValue,0,false)[28L,19C-40C(1055-1076)] -> VariableDeclarator(m_shouldSetValue,0,false)[27L,20C-35C(1014-1029)]
+
+[significance=1] method invocation inserted (1)
+  Statement.Expression.Primary.SimpleMethodInvocation(registerError#1)()(Statement.Expression.Primary.SimpleMethodInvocation(registerError)())[89L,16C-61C(2691-2736)] into Block(catch-clause)[93L,24C-95L,24C(3049-3183)]
+
+[significance=1] method invocation added (4)
+  Statement.Expression.Primary.SuperMethodInvocation(stdout#1)()(Statement.Expression.Primary.SuperMethodInvocation(stdout)())[72L,12C-32C(2127-2147)]* into MethodBody(process(Ljava.lang.String;)V)(MethodBody(process(LString;)V))[85L,20C-96L,20C(2667-3205)]
+  Primary.SimpleMethodInvocation(shouldSetProperty#0)(Primary.SimpleMethodInvocation(shouldSetProperty))[102L,32C-50C(3023-3041)]* into ClassBody(P4Counter)[25L,0C-106L,0C(965-3396)]
+  Statement.Expression.Primary.SimpleMethodInvocation(registerError#1)()(Statement.Expression.Primary.SimpleMethodInvocation(registerError)())[84L,16C-35C(2487-2506)]* into Statement.Try[87L,24C-95L,24C(2783-3183)]
+  Statement.Expression.Primary.SimpleMethodInvocation(validate#0)()(Statement.Expression.Primary.SimpleMethodInvocation(validate)())[49L,8C-18C(1429-1439)]* into ClassBody(P4Counter)[25L,0C-106L,0C(965-3396)]
+
+[significance=1] method invocation removed (2)
+  Statement.Expression.Primary.SimpleMethodInvocation(execP4Command#2)()(Statement.Expression.Primary.SimpleMethodInvocation(execP4Command)())[103L,12C-71C(3319-3378)]* from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+  Primary.SimpleMethodInvocation(getProject#0)(Primary.SimpleMethodInvocation(getProject))[79L,35C-46C(2488-2499)]* from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+
+[significance=1] method invocation modified (3)
+  Statement.Expression.Primary.SimpleMethodInvocation(setProperty#2)()(Statement.Expression.Primary.SimpleMethodInvocation(setProperty)())[90L,28C-63C(2903-2938)] -> Statement.Expression.Primary.SimpleMethodInvocation(setProperty#2)()(Statement.Expression.Primary.SimpleMethodInvocation(setProperty)())[80L,16C-55C(2358-2397)]
+  Statement.Expression.Primary.SimpleMethodInvocation(execP4Command#2)()(Statement.Expression.Primary.SimpleMethodInvocation(execP4Command)())[99L,12C-45C(3239-3272)] -> Statement.Expression.Primary.SimpleMethodInvocation(execP4Command#2)()(Statement.Expression.Primary.SimpleMethodInvocation(execP4Command)())[65L,8C-38C(1982-2012)]
+  Primary.PrimaryMethodInvocation(length#0)(Primary.PrimaryMethodInvocation(length))[53L,35C-50C(1574-1589)] -> Primary.PrimaryMethodInvocation(length#0)(Primary.PrimaryMethodInvocation(length))[97L,37C-54C(2869-2886)]
+
+[significance=1] final modifier removed (1)
+  Modifier.Final[79L,12C-16C(2465-2469)]* from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
+
+[significance=1] method modified (5)
+  Method(setProperty(Ljava.lang.String;)V)(Method(setProperty))[37L,4C-41L,4C(1243-1364)] -> Method(setProperty(Ljava.lang.String;)V)(Method(setProperty))[35L,4C-38L,4C(1152-1242)]
+  Method(setValue(I)V)[43L,4C-47L,4C(1371-1474)] -> Method(setValue(I)V)[40L,4C-44L,4C(1249-1357)]
+  Method(setName(Ljava.lang.String;)V)(Method(setName))[32L,4C-35L,4C(1156-1236)] -> Method(setName(Ljava.lang.String;)V)(Method(setName))[30L,4C-33L,4C(1062-1145)]
+  Method(process(Ljava.lang.String;)V)(Method(process))[84L,20C-96L,20C(2612-3205)] -> Method(stdout(Ljava.lang.String;)V)(Method(stdout))[68L,4C-92L,4C(2025-2766)]
+  Method(execute()V)[49L,4C-105L,4C(1481-3394)] -> Method(execute()V)[46L,4C-66L,4C(1364-2018)]
+
+[significance=1] method added (1)
+  Method(shouldSetProperty()Z)[108L,4C-111L,4C(3200-3285)]* into ClassBody(P4Counter)[25L,0C-106L,0C(965-3396)]
+
+[significance=1] field access renamed (14)
+  Primary.FieldAccess(property)[39L,8C-20C(1300-1312)] -> Primary.FieldAccess(m_property)[37L,8C-17C(1215-1224)]
+  Primary.FieldAccess(counter)[53L,35C-41C(1574-1580)] -> Primary.FieldAccess(m_counter)[97L,37C-45C(2869-2877)]
+  Primary.FieldAccess(value)[74L,29C-33C(2393-2397)] -> Primary.FieldAccess(m_value)[62L,29C-35C(1954-1960)]
+  Primary.FieldAccess(counter)[53L,14C-20C(1553-1559)] -> Primary.FieldAccess(m_counter)[97L,14C-22C(2846-2854)]
+  Primary.FieldAccess(shouldSetValue)[58L,12C-25C(1706-1719)] -> Primary.FieldAccess(m_shouldSetValue)[102L,12C-27C(3003-3018)]
+  Primary.FieldAccess(counter)[63L,56C-62C(1945-1951)] -> Primary.FieldAccess(m_counter)[51L,58C-66C(1500-1508)]
+  Primary.FieldAccess(shouldSetValue)[72L,12C-25C(2337-2350)] -> Primary.FieldAccess(m_shouldSetValue)[60L,12C-27C(1896-1911)]
+  Primary.FieldAccess(value)[89L,28C-32C(2841-2845)] -> Primary.FieldAccess(m_value)[79L,16C-22C(2306-2312)]
+  Primary.FieldAccess(value)[90L,56C-60C(2931-2935)] -> Primary.FieldAccess(m_value)[80L,46C-52C(2388-2394)]
+  Primary.FieldAccess(value)[45L,8C-17C(1419-1428)] -> Primary.FieldAccess(m_value)[42L,8C-14C(1303-1309)]
+  Primary.FieldAccess(P4CmdOpts)[63L,38C-46C(1927-1935)] -> Primary.FieldAccess(m_p4CmdOpts)[51L,38C-48C(1480-1490)]
+  Primary.FieldAccess(property)[90L,41C-48C(2916-2923)] -> Primary.FieldAccess(m_property)[80L,29C-38C(2371-2380)]
+  Primary.FieldAccess(shouldSetValue)[46L,8C-21C(1447-1460)] -> Primary.FieldAccess(m_shouldSetValue)[43L,8C-23C(1328-1343)]
+  Primary.FieldAccess(counter)[34L,8C-19C(1208-1219)] -> Primary.FieldAccess(m_counter)[32L,8C-16C(1120-1128)]

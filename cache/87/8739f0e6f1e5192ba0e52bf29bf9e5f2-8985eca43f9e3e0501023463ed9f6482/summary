@@ -1,0 +1,17 @@
+*** Modified Units ***
+Class(TarInputStream)(24L,0C-444L,0C(804-13078)): [MODIFIED] 410(307) changed [d:87(74)i:119(46)r:182(182)m:22(5)], 817 mapped
+Method(close()V)(228L,4C-232L,4C(7457-7543)): [MODIFIED] 2(2) changed [d:1(1)i:0(0)r:1(1)m:0(0)], 9 mapped
+Method(read()I)(285L,4C-298L,4C(8765-9014)): [MODIFIED] 8(7) changed [d:3(3)i:2(1)r:3(3)m:0(0)], 29 mapped
+Method(setDebug(Z)V)(62L,4C-66L,4C(1771-1886)): [MODIFIED] 6(5) changed [d:2(2)i:2(1)r:2(2)m:0(0)], 14 mapped
+Method(read([B)I)(308L,4C-312L,4C(9328-9443)): [MODIFIED] 7(6) changed [d:1(1)i:2(1)r:4(4)m:0(0)], 16 mapped
+Method(read([BII)I)(325L,4C-403L,4C(9972-11972)): [MODIFIED] 129(107) changed [d:21(20)i:32(14)r:72(72)m:4(1)], 192 mapped
+Method(getRecordSize()I)(202L,4C-205L,4C(6634-6715)): [MODIFIED] 2(2) changed [d:1(1)i:0(0)r:1(1)m:0(0)], 8 mapped
+Method(skip(I)V)(420L,4C-443L,4C(12452-13076)): [MODIFIED] 23(9) changed [d:1(1)i:12(5)r:2(2)m:8(1)], 55 mapped
+Method(available()I)(217L,4C-221L,4C(7197-7307)): [MODIFIED] 4(4) changed [d:2(2)i:0(0)r:2(2)m:0(0)], 10 mapped
+Method(copyEntryContents(Ljava.io.OutputStream;)V)(241L,4C-257L,4C(7800-8160)): [MODIFIED] 15(12) changed [d:1(1)i:6(3)r:8(8)m:0(0)], 43 mapped
+Method(getNextEntry()LTarEntry;)(79L,4C-195L,4C(2470-6496)): [MODIFIED] 133(99) changed [d:40(37)i:37(13)r:46(46)m:10(3)], 310 mapped
+Method(debug(Ljava.lang.String;)V)(431L,4C-437L,4C(12530-12670)): [INSERTED] 14(2) changed [d:0(0)i:14(2)r:0(0)m:0(0)], 0 mapped
+*** Unmodified Units ***
+Method(reset()V)(408L,4C-410L,4C(12059-12089))
+Method(markSupported()Z)(273L,4C-276L,4C(8459-8522))
+Method(mark(I)V)(264L,4C-266L,4C(8297-8341))
