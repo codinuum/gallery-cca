@@ -1,2 +1,2 @@
 # gallery-cca
-Snapshots from CCA
+Screenshots from CCA
