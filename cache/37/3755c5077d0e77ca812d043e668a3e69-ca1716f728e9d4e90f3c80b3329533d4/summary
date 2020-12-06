@@ -3,20 +3,19 @@ Method(createShortcutsModel()Lorg.gjt.sp.jedit.options.ShortcutsModel;)(85L,1C-8
 Method(compare(Ljava.lang.Object;Ljava.lang.Object;)I)(202L,2C-226L,2C(4454-5164)): [MODIFIED] 26(8) changed [d:2(2)i:18(1)r:3(3)m:3(2)], 92 mapped
 Method(getColumnCount()I)(129L,1C-132L,1C(3187-3231)): [MODIFIED] 1(1) changed [d:0(0)i:0(0)r:1(1)m:0(0)], 6 mapped
 Method(_init()V)(44L,1C-57L,1C(1318-1782)): [MODIFIED] 59(32) changed [d:33(12)i:8(5)r:12(12)m:6(3)], 29 mapped
-Method(actionPerformed(Ljava.awt.event.ActionEvent;)V)(106L,2C-109L,2C(2802-2905)): [RENAMED] 50(14) changed [d:5(2)i:32(1)r:9(9)m:4(2)], 13 mapped
-Class(ActionHandler)(104L,1C-110L,1C(2751-2908)): [RENAMED] 54(18) changed [d:5(2)i:32(1)r:13(13)m:4(2)], 18 mapped
+Method(actionPerformed(Ljava.awt.event.ActionEvent;)V)(106L,2C-109L,2C(2802-2905)): [RENAMED] 43(13) changed [d:5(4)i:28(1)r:7(7)m:3(1)], 13 mapped
+Class(ActionHandler)(104L,1C-110L,1C(2751-2908)): [RENAMED] 47(17) changed [d:5(4)i:28(1)r:11(11)m:3(1)], 18 mapped
 Method(setValueAt(Ljava.lang.Object;II)V)(160L,1C-167L,1C(3651-3859)): [MODIFIED] 23(6) changed [d:3(1)i:17(2)r:3(3)m:0(0)], 29 mapped
 Method(isCellEditable(II)Z)(155L,1C-158L,1C(3574-3647)): [DELETED] 15(2) changed [d:12(1)i:0(0)r:0(0)m:3(1)], 3 mapped
 Class(KeyCompare)(193L,1C-227L,1C(4337-5167)): [MODIFIED] 26(8) changed [d:2(2)i:18(1)r:3(3)m:3(2)], 110 mapped
 Class(ShortcutsModel)(113L,0C-228L,0C(2913-5169)): [MODIFIED] 86(23) changed [d:17(4)i:53(6)r:10(10)m:6(3)], 308 mapped
 Method(getValueAt(II)Ljava.lang.Object;)(139L,1C-153L,1C(3294-3570)): [MODIFIED] 7(2) changed [d:0(0)i:6(1)r:1(1)m:0(0)], 37 mapped
 Method(createKeyTableScroller()Ljavax.swing.JScrollPane;)(73L,1C-83L,1C(2055-2418)): [DELETED] 48(11) changed [d:13(1)i:0(0)r:0(0)m:35(10)], 35 mapped
-Class(ShortcutsOptionPane)(34L,0C-111L,0C(1115-2910)): [MODIFIED] 254(80) changed [d:68(19)i:103(12)r:33(33)m:50(16)], 177 mapped
+Class(ShortcutsOptionPane)(34L,0C-111L,0C(1115-2910)): [MODIFIED] 251(77) changed [d:68(21)i:103(10)r:31(31)m:49(15)], 177 mapped
 Method(getColumnName(I)Ljava.lang.String;)(169L,1C-180L,1C(3863-4080)): [MODIFIED] 5(2) changed [d:0(0)i:4(1)r:1(1)m:0(0)], 30 mapped
 Class(KeyBinding)(90L,1C-102L,1C(2523-2747)): [MODIFIED] 16(12) changed [d:1(1)i:7(3)r:8(8)m:0(0)], 35 mapped
 Method(save()V)(182L,1C-191L,1C(4084-4333)): [MODIFIED] 9(2) changed [d:0(0)i:8(1)r:1(1)m:0(0)], 38 mapped
-Class(TableMouseHandler)(109L,1C-126L,1C(2732-3178)): [INSERTED] 56(3) changed [d:0(0)i:56(3)r:0(0)m:0(0)], 0 mapped
-Method(mouseClicked(Ljava.awt.event.MouseEvent;)V)(111L,2C-125L,2C(2782-3175)): [MODIFIED] 2(2) changed [d:0(0)i:2(2)r:0(0)m:0(0)], 0 mapped
+Class(TableMouseHandler)(109L,1C-126L,1C(2732-3178)): [INSERTED] 60(1) changed [d:0(0)i:60(1)r:0(0)m:0(0)], 0 mapped
 *** Unmodified Units ***
 Method(getRowCount()I)(134L,1C-137L,1C(3235-3290))
 Method(sort(I)V)(123L,1C-127L,1C(3070-3183))

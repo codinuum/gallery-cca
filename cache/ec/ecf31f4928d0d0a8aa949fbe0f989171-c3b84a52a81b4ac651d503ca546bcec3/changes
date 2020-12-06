@@ -6,19 +6,18 @@
   Modifier.Final[31L,30C-34C(890-894)]* into Parameter(out,0,)[30L,30C-45C(849-864)]
   Modifier.Final[129L,33C-37C(2881-2885)]* into Parameter(is,0,)[127L,33C-46C(2750-2763)]
 
-[significance=3] field renamed (3)
+[significance=3] field renamed (2)
   FieldDeclaration(errorThread[0)[24L,4C-30C(721-747)] -> FieldDeclaration(m_errorThread[0)[25L,4C-32C(725-753)]
   FieldDeclaration(inputThread[0)[26L,4C-30C(754-780)] -> FieldDeclaration(m_inputThread[0)[26L,4C-32C(759-787)]
-  FieldDeclaration(out[0;err[0)[28L,4C-33C(787-816)] -> FieldDeclaration(m_error[0)[29L,4C-32C(829-857)]
 
 [significance=2] variable declaration added (1)
   VariableDeclarator(m_output,0,false)[28L,25C-32C(815-822)]* into ClassBody(PumpStreamHandler)[23L,0C-134L,0C(715-2926)]
 
 [significance=2] variable declaration removed (1)
-  VariableDeclarator(out,0,false)[28L,25C-27C(808-810)]* from FieldDeclaration(m_error[0)[29L,4C-32C(829-857)]
+  VariableDeclarator(out,0,false)[28L,25C-27C(808-810)]* from ClassBody(PumpStreamHandler)[24L,0C-136L,0C(719-3115)]
 
 [significance=2] modifier added (1)
-  Modifier.Private[28L,4C-10C(794-800)]* into ClassBody(PumpStreamHandler)[23L,0C-134L,0C(715-2926)]
+  Modifier.Private[29L,4C-10C(829-835)]* into ClassBody(PumpStreamHandler)[23L,0C-134L,0C(715-2926)]
 
 [significance=2] parameter renamed (4)
   Parameter(out,0,)[30L,30C-45C(849-864)] -> Parameter(output,0,)[31L,30C-54C(890-914)]
@@ -27,12 +26,19 @@
   Parameter(os,0,)[127L,49C-63C(2766-2780)] -> Parameter(output,0,)[130L,33C-57C(2939-2963)]
 
 [significance=1] (changed) (3)
-  Modifiers(out;err#f)[28L,4C-10C(787-793)] -> Modifiers(m_error#f)[29L,4C-10C(829-835)]
+  Modifiers(out;err#f)[28L,4C-10C(787-793)] -> Modifiers(m_output#f)[28L,4C-10C(794-800)]
   Modifiers(inputThread#f)[26L,4C-10C(754-760)] -> Modifiers(m_inputThread#f)[26L,4C-10C(759-765)]
   Modifiers(errorThread#f)[24L,4C-10C(721-727)] -> Modifiers(m_errorThread#f)[25L,4C-10C(725-731)]
 
+[significance=1] (inserted) (2)
+  FieldDeclaration(m_error[0)[29L,4C-32C(829-857)] into ClassBody(PumpStreamHandler)[23L,0C-134L,0C(715-2926)]
+  FieldDeclaration(m_output[0)[28L,4C-33C(794-823)] into ClassBody(PumpStreamHandler)[23L,0C-134L,0C(715-2926)]
+
+[significance=1] (deleted) (1)
+  FieldDeclaration(out[0;err[0)[28L,4C-33C(787-816)] from ClassBody(PumpStreamHandler)[24L,0C-136L,0C(719-3115)]
+
 [significance=1] (added) (6)
-  Modifiers(m_output#f)[28L,4C-10C(794-800)]* into ClassBody(PumpStreamHandler)[23L,0C-134L,0C(715-2926)]
+  Modifiers(m_error#f)[29L,4C-10C(829-835)]* into ClassBody(PumpStreamHandler)[23L,0C-134L,0C(715-2926)]
   Modifiers(input#p)[129L,33C-37C(2881-2885)]* into Parameter(is,0,)[127L,33C-46C(2750-2763)]
   Modifiers(output#p)[31L,30C-34C(890-894)]* into Parameter(out,0,)[30L,30C-45C(849-864)]
   Modifiers(error#p)[32L,30C-34C(947-951)]* into Parameter(err,0,)[30L,48C-63C(867-882)]
@@ -94,9 +100,6 @@
   Statement.Expression.Primary.PrimaryMethodInvocation(flush#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(flush)())[92L,12C-23C(1976-1987)] -> Statement.Expression.Primary.PrimaryMethodInvocation(flush#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(flush)())[94L,12C-28C(2089-2105)]
   Statement.Expression.Primary.PrimaryMethodInvocation(start#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(start)())[63L,8C-27C(1500-1519)] -> Statement.Expression.Primary.PrimaryMethodInvocation(start#0)()(Statement.Expression.Primary.PrimaryMethodInvocation(start)())[65L,8C-29C(1603-1624)]
   Statement.Expression.Primary.SimpleMethodInvocation(createProcessErrorPump#2)()(Statement.Expression.Primary.SimpleMethodInvocation(createProcessErrorPump)())[48L,8C-41C(1207-1240)] -> Statement.Expression.Primary.SimpleMethodInvocation(createProcessErrorPump#2)()(Statement.Expression.Primary.SimpleMethodInvocation(createProcessErrorPump)())[50L,8C-45C(1299-1336)]
-
-[significance=1] field added (1)
-  FieldDeclaration(m_output[0)[28L,4C-33C(794-823)]* into ClassBody(PumpStreamHandler)[23L,0C-134L,0C(715-2926)]
 
 [significance=1] method modified (9)
   Method(getErr()Ljava.io.OutputStream;)(Method(getErr))[99L,4C-102L,4C(2061-2123)] -> Method(getErr()Ljava.io.OutputStream;)(Method(getErr))[101L,4C-104L,4C(2179-2245)]

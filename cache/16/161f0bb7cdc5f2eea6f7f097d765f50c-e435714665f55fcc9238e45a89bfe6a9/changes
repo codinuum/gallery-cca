@@ -11,10 +11,10 @@
 
 [significance=4] accessibility decreased (5)
   FieldDeclaration(list[0)[81L,4C-34C(3286-3316)] -> FieldDeclaration(m_list[0)[73L,4C-26C(3064-3086)]
+  FieldDeclaration(unused[0)[83L,4C-36C(3323-3355)] -> FieldDeclaration(m_unused[0)[74L,4C-28C(3092-3116)]
   FieldDeclaration(outFile[0)[75L,4C-33C(3175-3204)] -> FieldDeclaration(m_outFile[0)[70L,4C-26C(2978-3000)]
   FieldDeclaration(fix[0)[79L,4C-33C(3250-3279)] -> FieldDeclaration(m_fix[0)[72L,4C-25C(3037-3058)]
   FieldDeclaration(searchPath[0)[77L,4C-36C(3211-3243)] -> FieldDeclaration(m_searchPath[0)[71L,4C-29C(3006-3031)]
-  FieldDeclaration(unused[0)[83L,4C-36C(3323-3355)] -> FieldDeclaration(m_unused[0)[74L,4C-28C(3092-3116)]
 
 [significance=4] final modifier added (4)
   Modifier.Final[89L,25C-29C(3345-3349)]* into Parameter(flag,0,)[113L,25C-36C(4000-4011)]
@@ -31,8 +31,7 @@
   Parameter(exe,0,)[222L,39C-55C(7167-7183)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
   Parameter(line,0,)[100L,44C-51C(3727-3734)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
 
-[significance=4] method removed (2)
-  Method(setupStreamHandler(Lorg.apache.tools.ant.taskdefs.exec.Execute;)V)(Method(setupStreamHandler))[222L,4C-247L,4C(7132-7963)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
+[significance=4] method removed (1)
   Method(createViolation(ILjava.lang.String;)Lorg.apache.tools.ant.taskdefs.optional.metamata.MAudit$Violation;)(Method(createViolation))[100L,4C-106L,4C(3687-3895)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
 
 [significance=3] statement removed to decrease nesting-depth (1)
@@ -40,21 +39,17 @@
 
 [significance=3] field renamed (5)
   FieldDeclaration(searchPath[0)[77L,4C-36C(3211-3243)] -> FieldDeclaration(m_searchPath[0)[71L,4C-29C(3006-3031)]
-  FieldDeclaration(list[0)[81L,4C-34C(3286-3316)] -> FieldDeclaration(m_list[0)[73L,4C-26C(3064-3086)]
   FieldDeclaration(outFile[0)[75L,4C-33C(3175-3204)] -> FieldDeclaration(m_outFile[0)[70L,4C-26C(2978-3000)]
+  FieldDeclaration(list[0)[81L,4C-34C(3286-3316)] -> FieldDeclaration(m_list[0)[73L,4C-26C(3064-3086)]
   FieldDeclaration(unused[0)[83L,4C-36C(3323-3355)] -> FieldDeclaration(m_unused[0)[74L,4C-28C(3092-3116)]
   FieldDeclaration(fix[0)[79L,4C-33C(3250-3279)] -> FieldDeclaration(m_fix[0)[72L,4C-25C(3037-3058)]
 
 [significance=3] method renamed or signature changed (1)
   Method(checkOptions()V)[192L,4C-204L,4C(6232-6670)] -> Method(validate()V)[167L,4C-179L,4C(5636-6074)]
 
-[significance=2] statement deleted (1)
-  Statement.Expression.AssignmentOperator.Eq()()[152L,12C-29C(4995-5012)] from Block(block)[124L,8C-128L,8C(4226-4426)]
-
-[significance=2] statement removed (6)
+[significance=2] statement removed (5)
   Statement.Expression.AssignmentOperator.Eq()()[104L,8C-29C(3842-3863)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
   Statement.Throw[244L,16C-53C(7896-7933)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
-  Statement.Expression.AssignmentOperator.Eq()()[151L,12C-34C(4959-4981)]* from Block(block)[124L,8C-128L,8C(4226-4426)]
   Statement.If(0d788767b7b10a554500dc8133263141;Expression.BinaryOperator.Eq)[226L,8C-246L,8C(7295-7957)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
   Statement.Return[105L,8C-24C(3873-3889)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
   Statement.Expression.AssignmentOperator.Eq()()[103L,8C-29C(3811-3832)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
@@ -81,18 +76,6 @@
   VariableDeclarator(violation,0,true)[102L,18C-44C(3774-3800)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
   VariableDeclarator(out,0,true)[236L,29C-65C(7583-7619)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
 
-[significance=2] exception type added in throws-clause (1)
-  Type.ClassOrInterface(org.apache.myrmidon.api.TaskException)(Type.ClassOrInterface(TaskException))[117L,15C-27C(3881-3893)]* into Method(getOptions()Ljava.util.ArrayList;)(Method(getOptions))[142L,4C-190L,4C(4519-6225)]
-
-[significance=2] exception type removed in throws-clause (1)
-  Type.ClassOrInterface(org.apache.myrmidon.api.TaskException)(Type.ClassOrInterface(TaskException))[223L,15C-27C(7202-7214)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
-
-[significance=2] throws-clause added (1)
-  Throws(getOptions)[117L,8C-27C(3874-3893)]* into Method(getOptions()Ljava.util.ArrayList;)(Method(getOptions))[142L,4C-190L,4C(4519-6225)]
-
-[significance=2] throws-clause removed (1)
-  Throws(setupStreamHandler)[223L,8C-27C(7195-7214)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
-
 [significance=2] block removed (3)
   Block(try)[234L,12C-241L,12C(7530-7829)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
   Block(block)[227L,8C-230L,8C(7325-7477)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
@@ -118,30 +101,39 @@
   Expression.BinaryOperator.Eq[135L,12C-29C(4403-4420)] -> Expression.BinaryOperator.Eq[109L,12C-31C(3711-3730)]
   Expression.BinaryOperator.Neq[148L,12C-29C(4849-4866)] -> Expression.BinaryOperator.Neq[123L,12C-34C(4192-4214)]
   Expression.BinaryOperator.Neq[156L,12C-28C(5152-5168)] -> Expression.BinaryOperator.Neq[131L,12C-33C(4523-4544)]
-  Expression.BinaryOperator.Neq[177L,12C-29C(5863-5880)] -> Expression.BinaryOperator.Neq[152L,12C-34C(5248-5270)]
   Expression.BinaryOperator.And[196L,12C-39C(6339-6366)] -> Expression.BinaryOperator.And[171L,12C-43C(5735-5766)]
+  Expression.BinaryOperator.Neq[177L,12C-29C(5863-5880)] -> Expression.BinaryOperator.Neq[152L,12C-34C(5248-5270)]
   Expression.BinaryOperator.And[200L,12C-40C(6517-6545)] -> Expression.BinaryOperator.And[175L,12C-44C(5917-5949)]
 
-[significance=1] (changed) (9)
+[significance=1] (changed) (10)
   Modifiers(fix#f)[79L,4C-12C(3250-3258)] -> Modifiers(m_fix#f)[72L,4C-10C(3037-3043)]
-  Modifiers(unused#f)[83L,4C-12C(3323-3331)] -> Modifiers(m_unused#f)[74L,4C-10C(3092-3098)]
-  Modifiers(list#f)[81L,4C-12C(3286-3294)] -> Modifiers(m_list#f)[73L,4C-10C(3064-3070)]
+  Throws(setupStreamHandler)[223L,8C-27C(7195-7214)] -> Throws(getOptions)[117L,8C-27C(3874-3893)]
   MethodBody(checkOptions()V)[194L,4C-204L,4C(6295-6670)] -> MethodBody(validate()V)[169L,4C-179L,4C(5695-6074)]
   Modifiers(searchPath#f)[77L,4C-12C(3211-3219)] -> Modifiers(m_searchPath#f)[71L,4C-10C(3006-3012)]
   Modifiers(checkOptions#m)[192L,4C-12C(6232-6240)] -> Modifiers(validate#m)[167L,4C-12C(5636-5644)]
+  Modifiers(outFile#f)[75L,4C-12C(3175-3183)] -> Modifiers(m_outFile#f)[70L,4C-10C(2978-2984)]
+  Modifiers(unused#f)[83L,4C-12C(3323-3331)] -> Modifiers(m_unused#f)[74L,4C-10C(3092-3098)]
+  Modifiers(list#f)[81L,4C-12C(3286-3294)] -> Modifiers(m_list#f)[73L,4C-10C(3064-3070)]
   Throws(checkOptions)[193L,8C-27C(6270-6289)] -> Throws(validate)[168L,8C-27C(5670-5689)]
   NamedArguments(checkOptions)[195L,26C-27C(6323-6324)] -> NamedArguments(validate)[170L,22C-23C(5719-5720)]
-  Modifiers(outFile#f)[75L,4C-12C(3175-3183)] -> Modifiers(m_outFile#f)[70L,4C-10C(2978-2984)]
 
-[significance=1] (inserted) (1)
-  NamedArguments(setSourcePath)[127L,25C-32C(4375-4382)] into Block(block)[149L,8C-153L,8C(4878-5055)]
+[significance=1] (moved) (2)
+  Type.ClassOrInterface(org.apache.myrmidon.api.TaskException): [223L,15C-27C(7202-7214)] -> [117L,15C-27C(3881-3893)]
+  Throws(setupStreamHandler): [223L,8C-27C(7195-7214)] -> [117L,8C-27C(3874-3893)]
 
-[significance=1] (added) (14)
+[significance=1] (inserted) (2)
+  NamedArguments(setSourcePath)[127L,25C-32C(4375-4382)] into Statement.Expression.AssignmentOperator.Eq()()[152L,12C-29C(4995-5012)]
+  NamedArguments(setClassPath)[126L,24C-42C(4329-4347)] into Statement.Expression.AssignmentOperator.Eq()()[151L,12C-34C(4959-4981)]
+
+[significance=1] (deleted) (1)
+  Method(setupStreamHandler(Lorg.apache.tools.ant.taskdefs.exec.Execute;)V)(Method(setupStreamHandler))[222L,4C-247L,4C(7132-7963)] from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
+
+[significance=1] (added) (13)
   Modifiers(unused#p)[102L,27C-31C(3595-3599)]* into Parameter(flag,0,)[128L,27C-38C(4294-4305)]
   NamedArguments(getClassPath)[134L,37C-38C(4636-4637)]* into Primary.FieldAccess(classPath)[159L,25C-33C(5248-5256)]
   NamedArguments(getSourcePath)[123L,25C-26C(4205-4206)]* into Primary.FieldAccess(sourcePath)[148L,12C-21C(4849-4858)]
-  NamedArguments(getSourcePath)[126L,39C-40C(4344-4345)]* into Block(block)[149L,8C-153L,8C(4878-5055)]
   NamedArguments(getClassPath)[131L,24C-25C(4535-4536)]* into Primary.FieldAccess(classPath)[156L,12C-20C(5152-5160)]
+  NamedArguments(getSourcePath)[126L,39C-40C(4344-4345)]* into Primary.FieldAccess(sourcePath)[151L,24C-33C(4971-4980)]
   Modifiers(fix#p)[84L,24C-28C(3266-3270)]* into Parameter(flag,0,)[108L,24C-35C(3922-3933)]
   Modifiers(list#p)[89L,25C-29C(3345-3349)]* into Parameter(flag,0,)[113L,25C-36C(4000-4011)]
   NamedArguments(getClassPath)[125L,48C-49C(4276-4277)]* into Primary.FieldAccess(classPath)[150L,31C-39C(4911-4919)]
@@ -150,7 +142,6 @@
   NamedArguments(getSourcePath)[155L,38C-39C(5364-5365)]* into Primary.FieldAccess(sourcePath)[180L,25C-34C(5961-5970)]
   Modifiers(outFile#p)[97L,27C-31C(3505-3509)]* into Parameter(outFile,0,)[123L,27C-38C(4207-4218)]
   NamedArguments(getIncludedFiles)[163L,50C-51C(5575-5576)]* into Primary.FieldAccess(includedFiles)[188L,34C-46C(6160-6172)]
-  NamedArguments(setClassPath)[126L,24C-42C(4329-4347)]* into Block(block)[149L,8C-153L,8C(4878-5055)]
 
 [significance=1] (removed) (38)
   NamedArguments(getLogger)[228L,57C-58C(7384-7385)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
@@ -192,44 +183,49 @@
   NamedArguments(setError)[240L,28C-34C(7808-7814)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
   MethodBody(createViolation(ILjava.lang.String;)Lorg.apache.tools.ant.taskdefs.optional.metamata.MAudit$Violation;)(MethodBody(createViolation(ILString;)LViolation;))[101L,4C-106L,4C(3754-3895)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
 
-[significance=1] statement modified (21)
-  Statement.Expression.AssignmentOperator.Eq()()[115L,8C-24C(4029-4045)] -> Statement.Expression.AssignmentOperator.Eq()()[91L,8C-21C(3380-3393)]
-  Statement.Expression.AssignmentOperator.Eq()()[125L,8C-30C(4236-4258)] -> Statement.Expression.AssignmentOperator.Eq()()[99L,8C-27C(3540-3559)]
+[significance=1] statement modified (23)
+  Statement.Expression.AssignmentOperator.Eq()()[152L,12C-29C(4995-5012)] -> Statement.Expression.Primary.SimpleMethodInvocation(setSourcePath#1)()(Statement.Expression.Primary.SimpleMethodInvocation(setSourcePath)())[127L,12C-33C(4362-4383)]
   Statement.If(204634f52d6406fa22d08af77b784981;Primary.FieldAccess())[164L,8C-167L,8C(5470-5533)] -> Statement.If(bae3b8bda15e2f17602184670831f7ee;Primary.FieldAccess())[139L,8C-142L,8C(4851-4916)]
   Statement.If(e4de07bb941c9bc3ac23b04e98eaa507;Primary.FieldAccess())[173L,8C-176L,8C(5784-5849)] -> Statement.If(8337291f1a511b85d7cd456629116964;Primary.FieldAccess())[148L,8C-151L,8C(5167-5234)]
-  Statement.Return[139L,8C-25C(4489-4506)] -> Statement.Return[113L,8C-27C(3801-3820)]
   Statement.If(270e7ab84041f5b005f3c5843946d5bb;Expression.BinaryOperator.And)[196L,8C-199L,8C(6335-6503)] -> Statement.If(9c7e869f91c714ed0ac61c68dff1a8bb;Expression.BinaryOperator.And)[171L,8C-174L,8C(5731-5903)]
+  Statement.Expression.AssignmentOperator.Eq()()[151L,12C-34C(4959-4981)] -> Statement.Expression.Primary.SimpleMethodInvocation(setClassPath#1)()(Statement.Expression.Primary.SimpleMethodInvocation(setClassPath)())[126L,12C-43C(4317-4348)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(add#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(add)())[186L,12C-48C(6078-6114)] -> Statement.Expression.Primary.PrimaryMethodInvocation(add#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(add)())[161L,12C-50C(5475-5513)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(add#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(add)())[159L,12C-47C(5235-5270)] -> Statement.Expression.Primary.PrimaryMethodInvocation(add#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(add)())[134L,12C-52C(4611-4651)]
+  Statement.If(2cc3eb0bf0cd7eae4a2463265409599e;Expression.BinaryOperator.Neq)[156L,8C-160L,8C(5148-5280)] -> Statement.If(be3eaf36e78cb1c6159f69f51674aafc;Expression.BinaryOperator.Neq)[131L,8C-135L,8C(4519-4661)]
+  Statement.Expression.AssignmentOperator.Eq()()[137L,12C-35C(4446-4469)] -> Statement.Expression.AssignmentOperator.Eq()()[111L,12C-37C(3756-3781)]
+  Statement.If(59f01fd4debe786a79f014e87517cf04;Expression.BinaryOperator.Eq)[135L,8C-138L,8C(4399-4479)] -> Statement.If(fc694ceaeba94ea31c5261d69f2859ec;Expression.BinaryOperator.Eq)[109L,8C-112L,8C(3707-3791)]
+  Statement.Expression.AssignmentOperator.Eq()()[115L,8C-24C(4029-4045)] -> Statement.Expression.AssignmentOperator.Eq()()[91L,8C-21C(3380-3393)]
+  Statement.Expression.AssignmentOperator.Eq()()[125L,8C-30C(4236-4258)] -> Statement.Expression.AssignmentOperator.Eq()()[99L,8C-27C(3540-3559)]
+  Statement.Return[139L,8C-25C(4489-4506)] -> Statement.Return[113L,8C-27C(3801-3820)]
   Statement.Expression.Primary.PrimaryMethodInvocation(append#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(append)())[150L,12C-42C(4892-4922)] -> Statement.Expression.Primary.PrimaryMethodInvocation(append#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(append)())[125L,12C-52C(4240-4280)]
   Statement.If(547896198b00e147b64beee4d269a204;Expression.BinaryOperator.Neq)[148L,8C-153L,8C(4845-5055)] -> Statement.If(cb884d06b6538bd1c66ebbe91dc73185;Expression.BinaryOperator.Neq)[123L,8C-128L,8C(4188-4426)]
   Statement.Expression.Primary.PrimaryMethodInvocation(add#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(add)())[180L,12C-48C(5948-5984)] -> Statement.Expression.Primary.PrimaryMethodInvocation(add#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(add)())[155L,12C-53C(5338-5379)]
   Statement.If(547896198b00e147b64beee4d269a204;Expression.BinaryOperator.Neq)[177L,8C-181L,8C(5859-5994)] -> Statement.If(cb884d06b6538bd1c66ebbe91dc73185;Expression.BinaryOperator.Neq)[152L,8C-156L,8C(5244-5389)]
   Statement.Expression.Primary.SimpleMethodInvocation(addAllArrayList#2)()(Statement.Expression.Primary.SimpleMethodInvocation(addAllArrayList)())[188L,8C-69C(6134-6195)] -> Statement.Expression.Primary.SimpleMethodInvocation(addAllArrayList#2)()(Statement.Expression.Primary.SimpleMethodInvocation(addAllArrayList)())[163L,8C-74C(5533-5599)]
   Statement.Expression.Primary.SuperMethodInvocation(checkOptions#0)()(Statement.Expression.Primary.SuperMethodInvocation(checkOptions)())[195L,8C-28C(6305-6325)] -> Statement.Expression.Primary.SuperMethodInvocation(validate#0)()(Statement.Expression.Primary.SuperMethodInvocation(validate)())[170L,8C-24C(5705-5721)]
-  Statement.Expression.AssignmentOperator.Eq()()[130L,8C-26C(4323-4341)] -> Statement.Expression.AssignmentOperator.Eq()()[104L,8C-25C(3632-3649)]
-  Statement.If(f77e6e64a7a1025e9f30cda8c87ea3da;Expression.BinaryOperator.And)[200L,8C-203L,8C(6513-6664)] -> Statement.If(bee69ac387d752b2eb75703abd057926;Expression.BinaryOperator.And)[175L,8C-178L,8C(5913-6068)]
-  Statement.Expression.Primary.PrimaryMethodInvocation(add#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(add)())[186L,12C-48C(6078-6114)] -> Statement.Expression.Primary.PrimaryMethodInvocation(add#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(add)())[161L,12C-50C(5475-5513)]
   Statement.Expression.AssignmentOperator.Eq()()[110L,8C-23C(3951-3966)] -> Statement.Expression.AssignmentOperator.Eq()()[86L,8C-19C(3300-3311)]
+  Statement.If(f77e6e64a7a1025e9f30cda8c87ea3da;Expression.BinaryOperator.And)[200L,8C-203L,8C(6513-6664)] -> Statement.If(bee69ac387d752b2eb75703abd057926;Expression.BinaryOperator.And)[175L,8C-178L,8C(5913-6068)]
+  Statement.Expression.AssignmentOperator.Eq()()[130L,8C-26C(4323-4341)] -> Statement.Expression.AssignmentOperator.Eq()()[104L,8C-25C(3632-3649)]
   Statement.If(b46eadd3edc3545d7585480af08c5a9e;Primary.FieldAccess())[183L,8C-187L,8C(6005-6124)] -> Statement.If(a77459e4e5ebfb80ab1e7801a92397e6;Primary.FieldAccess())[158L,8C-162L,8C(5400-5523)]
-  Statement.Expression.Primary.PrimaryMethodInvocation(add#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(add)())[159L,12C-47C(5235-5270)] -> Statement.Expression.Primary.PrimaryMethodInvocation(add#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(add)())[134L,12C-52C(4611-4651)]
-  Statement.If(2cc3eb0bf0cd7eae4a2463265409599e;Expression.BinaryOperator.Neq)[156L,8C-160L,8C(5148-5280)] -> Statement.If(be3eaf36e78cb1c6159f69f51674aafc;Expression.BinaryOperator.Neq)[131L,8C-135L,8C(4519-4661)]
-  Statement.Expression.AssignmentOperator.Eq()()[137L,12C-35C(4446-4469)] -> Statement.Expression.AssignmentOperator.Eq()()[111L,12C-37C(3756-3781)]
-  Statement.If(59f01fd4debe786a79f014e87517cf04;Expression.BinaryOperator.Eq)[135L,8C-138L,8C(4399-4479)] -> Statement.If(fc694ceaeba94ea31c5261d69f2859ec;Expression.BinaryOperator.Eq)[109L,8C-112L,8C(3707-3791)]
 
-[significance=1] statement changed (9)
+[significance=1] statement changed (11)
   Statement.If(204634f52d6406fa22d08af77b784981;Primary.FieldAccess())[164L,8C-167L,8C(5470-5533)] -> Statement.If(bae3b8bda15e2f17602184670831f7ee;Primary.FieldAccess())[139L,8C-142L,8C(4851-4916)]
-  Statement.If(e4de07bb941c9bc3ac23b04e98eaa507;Primary.FieldAccess())[173L,8C-176L,8C(5784-5849)] -> Statement.If(8337291f1a511b85d7cd456629116964;Primary.FieldAccess())[148L,8C-151L,8C(5167-5234)]
   Statement.If(270e7ab84041f5b005f3c5843946d5bb;Expression.BinaryOperator.And)[196L,8C-199L,8C(6335-6503)] -> Statement.If(9c7e869f91c714ed0ac61c68dff1a8bb;Expression.BinaryOperator.And)[171L,8C-174L,8C(5731-5903)]
   Statement.If(2cc3eb0bf0cd7eae4a2463265409599e;Expression.BinaryOperator.Neq)[156L,8C-160L,8C(5148-5280)] -> Statement.If(be3eaf36e78cb1c6159f69f51674aafc;Expression.BinaryOperator.Neq)[131L,8C-135L,8C(4519-4661)]
+  Statement.Expression.AssignmentOperator.Eq()()[152L,12C-29C(4995-5012)] -> Statement.Expression.Primary.SimpleMethodInvocation(setSourcePath#1)()(Statement.Expression.Primary.SimpleMethodInvocation(setSourcePath)())[127L,12C-33C(4362-4383)]
+  Statement.Expression.AssignmentOperator.Eq()()[151L,12C-34C(4959-4981)] -> Statement.Expression.Primary.SimpleMethodInvocation(setClassPath#1)()(Statement.Expression.Primary.SimpleMethodInvocation(setClassPath)())[126L,12C-43C(4317-4348)]
+  Statement.If(e4de07bb941c9bc3ac23b04e98eaa507;Primary.FieldAccess())[173L,8C-176L,8C(5784-5849)] -> Statement.If(8337291f1a511b85d7cd456629116964;Primary.FieldAccess())[148L,8C-151L,8C(5167-5234)]
   Statement.If(547896198b00e147b64beee4d269a204;Expression.BinaryOperator.Neq)[177L,8C-181L,8C(5859-5994)] -> Statement.If(cb884d06b6538bd1c66ebbe91dc73185;Expression.BinaryOperator.Neq)[152L,8C-156L,8C(5244-5389)]
   Statement.If(f77e6e64a7a1025e9f30cda8c87ea3da;Expression.BinaryOperator.And)[200L,8C-203L,8C(6513-6664)] -> Statement.If(bee69ac387d752b2eb75703abd057926;Expression.BinaryOperator.And)[175L,8C-178L,8C(5913-6068)]
   Statement.If(547896198b00e147b64beee4d269a204;Expression.BinaryOperator.Neq)[148L,8C-153L,8C(4845-5055)] -> Statement.If(cb884d06b6538bd1c66ebbe91dc73185;Expression.BinaryOperator.Neq)[123L,8C-128L,8C(4188-4426)]
   Statement.If(59f01fd4debe786a79f014e87517cf04;Expression.BinaryOperator.Eq)[135L,8C-138L,8C(4399-4479)] -> Statement.If(fc694ceaeba94ea31c5261d69f2859ec;Expression.BinaryOperator.Eq)[109L,8C-112L,8C(3707-3791)]
   Statement.If(b46eadd3edc3545d7585480af08c5a9e;Primary.FieldAccess())[183L,8C-187L,8C(6005-6124)] -> Statement.If(a77459e4e5ebfb80ab1e7801a92397e6;Primary.FieldAccess())[158L,8C-162L,8C(5400-5523)]
 
-[significance=1] expression modified (26)
+[significance=1] expression modified (27)
   Primary.FieldAccess(classPath)[159L,25C-33C(5248-5256)] -> Primary.SimpleMethodInvocation(getClassPath#0)(Primary.SimpleMethodInvocation(getClassPath))[134L,25C-38C(4624-4637)]
   Primary.FieldAccess(sourcePath)[148L,12C-21C(4849-4858)] -> Primary.SimpleMethodInvocation(getSourcePath#0)(Primary.SimpleMethodInvocation(getSourcePath))[123L,12C-26C(4192-4206)]
   Primary.FieldAccess(classPath)[156L,12C-20C(5152-5160)] -> Primary.SimpleMethodInvocation(getClassPath#0)(Primary.SimpleMethodInvocation(getClassPath))[131L,12C-25C(4523-4536)]
+  Primary.FieldAccess(sourcePath)[151L,24C-33C(4971-4980)] -> Primary.SimpleMethodInvocation(getSourcePath#0)(Primary.SimpleMethodInvocation(getSourcePath))[126L,26C-40C(4331-4345)]
   Primary.FieldAccess(classPath)[150L,31C-39C(4911-4919)] -> Primary.SimpleMethodInvocation(getClassPath#0)(Primary.SimpleMethodInvocation(getClassPath))[125L,36C-49C(4264-4277)]
   Primary.FieldAccess(sourcePath)[177L,12C-21C(5863-5872)] -> Primary.SimpleMethodInvocation(getSourcePath#0)(Primary.SimpleMethodInvocation(getSourcePath))[152L,12C-26C(5248-5262)]
   Primary.FieldAccess(sourcePath)[150L,12C-21C(4892-4901)] -> Primary.SimpleMethodInvocation(getSourcePath#0)(Primary.SimpleMethodInvocation(getSourcePath))[125L,12C-26C(4240-4254)]
@@ -243,38 +239,38 @@
   Expression.BinaryOperator.Eq[135L,12C-29C(4403-4420)] -> Expression.BinaryOperator.Eq[109L,12C-31C(3711-3730)]
   Expression.BinaryOperator.Neq[148L,12C-29C(4849-4866)] -> Expression.BinaryOperator.Neq[123L,12C-34C(4192-4214)]
   Expression.BinaryOperator.Neq[156L,12C-28C(5152-5168)] -> Expression.BinaryOperator.Neq[131L,12C-33C(4523-4544)]
-  Expression.BinaryOperator.Neq[177L,12C-29C(5863-5880)] -> Expression.BinaryOperator.Neq[152L,12C-34C(5248-5270)]
   Expression.BinaryOperator.And[196L,12C-39C(6339-6366)] -> Expression.BinaryOperator.And[171L,12C-43C(5735-5766)]
+  Expression.BinaryOperator.Neq[200L,23C-40C(6528-6545)] -> Expression.BinaryOperator.Neq[175L,25C-44C(5930-5949)]
+  Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[186L,25C-45C(6091-6111)] -> Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[161L,25C-47C(5488-5510)]
+  Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[159L,25C-44C(5248-5267)] -> Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[134L,25C-49C(4624-4648)]
+  Expression.BinaryOperator.Neq[177L,12C-29C(5863-5880)] -> Expression.BinaryOperator.Neq[152L,12C-34C(5248-5270)]
   Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[180L,25C-45C(5961-5981)] -> Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[155L,25C-50C(5351-5376)]
   Primary.PrimaryMethodInvocation(keySet#0)(Primary.PrimaryMethodInvocation(keySet))[188L,34C-55C(6160-6181)] -> Primary.PrimaryMethodInvocation(keySet#0)(Primary.PrimaryMethodInvocation(keySet))[163L,34C-60C(5559-5585)]
   Primary.PrimaryMethodInvocation(iterator#0)(Primary.PrimaryMethodInvocation(iterator))[188L,34C-66C(6160-6192)] -> Primary.PrimaryMethodInvocation(iterator#0)(Primary.PrimaryMethodInvocation(iterator))[163L,34C-71C(5559-5596)]
   Expression.UnaryOperator.Not[200L,12C-18C(6517-6523)] -> Expression.UnaryOperator.Not[175L,12C-20C(5917-5925)]
-  Expression.BinaryOperator.Neq[200L,23C-40C(6528-6545)] -> Expression.BinaryOperator.Neq[175L,25C-44C(5930-5949)]
   Expression.BinaryOperator.And[200L,12C-40C(6517-6545)] -> Expression.BinaryOperator.And[175L,12C-44C(5917-5949)]
-  Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[186L,25C-45C(6091-6111)] -> Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[161L,25C-47C(5488-5510)]
-  Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[159L,25C-44C(5248-5267)] -> Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[134L,25C-49C(4624-4648)]
 
-[significance=1] expression changed (7)
+[significance=1] expression changed (8)
   Primary.FieldAccess(sourcePath)[148L,12C-21C(4849-4858)] -> Primary.SimpleMethodInvocation(getSourcePath#0)(Primary.SimpleMethodInvocation(getSourcePath))[123L,12C-26C(4192-4206)]
   Primary.FieldAccess(classPath)[156L,12C-20C(5152-5160)] -> Primary.SimpleMethodInvocation(getClassPath#0)(Primary.SimpleMethodInvocation(getClassPath))[131L,12C-25C(4523-4536)]
-  Primary.FieldAccess(sourcePath)[177L,12C-21C(5863-5872)] -> Primary.SimpleMethodInvocation(getSourcePath#0)(Primary.SimpleMethodInvocation(getSourcePath))[152L,12C-26C(5248-5262)]
   Primary.FieldAccess(sourcePath)[150L,12C-21C(4892-4901)] -> Primary.SimpleMethodInvocation(getSourcePath#0)(Primary.SimpleMethodInvocation(getSourcePath))[125L,12C-26C(4240-4254)]
+  Primary.FieldAccess(sourcePath)[151L,24C-33C(4971-4980)] -> Primary.SimpleMethodInvocation(getSourcePath#0)(Primary.SimpleMethodInvocation(getSourcePath))[126L,26C-40C(4331-4345)]
+  Primary.FieldAccess(classPath)[159L,25C-33C(5248-5256)] -> Primary.SimpleMethodInvocation(getClassPath#0)(Primary.SimpleMethodInvocation(getClassPath))[134L,25C-38C(4624-4637)]
+  Primary.FieldAccess(sourcePath)[177L,12C-21C(5863-5872)] -> Primary.SimpleMethodInvocation(getSourcePath#0)(Primary.SimpleMethodInvocation(getSourcePath))[152L,12C-26C(5248-5262)]
   Primary.FieldAccess(sourcePath)[180L,25C-34C(5961-5970)] -> Primary.SimpleMethodInvocation(getSourcePath#0)(Primary.SimpleMethodInvocation(getSourcePath))[155L,25C-39C(5351-5365)]
   Primary.FieldAccess(includedFiles)[188L,34C-46C(6160-6172)] -> Primary.SimpleMethodInvocation(getIncludedFiles#0)(Primary.SimpleMethodInvocation(getIncludedFiles))[163L,34C-51C(5559-5576)]
-  Primary.FieldAccess(classPath)[159L,25C-33C(5248-5256)] -> Primary.SimpleMethodInvocation(getClassPath#0)(Primary.SimpleMethodInvocation(getClassPath))[134L,25C-38C(4624-4637)]
 
-[significance=1] expression removed (26)
+[significance=1] expression removed (25)
   Primary.Literal.False[79L,28C-32C(3274-3278)]* from VariableDeclarator(m_fix,0,false)[72L,20C-24C(3053-3057)]
   Primary.Literal.False[83L,31C-35C(3350-3354)]* from VariableDeclarator(m_unused,0,false)[74L,20C-27C(3108-3115)]
   Primary.Name(violation)(Primary.Name(violation))[104L,8C-16C(3842-3850)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
   Primary.This[125L,8C-11C(4236-4239)]* from Primary.FieldAccess(m_outFile)[99L,8C-16C(3540-3548)]
   Primary.Name(violation)(Primary.Name(violation))[103L,8C-16C(3811-3819)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
-  Primary.FieldAccess(sourcePath)[151L,24C-33C(4971-4980)]* from Block(block)[124L,8C-128L,8C(4226-4426)]
   Primary.Name(exe)(Primary.Name(exe))[228L,12C-14C(7339-7341)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
   Primary.Name(exe)(Primary.Name(exe))[240L,16C-18C(7796-7798)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
   Primary.FieldAccess(line)[103L,8C-21C(3811-3824)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
   Primary.Literal.False[81L,29C-33C(3311-3315)]* from VariableDeclarator(m_list,0,false)[73L,20C-25C(3080-3085)]
-  Primary.FieldAccess(classPath)[151L,12C-20C(4959-4967)]* from Block(block)[124L,8C-128L,8C(4226-4426)]
+  Primary.FieldAccess(classPath)[151L,12C-20C(4959-4967)]* from Statement.Expression.Primary.SimpleMethodInvocation(setClassPath#1)()(Statement.Expression.Primary.SimpleMethodInvocation(setClassPath)())[126L,12C-43C(4317-4348)]
   Primary.This[115L,8C-11C(4029-4032)]* from Primary.FieldAccess(m_list)[91L,8C-13C(3380-3385)]
   Primary.This[130L,8C-11C(4323-4326)]* from Primary.FieldAccess(m_unused)[104L,8C-15C(3632-3639)]
   Primary.Literal.Null[226L,23C-26C(7310-7313)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
@@ -285,7 +281,7 @@
   Primary.Name(violation)(Primary.Name(violation))[105L,15C-23C(3880-3888)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
   Primary.Literal.Null[75L,29C-32C(3200-3203)]* from VariableDeclarator(m_outFile,0,false)[70L,17C-25C(2991-2999)]
   Primary.Name(line)(Primary.Name(line))[103L,25C-28C(3828-3831)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
-  Primary.FieldAccess(sourcePath)[152L,12C-21C(4995-5004)]* from Block(block)[124L,8C-128L,8C(4226-4426)]
+  Primary.FieldAccess(sourcePath)[152L,12C-21C(4995-5004)]* from Statement.Expression.Primary.SimpleMethodInvocation(setSourcePath#1)()(Statement.Expression.Primary.SimpleMethodInvocation(setSourcePath)())[127L,12C-33C(4362-4383)]
   Primary.Name(exe)(Primary.Name(exe))[239L,16C-18C(7758-7760)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
   Primary.Name(exe)(Primary.Name(exe))[229L,12C-14C(7411-7413)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
   Primary.FieldAccess(error)[104L,8C-22C(3842-3856)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
@@ -293,27 +289,20 @@
 
 [significance=1] argument modified (5)
   Primary.FieldAccess(classPath)[150L,31C-39C(4911-4919)] -> Primary.SimpleMethodInvocation(getClassPath#0)(Primary.SimpleMethodInvocation(getClassPath))[125L,36C-49C(4264-4277)]
-  Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[180L,25C-45C(5961-5981)] -> Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[155L,25C-50C(5351-5376)]
-  Primary.PrimaryMethodInvocation(iterator#0)(Primary.PrimaryMethodInvocation(iterator))[188L,34C-66C(6160-6192)] -> Primary.PrimaryMethodInvocation(iterator#0)(Primary.PrimaryMethodInvocation(iterator))[163L,34C-71C(5559-5596)]
   Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[186L,25C-45C(6091-6111)] -> Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[161L,25C-47C(5488-5510)]
   Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[159L,25C-44C(5248-5267)] -> Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[134L,25C-49C(4624-4648)]
+  Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[180L,25C-45C(5961-5981)] -> Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[155L,25C-50C(5351-5376)]
+  Primary.PrimaryMethodInvocation(iterator#0)(Primary.PrimaryMethodInvocation(iterator))[188L,34C-66C(6160-6192)] -> Primary.PrimaryMethodInvocation(iterator#0)(Primary.PrimaryMethodInvocation(iterator))[163L,34C-71C(5559-5596)]
 
 [significance=1] argument changed (1)
   Primary.FieldAccess(classPath)[150L,31C-39C(4911-4919)] -> Primary.SimpleMethodInvocation(getClassPath#0)(Primary.SimpleMethodInvocation(getClassPath))[125L,36C-49C(4264-4277)]
 
 [significance=1] variable declaration renamed (5)
-  VariableDeclarator(outFile,0,false)[75L,19C-32C(3190-3203)] -> VariableDeclarator(m_outFile,0,false)[70L,17C-25C(2991-2999)]
   VariableDeclarator(unused,0,false)[83L,22C-35C(3341-3354)] -> VariableDeclarator(m_unused,0,false)[74L,20C-27C(3108-3115)]
   VariableDeclarator(fix,0,false)[79L,22C-32C(3268-3278)] -> VariableDeclarator(m_fix,0,false)[72L,20C-24C(3053-3057)]
   VariableDeclarator(searchPath,0,false)[77L,19C-35C(3226-3242)] -> VariableDeclarator(m_searchPath,0,false)[71L,17C-28C(3019-3030)]
   VariableDeclarator(list,0,false)[81L,22C-33C(3304-3315)] -> VariableDeclarator(m_list,0,false)[73L,20C-25C(3080-3085)]
-
-[significance=1] method invocation inserted (1)
-  Statement.Expression.Primary.SimpleMethodInvocation(setSourcePath#1)()(Statement.Expression.Primary.SimpleMethodInvocation(setSourcePath)())[127L,12C-33C(4362-4383)] into Block(block)[149L,8C-153L,8C(4878-5055)]
-
-[significance=1] method invocation added (2)
-  Primary.SimpleMethodInvocation(getSourcePath#0)(Primary.SimpleMethodInvocation(getSourcePath))[126L,26C-40C(4331-4345)]* into Block(block)[149L,8C-153L,8C(4878-5055)]
-  Statement.Expression.Primary.SimpleMethodInvocation(setClassPath#1)()(Statement.Expression.Primary.SimpleMethodInvocation(setClassPath)())[126L,12C-43C(4317-4348)]* into Block(block)[149L,8C-153L,8C(4878-5055)]
+  VariableDeclarator(outFile,0,false)[75L,19C-32C(3190-3203)] -> VariableDeclarator(m_outFile,0,false)[70L,17C-25C(2991-2999)]
 
 [significance=1] method invocation removed (6)
   Statement.Expression.Primary.PrimaryMethodInvocation(setOutput#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(setOutput)())[228L,12C-70C(7339-7397)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
@@ -327,6 +316,10 @@
   Statement.Expression.Primary.SuperMethodInvocation(checkOptions#0)()(Statement.Expression.Primary.SuperMethodInvocation(checkOptions)())[195L,8C-28C(6305-6325)] -> Statement.Expression.Primary.SuperMethodInvocation(validate#0)()(Statement.Expression.Primary.SuperMethodInvocation(validate)())[170L,8C-24C(5705-5721)]
 
 [significance=1] method invocation modified (11)
+  Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[186L,25C-45C(6091-6111)] -> Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[161L,25C-47C(5488-5510)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(add#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(add)())[186L,12C-48C(6078-6114)] -> Statement.Expression.Primary.PrimaryMethodInvocation(add#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(add)())[161L,12C-50C(5475-5513)]
+  Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[159L,25C-44C(5248-5267)] -> Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[134L,25C-49C(4624-4648)]
+  Statement.Expression.Primary.PrimaryMethodInvocation(add#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(add)())[159L,12C-47C(5235-5270)] -> Statement.Expression.Primary.PrimaryMethodInvocation(add#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(add)())[134L,12C-52C(4611-4651)]
   Statement.Expression.Primary.PrimaryMethodInvocation(append#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(append)())[150L,12C-42C(4892-4922)] -> Statement.Expression.Primary.PrimaryMethodInvocation(append#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(append)())[125L,12C-52C(4240-4280)]
   Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[180L,25C-45C(5961-5981)] -> Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[155L,25C-50C(5351-5376)]
   Statement.Expression.Primary.PrimaryMethodInvocation(add#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(add)())[180L,12C-48C(5948-5984)] -> Statement.Expression.Primary.PrimaryMethodInvocation(add#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(add)())[155L,12C-53C(5338-5379)]
@@ -334,10 +327,6 @@
   Primary.PrimaryMethodInvocation(iterator#0)(Primary.PrimaryMethodInvocation(iterator))[188L,34C-66C(6160-6192)] -> Primary.PrimaryMethodInvocation(iterator#0)(Primary.PrimaryMethodInvocation(iterator))[163L,34C-71C(5559-5596)]
   Statement.Expression.Primary.SimpleMethodInvocation(addAllArrayList#2)()(Statement.Expression.Primary.SimpleMethodInvocation(addAllArrayList)())[188L,8C-69C(6134-6195)] -> Statement.Expression.Primary.SimpleMethodInvocation(addAllArrayList#2)()(Statement.Expression.Primary.SimpleMethodInvocation(addAllArrayList)())[163L,8C-74C(5533-5599)]
   Statement.Expression.Primary.SuperMethodInvocation(checkOptions#0)()(Statement.Expression.Primary.SuperMethodInvocation(checkOptions)())[195L,8C-28C(6305-6325)] -> Statement.Expression.Primary.SuperMethodInvocation(validate#0)()(Statement.Expression.Primary.SuperMethodInvocation(validate)())[170L,8C-24C(5705-5721)]
-  Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[186L,25C-45C(6091-6111)] -> Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[161L,25C-47C(5488-5510)]
-  Statement.Expression.Primary.PrimaryMethodInvocation(add#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(add)())[186L,12C-48C(6078-6114)] -> Statement.Expression.Primary.PrimaryMethodInvocation(add#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(add)())[161L,12C-50C(5475-5513)]
-  Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[159L,25C-44C(5248-5267)] -> Primary.PrimaryMethodInvocation(toString#0)(Primary.PrimaryMethodInvocation(toString))[134L,25C-49C(4624-4648)]
-  Statement.Expression.Primary.PrimaryMethodInvocation(add#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(add)())[159L,12C-47C(5235-5270)] -> Statement.Expression.Primary.PrimaryMethodInvocation(add#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(add)())[134L,12C-52C(4611-4651)]
 
 [significance=1] final modifier removed (3)
   Modifier.Final[100L,4C-8C(3687-3691)]* from ClassBody(MAudit)[32L,0C-196L,0C(1095-6531)]
@@ -346,31 +335,31 @@
 
 [significance=1] method modified (7)
   Method(setTofile(Ljava.io.File;)V)(Method(setTofile))[123L,4C-126L,4C(4184-4264)] -> Method(setTofile(Ljava.io.File;)V)(Method(setTofile))[97L,4C-100L,4C(3482-3565)]
+  Method(setFix(Z)V)[108L,4C-111L,4C(3902-3972)] -> Method(setFix(Z)V)[84L,4C-87L,4C(3246-3317)]
+  Method(createSearchpath()Lorg.apache.tools.ant.types.Path;)(Method(createSearchpath))[133L,4C-140L,4C(4354-4512)] -> Method(createSearchpath()Lorg.apache.tools.ant.types.Path;)(Method(createSearchpath))[107L,4C-114L,4C(3662-3826)]
+  Method(checkOptions()V)[192L,4C-204L,4C(6232-6670)] -> Method(validate()V)[167L,4C-179L,4C(5636-6074)]
   Method(setList(Z)V)[113L,4C-116L,4C(3979-4051)] -> Method(setList(Z)V)[89L,4C-92L,4C(3324-3399)]
   Method(setUnused(Z)V)[128L,4C-131L,4C(4271-4347)] -> Method(setUnused(Z)V)[102L,4C-105L,4C(3572-3655)]
-  Method(checkOptions()V)[192L,4C-204L,4C(6232-6670)] -> Method(validate()V)[167L,4C-179L,4C(5636-6074)]
-  Method(setFix(Z)V)[108L,4C-111L,4C(3902-3972)] -> Method(setFix(Z)V)[84L,4C-87L,4C(3246-3317)]
   Method(getOptions()Ljava.util.ArrayList;)(Method(getOptions))[142L,4C-190L,4C(4519-6225)] -> Method(getOptions()Ljava.util.ArrayList;)(Method(getOptions))[116L,4C-165L,4C(3833-5629)]
-  Method(createSearchpath()Lorg.apache.tools.ant.types.Path;)(Method(createSearchpath))[133L,4C-140L,4C(4354-4512)] -> Method(createSearchpath()Lorg.apache.tools.ant.types.Path;)(Method(createSearchpath))[107L,4C-114L,4C(3662-3826)]
 
 [significance=1] field access renamed (15)
   Primary.FieldAccess(list)[115L,8C-16C(4029-4037)] -> Primary.FieldAccess(m_list)[91L,8C-13C(3380-3385)]
-  Primary.FieldAccess(outFile)[125L,8C-19C(4236-4247)] -> Primary.FieldAccess(m_outFile)[99L,8C-16C(3540-3548)]
   Primary.FieldAccess(searchPath)[196L,22C-31C(6349-6358)] -> Primary.FieldAccess(m_searchPath)[171L,24C-35C(5747-5758)]
   Primary.FieldAccess(fix)[164L,12C-14C(5474-5476)] -> Primary.FieldAccess(m_fix)[139L,12C-16C(4855-4859)]
   Primary.FieldAccess(searchPath)[135L,12C-21C(4403-4412)] -> Primary.FieldAccess(m_searchPath)[109L,12C-23C(3711-3722)]
   Primary.FieldAccess(list)[173L,12C-15C(5788-5791)] -> Primary.FieldAccess(m_list)[148L,12C-17C(5171-5176)]
-  Primary.FieldAccess(searchPath)[139L,15C-24C(4496-4505)] -> Primary.FieldAccess(m_searchPath)[113L,15C-26C(3808-3819)]
   Primary.FieldAccess(unused)[196L,12C-17C(6339-6344)] -> Primary.FieldAccess(m_unused)[171L,12C-19C(5735-5742)]
   Primary.FieldAccess(unused)[130L,8C-18C(4323-4333)] -> Primary.FieldAccess(m_unused)[104L,8C-15C(3632-3639)]
-  Primary.FieldAccess(fix)[110L,8C-15C(3951-3958)] -> Primary.FieldAccess(m_fix)[86L,8C-12C(3300-3304)]
-  Primary.FieldAccess(unused)[200L,13C-18C(6518-6523)] -> Primary.FieldAccess(m_unused)[175L,13C-20C(5918-5925)]
   Primary.FieldAccess(searchPath)[200L,23C-32C(6528-6537)] -> Primary.FieldAccess(m_searchPath)[175L,25C-36C(5930-5941)]
   Primary.FieldAccess(searchPath)[186L,25C-34C(6091-6100)] -> Primary.FieldAccess(m_searchPath)[161L,25C-36C(5488-5499)]
-  Primary.FieldAccess(unused)[183L,12C-17C(6009-6014)] -> Primary.FieldAccess(m_unused)[158L,12C-19C(5404-5411)]
   Primary.FieldAccess(searchPath)[137L,12C-21C(4446-4455)] -> Primary.FieldAccess(m_searchPath)[111L,12C-23C(3756-3767)]
+  Primary.FieldAccess(outFile)[125L,8C-19C(4236-4247)] -> Primary.FieldAccess(m_outFile)[99L,8C-16C(3540-3548)]
+  Primary.FieldAccess(searchPath)[139L,15C-24C(4496-4505)] -> Primary.FieldAccess(m_searchPath)[113L,15C-26C(3808-3819)]
+  Primary.FieldAccess(fix)[110L,8C-15C(3951-3958)] -> Primary.FieldAccess(m_fix)[86L,8C-12C(3300-3304)]
+  Primary.FieldAccess(unused)[200L,13C-18C(6518-6523)] -> Primary.FieldAccess(m_unused)[175L,13C-20C(5918-5925)]
+  Primary.FieldAccess(unused)[183L,12C-17C(6009-6014)] -> Primary.FieldAccess(m_unused)[158L,12C-19C(5404-5411)]
 
 [significance=1] primary name renamed (3)
+  Primary.Name(flag)(Primary.Name(flag))[110L,19C-22C(3962-3965)] -> Primary.Name(fix)(Primary.Name(fix))[86L,16C-18C(3308-3310)]
   Primary.Name(flag)(Primary.Name(flag))[115L,20C-23C(4041-4044)] -> Primary.Name(list)(Primary.Name(list))[91L,17C-20C(3389-3392)]
   Primary.Name(flag)(Primary.Name(flag))[130L,22C-25C(4337-4340)] -> Primary.Name(unused)(Primary.Name(unused))[104L,19C-24C(3643-3648)]
-  Primary.Name(flag)(Primary.Name(flag))[110L,19C-22C(3962-3965)] -> Primary.Name(fix)(Primary.Name(fix))[86L,16C-18C(3308-3310)]

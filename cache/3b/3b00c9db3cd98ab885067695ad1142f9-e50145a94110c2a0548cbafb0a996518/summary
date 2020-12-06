@@ -1,5 +1,5 @@
 *** Modified Units ***
-FunctionDefinition<SimpleTypeSpecifier:8fdevents>(14L,0C-72L,0C(185-1968)): [MODIFIED] 102(73) changed [d:18(18)i:57(33)r:13(13)m:14(9)], 173 mapped
+FunctionDefinition<SimpleTypeSpecifier:8fdevents>(14L,0C-72L,0C(185-1968)): [MODIFIED] 102(69) changed [d:18(17)i:57(31)r:12(12)m:15(9)], 173 mapped
 FunctionDefinition(107L,0C-119L,0C(2510-2757)): [MODIFIED] 6(1) changed [d:0(0)i:6(1)r:0(0)m:0(0)], 0 mapped
 *** Unmodified Units ***
 FunctionDefinition(196L,0C-200L,0C(4291-4423))

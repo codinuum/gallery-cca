@@ -9,15 +9,14 @@ RELABEL (#72U:#71G)Primary.FieldAccess(err)[1](48L,36C-38C(1235-1237))1 -> (#307
 RELABEL (#103U:#102G)Primary.FieldAccess(errorThread)[0](63L,8C-18C(1500-1510))1 -> (#338U:#108G)Primary.FieldAccess(m_errorThread)[0](65L,8C-20C(1603-1615))1
 RELABEL (#33U:#33G)Parameter(err,0,)[1](30L,48C-63C(867-882))1 [(#32U:#32G)] -> (#270U:#41G)Parameter(error,0,)[1](32L,30C-53C(947-970))1 [(#268U:#39G);(#269U:#40G)]
 RELABEL (#15U:#15G)VariableDeclarator(errorThread,0,false)[2](24L,19C-29C(736-746))1 -> (#244U:#15G)VariableDeclarator(m_errorThread,0,false)[2](25L,19C-31C(740-752))1
-RELABEL (#27U:#27G)FieldDeclaration(out[0;err[0)[2](28L,4C-33C(787-816))1 [(#23U:#23G);(#24U:#24G);(#25U:#25G);(#26U:#26G)] -> (#260U:#31G)FieldDeclaration(m_error[0)[3](29L,4C-32C(829-857))1 [(#257U:#28G);(#258U:#29G);(#259U:#30G)]
 RELABEL (#144U:#139G)Primary.FieldAccess(out)[0](92L,12C-14C(1976-1978))1 -> (#379U:#145G)Primary.FieldAccess(m_output)[0](94L,12C-19C(2089-2096))1
 RELABEL (#126U:#121G)Primary.FieldAccess(errorThread)[0](78L,12C-22C(1744-1754))1 -> (#361U:#127G)Primary.FieldAccess(m_errorThread)[0](80L,12C-24C(1851-1863))1
 RELABEL (#117U:#112G)Primary.FieldAccess(inputThread)[0](71L,12C-22C(1620-1630))1 -> (#352U:#118G)Primary.FieldAccess(m_inputThread)[0](73L,12C-24C(1725-1737))1
 RELABEL (#135U:#130G)Primary.FieldAccess(err)[0](85L,12C-14C(1868-1870))1 -> (#370U:#136G)Primary.FieldAccess(m_error)[0](87L,12C-18C(1977-1983))1
-RELABEL (#23U:#23G)Modifiers(out;err#f)[0](28L,4C-10C(787-793))1 [(#22U:#22G)] -> (#257U:#28G)Modifiers(m_error#f)[0](29L,4C-10C(829-835))1 [(#256U:#27G)]
 RELABEL (#208U:#209G)Primary.Name(is)[0](129L,60C-61C(2850-2851))1 -> (#447U:#219G)Primary.Name(input)[0](132L,60C-64C(3033-3037))1
-RELABEL (#209U:#210G)Primary.Name(os)[1](129L,64C-65C(2854-2855))1 -> (#448U:#220G)Primary.Name(output)[1](132L,67C-72C(3040-3045))1
+RELABEL (#23U:#23G)Modifiers(out;err#f)[0](28L,4C-10C(787-793))1 [(#22U:#22G)] -> (#252U:#23G)Modifiers(m_output#f)[0](28L,4C-10C(794-800))1 [(#251U:#22G)]
 RELABEL (#26U:#26G)VariableDeclarator(err,0,false)[3](28L,30C-32C(813-815))1 -> (#259U:#30G)VariableDeclarator(m_error,0,false)[2](29L,25C-31C(850-856))1
+RELABEL (#209U:#210G)Primary.Name(os)[1](129L,64C-65C(2854-2855))1 -> (#448U:#220G)Primary.Name(output)[1](132L,67C-72C(3040-3045))1
 RELABEL (#21U:#21G)FieldDeclaration(inputThread[0)[1](26L,4C-30C(754-780))1 [(#18U:#18G);(#19U:#19G);(#20U:#20G)] -> (#250U:#21G)FieldDeclaration(m_inputThread[0)[1](26L,4C-32C(759-787))1 [(#247U:#18G);(#248U:#19G);(#249U:#20G)]
 RELABEL (#161U:#160G)Primary.FieldAccess(out)[0](106L,15C-17C(2183-2185))1 -> (#396U:#166G)Primary.FieldAccess(m_output)[0](108L,15C-22C(2305-2312))1
 RELABEL (#100U:#99G)Primary.FieldAccess(inputThread)[0](62L,8C-18C(1471-1481))1 -> (#335U:#105G)Primary.FieldAccess(m_inputThread)[0](64L,8C-20C(1572-1584))1
@@ -29,11 +28,12 @@ RELABEL (#20U:#20G)VariableDeclarator(inputThread,0,false)[2](26L,19C-29C(769-77
 RELABEL (#154U:#153G)Primary.FieldAccess(err)[0](101L,15C-17C(2114-2116))1 -> (#389U:#159G)Primary.FieldAccess(m_error)[0](103L,15C-21C(2232-2238))1
 RELABEL (#40U:#40G)Primary.FieldAccess(err)[0](33L,8C-15C(924-931))1 [(#39U:#39G)] -> (#275U:#46G)Primary.FieldAccess(m_error)[0](35L,8C-14C(1015-1021))1
 RELABEL (#31U:#31G)Parameter(out,0,)[0](30L,30C-45C(849-864))1 [(#30U:#30G)] -> (#266U:#37G)Parameter(output,0,)[0](31L,30C-54C(890-914))1 [(#264U:#35G);(#265U:#36G)]
-DELETE(1) (#25U:#25G)VariableDeclarator(out,0,false)[2](28L,25C-27C(808-810))1 <25>
+DELETE(2) (#27U:#27G)FieldDeclaration(out[0;err[0)[2](28L,4C-33C(787-816))2 [(#23U:#23G);(#24U:#24G);(#26U:#26G)] <25;27>
 DELETE(1) (#35U:#35G)Primary.This[0](32L,8C-11C(900-903))1 <35>
 DELETE(1) (#39U:#39G)Primary.This[0](33L,8C-11C(924-927))1 <39>
-INSERT(5) (#255U:#26G)FieldDeclaration(m_output[0)[2](28L,4C-33C(794-823))5 <22-26>
+INSERT(3) (#255U:#26G)FieldDeclaration(m_output[0)[2](28L,4C-33C(794-823))3 [(#252U:#23G)] <24-26>
 INSERT(2) (#439U:#210G)Modifiers(output#p)[0](130L,33C-37C(2939-2943))2 <209-210>
+INSERT(3) (#260U:#31G)FieldDeclaration(m_error[0)[3](29L,4C-32C(829-857))3 [(#258U:#29G);(#259U:#30G)] <27-28;31>
 INSERT(2) (#268U:#39G)Modifiers(error#p)[0](32L,30C-34C(947-951))2 <38-39>
 INSERT(2) (#264U:#35G)Modifiers(output#p)[0](31L,30C-34C(890-894))2 <34-35>
 INSERT(2) (#435U:#206G)Modifiers(input#p)[0](129L,33C-37C(2881-2885))2 <205-206>

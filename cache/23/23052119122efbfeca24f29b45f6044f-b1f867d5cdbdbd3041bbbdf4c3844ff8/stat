@@ -3,8 +3,8 @@ nnodes2 : 14905
 
 deletes(hunks) : 1(1)
 inserts(hunks) : 0(0)
-relabels : 0(0)
-mov+rels : 0
+relabels : 0(orig:0)(0)
+mov+rels : 0(orig:0)
 moves(hunks) : 0(0)
 
 total changes : 1

@@ -6,7 +6,8 @@
   Primary.Name(line)(Primary.Name(line))[87L,39C-42C(2496-2499)]* from ClassBody(P4Label)[25L,0C-133L,0C(819-3873)]
   Primary.Name(line)(Primary.Name(line))[143L,43C-46C(4236-4239)]* from ClassBody(P4Label)[25L,0C-133L,0C(819-3873)]
 
-[significance=4] accessibility decreased (4)
+[significance=4] accessibility decreased (5)
+  Method(execute()V)[45L,4C-151L,4C(1138-4406)] -> Method(execute()V)[62L,4C-104L,4C(1566-2950)]
   Method(process(Ljava.lang.String;)V)(Method(process))[121L,20C-131L,20C(3486-3844)] -> Method(stdout(Ljava.lang.String;)V)(Method(stdout))[47L,4C-60L,4C(1252-1559)]
   FieldDeclaration(lock[0)[26L,4C-25C(848-869)] -> FieldDeclaration(m_lock[0)[27L,4C-25C(859-880)]
   FieldDeclaration(desc[0)[25L,4C-25C(821-842)] -> FieldDeclaration(m_description[0)[26L,4C-32C(825-853)]
@@ -70,8 +71,8 @@
   Primary.InstanceCreation(P4HandlerAdapter.<init>#0)(Primary.InstanceCreation(P4HandlerAdapter))[83L,12C-89L,12C(2351-2534)]* from ClassBody(P4Label)[25L,0C-133L,0C(819-3873)]
 
 [significance=2] variable declaration added (2)
-  VariableDeclarator(m_getLabelSpec,0,false)[29L,20C-33C(929-942)]* into ClassBody(P4Label)[24L,0C-153L,0C(815-4409)]
   VariableDeclarator(m_labelSpec,0,false)[30L,25C-35C(970-980)]* into ClassBody(P4Label)[24L,0C-153L,0C(815-4409)]
+  VariableDeclarator(m_getLabelSpec,0,false)[29L,20C-33C(929-942)]* into ClassBody(P4Label)[24L,0C-153L,0C(815-4409)]
 
 [significance=2] variable declaration removed (2)
   VariableDeclarator(handler,0,true)[82L,18C-89L,12C(2329-2534)]* from ClassBody(P4Label)[25L,0C-133L,0C(819-3873)]
@@ -85,16 +86,17 @@
   Block(block)[52L,8C-59L,8C(1370-1553)] into ClassBody(P4Label)[24L,0C-153L,0C(815-4409)]
 
 [significance=2] modifier added (3)
-  Modifier.Private[29L,4C-10C(913-919)]* into ClassBody(P4Label)[24L,0C-153L,0C(815-4409)]
   Modifier.Private[30L,4C-10C(949-955)]* into ClassBody(P4Label)[24L,0C-153L,0C(815-4409)]
   Modifier.Private[106L,4C-10C(2957-2963)]* into ClassBody(P4Label)[24L,0C-153L,0C(815-4409)]
+  Modifier.Private[29L,4C-10C(913-919)]* into ClassBody(P4Label)[24L,0C-153L,0C(815-4409)]
 
 [significance=2] modifier removed (3)
   Modifier.Public[141L,20C-25C(4136-4141)]* from ClassBody(P4Label)[25L,0C-133L,0C(819-3873)]
   Modifier.Public[85L,16C-21C(2404-2409)]* from ClassBody(P4Label)[25L,0C-133L,0C(819-3873)]
   Modifier.Public[98L,27C-32C(2770-2775)]* from ClassBody(P4Label)[25L,0C-133L,0C(819-3873)]
 
-[significance=2] accessibility increased (1)
+[significance=2] accessibility increased (2)
+  Method(execute()V)[45L,4C-151L,4C(1138-4406)] -> Method(execute()V)[62L,4C-104L,4C(1566-2950)]
   Method(process(Ljava.lang.String;)V)(Method(process))[121L,20C-131L,20C(3486-3844)] -> Method(stdout(Ljava.lang.String;)V)(Method(stdout))[47L,4C-60L,4C(1252-1559)]
 
 [significance=2] parameter renamed (1)
@@ -123,8 +125,9 @@
   NamedArguments(getLogger): [137L,21C-22C(4001-4002)] -> [100L,21C-22C(2807-2808)]
   NamedArguments(getLogger): [104L,17C-18C(2967-2968)] -> [80L,17C-18C(2096-2097)]
   VariableDeclarator(labelSpec,0,true): [112L,31C-60C(3231-3260)] -> [94L,25C-58C(2595-2628)]
-  NamedArguments(debug): [123L,41C-48C(3584-3591)] -> [49L,25C-32C(1317-1324)]
   NamedArguments(toString): [135L,49C-50C(3973-3974)] -> [94L,57C-58C(2627-2628)]
+  NamedArguments(debug): [123L,41C-48C(3584-3591)] -> [49L,25C-32C(1317-1324)]
+  Modifiers(execute#m): [45L,4C-9C(1138-1143)] -> [62L,4C-9C(1566-1571)]
   NamedArguments(java.lang.StringBuffer): [112L,59C-60C(3259-3260)] -> [92L,42C-43C(2509-2510)]
   NamedArguments(match): [125L,38C-60C(3633-3655)] -> [53L,26C-48C(1398-1420)]
   MethodBody(execute()V): [47L,4C-151L,4C(1193-4406)] -> [64L,4C-104L,4C(1621-2950)]
@@ -135,19 +138,18 @@
   NamedArguments(debug): [135L,29C-52C(3953-3976)] -> [95L,29C-41C(2660-2672)]
   NamedArguments(equalsIgnoreCase): [107L,49C-60C(3104-3115)] -> [83L,53C-64C(2248-2259)]
   NamedArguments(info): [104L,24C-70C(2974-3020)] -> [80L,24C-81C(2103-2160)]
-  NamedArguments(append): [130L,40C-54C(3807-3821)] -> [58L,30C-44C(1528-1542)]
   VariableDeclarator(newLabel,0,true): [76L,15C-80L,35C(2143-2307)] -> [70L,15C-74L,37C(1756-1933)]
+  NamedArguments(append): [130L,40C-54C(3807-3821)] -> [58L,30C-44C(1528-1542)]
   NamedArguments(getLogger): [135L,21C-22C(3945-3946)] -> [95L,21C-22C(2652-2653)]
   Method(process(Ljava.lang.String;)V): [121L,20C-131L,20C(3486-3844)] -> [47L,4C-60L,4C(1252-1559)]
   NamedArguments(execP4Command): [134L,25C-55C(3891-3921)] -> [93L,25C-54C(2538-2567)]
-  Type.ClassOrInterface(java.lang.String): [121L,41C-46C(3507-3512)] -> [47L,24C-29C(1272-1277)]
   Modifiers(labelSpec#l): [112L,12C-16C(3212-3216)] -> [94L,12C-16C(2582-2586)]
+  Type.ClassOrInterface(java.lang.String): [121L,41C-46C(3507-3512)] -> [47L,24C-29C(1272-1277)]
   Parameters(process): [121L,39C-53C(3505-3519)] -> [47L,22C-36C(1270-1284)]
   LocalVariableDeclaration(true,newLabel[0): [76L,8C-80L,36C(2136-2308)] -> [70L,8C-74L,38C(1749-1934)]
-  Type.ClassOrInterface(java.lang.String): [76L,8C-13C(2136-2141)] -> [70L,8C-13C(1749-1754)]
   MethodBody(process(Ljava.lang.String;)V): [122L,20C-131L,20C(3541-3844)] -> [48L,4C-60L,4C(1290-1559)]
+  Type.ClassOrInterface(java.lang.String): [76L,8C-13C(2136-2141)] -> [70L,8C-13C(1749-1754)]
   NamedArguments(debug): [137L,29C-54C(4009-4034)] -> [100L,29C-54C(2815-2840)]
-  Type.Void: [121L,27C-30C(3493-3496)] -> [47L,11C-14C(1259-1262)]
   NamedArguments(getLogger): [110L,21C-22C(3151-3152)] -> [86L,21C-22C(2295-2296)]
   Method(execute()V): [45L,4C-151L,4C(1138-4406)] -> [62L,4C-104L,4C(1566-2950)]
   Type.ClassOrInterface(java.lang.StringBuffer): [112L,47C-58C(3247-3258)] -> [92L,30C-41C(2497-2508)]
@@ -166,19 +168,20 @@
   ClassBody(P4HandlerAdapter)[120L,16C-132L,16C(3464-3862)] from ClassBody(P4Label)[25L,0C-133L,0C(819-3873)]
   Primary.InstanceCreation(P4HandlerAdapter.<init>#0)(Primary.InstanceCreation(P4HandlerAdapter))[119L,16C-132L,16C(3425-3862)] from ClassBody(P4Label)[25L,0C-133L,0C(819-3873)]
 
-[significance=1] (added) (10)
+[significance=1] (added) (11)
+  Type.Void(Type.Void)[106L,12C-15C(2965-2968)]* into ClassBody(P4Label)[24L,0C-153L,0C(815-4409)]
+  Modifiers(description#p)[32L,25C-29C(1009-1013)]* into Parameter(desc,0,)[30L,25C-35C(925-935)]
+  Type.ClassOrInterface(java.lang.String)(Type.ClassOrInterface(String))[94L,18C-23C(2588-2593)]* into ClassBody(P4Label)[24L,0C-153L,0C(815-4409)]
   Modifiers(m_labelSpec#f)[30L,4C-10C(949-955)]* into ClassBody(P4Label)[24L,0C-153L,0C(815-4409)]
   Type.Boolean(Type.Boolean)[29L,12C-18C(921-927)]* into ClassBody(P4Label)[24L,0C-153L,0C(815-4409)]
-  Type.Void(Type.Void)[106L,12C-15C(2965-2968)]* into ClassBody(P4Label)[24L,0C-153L,0C(815-4409)]
   Modifiers(lock#p)[37L,25C-29C(1111-1115)]* into Parameter(lock,0,)[35L,25C-35C(1003-1013)]
-  Modifiers(description#p)[32L,25C-29C(1009-1013)]* into Parameter(desc,0,)[30L,25C-35C(925-935)]
   Modifiers(validate#m)[106L,4C-10C(2957-2963)]* into ClassBody(P4Label)[24L,0C-153L,0C(815-4409)]
-  NamedArguments(validate)[67L,16C-17C(1685-1686)]* into ClassBody(P4Label)[24L,0C-153L,0C(815-4409)]
   Modifiers(m_getLabelSpec#f)[29L,4C-10C(913-919)]* into ClassBody(P4Label)[24L,0C-153L,0C(815-4409)]
+  NamedArguments(validate)[67L,16C-17C(1685-1686)]* into ClassBody(P4Label)[24L,0C-153L,0C(815-4409)]
+  Type.Void(Type.Void)[62L,11C-14C(1573-1576)]* into ClassBody(P4Label)[24L,0C-153L,0C(815-4409)]
   Modifiers(name#p)[42L,25C-29C(1192-1196)]* into Parameter(name,0,)[40L,25C-35C(1081-1091)]
-  Type.ClassOrInterface(java.lang.String)(Type.ClassOrInterface(String))[94L,18C-23C(2588-2593)]* into ClassBody(P4Label)[24L,0C-153L,0C(815-4409)]
 
-[significance=1] (removed) (36)
+[significance=1] (removed) (37)
   Modifiers(process#m)[98L,27C-32C(2770-2775)]* from ClassBody(P4Label)[25L,0C-133L,0C(819-3873)]
   Type.ClassOrInterface(java.lang.String)(Type.ClassOrInterface(String))[98L,48C-53C(2791-2796)]* from ClassBody(P4Label)[25L,0C-133L,0C(819-3873)]
   Parameters(process)[141L,39C-53C(4155-4169)]* from ClassBody(P4Label)[25L,0C-133L,0C(819-3873)]
@@ -198,6 +201,7 @@
   NamedArguments(debug)[143L,41C-48C(4234-4241)]* from ClassBody(P4Label)[25L,0C-133L,0C(819-3873)]
   NamedArguments(toString)[147L,49C-50C(4335-4336)]* from ClassBody(P4Label)[25L,0C-133L,0C(819-3873)]
   Type.ClassOrInterface(P4HandlerAdapter)(Type.ClassOrInterface(P4HandlerAdapter))[139L,20C-35C(4079-4094)]* from ClassBody(P4Label)[25L,0C-133L,0C(819-3873)]
+  Type.Void(Type.Void)[121L,27C-30C(3493-3496)]* from ClassBody(P4Label)[25L,0C-133L,0C(819-3873)]
   NamedArguments(P4HandlerAdapter)(NamedArguments(P4HandlerAdapter))[96L,43C-44C(2715-2716)]* from ClassBody(P4Label)[25L,0C-133L,0C(819-3873)]
   ClassBody(P4HandlerAdapter)[84L,12C-89L,12C(2386-2534)]* from ClassBody(P4Label)[25L,0C-133L,0C(819-3873)]
   MethodBody(process(Ljava.lang.String;)V)(MethodBody(process(LString;)V))[142L,20C-144L,20C(4191-4264)]* from ClassBody(P4Label)[25L,0C-133L,0C(819-3873)]
@@ -284,8 +288,8 @@
   Expression.BinaryOperator.Add[77L,12C-27C(2166-2181)] -> Expression.BinaryOperator.Add[71L,12C-29C(1779-1796)]
   Primary.PrimaryMethodInvocation(match#2)(Primary.PrimaryMethodInvocation(match))[125L,28C-60C(3623-3655)] -> Primary.PrimaryMethodInvocation(match#2)(Primary.PrimaryMethodInvocation(match))[53L,16C-48C(1388-1420)]
   Expression.BinaryOperator.Add[134L,27C-44C(3893-3910)] -> Expression.BinaryOperator.Add[93L,27C-46C(2540-2559)]
-  Expression.BinaryOperator.Add[127L,35C-52C(3720-3737)] -> Expression.BinaryOperator.Add[55L,23C-42C(1461-1480)]
   Primary.SimpleMethodInvocation(getLogger#0)(Primary.SimpleMethodInvocation(getLogger))[135L,12C-22C(3936-3946)] -> Primary.SimpleMethodInvocation(getLogger#0)(Primary.SimpleMethodInvocation(getLogger))[95L,12C-22C(2643-2653)]
+  Expression.BinaryOperator.Add[127L,35C-52C(3720-3737)] -> Expression.BinaryOperator.Add[55L,23C-42C(1461-1480)]
   Primary.PrimaryMethodInvocation(equalsIgnoreCase#1)(Primary.PrimaryMethodInvocation(equalsIgnoreCase))[107L,28C-60C(3083-3115)] -> Primary.PrimaryMethodInvocation(equalsIgnoreCase#1)(Primary.PrimaryMethodInvocation(equalsIgnoreCase))[83L,30C-64C(2225-2259)]
   Expression.BinaryOperator.Add[95L,23C-44C(2648-2669)] -> Expression.BinaryOperator.Add[78L,23C-46C(2044-2067)]
   Primary.SimpleMethodInvocation(getLogger#0)(Primary.SimpleMethodInvocation(getLogger))[110L,12C-22C(3142-3152)] -> Primary.SimpleMethodInvocation(getLogger#0)(Primary.SimpleMethodInvocation(getLogger))[86L,12C-22C(2286-2296)]
@@ -317,8 +321,8 @@
   Expression.BinaryOperator.Add: [77L,12C-78L,33C(2166-2225)] -> [71L,12C-72L,42C(1779-1849)]
   Primary.Literal.String(\n): [78L,37C-40C(2229-2232)] -> [72L,46C-49C(1853-1856)]
   Primary.Literal.String(locked): [107L,51C-58C(3106-3113)] -> [83L,55C-62C(2250-2257)]
-  Primary.FieldAccess(lock): [127L,49C-52C(3734-3737)] -> [55L,37C-42C(1475-1480)]
   Primary.Literal.String(View: ): [80L,12C-19C(2284-2291)] -> [74L,12C-19C(1908-1915)]
+  Primary.FieldAccess(lock): [127L,49C-52C(3734-3737)] -> [55L,37C-42C(1475-1480)]
   Primary.Literal.String(\n): [80L,32C-35C(2304-2307)] -> [74L,34C-37C(1930-1933)]
   Primary.FieldAccess(name): [77L,24C-27C(2178-2181)] -> [71L,24C-29C(1791-1796)]
   Expression.BinaryOperator.Add: [77L,12C-80L,35C(2166-2307)] -> [71L,12C-74L,37C(1779-1933)]
@@ -328,20 +332,20 @@
   Primary.FieldAccess(name): [134L,41C-44C(3907-3910)] -> [93L,41C-46C(2554-2559)]
   Primary.Name(line): [125L,55C-58C(3650-3653)] -> [53L,43C-46C(1415-1418)]
   Expression.BinaryOperator.Add: [77L,12C-34C(2166-2188)] -> [71L,12C-36C(1779-1803)]
-  Primary.PrimaryMethodInvocation(equalsIgnoreCase#1): [107L,28C-60C(3083-3115)] -> [83L,30C-64C(2225-2259)]
   Primary.Name(line): [123L,43C-46C(3586-3589)] -> [49L,27C-30C(1319-1322)]
+  Primary.PrimaryMethodInvocation(equalsIgnoreCase#1): [107L,28C-60C(3083-3115)] -> [83L,30C-64C(2225-2259)]
   Expression.BinaryOperator.And: [107L,12C-60C(3067-3115)] -> [83L,12C-64C(2207-2259)]
   Expression.BinaryOperator.Add: [104L,26C-68C(2976-3018)] -> [80L,26C-79C(2105-2158)]
   Primary.FieldAccess(name): [104L,45C-48C(2995-2998)] -> [80L,45C-50C(2124-2129)]
   Primary.Literal.String(label -i): [93L,23C-32C(2601-2610)] -> [77L,23C-32C(2001-2010)]
   Expression.BinaryOperator.Add: [77L,12C-80L,28C(2166-2300)] -> [71L,12C-74L,30C(1779-1926)]
   Expression.BinaryOperator.Add: [77L,12C-78L,40C(2166-2232)] -> [71L,12C-72L,49C(1779-1856)]
-  Expression.BinaryOperator.Add: [130L,42C-52C(3809-3819)] -> [58L,32C-42C(1530-1540)]
   Primary.FieldAccess(util): [125L,28C-31C(3623-3626)] -> [53L,16C-19C(1388-1391)]
+  Expression.BinaryOperator.Add: [130L,42C-52C(3809-3819)] -> [58L,32C-42C(1530-1540)]
   Primary.Literal.String(label -i): [148L,27C-36C(4368-4377)] -> [102L,27C-36C(2916-2925)]
   Primary.SimpleMethodInvocation(getLogger#0): [137L,12C-22C(3992-4002)] -> [100L,12C-22C(2798-2808)]
-  Primary.Name(handler): [118L,12C-18C(3399-3405)] -> [92L,12C-22C(2479-2489)]
   Primary.Literal.String(Description: ): [78L,12C-26C(2204-2218)] -> [72L,12C-26C(1819-1833)]
+  Primary.Name(handler): [118L,12C-18C(3399-3405)] -> [92L,12C-22C(2479-2489)]
   Expression.BinaryOperator.Add: [95L,23C-44C(2648-2669)] -> [78L,23C-46C(2044-2067)]
   Primary.FieldAccess(P4View): [80L,23C-28C(2295-2300)] -> [74L,23C-30C(1919-1926)]
   Primary.FieldAccess(lock): [107L,12C-15C(3067-3070)] -> [83L,12C-17C(2207-2212)]
@@ -357,13 +361,13 @@
   Expression.BinaryOperator.Add: [77L,12C-79L,32C(2166-2268)] -> [71L,12C-73L,32C(1779-1892)]
   Primary.Literal.String(Options: ): [127L,35C-45C(3720-3730)] -> [55L,23C-33C(1461-1471)]
   Primary.Name(handler): [148L,39C-45C(4380-4386)] -> [102L,39C-42C(2928-2931)]
-  Expression.BinaryOperator.Add: [104L,26C-62C(2976-3012)] -> [80L,26C-73C(2105-2152)]
   Primary.SimpleMethodInvocation(getLogger#0): [110L,12C-22C(3142-3152)] -> [86L,12C-22C(2286-2296)]
+  Expression.BinaryOperator.Add: [104L,26C-62C(2976-3012)] -> [80L,26C-73C(2105-2152)]
   Primary.FieldAccess(lock): [107L,28C-31C(3083-3086)] -> [83L,30C-35C(2225-2230)]
   Primary.SimpleMethodInvocation(getLogger#0): [104L,8C-18C(2958-2968)] -> [80L,8C-18C(2087-2097)]
-  Expression.BinaryOperator.Add: [134L,27C-44C(3893-3910)] -> [93L,27C-46C(2540-2559)]
-  Primary.Literal.String(Now locking label...): [137L,31C-52C(4011-4032)] -> [100L,31C-52C(2817-2838)]
   Primary.Name(labelSpec): [130L,24C-32C(3791-3799)] -> [58L,12C-22C(1510-1520)]
+  Primary.Literal.String(Now locking label...): [137L,31C-52C(4011-4032)] -> [100L,31C-52C(2817-2838)]
+  Expression.BinaryOperator.Add: [134L,27C-44C(3893-3910)] -> [93L,27C-46C(2540-2559)]
   Primary.Name(line): [130L,42C-45C(3809-3812)] -> [58L,32C-35C(1530-1533)]
   Primary.PrimaryMethodInvocation(match#2): [125L,28C-60C(3623-3655)] -> [53L,16C-48C(1388-1420)]
   Primary.FieldAccess(desc): [104L,59C-62C(3009-3012)] -> [80L,61C-73C(2140-2152)]
@@ -384,12 +388,12 @@
   Primary.SimpleMethodInvocation(getLogger#0): [135L,12C-22C(3936-3946)] -> [95L,12C-22C(2643-2653)]
 
 [significance=1] expression added (6)
-  Primary.FieldAccess(m_labelSpec)[98L,12C-22C(2765-2775)]* into ClassBody(P4Label)[24L,0C-153L,0C(815-4409)]
-  Expression.BinaryOperator.Neq[51L,12C-30C(1340-1358)]* into ClassBody(P4Label)[24L,0C-153L,0C(815-4409)]
   Primary.FieldAccess(m_labelSpec)[94L,37C-47C(2607-2617)]* into ClassBody(P4Label)[24L,0C-153L,0C(815-4409)]
   Primary.Literal.Null[51L,12C-15C(1340-1343)]* into ClassBody(P4Label)[24L,0C-153L,0C(815-4409)]
-  Primary.FieldAccess(m_labelSpec)[51L,20C-30C(1348-1358)]* into ClassBody(P4Label)[24L,0C-153L,0C(815-4409)]
   Primary.Literal.Null[98L,26C-29C(2779-2782)]* into ClassBody(P4Label)[24L,0C-153L,0C(815-4409)]
+  Primary.FieldAccess(m_labelSpec)[98L,12C-22C(2765-2775)]* into ClassBody(P4Label)[24L,0C-153L,0C(815-4409)]
+  Expression.BinaryOperator.Neq[51L,12C-30C(1340-1358)]* into ClassBody(P4Label)[24L,0C-153L,0C(815-4409)]
+  Primary.FieldAccess(m_labelSpec)[51L,20C-30C(1348-1358)]* into ClassBody(P4Label)[24L,0C-153L,0C(815-4409)]
 
 [significance=1] expression removed (7)
   Primary.Name(handler)(Primary.Name(handler))[147L,12C-18C(4298-4304)]* from ClassBody(P4Label)[25L,0C-133L,0C(819-3873)]

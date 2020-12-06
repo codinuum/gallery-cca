@@ -1,10 +1,10 @@
 *** Modified Units ***
 Method(setValue(I)V)(43L,4C-47L,4C(1371-1474)): [MODIFIED] 5(4) changed [d:1(1)i:2(1)r:2(2)m:0(0)], 13 mapped
 Method(process(Ljava.lang.String;)V)(84L,20C-96L,20C(2612-3205)): [RENAMED] 34(16) changed [d:1(1)i:25(7)r:7(7)m:1(1)], 37 mapped
-Method(execute()V)(49L,4C-105L,4C(1481-3394)): [MOVED] 86(36) changed [d:24(5)i:3(2)r:23(23)m:36(6)], 104 mapped
+Method(execute()V)(49L,4C-105L,4C(1481-3394)): [MOVED] 87(36) changed [d:23(4)i:3(2)r:24(24)m:37(6)], 105 mapped
 Method(setProperty(Ljava.lang.String;)V)(37L,4C-41L,4C(1243-1364)): [MODIFIED] 7(4) changed [d:4(2)i:2(1)r:1(1)m:0(0)], 10 mapped
-Class(P4Counter)(24L,0C-106L,0C(927-3396)): [MODIFIED] 172(78) changed [d:40(14)i:53(15)r:43(43)m:36(6)], 168 mapped
+Class(P4Counter)(24L,0C-106L,0C(927-3396)): [MODIFIED] 172(78) changed [d:39(13)i:52(15)r:44(44)m:37(6)], 169 mapped
 Method(setName(Ljava.lang.String;)V)(32L,4C-35L,4C(1156-1236)): [MODIFIED] 4(3) changed [d:1(1)i:2(1)r:1(1)m:0(0)], 10 mapped
 Method(shouldSetProperty()Z)(108L,4C-111L,4C(3200-3285)): [INSERTED] 10(1) changed [d:0(0)i:10(1)r:0(0)m:0(0)], 0 mapped
-Method(validate()V)(94L,4C-106L,4C(2773-3193)): [INSERTED] 9(2) changed [d:0(0)i:9(2)r:0(0)m:0(0)], 0 mapped
+Method(validate()V)(94L,4C-106L,4C(2773-3193)): [INSERTED] 8(2) changed [d:0(0)i:8(2)r:0(0)m:0(0)], 0 mapped
 *** Unmodified Units ***

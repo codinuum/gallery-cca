@@ -1,29 +1,27 @@
-MOVE(GROUP)(4)#7M:PERMUTATION:
-|- MOVE#84M(3):PERMUTATION (#253U:#246G)Statement.Expression.Primary.PrimaryMethodInvocation(sort#1)()[0](108L,3C-50C(2854-2901))3 [(#251U:#244G)] -> (#904U:#274G)Statement.Expression.Primary.PrimaryMethodInvocation(setValueAt#3)()[1](123L,5C-45C(3126-3166))3 [(#900U:#270G);(#901U:#271G);(#902U:#272G)] <236;245-246>
-|- MOVE#83M(1):PERMUTATION (#246U:#240G)Primary.FieldAccess(label)[1](108L,36C-40C(2887-2891))1 -> (#902U:#272G)Primary.Name(column)[2](123L,38C-43C(3159-3164))1 <240>
-MOVE#22M(7) (#177U:#171G)LocalVariableDeclaration(true,scroller[0)[5](80L,2C-50C(2316-2364))7 -> (#717U:#93G)LocalVariableDeclaration(true,scroller[0)[9](56L,2C-50C(1787-1835))7 <165-171>
-MOVE#25M(1) (#538U:#523G)VariableDeclarator(shortcut1,0,true)[1](214L,11C-33C(4822-4844))1 [(#537U:#522G)] -> (#1218U:#577G)VariableDeclarator(shortcut1,0,true)[1](237L,11C-19C(5320-5328))1 <523>
+MOVE#19M(7) (#177U:#171G)LocalVariableDeclaration(true,scroller[0)[5](80L,2C-50C(2316-2364))7 -> (#717U:#93G)LocalVariableDeclaration(true,scroller[0)[9](56L,2C-50C(1787-1835))7 <165-171>
+MOVE#22M(1) (#538U:#523G)VariableDeclarator(shortcut1,0,true)[1](214L,11C-33C(4822-4844))1 [(#537U:#522G)] -> (#1218U:#577G)VariableDeclarator(shortcut1,0,true)[1](237L,11C-19C(5320-5328))1 <523>
 MOVE#2M(2) (#180U:#174G)NamedArguments(setPreferredSize)[1](81L,27C-29C(2393-2395))2 -> (#720U:#96G)NamedArguments(setPreferredSize)[1](57L,27C-29C(1864-1866))2 <173-174>
+MOVE#27M(3):PERMUTATION (#366U:#355G)Expression.BinaryOperator.Eq[0](157L,10C-17C(3635-3642))3 -> (#1070U:#408G)Expression.BinaryOperator.Eq[0](181L,5C-12C(4079-4086))3 <353-355>
+MOVE#17M(6) (#156U:#150G)Statement.Expression.Primary.PrimaryMethodInvocation(setReorderingAllowed#1)()[2](77L,2C-55C(2177-2230))6 -> (#682U:#58G)Statement.Expression.Primary.PrimaryMethodInvocation(setReorderingAllowed#1)()[4](51L,2C-55C(1522-1575))6 <145-150>
+MOVE#24M(2) (#164U:#158G)Primary.FieldAccess(height)[0](79L,2C-9C(2279-2286))2 -> (#704U:#80G)Primary.FieldAccess(height)[0](55L,2C-9C(1750-1757))2 <157-158>
+MOVE#23M(4):PERMUTATION (#73U:#73G)Primary.PrimaryMethodInvocation(getProperty#1)[0](53L,25C-71C(1624-1670))4 -> (#1103U:#460G)Primary.PrimaryMethodInvocation(getProperty#1)[0](198L,10C-52C(4431-4473))4 <70-73>
 MOVE#5M(1) (#145U:#139G)Primary.FieldAccess(keyTable)[0](76L,2C-9C(2142-2149))1 -> (#671U:#47G)Primary.FieldAccess(keyTable)[0](50L,2C-9C(1487-1494))1 <139>
 MOVE#1M(1) (#178U:#172G)Primary.Name(scroller)[0](81L,2C-9C(2368-2375))1 -> (#718U:#94G)Primary.Name(scroller)[0](57L,2C-9C(1839-1846))1 <172>
+MOVE#7M(3):PERMUTATION (#249U:#239G)Primary.PrimaryMethodInvocation(getSource#0)[0](108L,17C-31C(2868-2882))3 -> (#844U:#189G)Primary.PrimaryMethodInvocation(getPoint#0)[0](94L,50C-63C(2564-2577))3 <237-239>
+MOVE#16M(5) (#193U:#187G)Primary.InstanceCreation(org.gjt.sp.jedit.options.ShortcutsModel.<init>#1)[0](87L,9C-44C(2480-2515))5 -> (#668U:#44G)Primary.InstanceCreation(org.gjt.sp.jedit.options.ShortcutsModel.<init>#1)[1](49L,13C-48C(1446-1481))5 <183-187>
 MOVE#6M(4) (#149U:#143G)Primary.InstanceCreation(javax.swing.JTable.<init>#1)[1](76L,13C-32C(2153-2172))4 -> (#675U:#51G)Primary.InstanceCreation(javax.swing.JTable.<init>#1)[1](50L,13C-32C(1498-1517))4 <140-143>
-MOVE#45M(2) (#544U:#529G)LocalVariableDeclaration(true,shortcut2[0)[1](215L,4C-34C(4851-4881))2 [(#540U:#525G);(#542U:#527G)] -> (#1220U:#579G)LocalVariableDeclaration(true,shortcut1[0;shortcut2[0)[0](237L,4C-31C(5313-5340))2 [(#1217U:#576G);(#1218U:#577G)] <528-529>
-MOVE#28M(5) (#169U:#163G)Primary.TypeMethodInvocation(java.lang.Math,min#2)[1](79L,13C-34C(2290-2311))5 -> (#709U:#85G)Primary.TypeMethodInvocation(java.lang.Math,min#2)[1](55L,13C-34C(1761-1782))5 <159-163>
-MOVE#21M(6) (#162U:#156G)LocalVariableDeclaration(true,d[0)[3](78L,2C-43C(2234-2275))6 -> (#702U:#78G)LocalVariableDeclaration(true,d[0)[7](54L,2C-43C(1705-1746))6 <151-156>
-MOVE#44M(1) (#182U:#176G)Primary.Name(scroller)[0](82L,9C-16C(2407-2414))1 -> (#723U:#99G)Primary.Name(scroller)[1](59L,26C-33C(1896-1903))1 <176>
-MOVE#13M(1) (#39U:#38G)Primary.Name(java.awt.BorderLayout.CENTER)[0](47L,6C-24C(1383-1401))1 -> (#722U:#98G)Primary.Name(java.awt.BorderLayout.CENTER)[0](59L,6C-24C(1876-1894))1 <38>
-MOVE#30M(3):PERMUTATION (#366U:#355G)Expression.BinaryOperator.Eq[0](157L,10C-17C(3635-3642))3 -> (#1070U:#408G)Expression.BinaryOperator.Eq[0](181L,5C-12C(4079-4086))3 <353-355>
-MOVE#20M(6) (#156U:#150G)Statement.Expression.Primary.PrimaryMethodInvocation(setReorderingAllowed#1)()[2](77L,2C-55C(2177-2230))6 -> (#682U:#58G)Statement.Expression.Primary.PrimaryMethodInvocation(setReorderingAllowed#1)()[4](51L,2C-55C(1522-1575))6 <145-150>
-MOVE#27M(2) (#164U:#158G)Primary.FieldAccess(height)[0](79L,2C-9C(2279-2286))2 -> (#704U:#80G)Primary.FieldAccess(height)[0](55L,2C-9C(1750-1757))2 <157-158>
-MOVE#26M(4):PERMUTATION (#73U:#73G)Primary.PrimaryMethodInvocation(getProperty#1)[0](53L,25C-71C(1624-1670))4 -> (#1103U:#460G)Primary.PrimaryMethodInvocation(getProperty#1)[0](198L,10C-52C(4431-4473))4 <70-73>
-MOVE#19M(5) (#193U:#187G)Primary.InstanceCreation(org.gjt.sp.jedit.options.ShortcutsModel.<init>#1)[0](87L,9C-44C(2480-2515))5 -> (#668U:#44G)Primary.InstanceCreation(org.gjt.sp.jedit.options.ShortcutsModel.<init>#1)[1](49L,13C-48C(1446-1481))5 <183-187>
-MOVE#10M(1):PERMUTATION (#51U:#51G)Primary.FieldAccess(jEdit)[0](50L,22C-26C(1484-1488))1 -> (#1138U:#506G)Primary.FieldAccess(jEdit)[0](212L,3C-7C(4760-4764))1 <51>
+MOVE#38M(2) (#544U:#529G)LocalVariableDeclaration(true,shortcut2[0)[1](215L,4C-34C(4851-4881))2 [(#540U:#525G);(#542U:#527G)] -> (#1220U:#579G)LocalVariableDeclaration(true,shortcut1[0;shortcut2[0)[0](237L,4C-31C(5313-5340))2 [(#1217U:#576G);(#1218U:#577G)] <528-529>
+MOVE#25M(5) (#169U:#163G)Primary.TypeMethodInvocation(java.lang.Math,min#2)[1](79L,13C-34C(2290-2311))5 -> (#709U:#85G)Primary.TypeMethodInvocation(java.lang.Math,min#2)[1](55L,13C-34C(1761-1782))5 <159-163>
+MOVE#18M(6) (#162U:#156G)LocalVariableDeclaration(true,d[0)[3](78L,2C-43C(2234-2275))6 -> (#702U:#78G)LocalVariableDeclaration(true,d[0)[7](54L,2C-43C(1705-1746))6 <151-156>
+MOVE#37M(1) (#182U:#176G)Primary.Name(scroller)[0](82L,9C-16C(2407-2414))1 -> (#723U:#99G)Primary.Name(scroller)[1](59L,26C-33C(1896-1903))1 <176>
+MOVE#9M(1):PERMUTATION (#51U:#51G)Primary.FieldAccess(jEdit)[0](50L,22C-26C(1484-1488))1 -> (#1138U:#506G)Primary.FieldAccess(jEdit)[0](212L,3C-7C(4760-4764))1 <51>
+MOVE#10M(1) (#39U:#38G)Primary.Name(java.awt.BorderLayout.CENTER)[0](47L,6C-24C(1383-1401))1 -> (#722U:#98G)Primary.Name(java.awt.BorderLayout.CENTER)[0](59L,6C-24C(1876-1894))1 <38>
+RELABEL (#251U:#244G)Expression.Cond[0](108L,17C-48C(2868-2899))1 [(#250U:#241G);(#245U:#242G);(#244U:#243G)] -> (#815U:#195G)Primary.Literal.Integer(0)[0](97L,18C-18C(2615-2615))1
 RELABEL (#87U:#86G)Statement.Expression.Primary.PrimaryMethodInvocation(add#1)()[8](55L,2C-21C(1727-1746))1 [(#84U:#83G);(#86U:#85G)] -> (#721U:#97G)Statement.Expression.Primary.PrimaryMethodInvocation(setPreferredSize#1)()[10](57L,2C-30C(1839-1867))1 [(#718U:#94G);(#720U:#96G)]
 RELABEL (#255U:#249G)ClassBody(ActionHandler)[1](105L,1C-110L,1C(2798-2908))1 [(#242U:#248G)] -> (#849U:#220G)ClassBody(HeaderMouseHandler)[1](91L,1C-107L,1C(2465-2728))1 [(#813U:#219G)]
 RELABEL (#462U:#456G)Primary.FieldAccess(shortcut)[1](189L,48C-63C(4309-4324))1 [(#461U:#455G)] -> (#1135U:#503G)Primary.FieldAccess(shortcut1)[1](211L,48C-64C(4737-4753))1 [(#1134U:#502G)]
 RELABEL (#385U:#371G)Primary.Literal.Integer(1)[1](162L,12C-12C(3721-3721))1 -> (#1033U:#393G)Primary.Literal.Integer(0)[1](175L,12C-12C(3954-3954))1
 RELABEL (#339U:#334G)Primary.FieldAccess(shortcut)[0](149L,10C-25C(3520-3535))1 [(#338U:#333G)] -> (#999U:#365G)Primary.FieldAccess(shortcut1)[0](165L,10C-26C(3790-3806))1 [(#998U:#364G)]
-MOVREL (#253U:#246G)Statement.Expression.Primary.PrimaryMethodInvocation(sort#1)()[0](108L,3C-50C(2854-2901))1 [(#243U:#236G);(#252U:#245G)] -> (#904U:#274G)Statement.Expression.Primary.PrimaryMethodInvocation(setValueAt#3)()[1](123L,5C-45C(3126-3166))1 [(#899U:#269G);(#903U:#273G)]
 RELABEL (#59U:#58G)Primary.FieldAccess(label)[0](51L,2C-6C(1533-1537))1 -> (#691U:#67G)Primary.FieldAccess(keyTable)[0](53L,2C-9C(1651-1658))1
 MOVREL (#71U:#71G)Primary.Literal.String(options.keys.sort.shortcut)[0](53L,43C-70C(1642-1669))1 -> (#1101U:#458G)Primary.Literal.String(options.keys.shortcut2)[0](198L,28C-51C(4449-4472))1
 RELABEL (#62U:#61G)Primary.InstanceCreation(org.gjt.sp.jedit.options.ShortcutsOptionPane$ActionHandler.<init>#0)[0](51L,26C-44C(1557-1575))1 [(#61U:#59G);(#60U:#60G)] -> (#694U:#70G)Primary.InstanceCreation(org.gjt.sp.jedit.options.ShortcutsOptionPane$TableMouseHandler.<init>#0)[0](53L,28C-50C(1677-1699))1 [(#693U:#68G);(#692U:#69G)]
@@ -35,14 +33,13 @@ RELABEL (#206U:#201G)Parameters(Ljava.lang.String;Ljava.lang.String;Ljava.lang.S
 RELABEL (#256U:#250G)Class(ActionHandler)[11](104L,1C-110L,1C(2751-2908))1 [(#235U:#229G);(#255U:#249G)] -> (#850U:#221G)Class(HeaderMouseHandler)[7](90L,1C-107L,1C(2418-2728))1 [(#806U:#177G);(#849U:#220G)]
 RELABEL (#53U:#53G)NamedArguments(getProperty)[1](50L,39C-65C(1501-1527))1 [(#52U:#52G)] -> (#686U:#63G)NamedArguments(org.gjt.sp.jedit.options.ShortcutsOptionPane$HeaderMouseHandler)[1](52L,67C-68C(1644-1645))1
 RELABEL (#428U:#411G)Primary.Literal.String(options.keys.binding)[0](176L,28C-49C(4023-4044))1 -> (#1093U:#450G)Primary.Literal.String(options.keys.shortcut1)[0](196L,28C-51C(4384-4407))1
-RELABEL (#248U:#238G)NamedArguments(getSource)[1](108L,30C-31C(2881-2882))1 -> (#843U:#188G)NamedArguments(getPoint)[1](94L,62C-63C(2576-2577))1
+MOVREL (#248U:#238G)NamedArguments(getSource)[1](108L,30C-31C(2881-2882))1 -> (#843U:#188G)NamedArguments(getPoint)[1](94L,62C-63C(2576-2577))1
 RELABEL (#64U:#63G)Statement.Expression.Primary.PrimaryMethodInvocation(addActionListener#1)()[4](51L,2C-46C(1533-1577))1 [(#59U:#58G);(#63U:#62G)] -> (#696U:#72G)Statement.Expression.Primary.PrimaryMethodInvocation(addMouseListener#1)()[6](53L,2C-52C(1651-1701))1 [(#691U:#67G);(#695U:#71G)]
 RELABEL (#54U:#54G)Primary.PrimaryMethodInvocation(getProperty#1)[0](50L,22C-65C(1484-1527))1 [(#51U:#51G);(#53U:#53G)] -> (#688U:#64G)Primary.InstanceCreation(org.gjt.sp.jedit.options.ShortcutsOptionPane$HeaderMouseHandler.<init>#0)[0](52L,45C-68C(1622-1645))1 [(#687U:#62G);(#686U:#63G)]
 RELABEL (#55U:#55G)NamedArguments(javax.swing.JButton)[1](50L,21C-66C(1483-1528))1 [(#54U:#54G)] -> (#689U:#65G)NamedArguments(addMouseListener)[1](52L,44C-69C(1621-1646))1 [(#688U:#64G)]
 RELABEL (#233U:#227G)Type.ClassOrInterface(java.awt.event.ActionListener)[0](104L,32C-45C(2782-2795))1 -> (#804U:#175G)Type.ClassOrInterface(java.awt.event.MouseAdapter)[0](90L,34C-45C(2451-2462))1
-MOVREL (#246U:#240G)Primary.FieldAccess(label)[1](108L,36C-40C(2887-2891))1 -> (#902U:#272G)Primary.Name(column)[2](123L,38C-43C(3159-3164))1
-RELABEL (#239U:#233G)Type.ClassOrInterface(java.awt.event.ActionEvent)[0](106L,30C-40C(2830-2840))1 -> (#810U:#181G)Type.ClassOrInterface(java.awt.event.MouseEvent)[0](92L,27C-36C(2494-2503))1
 RELABEL (#542U:#527G)Primary.FieldAccess(shortcut)[0](215L,23C-33C(4870-4880))1 [(#541U:#526G)] -> (#1230U:#598G)Primary.FieldAccess(shortcut2)[1](247L,17C-28C(5497-5508))1 [(#1229U:#597G)]
+RELABEL (#239U:#233G)Type.ClassOrInterface(java.awt.event.ActionEvent)[0](106L,30C-40C(2830-2840))1 -> (#810U:#181G)Type.ClassOrInterface(java.awt.event.MouseEvent)[0](92L,27C-36C(2494-2503))1
 RELABEL (#388U:#374G)Statement.If(28168799a54be71557d0b296fb509a2c;Expression.BinaryOperator.Neq)[0](162L,2C-163L,9C(3711-3733))1 [(#387U:#372G);(#384U:#373G)] -> (#1036U:#396G)Statement.If(6ef04469237ebcbde79578e1687422b8;Expression.BinaryOperator.Eq)[0](175L,2C-176L,9C(3944-3966))1 [(#1035U:#394G);(#1032U:#395G)]
 RELABEL (#219U:#214G)ConstructorBody(KeyBinding.<init>(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)[1](93L,2C-97L,2C(2616-2693))1 [(#210U:#205G);(#214U:#209G);(#218U:#213G)] -> (#789U:#161G)ConstructorBody(KeyBinding.<init>(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)[1](78L,2C-83L,2C(2238-2348))1 [(#776U:#148G);(#780U:#152G);(#784U:#156G);(#788U:#160G)]
 RELABEL (#229U:#224G)FieldDeclaration(shortcut[0)[3](101L,2C-17C(2729-2744))1 [(#227U:#222G);(#228U:#223G)] -> (#800U:#172G)FieldDeclaration(shortcut1[0;shortcut2[0)[3](87L,2C-29C(2384-2411))1 [(#797U:#169G);(#798U:#170G);(#799U:#171G)]
@@ -57,26 +54,27 @@ RELABEL (#234U:#228G)Implements[0](104L,21C-45C(2771-2795))1 [(#233U:#227G)] -> 
 RELABEL (#537U:#522G)Primary.FieldAccess(shortcut)[0](214L,23C-33C(4834-4844))1 [(#536U:#521G)] -> (#1235U:#585G)Primary.FieldAccess(shortcut1)[1](241L,17C-28C(5383-5394))1 [(#1234U:#584G)]
 RELABEL (#237U:#231G)Modifiers(actionPerformed#m)[0](106L,2C-7C(2802-2807))1 [(#236U:#230G)] -> (#808U:#179G)Modifiers(mouseClicked#m)[0](92L,2C-7C(2469-2474))1 [(#807U:#178G)]
 RELABEL (#217U:#212G)Primary.Name(shortcut)[1](96L,19C-26C(2681-2688))1 -> (#787U:#159G)Primary.Name(shortcut2)[1](82L,20C-28C(2335-2343))1
-MOVREL (#252U:#245G)NamedArguments(sort)[1](108L,16C-49C(2867-2900))1 [(#251U:#244G)] -> (#903U:#273G)NamedArguments(setValueAt)[1](123L,24C-44C(3145-3165))1 [(#900U:#270G);(#901U:#271G);(#902U:#272G)]
-RELABEL (#249U:#239G)Primary.PrimaryMethodInvocation(getSource#0)[0](108L,17C-31C(2868-2882))1 [(#247U:#237G);(#248U:#238G)] -> (#844U:#189G)Primary.PrimaryMethodInvocation(getPoint#0)[0](94L,50C-63C(2564-2577))1 [(#842U:#187G);(#843U:#188G)]
+MOVREL (#249U:#239G)Primary.PrimaryMethodInvocation(getSource#0)[0](108L,17C-31C(2868-2882))1 [(#247U:#237G);(#248U:#238G)] -> (#844U:#189G)Primary.PrimaryMethodInvocation(getPoint#0)[0](94L,50C-63C(2564-2577))1 [(#842U:#187G);(#843U:#188G)]
 RELABEL (#302U:#294G)Primary.Literal.Integer(2)[0](131L,9C-9C(3227-3227))1 -> (#962U:#325G)Primary.Literal.Integer(3)[0](147L,9C-9C(3497-3497))1
 RELABEL (#60U:#60G)NamedArguments(org.gjt.sp.jedit.options.ShortcutsOptionPane$ActionHandler)[1](51L,43C-44C(1574-1575))1 -> (#692U:#69G)NamedArguments(org.gjt.sp.jedit.options.ShortcutsOptionPane$TableMouseHandler)[1](53L,49C-50C(1698-1699))1
-DELETE(4) (#251U:#244G)Expression.Cond[0](108L,17C-48C(2868-2899))4 [(#249U:#239G);(#246U:#240G)] <241-244>
 DELETE(3) (#58U:#57G)Statement.Expression.AssignmentOperator.Eq()()[3](50L,2C-67C(1464-1529))3 [(#50U:#49G);(#55U:#55G)] <50;56-57>
 DELETE(1) (#254U:#247G)MethodBody(actionPerformed(Ljava.awt.event.ActionEvent;)V)[3](107L,2C-109L,2C(2849-2905))1 [(#253U:#246G)] <247>
 DELETE(5) (#126U:#121G)FieldDeclaration(label[0)[5](69L,1C-22C(1969-1990))5 <117-121>
 DELETE(1) (#196U:#191G)Modifier.Public[0](90L,1C-6C(2523-2528))1 <191>
 DELETE(2) (#86U:#85G)NamedArguments(add)[1](55L,11C-20C(1736-1745))2 <84-85>
 DELETE(1) (#540U:#525G)Type.ClassOrInterface(java.lang.String)[0](215L,4C-9C(4851-4856))1 <525>
+DELETE(1) (#245U:#242G)Primary.Literal.Integer(0)[1](108L,44C-44C(2895-2895))1 <242>
 DELETE(6) (#83U:#82G)Statement.Expression.Primary.PrimaryMethodInvocation(addActionListener#1)()[7](54L,2C-49C(1676-1723))6 <77-82>
 DELETE(4) (#43U:#42G)Statement.Expression.Primary.SimpleMethodInvocation(add#2)()[1](47L,2C-51C(1379-1428))4 [(#39U:#38G)] <39-42>
 DELETE(6) (#49U:#48G)LocalVariableDeclaration(true,panel[0)[2](49L,2C-29C(1433-1460))6 <43-48>
 DELETE(1) (#89U:#88G)Primary.Name(panel)[1](56L,25C-29C(1773-1777))1 <88>
+DELETE(2) (#250U:#241G)Expression.BinaryOperator.Eq[0](108L,17C-40C(2868-2891))2 [(#249U:#239G)] <240-241>
 DELETE(5) (#131U:#126G)FieldDeclaration(shortcut[0)[6](70L,1C-25C(1993-2017))5 <122-126>
 DELETE(1) (#88U:#87G)Primary.Name(java.awt.BorderLayout.SOUTH)[0](56L,6C-23C(1754-1771))1 <87>
 DELETE(12) (#360U:#359G)Method(isCellEditable(II)Z)[6](155L,1C-158L,1C(3574-3647))12 [(#366U:#355G)] <345-352;356-359>
 DELETE(1) (#69U:#68G)Primary.FieldAccess(shortcut)[0](53L,2C-9C(1601-1608))1 <68>
 DELETE(13) (#140U:#179G)Method(createKeyTableScroller()Ljavax.swing.JScrollPane;)[8](73L,1C-83L,1C(2055-2418))13 [(#145U:#139G);(#149U:#143G);(#156U:#150G);(#162U:#156G);(#164U:#158G);(#169U:#163G);(#177U:#171G);(#178U:#172G);(#180U:#174G);(#182U:#176G)] <132-138;144;164;175;177-179>
+DELETE(1) (#244U:#243G)Primary.Literal.Integer(1)[2](108L,48C-48C(2899-2899))1 <243>
 DELETE(3) (#76U:#75G)Primary.InstanceCreation(javax.swing.JButton.<init>#1)[1](53L,13C-72C(1612-1671))3 [(#73U:#73G)] <69;74-75>
 DELETE(6) (#188U:#190G)Method(createShortcutsModel()Lorg.gjt.sp.jedit.options.ShortcutsModel;)[9](85L,1C-88L,1C(2422-2519))6 [(#193U:#187G)] <180-182;188-190>
 DELETE(1) (#539U:#524G)LocalVariableDeclaration(true,shortcut1[0)[0](214L,4C-34C(4815-4845))1 [(#535U:#520G);(#538U:#523G)] <524>
@@ -84,22 +82,20 @@ DELETE(1) (#52U:#52G)Primary.Literal.String(options.keys.sort.label)[0](50L,40C-
 DELETE(4) (#68U:#67G)Statement.Expression.Primary.PrimaryMethodInvocation(add#1)()[5](52L,2C-18C(1581-1597))4 <64-67>
 DELETE(3) (#406U:#386G)Statement.Expression.AssignmentOperator.Eq()()[1](164L,2C-165L,28C(3737-3823))3 [(#400U:#380G);(#405U:#385G)] <381-382;386>
 DELETE(1) (#84U:#83G)Primary.Name(panel)[0](55L,2C-6C(1727-1731))1 <83>
-INSERT(54) (#916U:#281G)Class(TableMouseHandler)[8](109L,1C-126L,1C(2732-3178))54 [(#904U:#274G)] <222-268;275-281>
+INSERT(60) (#916U:#281G)Class(TableMouseHandler)[8](109L,1C-126L,1C(2732-3178))60 <222-281>
 INSERT(3) (#690U:#66G)Statement.Expression.Primary.PrimaryMethodInvocation(addMouseListener#1)()[5](52L,2C-70C(1579-1647))3 [(#683U:#59G);(#689U:#65G)] <60-61;66>
 INSERT(3) (#1045U:#405G)LocalVariableDeclaration(true,binding[0)[1](178L,2C-179L,26C(3971-4071))3 [(#1043U:#403G)] <397;404-405>
 INSERT(2) (#769U:#141G)Parameter(shortcut1,0,)[2](77L,3C-18C(2200-2215))2 <140-141>
 INSERT(2) (#669U:#45G)Statement.Expression.AssignmentOperator.Eq()()[1](49L,2C-49C(1435-1482))2 [(#668U:#44G)] <39;45>
 INSERT(1) (#676U:#52G)Statement.Expression.AssignmentOperator.Eq()()[3](50L,2C-33C(1487-1518))1 [(#671U:#47G);(#675U:#51G)] <52>
-INSERT(1) (#901U:#271G)Primary.Name(row)[1](123L,34C-36C(3155-3157))1 <271>
 INSERT(1) (#670U:#46G)Statement.Empty[2](49L,50C-50C(1483-1483))1 <46>
 INSERT(14) (#1071U:#425G)Statement.If(c08c3e32c56fd0064c840b70a7ee18e7;Expression.BinaryOperator.Eq)[2](181L,2C-184L,36C(4076-4183))14 [(#1070U:#408G);(#1066U:#413G)] <409-410;414-425>
 INSERT(8) (#1146U:#514G)Statement.Expression.Primary.PrimaryMethodInvocation(setProperty#2)()[2](212L,3C-67C(4760-4824))8 [(#1138U:#506G)] <507-514>
-INSERT(32) (#848U:#218G)MethodBody(mouseClicked(Ljava.awt.event.MouseEvent;)V)[3](93L,2C-106L,2C(2512-2725))32 [(#844U:#189G)] <184-186;190-218>
+INSERT(28) (#848U:#218G)MethodBody(mouseClicked(Ljava.awt.event.MouseEvent;)V)[3](93L,2C-106L,2C(2512-2725))28 [(#844U:#189G);(#817U:#197G)] <184-186;190-193;198-218>
 INSERT(1) (#687U:#62G)Type.ClassOrInterface(org.gjt.sp.jedit.options.ShortcutsOptionPane$HeaderMouseHandler)[0](52L,49C-66C(1626-1643))1 <62>
 INSERT(18) (#1245U:#601G)Statement.If(998449bed5a72a5a9db3f98f9db5c234;Expression.BinaryOperator.Eq)[1](239L,4C-248L,4C(5347-5515))18 [(#1235U:#585G);(#1230U:#598G)] <580-583;586-596;599-601>
 INSERT(4) (#1107U:#462G)SwitchBlockStatementGroup[2](197L,2C-198L,53C(4413-4474))4 [(#1103U:#460G)] <455-456;461-462>
 INSERT(6) (#1009U:#373G)SwitchBlockStatementGroup[2](166L,2C-167L,27C(3811-3846))6 <368-373>
 INSERT(4) (#784U:#156G)Statement.Expression.AssignmentOperator.Eq()()[2](81L,3C-29C(2287-2313))4 <153-156>
-INSERT(1) (#900U:#270G)Primary.Name(shortcut)[0](123L,25C-32C(3146-3153))1 <270>
 INSERT(1) (#798U:#170G)VariableDeclarator(shortcut1,0,false)[1](87L,9C-17C(2391-2399))1 <170>
 INSERT(1) (#630U:#7G)IDsingle(org.gjt.sp.jedit.gui.GrabKeyDialog)[5](27L,0C-41C(959-1000))1 <7>

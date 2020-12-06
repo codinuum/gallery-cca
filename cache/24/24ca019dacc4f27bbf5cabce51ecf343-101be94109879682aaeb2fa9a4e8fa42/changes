@@ -91,8 +91,8 @@
 [significance=2] condition expression modified (4)
   Primary.FieldAccess(shouldSetProperty)[77L,12C-28C(2423-2439)] -> Primary.SimpleMethodInvocation(shouldSetProperty#0)(Primary.SimpleMethodInvocation(shouldSetProperty))[70L,12C-30C(2083-2101)]
   Expression.UnaryOperator.Not[64L,12C-29C(1966-1983)] -> Expression.UnaryOperator.Not[52L,12C-31C(1523-1542)]
-  Expression.BinaryOperator.And[58L,12C-46C(1706-1740)] -> Expression.BinaryOperator.And[102L,12C-50C(3003-3041)]
   Expression.BinaryOperator.Or[53L,12C-55C(1551-1594)] -> Expression.BinaryOperator.Or[97L,12C-59C(2844-2891)]
+  Expression.BinaryOperator.And[58L,12C-46C(1706-1740)] -> Expression.BinaryOperator.And[102L,12C-50C(3003-3041)]
 
 [significance=2] condition expression changed (1)
   Primary.FieldAccess(shouldSetProperty)[77L,12C-28C(2423-2439)] -> Primary.SimpleMethodInvocation(shouldSetProperty#0)(Primary.SimpleMethodInvocation(shouldSetProperty))[70L,12C-30C(2083-2101)]
@@ -183,9 +183,9 @@
   Statement.Expression.Primary.SimpleMethodInvocation(execP4Command#2)()(Statement.Expression.Primary.SimpleMethodInvocation(execP4Command)())[99L,12C-45C(3239-3272)] -> Statement.Expression.Primary.SimpleMethodInvocation(execP4Command#2)()(Statement.Expression.Primary.SimpleMethodInvocation(execP4Command)())[65L,8C-38C(1982-2012)]
   Statement.If(6630d20839310a1acbd3ca60725d7165;Primary.FieldAccess())[77L,8C-104L,8C(2419-3388)] -> Statement.If(d9aae55e5c07731be97cc0b0805dc697;Primary.SimpleMethodInvocation())[70L,8C-91L,8C(2079-2760)]
   Statement.Throw[60L,12C-122C(1766-1876)] -> Statement.Throw[104L,12C-122C(3067-3177)]
-  Statement.If(c4b1dd26c44d8773b6512f2e6c3fef2b;Expression.BinaryOperator.And)[58L,8C-61L,8C(1702-1886)] -> Statement.If(24b250ee5446db569f94b45b675ff70d;Expression.BinaryOperator.And)[102L,8C-105L,8C(2999-3187)]
   Statement.Throw[55L,12C-73C(1620-1681)] -> Statement.Throw[99L,12C-73C(2917-2978)]
   Statement.If(a043699870f6a7cfcb9d71717ae7342f;Expression.BinaryOperator.Or)[53L,8C-56L,8C(1547-1691)] -> Statement.If(cf39355a0aae7240d7a995937d7ed66b;Expression.BinaryOperator.Or)[97L,8C-100L,8C(2840-2988)]
+  Statement.If(c4b1dd26c44d8773b6512f2e6c3fef2b;Expression.BinaryOperator.And)[58L,8C-61L,8C(1702-1886)] -> Statement.If(24b250ee5446db569f94b45b675ff70d;Expression.BinaryOperator.And)[102L,8C-105L,8C(2999-3187)]
 
 [significance=1] statement changed (5)
   Statement.If(a043699870f6a7cfcb9d71717ae7342f;Expression.BinaryOperator.Or)[53L,8C-56L,8C(1547-1691)] -> Statement.If(cf39355a0aae7240d7a995937d7ed66b;Expression.BinaryOperator.Or)[97L,8C-100L,8C(2840-2988)]
@@ -194,9 +194,10 @@
   Statement.If(a134a376b0da0b4c3ec02e40eeeecbd0;Expression.UnaryOperator.Not)[64L,8C-71L,8C(1962-2323)] -> Statement.If(01e671fff27330292908079ffd55002f;Expression.UnaryOperator.Not)[52L,8C-59L,8C(1519-1882)]
   Statement.If(c4b1dd26c44d8773b6512f2e6c3fef2b;Expression.BinaryOperator.And)[58L,8C-61L,8C(1702-1886)] -> Statement.If(24b250ee5446db569f94b45b675ff70d;Expression.BinaryOperator.And)[102L,8C-105L,8C(2999-3187)]
 
-[significance=1] expression modified (20)
+[significance=1] expression modified (21)
   Primary.FieldAccess(shouldSetProperty)[77L,12C-28C(2423-2439)] -> Primary.SimpleMethodInvocation(shouldSetProperty#0)(Primary.SimpleMethodInvocation(shouldSetProperty))[70L,12C-30C(2083-2101)]
   Primary.FieldAccess(shouldSetProperty)[64L,13C-29C(1967-1983)] -> Primary.SimpleMethodInvocation(shouldSetProperty#0)(Primary.SimpleMethodInvocation(shouldSetProperty))[52L,13C-31C(1524-1542)]
+  Primary.FieldAccess(shouldSetProperty)[58L,30C-46C(1724-1740)] -> Primary.SimpleMethodInvocation(shouldSetProperty#0)(Primary.SimpleMethodInvocation(shouldSetProperty))[102L,32C-50C(3023-3041)]
   Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[94L,34C-105C(3085-3156)] -> Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[89L,31C-58C(2706-2733)]
   Primary.FieldAccess(counter)[34L,8C-19C(1208-1219)] -> Primary.FieldAccess(m_counter)[32L,8C-16C(1120-1128)]
   Primary.FieldAccess(value)[45L,8C-17C(1419-1428)] -> Primary.FieldAccess(m_value)[42L,8C-14C(1303-1309)]
@@ -209,18 +210,19 @@
   Expression.UnaryOperator.Not[64L,12C-29C(1966-1983)] -> Expression.UnaryOperator.Not[52L,12C-31C(1523-1542)]
   Primary.PrimaryMethodInvocation(length#0)(Primary.PrimaryMethodInvocation(length))[53L,35C-50C(1574-1589)] -> Primary.PrimaryMethodInvocation(length#0)(Primary.PrimaryMethodInvocation(length))[97L,37C-54C(2869-2886)]
   Expression.BinaryOperator.Eq[53L,35C-55C(1574-1594)] -> Expression.BinaryOperator.Eq[97L,37C-59C(2869-2891)]
-  Expression.BinaryOperator.And[58L,12C-46C(1706-1740)] -> Expression.BinaryOperator.And[102L,12C-50C(3003-3041)]
   Expression.BinaryOperator.Eq[53L,14C-28C(1553-1567)] -> Expression.BinaryOperator.Eq[97L,14C-30C(2846-2862)]
   Primary.Paren(53edf0945b3bed268e0bf19bff406439;Expression.BinaryOperator.Eq)[53L,12C-30C(1551-1569)] -> Primary.Paren(5fdb9b92e38e8dee3368f1fef467a0e8;Expression.BinaryOperator.Eq)[97L,12C-32C(2844-2864)]
   Expression.BinaryOperator.Or[53L,12C-55C(1551-1594)] -> Expression.BinaryOperator.Or[97L,12C-59C(2844-2891)]
   Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[60L,18C-121C(1772-1875)] -> Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[104L,18C-121C(3073-3176)]
   Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[55L,18C-72C(1626-1680)] -> Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[99L,18C-72C(2923-2977)]
+  Expression.BinaryOperator.And[58L,12C-46C(1706-1740)] -> Expression.BinaryOperator.And[102L,12C-50C(3003-3041)]
 
-[significance=1] expression changed (2)
+[significance=1] expression changed (3)
   Primary.Paren(53edf0945b3bed268e0bf19bff406439;Expression.BinaryOperator.Eq)[53L,12C-30C(1551-1569)] -> Primary.Paren(5fdb9b92e38e8dee3368f1fef467a0e8;Expression.BinaryOperator.Eq)[97L,12C-32C(2844-2864)]
   Primary.FieldAccess(shouldSetProperty)[64L,13C-29C(1967-1983)] -> Primary.SimpleMethodInvocation(shouldSetProperty#0)(Primary.SimpleMethodInvocation(shouldSetProperty))[52L,13C-31C(1524-1542)]
+  Primary.FieldAccess(shouldSetProperty)[58L,30C-46C(1724-1740)] -> Primary.SimpleMethodInvocation(shouldSetProperty#0)(Primary.SimpleMethodInvocation(shouldSetProperty))[102L,32C-50C(3023-3041)]
 
-[significance=1] expression moved (19)
+[significance=1] expression moved (20)
   Primary.PrimaryMethodInvocation(length#0): [53L,35C-50C(1574-1589)] -> [97L,37C-54C(2869-2886)]
   Primary.FieldAccess(counter): [53L,35C-41C(1574-1580)] -> [97L,37C-45C(2869-2877)]
   Primary.Literal.String(No counter specified to retrieve): [55L,37C-70C(1645-1678)] -> [99L,37C-70C(2942-2975)]
@@ -240,6 +242,7 @@
   Primary.Paren(53edf0945b3bed268e0bf19bff406439;Expression.BinaryOperator.Eq): [53L,12C-30C(1551-1569)] -> [97L,12C-32C(2844-2864)]
   Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1): [55L,18C-72C(1626-1680)] -> [99L,18C-72C(2923-2977)]
   Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1): [60L,18C-121C(1772-1875)] -> [104L,18C-121C(3073-3176)]
+  Primary.FieldAccess(shouldSetProperty): [58L,30C-46C(1724-1740)] -> [102L,32C-50C(3023-3041)]
 
 [significance=1] expression added (4)
   Primary.Literal.Null[110L,17C-20C(3259-3262)]* into ClassBody(P4Counter)[25L,0C-106L,0C(965-3396)]
@@ -247,7 +250,7 @@
   Primary.FieldAccess(m_property)[110L,25C-34C(3267-3276)]* into ClassBody(P4Counter)[25L,0C-106L,0C(965-3396)]
   Expression.BinaryOperator.Eq[110L,17C-34C(3259-3276)]* into ClassBody(P4Counter)[25L,0C-106L,0C(965-3396)]
 
-[significance=1] expression removed (11)
+[significance=1] expression removed (10)
   Primary.Literal.Integer(0)[30L,23C-23C(1148-1148)]* from VariableDeclarator(m_value,0,false)[28L,16C-22C(1048-1054)]
   Primary.This[34L,8C-11C(1208-1211)]* from Primary.FieldAccess(m_counter)[32L,8C-16C(1120-1128)]
   Primary.Literal.Null[26L,28C-31C(995-998)]* from VariableDeclarator(m_counter,0,false)[25L,19C-27C(952-960)]
@@ -258,7 +261,6 @@
   Primary.Literal.False[28L,36C-40C(1072-1076)]* from VariableDeclarator(m_shouldSetValue,0,false)[27L,20C-35C(1014-1029)]
   Primary.This[45L,8C-11C(1419-1422)]* from Primary.FieldAccess(m_value)[42L,8C-14C(1303-1309)]
   Primary.This[39L,8C-11C(1300-1303)]* from Primary.FieldAccess(m_property)[37L,8C-17C(1215-1224)]
-  Primary.FieldAccess(shouldSetProperty)[58L,30C-46C(1724-1740)]* from ClassBody(P4Counter)[24L,0C-112L,0C(931-3287)]
 
 [significance=1] argument modified (1)
   Expression.BinaryOperator.Add[90L,51C-60C(2926-2935)] -> Expression.BinaryOperator.Add[80L,41C-52C(2383-2394)]
@@ -285,9 +287,8 @@
 [significance=1] method invocation inserted (1)
   Statement.Expression.Primary.SimpleMethodInvocation(registerError#1)()(Statement.Expression.Primary.SimpleMethodInvocation(registerError)())[89L,16C-61C(2691-2736)] into Block(catch-clause)[93L,24C-95L,24C(3049-3183)]
 
-[significance=1] method invocation added (4)
+[significance=1] method invocation added (3)
   Statement.Expression.Primary.SuperMethodInvocation(stdout#1)()(Statement.Expression.Primary.SuperMethodInvocation(stdout)())[72L,12C-32C(2127-2147)]* into MethodBody(process(Ljava.lang.String;)V)(MethodBody(process(LString;)V))[85L,20C-96L,20C(2667-3205)]
-  Primary.SimpleMethodInvocation(shouldSetProperty#0)(Primary.SimpleMethodInvocation(shouldSetProperty))[102L,32C-50C(3023-3041)]* into ClassBody(P4Counter)[25L,0C-106L,0C(965-3396)]
   Statement.Expression.Primary.SimpleMethodInvocation(registerError#1)()(Statement.Expression.Primary.SimpleMethodInvocation(registerError)())[84L,16C-35C(2487-2506)]* into Statement.Try[87L,24C-95L,24C(2783-3183)]
   Statement.Expression.Primary.SimpleMethodInvocation(validate#0)()(Statement.Expression.Primary.SimpleMethodInvocation(validate)())[49L,8C-18C(1429-1439)]* into ClassBody(P4Counter)[25L,0C-106L,0C(965-3396)]
 

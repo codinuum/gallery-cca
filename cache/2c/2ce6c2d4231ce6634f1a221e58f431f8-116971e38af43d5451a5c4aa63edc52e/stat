@@ -3,13 +3,13 @@ nnodes2 : 1318
 
 deletes(hunks) : 93(19)
 inserts(hunks) : 140(28)
-relabels : 135(135)
-mov+rels : 10
+relabels : 135(orig:98)(135)
+mov+rels : 10(orig:3)
 moves(hunks) : 95(8)
 
 total changes : 376
 mapping size  : 1178
-similarity    : 0.740054
+similarity    : 0.828119
 CMR           : 0.319185
 
 units (old)      : 58

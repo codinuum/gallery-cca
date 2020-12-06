@@ -59,9 +59,9 @@ RELABEL (#383U:#382G)Primary.FieldAccess(verbose)[0](262L,8C-19C(7741-7752))1 [(
 RELABEL (#131U:#131G)VariableDeclarator(filesets,0,false)[2](83L,22C-47C(2961-2986))1 [(#130U:#130G)] -> (#2818U:#130G)VariableDeclarator(m_filesets,0,false)[2](84L,22C-49C(2910-2937))1 [(#2817U:#129G)]
 RELABEL (#965U:#879G)Modifiers(checkConfiguration#m)[0](508L,4C-12C(15497-15505))1 [(#964U:#878G)] -> (#3631U:#858G)Modifiers(validate#m)[0](503L,4C-10C(15169-15175))1 [(#3630U:#857G)]
 RELABEL (#112U:#112G)FieldDeclaration(verbose[0)[9](80L,4C-35C(2830-2861))1 [(#108U:#108G);(#109U:#109G);(#111U:#111G)] -> (#2800U:#112G)FieldDeclaration(m_verbose[0)[9](81L,4C-29C(2789-2814))1 [(#2797U:#109G);(#2798U:#110G);(#2799U:#111G)]
-RELABEL (#16U:#16G)IDsingle(java.util.Locale)[14](24L,0C-23C(749-772))1 -> (#2704U:#16G)IDsingle(org.apache.avalon.excalibur.io.FileUtil)[14](24L,0C-46C(749-795))1
 RELABEL (#1641U:#1334G)Primary.FieldAccess(newerOnly)[0](727L,16C-24C(23196-23204))1 -> (#4309U:#1315G)Primary.FieldAccess(m_newerOnly)[0](706L,16C-26C(22264-22274))1
 RELABEL (#521U:#456G)Primary.FieldAccess(password)[1](302L,36C-43C(8735-8742))1 -> (#3190U:#437G)Primary.FieldAccess(m_password)[1](302L,38C-47C(8645-8654))1
+RELABEL (#16U:#16G)IDsingle(java.util.Locale)[14](24L,0C-23C(749-772))1 -> (#2704U:#16G)IDsingle(org.apache.avalon.excalibur.io.FileUtil)[14](24L,0C-46C(749-795))1
 RELABEL (#711U:#646G)Primary.SimpleMethodInvocation(resolveFile#1)[0](400L,24C-73C(12013-12062))1 [(#710U:#645G)] -> (#3379U:#626G)Primary.TypeMethodInvocation(org.apache.avalon.excalibur.io.FileUtil,resolveFile#2)[0](400L,30C-81C(11945-11996))1 [(#3378U:#625G)]
 RELABEL (#347U:#346G)Primary.FieldAccess(server)[0](232L,8C-18C(7025-7035))1 [(#346U:#345G)] -> (#3019U:#330G)Primary.FieldAccess(m_server)[0](232L,8C-15C(6947-6954))1
 RELABEL (#120U:#120G)Modifiers(action#f)[0](82L,4C-10C(2906-2912))1 [(#119U:#119G)] -> (#2807U:#119G)Modifiers(m_action#f)[0](83L,4C-10C(2853-2859))1 [(#2806U:#118G)]

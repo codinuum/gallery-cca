@@ -1,7 +1,7 @@
 *** Extracted Changes ***
 
 [significance=4] argument added (3)
-  Primary.Name(message)(Primary.Name(message))[41L,37C-43C(1172-1178)]* into NamedArguments(org.apache.myrmidon.api.TaskException)(NamedArguments(TaskException))[40L,35C-107C(1090-1162)]
+  Primary.Name(message)(Primary.Name(message))[41L,37C-43C(1172-1178)]* into Statement.If(f1241ce2c4d0507d7c8c3780ea59ce2e;Expression.UnaryOperator.Not)[39L,8C-40L,108C(1018-1163)]
   Primary.Name(message)(Primary.Name(message))[62L,37C-43C(1818-1824)]* into NamedArguments(org.apache.myrmidon.api.TaskException)(NamedArguments(TaskException))[75L,35C-68C(2257-2290)]
   Primary.FieldAccess(m_appxml)[44L,19C-26C(1213-1220)]* into NamedArguments(setFullpath)[46L,22C-51C(1417-1446)]
 
@@ -20,6 +20,9 @@
 [significance=3] field renamed (2)
   FieldDeclaration(descriptorAdded[0)[26L,4C-35C(753-784)] -> FieldDeclaration(m_descriptorAdded[0)[25L,4C-37C(740-773)]
   FieldDeclaration(deploymentDescriptor[0)[25L,4C-37C(714-747)] -> FieldDeclaration(m_appxml[0)[24L,4C-25C(713-734)]
+
+[significance=2] statement moved (1)
+  Statement.Throw: [40L,12C-108C(1067-1163)] -> [41L,12C-46C(1147-1181)]
 
 [significance=2] statement removed (1)
   Statement.Expression.AssignmentOperator.Eq()()[65L,8C-31C(1922-1945)]* from ClassBody(Ear)[23L,0C-97L,0C(707-3038)]
@@ -53,6 +56,10 @@
   NamedArguments(setFullpath)[46L,22C-51C(1417-1446)] -> NamedArguments(addFileAs)[44L,17C-56C(1211-1250)]
   Modifiers(descriptorAdded#f)[26L,4C-10C(753-759)] -> Modifiers(m_descriptorAdded#f)[25L,4C-10C(740-746)]
   Modifiers(deploymentDescriptor#f)[25L,4C-10C(714-720)] -> Modifiers(m_appxml#f)[24L,4C-10C(713-719)]
+
+[significance=1] (moved) (2)
+  Type.ClassOrInterface(org.apache.myrmidon.api.TaskException): [40L,22C-34C(1077-1089)] -> [41L,22C-34C(1157-1169)]
+  NamedArguments(org.apache.myrmidon.api.TaskException): [40L,35C-107C(1090-1162)] -> [41L,35C-45C(1170-1180)]
 
 [significance=1] (inserted) (4)
   VariableDeclarator(message,0,true)[39L,25C-40L,44C(1050-1132)] into Statement.If(f1241ce2c4d0507d7c8c3780ea59ce2e;Expression.UnaryOperator.Not)[39L,8C-40L,108C(1018-1163)]
@@ -88,7 +95,6 @@
   NamedArguments(getName)[45L,52C-53C(1389-1390)]* from MethodBody(setAppxml(Ljava.io.File;)V)(MethodBody(setAppxml(LFile;)V))[35L,4C-45L,4C(953-1257)]
 
 [significance=1] statement modified (11)
-  Statement.Throw[40L,12C-108C(1067-1163)] -> Statement.Throw[41L,12C-46C(1147-1181)]
   Statement.Throw[75L,12C-69C(2234-2291)] -> Statement.Throw[62L,12C-46C(1793-1827)]
   Statement.Expression.AssignmentOperator.Eq()()[38L,8C-36C(980-1008)] -> Statement.Expression.AssignmentOperator.Eq()()[36L,8C-25C(963-980)]
   Statement.Expression.Primary.PrimaryMethodInvocation(setFullpath#1)()(Statement.Expression.Primary.PrimaryMethodInvocation(setFullpath)())[46L,8C-52C(1403-1447)] -> Statement.Expression.Primary.SimpleMethodInvocation(addFileAs#2)()(Statement.Expression.Primary.SimpleMethodInvocation(addFileAs)())[44L,8C-57C(1202-1251)]
@@ -97,8 +103,9 @@
   Statement.Expression.AssignmentOperator.Eq()()[32L,8C-32C(864-888)] -> Statement.Expression.AssignmentOperator.Eq()()[30L,8C-34C(838-864)]
   Statement.If(36d314ac95fddec3340ef9dfd9b69e9f;Expression.BinaryOperator.Or)[90L,12C-101L,12C(2839-3387)] -> Statement.If(3fb1c452e9c0f6f9b799cc2cc957d60c;Expression.BinaryOperator.Or)[77L,12C-90L,12C(2375-2939)]
   Statement.If(f8cad092fe6f05ac4debd494b4363a5c;Primary.PrimaryMethodInvocation())[88L,8C-106L,8C(2759-3478)] -> Statement.If(f8cad092fe6f05ac4debd494b4363a5c;Primary.PrimaryMethodInvocation())[75L,8C-95L,8C(2295-3030)]
-  Statement.If(f1241ce2c4d0507d7c8c3780ea59ce2e;Expression.UnaryOperator.Not)[39L,8C-40L,108C(1018-1163)] -> Statement.If(66ba909f82c638688f698a00bc34bc50;Expression.UnaryOperator.Not)[37L,8C-42L,8C(990-1191)]
   Statement.If(79cc0b015a3728e9a9ac4f5fab2095f2;Expression.BinaryOperator.And)[73L,8C-76L,8C(2156-2301)] -> Statement.If(512c8a136ac2645c4ab972c8a8eb64df;Expression.BinaryOperator.And)[59L,8C-63L,8C(1660-1837)]
+  Statement.Throw[40L,12C-108C(1067-1163)] -> Statement.Throw[41L,12C-46C(1147-1181)]
+  Statement.If(f1241ce2c4d0507d7c8c3780ea59ce2e;Expression.UnaryOperator.Not)[39L,8C-40L,108C(1018-1163)] -> Statement.If(66ba909f82c638688f698a00bc34bc50;Expression.UnaryOperator.Not)[37L,8C-42L,8C(990-1191)]
 
 [significance=1] statement changed (3)
   Statement.If(79cc0b015a3728e9a9ac4f5fab2095f2;Expression.BinaryOperator.And)[73L,8C-76L,8C(2156-2301)] -> Statement.If(512c8a136ac2645c4ab972c8a8eb64df;Expression.BinaryOperator.And)[59L,8C-63L,8C(1660-1837)]
@@ -106,7 +113,6 @@
   Statement.If(36d314ac95fddec3340ef9dfd9b69e9f;Expression.BinaryOperator.Or)[90L,12C-101L,12C(2839-3387)] -> Statement.If(3fb1c452e9c0f6f9b799cc2cc957d60c;Expression.BinaryOperator.Or)[77L,12C-90L,12C(2375-2939)]
 
 [significance=1] expression modified (18)
-  Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[40L,18C-107C(1073-1162)] -> Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[41L,18C-45C(1153-1180)]
   Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[75L,18C-68C(2240-2290)] -> Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[62L,18C-45C(1799-1826)]
   Primary.PrimaryMethodInvocation(exists#0)(Primary.PrimaryMethodInvocation(exists))[39L,13C-41C(1023-1051)] -> Primary.PrimaryMethodInvocation(exists#0)(Primary.PrimaryMethodInvocation(exists))[37L,13C-29C(995-1011)]
   Expression.UnaryOperator.Not[39L,12C-41C(1022-1051)] -> Expression.UnaryOperator.Not[37L,12C-29C(994-1011)]
@@ -114,6 +120,8 @@
   Expression.BinaryOperator.And[73L,12C-60C(2160-2208)] -> Expression.BinaryOperator.And[59L,12C-48C(1664-1700)]
   Primary.PrimaryMethodInvocation(equals#1)(Primary.PrimaryMethodInvocation(equals))[90L,49C-83C(2876-2910)] -> Primary.PrimaryMethodInvocation(equals#1)(Primary.PrimaryMethodInvocation(equals))[78L,17C-39C(2416-2438)]
   Expression.UnaryOperator.Not[90L,48C-83C(2875-2910)] -> Expression.UnaryOperator.Not[78L,16C-39C(2415-2438)]
+  Expression.BinaryOperator.Add[40L,37C-84C(1092-1139)] -> Expression.BinaryOperator.Add[39L,35C-40L,23C(1060-1111)]
+  Expression.BinaryOperator.Add[40L,37C-105C(1092-1160)] -> Expression.BinaryOperator.Add[39L,35C-40L,44C(1060-1132)]
   Expression.BinaryOperator.Add[92L,39C-72C(2986-3019)] -> Expression.BinaryOperator.Add[81L,39C-74C(2532-2567)]
   Expression.BinaryOperator.Add[92L,39C-93L,85C(2986-3108)] -> Expression.BinaryOperator.Add[81L,39C-82L,85C(2532-2656)]
   Expression.BinaryOperator.Add[92L,39C-94L,53C(2986-3165)] -> Expression.BinaryOperator.Add[81L,39C-83L,53C(2532-2713)]
@@ -122,16 +130,11 @@
   Expression.BinaryOperator.Eq[90L,16C-43C(2843-2870)] -> Expression.BinaryOperator.Eq[77L,16C-31C(2379-2394)]
   Expression.BinaryOperator.Or[90L,16C-83C(2843-2910)] -> Expression.BinaryOperator.Or[77L,16C-78L,39C(2379-2438)]
   Expression.BinaryOperator.Or[90L,16C-102C(2843-2929)] -> Expression.BinaryOperator.Or[77L,16C-79L,32C(2379-2475)]
-  Expression.BinaryOperator.Add[40L,37C-84C(1092-1139)] -> Expression.BinaryOperator.Add[39L,35C-40L,23C(1060-1111)]
-  Expression.BinaryOperator.Add[40L,37C-105C(1092-1160)] -> Expression.BinaryOperator.Add[39L,35C-40L,44C(1060-1132)]
+  Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[40L,18C-107C(1073-1162)] -> Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[41L,18C-45C(1153-1180)]
 
-[significance=1] expression moved (6)
-  Expression.BinaryOperator.Add: [40L,37C-105C(1092-1160)] -> [39L,35C-40L,44C(1060-1132)]
-  Expression.BinaryOperator.Add: [40L,37C-84C(1092-1139)] -> [39L,35C-40L,23C(1060-1111)]
-  Primary.Literal.String(Deployment descriptor: ): [40L,37C-61C(1092-1116)] -> [39L,35C-59C(1060-1084)]
-  Primary.Literal.String( does not exist.): [40L,88C-105C(1143-1160)] -> [40L,27C-44C(1115-1132)]
-  Primary.FieldAccess(deploymentDescriptor): [40L,65C-84C(1120-1139)] -> [40L,16C-23C(1104-1111)]
+[significance=1] expression moved (2)
   Primary.Literal.String(appxml attribute is required): [75L,37C-66C(2259-2288)] -> [61L,35C-64C(1749-1778)]
+  Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1): [40L,18C-107C(1073-1162)] -> [41L,18C-45C(1153-1180)]
 
 [significance=1] expression removed (7)
   Primary.FieldAccess(descriptorAdded)[65L,8C-22C(1922-1936)]* from ClassBody(Ear)[23L,0C-97L,0C(707-3038)]
@@ -143,12 +146,12 @@
   Primary.FieldAccess(deploymentDescriptor)[44L,29C-48C(1299-1318)]* from MethodBody(setAppxml(Ljava.io.File;)V)(MethodBody(setAppxml(LFile;)V))[35L,4C-45L,4C(953-1257)]
 
 [significance=1] constructor invocation modified (2)
-  Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[40L,18C-107C(1073-1162)] -> Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[41L,18C-45C(1153-1180)]
   Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[75L,18C-68C(2240-2290)] -> Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[62L,18C-45C(1799-1826)]
+  Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[40L,18C-107C(1073-1162)] -> Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[41L,18C-45C(1153-1180)]
 
 [significance=1] instance creation modified (2)
-  Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[40L,18C-107C(1073-1162)] -> Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[41L,18C-45C(1153-1180)]
   Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[75L,18C-68C(2240-2290)] -> Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[62L,18C-45C(1799-1826)]
+  Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[40L,18C-107C(1073-1162)] -> Primary.InstanceCreation(org.apache.myrmidon.api.TaskException.<init>#1)(Primary.InstanceCreation(TaskException))[41L,18C-45C(1153-1180)]
 
 [significance=1] variable declaration renamed (2)
   VariableDeclarator(deploymentDescriptor,0,false)[25L,17C-36C(727-746)] -> VariableDeclarator(m_appxml,0,false)[24L,17C-24C(726-733)]
@@ -172,8 +175,8 @@
 
 [significance=1] method modified (3)
   Method(zipFile(Ljava.io.File;Lorg.apache.tools.zip.ZipOutputStream;Ljava.lang.String;)V)(Method(zipFile))[81L,4C-107L,4C(2358-3484)] -> Method(zipFile(Ljava.io.File;Lorg.apache.tools.zip.ZipOutputStream;Ljava.lang.String;)V)(Method(zipFile))[68L,4C-96L,4C(1894-3036)]
-  Method(setAppxml(Ljava.io.File;)V)(Method(setAppxml))[35L,4C-48L,4C(901-1485)] -> Method(setAppxml(Ljava.io.File;)V)(Method(setAppxml))[33L,4C-45L,4C(877-1257)]
   Method(initZipOutputStream(Lorg.apache.tools.zip.ZipOutputStream;)V)(Method(initZipOutputStream))[69L,4C-79L,4C(1983-2351)] -> Method(initZipOutputStream(Lorg.apache.tools.zip.ZipOutputStream;)V)(Method(initZipOutputStream))[56L,4C-66L,4C(1539-1887)]
+  Method(setAppxml(Ljava.io.File;)V)(Method(setAppxml))[35L,4C-48L,4C(901-1485)] -> Method(setAppxml(Ljava.io.File;)V)(Method(setAppxml))[33L,4C-45L,4C(877-1257)]
 
 [significance=1] field access renamed (12)
   Primary.FieldAccess(deploymentDescriptor)[39L,13C-32C(1023-1042)] -> Primary.FieldAccess(m_appxml)[37L,13C-20C(995-1002)]

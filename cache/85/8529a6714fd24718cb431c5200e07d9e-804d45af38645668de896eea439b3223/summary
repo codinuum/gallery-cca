@@ -1,6 +1,6 @@
 *** Modified Units ***
-Class(Mapper)(21L,0C-260L,0C(609-6342)): [MODIFIED] 24(16) changed [d:5(2)i:10(5)r:7(7)m:2(2)], 421 mapped
-Method(getImplementation()Lorg.apache.tools.ant.util.FileNameMapper;)(153L,4C-211L,4C(3643-5197)): [MODIFIED] 24(16) changed [d:5(2)i:10(5)r:7(7)m:2(2)], 127 mapped
+Class(Mapper)(21L,0C-260L,0C(609-6342)): [MODIFIED] 24(13) changed [d:6(3)i:11(3)r:7(7)m:0(0)], 420 mapped
+Method(getImplementation()Lorg.apache.tools.ant.util.FileNameMapper;)(153L,4C-211L,4C(3643-5197)): [MODIFIED] 24(13) changed [d:6(3)i:11(3)r:7(7)m:0(0)], 126 mapped
 *** Unmodified Units ***
 Method(getRef()Lorg.apache.tools.ant.types.Mapper;)(238L,4C-258L,4C(5809-6339))
 Method(createClasspath()LPath;)(218L,4C-230L,4C(5354-5658))

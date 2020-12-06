@@ -1,7 +1,7 @@
 *** Modified Units ***
 FunctionDefinition(1768L,0C-1815L,0C(49992-51695)): [MODIFIED] 37(3) changed [d:9(1)i:27(1)r:1(1)m:0(0)], 168 mapped
-FunctionDefinition(5134L,0C-5189L,0C(140549-142165)): [MODIFIED] 16(10) changed [d:1(1)i:9(3)r:6(6)m:0(0)], 318 mapped
-FunctionDefinition(6006L,0C-6030L,0C(165395-166151)): [MOVED] 356(109) changed [d:109(18)i:163(33)r:33(33)m:51(25)], 50 mapped
+FunctionDefinition(5134L,0C-5189L,0C(140549-142165)): [MODIFIED] 20(9) changed [d:1(1)i:13(2)r:6(6)m:0(0)], 318 mapped
+FunctionDefinition(6006L,0C-6030L,0C(165395-166151)): [MOVED] 385(89) changed [d:59(13)i:196(17)r:29(29)m:101(30)], 100 mapped
 FunctionDefinition(4955L,0C-5019L,0C(136251-137864)): [MODIFIED] 6(4) changed [d:1(1)i:3(1)r:2(2)m:0(0)], 269 mapped
 FunctionDefinition<SimpleTypeSpecifier:11irqreturn_t>(2437L,0C-2784L,0C(67226-77176)): [MODIFIED] 316(49) changed [d:139(16)i:99(5)r:15(15)m:63(13)], 1440 mapped
 FunctionDefinition(2107L,0C-2143L,0C(59001-60166)): [MODIFIED] 7(1) changed [d:7(1)i:0(0)r:0(0)m:0(0)], 213 mapped
@@ -12,7 +12,7 @@ FunctionDefinition(5047L,0C-5065L,0C(138531-138944)): [MODIFIED] 6(4) changed [d
 FunctionDefinition(2063L,0C-2095L,0C(57998-58782)): [MODIFIED] 125(10) changed [d:1(1)i:121(6)r:3(3)m:0(0)], 157 mapped
 FunctionDefinition(2350L,0C-2435L,0C(65289-67223)): [MODIFIED] 24(4) changed [d:8(2)i:4(1)r:0(0)m:12(1)], 346 mapped
 FunctionDefinition(2291L,0C-2327L,0C(63820-64734)): [MODIFIED] 62(21) changed [d:2(2)i:5(5)r:2(2)m:53(12)], 181 mapped
-FunctionDefinition(6199L,0C-6544L,0C(172063-180550)): [MODIFIED] 1262(11) changed [d:1248(3)i:8(2)r:4(4)m:2(2)], 219 mapped
+FunctionDefinition(6199L,0C-6544L,0C(172063-180550)): [MODIFIED] 1262(9) changed [d:1250(3)i:8(2)r:4(4)m:0(0)], 217 mapped
 FunctionDefinition(4553L,0C-4588L,0C(126167-127176)): [MODIFIED] 6(4) changed [d:1(1)i:3(1)r:2(2)m:0(0)], 172 mapped
 FunctionDefinition(4913L,0C-4930L,0C(135238-135714)): [MODIFIED] 6(4) changed [d:1(1)i:3(1)r:2(2)m:0(0)], 97 mapped
 FunctionDefinition(5225L,0C-5306L,0C(142898-145656)): [MODIFIED] 22(14) changed [d:5(4)i:11(4)r:5(5)m:1(1)], 340 mapped
@@ -21,16 +21,16 @@ FunctionDefinition<SimpleTypeSpecifier:9__devexit>(4628L,0C-4631L,0C(127979-1280
 ClassSpecifier(1001L,0C-1074L,0C(27736-29851)): [MODIFIED] 172(27) changed [d:56(5)i:112(20)r:1(1)m:3(1)], 270 mapped
 FunctionDefinition(2014L,0C-2030L,0C(56726-57197)): [MODIFIED] 6(4) changed [d:1(1)i:3(1)r:2(2)m:0(0)], 121 mapped
 ClassSpecifier(507L,8C-625L,0C(13268-16708)): [MODIFIED] 1(1) changed [d:0(0)i:0(0)r:1(1)m:0(0)], 539 mapped
-FunctionDefinition<ElaboratedTypeSpecifierStruct:10net_device>(2164L,0C-2277L,0C(60567-63549)): [MODIFIED] 203(23) changed [d:8(2)i:181(12)r:8(8)m:6(1)], 532 mapped
 FunctionDefinition(2839L,0C-2854L,0C(78626-78956)): [MODIFIED] 36(13) changed [d:5(1)i:18(6)r:0(0)m:13(6)], 75 mapped
+FunctionDefinition<ElaboratedTypeSpecifierStruct:10net_device>(2164L,0C-2277L,0C(60567-63549)): [MODIFIED] 203(23) changed [d:8(2)i:181(12)r:8(8)m:6(1)], 532 mapped
 FunctionDefinition(5090L,0C-5109L,0C(139496-139987)): [MODIFIED] 6(4) changed [d:1(1)i:3(1)r:2(2)m:0(0)], 104 mapped
 FunctionDefinition(1667L,0C-1695L,0C(47051-47747)): [MODIFIED] 40(9) changed [d:1(1)i:35(4)r:3(3)m:1(1)], 185 mapped
 FunctionDefinition<SimpleTypeSpecifier:6__exit>(4664L,0C-4675L,0C(128857-129164)): [MODIFIED] 5(1) changed [d:0(0)i:0(0)r:0(0)m:5(1)], 47 mapped
 FunctionDefinition(2816L,0C-2837L,0C(77906-78623)): [MODIFIED] 64(10) changed [d:7(1)i:43(4)r:1(1)m:13(4)], 89 mapped
 FunctionDefinition(1741L,0C-1766L,0C(49288-49989)): [MODIFIED] 5(2) changed [d:0(0)i:4(1)r:1(1)m:0(0)], 89 mapped
 FunctionDefinition(6687L,0C-6789L,0C(184602-187209)): [MODIFIED] 5(5) changed [d:0(0)i:0(0)r:5(5)m:0(0)], 438 mapped
-FunctionDefinition(5360L,0C-5390L,0C(147035-147845)): [MODIFIED] 15(9) changed [d:3(2)i:5(2)r:3(3)m:4(2)], 163 mapped
-FunctionDefinition(5975L,0C-6000L,0C(164594-165279)): [MODIFIED] 110(37) changed [d:48(11)i:0(0)r:18(18)m:44(8)], 44 mapped
+FunctionDefinition(5360L,0C-5390L,0C(147035-147845)): [MODIFIED] 14(6) changed [d:7(2)i:5(2)r:2(2)m:0(0)], 159 mapped
+FunctionDefinition(5975L,0C-6000L,0C(164594-165279)): [MOVED] 255(64) changed [d:45(14)i:111(15)r:19(19)m:80(16)], 79 mapped
 FunctionDefinition(4781L,0C-4822L,0C(131849-132909)): [MODIFIED] 8(1) changed [d:0(0)i:0(0)r:0(0)m:8(1)], 193 mapped
 FunctionDefinition(5682L,0C-5694L,0C(156079-156424)): [MODIFIED] 6(4) changed [d:1(1)i:3(1)r:2(2)m:0(0)], 72 mapped
 FunctionDefinition(5594L,0C-5645L,0C(153507-155132)): [MODIFIED] 30(20) changed [d:5(5)i:15(5)r:10(10)m:0(0)], 281 mapped
@@ -44,9 +44,8 @@ FunctionDefinition<ElaboratedTypeSpecifierStruct:10net_device>(2816L,0C-2819L,0C
 FunctionDefinition<SimpleTypeSpecifier:3u16>(3325L,0C-3337L,0C(91675-91976)): [MODIFIED] 12(1) changed [d:0(0)i:12(1)r:0(0)m:0(0)], 0 mapped
 FunctionDefinition(7405L,0C-7422L,0C(203499-203879)): [MODIFIED] 21(1) changed [d:0(0)i:21(1)r:0(0)m:0(0)], 0 mapped
 FunctionDefinition(3906L,0C-3975L,0C(106789-108510)): [MODIFIED] 210(1) changed [d:0(0)i:210(1)r:0(0)m:0(0)], 0 mapped
-FunctionDefinition(5338L,0C-5366L,0C(147249-148021)): [INSERTED] 160(1) changed [d:0(0)i:160(1)r:0(0)m:0(0)], 0 mapped
 FunctionDefinition(4953L,0C-4981L,0C(136483-137315)): [MODIFIED] 17(3) changed [d:0(0)i:17(3)r:0(0)m:0(0)], 0 mapped
-FunctionDefinition(6969L,0C-7010L,0C(192546-193871)): [MODIFIED] 10(1) changed [d:0(0)i:10(1)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition(6969L,0C-7010L,0C(192546-193871)): [MODIFIED] 13(1) changed [d:0(0)i:13(1)r:0(0)m:0(0)], 0 mapped
 FunctionDefinition(3314L,0C-3323L,0C(91391-91672)): [MODIFIED] 12(1) changed [d:0(0)i:12(1)r:0(0)m:0(0)], 0 mapped
 FunctionDefinition(3841L,0C-3902L,0C(105153-106655)): [MODIFIED] 153(1) changed [d:0(0)i:153(1)r:0(0)m:0(0)], 0 mapped
 FunctionDefinition(2823L,0C-2831L,0C(78060-78300)): [MODIFIED] 3(1) changed [d:0(0)i:3(1)r:0(0)m:0(0)], 0 mapped
@@ -55,11 +54,11 @@ FunctionDefinition(1678L,0C-1710L,0C(46956-47959)): [MODIFIED] 9(1) changed [d:0
 FunctionDefinition(5166L,0C-5234L,0C(142340-144501)): [MODIFIED] 9(1) changed [d:0(0)i:9(1)r:0(0)m:0(0)], 0 mapped
 FunctionDefinition(2395L,0C-2404L,0C(66331-66662)): [INSERTED] 63(1) changed [d:0(0)i:63(1)r:0(0)m:0(0)], 0 mapped
 FunctionDefinition(2657L,0C-2671L,0C(73629-73992)): [INSERTED] 33(1) changed [d:0(0)i:33(1)r:0(0)m:0(0)], 0 mapped
-FunctionDefinition(2413L,0C-2480L,0C(67009-68604)): [INSERTED] 366(4) changed [d:0(0)i:366(4)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition(2413L,0C-2480L,0C(67009-68604)): [INSERTED] 340(36) changed [d:0(0)i:340(36)r:0(0)m:0(0)], 0 mapped
 FunctionDefinition<SimpleTypeSpecifier:3u16>(3651L,0C-3704L,0C(99911-101597)): [MODIFIED] 74(2) changed [d:0(0)i:74(2)r:0(0)m:0(0)], 0 mapped
 FunctionDefinition(1948L,0C-2028L,0C(54428-56715)): [INSERTED] 387(20) changed [d:0(0)i:387(20)r:0(0)m:0(0)], 0 mapped
 FunctionDefinition(1907L,0C-1939L,0C(53519-54273)): [INSERTED] 160(1) changed [d:0(0)i:160(1)r:0(0)m:0(0)], 0 mapped
-FunctionDefinition(2488L,0C-2600L,0C(68826-72113)): [INSERTED] 610(1) changed [d:0(0)i:610(1)r:0(0)m:0(0)], 0 mapped
+FunctionDefinition(2488L,0C-2600L,0C(68826-72113)): [INSERTED] 565(14) changed [d:0(0)i:565(14)r:0(0)m:0(0)], 0 mapped
 FunctionDefinition(3403L,0C-3479L,0C(93702-95606)): [INSERTED] 377(8) changed [d:0(0)i:377(8)r:0(0)m:0(0)], 0 mapped
 FunctionDefinition(6571L,0C-6600L,0C(180186-180977)): [MODIFIED] 9(1) changed [d:0(0)i:9(1)r:0(0)m:0(0)], 0 mapped
 *** Unmodified Units ***

@@ -1,11 +1,12 @@
 MOVE(GROUP)(6)#11M:
 |- MOVE#32M(2) (#87U:#210G)Method(execute()V)[8](49L,4C-105L,4C(1481-3394))2 [(#83U:#83G);(#84U:#84G);(#86U:#86G);(#120U:#103G);(#133U:#113G);(#143U:#123G);(#154U:#132G);(#163U:#140G);(#232U:#208G)] -> (#314U:#111G)Method(execute()V)[7](46L,4C-66L,4C(1364-2018))2 [(#310U:#72G);(#311U:#73G);(#313U:#75G);(#316U:#77G);(#326U:#87G);(#339U:#97G);(#348U:#105G);(#352U:#109G)] <209-210>
 |- MOVE#31M(4) (#229U:#198G)Statement.Expression.Primary.SimpleMethodInvocation(execP4Command#2)()[2](99L,12C-45C(3239-3272))4 -> (#352U:#109G)Statement.Expression.Primary.SimpleMethodInvocation(execP4Command#2)()[4](65L,8C-38C(1982-2012))4 <195-198>
-MOVE#3M(9) (#133U:#113G)Statement.If(c4b1dd26c44d8773b6512f2e6c3fef2b;Expression.BinaryOperator.And)[1](58L,8C-61L,8C(1702-1886))9 [(#130U:#105G)] -> (#475U:#210G)Statement.If(24b250ee5446db569f94b45b675ff70d;Expression.BinaryOperator.And)[1](102L,8C-105L,8C(2999-3187))9 [(#472U:#202G)] <104;106-113>
+MOVE#3M(10) (#133U:#113G)Statement.If(c4b1dd26c44d8773b6512f2e6c3fef2b;Expression.BinaryOperator.And)[1](58L,8C-61L,8C(1702-1886))10 -> (#475U:#210G)Statement.If(24b250ee5446db569f94b45b675ff70d;Expression.BinaryOperator.And)[1](102L,8C-105L,8C(2999-3187))10 [(#471U:#201G)] <104-113>
 MOVE#2M(17) (#120U:#103G)Statement.If(a043699870f6a7cfcb9d71717ae7342f;Expression.BinaryOperator.Or)[0](53L,8C-56L,8C(1547-1691))17 -> (#460U:#199G)Statement.If(cf39355a0aae7240d7a995937d7ed66b;Expression.BinaryOperator.Or)[0](97L,8C-100L,8C(2840-2988))17 <87-103>
 MOVE(GROUP)(4)#7M:
 |- MOVE#29M(3) (#232U:#208G)Statement.If(6630d20839310a1acbd3ca60725d7165;Primary.FieldAccess())[5](77L,8C-104L,8C(2419-3388))3 [(#179U:#148G);(#225U:#194G);(#229U:#198G);(#172U:#207G)] -> (#420U:#175G)Statement.If(d9aae55e5c07731be97cc0b0805dc697;Primary.SimpleMethodInvocation())[0](70L,8C-91L,8C(2079-2760))3 [(#418U:#120G);(#417U:#126G);(#373U:#135G);(#411U:#173G)] <141;199;208>
 |- MOVE#30M(1) (#200U:#182G)Primary.Literal.String(Perforce error. Could not retrieve counter value.)[0](94L,53C-103C(3104-3154))1 -> (#388U:#162G)Primary.Literal.String(Perforce error. Could not retrieve counter value.)[0](88L,39C-89C(2622-2672))1 <182>
+MOVREL (#130U:#105G)Primary.FieldAccess(shouldSetProperty)[1](58L,30C-46C(1724-1740))1 -> (#472U:#202G)Primary.SimpleMethodInvocation(shouldSetProperty#0)[1](102L,32C-50C(3023-3041))1 [(#471U:#201G)]
 RELABEL (#48U:#47G)Primary.FieldAccess(counter)[0](34L,8C-19C(1208-1219))1 [(#47U:#46G)] -> (#276U:#37G)Primary.FieldAccess(m_counter)[0](32L,8C-16C(1120-1128))1
 RELABEL (#78U:#77G)Primary.FieldAccess(shouldSetValue)[0](46L,8C-21C(1447-1460))1 -> (#305U:#66G)Primary.FieldAccess(m_shouldSetValue)[0](43L,8C-23C(1328-1343))1
 RELABEL (#17U:#17G)Modifiers(property#f)[0](27L,4C-9C(1005-1010))1 [(#16U:#16G)] -> (#253U:#15G)Modifiers(m_property#f)[0](26L,4C-10C(967-973))1 [(#252U:#14G)]
@@ -49,7 +50,6 @@ MOVREL (#232U:#208G)Statement.If(6630d20839310a1acbd3ca60725d7165;Primary.FieldA
 MOVREL (#120U:#103G)Statement.If(a043699870f6a7cfcb9d71717ae7342f;Expression.BinaryOperator.Or)[0](53L,8C-56L,8C(1547-1691))1 [(#119U:#96G);(#106U:#102G)] -> (#460U:#199G)Statement.If(cf39355a0aae7240d7a995937d7ed66b;Expression.BinaryOperator.Or)[0](97L,8C-100L,8C(2840-2988))1 [(#459U:#192G);(#446U:#198G)]
 MOVREL (#108U:#91G)Primary.FieldAccess(counter)[0](53L,35C-41C(1574-1580))1 -> (#448U:#187G)Primary.FieldAccess(m_counter)[0](97L,37C-45C(2869-2877))1
 RELABEL (#60U:#59G)Primary.FieldAccess(property)[0](39L,8C-20C(1300-1312))1 [(#59U:#58G)] -> (#289U:#50G)Primary.FieldAccess(m_property)[0](37L,8C-17C(1215-1224))1
-DELETE(1) (#130U:#105G)Primary.FieldAccess(shouldSetProperty)[1](58L,30C-46C(1724-1740))1 <105>
 DELETE(1) (#59U:#58G)Primary.This[0](39L,8C-11C(1300-1303))1 <58>
 DELETE(7) (#225U:#194G)LocalVariableDeclaration(true,handler[0)[1](81L,12C-97L,17C(2515-3224))7 [(#188U:#190G)] <149-151;191-194>
 DELETE(1) (#74U:#73G)Primary.This[0](45L,8C-11C(1419-1422))1 <73>
@@ -67,13 +67,13 @@ DELETE(8) (#172U:#207G)Block(block)[2](102L,8C-104L,8C(3305-3388))8 <200-207>
 INSERT(1) (#391U:#166G)Primary.Name(message)[0](89L,50C-56C(2725-2731))1 <166>
 INSERT(10) (#480U:#222G)Method(shouldSetProperty()Z)[10](108L,4C-111L,4C(3200-3285))10 <213-222>
 INSERT(9) (#382U:#156G)CatchClause(ab77dc3936172b7b144043787076f3d6;CatchParameter(,0))[1](82L,12C-85L,12C(2425-2520))9 <148-156>
+INSERT(1) (#471U:#201G)NamedArguments(shouldSetProperty)[0](102L,49C-50C(3040-3041))1 <201>
 INSERT(2) (#316U:#77G)Statement.Expression.Primary.SimpleMethodInvocation(validate#0)()[0](49L,8C-18C(1429-1439))2 <76-77>
 INSERT(5) (#390U:#164G)LocalVariableDeclaration(true,message[0)[0](88L,16C-90C(2599-2673))5 [(#388U:#162G)] <159-161;163-164>
 INSERT(1) (#336U:#88G)NamedArguments(shouldSetProperty)[0](52L,30C-31C(1541-1542))1 <88>
 INSERT(2) (#271U:#33G)Modifiers(counter#p)[0](30L,25C-29C(1083-1087))2 <32-33>
 INSERT(1) (#418U:#120G)NamedArguments(shouldSetProperty)[0](70L,29C-30C(2100-2101))1 <120>
 INSERT(7) (#427U:#212G)Method(validate()V)[9](94L,4C-106L,4C(2773-3193))7 [(#460U:#199G);(#475U:#210G)] <178-182;211-212>
-INSERT(2) (#472U:#202G)Primary.SimpleMethodInvocation(shouldSetProperty#0)[1](102L,32C-50C(3023-3041))2 <201-202>
 INSERT(2) (#396U:#170G)Statement.Expression.Primary.SimpleMethodInvocation(registerError#1)()[1](89L,16C-61C(2691-2736))2 [(#394U:#168G)] <169-170>
 INSERT(2) (#358U:#116G)Modifiers(line#p)[0](68L,24C-28C(2045-2049))2 <115-116>
 INSERT(5) (#417U:#126G)Block(block)[1](71L,8C-73L,8C(2113-2157))5 <122-126>

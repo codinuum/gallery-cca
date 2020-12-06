@@ -1,30 +1,35 @@
-MOVE#12M(4):PERMUTATION (#509U:#505G)Primary.PrimaryMethodInvocation(getBooleanProperty#1)[0](228L,20C-54C(4933-4967))4 -> (#1031U:#287G)Primary.PrimaryMethodInvocation(getBooleanProperty#1)[0](172L,12C-50C(4677-4715))4 <502-505>
+MOVE#2M(4):PERMUTATION (#509U:#505G)Primary.PrimaryMethodInvocation(getBooleanProperty#1)[0](228L,20C-54C(4933-4967))4 -> (#1031U:#287G)Primary.PrimaryMethodInvocation(getBooleanProperty#1)[0](172L,12C-50C(4677-4715))4 <502-505>
+MOVE(GROUP)(5)#8M:PERMUTATION:
+|- MOVE#98M(3):PERMUTATION (#481U:#477G)MethodBody(TSsetBuffer(LView;LBuffer;)V)[3](213L,1C-220L,1C(4632-4746))3 [(#478U:#474G)] -> (#1209U:#454G)MethodBody(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)[4](219L,1C-238L,1C(5592-5998))3 [(#1140U:#394G);(#1147U:#401G);(#1150U:#404G);(#1180U:#425G);(#1206U:#451G)] <475-477>
+|- MOVE#97M(1):PERMUTATION (#472U:#468G)Primary.Name(buffer)[0](217L,19C-24C(4725-4730))1 -> (#1199U:#444G)Primary.Name(scriptString)[1](235L,24C-35C(5965-5976))1 <468>
+|- MOVE#99M(1):PERMUTATION (#466U:#463G)NamedArguments(java.lang.Runnable)[1](214L,41C-42C(4675-4676))1 -> (#1181U:#427G)NamedArguments(java.lang.Runnable)[1](229L,41C-42C(5821-5822))1 <463>
 MOVE(GROUP)(6)#19M:
-|- MOVE#91M(5) (#334U:#321G)Statement.Expression.AssignmentOperator.Eq()()[0](160L,5C-36C(3634-3665))5 [(#329U:#316G)] -> (#1057U:#306G)Statement.Expression.AssignmentOperator.Eq()()[1](182L,4C-32C(4929-4957))5 [(#1052U:#301G)] <317-321>
-|- MOVE#92M(1) (#327U:#314G)Primary.Name(retVal)[0](160L,5C-10C(3634-3639))1 -> (#1052U:#301G)Primary.Name(buffer)[0](182L,4C-9C(4929-4934))1 <314>
+|- MOVE#104M(5) (#334U:#321G)Statement.Expression.AssignmentOperator.Eq()()[0](160L,5C-36C(3634-3665))5 [(#329U:#316G)] -> (#1057U:#306G)Statement.Expression.AssignmentOperator.Eq()()[1](182L,4C-32C(4929-4957))5 [(#1052U:#301G)] <317-321>
+|- MOVE#105M(1) (#327U:#314G)Primary.Name(retVal)[0](160L,5C-10C(3634-3639))1 -> (#1052U:#301G)Primary.Name(buffer)[0](182L,4C-9C(4929-4934))1 <314>
 MOVE#20M(4) (#284U:#280G)Primary.PrimaryMethodInvocation(newView#2)[0](143L,16C-144L,11C(3316-3363))4 [(#281U:#277G)] -> (#1071U:#320G)Statement.Expression.Primary.PrimaryMethodInvocation(newView#2)()[2](187L,4C-30C(5036-5062))4 [(#1068U:#317G)] <274;278-280>
-MOVE#28M(3) (#390U:#377G)NamedArguments(openFiles)[1](180L,32C-44C(4045-4057))3 -> (#995U:#333G)NamedArguments(openFiles)[1](194L,18C-35C(5187-5204))3 [(#992U:#330G)] <375-377>
-MOVE#41M(2) (#354U:#351G)Parameter(parent,0,)[0](172L,28C-46C(3840-3858))2 [(#352U:#349G)] -> (#962U:#242G)Parameter(parent,0,)[1](152L,50C-62C(4160-4172))2 <350-351>
+MOVE#36M(2) (#354U:#351G)Parameter(parent,0,)[0](172L,28C-46C(3840-3858))2 [(#352U:#349G)] -> (#962U:#242G)Parameter(parent,0,)[1](152L,50C-62C(4160-4172))2 <350-351>
+MOVE#38M(3) (#390U:#377G)NamedArguments(openFiles)[1](180L,32C-44C(4045-4057))3 -> (#995U:#333G)NamedArguments(openFiles)[1](194L,18C-35C(5187-5204))3 [(#992U:#330G)] <375-377>
 MOVE(GROUP)(2)#18M:PERMUTATION:
-|- MOVE#94M(1):PERMUTATION (#669U:#634G)Statement.If(3f550e11e9ef1320f476a2f3f950e303;Expression.BinaryOperator.And)[12](267L,2C-268L,32C(5789-5851))1 [(#668U:#629G);(#663U:#633G)] -> (#1046U:#295G)Statement.If(f85e7df3a2255a2ffc05aea9904f9c4a;Primary.Name())[1](168L,3C-177L,3C(4564-4796))1 [(#1045U:#273G);(#1044U:#294G)] <634>
-|- MOVE#93M(1) (#664U:#628G)Primary.Name(restore)[1](267L,23C-29C(5810-5816))1 -> (#1045U:#273G)Primary.Name(restore)[0](168L,6C-12C(4567-4573))1 <628>
-MOVE#42M(2) (#358U:#355G)Parameter(args,0,)[1](172L,49C-67C(3861-3879))2 [(#356U:#353G)] -> (#964U:#244G)Parameter(args,0,)[2](153L,2C-14C(4177-4189))2 <354-355>
+|- MOVE#107M(1):PERMUTATION (#669U:#634G)Statement.If(3f550e11e9ef1320f476a2f3f950e303;Expression.BinaryOperator.And)[12](267L,2C-268L,32C(5789-5851))1 [(#668U:#629G);(#663U:#633G)] -> (#1046U:#295G)Statement.If(f85e7df3a2255a2ffc05aea9904f9c4a;Primary.Name())[1](168L,3C-177L,3C(4564-4796))1 [(#1045U:#273G);(#1044U:#294G)] <634>
+|- MOVE#106M(1) (#664U:#628G)Primary.Name(restore)[1](267L,23C-29C(5810-5816))1 -> (#1045U:#273G)Primary.Name(restore)[0](168L,6C-12C(4567-4573))1 <628>
+MOVE#25M(1) (#560U:#586G)Statement.Expression.Primary.TypeMethodInvocation(org.gjt.sp.util.Log,log#3)()[0](253L,5C-255L,31C(5510-5598))1 [(#559U:#585G)] -> (#1196U:#441G)Statement.Expression.Primary.TypeMethodInvocation(org.gjt.sp.util.Log,log#3)()[1](234L,4C-40C(5903-5939))1 [(#1195U:#440G)] <586>
+MOVE#37M(2) (#358U:#355G)Parameter(args,0,)[1](172L,49C-67C(3861-3879))2 [(#356U:#353G)] -> (#964U:#244G)Parameter(args,0,)[2](153L,2C-14C(4177-4189))2 <354-355>
 MOVE#15M(3):PERMUTATION (#686U:#648G)Primary.PrimaryMethodInvocation(getFirstView#0)[1](275L,10C-29C(5947-5966))3 -> (#1086U:#259G)Primary.PrimaryMethodInvocation(getFirstView#0)[0](160L,5C-24C(4365-4384))3 <646-648>
-MOVE(GROUP)(13)#38M:PERMUTATION:
-|- MOVE#100M(6):PERMUTATION (#271U:#296G)Method(TSnewView(LBuffer;)V)[8](138L,1C-149L,1C(3181-3423))6 [(#263U:#260G);(#267U:#264G);(#299U:#295G)] -> (#966U:#345G)Method(handleClient(ZLjava.lang.String;[Ljava.lang.String;)V)[3](152L,1C-202L,1C(4111-5299))6 [(#955U:#235G);(#956U:#236G);(#962U:#242G);(#964U:#244G);(#1090U:#344G)] <261-262;265-267;296>
-|- MOVE#98M(3) (#286U:#282G)LocalVariableDeclaration(true,view[0)[0](143L,4C-144L,12C(3304-3364))3 [(#284U:#280G)] -> (#990U:#328G)LocalVariableDeclaration(true,view[0)[0](192L,3C-35C(5134-5166))3 [(#988U:#326G)] <273;281-282>
-|- MOVE#99M(3) (#281U:#277G)Primary.PrimaryMethodInvocation(getFirstView#0)[0](143L,30C-49C(3330-3349))3 -> (#988U:#326G)Primary.PrimaryMethodInvocation(getFirstView#0)[0](192L,15C-34C(5146-5165))3 <275-277>
-|- MOVE#97M(1) (#272U:#269G)NamedArguments(java.lang.Runnable)[1](140L,41C-42C(3269-3270))1 -> (#974U:#253G)NamedArguments(getBooleanProperty)[1](157L,44C-61C(4269-4286))1 [(#973U:#252G)] <269>
-MOVE#11M(10):PERMUTATION (#398U:#385G)Statement.Expression.Primary.TypeMethodInvocation(javax.swing.SwingUtilities,invokeAndWait#1)()[0](177L,3C-182L,5C(3939-4071))10 [(#382U:#370G);(#392U:#379G)] -> (#1208U:#453G)Statement.Expression.Primary.TypeMethodInvocation(javax.swing.SwingUtilities,invokeLater#1)()[4](229L,2C-237L,4C(5782-5995))10 [(#1184U:#430G);(#1191U:#436G);(#1196U:#441G);(#1202U:#447G)] <366-369;380-385>
-MOVE(GROUP)(16)#6M:PERMUTATION:
-|- MOVE#96M(13):PERMUTATION (#712U:#669G)MethodBody(handleClient(Ljava.net.Socket;Ljava.io.BufferedReader;)V)[4](224L,1C-285L,1C(4832-6099))13 [(#496U:#492G);(#504U:#500G);(#511U:#507G);(#515U:#511G);(#519U:#515G);(#525U:#521G);(#528U:#524G);(#634U:#604G);(#643U:#613G);(#647U:#617G);(#654U:#624G);(#669U:#634G);(#680U:#642G);(#690U:#650G);(#710U:#653G);(#700U:#657G);(#696U:#667G)] -> (#1090U:#344G)MethodBody(handleClient(ZLjava.lang.String;[Ljava.lang.String;)V)[3](154L,1C-202L,1C(4193-5299))13 [(#970U:#249G);(#972U:#251G);(#974U:#253G);(#1088U:#263G);(#1081U:#322G);(#990U:#328G);(#996U:#334G);(#1003U:#341G)] <493-496;658-664;668-669>
-|- MOVE#95M(3) (#710U:#653G)Expression.BinaryOperator.Neq[0](277L,5C-16C(5975-5986))3 -> (#1079U:#310G)Expression.BinaryOperator.Neq[0](184L,6C-24C(4966-4984))3 <651-653>
+MOVE(GROUP)(14)#35M:PERMUTATION:
+|- MOVE#111M(7):PERMUTATION (#271U:#296G)Method(TSnewView(LBuffer;)V)[8](138L,1C-149L,1C(3181-3423))7 [(#267U:#264G);(#299U:#295G)] -> (#966U:#345G)Method(handleClient(ZLjava.lang.String;[Ljava.lang.String;)V)[3](152L,1C-202L,1C(4111-5299))7 [(#956U:#236G);(#962U:#242G);(#964U:#244G);(#1090U:#344G)] <260-262;265-267;296>
+|- MOVE#109M(3) (#286U:#282G)LocalVariableDeclaration(true,view[0)[0](143L,4C-144L,12C(3304-3364))3 [(#284U:#280G)] -> (#990U:#328G)LocalVariableDeclaration(true,view[0)[0](192L,3C-35C(5134-5166))3 [(#988U:#326G)] <273;281-282>
+|- MOVE#110M(3) (#281U:#277G)Primary.PrimaryMethodInvocation(getFirstView#0)[0](143L,30C-49C(3330-3349))3 -> (#988U:#326G)Primary.PrimaryMethodInvocation(getFirstView#0)[0](192L,15C-34C(5146-5165))3 <275-277>
+|- MOVE#108M(1) (#272U:#269G)NamedArguments(java.lang.Runnable)[1](140L,41C-42C(3269-3270))1 -> (#974U:#253G)NamedArguments(getBooleanProperty)[1](157L,44C-61C(4269-4286))1 [(#973U:#252G)] <269>
+MOVE(GROUP)(16)#7M:PERMUTATION:
+|- MOVE#103M(13):PERMUTATION (#712U:#669G)MethodBody(handleClient(Ljava.net.Socket;Ljava.io.BufferedReader;)V)[4](224L,1C-285L,1C(4832-6099))13 [(#496U:#492G);(#504U:#500G);(#511U:#507G);(#515U:#511G);(#519U:#515G);(#525U:#521G);(#528U:#524G);(#634U:#604G);(#643U:#613G);(#647U:#617G);(#654U:#624G);(#669U:#634G);(#680U:#642G);(#690U:#650G);(#710U:#653G);(#700U:#657G);(#696U:#667G)] -> (#1090U:#344G)MethodBody(handleClient(ZLjava.lang.String;[Ljava.lang.String;)V)[3](154L,1C-202L,1C(4193-5299))13 [(#970U:#249G);(#972U:#251G);(#974U:#253G);(#1088U:#263G);(#1081U:#322G);(#990U:#328G);(#996U:#334G);(#1003U:#341G)] <493-496;658-664;668-669>
+|- MOVE#102M(3) (#710U:#653G)Expression.BinaryOperator.Neq[0](277L,5C-16C(5975-5986))3 -> (#1079U:#310G)Expression.BinaryOperator.Neq[0](184L,6C-24C(4966-4984))3 <651-653>
+MOVE#44M(10):PERMUTATION (#296U:#292G)Primary.InstanceCreation(java.lang.Runnable.<init>#0)[0](140L,29C-148L,2C(3257-3418))10 [(#272U:#269G);(#286U:#282G);(#288U:#284G);(#292U:#288G)] -> (#1206U:#451G)Primary.InstanceCreation(java.lang.Runnable.<init>#0)[0](229L,29C-237L,2C(5809-5993))10 [(#1181U:#427G);(#1191U:#436G);(#1196U:#441G);(#1201U:#446G)] <268;270-272;283;285;289-292>
 MOVE#17M(7):PERMUTATION (#654U:#624G)LocalVariableDeclaration(true,buffer[0)[11](265L,2C-43C(5743-5784))7 -> (#1013U:#272G)LocalVariableDeclaration(true,buffer[0)[0](166L,3C-52C(4509-4558))7 [(#1006U:#265G);(#1007U:#266G)] <618-624>
 MOVE(GROUP)(5)#22M:
-|- MOVE#89M(4) (#439U:#426G)Statement.Expression.AssignmentOperator.Eq()()[0](200L,5C-41C(4384-4420))4 [(#435U:#422G)] -> (#1037U:#283G)Statement.Expression.AssignmentOperator.Eq()()[1](171L,5C-43C(4625-4663))4 [(#1033U:#279G)] <423-426>
-|- MOVE#90M(1) (#433U:#420G)Primary.Name(retVal)[0](200L,5C-10C(4384-4389))1 -> (#1033U:#279G)Primary.Name(splitConfig)[0](171L,5C-15C(4625-4635))1 <420>
-MOVE#30M(5):PERMUTATION (#376U:#393G)Statement.Expression.Primary.TypeMethodInvocation(org.gjt.sp.util.Log,log#3)()[0](186L,3C-28C(4105-4130))5 -> (#1196U:#441G)Statement.Expression.Primary.TypeMethodInvocation(org.gjt.sp.util.Log,log#3)()[1](234L,4C-40C(5903-5939))5 <389-393>
+|- MOVE#100M(4) (#439U:#426G)Statement.Expression.AssignmentOperator.Eq()()[0](200L,5C-41C(4384-4420))4 [(#435U:#422G)] -> (#1037U:#283G)Statement.Expression.AssignmentOperator.Eq()()[1](171L,5C-43C(4625-4663))4 [(#1033U:#279G)] <423-426>
+|- MOVE#101M(1) (#433U:#420G)Primary.Name(retVal)[0](200L,5C-10C(4384-4389))1 -> (#1033U:#279G)Primary.Name(splitConfig)[0](171L,5C-15C(4625-4635))1 <420>
 MOVE#16M(1):PERMUTATION (#589U:#556G)Primary.Name(newView)[0](246L,5C-11C(5328-5334))1 -> (#1082U:#262G)Primary.Name(newView)[1](160L,37C-43C(4397-4403))1 <556>
+RELABEL (#524U:#520G)VariableDeclarator(args,0,true)[1](232L,9C-27C(5027-5045))1 [(#523U:#519G)] -> (#1146U:#400G)VariableDeclarator(buf,0,true)[1](221L,9C-28C(5653-5672))1 [(#1145U:#399G)]
 RELABEL (#528U:#524G)LocalVariableDeclaration(true,command[0)[7](234L,2C-16C(5051-5065))1 [(#526U:#522G);(#527U:#523G)] -> (#1150U:#404G)LocalVariableDeclaration(true,count[0)[2](222L,2C-11C(5677-5686))1 [(#1148U:#402G);(#1149U:#403G)]
 MOVREL (#650U:#620G)Primary.Name(_args)[1](265L,37C-41C(5778-5782))1 -> (#1009U:#268G)Primary.Name(args)[2](166L,47C-50C(4553-4556))1
 RELABEL (#527U:#523G)VariableDeclarator(command,0,true)[1](234L,9C-15C(5058-5064))1 -> (#1149U:#403G)VariableDeclarator(count,0,true)[1](222L,6C-10C(5681-5685))1
@@ -33,9 +38,9 @@ RELABEL (#511U:#507G)LocalVariableDeclaration(true,restore[0)[3](228L,2C-55C(491
 RELABEL (#559U:#585G)NamedArguments(log)[0](253L,12C-255L,30C(5517-5597))1 [(#550U:#576G);(#551U:#577G);(#558U:#584G)] -> (#1155U:#422G)NamedArguments(append)[1](226L,16C-28C(5760-5772))1 [(#1152U:#419G);(#1153U:#420G);(#1154U:#421G)]
 RELABEL (#552U:#583G)Primary.Name(command)[1](255L,23C-29C(5590-5596))1 -> (#1154U:#421G)Primary.Name(count)[2](226L,23C-27C(5767-5771))1
 RELABEL (#632U:#530G)Primary.Paren(78d0580190da465a58711834a350e640;Expression.AssignmentOperator.Eq())[0](235L,8C-32C(5075-5099))1 [(#631U:#529G)] -> (#1178U:#414G)Primary.Paren(47c50d946e9235d98b538424a4fe1fde;Expression.AssignmentOperator.Eq())[0](224L,8C-42C(5697-5731))1 [(#1177U:#413G)]
+RELABEL (#520U:#516G)Type.ClassOrInterface(java.util.Vector)[0](232L,2C-7C(5020-5025))1 -> (#1141U:#395G)Type.Array(Char,1)[0](221L,2C-7C(5646-5651))1
 MOVREL (#433U:#420G)Primary.Name(retVal)[0](200L,5C-10C(4384-4389))1 -> (#1033U:#279G)Primary.Name(splitConfig)[0](171L,5C-15C(4625-4635))1
 MOVREL (#271U:#296G)Method(TSnewView(LBuffer;)V)[8](138L,1C-149L,1C(3181-3423))1 [(#264U:#261G);(#265U:#262G);(#270U:#267G);(#299U:#295G)] -> (#966U:#345G)Method(handleClient(ZLjava.lang.String;[Ljava.lang.String;)V)[3](152L,1C-202L,1C(4111-5299))1 [(#957U:#237G);(#958U:#238G);(#965U:#245G);(#1090U:#344G)]
-RELABEL (#646U:#616G)NamedArguments(copyInto)[1](264L,15C-21C(5732-5738))1 [(#645U:#615G)] -> (#1201U:#446G)NamedArguments(eval)[1](235L,18C-42C(5959-5983))1 [(#1198U:#443G);(#1199U:#444G);(#1200U:#445G)]
 MOVREL (#268U:#265G)Type.ClassOrInterface(Buffer)[1](138L,30C-35C(3210-3215))1 -> (#959U:#239G)Type.Boolean[0](152L,33C-39C(4143-4149))1
 MOVREL (#270U:#267G)Parameters(TSnewView)[2](138L,23C-43C(3203-3223))1 [(#269U:#266G)] -> (#965U:#245G)Parameters(handleClient)[2](152L,32C-153L,15C(4142-4190))1 [(#960U:#240G);(#962U:#242G);(#964U:#244G)]
 MOVREL (#652U:#622G)Primary.SimpleMethodInvocation(TSopenFiles#2)[0](265L,18C-42C(5759-5783))1 [(#651U:#621G)] -> (#1011U:#270G)Primary.PrimaryMethodInvocation(openFiles#3)[0](166L,19C-51C(4525-4557))1 [(#1006U:#265G);(#1010U:#269G)]
@@ -44,15 +49,17 @@ MOVREL (#507U:#503G)Primary.Literal.String(restore)[0](228L,45C-53C(4958-4966))1
 MOVREL (#669U:#634G)Statement.If(3f550e11e9ef1320f476a2f3f950e303;Expression.BinaryOperator.And)[12](267L,2C-268L,32C(5789-5851))1 [(#668U:#629G);(#663U:#633G)] -> (#1046U:#295G)Statement.If(f85e7df3a2255a2ffc05aea9904f9c4a;Primary.Name())[1](168L,3C-177L,3C(4564-4796))1 [(#1045U:#273G);(#1044U:#294G)]
 RELABEL (#551U:#577G)Primary.This[1](253L,23C-26C(5528-5531))1 -> (#1153U:#420G)Primary.Literal.Integer(0)[1](226L,21C-21C(5765-5765))1
 RELABEL (#487U:#484G)Type.ClassOrInterface(java.io.BufferedReader)[0](222L,42C-55C(4791-4804))1 -> (#1127U:#382G)Type.ClassOrInterface(java.io.Reader)[0](217L,42C-47C(5559-5564))1
-MOVREL (#397U:#384G)NamedArguments(invokeAndWait)[0](177L,31C-182L,4C(3967-4070))1 [(#396U:#383G)] -> (#1207U:#452G)NamedArguments(invokeLater)[0](229L,28C-237L,3C(5808-5994))1 [(#1206U:#451G)]
 RELABEL (#525U:#521G)LocalVariableDeclaration(true,args[0)[6](232L,2C-28C(5020-5046))1 [(#520U:#516G);(#524U:#520G)] -> (#1147U:#401G)LocalVariableDeclaration(true,buf[0)[1](221L,2C-29C(5646-5673))1 [(#1141U:#395G);(#1146U:#400G)]
-MOVREL (#374U:#391G)Primary.Name(e)[2](186L,26C-26C(4128-4128))1 -> (#1194U:#439G)Primary.Name(scriptString)[2](234L,27C-38C(5926-5937))1
-RELABEL (#647U:#617G)Statement.Expression.Primary.PrimaryMethodInvocation(copyInto#1)()[10](264L,2C-22C(5719-5739))1 [(#644U:#614G);(#646U:#616G)] -> (#1202U:#447G)Statement.Expression.Primary.PrimaryMethodInvocation(eval#3)()[2](235L,4C-43C(5945-5984))1 [(#1197U:#442G);(#1201U:#446G)]
+MOVREL (#472U:#468G)Primary.Name(buffer)[0](217L,19C-24C(4725-4730))1 -> (#1199U:#444G)Primary.Name(scriptString)[1](235L,24C-35C(5965-5976))1
+MOVREL (#289U:#285G)Statement.Expression.Primary.PrimaryMethodInvocation(requestFocus#0)()[1](145L,4C-23C(3370-3389))1 [(#287U:#283G);(#288U:#284G)] -> (#1202U:#447G)Statement.Expression.Primary.PrimaryMethodInvocation(eval#3)()[2](235L,4C-43C(5945-5984))1 [(#1197U:#442G);(#1201U:#446G)]
 MOVREL (#498U:#494G)Primary.Literal.False[0](226L,20C-24C(4882-4886))1 -> (#975U:#254G)Primary.PrimaryMethodInvocation(getBooleanProperty#1)[0](157L,20C-61C(4245-4286))1 [(#972U:#251G);(#974U:#253G)]
+MOVREL (#263U:#260G)Modifier.Private[0](138L,1C-7C(3181-3187))1 -> (#955U:#235G)Modifier.Public[0](152L,1C-6C(4111-4116))1
 RELABEL (#629U:#527G)NamedArguments(readLine)[1](235L,30C-31C(5097-5098))1 -> (#1175U:#411G)NamedArguments(read)[1](224L,24C-41C(5713-5730))1 [(#1171U:#407G);(#1172U:#408G);(#1174U:#410G)]
+RELABEL (#522U:#517G)Type.ClassOrInterface(java.util.Vector)[0](232L,20C-25C(5038-5043))1 -> (#1144U:#396G)Type.Char[0](221L,19C-22C(5663-5666))1
 RELABEL (#505U:#501G)Type.Boolean[0](228L,2C-8C(4915-4921))1 -> (#1135U:#389G)Type.ClassOrInterface(java.lang.StringBuffer)[1](220L,8C-19C(5602-5613))1
 RELABEL (#643U:#613G)LocalVariableDeclaration(true,_args[0)[9](263L,2C-42C(5675-5715))1 [(#635U:#605G);(#642U:#612G)] -> (#1191U:#436G)LocalVariableDeclaration(true,scriptString[0)[0](233L,4C-43C(5858-5897))1 [(#1186U:#431G);(#1190U:#435G)]
 MOVREL (#272U:#269G)NamedArguments(java.lang.Runnable)[1](140L,41C-42C(3269-3270))1 -> (#974U:#253G)NamedArguments(getBooleanProperty)[1](157L,44C-61C(4269-4286))1 [(#973U:#252G)]
+RELABEL (#523U:#519G)Primary.InstanceCreation(java.util.Vector.<init>#0)[0](232L,16C-27C(5034-5045))1 [(#522U:#517G);(#521U:#518G)] -> (#1145U:#399G)Primary.ArrayCreationDims(0)[0](221L,15C-28C(5659-5672))1 [(#1144U:#396G);(#1143U:#398G)]
 RELABEL (#492U:#670G)Method(handleClient(Ljava.net.Socket;Ljava.io.BufferedReader;)V)[13](222L,1C-285L,1C(4750-6099))1 [(#483U:#480G);(#484U:#481G);(#489U:#486G);(#491U:#488G);(#712U:#669G)] -> (#1132U:#455G)Method(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)[9](217L,1C-238L,1C(5518-5998))1 [(#1123U:#378G);(#1124U:#379G);(#1129U:#384G);(#1131U:#386G);(#1209U:#454G)]
 RELABEL (#550U:#576G)Primary.Name(org.gjt.sp.util.Log.ERROR)[0](253L,13C-21C(5518-5526))1 -> (#1152U:#419G)Primary.Name(buf)[0](226L,17C-19C(5761-5763))1
 RELABEL (#510U:#506G)VariableDeclarator(restore,0,true)[1](228L,10C-54C(4923-4967))1 [(#509U:#505G)] -> (#1139U:#393G)VariableDeclarator(script,0,true)[2](220L,21C-47C(5615-5641))1 [(#1138U:#392G)]
@@ -61,33 +68,31 @@ MOVREL (#269U:#266G)Parameter(buffer,0,)[0](138L,24C-42C(3204-3222))1 [(#267U:#2
 MOVREL (#284U:#280G)Primary.PrimaryMethodInvocation(newView#2)[0](143L,16C-144L,11C(3316-3363))1 [(#278U:#274G);(#283U:#279G)] -> (#1071U:#320G)Statement.Expression.Primary.PrimaryMethodInvocation(newView#2)()[2](187L,4C-30C(5036-5062))1 [(#1067U:#316G);(#1070U:#319G)]
 RELABEL (#42U:#33G)Primary.InstanceCreation(java.net.ServerSocket.<init>#1)[1](43L,12C-30C(1250-1268))1 [(#41U:#30G);(#40U:#32G)] -> (#764U:#38G)Primary.InstanceCreation(java.net.ServerSocket.<init>#3)[1](61L,12C-62L,38C(2159-2220))1 [(#763U:#31G);(#762U:#37G)]
 MOVREL (#709U:#651G)Primary.Name(view)[0](277L,5C-8C(5975-5978))1 -> (#1078U:#308G)Primary.Name(splitConfig)[0](184L,6C-16C(4966-4976))1
-MOVREL (#398U:#385G)Statement.Expression.Primary.TypeMethodInvocation(javax.swing.SwingUtilities,invokeAndWait#1)()[0](177L,3C-182L,5C(3939-4071))1 [(#397U:#384G)] -> (#1208U:#453G)Statement.Expression.Primary.TypeMethodInvocation(javax.swing.SwingUtilities,invokeLater#1)()[4](229L,2C-237L,4C(5782-5995))1 [(#1207U:#452G)]
 MOVREL (#651U:#621G)NamedArguments(TSopenFiles)[0](265L,29C-42C(5770-5783))1 [(#649U:#619G);(#650U:#620G)] -> (#1010U:#269G)NamedArguments(openFiles)[1](166L,34C-51C(4540-4557))1 [(#1007U:#266G);(#1008U:#267G);(#1009U:#268G)]
 RELABEL (#627U:#525G)Primary.Name(command)[0](235L,9C-15C(5076-5082))1 -> (#1169U:#405G)Primary.Name(count)[0](224L,9C-13C(5698-5702))1
 MOVREL (#264U:#261G)Modifiers(TSnewView#m)[0](138L,1C-7C(3181-3187))1 [(#263U:#260G)] -> (#957U:#237G)Modifiers(handleClient#m)[0](152L,1C-13C(4111-4123))1 [(#955U:#235G);(#956U:#236G)]
 RELABEL (#621U:#531G)Primary.Literal.Null[1](235L,37C-40C(5104-5107))1 -> (#1159U:#416G)Expression.UnaryOperator.Negative[1](224L,47C-48C(5736-5737))1 [(#1158U:#415G)]
-RELABEL (#645U:#615G)Primary.Name(_args)[0](264L,16C-20C(5733-5737))1 -> (#1199U:#444G)Primary.Name(scriptString)[1](235L,24C-35C(5965-5976))1
-MOVREL (#372U:#389G)Primary.Name(org.gjt.sp.util.Log.ERROR)[0](186L,11C-19C(4113-4121))1 -> (#1192U:#437G)Primary.Name(org.gjt.sp.util.Log.DEBUG)[0](234L,12C-20C(5911-5919))1
-RELABEL (#644U:#614G)Primary.Name(args)[0](264L,2C-5C(5719-5722))1 -> (#1197U:#442G)Primary.FieldAccess(BeanShell)[0](235L,4C-12C(5945-5953))1
+MOVREL (#481U:#477G)MethodBody(TSsetBuffer(LView;LBuffer;)V)[3](213L,1C-220L,1C(4632-4746))1 [(#480U:#476G)] -> (#1209U:#454G)MethodBody(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)[4](219L,1C-238L,1C(5592-5998))1 [(#1140U:#394G);(#1147U:#401G);(#1150U:#404G);(#1180U:#425G);(#1208U:#453G)]
 MOVREL (#712U:#669G)MethodBody(handleClient(Ljava.net.Socket;Ljava.io.BufferedReader;)V)[4](224L,1C-285L,1C(4832-6099))1 [(#496U:#492G);(#500U:#496G);(#504U:#500G);(#511U:#507G);(#515U:#511G);(#519U:#515G);(#525U:#521G);(#528U:#524G);(#634U:#604G);(#643U:#613G);(#647U:#617G);(#654U:#624G);(#669U:#634G);(#680U:#642G);(#690U:#650G);(#711U:#668G)] -> (#1090U:#344G)MethodBody(handleClient(ZLjava.lang.String;[Ljava.lang.String;)V)[3](154L,1C-202L,1C(4193-5299))1 [(#970U:#249G);(#977U:#256G);(#1089U:#343G)]
 RELABEL (#630U:#528G)Primary.PrimaryMethodInvocation(readLine#0)[1](235L,19C-31C(5086-5098))1 [(#628U:#526G);(#629U:#527G)] -> (#1176U:#412G)Primary.PrimaryMethodInvocation(read#3)[1](224L,17C-41C(5706-5730))1 [(#1170U:#406G);(#1175U:#411G)]
+MOVREL (#287U:#283G)Primary.Name(view)[0](145L,4C-7C(3370-3373))1 -> (#1197U:#442G)Primary.FieldAccess(BeanShell)[0](235L,4C-12C(5945-5953))1
 MOVREL (#711U:#668G)Statement.If(f5bd0d8eb35083d4b2745662e017042e;Expression.BinaryOperator.Neq)[15](277L,2C-284L,20C(5972-6096))1 [(#710U:#653G);(#707U:#664G);(#696U:#667G)] -> (#1089U:#343G)Statement.If(5d6755e4dd2e4af9708b3eb06031fbd7;Expression.BinaryOperator.Or)[2](160L,2C-201L,2C(4362-5296))1 [(#1088U:#263G);(#1081U:#322G);(#1004U:#342G)]
-DELETE(29) (#465U:#478G)Method(TSsetBuffer(LView;LBuffer;)V)[12](212L,1C-220L,1C(4568-4746))29 <450-478>
-DELETE(17) (#299U:#295G)MethodBody(TSnewView(LBuffer;)V)[3](139L,1C-149L,1C(3226-3423))17 [(#272U:#269G);(#286U:#282G)] <268;270-272;283-295>
-DELETE(25) (#360U:#402G)Method(TSopenFiles(Ljava.lang.String;[Ljava.lang.String;)LBuffer;)[10](172L,1C-189L,1C(3813-4157))25 [(#354U:#351G);(#358U:#355G);(#398U:#385G);(#376U:#393G)] <345-347;356-365;386-388;394-402>
+DELETE(13) (#465U:#478G)Method(TSsetBuffer(LView;LBuffer;)V)[12](212L,1C-220L,1C(4568-4746))13 [(#481U:#477G)] <450-461;478>
+DELETE(3) (#299U:#295G)MethodBody(TSnewView(LBuffer;)V)[3](139L,1C-149L,1C(3226-3423))3 [(#296U:#292G)] <293-295>
+DELETE(47) (#360U:#402G)Method(TSopenFiles(Ljava.lang.String;[Ljava.lang.String;)LBuffer;)[10](172L,1C-189L,1C(3813-4157))47 [(#354U:#351G);(#358U:#355G);(#390U:#377G)] <345-347;356-374;378-402>
+DELETE(1) (#521U:#518G)NamedArguments(java.util.Vector)[1](232L,26C-27C(5044-5045))1 <518>
 DELETE(5) (#690U:#650G)Statement.If(251c6c92967d4593e5499f4fa1b20d30;Expression.UnaryOperator.Not)[14](274L,2C-275L,30C(5924-5967))5 [(#686U:#648G)] <643-645;649-650>
 DELETE(40) (#303U:#344G)Method(TSnewFile()LBuffer;)[9](152L,1C-169L,1C(3471-3764))40 [(#334U:#321G)] <297-313;322-344>
 DELETE(4) (#663U:#633G)Statement.Expression.AssignmentOperator.Eq()()[1](268L,3C-32C(5822-5851))4 <630-633>
 DELETE(8) (#680U:#642G)Statement.If(d24439448586484332f1159f6f471e75;Expression.BinaryOperator.Eq)[13](270L,2C-271L,23C(5856-5898))8 <635-642>
 DELETE(4) (#515U:#511G)LocalVariableDeclaration(true,endOpts[0)[4](229L,2C-25C(4972-4995))4 <508-511>
 DELETE(1) (#6U:#6G)IDsingle(java.util.Vector)[4](26L,0C-23C(908-931))1 <6>
-DELETE(1) (#382U:#370G)Type.Void[1](178L,11C-14C(3996-3999))1 <370>
 DELETE(6) (#558U:#584G)Expression.BinaryOperator.Add[2](253L,28C-255L,29C(5533-5596))6 [(#552U:#583G)] <578-582;584>
 DELETE(2) (#352U:#349G)Modifiers(parent#p)[0](172L,28C-32C(3840-3844))2 <348-349>
 DELETE(2) (#329U:#316G)Primary.ArrayAccess[0](160L,5C-13C(3634-3642))2 [(#327U:#314G)] <315-316>
 DELETE(2) (#435U:#422G)Primary.ArrayAccess[0](200L,5C-13C(4384-4392))2 [(#433U:#420G)] <421-422>
 DELETE(2) (#267U:#264G)Modifiers(buffer#p)[0](138L,24C-28C(3204-3208))2 <263-264>
-DELETE(59) (#619U:#602G)Statement.If(f614decea335bf81f5dc944070e0bdfc;Primary.Name())[0](237L,3C-260L,3C(5117-5666))59 [(#589U:#556G);(#559U:#585G)] <533-555;557-575;586-602>
+DELETE(58) (#619U:#602G)Statement.If(f614decea335bf81f5dc944070e0bdfc;Primary.Name())[0](237L,3C-260L,3C(5117-5666))58 [(#589U:#556G);(#560U:#586G)] <533-555;557-575;587-602>
 DELETE(1) (#635U:#605G)Type.Array(ClassOrInterface(java.lang.String),1)[0](263L,2C-9C(5675-5682))1 <605>
 DELETE(2) (#356U:#353G)Modifiers(args#p)[0](172L,49C-53C(3861-3865))2 <352-353>
 DELETE(4) (#700U:#657G)Statement.Expression.Primary.SimpleMethodInvocation(TSsetBuffer#2)()[0](279L,3C-27C(5996-6020))4 <654-657>
@@ -95,42 +100,38 @@ DELETE(4) (#496U:#492G)LocalVariableDeclaration(true,readOnly[0)[0](225L,2C-26C(
 DELETE(4) (#519U:#515G)LocalVariableDeclaration(true,view[0)[5](231L,2C-18C(5000-5016))4 <512-515>
 DELETE(3) (#696U:#667G)Statement.Expression.Primary.SimpleMethodInvocation(TSnewView#1)()[2](284L,3C-20C(6079-6096))3 <665-667>
 DELETE(4) (#668U:#629G)Expression.BinaryOperator.And[0](267L,5C-29C(5792-5816))4 [(#664U:#628G)] <625-627;629>
-DELETE(1) (#263U:#260G)Modifier.Private[0](138L,1C-7C(3181-3187))1 <260>
+DELETE(11) (#478U:#474G)Primary.InstanceCreation(java.lang.Runnable.<init>#0)[0](214L,29C-219L,2C(4663-4741))11 [(#466U:#463G);(#472U:#468G)] <462;464-467;469-474>
+DELETE(4) (#647U:#617G)Statement.Expression.Primary.PrimaryMethodInvocation(copyInto#1)()[10](264L,2C-22C(5719-5739))4 <614-617>
+DELETE(1) (#288U:#284G)NamedArguments(requestFocus)[1](145L,21C-22C(3387-3388))1 <284>
 DELETE(4) (#504U:#500G)LocalVariableDeclaration(true,parent[0)[2](227L,2C-22C(4891-4911))4 <497-500>
-DELETE(4) (#524U:#520G)VariableDeclarator(args,0,true)[1](232L,9C-27C(5027-5045))4 <517-520>
+DELETE(3) (#292U:#288G)Statement.Expression.Primary.PrimaryMethodInvocation(toFront#0)()[2](146L,4C-18C(3395-3409))3 <286-288>
 DELETE(40) (#409U:#449G)Method(TSrestoreOpenFiles()LBuffer;)[11](192L,1C-209L,1C(4212-4519))40 [(#439U:#426G)] <403-419;427-449>
-DELETE(1) (#520U:#516G)Type.ClassOrInterface(java.util.Vector)[0](232L,2C-7C(5020-5025))1 <516>
 DELETE(6) (#642U:#612G)VariableDeclarator(_args,0,true)[1](263L,11C-41C(5684-5714))6 [(#640U:#606G)] <607-612>
-DELETE(6) (#392U:#379G)Statement.Expression.AssignmentOperator.Eq()()[0](180L,5C-45C(4018-4058))6 [(#390U:#377G)] <371-374;378-379>
-INSERT(1) (#1141U:#395G)Type.Array(Char,1)[0](221L,2C-7C(5646-5651))1 <395>
 INSERT(3) (#1138U:#392G)Primary.InstanceCreation(java.lang.StringBuffer.<init>#0)[0](220L,30C-47C(5624-5641))3 <390-392>
 INSERT(1) (#1003U:#341G)Statement.Return[4](200L,3C-9C(5286-5292))1 <341>
 INSERT(1) (#871U:#146G)Primary.Literal.String(UTF8)[1](108L,5C-10C(3260-3265))1 <146>
+INSERT(2) (#1143U:#398G)DimExpr[1](221L,23C-28C(5667-5672))2 <397-398>
 INSERT(13) (#1081U:#322G)Block(block)[1](161L,2C-188L,2C(4408-5066))13 [(#1013U:#272G);(#1046U:#295G);(#1057U:#306G);(#1079U:#310G);(#1071U:#320G)] <296-300;307;311-315;321-322>
 INSERT(1) (#758U:#33G)Primary.Literal.Integer(2)[1](61L,32C-32C(2179-2179))1 <33>
-INSERT(5) (#1146U:#400G)VariableDeclarator(buf,0,true)[1](221L,9C-28C(5653-5672))5 <396-400>
+INSERT(4) (#1195U:#440G)NamedArguments(log)[0](234L,11C-39C(5910-5938))4 <437-440>
 INSERT(3) (#1088U:#263G)Expression.BinaryOperator.Or[0](160L,5C-43C(4365-4403))3 [(#1086U:#259G);(#1082U:#262G)] <260-261;263>
 INSERT(1) (#973U:#252G)Primary.Literal.String(client.newView)[0](157L,45C-60C(4270-4285))1 <252>
 INSERT(1) (#992U:#330G)Primary.Name(view)[0](194L,19C-22C(5188-5191))1 <330>
 INSERT(2) (#726U:#9G)Modifiers(EditServer#C)[0](49L,0C-5C(1851-1856))2 <8-9>
 INSERT(4) (#970U:#249G)LocalVariableDeclaration(true,splitConfig[0)[0](155L,2C-27C(4197-4222))4 <246-249>
 INSERT(1) (#956U:#236G)Modifier.Static[1](152L,8C-13C(4118-4123))1 <236>
+INSERT(3) (#1201U:#446G)NamedArguments(eval)[1](235L,18C-42C(5959-5983))3 [(#1199U:#444G)] <443;445-446>
 INSERT(3) (#761U:#36G)Primary.TypeMethodInvocation(java.net.InetAddress,getByName#1)[2](62L,4C-37C(2186-2219))3 <34-36>
 INSERT(1) (#1158U:#415G)Primary.Literal.Integer(1)[0](224L,48C-48C(5737-5737))1 <415>
 INSERT(1) (#1068U:#317G)Primary.Literal.Null[0](187L,18C-21C(5050-5053))1 <317>
 INSERT(12) (#1044U:#294G)Block(block)[1](169L,3C-177L,3C(4579-4796))12 [(#1037U:#283G);(#1031U:#287G)] <274-278;288-294>
 INSERT(2) (#996U:#334G)Statement.Expression.Primary.PrimaryMethodInvocation(openFiles#3)()[1](194L,3C-36C(5172-5205))2 [(#995U:#333G)] <329;334>
 INSERT(1) (#1171U:#407G)Primary.Name(buf)[0](224L,25C-27C(5714-5716))1 <407>
-INSERT(1) (#955U:#235G)Modifier.Public[0](152L,1C-6C(4111-4116))1 <235>
 INSERT(4) (#1190U:#435G)VariableDeclarator(scriptString,0,true)[1](233L,11C-42C(5865-5896))4 <432-435>
-INSERT(1) (#1209U:#454G)MethodBody(handleClient(Ljava.net.Socket;Ljava.io.Reader;)V)[4](219L,1C-238L,1C(5592-5998))1 [(#1140U:#394G);(#1147U:#401G);(#1150U:#404G);(#1180U:#425G);(#1208U:#453G)] <454>
-INSERT(1) (#1200U:#445G)Primary.Literal.False[2](235L,37C-41C(5978-5982))1 <445>
 INSERT(1) (#1172U:#408G)Primary.Literal.Integer(0)[1](224L,29C-29C(5718-5718))1 <408>
-INSERT(1) (#1198U:#443G)Primary.Literal.Null[0](235L,19C-22C(5960-5963))1 <443>
 INSERT(1) (#972U:#251G)Primary.FieldAccess(jEdit)[0](157L,20C-24C(4245-4249))1 <251>
 INSERT(1) (#1007U:#266G)Primary.Literal.Null[0](166L,35C-38C(4541-4544))1 <266>
 INSERT(2) (#1156U:#423G)Statement.Expression.Primary.PrimaryMethodInvocation(append#3)()[0](226L,3C-29C(5747-5773))2 [(#1155U:#422G)] <418;423>
-INSERT(1) (#1184U:#430G)Type.Void[1](231L,10C-13C(5838-5841))1 <430>
 INSERT(2) (#1174U:#410G)Primary.FieldAccess(length)[2](224L,31C-40C(5720-5729))2 <409-410>
 INSERT(2) (#1134U:#388G)Modifiers(script#l)[0](220L,2C-6C(5596-5600))2 <387-388>
 INSERT(1) (#1006U:#265G)Primary.FieldAccess(jEdit)[0](166L,19C-23C(4525-4529))1 <265>

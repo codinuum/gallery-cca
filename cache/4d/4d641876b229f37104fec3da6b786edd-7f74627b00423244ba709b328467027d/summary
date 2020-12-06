@@ -1,8 +1,8 @@
 *** Modified Units ***
 Method(cleanUp()V)(63L,4C-67L,4C(1883-1976)): [DELETED] 11(1) changed [d:11(1)i:0(0)r:0(0)m:0(0)], 0 mapped
 Method(zipFile(Ljava.io.File;Lorg.apache.tools.zip.ZipOutputStream;Ljava.lang.String;)V)(81L,4C-107L,4C(2358-3484)): [MODIFIED] 7(7) changed [d:0(0)i:0(0)r:7(7)m:0(0)], 71 mapped
-Method(setAppxml(Ljava.io.File;)V)(35L,4C-48L,4C(901-1485)): [MODIFIED] 49(18) changed [d:26(5)i:10(4)r:8(8)m:5(1)], 29 mapped
+Method(setAppxml(Ljava.io.File;)V)(35L,4C-48L,4C(901-1485)): [MODIFIED] 48(18) changed [d:26(5)i:10(4)r:8(8)m:4(1)], 29 mapped
 Method(initZipOutputStream(Lorg.apache.tools.zip.ZipOutputStream;)V)(69L,4C-79L,4C(1983-2351)): [MODIFIED] 11(6) changed [d:0(0)i:8(3)r:2(2)m:1(1)], 28 mapped
-Class(Ear)(22L,0C-108L,0C(678-3486)): [MODIFIED] 88(41) changed [d:39(7)i:18(7)r:25(25)m:6(2)], 179 mapped
+Class(Ear)(22L,0C-108L,0C(678-3486)): [MODIFIED] 87(41) changed [d:39(7)i:18(7)r:25(25)m:5(2)], 179 mapped
 *** Unmodified Units ***
 Method(addArchives(Lorg.apache.tools.ant.types.ZipFileSet;)V)(50L,4C-57L,4C(1492-1760))
